@@ -1,0 +1,34 @@
+name: Weekly Content Update
+
+on:
+  # Otomatis setiap Minggu jam 02:00 WIB (19:00 UTC Sabtu)
+  schedule:
+    - cron: "0 19 * * 6"
+  # Bisa juga dipicu manual dari tab Actions di GitHub
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run content generator
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-content.mjs
+
+      - name: Commit updated content
+        run: |
+          git config user.name "EnglishUp Bot"
+          git config user.email "bot@englishup.app"
+          git add public/data/
+          git diff --staged --quiet || git commit -m "chore: weekly content refresh [skip ci]"
+          git push
