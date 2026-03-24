@@ -2,20 +2,18 @@ import { NextResponse } from "next/server";
 
 export async function POST(req) {
   try {
-    const { prompt, max = 1200 } = await req.json();
-
-    if (!process.env.ANTHROPIC_API_KEY) {
-      return NextResponse.json(
-        { error: "ANTHROPIC_API_KEY is not set" },
-        { status: 500 }
-      );
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({ error: "Missing ANTHROPIC_API_KEY" }, { status: 500 });
     }
+
+    const { prompt, max = 1200 } = await req.json();
 
     const response = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": process.env.ANTHROPIC_API_KEY,
+        "x-api-key": apiKey,
         "anthropic-version": "2023-06-01",
       },
       body: JSON.stringify({
@@ -25,19 +23,17 @@ export async function POST(req) {
       }),
     });
 
+    const data = await response.json();
+
     if (!response.ok) {
-      const err = await response.json();
-      console.error("Anthropic API error:", err);
-      return NextResponse.json({ error: err }, { status: response.status });
+      console.error("Anthropic error:", JSON.stringify(data));
+      return NextResponse.json({ error: data?.error?.message || "Anthropic API error" }, { status: response.status });
     }
 
-    const data = await response.json();
-    const text =
-      data.content?.map((b) => (b.type === "text" ? b.text : "")).join("") ||
-      "";
+    const text = data.content?.map((b) => (b.type === "text" ? b.text : "")).join("") || "";
     return NextResponse.json({ text });
-  } catch (error) {
-    console.error("Route error:", error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+  } catch (err) {
+    console.error("Route exception:", err.message);
+    return NextResponse.json({ error: err.message }, { status: 500 });
   }
 }
