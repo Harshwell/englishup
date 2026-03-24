@@ -1,0 +1,30 @@
+{
+  "grammarChart": "ARTICLES | a / an / the / zero article\nFORM | Choose article based on countability, specificity, and sound\nUSE | Use a/an for non-specific singular nouns, the for specific nouns, and zero article for general plurals or uncountables\nCHECK | Ask: is it singular, specific, or general?",
+  "explanation": "Articles look small, but they quietly destroy clarity when used badly. Indonesian learners often omit them because Bahasa Indonesia does not require an equivalent system in the same way. In IELTS, that omission is one of those charmingly repetitive mistakes that keeps scores from moving.\n\nThe practical fix is simple: decide whether the noun is singular or plural, specific or general, and countable or uncountable. If you do that before writing, article accuracy improves fast.",
+  "keyRules": [
+    "Use a/an with singular countable nouns when the listener does not know which one yet.",
+    "Use the when the noun is already known, unique, or made specific by context.",
+    "Use zero article for general plural nouns and many uncountable nouns.",
+    "Use an before vowel sounds, not simply vowel letters."
+  ],
+  "azarNotes": [
+    "Think in terms of speaker-listener knowledge: shared or not shared?",
+    "Indonesian learners often overuse the because it feels safer than choosing precisely."
+  ],
+  "examples": [
+    {"sentence":"I bought a book about IELTS writing yesterday.","note":"First mention, singular countable noun.","indonesian":"Saya membeli sebuah buku tentang IELTS writing kemarin."},
+    {"sentence":"The book is more useful than I expected.","note":"Second mention, now specific.","indonesian":"Buku itu lebih berguna daripada yang saya kira."}
+  ],
+  "commonMistakes": [
+    {"wrong":"I bought book yesterday.","right":"I bought a book yesterday.","why":"Singular countable nouns need a determiner."},
+    {"wrong":"The life is difficult sometimes.","right":"Life is difficult sometimes.","why":"General abstract nouns often take zero article."}
+  ],
+  "ieltsTip": "Article mistakes are common in both Writing and Speaking. One controlled sentence with correct article use sounds far more advanced than a longer sentence with sloppy noun phrases.",
+  "quiz": [
+    {"question":"Choose the best sentence.","type":"choose-form","options":["A) I need advice about the IELTS exam.","B) I need an advice about IELTS exam.","C) I need advice about IELTS exams the.","D) I need the advice about an IELTS generally."],"answer":0,"explanation":"Advice is uncountable, and the exam can be specific in context."},
+    {"question":"Which sentence uses zero article correctly?","type":"choose-form","options":["A) The people need patience.","B) People need patience.","C) A people need patience.","D) An people need patience."],"answer":1,"explanation":"General plural nouns often take zero article."},
+    {"question":"Pick the correct option.","type":"choose-form","options":["A) She bought an university guide.","B) She bought a university guide.","C) She bought the university guide generally.","D) She bought guide."],"answer":1,"explanation":"University begins with a /juː/ sound, so use a, not an."},
+    {"question":"What is the best article in: ___ sun is hot today.","type":"fill-blank","options":["A) a","B) an","C) the","D) zero article"],"answer":2,"explanation":"The sun is unique in normal context."},
+    {"question":"Choose the best correction.","type":"error-correct","options":["A) I like the music in general.","B) I like music in general.","C) I like a music in general.","D) I like an music in general."],"answer":1,"explanation":"Music is uncountable and used generally here."}
+  ]
+}
