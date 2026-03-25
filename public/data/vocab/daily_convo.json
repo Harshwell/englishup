@@ -1,12 +1,173 @@
 {
   "words": [
-    {"word":"catch up","pronunciation":"/kætʃ ʌp/","partOfSpeech":"verb phrase","definition":"to talk with someone and share recent news","indonesian":"mengobrol mengejar kabar","level":"B2","ieltsBand":"6.0-6.5","example":"I met an old friend last night and we spent hours catching up.","collocations":["catch up with friends","catch up over coffee","quick catch-up"],"synonyms":["reconnect","chat"]},
-    {"word":"awkward","pronunciation":"/ˈɔː.kwəd/","partOfSpeech":"adjective","definition":"socially uncomfortable or embarrassing","indonesian":"canggung","level":"B2","ieltsBand":"6.0-6.5","example":"The silence became awkward after nobody answered the question.","collocations":["awkward silence","awkward moment","feel awkward"],"synonyms":["uncomfortable","embarrassing"]},
-    {"word":"reliable","pronunciation":"/rɪˈlaɪ.ə.bəl/","partOfSpeech":"adjective","definition":"someone or something you can trust","indonesian":"dapat diandalkan","level":"B2","ieltsBand":"6.5-7.0","example":"She is reliable, so everyone asks her to organise group work.","collocations":["reliable friend","reliable person","reliable service"],"synonyms":["dependable","trustworthy"]},
-    {"word":"sort out","pronunciation":"/sɔːt aʊt/","partOfSpeech":"verb phrase","definition":"to solve or organise a problem","indonesian":"membereskan / menyelesaikan","level":"B2","ieltsBand":"6.0-6.5","example":"I need to sort out my schedule before agreeing to anything.","collocations":["sort out a problem","sort things out","sort out details"],"synonyms":["resolve","organise"]},
-    {"word":"straightforward","pronunciation":"/ˌstreɪtˈfɔː.wəd/","partOfSpeech":"adjective","definition":"easy to understand or do","indonesian":"sederhana / mudah dipahami","level":"B2","ieltsBand":"6.5-7.0","example":"The instructions were surprisingly straightforward.","collocations":["straightforward process","straightforward answer","fairly straightforward"],"synonyms":["simple","clear"]},
-    {"word":"hesitate","pronunciation":"/ˈhez.ɪ.teɪt/","partOfSpeech":"verb","definition":"to pause before doing or saying something","indonesian":"ragu-ragu","level":"B2","ieltsBand":"6.5-7.0","example":"Many learners hesitate before speaking because they fear making mistakes.","collocations":["hesitate to speak","hesitate for a moment","without hesitation"],"synonyms":["pause","waver"]},
-    {"word":"genuine","pronunciation":"/ˈdʒen.ju.ɪn/","partOfSpeech":"adjective","definition":"real, sincere, or honest","indonesian":"tulus / asli","level":"B2","ieltsBand":"6.5-7.0","example":"Her apology sounded genuine, so the tension disappeared quickly.","collocations":["genuine interest","genuine concern","genuine smile"],"synonyms":["sincere","authentic"]},
-    {"word":"flexible","pronunciation":"/ˈflek.sɪ.bəl/","partOfSpeech":"adjective","definition":"able to change easily according to the situation","indonesian":"fleksibel","level":"B2","ieltsBand":"6.5-7.0","example":"A flexible routine works better for me than a rigid timetable.","collocations":["flexible schedule","flexible approach","be flexible"],"synonyms":["adaptable","adjustable"]}
+    {
+      "word": "hassle",
+      "pronunciation": "/ˈhæsəl/",
+      "partOfSpeech": "noun, verb",
+      "definition": "Annoyance or inconvenience; to bother or trouble someone.",
+      "indonesian": "kerumitan, kerepotan, mengganggu",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "It was such a hassle to get through airport security with all my luggage.",
+      "collocations": [
+        "a lot of hassle",
+        "avoid the hassle",
+        "cause hassle",
+        "hassle someone"
+      ],
+      "synonyms": [
+        "inconvenience",
+        "trouble",
+        "annoyance",
+        "bother"
+      ]
+    },
+    {
+      "word": "vibe",
+      "pronunciation": "/vaɪb/",
+      "partOfSpeech": "noun",
+      "definition": "The atmosphere or feeling that a place, person, or situation seems to have.",
+      "indonesian": "suasana, aura",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "This cafe has a really relaxed vibe, I love coming here to study.",
+      "collocations": [
+        "good vibe",
+        "bad vibe",
+        "positive vibe",
+        "negative vibe",
+        "get a vibe"
+      ],
+      "synonyms": [
+        "atmosphere",
+        "feeling",
+        "mood",
+        "aura"
+      ]
+    },
+    {
+      "word": "flustered",
+      "pronunciation": "/ˈflʌstərd/",
+      "partOfSpeech": "adjective",
+      "definition": "Agitated or confused, especially because of being in a hurry or under pressure.",
+      "indonesian": "bingung, gelisah, gugup",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "She was quite flustered when the interviewer asked her an unexpected question.",
+      "collocations": [
+        "get flustered",
+        "feel flustered",
+        "become flustered"
+      ],
+      "synonyms": [
+        "agitated",
+        "confused",
+        "nervous",
+        "flustered"
+      ]
+    },
+    {
+      "word": "awkward",
+      "pronunciation": "/ˈɔːkwərd/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing difficulty, embarrassment, or discomfort.",
+      "indonesian": "canggung, janggal, sulit",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "There was an awkward silence after he told that inappropriate joke.",
+      "collocations": [
+        "awkward moment",
+        "awkward situation",
+        "awkward silence",
+        "feel awkward"
+      ],
+      "synonyms": [
+        "embarrassing",
+        "uncomfortable",
+        "clumsy",
+        "difficult"
+      ]
+    },
+    {
+      "word": "chuffed",
+      "pronunciation": "/tʃʌft/",
+      "partOfSpeech": "adjective",
+      "definition": "(British English, informal) Very pleased or delighted.",
+      "indonesian": "sangat senang, gembira",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "I was absolutely chuffed to bits when I heard I got the promotion.",
+      "collocations": [
+        "chuffed to bits",
+        "pleased and chuffed"
+      ],
+      "synonyms": [
+        "pleased",
+        "delighted",
+        "happy",
+        "thrilled"
+      ]
+    },
+    {
+      "word": "gutted",
+      "pronunciation": "/ˈɡʌtɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "(Informal) Extremely disappointed or upset.",
+      "indonesian": "sangat kecewa, hancur hati",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "He was gutted when his team lost the final match.",
+      "collocations": [
+        "absolutely gutted",
+        "feel gutted"
+      ],
+      "synonyms": [
+        "disappointed",
+        "devastated",
+        "heartbroken",
+        "crushed"
+      ]
+    },
+    {
+      "word": "nagging",
+      "pronunciation": "/ˈnæɡɪŋ/",
+      "partOfSpeech": "adjective, verb",
+      "definition": "Persistently bothering or worrying someone; to annoy or trouble someone persistently.",
+      "indonesian": "mengganggu terus-menerus, menuntut terus-menerus",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "I have a nagging feeling that I forgot something important.",
+      "collocations": [
+        "nagging doubt",
+        "nagging pain",
+        "nagging thought",
+        "nagging someone"
+      ],
+      "synonyms": [
+        "persistent",
+        "constant",
+        "bothersome",
+        "annoying"
+      ]
+    },
+    {
+      "word": "under the weather",
+      "pronunciation": "/ˈʌndər ðə ˈwɛðər/",
+      "partOfSpeech": "idiom",
+      "definition": "Feeling slightly unwell or ill.",
+      "indonesian": "kurang sehat, agak sakit",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I'm feeling a bit under the weather today, so I think I'll stay home.",
+      "collocations": [
+        "feel under the weather"
+      ],
+      "synonyms": [
+        "unwell",
+        "sick",
+        "ill",
+        "not feeling well"
+      ]
+    }
   ]
 }

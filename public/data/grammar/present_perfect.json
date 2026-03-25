@@ -1,0 +1,142 @@
+{
+  "grammarChart": {
+    "title": "Present Perfect Tense",
+    "structure": {
+      "positive": "Subject + have/has + Past Participle (V3)",
+      "negative": "Subject + have/has + not + Past Participle (V3)",
+      "question": "Have/Has + Subject + Past Participle (V3)?"
+    },
+    "examples": {
+      "positive": "I have finished my homework.",
+      "negative": "She has not seen that movie before.",
+      "question": "Have they arrived yet?"
+    }
+  },
+  "explanation": "The Present Perfect tense is used to connect the past with the present. It describes actions or states that started in the past and continue to the present, or actions that happened at an unspecified time in the past but have a result in the present.",
+  "keyRules": [
+    {
+      "rule": "Form: 'have' or 'has' + past participle (the third form of the verb, e.g., 'seen', 'gone', 'written').",
+      "details": "Use 'have' with I, you, we, they, and plural nouns. Use 'has' with he, she, it, and singular nouns."
+    },
+    {
+      "rule": "Usage 1: Unfinished actions or states that started in the past and continue to the present.",
+      "details": "Often used with 'for' (a period of time) and 'since' (a specific point in time). \nExample: I have lived here for ten years. (I started living here 10 years ago and I still live here now.)\nExample: She has known him since 2010. (She met him in 2010 and she still knows him.)"
+    },
+    {
+      "rule": "Usage 2: Completed actions in the past with a present result or relevance.",
+      "details": "The exact time of the action is not important or is unknown. The focus is on the result. \nExample: I have lost my keys. (The result is that I can't get into my house now.)\nExample: He has broken his leg. (He is in pain or unable to walk now.)"
+    },
+    {
+      "rule": "Usage 3: Experiences (sometimes referred to as 'ever' and 'never').",
+      "details": "Used to talk about things that have or have not happened in someone's life up to now. \nExample: Have you ever eaten sushi? \nExample: I have never been to Bali."
+    },
+    {
+      "rule": "Usage 4: Recent actions (often with 'just', 'already', 'yet').",
+      "details": "'Just' indicates a very recent action. 'Already' indicates an action that happened sooner than expected. 'Yet' is used in negative sentences and questions to indicate an action that has not happened but is expected to.",
+      "examples": [
+        "He has just arrived.",
+        "We have already finished the project.",
+        "Have you submitted your assignment yet?",
+        "I haven't seen the latest episode yet."
+      ]
+    }
+  ],
+  "azarNotes": [
+    "Be careful with the past participle form. Irregular verbs (like 'go' -> 'gone', 'see' -> 'seen', 'eat' -> 'eaten') are common. Memorize them!",
+    "The Present Perfect is often confused with the Simple Past. The Simple Past focuses on a finished action at a specific past time (e.g., 'I went to Bali last year'). The Present Perfect connects the past to the present.",
+    "In spoken English, contractions like 'I've', 'you've', 'he's', 'she's', 'it's', 'we've', 'they've' are very common."
+  ],
+  "examples": [
+    {
+      "sentence": "Scientists have discovered a new species of insect.",
+      "explanation": "This action happened in the past, but the discovery is relevant now."
+    },
+    {
+      "sentence": "She has been a doctor for twenty years.",
+      "explanation": "She started being a doctor 20 years ago and still is one."
+    },
+    {
+      "sentence": "Have you ever visited the Grand Canyon?",
+      "explanation": "Asking about life experience up to the present moment."
+    },
+    {
+      "sentence": "The company has launched a new product.",
+      "explanation": "The launch is in the past, but the new product is available now."
+    },
+    {
+      "sentence": "I haven't finished reading the book yet.",
+      "explanation": "The action of finishing is not done but is expected."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Using Simple Past instead of Present Perfect for unfinished actions.",
+      "correction": "Incorrect: I live here since 2015. \nCorrect: I have lived here since 2015."
+    },
+    {
+      "mistake": "Using Present Perfect with specific past time expressions (like 'yesterday', 'last week').",
+      "correction": "Incorrect: I have seen him yesterday. \nCorrect: I saw him yesterday."
+    },
+    {
+      "mistake": "Incorrect past participle.",
+      "correction": "Incorrect: She has go to the store. \nCorrect: She has gone to the store."
+    },
+    {
+      "mistake": "Confusing 'for' and 'since'.",
+      "correction": "Incorrect: He has worked here for 2020. \nCorrect: He has worked here since 2020."
+    }
+  ],
+  "ieltsTip": "In IELTS Writing Task 1 (Academic), you'll often use the Present Perfect to describe trends or changes that started in the past and continue up to the present, or to indicate data that has been collected over a period. In Speaking, use it to talk about your experiences and achievements. Pay attention to the distinction between Present Perfect and Simple Past, as this is a common area for errors.",
+  "quiz": [
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "She has visited London last year.",
+        "She visited London last year.",
+        "She has visit London last year.",
+        "She visiting London last year."
+      ],
+      "answer": "She visited London last year."
+    },
+    {
+      "question": "Complete the sentence: They ______ their project already.",
+      "options": [
+        "finish",
+        "finished",
+        "have finished",
+        "has finished"
+      ],
+      "answer": "have finished"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "I have lived in Jakarta for five years.",
+        "I live in Jakarta since five years.",
+        "I lived in Jakarta for five years.",
+        "I have live in Jakarta since five years."
+      ],
+      "answer": "I have lived in Jakarta for five years."
+    },
+    {
+      "question": "Complete the sentence: ______ you ever ______ to Australia?",
+      "options": [
+        "Do / been",
+        "Have / been",
+        "Did / go",
+        "Has / gone"
+      ],
+      "answer": "Have / been"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "He not has seen the movie yet.",
+        "He hasn't seen the movie yet.",
+        "He not have seen the movie yet.",
+        "He not seen the movie yet."
+      ],
+      "answer": "He hasn't seen the movie yet."
+    }
+  ]
+}

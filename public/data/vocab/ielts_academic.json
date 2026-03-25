@@ -1,12 +1,180 @@
 {
   "words": [
-    {"word":"significant","pronunciation":"/sɪgˈnɪf.ɪ.kənt/","partOfSpeech":"adjective","definition":"important or noticeable","indonesian":"signifikan / penting","level":"B2","ieltsBand":"6.5-7.0","example":"There has been a significant improvement in public transport this year.","collocations":["significant change","significant impact","significant factor"],"synonyms":["important","notable"]},
-    {"word":"allocate","pronunciation":"/ˈæl.ə.keɪt/","partOfSpeech":"verb","definition":"to give time, money, or resources for a purpose","indonesian":"mengalokasikan","level":"C1","ieltsBand":"7.0-7.5","example":"Governments must allocate more funding to teacher training.","collocations":["allocate funding","allocate resources","allocate time"],"synonyms":["assign","distribute"]},
-    {"word":"enhance","pronunciation":"/ɪnˈhɑːns/","partOfSpeech":"verb","definition":"to improve the quality or value of something","indonesian":"meningkatkan","level":"C1","ieltsBand":"7.0-7.5","example":"Good feedback can enhance students' academic writing.","collocations":["enhance performance","enhance quality","enhance understanding"],"synonyms":["improve","boost"]},
-    {"word":"reliable","pronunciation":"/rɪˈlaɪ.ə.bəl/","partOfSpeech":"adjective","definition":"able to be trusted or depended on","indonesian":"andal / dapat dipercaya","level":"B2","ieltsBand":"6.5-7.0","example":"Researchers need reliable data before drawing conclusions.","collocations":["reliable source","reliable data","reliable system"],"synonyms":["dependable","trustworthy"]},
-    {"word":"outcome","pronunciation":"/ˈaʊt.kʌm/","partOfSpeech":"noun","definition":"the result of an action or process","indonesian":"hasil","level":"B2","ieltsBand":"6.5-7.0","example":"The outcome of education reform depends on consistent implementation.","collocations":["positive outcome","desired outcome","learning outcome"],"synonyms":["result","consequence"]},
-    {"word":"maintain","pronunciation":"/meɪnˈteɪn/","partOfSpeech":"verb","definition":"to continue something at the same level or condition","indonesian":"mempertahankan","level":"B2","ieltsBand":"6.5-7.0","example":"Students must maintain focus during the reading test.","collocations":["maintain standards","maintain quality","maintain focus"],"synonyms":["preserve","sustain"]},
-    {"word":"constraint","pronunciation":"/kənˈstreɪnt/","partOfSpeech":"noun","definition":"a limitation or restriction","indonesian":"kendala / batasan","level":"C1","ieltsBand":"7.0-7.5","example":"Time is a serious constraint for many working learners.","collocations":["major constraint","financial constraint","under constraint"],"synonyms":["limitation","restriction"]},
-    {"word":"approach","pronunciation":"/əˈprəʊtʃ/","partOfSpeech":"noun","definition":"a method of dealing with something","indonesian":"pendekatan","level":"B2","ieltsBand":"6.5-7.0","example":"A balanced approach to revision is more effective than panic studying.","collocations":["balanced approach","systematic approach","practical approach"],"synonyms":["method","strategy"]}
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, tersebar luas",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous nature",
+        "ubiquitous advertising"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "mengurangi, meredakan, meringankan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Governments are implementing policies to mitigate the effects of climate change.",
+      "collocations": [
+        "mitigate the risks",
+        "mitigate the impact",
+        "mitigate the damage",
+        "mitigate the effects"
+      ],
+      "synonyms": [
+        "alleviate",
+        "lessen",
+        "reduce",
+        "ease"
+      ]
+    },
+    {
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of compatibility or similarity between two or more facts.",
+      "indonesian": "ketidaksesuaian, perbedaan, selisih",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "There is a significant discrepancy between the reported figures and the actual results.",
+      "collocations": [
+        "a major discrepancy",
+        "a noticeable discrepancy",
+        "a discrepancy in the data",
+        "resolve a discrepancy"
+      ],
+      "synonyms": [
+        "difference",
+        "inconsistency",
+        "variation",
+        "disparity"
+      ]
+    },
+    {
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something bad or unsatisfactory better.",
+      "indonesian": "memperbaiki, meningkatkan, membuat lebih baik",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "New educational programs were introduced to ameliorate the learning conditions.",
+      "collocations": [
+        "ameliorate the situation",
+        "ameliorate the problem",
+        "ameliorate poverty",
+        "ameliorate conditions"
+      ],
+      "synonyms": [
+        "improve",
+        "enhance",
+        "better",
+        "remedy"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir, contoh umum",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA marked a significant paradigm shift in biology.",
+      "collocations": [
+        "a paradigm shift",
+        "a new paradigm",
+        "a theoretical paradigm",
+        "a research paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework",
+        "example"
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk, memperhebat",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The drought will only exacerbate the existing food shortages.",
+      "collocations": [
+        "exacerbate the problem",
+        "exacerbate tensions",
+        "exacerbate the situation",
+        "exacerbate inequality"
+      ],
+      "synonyms": [
+        "worsen",
+        "aggravate",
+        "intensify",
+        "compound"
+      ]
+    },
+    {
+      "word": "conundrum",
+      "pronunciation": "/kəˈnʌndrəm/",
+      "partOfSpeech": "noun",
+      "definition": "a confusing and difficult problem or question.",
+      "indonesian": "teka-teki, masalah yang membingungkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The economic recession presents a conundrum for policymakers.",
+      "collocations": [
+        "a difficult conundrum",
+        "a complex conundrum",
+        "pose a conundrum",
+        "face a conundrum"
+      ],
+      "synonyms": [
+        "problem",
+        "puzzle",
+        "riddle",
+        "enigma"
+      ]
+    },
+    {
+      "word": "pervasive",
+      "pronunciation": "/pərˈveɪsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "spread throughout and affecting every part of something.",
+      "indonesian": "meresap, menyebar luas, menyeluruh",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The influence of social media is pervasive in today's culture.",
+      "collocations": [
+        "pervasive influence",
+        "pervasive culture",
+        "pervasive trend",
+        "pervasive problem"
+      ],
+      "synonyms": [
+        "widespread",
+        "ubiquitous",
+        "extensive",
+        "rife"
+      ]
+    }
   ]
 }

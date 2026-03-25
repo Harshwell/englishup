@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-03-25T00:15:52.356Z",
+  "savedCount": 5,
+  "errors": [
+    "grammar:articles: invalid JSON",
+    "grammar:passive_voice: invalid JSON",
+    "reading:Climate Change and Urban Planning: invalid JSON"
+  ],
+  "providers": {
+    "gemini": true,
+    "openrouter": true
+  }
+}
