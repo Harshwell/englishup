@@ -9,10 +9,11 @@
     "generate": "node scripts/generate-content.mjs"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
+    "lucide-react": "^0.383.0",
     "next": "^15.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "lucide-react": "^0.383.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
