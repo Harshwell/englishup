@@ -1,0 +1,30 @@
+[
+  {
+    "front": "significant",
+    "back": {
+      "definition": "important or noticeable",
+      "phonetic": "/sɪgˈnɪf.ɪ.kənt/",
+      "example": "There has been a significant rise in online learning.",
+      "synonyms": ["important", "notable"],
+      "antonyms": ["minor"],
+      "level": "B2",
+      "frequency": "high",
+      "audio": ""
+    },
+    "topic": "ielts_academic"
+  },
+  {
+    "front": "reliable",
+    "back": {
+      "definition": "able to be trusted or depended on",
+      "phonetic": "/rɪˈlaɪ.ə.bəl/",
+      "example": "Researchers need reliable data before drawing conclusions.",
+      "synonyms": ["dependable", "trustworthy"],
+      "antonyms": ["unreliable"],
+      "level": "B2",
+      "frequency": "high",
+      "audio": ""
+    },
+    "topic": "daily_convo"
+  }
+]

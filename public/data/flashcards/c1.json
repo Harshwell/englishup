@@ -1,0 +1,30 @@
+[
+  {
+    "front": "allocate",
+    "back": {
+      "definition": "to give time, money, or resources for a purpose",
+      "phonetic": "/ˈæl.ə.keɪt/",
+      "example": "Students should allocate more time to revision.",
+      "synonyms": ["assign", "distribute"],
+      "antonyms": ["withhold"],
+      "level": "C1",
+      "frequency": "medium",
+      "audio": ""
+    },
+    "topic": "ielts_academic"
+  },
+  {
+    "front": "bias",
+    "back": {
+      "definition": "unfair preference or tendency",
+      "phonetic": "/ˈbaɪ.əs/",
+      "example": "Developers must reduce bias in automated decision systems.",
+      "synonyms": ["prejudice", "partiality"],
+      "antonyms": ["fairness"],
+      "level": "C1",
+      "frequency": "medium",
+      "audio": ""
+    },
+    "topic": "tech_ai"
+  }
+]

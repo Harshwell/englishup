@@ -1,18 +1,25 @@
 {
   "name": "englishup",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "generate": "node scripts/generate-content.mjs"
+    "generate": "node scripts/generate-content-v3.mjs",
+    "generate:v2": "node scripts/generate-content-v2.mjs",
+    "generate:v3": "node scripts/generate-content-v3.mjs",
+    "extract:cefr": "node scripts/extract_cefr_data.js",
+    "extract:words-cefr": "node scripts/extract_words_cefr.js",
+    "extract:subtlex": "node scripts/extract_subtlex.js",
+    "extract:tatoeba": "node scripts/extract_tatoeba.js",
+    "refresh:content": "node scripts/generate-content-v3.mjs"
   },
   "dependencies": {
+    "lucide-react": "^0.383.0",
     "next": "^15.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "lucide-react": "^0.383.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

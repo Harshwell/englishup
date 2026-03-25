@@ -1,5 +1,6 @@
 "use client";
-import EnglishUp from "../components/EnglishUp";
+import EnglishUpEnhanced from "../components/EnglishUpEnhanced";
+
 export default function Page() {
-  return <EnglishUp />;
+  return <EnglishUpEnhanced />;
 }
