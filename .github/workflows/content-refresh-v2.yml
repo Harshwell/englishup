@@ -1,0 +1,61 @@
+name: Content Refresh V2
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 19 * * 6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-refresh-v2
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate provider secrets
+        run: |
+          if [ -z "${GEMINI_API_KEY}" ] && [ -z "${OPENROUTER_API_KEY}" ]; then
+            echo "At least one provider secret must be configured."
+            exit 1
+          fi
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+      - name: Generate content
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: openrouter/free
+        run: node scripts/generate-content-v2.mjs
+
+      - name: Commit generated content
+        run: |
+          git config user.name "EnglishUp Bot"
+          git config user.email "bot@englishup.app"
+          git add public/data/
+
+          if git diff --staged --quiet; then
+            echo "No content changes detected."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh content v2 [skip ci]"
+          git push origin HEAD:${{ github.ref_name }}
