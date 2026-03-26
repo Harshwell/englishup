@@ -1,12 +1,13 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
+import { getFallbackGrammar, getFallbackVocab } from "../lib/fallback-content";
 import {
   Home, MessageSquare, BookOpen, FileText, Send, RefreshCw,
   CheckCircle, XCircle, ChevronRight, Lightbulb, Trophy,
   Flame, GraduationCap, Layers, Award, Zap,
 } from "lucide-react";
 
-// Only Chat uses AI API — Grammar/Vocab/Reading load from static JSON files
+// Chat uses AI API; Grammar/Vocab/Reading use low-bandwidth hybrid generation + static fallback
 const callAI = async (prompt, max = 800) => {
   const r = await fetch("/api/chat", {
     method: "POST",
@@ -16,6 +17,20 @@ const callAI = async (prompt, max = 800) => {
   const d = await r.json();
   if (d.error) throw new Error(d.error);
   return d.text || "";
+};
+
+const getConversationLibraryContext = async (text) => {
+  try {
+    const out = await fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "conversation", text })
+    }).then((r) => (r.ok ? r.json() : null));
+
+    return out?.items || [];
+  } catch {
+    return [];
+  }
 };
 
 const SYS_CHAT = `You are an expert English tutor for an Indonesian speaker who graduated from English Literature but hasn't actively used English for years — refreshing for IELTS Band 7+. Use Betty S. Azar's correction style. Gently annotate errors inline. Use 2024-2025 examples. Add Indonesian notes only if essential. Keep replies to 3-4 sentences + correction. Plain text only.`;
@@ -99,6 +114,9 @@ export default function EnglishUp() {
   const [vocabN, setVocabN] = useState(0);
   const [readN, setReadN] = useState(0);
   const [chatN, setChatN] = useState(0);
+  const [historyWords, setHistoryWords] = useState([]);
+  const [historyReadings, setHistoryReadings] = useState([]);
+  const [historyGrammar, setHistoryGrammar] = useState([]);
   const [xpToast, setXpToast] = useState(null);
   const [notif, setNotif] = useState(null);
   const streak = 7;
@@ -141,6 +159,38 @@ export default function EnglishUp() {
   const { lvl, nxt, pct } = getLvl(xp);
   const daily = DAILIES[new Date().getDate() % DAILIES.length];
 
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("englishup-progress-v1");
+      if (!raw) return;
+      const parsed = JSON.parse(raw);
+      setXp(Number(parsed.xp || 0));
+      setEarned(Array.isArray(parsed.earned) ? parsed.earned : []);
+      setDoneL(new Set(Array.isArray(parsed.doneL) ? parsed.doneL : []));
+      setVocabN(Number(parsed.vocabN || 0));
+      setReadN(Number(parsed.readN || 0));
+      setChatN(Number(parsed.chatN || 0));
+      setHistoryWords(Array.isArray(parsed.historyWords) ? parsed.historyWords : []);
+      setHistoryReadings(Array.isArray(parsed.historyReadings) ? parsed.historyReadings : []);
+      setHistoryGrammar(Array.isArray(parsed.historyGrammar) ? parsed.historyGrammar : []);
+    } catch {}
+  }, []);
+
+  useEffect(() => {
+    const payload = {
+      xp,
+      earned,
+      doneL: [...doneL],
+      vocabN,
+      readN,
+      chatN,
+      historyWords,
+      historyReadings,
+      historyGrammar
+    };
+    localStorage.setItem("englishup-progress-v1", JSON.stringify(payload));
+  }, [xp, earned, doneL, vocabN, readN, chatN, historyWords, historyReadings, historyGrammar]);
+
   useEffect(() => { chatEnd.current?.scrollIntoView({ behavior: "smooth" }); }, [msgs]);
   useEffect(() => {
     const { lvl: l } = getLvl(xp);
@@ -175,7 +225,11 @@ export default function EnglishUp() {
     setChatN((p) => p + 1); addXP(5, "Conversation");
     try {
       const hist = next.slice(-8).map((x) => `${x.role === "user" ? "Student" : "Tutor"}: ${x.text}`).join("\n");
-      const reply = await callAI(`${SYS_CHAT}\n\nConversation:\n${hist}`);
+      const libContext = await getConversationLibraryContext(chatIn);
+      const contextBlock = libContext.length
+        ? `\n\nLibrary context:\n${libContext.map((item) => `- ${item.word}: ${item.definition}`).join("\n")}`
+        : "";
+      const reply = await callAI(`${SYS_CHAT}\n\nConversation:\n${hist}${contextBlock}`);
       setMsgs((p) => [...p, { role: "ai", text: reply, id: Date.now() }]);
     } catch (e) {
       setMsgs((p) => [...p, { role: "ai", text: `Error: ${e.message}`, id: Date.now() }]);
@@ -185,13 +239,28 @@ export default function EnglishUp() {
   // ── GRAMMAR (static JSON) ─────────────────────────────────────────
   const loadGrammar = async (t) => {
     setGTopic(t); setGData(null); setGLoad(true); setGError(false); setQAns({}); setQDone(false);
+    const seed = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+
     try {
+      const generated = await fetch("/api/content", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "grammar", topicId: t.id, seed })
+      }).then((r) => (r.ok ? r.json() : null));
+
+      if (generated?.quiz?.length) {
+        setGData(generated);
+        return;
+      }
+
       const res = await fetch(`/data/grammar/${t.id}.json`);
       if (!res.ok) throw new Error("not found");
       const data = await res.json();
       setGData(data);
     } catch {
-      setGError(true);
+      const fallback = getFallbackGrammar(t.id);
+      if (fallback) setGData(fallback);
+      else setGError(true);
     } finally { setGLoad(false); }
   };
 
@@ -201,23 +270,57 @@ export default function EnglishUp() {
     addXP(sc * 8 + (sc === gData.quiz.length ? 20 : 0), `Grammar ${sc}/${gData.quiz.length}`);
     if (sc === gData.quiz.length) tryUnlock("perfect_quiz");
     setDoneL((p) => new Set([...p, gTopic.id]));
+    if (gTopic?.id) {
+      setHistoryGrammar((prev) => (prev.includes(gTopic.id) ? prev : [...prev, gTopic.id]));
+    }
   };
 
   // ── VOCAB (static JSON) ───────────────────────────────────────────
   const loadVocab = async (cat) => {
     setVCat(cat); setVWords(null); setVLoad(true); setVError(false); setVIdx(0); setVFlip(false);
+    const seed = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+
     try {
+      const generated = await fetch("/api/content", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "vocab", category: cat.id, count: 12, seed, excludeWords: historyWords.slice(-120) })
+      }).then((r) => (r.ok ? r.json() : null));
+
+      if (generated?.items?.length) {
+        const normalized = generated.items.map((card) => ({
+          word: card.front,
+          pronunciation: card.back?.phonetic || "",
+          partOfSpeech: "word",
+          definition: card.back?.definition,
+          indonesian: "",
+          level: card.back?.level || "B2",
+          ieltsBand: card.back?.level?.startsWith("C") ? "7+" : "6.5+",
+          example: card.back?.example,
+          collocations: [],
+          synonyms: card.back?.synonyms || []
+        }));
+        setVWords(normalized);
+        return;
+      }
+
       const res = await fetch(`/data/vocab/${cat.id}.json`);
       if (!res.ok) throw new Error("not found");
       const data = await res.json();
       setVWords(data.words);
     } catch {
-      setVError(true);
+      const fallback = getFallbackVocab(cat.id);
+      if (fallback?.words?.length) setVWords(fallback.words);
+      else setVError(true);
     } finally { setVLoad(false); }
   };
 
   const nextCard = () => {
     addXP(5, "Vocabulary"); setVocabN((p) => p + 1);
+    const currentWord = vWords?.[vIdx]?.word;
+    if (currentWord) {
+      setHistoryWords((prev) => (prev.includes(currentWord) ? prev : [...prev, currentWord]));
+    }
     if (vIdx < (vWords?.length ?? 0) - 1) { setVIdx((p) => p + 1); setVFlip(false); }
     else { addXP(15, "Session done! 🎉"); setVCat(null); setVWords(null); }
   };
@@ -238,9 +341,25 @@ export default function EnglishUp() {
 
   const pickPassage = async () => {
     setRData(null); setRAns({}); setRDone(false);
+    const seed = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+
+    try {
+      const generated = await fetch("/api/content", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "reading", difficulty: rDiff, size: 1, seed })
+      }).then((r) => (r.ok ? r.json() : null));
+
+      const item = generated?.items?.[0];
+      if (item) {
+        setRData(item);
+        return;
+      }
+    } catch {}
+
     const pool = await loadReadingPassages();
     if (!pool) return;
-    const filtered = pool.filter((p) => p.difficulty === rDiff);
+    const filtered = pool.filter((p) => String(p.difficulty || "").toLowerCase() === rDiff);
     const source = filtered.length > 0 ? filtered : pool;
     const pick = source[Math.floor(Math.random() * source.length)];
     setRData(pick);
@@ -252,6 +371,9 @@ export default function EnglishUp() {
     addXP(sc * 8 + (sc === rData.questions.length ? 20 : 0), `Reading ${sc}/${rData.questions.length}`);
     if (sc === rData.questions.length) tryUnlock("perfect_quiz");
     setReadN((p) => p + 1);
+    if (rData?.title) {
+      setHistoryReadings((prev) => (prev.includes(rData.title) ? prev : [...prev, rData.title]));
+    }
   };
 
   // ── Shared micro-components ───────────────────────────────────────
@@ -260,12 +382,21 @@ export default function EnglishUp() {
       <ChevronRight className="w-4 h-4 rotate-180 text-gray-600" />
     </button>
   );
-  const Spin = ({ c = "indigo", msg = "" }) => (
-    <div className="flex-1 flex flex-col items-center justify-center gap-3 p-8">
-      <div className={`w-10 h-10 border-4 border-${c}-500 border-t-transparent rounded-full animate-spin`} />
-      {msg && <p className="text-gray-400 text-sm text-center max-w-xs leading-relaxed">{msg}</p>}
-    </div>
-  );
+  const Spin = ({ c = "indigo", msg = "" }) => {
+    const borderColorClass = {
+      indigo: "border-indigo-500",
+      violet: "border-violet-500",
+      emerald: "border-emerald-500",
+      amber: "border-amber-500",
+    }[c] || "border-indigo-500";
+
+    return (
+      <div className="flex-1 flex flex-col items-center justify-center gap-3 p-8">
+        <div className={`w-10 h-10 border-4 ${borderColorClass} border-t-transparent rounded-full animate-spin`} />
+        {msg && <p className="text-gray-400 text-sm text-center max-w-xs leading-relaxed">{msg}</p>}
+      </div>
+    );
+  };
   const NotReady = ({ onBack }) => (
     <div className="flex-1 flex flex-col items-center justify-center gap-4 p-8 text-center">
       <div className="text-4xl">⏳</div>
@@ -408,6 +539,23 @@ export default function EnglishUp() {
                   <div className="text-xs text-gray-400 mt-1">{s.label}</div>
                 </div>
               ))}
+            </div>
+            <div className="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm">
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Study History Cache</p>
+              <div className="grid grid-cols-3 gap-2 text-sm">
+                <div className="rounded-xl bg-slate-50 border border-slate-200 p-3">
+                  <p className="text-xs text-slate-500">Words learned</p>
+                  <p className="font-black text-slate-800">{historyWords.length}</p>
+                </div>
+                <div className="rounded-xl bg-slate-50 border border-slate-200 p-3">
+                  <p className="text-xs text-slate-500">Reading done</p>
+                  <p className="font-black text-slate-800">{historyReadings.length}</p>
+                </div>
+                <div className="rounded-xl bg-slate-50 border border-slate-200 p-3">
+                  <p className="text-xs text-slate-500">Grammar done</p>
+                  <p className="font-black text-slate-800">{historyGrammar.length}</p>
+                </div>
+              </div>
             </div>
             <div className="bg-white rounded-2xl p-4 border border-amber-200">
               <div className="flex items-center gap-2 mb-2">
@@ -559,6 +707,21 @@ export default function EnglishUp() {
                     <Trophy className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" />
                     <div><p className="text-xs font-bold text-amber-800 uppercase tracking-wide mb-1">IELTS Tip</p><p className="text-sm text-amber-700">{gData.ieltsTip}</p></div>
                   </div>
+                  {gData.studyCase && (
+                    <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4">
+                      <p className="text-xs font-bold text-slate-500 uppercase tracking-wide mb-2">Dynamic Study Case</p>
+                      <p className="text-sm font-semibold text-slate-800">{gData.studyCase.context}</p>
+                      <p className="text-sm text-slate-600 mt-1">{gData.studyCase.task}</p>
+                      <ul className="mt-3 space-y-1 text-xs text-slate-600">
+                        {(gData.studyCase.checklist || []).map((item) => <li key={item}>• {item}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {gData.generatedMeta?.references?.map((ref) => (
+                    <div key={ref.url} className="bg-slate-50 border border-slate-200 rounded-2xl p-3 text-xs text-slate-700">
+                      🔗 <a href={ref.url} target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">{ref.label}</a>
+                    </div>
+                  ))}
                   <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
                     <div className="flex items-center justify-between mb-4">
                       <h3 className="font-bold text-gray-800 flex items-center gap-2 text-sm"><GraduationCap className="w-4 h-4 text-indigo-500" />Quiz · Azar Style</h3>
@@ -688,6 +851,11 @@ export default function EnglishUp() {
                       ? <button onClick={submitReading} disabled={Object.keys(rAns).length < (rData.questions?.length ?? 5)} className="mt-5 w-full py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl font-semibold text-sm disabled:opacity-40 transition-colors">Submit Jawaban</button>
                       : <div>
                           <ScoreCard score={rData.questions.filter((q,i)=>Number(rAns[i])===q.answer).length} total={rData.questions.length} />
+                          {rData.generatedMeta?.references?.map((ref) => (
+                            <div key={ref.url} className="mt-2 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs text-slate-700">
+                              🔗 <a href={ref.url} target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">{ref.label}</a>
+                            </div>
+                          ))}
                           {rData.ieltsTips?.map((tip,i) => <div key={i} className="mt-2 bg-blue-50 border border-blue-200 rounded-xl p-3 text-xs text-blue-700">💡 {tip}</div>)}
                           <button onClick={() => { setRData(null); setRAns({}); setRDone(false); pickPassage(); }} className="mt-3 w-full py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl text-sm font-semibold transition-colors">Another Passage</button>
                         </div>

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+const MAX_PROMPT_CHARS = 8000;
 const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
 
 async function fetchWithTimeout(url, options = {}, timeoutMs = 20000) {
@@ -10,6 +11,11 @@ async function fetchWithTimeout(url, options = {}, timeoutMs = 20000) {
   } finally {
     clearTimeout(timeout);
   }
+}
+
+function toUserSafeError(error, fallback = "Provider request failed") {
+  if (error?.name === "AbortError") return `${fallback}: request timed out`;
+  return error?.message || fallback;
 }
 
 async function callGemini(prompt, max) {
@@ -60,7 +66,11 @@ export async function POST(req) {
     const body = await req.json();
     const prompt = String(body?.prompt || "").trim();
     const max = clamp(Number(body?.max || 800), 100, 1200);
+
     if (!prompt) return NextResponse.json({ error: "Prompt is required" }, { status: 400 });
+    if (prompt.length > MAX_PROMPT_CHARS) {
+      return NextResponse.json({ error: `Prompt exceeds ${MAX_PROMPT_CHARS} characters` }, { status: 400 });
+    }
 
     const failures = [];
     for (const provider of [
@@ -71,9 +81,10 @@ export async function POST(req) {
         const text = await provider.call();
         return NextResponse.json({ text, provider: provider.name });
       } catch (error) {
-        failures.push(`${provider.name}: ${error?.message || "unknown error"}`);
+        failures.push(`${provider.name}: ${toUserSafeError(error)}`);
       }
     }
+
     return NextResponse.json({ error: "All AI providers failed", details: failures }, { status: 503 });
   } catch (error) {
     return NextResponse.json({ error: error?.message || "Unexpected server error" }, { status: 500 });
