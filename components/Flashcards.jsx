@@ -37,7 +37,19 @@ const FALLBACK = [
   },
 ];
 
-async function loadDeck(level) {
+async function loadDeck(level, seed = `${Date.now()}`) {
+  const category = level === "c1" ? "tech_ai" : "ielts_academic";
+
+  try {
+    const generated = await fetch("/api/content", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "vocab", category, count: 16, seed })
+    }).then((r) => (r.ok ? r.json() : null));
+
+    if (generated?.items?.length) return generated.items;
+  } catch {}
+
   for (const path of [`/data/flashcards/${level}.json`, `/data/flashcards/b2.json`]) {
     try {
       const res = await fetch(path);
@@ -57,7 +69,7 @@ export default function Flashcards({ standalone = false }) {
   const current = cards[index] || FALLBACK[0];
 
   useEffect(() => {
-    loadDeck(level).then((data) => {
+    loadDeck(level, `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`).then((data) => {
       setCards(Array.isArray(data) && data.length ? data : FALLBACK);
       setIndex(0);
       setFlipped(false);
@@ -251,7 +263,9 @@ export default function Flashcards({ standalone = false }) {
               </button>
 
               <button
-                onClick={() => {
+                onClick={async () => {
+                  const data = await loadDeck(level, `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`);
+                  setCards(Array.isArray(data) && data.length ? data : FALLBACK);
                   setIndex(0);
                   setFlipped(false);
                   setMemorized([]);
