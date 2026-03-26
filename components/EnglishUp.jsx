@@ -260,12 +260,21 @@ export default function EnglishUp() {
       <ChevronRight className="w-4 h-4 rotate-180 text-gray-600" />
     </button>
   );
-  const Spin = ({ c = "indigo", msg = "" }) => (
-    <div className="flex-1 flex flex-col items-center justify-center gap-3 p-8">
-      <div className={`w-10 h-10 border-4 border-${c}-500 border-t-transparent rounded-full animate-spin`} />
-      {msg && <p className="text-gray-400 text-sm text-center max-w-xs leading-relaxed">{msg}</p>}
-    </div>
-  );
+  const Spin = ({ c = "indigo", msg = "" }) => {
+    const borderColorClass = {
+      indigo: "border-indigo-500",
+      violet: "border-violet-500",
+      emerald: "border-emerald-500",
+      amber: "border-amber-500",
+    }[c] || "border-indigo-500";
+
+    return (
+      <div className="flex-1 flex flex-col items-center justify-center gap-3 p-8">
+        <div className={`w-10 h-10 border-4 ${borderColorClass} border-t-transparent rounded-full animate-spin`} />
+        {msg && <p className="text-gray-400 text-sm text-center max-w-xs leading-relaxed">{msg}</p>}
+      </div>
+    );
+  };
   const NotReady = ({ onBack }) => (
     <div className="flex-1 flex flex-col items-center justify-center gap-4 p-8 text-center">
       <div className="text-4xl">⏳</div>
