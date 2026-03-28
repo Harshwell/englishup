@@ -1,25 +1,140 @@
 {
-  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": {
+    "title": "Present Perfect Tense",
+    "structure": [
+      {
+        "type": "Affirmative",
+        "formula": "Subject + have/has + Past Participle (V3)"
+      },
+      {
+        "type": "Negative",
+        "formula": "Subject + have/has + not + Past Participle (V3)"
+      },
+      {
+        "type": "Interrogative (Yes/No)",
+        "formula": "Have/Has + Subject + Past Participle (V3)?"
+      },
+      {
+        "type": "Interrogative (Wh-)",
+        "formula": "Wh-word + have/has + Subject + Past Participle (V3)?"
+      }
+    ],
+    "notes": "Use 'have' with I, you, we, they. Use 'has' with he, she, it."
+  },
+  "explanation": "The Present Perfect tense connects the past with the present. It's used to talk about actions or states that started in the past and continue to the present, or actions that happened at an unspecified time in the past but have a result or relevance now.  It's a crucial tense for expressing experiences, changes over time, and unfinished actions.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "rule": "Unfinished Actions (Continuing to the Present)",
+      "description": "Used for actions or states that began in the past and are still true or ongoing now. Often used with 'for' (duration) and 'since' (starting point)."
+    },
+    {
+      "rule": "Completed Actions with Present Relevance",
+      "description": "Used for actions that happened at an unspecified time in the past, but the result or consequence is important in the present.  Often used with 'just', 'already', 'yet', 'ever', 'never'."
+    },
+    {
+      "rule": "Life Experiences",
+      "description": "Used to talk about experiences someone has had in their life up to now. The exact time of the experience is not important, but the fact that it happened is."
+    },
+    {
+      "rule": "Recent Past Actions",
+      "description": "Can be used for actions that happened very recently, especially when emphasizing the immediate result."
+    }
   ],
+  "azarNotes": "Many Indonesian learners confuse Present Perfect with Simple Past. Remember, Present Perfect always has a link to the present. Simple Past talks about a completed action at a specific time in the past, with no connection to now.",
   "examples": [
     {
-      "sentence": "Present Perfect appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Present Perfect muncul dalam tugas IELTS."
+      "type": "Unfinished Action",
+      "sentence": "She has lived in Jakarta for ten years."
+    },
+    {
+      "type": "Unfinished Action",
+      "sentence": "We have known each other since childhood."
+    },
+    {
+      "type": "Completed Action with Present Relevance",
+      "sentence": "I have just finished my homework."
+    },
+    {
+      "type": "Completed Action with Present Relevance",
+      "sentence": "They have already seen that movie."
+    },
+    {
+      "type": "Life Experience",
+      "sentence": "Have you ever been to Bali?"
+    },
+    {
+      "type": "Life Experience",
+      "sentence": "He has never tried sushi before."
+    },
+    {
+      "type": "Recent Past Action",
+      "sentence": "The train has arrived."
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
+      "mistake": "Using Simple Past instead of Present Perfect for unfinished actions.",
+      "correction": "Incorrect: 'I live here since 2020.' Correct: 'I have lived here since 2020.'"
+    },
+    {
+      "mistake": "Using Present Perfect with specific past time markers (yesterday, last week, in 2010).",
+      "correction": "Incorrect: 'I have seen him yesterday.' Correct: 'I saw him yesterday.'"
+    },
+    {
+      "mistake": "Forgetting to use the past participle (V3) of the verb.",
+      "correction": "Incorrect: 'She has went to the store.' Correct: 'She has gone to the store.'"
+    },
+    {
+      "mistake": "Confusing 'for' and 'since'.",
+      "correction": "'For' indicates a duration (for two weeks), 'since' indicates a starting point (since Tuesday)."
     }
   ],
-  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 2 and Speaking, the Present Perfect is excellent for discussing trends, changes, and personal experiences. For instance, 'The internet has revolutionized communication' or 'I have always been interested in environmental issues.' Pay attention to the context to decide between Present Perfect and Simple Past.",
+  "quiz": [
+    {
+      "question": "Choose the correct option: I _______ (visit) my grandparents many times.",
+      "options": [
+        "visited",
+        "have visited",
+        "visit"
+      ],
+      "answer": "have visited"
+    },
+    {
+      "question": "Choose the correct option: She _______ (not finish) her report yet.",
+      "options": [
+        "didn't finish",
+        "hasn't finished",
+        "doesn't finish"
+      ],
+      "answer": "hasn't finished"
+    },
+    {
+      "question": "Choose the correct option: _______ you ever _______ (try) Indonesian food?",
+      "options": [
+        "Did, try",
+        "Have, tried",
+        "Do, try"
+      ],
+      "answer": "Have, tried"
+    },
+    {
+      "question": "Choose the correct option: They _______ (live) in this city since 2015.",
+      "options": [
+        "lived",
+        "live",
+        "have lived"
+      ],
+      "answer": "have lived"
+    },
+    {
+      "question": "Choose the correct option: He _______ (just arrive) home.",
+      "options": [
+        "just arrived",
+        "has just arrived",
+        "just arrives"
+      ],
+      "answer": "has just arrived"
+    }
+  ]
 }

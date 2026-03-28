@@ -1,66 +1,179 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
-      "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something that is bad or unsatisfactory better.",
+      "indonesian": "memperbaiki, meningkatkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The government is taking steps to ameliorate the housing crisis.",
+      "collocations": [
+        "ameliorate the situation",
+        "ameliorate conditions",
+        "ameliorate poverty",
+        "ameliorate the effects of"
+      ],
+      "synonyms": [
+        "improve",
+        "enhance",
+        "better",
+        "rectify"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, umum",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous phenomenon",
+        "ubiquitous in nature"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of compatibility or similarity between two or more facts.",
+      "indonesian": "ketidaksesuaian, perbedaan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "There is a significant discrepancy between the reported sales figures and the actual revenue.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "a discrepancy between",
+        "a noticeable discrepancy",
+        "a glaring discrepancy",
+        "resolve a discrepancy"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "difference",
+        "inconsistency",
+        "variation",
+        "disparity"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
-      "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola, contoh",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA marked a paradigm shift in biology.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "a paradigm shift",
+        "a new paradigm",
+        "a theoretical paradigm",
+        "challenge a paradigm"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "model",
+        "pattern",
+        "framework",
+        "example"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "mengurangi, meringankan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The government introduced policies to mitigate the effects of climate change.",
+      "collocations": [
+        "mitigate the risks",
+        "mitigate the impact of",
+        "mitigate the damage",
+        "mitigate the severity of"
+      ],
+      "synonyms": [
+        "alleviate",
+        "reduce",
+        "lessen",
+        "ease"
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The economic downturn will only exacerbate the existing social inequalities.",
+      "collocations": [
+        "exacerbate the problem",
+        "exacerbate tensions",
+        "exacerbate the situation",
+        "exacerbate the conflict"
+      ],
+      "synonyms": [
+        "worsen",
+        "aggravate",
+        "intensify",
+        "heighten"
+      ]
+    },
+    {
+      "word": "inherent",
+      "pronunciation": "/ɪnˈhɪərənt/",
+      "partOfSpeech": "adjective",
+      "definition": "existing in something as a permanent, essential, or characteristic attribute.",
+      "indonesian": "melekat, bawaan, hakiki",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "There are inherent risks associated with investing in the stock market.",
+      "collocations": [
+        "inherent in",
+        "inherent quality",
+        "inherent danger",
+        "inherent characteristic"
+      ],
+      "synonyms": [
+        "intrinsic",
+        "essential",
+        "innate",
+        "built-in"
+      ]
+    },
+    {
+      "word": "prevalent",
+      "pronunciation": "/ˈprevələnt/",
+      "partOfSpeech": "adjective",
+      "definition": "common or widespread.",
+      "indonesian": "lazim, umum, tersebar luas",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The use of social media is prevalent among young people.",
+      "collocations": [
+        "prevalent in",
+        "prevalent trend",
+        "prevalent disease",
+        "prevalent opinion"
+      ],
+      "synonyms": [
+        "widespread",
+        "common",
+        "rife",
+        "ubiquitous"
       ]
     }
   ]
