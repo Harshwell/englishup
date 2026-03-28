@@ -1,172 +1,47 @@
 {
   "words": [
     {
-      "word": "hassle",
-      "pronunciation": "/ˈhæsəl/",
-      "partOfSpeech": "noun, verb",
-      "definition": "Annoyance or inconvenience; to bother or trouble someone.",
-      "indonesian": "kerumitan, kerepotan, mengganggu",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "It was such a hassle to get through airport security with all my luggage.",
-      "collocations": [
-        "a lot of hassle",
-        "avoid the hassle",
-        "cause hassle",
-        "hassle someone"
-      ],
-      "synonyms": [
-        "inconvenience",
-        "trouble",
-        "annoyance",
-        "bother"
-      ]
-    },
-    {
-      "word": "vibe",
-      "pronunciation": "/vaɪb/",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
       "partOfSpeech": "noun",
-      "definition": "The atmosphere or feeling that a place, person, or situation seems to have.",
-      "indonesian": "suasana, aura",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "This cafe has a really relaxed vibe, I love coming here to study.",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
       "collocations": [
-        "good vibe",
-        "bad vibe",
-        "positive vibe",
-        "negative vibe",
-        "get a vibe"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "atmosphere",
-        "feeling",
-        "mood",
-        "aura"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "flustered",
-      "pronunciation": "/ˈflʌstərd/",
+      "word": "straightforward",
+      "pronunciation": "",
       "partOfSpeech": "adjective",
-      "definition": "Agitated or confused, especially because of being in a hurry or under pressure.",
-      "indonesian": "bingung, gelisah, gugup",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "She was quite flustered when the interviewer asked her an unexpected question.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "get flustered",
-        "feel flustered",
-        "become flustered"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "agitated",
-        "confused",
-        "nervous",
-        "flustered"
-      ]
-    },
-    {
-      "word": "awkward",
-      "pronunciation": "/ˈɔːkwərd/",
-      "partOfSpeech": "adjective",
-      "definition": "Causing difficulty, embarrassment, or discomfort.",
-      "indonesian": "canggung, janggal, sulit",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "There was an awkward silence after he told that inappropriate joke.",
-      "collocations": [
-        "awkward moment",
-        "awkward situation",
-        "awkward silence",
-        "feel awkward"
-      ],
-      "synonyms": [
-        "embarrassing",
-        "uncomfortable",
-        "clumsy",
-        "difficult"
-      ]
-    },
-    {
-      "word": "chuffed",
-      "pronunciation": "/tʃʌft/",
-      "partOfSpeech": "adjective",
-      "definition": "(British English, informal) Very pleased or delighted.",
-      "indonesian": "sangat senang, gembira",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "I was absolutely chuffed to bits when I heard I got the promotion.",
-      "collocations": [
-        "chuffed to bits",
-        "pleased and chuffed"
-      ],
-      "synonyms": [
-        "pleased",
-        "delighted",
-        "happy",
-        "thrilled"
-      ]
-    },
-    {
-      "word": "gutted",
-      "pronunciation": "/ˈɡʌtɪd/",
-      "partOfSpeech": "adjective",
-      "definition": "(Informal) Extremely disappointed or upset.",
-      "indonesian": "sangat kecewa, hancur hati",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "He was gutted when his team lost the final match.",
-      "collocations": [
-        "absolutely gutted",
-        "feel gutted"
-      ],
-      "synonyms": [
-        "disappointed",
-        "devastated",
-        "heartbroken",
-        "crushed"
-      ]
-    },
-    {
-      "word": "nagging",
-      "pronunciation": "/ˈnæɡɪŋ/",
-      "partOfSpeech": "adjective, verb",
-      "definition": "Persistently bothering or worrying someone; to annoy or trouble someone persistently.",
-      "indonesian": "mengganggu terus-menerus, menuntut terus-menerus",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "I have a nagging feeling that I forgot something important.",
-      "collocations": [
-        "nagging doubt",
-        "nagging pain",
-        "nagging thought",
-        "nagging someone"
-      ],
-      "synonyms": [
-        "persistent",
-        "constant",
-        "bothersome",
-        "annoying"
-      ]
-    },
-    {
-      "word": "under the weather",
-      "pronunciation": "/ˈʌndər ðə ˈwɛðər/",
-      "partOfSpeech": "idiom",
-      "definition": "Feeling slightly unwell or ill.",
-      "indonesian": "kurang sehat, agak sakit",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I'm feeling a bit under the weather today, so I think I'll stay home.",
-      "collocations": [
-        "feel under the weather"
-      ],
-      "synonyms": [
-        "unwell",
-        "sick",
-        "ill",
-        "not feeling well"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]

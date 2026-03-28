@@ -1,0 +1,42 @@
+{
+  "words": [
+    {
+      "word": "workload",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "definition": "The amount of work assigned to a particular worker, normally in a specified time period",
+      "indonesian": "Arti workload dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "workload is often used in formal and academic English.",
+      "collocations": [
+        "tivoli",
+        "automation",
+        "overs",
+        "cpu"
+      ],
+      "synonyms": []
+    },
+    {
+      "word": "delegate",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "definition": "A person authorized to act as representative for another; a deputy",
+      "indonesian": "Arti delegate dalam konteks pembelajaran IELTS.",
+      "level": "C1",
+      "ieltsBand": "7.0-7.5",
+      "example": "delegate is often used in formal and academic English.",
+      "collocations": [
+        "convention",
+        "conventions",
+        "pledged",
+        "comintern"
+      ],
+      "synonyms": [
+        "designate",
+        "assign",
+        "depute"
+      ]
+    }
+  ]
+}

@@ -2,183 +2,44 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡərɪðəm/",
+      "pronunciation": "/ˈælɡəɹɪðm̩/",
       "partOfSpeech": "noun",
-      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
-      "indonesian": "algoritma",
+      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
+      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The search engine uses a complex algorithm to rank websites.",
+      "ieltsBand": "6.5-7.0",
+      "example": "algorithm is often used in formal and academic English.",
       "collocations": [
-        "complex algorithm",
-        "search algorithm",
-        "machine learning algorithm",
-        "sorting algorithm",
-        "algorithm design"
+        "algorithms",
+        "iterative",
+        "compute",
+        "recursive"
       ],
       "synonyms": [
-        "procedure",
-        "process",
-        "method",
-        "formula"
-      ]
-    },
-    {
-      "word": "automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
-      "partOfSpeech": "noun",
-      "definition": "The use of technology to perform tasks with minimal human intervention.",
-      "indonesian": "otomatisasi",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Automation in manufacturing has led to increased efficiency and reduced costs.",
-      "collocations": [
-        "industrial automation",
-        "process automation",
-        "business automation",
-        "degree of automation",
-        "levels of automation"
-      ],
-      "synonyms": [
-        "mechanization",
-        "robotization",
-        "self-operation"
+        "algorithmic program",
+        "algorithmic rule"
       ]
     },
     {
       "word": "bias",
       "pronunciation": "/ˈbaɪəs/",
       "partOfSpeech": "noun",
-      "definition": "A prejudice for or against one thing, person, or group compared with another, usually in a way considered to be unfair. In AI, it refers to systematic errors or prejudices in data or algorithms that lead to unfair outcomes.",
-      "indonesian": "bias, prasangka",
+      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
+      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Researchers are working to identify and mitigate bias in AI systems to ensure fairness.",
+      "ieltsBand": "7.0-7.5",
+      "example": "bias is often used in formal and academic English.",
       "collocations": [
-        "algorithmic bias",
-        "gender bias",
-        "racial bias",
-        "detect bias",
-        "reduce bias"
+        "biases",
+        "estimator",
+        "biased",
+        "diode"
       ],
       "synonyms": [
+        "oblique",
         "prejudice",
-        "partiality",
-        "favoritism",
-        "discrimination"
-      ]
-    },
-    {
-      "word": "cognitive",
-      "pronunciation": "/ˈkɒɡnɪtɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "Relating to the mental processes of perception, memory, judgment, and reasoning.",
-      "indonesian": "kognitif",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Artificial intelligence aims to replicate human cognitive abilities.",
-      "collocations": [
-        "cognitive abilities",
-        "cognitive development",
-        "cognitive science",
-        "cognitive load",
-        "cognitive bias"
-      ],
-      "synonyms": [
-        "mental",
-        "intellectual",
-        "perceptual",
-        "thinking"
-      ]
-    },
-    {
-      "word": "deploy",
-      "pronunciation": "/dɪˈplɔɪ/",
-      "partOfSpeech": "verb",
-      "definition": "To move troops or equipment into position for military action; to bring resources into effective action.",
-      "indonesian": "menerapkan, mengerahkan",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The company plans to deploy its new AI system across all departments.",
-      "collocations": [
-        "deploy a system",
-        "deploy resources",
-        "deploy a strategy",
-        "newly deployed",
-        "fully deployed"
-      ],
-      "synonyms": [
-        "implement",
-        "install",
-        "launch",
-        "mobilize"
-      ]
-    },
-    {
-      "word": "neural network",
-      "pronunciation": "/ˈnjʊərəl ˈnetwɜːk/",
-      "partOfSpeech": "noun",
-      "definition": "A computing system inspired by the structure and function of the human brain, used in machine learning.",
-      "indonesian": "jaringan saraf tiruan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Deep learning models often utilize complex neural networks to process large datasets.",
-      "collocations": [
-        "artificial neural network",
-        "deep neural network",
-        "train a neural network",
-        "neural network architecture",
-        "convolutional neural network"
-      ],
-      "synonyms": [
-        "artificial intelligence system",
-        "machine learning model"
-      ]
-    },
-    {
-      "word": "robust",
-      "pronunciation": "/rəʊˈbʌst/",
-      "partOfSpeech": "adjective",
-      "definition": "Strong and unlikely to fail; (of a system or machine) able to withstand or overcome adverse conditions.",
-      "indonesian": "kuat, tangguh",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The AI system needs to be robust enough to handle unexpected inputs.",
-      "collocations": [
-        "robust system",
-        "robust performance",
-        "robust algorithm",
-        "robust security",
-        "robust framework"
-      ],
-      "synonyms": [
-        "strong",
-        "sturdy",
-        "resilient",
-        "powerful"
-      ]
-    },
-    {
-      "word": "simulate",
-      "pronunciation": "/ˈsɪmjʊleɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To imitate the appearance or character of; to produce a computer model of.",
-      "indonesian": "mensimulasikan, meniru",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Researchers use simulations to test the effectiveness of new AI models.",
-      "collocations": [
-        "simulate a scenario",
-        "simulate a process",
-        "computer simulation",
-        "virtual simulation",
-        "simulate conditions"
-      ],
-      "synonyms": [
-        "imitate",
-        "replicate",
-        "mimic",
-        "model"
+        "predetermine",
+        "diagonal"
       ]
     }
   ]

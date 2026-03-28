@@ -2,11 +2,18 @@
   {
     "front": "allocate",
     "back": {
-      "definition": "to give time, money, or resources for a purpose",
+      "definition": "To set aside for a purpose.",
       "phonetic": "/ˈæl.ə.keɪt/",
-      "example": "Students should allocate more time to revision.",
-      "synonyms": ["assign", "distribute"],
-      "antonyms": ["withhold"],
+      "example": "allocate is often used in formal and academic English.",
+      "synonyms": [
+        "appropriate",
+        "earmark",
+        "apportion"
+      ],
+      "antonyms": [
+        "deallocate",
+        "free"
+      ],
       "level": "C1",
       "frequency": "medium",
       "audio": ""
@@ -14,17 +21,75 @@
     "topic": "ielts_academic"
   },
   {
+    "front": "enhance",
+    "back": {
+      "definition": "To lift, raise up.",
+      "phonetic": "/ɪnˈhɑːns/",
+      "example": "enhance is often used in formal and academic English.",
+      "synonyms": [
+        "heighten",
+        "raise"
+      ],
+      "antonyms": [],
+      "level": "C1",
+      "frequency": "medium",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/enhance-us.mp3"
+    },
+    "topic": "ielts_academic"
+  },
+  {
     "front": "bias",
     "back": {
-      "definition": "unfair preference or tendency",
-      "phonetic": "/ˈbaɪ.əs/",
-      "example": "Developers must reduce bias in automated decision systems.",
-      "synonyms": ["prejudice", "partiality"],
-      "antonyms": ["fairness"],
+      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
+      "phonetic": "/ˈbaɪəs/",
+      "example": "bias is often used in formal and academic English.",
+      "synonyms": [
+        "oblique",
+        "prejudice",
+        "predetermine",
+        "diagonal"
+      ],
+      "antonyms": [],
+      "level": "C1",
+      "frequency": "medium",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/bias-us.mp3"
+    },
+    "topic": "tech_ai"
+  },
+  {
+    "front": "resilience",
+    "back": {
+      "definition": "The mental ability to recover quickly from depression, illness or misfortune.",
+      "phonetic": "/ɹə.zɪl.ɪ.əns/",
+      "example": "resilience is often used in formal and academic English.",
+      "synonyms": [
+        "buoyancy",
+        "irrepressibility",
+        "resiliency"
+      ],
+      "antonyms": [],
       "level": "C1",
       "frequency": "medium",
       "audio": ""
     },
-    "topic": "tech_ai"
+    "topic": "environment"
+  },
+  {
+    "front": "delegate",
+    "back": {
+      "definition": "A person authorized to act as representative for another; a deputy",
+      "phonetic": "",
+      "example": "delegate is often used in formal and academic English.",
+      "synonyms": [
+        "designate",
+        "assign",
+        "depute"
+      ],
+      "antonyms": [],
+      "level": "C1",
+      "frequency": "medium",
+      "audio": ""
+    },
+    "topic": "business"
   }
 ]

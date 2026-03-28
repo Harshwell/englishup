@@ -1,10 +1,67 @@
 {
-  "grammarChart": "PASSIVE VOICE | be + past participle\nAFFIRMATIVE | S + be + V3\nNEGATIVE | S + be not + V3\nQUESTION | Be + S + V3?",
-  "explanation": "Passive voice shifts focus from the doer to the action or result. It is useful in academic writing when the result matters more than the actor. Use it when the agent is unknown, unimportant, or obvious from context.",
-  "keyRules": ["Use the correct tense of be plus past participle.","Move the original object into subject position.","Use by + agent only when the agent matters.","Do not overuse passive voice in simple conversation."],
-  "azarNotes": ["Ask whether the action or the actor is more important.","Common learner error: be + base verb instead of be + past participle."],
-  "examples": [{"sentence":"The report was submitted before noon.","note":"Focus on the result.","indonesian":"Laporan itu dikumpulkan sebelum tengah hari."},{"sentence":"New policies are often discussed in class.","note":"Formal tone.","indonesian":"Kebijakan baru sering dibahas di kelas."}],
-  "commonMistakes": [{"wrong":"The essay was submit yesterday.","right":"The essay was submitted yesterday.","why":"Passive voice needs a past participle."},{"wrong":"The event was happened online.","right":"The event happened online.","why":"Happen is normally not used in the passive."}],
-  "ieltsTip": "Passive voice is especially useful in formal explanation and process description. Use it when it improves focus, not just because it looks academic.",
-  "quiz": [{"question":"Choose the best sentence.","type":"choose-form","options":["A) The proposal was approved yesterday.","B) The proposal was approve yesterday.","C) The proposal approved was yesterday.","D) The proposal is approve yesterday."],"answer":0,"explanation":"Correct passive form: was + past participle."},{"question":"Pick the correct option.","type":"choose-form","options":["A) English is spoke in many countries.","B) English is spoken in many countries.","C) English spoken is in many countries.","D) English is speaking in many countries."],"answer":1,"explanation":"Passive requires the past participle spoken."},{"question":"Which sentence should stay active?","type":"choose-form","options":["A) The book was translated into Indonesian.","B) The meeting was postponed.","C) The event was happened online.","D) The road was repaired last year."],"answer":2,"explanation":"Happen is not normally used in passive form."},{"question":"Complete the sentence: The files ___ uploaded before noon.","type":"fill-blank","options":["A) was","B) were","C) be","D) been"],"answer":1,"explanation":"Files is plural, so use were uploaded."},{"question":"Choose the best correction.","type":"error-correct","options":["A) The policy was announced this morning.","B) The policy was announce this morning.","C) The policy announced was this morning.","D) The policy is announce this morning."],"answer":0,"explanation":"Correct passive structure with past participle."}]
+  "explanation": "Dalam Bahasa Inggris, kalimat pasif digunakan ketika fokus utama adalah pada objek dari suatu tindakan, bukan pada siapa yang melakukan tindakan tersebut. Struktur kalimat pasif adalah 'be' (is, am, are, was, were, been, being) + past participle (kata kerja bentuk ketiga).  Ini berbeda dengan kalimat aktif di mana subjek melakukan tindakan.",
+  "keyRules": [
+    "Identifikasi objek dalam kalimat aktif.",
+    "Ubah objek kalimat aktif menjadi subjek kalimat pasif.",
+    "Gunakan bentuk 'be' yang sesuai dengan tenses kalimat asli.",
+    "Ubah kata kerja utama kalimat aktif menjadi past participle (V3).",
+    "Jika perlu, tambahkan 'by' + subjek kalimat aktif (agen) di akhir kalimat pasif."
+  ],
+  "examples": [
+    {
+      "active": "The students are writing the essays.",
+      "passive": "The essays are being written by the students."
+    },
+    {
+      "active": "The company launched a new product last year.",
+      "passive": "A new product was launched by the company last year."
+    },
+    {
+      "active": "Someone has stolen my wallet.",
+      "passive": "My wallet has been stolen."
+    },
+    {
+      "active": "They will build a new bridge.",
+      "passive": "A new bridge will be built."
+    }
+  ],
+  "commonMistakes": [
+    "Menggunakan 'be' yang salah untuk tenses yang berbeda.",
+    "Lupa mengubah kata kerja utama menjadi past participle.",
+    "Terlalu sering menggunakan kalimat pasif padahal kalimat aktif lebih jelas dan ringkas.",
+    "Menghilangkan 'by' + agen ketika agen penting untuk dipahami."
+  ],
+  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), kalimat pasif sering digunakan untuk mendeskripsikan data, proses, atau grafik, terutama ketika agen (siapa yang melakukan) tidak diketahui atau tidak relevan.  Misalnya, 'The data was collected...' atau 'The product is manufactured...'.  Namun, jangan berlebihan menggunakannya di Task 2, di mana argumen yang jelas dan ringkas lebih dihargai.",
+  "quiz": [
+    {
+      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The chef prepared the meal.'",
+      "options": [
+        "The meal prepared the chef.",
+        "The meal was prepared by the chef.",
+        "The meal is preparing by the chef.",
+        "The chef was prepared the meal."
+      ],
+      "answer": "The meal was prepared by the chef."
+    },
+    {
+      "question": "Ubah kalimat aktif berikut menjadi pasif: 'They have finished the project.'",
+      "options": [
+        "The project is finished by them.",
+        "The project was finished by them.",
+        "The project has been finished.",
+        "The project have been finished by them."
+      ],
+      "answer": "The project has been finished."
+    },
+    {
+      "question": "Pilih kalimat pasif yang benar: 'The letter ____ yesterday.'",
+      "options": [
+        "is sent",
+        "was sent",
+        "sent",
+        "has sent"
+      ],
+      "answer": "was sent"
+    }
+  ]
 }

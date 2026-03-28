@@ -2,29 +2,128 @@
   {
     "front": "significant",
     "back": {
-      "definition": "important or noticeable",
-      "phonetic": "/sɪgˈnɪf.ɪ.kənt/",
-      "example": "There has been a significant rise in online learning.",
-      "synonyms": ["important", "notable"],
-      "antonyms": ["minor"],
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "phonetic": "/sɪɡˈnɪ.fɪ.kənt/",
+      "example": "significant is often used in formal and academic English.",
+      "synonyms": [
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
+      ],
+      "antonyms": [
+        "insignificant",
+        "unimportant",
+        "nonsignificant"
+      ],
       "level": "B2",
       "frequency": "high",
-      "audio": ""
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/significant-us.mp3"
     },
     "topic": "ielts_academic"
   },
   {
     "front": "reliable",
     "back": {
-      "definition": "able to be trusted or depended on",
-      "phonetic": "/rɪˈlaɪ.ə.bəl/",
-      "example": "Researchers need reliable data before drawing conclusions.",
-      "synonyms": ["dependable", "trustworthy"],
-      "antonyms": ["unreliable"],
+      "definition": "Something or someone reliable or dependable",
+      "phonetic": "/ɹɪˈlaɪəbəl/",
+      "example": "the old reliables",
+      "synonyms": [
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
+      ],
+      "antonyms": [
+        "unreliable",
+        "undependable"
+      ],
+      "level": "B2",
+      "frequency": "high",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/reliable-us.mp3"
+    },
+    "topic": "daily_convo"
+  },
+  {
+    "front": "straightforward",
+    "back": {
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "phonetic": "",
+      "example": "straightforward is often used in formal and academic English.",
+      "synonyms": [
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
+      ],
+      "antonyms": [],
       "level": "B2",
       "frequency": "high",
       "audio": ""
     },
     "topic": "daily_convo"
+  },
+  {
+    "front": "algorithm",
+    "back": {
+      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
+      "phonetic": "/ˈælɡəɹɪðm̩/",
+      "example": "algorithm is often used in formal and academic English.",
+      "synonyms": [
+        "algorithmic program",
+        "algorithmic rule"
+      ],
+      "antonyms": [],
+      "level": "B2",
+      "frequency": "high",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/algorithm-us.mp3"
+    },
+    "topic": "tech_ai"
+  },
+  {
+    "front": "sustainable",
+    "back": {
+      "definition": "Able to be sustained.",
+      "phonetic": "/səˈsteɪnəbəl/",
+      "example": "sustainable is often used in formal and academic English.",
+      "synonyms": [],
+      "antonyms": [],
+      "level": "B2",
+      "frequency": "high",
+      "audio": ""
+    },
+    "topic": "environment"
+  },
+  {
+    "front": "inequality",
+    "back": {
+      "definition": "An unfair, not equal, state.",
+      "phonetic": "/ˌɪnɪˈkwɒlɪti/",
+      "example": "inequality is often used in formal and academic English.",
+      "synonyms": [
+        "inequation"
+      ],
+      "antonyms": [
+        "equality"
+      ],
+      "level": "B2",
+      "frequency": "high",
+      "audio": ""
+    },
+    "topic": "social_issues"
+  },
+  {
+    "front": "workload",
+    "back": {
+      "definition": "The amount of work assigned to a particular worker, normally in a specified time period",
+      "phonetic": "",
+      "example": "workload is often used in formal and academic English.",
+      "synonyms": [],
+      "antonyms": [],
+      "level": "B2",
+      "frequency": "high",
+      "audio": ""
+    },
+    "topic": "business"
   }
 ]
