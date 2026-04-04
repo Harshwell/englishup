@@ -1,181 +1,47 @@
 {
   "words": [
     {
-      "word": "nuance",
-      "pronunciation": "/ˈnuːɑːns/",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
       "partOfSpeech": "noun",
-      "definition": "A subtle difference or shade of meaning, expression, or sound.",
-      "indonesian": "nuansa, seluk-beluk",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The translation failed to capture the subtle nuances of the original poem.",
-      "collocations": [
-        "subtle nuance",
-        "fine nuance",
-        "understand nuance",
-        "appreciate nuance",
-        "lack nuance"
-      ],
-      "synonyms": [
-        "subtlety",
-        "shade",
-        "gradation",
-        "distinction"
-      ]
-    },
-    {
-      "word": "articulate",
-      "pronunciation": "/ɑːrˈtɪkjʊleɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To express (an idea or feeling) fluently and coherently.",
-      "indonesian": "mengartikulasikan, mengungkapkan",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "She found it difficult to articulate her feelings after the argument.",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
       "collocations": [
-        "articulate clearly",
-        "articulate thoughts",
-        "articulate ideas",
-        "articulate a point of view"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "express",
-        "voice",
-        "state",
-        "utter"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "embrace",
-      "pronunciation": "/ɪmˈbreɪs/",
-      "partOfSpeech": "verb",
-      "definition": "To accept or support (a belief, theory, or change) willingly and enthusiastically.",
-      "indonesian": "merangkul, menerima dengan antusias",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "We should embrace new technologies rather than fear them.",
-      "collocations": [
-        "fully embrace",
-        "willingly embrace",
-        "embrace change",
-        "embrace diversity",
-        "embrace an opportunity"
-      ],
-      "synonyms": [
-        "accept",
-        "adopt",
-        "welcome",
-        "take up"
-      ]
-    },
-    {
-      "word": "perceive",
-      "pronunciation": "/pərˈsiːv/",
-      "partOfSpeech": "verb",
-      "definition": "To become aware of or conscious of (something); come to realize or understand.",
-      "indonesian": "mempersepsikan, menyadari, memahami",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "How do you perceive the current economic situation?",
-      "collocations": [
-        "perceive as",
-        "perceive the importance of",
-        "perceive a threat",
-        "perceive a need"
-      ],
-      "synonyms": [
-        "understand",
-        "recognize",
-        "discern",
-        "notice"
-      ]
-    },
-    {
-      "word": "insightful",
-      "pronunciation": "/ˈɪnsaɪtfʊl/",
+      "word": "straightforward",
+      "pronunciation": "",
       "partOfSpeech": "adjective",
-      "definition": "Having or showing an accurate and deep understanding; perceptive.",
-      "indonesian": "berwawasan luas, penuh pemahaman",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Her insightful comments helped us to see the problem from a new perspective.",
-      "collocations": [
-        "insightful analysis",
-        "insightful observation",
-        "insightful suggestion",
-        "insightful article"
-      ],
-      "synonyms": [
-        "perceptive",
-        "astute",
-        "discerning",
-        "wise"
-      ]
-    },
-    {
-      "word": "foster",
-      "pronunciation": "/ˈfɒstər/",
-      "partOfSpeech": "verb",
-      "definition": "To encourage the development or growth of (ideas or feelings).",
-      "indonesian": "memelihara, mendorong, menumbuhkan",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The program aims to foster creativity and innovation among students.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "foster a sense of",
-        "foster growth",
-        "foster understanding",
-        "foster relationships"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "encourage",
-        "promote",
-        "nurture",
-        "cultivate"
-      ]
-    },
-    {
-      "word": "inherent",
-      "pronunciation": "/ɪnˈhɪərənt/",
-      "partOfSpeech": "adjective",
-      "definition": "Existing in something as a permanent, essential, or characteristic attribute.",
-      "indonesian": "melekat, bawaan, hakiki",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "There are inherent risks involved in any investment.",
-      "collocations": [
-        "inherent in",
-        "inherent danger",
-        "inherent flaw",
-        "inherent characteristic"
-      ],
-      "synonyms": [
-        "intrinsic",
-        "essential",
-        "innate",
-        "built-in"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To make (something bad) less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi keparahan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "We need to find ways to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate risk",
-        "mitigate damage",
-        "mitigate the impact",
-        "mitigate the effects"
-      ],
-      "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "ease"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]

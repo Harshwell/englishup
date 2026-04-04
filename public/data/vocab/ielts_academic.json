@@ -1,179 +1,66 @@
 {
   "words": [
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something that is bad or unsatisfactory better.",
-      "indonesian": "memperbaiki, meningkatkan",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The government is taking steps to ameliorate the housing crisis.",
-      "collocations": [
-        "ameliorate the situation",
-        "ameliorate conditions",
-        "ameliorate poverty",
-        "ameliorate the effects of"
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "better",
-        "rectify"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, umum",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous phenomenon",
-        "ubiquitous in nature"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrepənsi/",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
       "partOfSpeech": "noun",
-      "definition": "a lack of compatibility or similarity between two or more facts.",
-      "indonesian": "ketidaksesuaian, perbedaan",
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There is a significant discrepancy between the reported sales figures and the actual revenue.",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "a discrepancy between",
-        "a noticeable discrepancy",
-        "a glaring discrepancy",
-        "resolve a discrepancy"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "difference",
-        "inconsistency",
-        "variation",
-        "disparity"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola, contoh",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The discovery of DNA marked a paradigm shift in biology.",
-      "collocations": [
-        "a paradigm shift",
-        "a new paradigm",
-        "a theoretical paradigm",
-        "challenge a paradigm"
-      ],
-      "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "word": "allocate",
+      "pronunciation": "/ˈæl.ə.keɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "mengurangi, meringankan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The government introduced policies to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate the risks",
-        "mitigate the impact of",
-        "mitigate the damage",
-        "mitigate the severity of"
-      ],
-      "synonyms": [
-        "alleviate",
-        "reduce",
-        "lessen",
-        "ease"
-      ]
-    },
-    {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make a problem, bad situation, or negative feeling worse.",
-      "indonesian": "memperburuk",
+      "definition": "To set aside for a purpose.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The economic downturn will only exacerbate the existing social inequalities.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "exacerbate the problem",
-        "exacerbate tensions",
-        "exacerbate the situation",
-        "exacerbate the conflict"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "heighten"
+        "appropriate",
+        "earmark",
+        "apportion"
       ]
     },
     {
-      "word": "inherent",
-      "pronunciation": "/ɪnˈhɪərənt/",
-      "partOfSpeech": "adjective",
-      "definition": "existing in something as a permanent, essential, or characteristic attribute.",
-      "indonesian": "melekat, bawaan, hakiki",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There are inherent risks associated with investing in the stock market.",
+      "word": "enhance",
+      "pronunciation": "/ɪnˈhɑːns/",
+      "partOfSpeech": "verb",
+      "definition": "To lift, raise up.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "level": "C1",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "inherent in",
-        "inherent quality",
-        "inherent danger",
-        "inherent characteristic"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "intrinsic",
-        "essential",
-        "innate",
-        "built-in"
-      ]
-    },
-    {
-      "word": "prevalent",
-      "pronunciation": "/ˈprevələnt/",
-      "partOfSpeech": "adjective",
-      "definition": "common or widespread.",
-      "indonesian": "lazim, umum, tersebar luas",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The use of social media is prevalent among young people.",
-      "collocations": [
-        "prevalent in",
-        "prevalent trend",
-        "prevalent disease",
-        "prevalent opinion"
-      ],
-      "synonyms": [
-        "widespread",
-        "common",
-        "rife",
-        "ubiquitous"
+        "heighten",
+        "raise"
       ]
     }
   ]
