@@ -1,120 +1,79 @@
 {
-  "explanation": "Present Perfect Tense digunakan untuk menyatakan suatu tindakan yang telah selesai di masa lalu tetapi masih memiliki relevansi atau hubungan dengan masa kini. Ini juga digunakan untuk pengalaman yang terjadi kapan saja di masa lalu.",
+  "grammarChart": {
+    "form": "have/has + past participle",
+    "example": "She has finished her homework.",
+    "contraction": "I've, you've, he's, she's, we've, they've"
+  },
+  "explanation": "The Present Perfect connects the past to the present. It describes actions that started in the past and continue to the present, or experiences that happened at an unspecified time before now. It often uses time expressions like 'already', 'yet', 'for', 'since', 'just', 'never', 'ever', 'this week/month/year', and 'so far'.",
   "keyRules": [
-    {
-      "rule": "Bentuk Positif:",
-      "structure": "Subject + have/has + Past Participle (Verb 3)",
-      "notes": "Gunakan 'have' untuk I, you, we, they. Gunakan 'has' untuk he, she, it."
-    },
-    {
-      "rule": "Bentuk Negatif:",
-      "structure": "Subject + have/has + not + Past Participle (Verb 3)",
-      "notes": "Singkatan umum: haven't, hasn't."
-    },
-    {
-      "rule": "Bentuk Interogatif (Pertanyaan):",
-      "structure": "Have/Has + Subject + Past Participle (Verb 3)?",
-      "notes": "Jawaban singkat biasanya 'Yes, Subject + have/has' atau 'No, Subject + haven't/hasn't'."
-    },
-    {
-      "rule": "Penggunaan Kata Keterangan Waktu:",
-      "keywords": [
-        "already",
-        "yet",
-        "just",
-        "ever",
-        "never",
-        "for",
-        "since",
-        "recently",
-        "lately"
-      ]
-    }
+    "Use for actions with present relevance (e.g., 'I've lost my keys. Can you help me look?').",
+    "Use for experiences up to now (e.g., 'Have you ever been to Japan?').",
+    "Use for unfinished time periods (e.g., 'She has lived in London for 5 years.').",
+    "Use with 'just', 'already', 'yet' (e.g., 'He has just arrived.').",
+    "Use with 'for' and 'since' to indicate duration (e.g., 'They have been married for 10 years.')."
   ],
+  "azarNotes": "According to Azar, the Present Perfect emphasizes the result or the current state resulting from a past action (e.g., 'I have eaten' implies I am no longer hungry now). It is often contrasted with the Simple Past.",
   "examples": [
-    {
-      "sentence": "She has finished her homework.",
-      "translation": "Dia telah menyelesaikan pekerjaan rumahnya."
-    },
-    {
-      "sentence": "I have never eaten sushi before.",
-      "translation": "Saya belum pernah makan sushi sebelumnya."
-    },
-    {
-      "sentence": "Have you seen this movie?",
-      "translation": "Sudahkah kamu menonton film ini?"
-    },
-    {
-      "sentence": "They haven't arrived yet.",
-      "translation": "Mereka belum tiba."
-    },
-    {
-      "sentence": "We have lived here for five years.",
-      "translation": "Kami telah tinggal di sini selama lima tahun."
-    },
-    {
-      "sentence": "He has just called me.",
-      "translation": "Dia baru saja menelepon saya."
-    }
+    "She has visited Paris twice.",
+    "They have lived here since 2010.",
+    "I have already finished my report.",
+    "Has he ever seen a whale?",
+    "The project has been delayed for a week."
   ],
   "commonMistakes": [
-    "Menggunakan Simple Past Tense padahal Present Perfect lebih tepat, terutama saat menekankan relevansi dengan masa kini.",
-    "Salah menggunakan 'have' dan 'has'.",
-    "Lupa menggunakan bentuk Past Participle (Verb 3) dari kata kerja.",
-    "Salah menempatkan kata keterangan waktu.",
-    "Menggunakan 'for' dan 'since' secara bergantian."
+    "Using Simple Past instead of Present Perfect for recent past actions with present relevance (e.g., 'I already finished' instead of 'I have already finished').",
+    "Using Simple Past instead of Present Perfect for experiences up to now (e.g., 'I visited London' instead of 'I have visited London').",
+    "Using Simple Past instead of Present Perfect for unfinished time periods (e.g., 'He lived in Paris for 5 years' instead of 'He has lived in Paris for 5 years').",
+    "Omitting the past participle (e.g., 'I have went' instead of 'I have gone').",
+    "Using 'for' with a specific point in time (e.g., 'I have lived here for 5 o'clock' instead of 'I have lived here since 5 o'clock')."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, gunakan Present Perfect untuk merujuk pada tren, perkembangan, atau masalah yang telah terjadi dan masih relevan saat ini. Dalam Speaking, gunakan untuk menceritakan pengalaman hidup atau pencapaian. Perhatikan penggunaan 'for' (jangka waktu) dan 'since' (titik waktu awal) dengan benar.",
+  "ieltsTip": "In IELTS Speaking Part 2, use Present Perfect to describe experiences ('I have visited many countries') and ongoing situations ('I have lived here for 5 years'). In Writing Task 1, use it for changes over time ('The number of people has increased'). In Task 2, use it for general experiences ('Many people have expressed concerns').",
   "quiz": [
     {
-      "question": "Choose the correct form of the verb: She ______ to London twice.",
+      "question": "Complete with the correct form of 'have/has': 'She ____ finished her presentation.'",
       "options": [
-        "goes",
-        "went",
-        "has gone",
-        "is going"
+        "have",
+        "has",
+        "had",
+        "have been"
       ],
-      "answer": "has gone"
+      "answer": "has"
     },
     {
-      "question": "Complete the sentence: They ______ their lunch yet.",
+      "question": "Which time expression is typically used with Present Perfect? (e.g., 'I have ____ lived here for 3 years.')",
       "options": [
-        "eat",
-        "ate",
-        "haven't eaten",
-        "don't eat"
+        "yesterday",
+        "last week",
+        "for",
+        "in 2020"
       ],
-      "answer": "haven't eaten"
+      "answer": "for"
     },
     {
-      "question": "What is the Past Participle of 'see'?",
+      "question": "Choose the sentence using Present Perfect correctly: A) I visited Paris last year. B) I have visited Paris last year.",
       "options": [
-        "see",
-        "saw",
-        "seen",
-        "seeing"
+        "A",
+        "B"
       ],
-      "answer": "seen"
+      "answer": "A"
     },
     {
-      "question": "Choose the correct sentence: I ______ this book since Monday.",
+      "question": "Fill in the blank: 'They ____ just arrived from Jakarta.'",
       "options": [
-        "read",
-        "have read",
-        "am reading",
-        "readed"
+        "have",
+        "has",
+        "had",
+        "have been"
       ],
-      "answer": "have read"
+      "answer": "have"
     },
     {
-      "question": "Complete the question: ______ you ever ______ a concert?",
+      "question": "Which sentence uses Present Perfect to describe an experience up to now? A) He saw a movie yesterday. B) He has seen many movies.",
       "options": [
-        "Did / attend",
-        "Do / attend",
-        "Have / attended",
-        "Are / attending"
+        "A",
+        "B"
       ],
-      "answer": "Have / attended"
+      "answer": "B"
     }
   ]
 }

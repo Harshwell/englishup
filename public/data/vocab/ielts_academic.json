@@ -1,66 +1,178 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
-      "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsemɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to spread information widely or to cause something to be widely known.",
+      "indonesian": "menyebarkan, menyiarkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The organization aims to disseminate information about renewable energy sources to the public.",
+      "collocations": [
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate findings",
+        "disseminate widely"
+      ],
+      "synonyms": [
+        "spread",
+        "circulate",
+        "propagate",
+        "broadcast"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, tersebar luas",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "In the digital age, smartphones have become ubiquitous.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous nature"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "rife"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Governments are implementing policies to mitigate the effects of climate change.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "mitigate risks",
+        "mitigate damage",
+        "mitigate poverty",
+        "mitigate the impact"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "alleviate",
+        "reduce",
+        "lessen",
+        "ease"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
-      "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA represented a paradigm shift in biology.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "paradigm shift",
+        "a new paradigm",
+        "scientific paradigm",
+        "intellectual paradigm"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "model",
+        "pattern",
+        "framework",
+        "template"
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The drought will exacerbate the food shortages in the region.",
+      "collocations": [
+        "exacerbate the problem",
+        "exacerbate tensions",
+        "exacerbate inequality",
+        "exacerbate the situation"
+      ],
+      "synonyms": [
+        "worsen",
+        "aggravate",
+        "intensify",
+        "inflame"
+      ]
+    },
+    {
+      "word": "corroborate",
+      "pronunciation": "/kəˈrɒbəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to confirm or give support to a statement, theory, or finding.",
+      "indonesian": "menguatkan, mengkonfirmasi",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The witness's testimony corroborated the defendant's alibi.",
+      "collocations": [
+        "corroborate evidence",
+        "corroborate a theory",
+        "corroborate a claim",
+        "corroborate findings"
+      ],
+      "synonyms": [
+        "confirm",
+        "verify",
+        "substantiate",
+        "validate"
+      ]
+    },
+    {
+      "word": "pervasive",
+      "pronunciation": "/pərˈveɪsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "spreading widely throughout an area or a group of people.",
+      "indonesian": "meresap, meluas",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The influence of social media is pervasive in modern society.",
+      "collocations": [
+        "pervasive influence",
+        "pervasive culture",
+        "pervasive feeling",
+        "pervasive problem"
+      ],
+      "synonyms": [
+        "widespread",
+        "extensive",
+        "ubiquitous",
+        "prevalent"
+      ]
+    },
+    {
+      "word": "articulate",
+      "pronunciation": "/ɑːrˈtɪkjʊleɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to express an idea or feeling fluently and coherently.",
+      "indonesian": "mengartikulasikan, mengungkapkan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "She found it difficult to articulate her feelings after the traumatic event.",
+      "collocations": [
+        "articulate a vision",
+        "articulate a concern",
+        "articulate a plan",
+        "articulate clearly"
+      ],
+      "synonyms": [
+        "express",
+        "voice",
+        "utter",
+        "state"
       ]
     }
   ]
