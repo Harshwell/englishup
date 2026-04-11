@@ -1,178 +1,47 @@
 {
   "words": [
     {
-      "word": "Grasp",
-      "pronunciation": "/ɡræsp/",
-      "partOfSpeech": "verb",
-      "definition": "to understand something, especially something difficult.",
-      "indonesian": "memahami",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "It took me a while to grasp the concept of quantum physics.",
-      "collocations": [
-        "grasp a concept",
-        "grasp an idea",
-        "grasp the meaning",
-        "struggle to grasp"
-      ],
-      "synonyms": [
-        "understand",
-        "comprehend",
-        "fathom",
-        "apprehend"
-      ]
-    },
-    {
-      "word": "Elaborate",
-      "pronunciation": "/ɪˈlæbəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to explain something in more detail.",
-      "indonesian": "menjelaskan secara rinci",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Could you elaborate on your point about the economic impact?",
-      "collocations": [
-        "elaborate on something",
-        "elaborate further",
-        "elaborate in detail"
-      ],
-      "synonyms": [
-        "explain",
-        "detail",
-        "expound",
-        "flesh out"
-      ]
-    },
-    {
-      "word": "Feasible",
-      "pronunciation": "/ˈfiːzəbl/",
-      "partOfSpeech": "adjective",
-      "definition": "possible to do or achieve.",
-      "indonesian": "layak, dapat dikerjakan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Is it feasible to complete this project within the given budget?",
-      "collocations": [
-        "feasible option",
-        "feasible plan",
-        "feasible solution",
-        "not feasible"
-      ],
-      "synonyms": [
-        "possible",
-        "achievable",
-        "viable",
-        "practical"
-      ]
-    },
-    {
-      "word": "Subtle",
-      "pronunciation": "/ˈsʌtl/",
-      "partOfSpeech": "adjective",
-      "definition": "not obvious or easy to notice.",
-      "indonesian": "halus, samar-samar",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "There was a subtle shift in her attitude after the meeting.",
-      "collocations": [
-        "subtle difference",
-        "subtle hint",
-        "subtle change",
-        "subtle flavor"
-      ],
-      "synonyms": [
-        "understated",
-        "faint",
-        "slight",
-        "nuanced"
-      ]
-    },
-    {
-      "word": "Insight",
-      "pronunciation": "/ˈɪnsaɪt/",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
       "partOfSpeech": "noun",
-      "definition": "a clear, deep, and sometimes sudden understanding of a complicated problem or situation.",
-      "indonesian": "pemahaman mendalam, wawasan",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Her research provided valuable insights into consumer behavior.",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
       "collocations": [
-        "gain insight",
-        "offer insight",
-        "valuable insight",
-        "deep insight"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "understanding",
-        "perception",
-        "awareness",
-        "perspective"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Persuade",
-      "pronunciation": "/pərˈsweɪd/",
-      "partOfSpeech": "verb",
-      "definition": "to make someone agree to do or believe something.",
-      "indonesian": "membujuk, meyakinkan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "He finally persuaded her to join the team.",
-      "collocations": [
-        "persuade someone to do something",
-        "try to persuade",
-        "successfully persuade",
-        "difficult to persuade"
-      ],
-      "synonyms": [
-        "convince",
-        "influence",
-        "sway",
-        "coax"
-      ]
-    },
-    {
-      "word": "Imply",
-      "pronunciation": "/ɪmˈplaɪ/",
-      "partOfSpeech": "verb",
-      "definition": "to suggest something without saying it directly.",
-      "indonesian": "tersirat, menyiratkan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "His silence implied that he didn't agree.",
-      "collocations": [
-        "imply something",
-        "what does this imply?",
-        "it implies that",
-        "subtly imply"
-      ],
-      "synonyms": [
-        "suggest",
-        "hint",
-        "indicate",
-        "connote"
-      ]
-    },
-    {
-      "word": "Crucial",
-      "pronunciation": "/ˈkruːʃəl/",
+      "word": "straightforward",
+      "pronunciation": "",
       "partOfSpeech": "adjective",
-      "definition": "extremely important or necessary.",
-      "indonesian": "penting sekali, krusial",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Effective communication is crucial for success in any team.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "crucial role",
-        "crucial factor",
-        "crucial point",
-        "crucial decision"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "vital",
-        "essential",
-        "important",
-        "critical"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
