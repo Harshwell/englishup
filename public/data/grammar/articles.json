@@ -1,111 +1,143 @@
 {
-  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata yang digunakan sebelum kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak spesifik. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan untuk mendapatkan skor tinggi dalam IELTS.",
-  "keyRules": [
+  "grammarChart": [
     {
-      "article": "A",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya."
+      "article": "a",
+      "type": "Indefinite",
+      "form": "Used before singular, countable nouns that start with a consonant sound.",
+      "meaning": "Refers to a non-specific, one of many, or a single instance of something.",
+      "use": "Introducing a noun for the first time, stating a profession, expressing frequency, or for certain expressions of quantity."
     },
     {
-      "article": "An",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi vokal. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya."
+      "article": "an",
+      "type": "Indefinite",
+      "form": "Used before singular, countable nouns that start with a vowel sound (a, e, i, o, u, or vowel sounds like 'h' in 'hour').",
+      "meaning": "Refers to a non-specific, one of many, or a single instance of something.",
+      "use": "Introducing a noun for the first time, stating a profession, expressing frequency, or for certain expressions of quantity."
     },
     {
-      "article": "The",
-      "rule": "Digunakan sebelum kata benda tunggal atau jamak, yang dapat dihitung atau tidak dapat dihitung (uncountable nouns). Menunjukkan sesuatu yang spesifik, sudah diketahui oleh pendengar/pembaca, atau unik."
+      "article": "the",
+      "type": "Definite",
+      "form": "Used before singular or plural, countable or uncountable nouns.",
+      "meaning": "Refers to a specific noun that is known to both the speaker/writer and the listener/reader, or has been previously mentioned.",
+      "use": "Referring to something already mentioned, unique things, superlatives, certain geographical features, and when the context makes the noun specific."
     },
     {
-      "article": "Zero Article",
-      "rule": "Tidak menggunakan artikel sama sekali. Digunakan sebelum kata benda jamak atau tidak dapat dihitung ketika berbicara tentang sesuatu secara umum, atau sebelum kata benda abstrak, nama diri, nama tempat, bahasa, mata pelajaran, dll."
+      "article": "zero article (-)",
+      "type": "No article",
+      "form": "Used before plural countable nouns and uncountable nouns when speaking generally.",
+      "meaning": "Refers to things in general, abstract concepts, or plural nouns without specifying.",
+      "use": "Talking about things in general, abstract nouns, days of the week/months, languages, academic subjects, meals, and most proper nouns (countries, cities, people)."
     }
   ],
+  "explanation": "Articles are small but crucial words (a, an, the) that precede nouns. They indicate whether a noun is specific or non-specific. Understanding their usage is fundamental for clear and accurate English communication, especially in academic contexts like IELTS. We also have the 'zero article,' which means no article is used at all.",
+  "keyRules": [
+    "Use 'a' or 'an' with singular, countable nouns when referring to them for the first time or when they are not specific.",
+    "Use 'the' when the noun is specific, already known, unique, or has been mentioned before.",
+    "Use the zero article for plural countable nouns and uncountable nouns when speaking generally.",
+    "Pay attention to the sound, not just the letter, when deciding between 'a' and 'an' (e.g., 'a university' but 'an hour').",
+    "Proper nouns like most countries, cities, and people usually take the zero article, but there are exceptions (e.g., The United States, The Netherlands)."
+  ],
+  "azarNotes": "Indonesian learners often struggle with articles because Indonesian does not have direct equivalents. It's important to memorize the rules and practice extensively. Think about whether you are pointing to a *particular* thing ('the') or just *one of many* ('a'/'an'). For general statements, remember to omit the article.",
   "examples": [
     {
       "sentence": "I saw **a** cat in the garden.",
-      "explanation": "'a cat' - seekor kucing yang tidak spesifik, disebutkan pertama kali."
+      "explanation": "'a cat' - introducing a non-specific cat for the first time."
     },
     {
-      "sentence": "She ate **an** apple for breakfast.",
-      "explanation": "'an apple' - sebuah apel yang tidak spesifik, disebutkan pertama kali."
+      "sentence": "**An** elephant is a large animal.",
+      "explanation": "'An elephant' - referring to elephants in general, using 'an' because 'elephant' starts with a vowel sound."
     },
     {
-      "sentence": "**The** sun is shining brightly today.",
-      "explanation": "'the sun' - matahari adalah objek yang unik."
+      "sentence": "Please pass me **the** salt.",
+      "explanation": "'the salt' - referring to a specific salt shaker on the table, known to both speaker and listener."
     },
     {
-      "sentence": "Can you pass me **the** book on the table?",
-      "explanation": "'the book' - buku yang spesifik, yang ada di atas meja."
+      "sentence": "**The** sun rises in the east.",
+      "explanation": "'The sun' - there is only one sun, making it unique."
     },
     {
-      "sentence": "**Cats** are independent animals.",
-      "explanation": "Zero article - berbicara tentang kucing secara umum."
+      "sentence": "**Children** love playing.",
+      "explanation": "'Children' - referring to children in general, a plural noun, so no article."
     },
     {
-      "sentence": "I love **music**.",
-      "explanation": "Zero article - 'music' adalah kata benda tidak dapat dihitung yang digunakan secara umum."
+      "sentence": "**Water** is essential for life.",
+      "explanation": "'Water' - an uncountable noun used in a general sense, so no article."
     },
     {
-      "sentence": "**John** lives in London.",
-      "explanation": "Zero article - 'John' adalah nama diri, 'London' adalah nama tempat."
+      "sentence": "She is **a** doctor.",
+      "explanation": "'a doctor' - stating a profession."
+    },
+    {
+      "sentence": "He works **an** hour later than me.",
+      "explanation": "'an hour' - 'hour' starts with a silent 'h', so it has a vowel sound."
+    },
+    {
+      "sentence": "I study **English**.",
+      "explanation": "'English' - a language, usually takes the zero article."
+    },
+    {
+      "sentence": "We had **a** delicious meal yesterday.",
+      "explanation": "'a delicious meal' - introducing a non-specific meal."
     }
   ],
   "commonMistakes": [
-    "Menggunakan 'a' atau 'an' dengan kata benda jamak.",
-    "Menggunakan 'the' dengan kata benda yang digunakan secara umum (misalnya, 'The dogs are friendly' seharusnya 'Dogs are friendly').",
-    "Lupa menggunakan 'the' untuk sesuatu yang spesifik atau unik.",
-    "Salah memilih antara 'a' dan 'an' berdasarkan ejaan, bukan bunyi awal kata benda.",
-    "Menggunakan artikel dengan nama diri, bahasa, atau mata pelajaran (misalnya, 'the English' seharusnya 'English')."
+    "Using 'a'/'an' with plural or uncountable nouns when speaking generally (e.g., *a books*, *a information*).",
+    "Forgetting 'the' for unique items or previously mentioned nouns (e.g., *Sun is bright*, *I saw cat yesterday.*).",
+    "Incorrectly using 'a' or 'an' based on the spelling instead of the sound (e.g., *a hour*, *an university*).",
+    "Using 'the' with abstract nouns or general concepts (e.g., *The happiness is important.*).",
+    "Omitting 'the' when referring to specific geographical features that require it (e.g., *Mount Everest* vs. *The Pacific Ocean*)."
   ],
-  "ieltsTip": "Dalam IELTS Writing dan Speaking, perhatikan konteks kalimat. Apakah Anda merujuk pada sesuatu yang spesifik (gunakan 'the'), sesuatu yang baru disebutkan atau tidak spesifik (gunakan 'a'/'an'), atau sesuatu secara umum (gunakan zero article)? Latihan membaca artikel berita dan mendengarkan podcast dalam bahasa Inggris untuk menangkap pola penggunaan artikel secara alami.",
+  "ieltsTip": "In IELTS Writing Task 2, be mindful of using articles correctly when discussing general trends, social issues, or specific examples. For Task 1, accurately describe specific data using 'the'. Pay close attention to how native speakers use articles in the Listening section to catch nuances.",
   "quiz": [
     {
-      "question": "Please give me ______ advice.",
+      "question": "Please pass me ______ book on the table.",
       "options": [
         "a",
         "an",
         "the",
-        "zero article"
-      ],
-      "answer": "zero article"
-    },
-    {
-      "question": "She is ______ honest person.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
-      ],
-      "answer": "an"
-    },
-    {
-      "question": "______ Eiffel Tower is in Paris.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
+        "no article"
       ],
       "answer": "the"
     },
     {
-      "question": "I need to buy ______ new laptop.",
+      "question": "She is ______ excellent student.",
       "options": [
         "a",
         "an",
         "the",
-        "zero article"
+        "no article"
       ],
-      "answer": "a"
+      "answer": "an"
     },
     {
-      "question": "______ water is essential for life.",
+      "question": "______ dogs are loyal animals.",
       "options": [
         "a",
         "an",
         "the",
-        "zero article"
+        "no article"
       ],
-      "answer": "zero article"
+      "answer": "no article"
+    },
+    {
+      "question": "I need ______ advice on this matter.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article"
+    },
+    {
+      "question": "He bought ______ new car last week.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a"
     }
   ]
 }

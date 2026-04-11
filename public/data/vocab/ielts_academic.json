@@ -1,66 +1,163 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, merajalela",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society, transforming how we communicate and access information.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous throughout"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal"
+      ]
+    },
+    {
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "definition": "provide evidence to support or prove the truth of.",
+      "indonesian": "membuktikan, menguatkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Researchers must substantiate their claims with rigorous empirical data to gain credibility.",
+      "collocations": [
+        "substantiate a claim",
+        "substantiate allegations",
+        "substantiate findings"
+      ],
+      "synonyms": [
+        "verify",
+        "confirm",
+        "corroborate"
+      ]
+    },
+    {
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsɛmɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "spread or cause to be spread widely.",
+      "indonesian": "menyebarkan, menyiarkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The internet has enabled the rapid dissemination of news and information across the globe.",
+      "collocations": [
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate research"
+      ],
+      "synonyms": [
+        "circulate",
+        "propagate",
+        "spread"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
       "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir, contoh",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The shift from a geocentric to a heliocentric model represented a major paradigm shift in astronomy.",
+      "collocations": [
+        "paradigm shift",
+        "scientific paradigm",
+        "new paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework"
+      ]
+    },
+    {
+      "word": "inherent",
+      "pronunciation": "/ɪnˈhɪərənt/",
+      "partOfSpeech": "adjective",
+      "definition": "existing in something as a permanent, essential, or characteristic attribute.",
+      "indonesian": "melekat, bawaan, hakiki",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "There are inherent risks associated with investing in volatile markets.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "inherent risk",
+        "inherent advantage",
+        "inherent in"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "intrinsic",
+        "essential",
+        "innate"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "definition": "make less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi, memitigasi",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Governments are implementing policies to mitigate the effects of climate change.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "mitigate risk",
+        "mitigate the impact",
+        "mitigate the effects"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "alleviate",
+        "lessen",
+        "reduce"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
-      "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "word": "profound",
+      "pronunciation": "/prəˈfaʊnd/",
+      "partOfSpeech": "adjective",
+      "definition": "very great or intense.",
+      "indonesian": "mendalam, besar, hebat",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The discovery of antibiotics had a profound impact on public health.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "profound impact",
+        "profound effect",
+        "profound change"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "deep",
+        "significant",
+        "intense"
+      ]
+    },
+    {
+      "word": "articulate",
+      "pronunciation": "/ɑːˈtɪkjʊleɪt/",
+      "partOfSpeech": "verb",
+      "definition": "express (an idea or feeling) fluently and coherently.",
+      "indonesian": "mengartikulasikan, mengutarakan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Students are encouraged to articulate their arguments clearly and logically.",
+      "collocations": [
+        "articulate a thought",
+        "articulate a vision",
+        "articulate a concern"
+      ],
+      "synonyms": [
+        "express",
+        "voice",
+        "state"
       ]
     }
   ]

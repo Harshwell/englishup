@@ -2,44 +2,174 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡəɹɪðm̩/",
+      "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
+      "indonesian": "algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "complex algorithm",
+        "search algorithm",
+        "learning algorithm",
+        "algorithm design",
+        "algorithm efficiency"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "method",
+        "process",
+        "system"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "/ˈbaɪəs/",
+      "word": "automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
       "partOfSpeech": "noun",
-      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "definition": "The use of technology to perform tasks with minimal human intervention.",
+      "indonesian": "otomatisasi",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Automation in factories has led to increased productivity.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "process automation",
+        "industrial automation",
+        "home automation",
+        "degree of automation",
+        "impact of automation"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "mechanization",
+        "robotization",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "neural network",
+      "pronunciation": "/ˈnjʊərə l ˈnɛtwɜːrk/",
+      "partOfSpeech": "noun",
+      "definition": "A type of artificial intelligence system inspired by the structure and function of the human brain, used for tasks like pattern recognition and learning.",
+      "indonesian": "jaringan saraf tiruan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Deep learning models often employ sophisticated neural networks.",
+      "collocations": [
+        "artificial neural network",
+        "deep neural network",
+        "train a neural network",
+        "neural network architecture"
+      ],
+      "synonyms": [
+        "AI network",
+        "computational network"
+      ]
+    },
+    {
+      "word": "predictive analytics",
+      "pronunciation": "/prɪˈdɪktɪv ˌænəˈlɪtɪks/",
+      "partOfSpeech": "noun",
+      "definition": "The use of data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data.",
+      "indonesian": "analitik prediktif",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Businesses use predictive analytics to forecast sales trends.",
+      "collocations": [
+        "predictive analytics model",
+        "predictive analytics software",
+        "customer predictive analytics",
+        "financial predictive analytics"
+      ],
+      "synonyms": [
+        "forecasting",
+        "prognostication"
+      ]
+    },
+    {
+      "word": "scalability",
+      "pronunciation": "/ˌskeɪləˈbɪlɪti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "skalabilitas",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The cloud platform offers excellent scalability for growing businesses.",
+      "collocations": [
+        "system scalability",
+        "network scalability",
+        "application scalability",
+        "achieve scalability",
+        "ensure scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "flexibility",
+        "adaptability"
+      ]
+    },
+    {
+      "word": "interoperability",
+      "pronunciation": "/ˌɪntərɒpərəˈbɪlɪti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of different IT systems, devices, and applications to connect, communicate, and exchange data with each other.",
+      "indonesian": "interoperabilitas",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Ensuring interoperability between different medical devices is crucial for patient care.",
+      "collocations": [
+        "system interoperability",
+        "data interoperability",
+        "achieve interoperability",
+        "lack of interoperability"
+      ],
+      "synonyms": [
+        "compatibility",
+        "connectivity",
+        "integration"
+      ]
+    },
+    {
+      "word": "robust",
+      "pronunciation": "/rəʊˈbʌst/",
+      "partOfSpeech": "adjective",
+      "definition": "Strong, healthy, and able to withstand adverse conditions or stress.",
+      "indonesian": "kuat, tangguh",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The AI system needs to be robust enough to handle unexpected inputs.",
+      "collocations": [
+        "robust system",
+        "robust design",
+        "robust security",
+        "robust performance",
+        "robust framework"
+      ],
+      "synonyms": [
+        "strong",
+        "sturdy",
+        "resilient",
+        "powerful"
+      ]
+    },
+    {
+      "word": "decentralization",
+      "pronunciation": "/ˌdiːˈsɛntrəlaɪzeɪʃn/",
+      "partOfSpeech": "noun",
+      "definition": "The transfer of control of an activity or organization to several different organizations or agencies, rather than a single one.",
+      "indonesian": "desentralisasi",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Blockchain technology enables decentralization of data management.",
+      "collocations": [
+        "complete decentralization",
+        "partial decentralization",
+        "degree of decentralization",
+        "trend towards decentralization"
+      ],
+      "synonyms": [
+        "dispersion",
+        "distribution",
+        "delegation"
       ]
     }
   ]

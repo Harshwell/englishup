@@ -1,87 +1,117 @@
 {
-  "explanation": "Present Perfect dalam Bahasa Inggris digunakan untuk menyatakan tindakan atau kejadian yang terjadi di masa lalu namun masih memiliki hubungan atau relevansi dengan masa kini.  Ini seringkali tentang pengalaman, hasil dari suatu tindakan, atau tindakan yang dimulai di masa lalu dan berlanjut hingga sekarang.",
+  "grammarChart": {
+    "tense": "Present Perfect",
+    "form": "Subject + have/has + past participle (verb 3)",
+    "affirmative": "I have visited Paris. She has finished her homework.",
+    "negative": "I have not (haven't) visited Paris. She has not (hasn't) finished her homework.",
+    "interrogative": "Have you visited Paris? Has she finished her homework?"
+  },
+  "explanation": "The Present Perfect tense is used to connect the past with the present. It focuses on an action that happened in the past but has a result or relevance in the present. It's a very common tense in English, especially in spoken and written communication.",
   "keyRules": [
-    "Bentuk positif: Subjek + have/has + Past Participle (V3)",
-    "Bentuk negatif: Subjek + have/has + not + Past Participle (V3)",
-    "Bentuk tanya: Have/Has + Subjek + Past Participle (V3)?",
-    "Gunakan 'have' untuk subjek I, you, we, they, dan plural nouns.",
-    "Gunakan 'has' untuk subjek he, she, it, dan singular nouns.",
-    "Past Participle adalah bentuk ketiga dari kata kerja (misalnya: go - went - gone, eat - ate - eaten, play - played - played)."
+    {
+      "rule": "Formation:",
+      "details": "We form the Present Perfect with the auxiliary verb 'have' (for I, you, we, they) or 'has' (for he, she, it) followed by the past participle of the main verb. For regular verbs, the past participle is usually the same as the past simple (e.g., walked, played). For irregular verbs, you need to learn the third form (e.g., seen, gone, eaten)."
+    },
+    {
+      "rule": "Usage 1: Unspecified Past Time:",
+      "details": "When the exact time of the action is not important, or when we don't know or don't mention it. The focus is on the experience or the fact that it happened.  Keywords often include 'ever', 'never', 'already', 'yet', 'just'."
+    },
+    {
+      "rule": "Usage 2: Past Action with Present Result:",
+      "details": "When an action started in the past and continues up to the present, or when a past action has a clear consequence in the present."
+    },
+    {
+      "rule": "Usage 3: Life Experiences:",
+      "details": "To talk about experiences we have had (or not had) at any point in our lives.  'Ever' is often used in questions about experiences."
+    },
+    {
+      "rule": "Usage 4: Actions Completed Recently:",
+      "details": "With 'just' to indicate an action that has happened very recently."
+    }
+  ],
+  "azarNotes": [
+    "Remember to distinguish between the past simple and the present perfect. Past simple focuses on a finished action at a specific past time (e.g., 'I visited Paris last year'). Present perfect connects the past to the present (e.g., 'I have visited Paris').",
+    "Pay close attention to irregular past participles. They are crucial for forming the present perfect correctly.",
+    "The choice between 'have' and 'has' depends on the subject of the sentence."
   ],
   "examples": [
     {
-      "sentence": "I have visited Bali three times.",
-      "translation": "Saya sudah mengunjungi Bali tiga kali."
+      "sentence": "I have lived in Jakarta for five years.",
+      "explanation": "Usage 2: Action started in the past and continues to the present."
     },
     {
-      "sentence": "She has finished her homework.",
-      "translation": "Dia (perempuan) sudah menyelesaikan pekerjaan rumahnya."
+      "sentence": "She has never eaten sushi before.",
+      "explanation": "Usage 3: Life experience (or lack thereof)."
     },
     {
-      "sentence": "They have lived here for ten years.",
-      "translation": "Mereka sudah tinggal di sini selama sepuluh tahun."
+      "sentence": "They have just arrived at the airport.",
+      "explanation": "Usage 4: Action completed very recently."
     },
     {
-      "sentence": "Have you ever eaten sushi?",
-      "translation": "Apakah kamu pernah makan sushi?"
+      "sentence": "Have you ever seen the Eiffel Tower?",
+      "explanation": "Usage 3: Life experience question."
     },
     {
-      "sentence": "He hasn't seen that movie yet.",
-      "translation": "Dia (laki-laki) belum menonton film itu."
+      "sentence": "The train has already left.",
+      "explanation": "Usage 1: Unspecified past time; focus on the present result (the train is gone)."
+    },
+    {
+      "sentence": "He hasn't finished his report yet.",
+      "explanation": "Usage 1: Unspecified past time; focus on the present state (the report is not finished)."
     }
   ],
   "commonMistakes": [
-    "Menggunakan Simple Past ketika Present Perfect lebih tepat (misalnya, 'I went to London last year' vs 'I have been to London').",
-    "Lupa menggunakan 'have' atau 'has'.",
-    "Menggunakan bentuk V1 atau V2 sebagai Past Participle (misalnya, 'He has eat' bukan 'He has eaten').",
-    "Salah menempatkan 'not' dalam kalimat negatif."
+    "Using past simple instead of present perfect for life experiences or unfinished actions: (Incorrect) 'I ate pizza yesterday.' (Correct) 'I have eaten pizza many times.'",
+    "Confusing 'been' and 'gone': 'Been' implies returning from a place, while 'gone' implies still being there. (Correct) 'She has been to Bali three times.' (Correct) 'He has gone to the shop and is not back yet.'",
+    "Forgetting the past participle: (Incorrect) 'I have see the movie.' (Correct) 'I have seen the movie.'",
+    "Using time expressions that require past simple with present perfect: (Incorrect) 'I have seen him yesterday.' (Correct) 'I saw him yesterday.'"
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, Present Perfect sangat berguna untuk membicarakan tren, perkembangan, atau dampak dari suatu isu yang dimulai di masa lalu dan masih relevan hingga kini. Perhatikan penggunaan kata keterangan waktu seperti 'since', 'for', 'already', 'yet', 'ever', dan 'never' yang sering menyertai Present Perfect.",
+  "ieltsTip": "In IELTS Writing Task 1, the present perfect is useful for describing trends or changes over a period of time that extends to the present, or for summarizing achievements or developments. In Speaking, it's essential for discussing your experiences, past actions with present relevance, and opinions.",
   "quiz": [
     {
-      "question": "Complete the sentence: They ______ (buy) a new car last week.",
+      "question": "Choose the correct option to complete the sentence: I ______ this book before.",
       "options": [
-        "have bought",
-        "bought",
-        "has bought"
+        "read",
+        "have read",
+        "reads"
       ],
-      "answer": "bought"
+      "answer": "have read"
     },
     {
-      "question": "Complete the sentence: She ______ (not finish) her project yet.",
+      "question": "Choose the correct option to complete the sentence: She ______ to London twice.",
       "options": [
-        "hasn't finished",
+        "go",
+        "went",
+        "has been"
+      ],
+      "answer": "has been"
+    },
+    {
+      "question": "Choose the correct option to complete the sentence: They ______ their project yet.",
+      "options": [
+        "not finish",
         "haven't finished",
         "didn't finish"
       ],
-      "answer": "hasn't finished"
+      "answer": "haven't finished"
     },
     {
-      "question": "Complete the sentence: ______ you ever ______ (visit) Japan?",
+      "question": "Choose the correct option to complete the sentence: ______ you ever ______ a live concert?",
       "options": [
-        "Have, visited",
-        "Has, visited",
-        "Did, visit"
+        "Did, see",
+        "Have, saw",
+        "Have, seen"
       ],
-      "answer": "Have, visited"
+      "answer": "Have, seen"
     },
     {
-      "question": "Choose the correct sentence: ",
+      "question": "Choose the correct option to complete the sentence: He ______ his keys, so he can't get into his house.",
       "options": [
-        "I have see the Eiffel Tower.",
-        "I have saw the Eiffel Tower.",
-        "I have seen the Eiffel Tower."
+        "lost",
+        "has lost",
+        "loses"
       ],
-      "answer": "I have seen the Eiffel Tower."
-    },
-    {
-      "question": "Complete the sentence: We ______ (live) in this city since 2010.",
-      "options": [
-        "live",
-        "have lived",
-        "lived"
-      ],
-      "answer": "have lived"
+      "answer": "has lost"
     }
   ]
 }

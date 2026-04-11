@@ -1,47 +1,166 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "word": "Glimpse",
+      "pronunciation": "/ɡlɪmps/",
       "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "definition": "a momentary or partial view",
+      "indonesian": "sekilas pandang",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": "7+",
+      "example": "I caught a glimpse of her as she was leaving the building.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "catch a glimpse of",
+        "get a glimpse of",
+        "a fleeting glimpse"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "peek",
+        "flash",
+        "sight"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "Vibe",
+      "pronunciation": "/vaɪb/",
+      "partOfSpeech": "noun",
+      "definition": "the atmosphere or feeling that a place, person, or situation seems to have",
+      "indonesian": "suasana",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "This cafe has a really relaxed vibe.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "good vibe",
+        "bad vibe",
+        "chill vibe",
+        "positive vibe"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "atmosphere",
+        "mood",
+        "feeling",
+        "aura"
+      ]
+    },
+    {
+      "word": "Craze",
+      "pronunciation": "/kreɪz/",
+      "partOfSpeech": "noun",
+      "definition": "an enthusiastic interest in or desire for something that is very popular for a short time",
+      "indonesian": "tren yang sedang populer",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "There was a craze for fidget spinners a few years ago.",
+      "collocations": [
+        "go through a craze",
+        "start a craze",
+        "a temporary craze"
+      ],
+      "synonyms": [
+        "fad",
+        "mania",
+        "rage",
+        "trend"
+      ]
+    },
+    {
+      "word": "Struggle",
+      "pronunciation": "/ˈstrʌɡəl/",
+      "partOfSpeech": "verb",
+      "definition": "to try very hard to do or achieve something",
+      "indonesian": "berjuang",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "She struggled to keep her eyes open during the long lecture.",
+      "collocations": [
+        "struggle with",
+        "struggle to do",
+        "struggle for survival"
+      ],
+      "synonyms": [
+        "strive",
+        "endeavor",
+        "contend"
+      ]
+    },
+    {
+      "word": "Unwind",
+      "pronunciation": "/ʌnˈwaɪnd/",
+      "partOfSpeech": "verb",
+      "definition": "to relax and stop thinking about work or other problems",
+      "indonesian": "bersantai",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "After a busy week, I like to unwind by reading a book.",
+      "collocations": [
+        "unwind after work",
+        "unwind for the weekend",
+        "help someone unwind"
+      ],
+      "synonyms": [
+        "relax",
+        "loosen up",
+        "de-stress"
+      ]
+    },
+    {
+      "word": "Nostalgic",
+      "pronunciation": "/nɒˈstældʒɪk/",
+      "partOfSpeech": "adjective",
+      "definition": "feeling or showing nostalgia (a sentimental longing or wistful affection for a period in the past)",
+      "indonesian": "nostalgia",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Looking at old photos always makes me feel nostalgic.",
+      "collocations": [
+        "feel nostalgic",
+        "become nostalgic",
+        "a nostalgic feeling"
+      ],
+      "synonyms": [
+        "wistful",
+        "sentimental",
+        "reminiscent"
+      ]
+    },
+    {
+      "word": "Insightful",
+      "pronunciation": "/ˈɪnsaɪtfəl/",
+      "partOfSpeech": "adjective",
+      "definition": "having or showing an accurate and deep understanding",
+      "indonesian": "berwawasan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Her insightful comments helped us to see the problem from a new perspective.",
+      "collocations": [
+        "insightful analysis",
+        "insightful observation",
+        "provide insightful feedback"
+      ],
+      "synonyms": [
+        "perceptive",
+        "discerning",
+        "wise"
+      ]
+    },
+    {
+      "word": "Juggling",
+      "pronunciation": "/ˈdʒʌɡlɪŋ/",
+      "partOfSpeech": "verb (gerund/present participle)",
+      "definition": "managing multiple tasks or responsibilities simultaneously, often with difficulty",
+      "indonesian": "mengelola banyak hal sekaligus",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "She's great at juggling her career and raising two young children.",
+      "collocations": [
+        "juggling work and family",
+        "juggling responsibilities",
+        "constantly juggling"
+      ],
+      "synonyms": [
+        "balancing",
+        "managing",
+        "handling"
       ]
     }
   ]
