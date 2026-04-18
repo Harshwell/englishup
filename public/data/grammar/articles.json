@@ -1,25 +1,169 @@
 {
-  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": {
+    "title": "Articles: a, an, the, and Zero Article",
+    "columns": [
+      {
+        "header": "Article",
+        "content": [
+          "a",
+          "an",
+          "the",
+          "Ø (Zero Article)"
+        ]
+      },
+      {
+        "header": "Type",
+        "content": [
+          "Indefinite",
+          "Indefinite",
+          "Definite",
+          "No Article"
+        ]
+      },
+      {
+        "header": "When to Use",
+        "content": [
+          "Singular, countable nouns (consonant sound)",
+          "Singular, countable nouns (vowel sound)",
+          "Specific nouns (already mentioned, unique, or understood)",
+          "Plural/uncountable nouns (general meaning), abstract nouns, proper nouns (most), meals, languages, subjects, sports, games, diseases (most), specific academic fields"
+        ]
+      },
+      {
+        "header": "Meaning",
+        "content": [
+          "One of many",
+          "One of many",
+          "That specific one",
+          "General concept/category"
+        ]
+      }
+    ]
+  },
+  "explanation": "Articles are small words (a, an, the) that come before nouns. They tell us whether the noun is specific or general. The zero article (Ø) means no article is used. Mastering articles is crucial for clear and accurate English, especially for achieving a good IELTS score.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "rule": "Use 'a' before singular, countable nouns that begin with a consonant sound.",
+      "example": "a book, a university (starts with 'yoo' sound)"
+    },
+    {
+      "rule": "Use 'an' before singular, countable nouns that begin with a vowel sound.",
+      "example": "an apple, an hour (starts with 'ow' sound)"
+    },
+    {
+      "rule": "Use 'the' when referring to a specific noun that has already been mentioned, is unique, or is understood by both the speaker and listener.",
+      "example": "I saw a dog. The dog was friendly. The sun is shining."
+    },
+    {
+      "rule": "Use 'the' with superlatives and ordinal numbers.",
+      "example": "the best, the first"
+    },
+    {
+      "rule": "Use the zero article (Ø) with plural or uncountable nouns when speaking in a general sense.",
+      "example": "Children like to play. Water is essential for life."
+    },
+    {
+      "rule": "Use the zero article (Ø) with most abstract nouns, proper nouns (names of people, places, most countries, continents), languages, academic subjects, sports, games, and most diseases.",
+      "example": "Honesty is the best policy. John lives in London. I study English. He plays football. She has flu."
+    },
+    {
+      "rule": "Do NOT use articles with most proper nouns (people's names, most countries, continents, lakes, mountains).",
+      "example": "Mount Everest, Asia, Lake Toba, Jakarta"
+    },
+    {
+      "rule": "Use 'the' with specific geographical features like oceans, rivers, mountain ranges, and deserts.",
+      "example": "the Pacific Ocean, the Nile River, the Himalayas, the Sahara Desert"
+    }
   ],
+  "azarNotes": "Indonesian speakers often omit articles because they don't exist in the same way in Bahasa Indonesia. Pay close attention to the 'sound' rather than just the letter when deciding between 'a' and 'an'. For example, 'an hour' and 'a university'. Remember that context is key for 'the'.",
   "examples": [
     {
-      "sentence": "Articles appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Articles muncul dalam tugas IELTS."
+      "sentence": "I need to buy ___ new phone.",
+      "explanation": "'a' because 'new' starts with a consonant sound and it's a general, singular, countable noun."
+    },
+    {
+      "sentence": "She has ___ interesting idea.",
+      "explanation": "'an' because 'interesting' starts with a vowel sound and it's a singular, countable noun."
+    },
+    {
+      "sentence": "Could you pass me ___ salt?",
+      "explanation": "'the' because it refers to a specific salt shaker on the table, understood by context."
+    },
+    {
+      "sentence": "___ dogs are loyal animals.",
+      "explanation": "'Ø' (zero article) because we are talking about dogs in general."
+    },
+    {
+      "sentence": "She is studying ___ economics at ___ University of Indonesia.",
+      "explanation": "'Ø' for 'economics' (academic subject) and 'the' for 'University of Indonesia' (specific institution)."
+    },
+    {
+      "sentence": "He visited ___ Japan last year.",
+      "explanation": "'Ø' because Japan is a country name."
+    },
+    {
+      "sentence": "___ tallest building in the city is ___ Burj Khalifa.",
+      "explanation": "'The' for 'tallest' (superlative) and 'the' for 'Burj Khalifa' (unique landmark)."
     }
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Using 'a' or 'an' with plural or uncountable nouns (e.g., 'a waters', 'an informations').",
+    "Omitting 'the' when referring to something specific or unique (e.g., 'Sun is bright' instead of 'The sun is bright').",
+    "Using 'the' with general statements about plural or uncountable nouns (e.g., 'The dogs are friendly' when meaning all dogs).",
+    "Incorrectly choosing between 'a' and 'an' based on the letter instead of the sound (e.g., 'a hour').",
+    "Using articles with most proper nouns (e.g., 'the America', 'the John')."
   ],
-  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "Pay close attention to articles in your Writing and Speaking. Incorrect article usage can significantly impact your score for Grammatical Range and Accuracy. In Task 1 reports, be precise about whether you are referring to general trends or specific figures. In Task 2 essays, use articles correctly to distinguish between general concepts and specific examples. In Speaking, native-like fluency often involves natural and correct article use.",
+  "quiz": [
+    {
+      "question": "Fill in the blank: I saw ___ elephant at the zoo yesterday.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correctAnswer": "an"
+    },
+    {
+      "question": "Fill in the blank: ___ Mount Everest is the highest mountain in the world.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correctAnswer": "Ø"
+    },
+    {
+      "question": "Fill in the blank: Could you please close ___ door?",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correctAnswer": "the"
+    },
+    {
+      "question": "Fill in the blank: ___ honesty is ___ best policy.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correctAnswer": "Ø"
+    },
+    {
+      "question": "Fill in the blank: She enjoys ___ classical music.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correctAnswer": "Ø"
+    }
+  ]
 }

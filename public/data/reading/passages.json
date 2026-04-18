@@ -1,126 +1,271 @@
 [
   {
-    "title": "Artificial Intelligence and Education",
+    "title": "The AI Revolution in the Classroom",
     "topic": "Artificial Intelligence and Education",
-    "difficulty": "intermediate",
-    "passage": "Artificial Intelligence and Education is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
+    "difficulty": "Intermediate",
+    "passage": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly transforming various sectors, and education is no exception.  The integration of AI into educational settings promises to revolutionize how students learn and how educators teach.  One of the most significant impacts of AI is its ability to personalize learning experiences.  AI-powered platforms can analyze a student's performance, identify their strengths and weaknesses, and then tailor content and learning pathways accordingly.  This means that students who grasp a concept quickly can move ahead, while those who need more time can receive additional support and resources without feeling left behind.  Furthermore, AI can automate many administrative tasks that currently consume a significant portion of teachers' time.  Grading essays, scheduling, and managing student records are all areas where AI can significantly increase efficiency, allowing educators to focus more on direct student interaction and pedagogical innovation.  However, the widespread adoption of AI in education is not without its challenges.  Concerns about data privacy and security are paramount, as AI systems often require access to sensitive student information.  There are also ethical considerations regarding the potential for bias in AI algorithms, which could inadvertently perpetuate or even amplify existing inequalities.  Moreover, the digital divide remains a significant hurdle; ensuring equitable access to AI-powered tools for all students, regardless of their socioeconomic background, is crucial for realizing the full potential of this technology.  Despite these challenges, the potential benefits of AI in education are undeniable.  From providing instant feedback to students and offering intelligent tutoring systems that can answer questions 24/7, to assisting teachers in developing more effective lesson plans, AI is poised to become an indispensable tool in the modern classroom.",
     "vocabulary": [
       {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
-      }
-    ],
-    "questions": [],
-    "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
-    ]
-  },
-  {
-    "title": "The Rise of Remote Work",
-    "topic": "Remote Work and Productivity",
-    "difficulty": "beginner",
-    "passage": "Remote work, also known as working from home, has become increasingly popular. Many companies now allow their employees to work from a location outside the traditional office. This offers several benefits. For employees, it can mean more flexibility in their schedules and less time spent commuting. This can lead to a better work-life balance. For employers, remote work can sometimes reduce office costs, such as rent and utilities.  However, remote work also presents challenges. It can be difficult for some people to stay focused and motivated when they are not in a shared workspace. Communication can also be a hurdle, as spontaneous conversations in an office are harder to replicate online.  Despite these challenges, many studies suggest that remote work can be just as productive, if not more productive, than working in an office, especially when the right tools and strategies are in place.",
-    "vocabulary": [
-      {
-        "word": "increasingly",
-        "definition": "more and more over a period of time"
+        "word": "confined",
+        "meaning": "limited to",
+        "example": "The project was confined to a small group of students."
       },
       {
-        "word": "traditional",
-        "definition": "existing in or as part of a tradition; normal or conventional"
+        "word": "transforming",
+        "meaning": "changing drastically",
+        "example": "The internet is transforming the way we communicate."
       },
       {
-        "word": "benefits",
-        "definition": "advantages or good things"
+        "word": "revolutionize",
+        "meaning": "change fundamentally",
+        "example": "The invention of the printing press revolutionized the spread of knowledge."
       },
       {
-        "word": "flexibility",
-        "definition": "the ability to change or be changed easily"
+        "word": "personalize",
+        "meaning": "make individual or specific to a person",
+        "example": "The software can personalize the learning experience for each user."
       },
       {
-        "word": "commuting",
-        "definition": "the journey to and from work"
+        "word": "tailor",
+        "meaning": "adapt or adjust to meet specific needs",
+        "example": "The course was tailored to the requirements of the industry."
       },
       {
-        "word": "reduce",
-        "definition": "make smaller or less in amount, degree, or size"
+        "word": "pedagogical",
+        "meaning": "relating to the method and practice of teaching",
+        "example": "The teacher's pedagogical approach was highly effective."
       },
       {
-        "word": "challenges",
-        "definition": "difficulties or problems"
+        "word": "automate",
+        "meaning": "operate automatically using machines or computers",
+        "example": "The factory uses robots to automate the production line."
       },
       {
-        "word": "motivated",
-        "definition": "having a strong reason to do something"
+        "word": "consumes",
+        "meaning": "uses up a resource",
+        "example": "This task consumes a lot of my time."
       },
       {
-        "word": "replicate",
-        "definition": "to copy something exactly"
+        "word": "paramount",
+        "meaning": "of utmost importance",
+        "example": "Safety is paramount in this industry."
       },
       {
-        "word": "productive",
-        "definition": "achieving a lot; producing a lot of something"
+        "word": "bias",
+        "meaning": "prejudice for or against one thing, person, or group compared with another, usually in a way considered to be unfair",
+        "example": "The study revealed a bias in the selection of participants."
+      },
+      {
+        "word": "perpetuate",
+        "meaning": "make something continue indefinitely",
+        "example": "These policies can perpetuate social inequalities."
+      },
+      {
+        "word": "amplif",
+        "meaning": "increase the volume or intensity of",
+        "example": "The new technology will amplify the reach of our message."
+      },
+      {
+        "word": "equitable",
+        "meaning": "fair and impartial",
+        "example": "We aim for equitable distribution of resources."
+      },
+      {
+        "word": "hurdle",
+        "meaning": "an obstacle or difficulty",
+        "example": "Lack of funding is a major hurdle for the project."
+      },
+      {
+        "word": "indispensable",
+        "meaning": "absolutely necessary",
+        "example": "A good dictionary is indispensable for language learners."
       }
     ],
     "questions": [
       {
-        "type": "True/False/Not Given",
-        "question": "Remote work means working from a different country.",
-        "answer": "False"
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "What is one of the primary benefits of AI in education mentioned in the passage?",
+        "options": [
+          "Reducing the number of teachers required",
+          "Providing personalized learning experiences",
+          "Automating all student assessments",
+          "Eliminating the need for textbooks"
+        ],
+        "correct_answer": "Providing personalized learning experiences"
       },
       {
-        "type": "True/False/Not Given",
-        "question": "Working from home can save employees time on travel.",
+        "id": 2,
+        "type": "true_false_not_given",
+        "question": "AI can help teachers by reducing the time they spend on administrative tasks.",
         "answer": "True"
       },
       {
-        "type": "True/False/Not Given",
-        "question": "Remote work always leads to lower productivity.",
-        "answer": "False"
+        "id": 3,
+        "type": "short_answer",
+        "question": "What are two ethical concerns related to the implementation of AI in education?",
+        "answer": "Data privacy and security, and potential bias in AI algorithms."
       },
       {
-        "type": "Multiple Choice",
-        "question": "Which of the following is a benefit of remote work for employees?",
-        "options": [
-          "More office costs",
-          "Less flexibility",
-          "Better work-life balance",
-          "More spontaneous conversations"
+        "id": 4,
+        "type": "matching_heading",
+        "question": "Match the following sentence to the correct heading:",
+        "sentence": "Ensuring that all students can access AI tools regardless of their background is crucial.",
+        "headings": [
+          "Personalized Learning",
+          "Teacher Efficiency",
+          "Challenges of AI Adoption",
+          "Future Potential"
         ],
-        "answer": "Better work-life balance"
+        "correct_heading": "Challenges of AI Adoption"
       },
       {
-        "type": "Short Answer",
-        "question": "What is another term for remote work mentioned in the passage?",
-        "answer": "working from home"
+        "id": 5,
+        "type": "vocabulary_in_context",
+        "question": "In the sentence 'AI is poised to become an indispensable tool in the modern classroom,' what does the word 'indispensable' mean?",
+        "options": [
+          "Optional",
+          "Unnecessary",
+          "Essential",
+          "Expensive"
+        ],
+        "correct_answer": "Essential"
       }
     ],
     "ieltsTips": [
-      "Read the passage carefully before answering the questions.",
-      "Pay attention to keywords in the questions and find them in the passage.",
-      "For True/False/Not Given questions, look for explicit information in the text. If the information is not there, choose 'Not Given'.",
-      "For multiple-choice questions, read all options before selecting the best answer.",
-      "For short answer questions, make sure your answer is concise and directly answers the question."
+      "For multiple-choice questions, read the question carefully and then scan the passage for keywords. Eliminate options that are clearly incorrect.",
+      "For True/False/Not Given questions, look for direct statements in the passage that confirm or contradict the statement. If the information is not present, choose 'Not Given'.",
+      "For short-answer questions, identify the specific information requested and find the precise answer in the passage. Keep your answers concise.",
+      "For matching headings, read each heading and then scan the paragraph to find the main idea. Sometimes the heading might be a synonym or paraphrase of the main idea.",
+      "For vocabulary-in-context questions, read the sentence containing the word and consider the surrounding words to infer the meaning. Choose the option that best fits the context."
     ]
   },
   {
-    "title": "Cities and Climate Planning",
-    "topic": "Cities and Climate Planning",
-    "difficulty": "advanced",
-    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
+    "title": "Working from Home: A New Way to Be Productive?",
+    "topic": "Remote Work and Productivity",
+    "difficulty": "Beginner",
+    "passage": "The idea of working from home, or remote work, has become very popular. Many companies now let their employees work from their houses instead of going to an office every day. This change brings both good and bad things. \n\nOne good thing about remote work is that people can save time and money by not commuting. Instead of sitting in traffic for hours, they can use that time for other activities, like exercising or spending time with family. Also, some people find they can focus better at home because there are fewer distractions than in a busy office. This can lead to more work being done. \n\nHowever, remote work can also be challenging. It can be hard to separate work life from home life. Sometimes, people might work too much because their 'office' is always there. It can also feel lonely for some, as they miss the social interaction of being with colleagues. For companies, managing a remote team can be difficult. They need to make sure everyone is working and communicating well.",
     "vocabulary": [
       {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
+        "word": "remote work",
+        "meaning": "working from home or a location away from the main office."
+      },
+      {
+        "word": "popular",
+        "meaning": "liked by many people."
+      },
+      {
+        "word": "employees",
+        "meaning": "people who work for a company or organization."
+      },
+      {
+        "word": "commuting",
+        "meaning": "the act of traveling between one's home and place of work."
+      },
+      {
+        "word": "distractions",
+        "meaning": "things that prevent one from concentrating."
+      },
+      {
+        "word": "challenging",
+        "meaning": "difficult in an interesting or enjoyable way."
+      },
+      {
+        "word": "separate",
+        "meaning": "to divide or keep apart."
+      },
+      {
+        "word": "interaction",
+        "meaning": "communication or direct involvement with someone or something."
+      },
+      {
+        "word": "managing",
+        "meaning": "the process of controlling or organizing something."
       }
     ],
-    "questions": [],
+    "questions": [
+      {
+        "id": 1,
+        "type": "comprehension",
+        "question": "What is the main topic of the passage?",
+        "options": [
+          "The history of offices",
+          "Working from home and its effects",
+          "The best ways to commute",
+          "How to avoid distractions"
+        ],
+        "answer": "Working from home and its effects"
+      },
+      {
+        "id": 2,
+        "type": "comprehension",
+        "question": "According to the passage, what is one benefit of remote work related to travel?",
+        "options": [
+          "People can travel more for business.",
+          "Commuting time and money are saved.",
+          "Offices become more accessible.",
+          "Traffic jams disappear."
+        ],
+        "answer": "Commuting time and money are saved."
+      },
+      {
+        "id": 3,
+        "type": "inference",
+        "question": "The passage suggests that some people might find remote work difficult because:",
+        "options": [
+          "They have too much free time.",
+          "They miss talking to their coworkers.",
+          "Their homes are too quiet.",
+          "They don't have enough work to do."
+        ],
+        "answer": "They miss talking to their coworkers."
+      },
+      {
+        "id": 4,
+        "type": "vocabulary",
+        "question": "In the sentence 'This change brings both good and bad things,' what does 'change' refer to?",
+        "options": [
+          "The weather",
+          "The economy",
+          "The shift to working from home",
+          "The office building"
+        ],
+        "answer": "The shift to working from home"
+      },
+      {
+        "id": 5,
+        "type": "comprehension",
+        "question": "What is mentioned as a challenge for companies with remote teams?",
+        "options": [
+          "Employees are too happy.",
+          "Ensuring work is done and communication is good.",
+          "Employees don't want to work.",
+          "The office is too small."
+        ],
+        "answer": "Ensuring work is done and communication is good."
+      }
+    ],
     "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
+      {
+        "tip": "Read the title and headings carefully to understand the main topic before you start reading the passage.",
+        "section": "Before Reading"
+      },
+      {
+        "tip": "Underline keywords in the questions and then scan the passage for those keywords or their synonyms.",
+        "section": "During Reading"
+      },
+      {
+        "tip": "Pay attention to the meaning of words in context. If you don't know a word, try to guess its meaning from the surrounding sentences.",
+        "section": "Vocabulary"
+      },
+      {
+        "tip": "For comprehension questions, find the exact information in the passage. For inference questions, think about what the passage suggests but doesn't state directly.",
+        "section": "Answering Questions"
+      },
+      {
+        "tip": "After answering all questions, quickly reread your answers and compare them with the passage to check for any mistakes.",
+        "section": "After Answering"
+      }
     ]
   }
 ]
