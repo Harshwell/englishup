@@ -1,133 +1,25 @@
 {
-  "grammarChart": {
-    "title": "Present Perfect: have/has + Past Participle",
-    "structure": [
-      {
-        "type": "affirmative",
-        "formula": "Subject + have/has + Past Participle (V3)"
-      },
-      {
-        "type": "negative",
-        "formula": "Subject + have/has + not + Past Participle (V3)"
-      },
-      {
-        "type": "interrogative",
-        "formula": "Have/Has + Subject + Past Participle (V3)?"
-      }
-    ],
-    "examples": [
-      {
-        "affirmative": "I have finished my homework."
-      },
-      {
-        "negative": "She has not seen that movie."
-      },
-      {
-        "interrogative": "Have they arrived yet?"
-      }
-    ]
-  },
-  "explanation": "The Present Perfect tense is used to connect the past with the present. It describes an action that happened at an unspecified time in the past, or an action that started in the past and continues to the present, or an action that happened in the past but has a result in the present. We use 'have' with 'I', 'you', 'we', and 'they', and 'has' with 'he', 'she', and 'it'. The past participle is the third form of the verb (e.g., go - went - gone; eat - ate - eaten; play - played - played).",
+  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
   "keyRules": [
-    "**Unspecified Past Time:** The exact time of the action is not important or is unknown. We often use 'ever', 'never', 'already', 'yet', 'just', 'for', and 'since'.",
-    "**Connection to the Present:** The action has a relevance or consequence in the present.",
-    "**Life Experiences:** Used to talk about things that have or have not happened in someone's life.",
-    "**Actions Continuing to the Present:** Used with 'for' (a period of time) and 'since' (a specific point in time) to indicate an action that began in the past and is still ongoing.",
-    "**Recent Past Actions:** Often used with 'just' to describe an action that has very recently been completed."
-  ],
-  "azarNotes": [
-    "Remember to use the correct past participle form of the verb. Irregular verbs often cause confusion (e.g., 'seen' not 'saw' for the past participle of 'see').",
-    "Pay attention to the subject-verb agreement ('have' vs. 'has').",
-    "The Present Perfect is NOT used with specific past time expressions like 'yesterday', 'last week', 'in 1999', etc. For those, we use the Simple Past."
+    "Pahami pola dasar.",
+    "Perhatikan konteks.",
+    "Hindari terjemahan mentah.",
+    "Gunakan dalam writing dan speaking."
   ],
   "examples": [
     {
-      "usage": "Unspecified Past Time",
-      "sentence": "I have visited Bali twice."
-    },
-    {
-      "usage": "Connection to the Present (Result)",
-      "sentence": "She has lost her keys, so she can't get into her house."
-    },
-    {
-      "usage": "Life Experiences",
-      "sentence": "Have you ever tried Indonesian food?"
-    },
-    {
-      "usage": "Actions Continuing to the Present",
-      "sentence": "They have lived here for ten years."
-    },
-    {
-      "usage": "Actions Continuing to the Present",
-      "sentence": "He has worked at that company since 2015."
-    },
-    {
-      "usage": "Recent Past Actions",
-      "sentence": "We have just finished our dinner."
+      "sentence": "Present Perfect appears in IELTS tasks.",
+      "note": "Use the structure accurately.",
+      "indonesian": "Present Perfect muncul dalam tugas IELTS."
     }
   ],
   "commonMistakes": [
-    "Using the Simple Past instead of the Present Perfect with 'ever', 'never', 'already', 'yet'. (Incorrect: 'I saw him yesterday.' Correct: 'I have seen him before.')",
-    "Using the past simple form instead of the past participle. (Incorrect: 'She has ate.' Correct: 'She has eaten.')",
-    "Confusing 'for' and 'since'. ('For' indicates duration, 'since' indicates a starting point.)",
-    "Using the Present Perfect with specific past time markers. (Incorrect: 'I have gone there last year.' Correct: 'I went there last year.')"
-  ],
-  "ieltsTip": "In IELTS Writing Task 2, the Present Perfect can be useful for discussing trends or changes over time, especially when the exact starting point or ending point isn't the focus. In Speaking, it's excellent for sharing life experiences and talking about what you've done or seen.",
-  "quiz": [
     {
-      "question": "Choose the correct form of the verb to complete the sentence: I ______ my passport.",
-      "options": [
-        "lost",
-        "lose",
-        "have lost",
-        "has lost"
-      ],
-      "answer": "have lost",
-      "explanation": "The sentence describes an action in the past with a present result (cannot travel). The Present Perfect is used here."
-    },
-    {
-      "question": "Choose the correct form of the verb to complete the sentence: She ______ to London three times.",
-      "options": [
-        "went",
-        "goes",
-        "has gone",
-        "has been"
-      ],
-      "answer": "has been",
-      "explanation": "This refers to a life experience or an unspecified past time. 'Has been' is the correct past participle of 'be' and implies she visited and returned, or is still alive and has had the opportunity to go."
-    },
-    {
-      "question": "Choose the correct form of the verb to complete the sentence: They ______ their project yet.",
-      "options": [
-        "not finish",
-        "haven't finished",
-        "didn't finish",
-        "not finished"
-      ],
-      "answer": "haven't finished",
-      "explanation": "'Yet' is a common adverb used with the Present Perfect in negative sentences to indicate something that has not happened up to the present moment."
-    },
-    {
-      "question": "Choose the correct form of the verb to complete the sentence: ______ you ever ______ sushi?",
-      "options": [
-        "Did, eat",
-        "Have, ate",
-        "Have, eaten",
-        "Do, eat"
-      ],
-      "answer": "Have, eaten",
-      "explanation": "'Ever' is used with the Present Perfect to ask about life experiences. 'Eaten' is the past participle of 'eat'."
-    },
-    {
-      "question": "Choose the correct form of the verb to complete the sentence: He ______ this book since Monday.",
-      "options": [
-        "reads",
-        "has read",
-        "read",
-        "has been reading"
-      ],
-      "answer": "has been reading",
-      "explanation": "The word 'since' indicates a starting point for an action that continues to the present. While 'has read' is also grammatically possible, 'has been reading' emphasizes the ongoing nature of the activity, which is often preferred with 'since' for continuous actions."
+      "wrong": "Learner guesses the form.",
+      "right": "Learner checks the structure first.",
+      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
     }
-  ]
+  ],
+  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
+  "quiz": []
 }

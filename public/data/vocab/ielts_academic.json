@@ -1,171 +1,66 @@
 {
   "words": [
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something bad or unsatisfactory better",
-      "indonesian": "memperbaiki, meningkatkan (keadaan buruk)",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The government implemented policies to ameliorate the economic crisis.",
-      "collocations": [
-        "ameliorate the situation",
-        "ameliorate poverty",
-        "ameliorate living conditions"
-      ],
-      "synonyms": [
-        "improve",
-        "better",
-        "enhance",
-        "alleviate"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere",
-      "indonesian": "ada di mana-mana, serba ada",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous throughout"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make a problem, bad situation, or negative feeling worse",
-      "indonesian": "memperburuk, memperjahat",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The lack of rain will only exacerbate the drought conditions.",
-      "collocations": [
-        "exacerbate the problem",
-        "exacerbate conflict",
-        "exacerbate tensions"
-      ],
-      "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "compound"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
       "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model",
-      "indonesian": "paradigma, pola pikir, contoh khas",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The scientific community is undergoing a paradigm shift in its understanding of the universe.",
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "paradigm shift",
-        "a new paradigm",
-        "the dominant paradigm"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsɛmɪneɪt/",
+      "word": "allocate",
+      "pronunciation": "/ˈæl.ə.keɪt/",
       "partOfSpeech": "verb",
-      "definition": "to spread or disperse something, especially information, widely",
-      "indonesian": "menyebarkan, menyiarkan (informasi)",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The organization aims to disseminate information about climate change to the public.",
-      "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate findings"
-      ],
-      "synonyms": [
-        "spread",
-        "circulate",
-        "propagate",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful",
-      "indonesian": "meredakan, mengurangi (dampak buruk)",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Efforts are being made to mitigate the environmental impact of industrial development.",
-      "collocations": [
-        "mitigate the risks",
-        "mitigate the effects",
-        "mitigate the damage"
-      ],
-      "synonyms": [
-        "alleviate",
-        "reduce",
-        "lessen",
-        "soften"
-      ]
-    },
-    {
-      "word": "inherent",
-      "pronunciation": "/ɪnˈhɪərənt/",
-      "partOfSpeech": "adjective",
-      "definition": "existing in something as a permanent, essential, or characteristic attribute",
-      "indonesian": "melekat, bawaan, hakiki",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There are inherent risks associated with investing in the stock market.",
-      "collocations": [
-        "inherent in",
-        "inherent danger",
-        "inherent complexity"
-      ],
-      "synonyms": [
-        "intrinsic",
-        "innate",
-        "essential",
-        "built-in"
-      ]
-    },
-    {
-      "word": "ostensibly",
-      "pronunciation": "/ɒsˈtensəbli/",
-      "partOfSpeech": "adverb",
-      "definition": "apparently or purportedly, but perhaps not actually",
-      "indonesian": "secara lahiriah, tampaknya",
+      "definition": "To set aside for a purpose.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The meeting was ostensibly about budget cuts, but the real agenda was staff restructuring.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "ostensibly for",
-        "ostensibly a",
-        "ostensibly to"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "apparently",
-        "seemingly",
-        "purportedly",
-        "allegedly"
+        "appropriate",
+        "earmark",
+        "apportion"
+      ]
+    },
+    {
+      "word": "enhance",
+      "pronunciation": "/ɪnˈhɑːns/",
+      "partOfSpeech": "verb",
+      "definition": "To lift, raise up.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "level": "C1",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
+      "collocations": [
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
+      ],
+      "synonyms": [
+        "heighten",
+        "raise"
       ]
     }
   ]

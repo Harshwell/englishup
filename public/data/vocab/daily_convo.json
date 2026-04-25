@@ -1,179 +1,47 @@
 {
   "words": [
     {
-      "word": "hassle",
-      "pronunciation": "/ˈhæsəl/",
-      "partOfSpeech": "noun/verb",
-      "definition": "Annoyance or inconvenience; to bother or trouble someone.",
-      "indonesian": "keributan, kerepotan; mengganggu, merepotkan",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "It was such a hassle trying to find a parking spot downtown during rush hour. Don't hassle me about it, I'll do it later.",
-      "collocations": [
-        "a lot of hassle",
-        "avoid the hassle",
-        "deal with the hassle",
-        "cause hassle",
-        "hassle someone"
-      ],
-      "synonyms": [
-        "inconvenience",
-        "trouble",
-        "bother",
-        "annoyance",
-        "nuisance"
-      ]
-    },
-    {
-      "word": "vibe",
-      "pronunciation": "/vaɪb/",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
       "partOfSpeech": "noun",
-      "definition": "The atmosphere or feeling of a place, person, or situation.",
-      "indonesian": "suasana, nuansa, aura",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "This cafe has a really relaxed vibe, perfect for studying. I got a good vibe from him when we first met.",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
       "collocations": [
-        "good vibe",
-        "bad vibe",
-        "positive vibe",
-        "negative vibe",
-        "get a vibe"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "atmosphere",
-        "mood",
-        "feeling",
-        "aura",
-        "ambiance"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "catch up",
-      "pronunciation": "/kætʃ ʌp/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To talk to someone you have not seen for some time and find out what they have been doing; to reach the same level or standard as someone else.",
-      "indonesian": "bertemu untuk bertukar kabar; mengejar ketertinggalan",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "Let's grab coffee next week and catch up. I need to catch up on my reading for the course.",
-      "collocations": [
-        "catch up with someone",
-        "catch up on something",
-        "fall behind and catch up"
-      ],
-      "synonyms": [
-        "reconnect",
-        "update",
-        "overtake",
-        "reach"
-      ]
-    },
-    {
-      "word": "awkward",
-      "pronunciation": "/ˈɔːkwərd/",
+      "word": "straightforward",
+      "pronunciation": "",
       "partOfSpeech": "adjective",
-      "definition": "Uncomfortable, embarrassing, or difficult to deal with.",
-      "indonesian": "canggung, tidak nyaman, sulit",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "There was an awkward silence after he told that joke. It was an awkward situation for everyone involved.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "awkward silence",
-        "awkward moment",
-        "awkward situation",
-        "awkward conversation"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "embarrassing",
-        "uncomfortable",
-        "clumsy",
-        "gauche",
-        "difficult"
-      ]
-    },
-    {
-      "word": "figure out",
-      "pronunciation": "/ˈfɪɡjər aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To understand or solve something.",
-      "indonesian": "memecahkan, mencari tahu, memahami",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "I can't figure out how to assemble this furniture. We need to figure out a solution to this problem.",
-      "collocations": [
-        "figure out a problem",
-        "figure out a way",
-        "figure out how to"
-      ],
-      "synonyms": [
-        "solve",
-        "understand",
-        "deduce",
-        "discern",
-        "resolve"
-      ]
-    },
-    {
-      "word": "hang out",
-      "pronunciation": "/hæŋ aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To spend time relaxing or socializing with someone.",
-      "indonesian": "nongkrong, menghabiskan waktu bersama",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "We usually hang out at the park on weekends. I'm just hanging out at home tonight.",
-      "collocations": [
-        "hang out with friends",
-        "hang out together",
-        "hang out at a place"
-      ],
-      "synonyms": [
-        "socialize",
-        "spend time",
-        "relax",
-        "mingle"
-      ]
-    },
-    {
-      "word": "relatable",
-      "pronunciation": "/rɪˈleɪtəbəl/",
-      "partOfSpeech": "adjective",
-      "definition": "Easy to understand or sympathize with because it is similar to one's own experiences.",
-      "indonesian": "dapat dihubungkan, bisa dipahami, relevan",
-      "level": "C1",
-      "ieltsBand": 7,
-      "example": "Her stories about dealing with job stress are very relatable. The character in the movie felt very relatable to me.",
-      "collocations": [
-        "highly relatable",
-        "very relatable",
-        "make something relatable"
-      ],
-      "synonyms": [
-        "understandable",
-        "connectable",
-        "sympathetic",
-        "relevant"
-      ]
-    },
-    {
-      "word": "under the weather",
-      "pronunciation": "/ˈʌndər ðə ˈwɛðər/",
-      "partOfSpeech": "idiom",
-      "definition": "Feeling slightly ill.",
-      "indonesian": "kurang sehat, agak sakit",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "I'm feeling a bit under the weather today, so I'm going to stay home. She's been under the weather for a few days.",
-      "collocations": [
-        "feel under the weather",
-        "be under the weather"
-      ],
-      "synonyms": [
-        "unwell",
-        "sick",
-        "ill",
-        "indisposed"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
