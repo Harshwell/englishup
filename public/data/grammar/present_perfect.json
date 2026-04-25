@@ -1,25 +1,132 @@
 {
-  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": [
+    {
+      "tense": "Present Perfect",
+      "form": "Subject + have/has + Past Participle (V3)",
+      "meaning": "Connects the past with the present, indicating actions or states that started in the past and continue to the present, or have a result in the present. It also describes experiences or completed actions without specifying a precise past time.",
+      "use": [
+        "To talk about experiences (often with 'ever', 'never', 'before').",
+        "To talk about actions that started in the past and continue to the present (often with 'for', 'since').",
+        "To talk about actions that have a result in the present (often with 'just', 'already', 'yet').",
+        "To talk about recent past actions where the exact time is not important or unknown."
+      ]
+    }
+  ],
+  "explanation": "The Present Perfect tense is a crucial tense for expressing connections between the past and the present. It's formed using the auxiliary verbs 'have' or 'has' followed by the past participle of the main verb.  'Have' is used with 'I', 'you', 'we', and 'they', while 'has' is used with 'he', 'she', and 'it'. The past participle is the third form of the verb (e.g., go - went - gone; eat - ate - eaten).  This tense is versatile and can be used to describe a range of situations, from personal experiences to ongoing situations and their present consequences.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "rule": "Formation",
+      "details": "Subject + have/has + Past Participle (V3). For regular verbs, the past participle is often the same as the simple past (e.g., played, worked). For irregular verbs, you need to memorize the past participle form (e.g., seen, written, been)."
+    },
+    {
+      "rule": "Usage with 'for' and 'since'",
+      "details": "'For' is used to indicate a duration of time (e.g., for two years, for a long time). 'Since' is used to indicate a starting point in time (e.g., since 2020, since last week)."
+    },
+    {
+      "rule": "Usage with 'ever', 'never', 'already', 'yet'",
+      "details": "'Ever' and 'never' are typically used in questions and negative statements about experiences. 'Already' is used in affirmative statements to indicate something happened sooner than expected. 'Yet' is used in negative statements and questions to indicate something has not happened but is expected to."
+    },
+    {
+      "rule": "Negative and Question Forms",
+      "details": "Negative: Subject + have/has + not + Past Participle. Question: Have/Has + Subject + Past Participle?"
+    }
+  ],
+  "azarNotes": [
+    "Remember that the Present Perfect is NOT used with specific past time expressions like 'yesterday', 'last week', 'in 1999'. For these, you would use the Simple Past tense.",
+    "The choice between 'have' and 'has' depends on the subject of the sentence.",
+    "Pay close attention to the irregular past participles; they are essential for accurate use of the Present Perfect."
   ],
   "examples": [
     {
-      "sentence": "Present Perfect appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Present Perfect muncul dalam tugas IELTS."
+      "sentence": "She has lived in Jakarta for five years.",
+      "tense": "Present Perfect",
+      "explanation": "Indicates an action that started in the past and continues to the present."
+    },
+    {
+      "sentence": "I have never traveled by train before.",
+      "tense": "Present Perfect",
+      "explanation": "Describes an experience (or lack of experience)."
+    },
+    {
+      "sentence": "They have just finished their project.",
+      "tense": "Present Perfect",
+      "explanation": "Indicates a recent action with a present result."
+    },
+    {
+      "sentence": "Have you seen the new movie yet?",
+      "tense": "Present Perfect",
+      "explanation": "A question about an experience, using 'yet' to imply expectation."
+    },
+    {
+      "sentence": "He has not completed the assignment.",
+      "tense": "Present Perfect",
+      "explanation": "A negative statement about an action, using 'not'."
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
+      "mistake": "Using Simple Past with 'for'/'since'.",
+      "correction": "Incorrect: I lived here for two years. Correct: I have lived here for two years."
+    },
+    {
+      "mistake": "Using Simple Past with specific past time expressions.",
+      "correction": "Incorrect: I have seen him yesterday. Correct: I saw him yesterday."
+    },
+    {
+      "mistake": "Incorrect past participle.",
+      "correction": "Incorrect: She has went to the market. Correct: She has gone to the market."
+    },
+    {
+      "mistake": "Confusing 'have' and 'has'.",
+      "correction": "Incorrect: We has finished. Correct: We have finished."
     }
   ],
-  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 1 (Academic), the Present Perfect is very useful for describing trends over time, especially when you want to show a continuous change or a state that began in the past and is still relevant at the end of the period described. For example: 'The number of tourists has increased significantly since 2010.' In IELTS Speaking, use it to talk about your experiences and what you have done.",
+  "quiz": [
+    {
+      "question": "Choose the correct form of the verb to complete the sentence: My sister _______ (visit) Paris three times.",
+      "options": [
+        "visited",
+        "has visited",
+        "visiting"
+      ],
+      "correctAnswer": "has visited"
+    },
+    {
+      "question": "Complete the sentence with the correct word: I haven't seen him _______ last Monday.",
+      "options": [
+        "for",
+        "since",
+        "ago"
+      ],
+      "correctAnswer": "since"
+    },
+    {
+      "question": "Which sentence correctly uses the Present Perfect tense to describe an experience?",
+      "options": [
+        "She went to Australia last year.",
+        "She has been to Australia.",
+        "She will go to Australia."
+      ],
+      "correctAnswer": "She has been to Australia."
+    },
+    {
+      "question": "Choose the correct negative form: They _______ (not finish) the report yet.",
+      "options": [
+        "haven't finished",
+        "didn't finish",
+        "not finished"
+      ],
+      "correctAnswer": "haven't finished"
+    },
+    {
+      "question": "Complete the sentence: He _______ (just/arrive) home.",
+      "options": [
+        "just arrived",
+        "has just arrived",
+        "arrived just"
+      ],
+      "correctAnswer": "has just arrived"
+    }
+  ]
 }

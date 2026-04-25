@@ -1,47 +1,177 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "word": "hassle",
+      "pronunciation": "/ˈhæsəl/",
       "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "definition": "Annoyance or trouble; a situation that is inconvenient or difficult.",
+      "indonesian": "kerepotan, kerumitan",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": "7.0",
+      "example": "Finding parking downtown can be such a hassle.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "a lot of hassle",
+        "avoid hassle",
+        "cause hassle",
+        "deal with hassle"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "inconvenience",
+        "trouble",
+        "difficulty",
+        "annoyance"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "vibe",
+      "pronunciation": "/vaɪb/",
+      "partOfSpeech": "noun",
+      "definition": "The atmosphere or feeling that characterizes a place, person, or situation.",
+      "indonesian": "suasana, aura",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "This cafe has a really relaxed vibe, I love it here.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "good vibe",
+        "bad vibe",
+        "positive vibe",
+        "chill vibe"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "atmosphere",
+        "mood",
+        "feeling",
+        "aura"
+      ]
+    },
+    {
+      "word": "catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time talking to someone you have not seen for a while; to reach the same level or standard as someone else.",
+      "indonesian": "bertemu dan bercerita, mengejar ketertinggalan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Let's grab coffee next week and catch up on everything.",
+      "collocations": [
+        "catch up with friends",
+        "catch up on news",
+        "catch up on sleep",
+        "catch up to someone"
+      ],
+      "synonyms": [
+        "reunite",
+        "reconnect",
+        "update each other",
+        "reach"
+      ]
+    },
+    {
+      "word": "hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing with someone.",
+      "indonesian": "nongkrong, menghabiskan waktu",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "We usually hang out at the park on weekends.",
+      "collocations": [
+        "hang out with friends",
+        "hang out at home",
+        "hang out together"
+      ],
+      "synonyms": [
+        "socialize",
+        "spend time",
+        "relax",
+        "associate"
+      ]
+    },
+    {
+      "word": "figure out",
+      "pronunciation": "/ˈfɪɡər aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To understand or solve something.",
+      "indonesian": "memecahkan, mencari tahu",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I can't figure out how to assemble this furniture.",
+      "collocations": [
+        "figure out a problem",
+        "figure out a way",
+        "figure out the meaning"
+      ],
+      "synonyms": [
+        "solve",
+        "understand",
+        "discern",
+        "comprehend"
+      ]
+    },
+    {
+      "word": "awkward",
+      "pronunciation": "/ˈɔːkwərd/",
+      "partOfSpeech": "adjective",
+      "definition": "Uncomfortable, embarrassing, or difficult to deal with.",
+      "indonesian": "canggung, janggal",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "There was an awkward silence after he told that joke.",
+      "collocations": [
+        "awkward situation",
+        "awkward moment",
+        "awkward silence",
+        "feel awkward"
+      ],
+      "synonyms": [
+        "embarrassing",
+        "uncomfortable",
+        "clumsy",
+        "gauche"
+      ]
+    },
+    {
+      "word": "genuine",
+      "pronunciation": "/ˈdʒenjuɪn/",
+      "partOfSpeech": "adjective",
+      "definition": "Real or actual; sincere and honest.",
+      "indonesian": "asli, tulus",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "She has a genuine interest in helping others.",
+      "collocations": [
+        "genuine concern",
+        "genuine emotion",
+        "genuine smile",
+        "genuine person"
+      ],
+      "synonyms": [
+        "authentic",
+        "real",
+        "sincere",
+        "legitimate"
+      ]
+    },
+    {
+      "word": "resilient",
+      "pronunciation": "/rɪˈzɪliənt/",
+      "partOfSpeech": "adjective",
+      "definition": "Able to withstand or recover quickly from difficult conditions.",
+      "indonesian": "tahan banting, ulet",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "Children are often more resilient than adults when facing challenges.",
+      "collocations": [
+        "resilient spirit",
+        "resilient economy",
+        "resilient community",
+        "be resilient"
+      ],
+      "synonyms": [
+        "tough",
+        "strong",
+        "adaptable",
+        "hardy"
       ]
     }
   ]

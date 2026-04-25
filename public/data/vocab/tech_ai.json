@@ -1,45 +1,176 @@
 {
   "words": [
     {
-      "word": "algorithm",
-      "pronunciation": "/ˈælɡəɹɪðm̩/",
+      "word": "Algorithm",
+      "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "definition": "A set of rules or instructions that a computer follows in order to solve a problem or perform a task.",
+      "indonesian": "Algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "Machine learning algorithms are trained on vast amounts of data.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "complex algorithm",
+        "search algorithm",
+        "learning algorithm",
+        "develop an algorithm",
+        "run an algorithm"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "process",
+        "method",
+        "formula"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "/ˈbaɪəs/",
+      "word": "Automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
       "partOfSpeech": "noun",
-      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "definition": "The use of technology to carry out a task with minimum human intervention.",
+      "indonesian": "Otomatisasi",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "The factory is investing heavily in automation to increase efficiency.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "industrial automation",
+        "process automation",
+        "home automation",
+        "drive automation",
+        "implement automation"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "mechanization",
+        "robotization",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "Big Data",
+      "pronunciation": "/bɪɡ ˈdeɪtə/",
+      "partOfSpeech": "noun phrase",
+      "definition": "Extremely large amounts of data that are analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions.",
+      "indonesian": "Data Besar",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Companies are using big data analytics to understand customer preferences.",
+      "collocations": [
+        "big data analytics",
+        "big data sets",
+        "volume of big data",
+        "manage big data",
+        "process big data"
+      ],
+      "synonyms": [
+        "large-scale data",
+        "vast datasets"
+      ]
+    },
+    {
+      "word": "Cloud Computing",
+      "pronunciation": "/klaʊd kəmˈpjuːtɪŋ/",
+      "partOfSpeech": "noun phrase",
+      "definition": "The practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer.",
+      "indonesian": "Komputasi Awan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Many businesses are migrating their operations to cloud computing platforms.",
+      "collocations": [
+        "cloud computing services",
+        "cloud computing infrastructure",
+        "public cloud computing",
+        "private cloud computing",
+        "access cloud computing"
+      ],
+      "synonyms": [
+        "online computing",
+        "networked computing"
+      ]
+    },
+    {
+      "word": "Cybersecurity",
+      "pronunciation": "/ˌsaɪbər sɪˈkjʊərəti/",
+      "partOfSpeech": "noun",
+      "definition": "The practice of protecting systems, networks, and programs from digital attacks.",
+      "indonesian": "Keamanan Siber",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Robust cybersecurity measures are essential in today's digital world.",
+      "collocations": [
+        "data cybersecurity",
+        "network cybersecurity",
+        "cybersecurity threats",
+        "cybersecurity protocols",
+        "enhance cybersecurity"
+      ],
+      "synonyms": [
+        "information security",
+        "digital security"
+      ]
+    },
+    {
+      "word": "Machine Learning",
+      "pronunciation": "/məˈʃiːn ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun phrase",
+      "definition": "A type of artificial intelligence that allows computer systems to learn from data and improve their performance without being explicitly programmed.",
+      "indonesian": "Pembelajaran Mesin",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Machine learning is a core component of many AI applications.",
+      "collocations": [
+        "supervised machine learning",
+        "unsupervised machine learning",
+        "deep machine learning",
+        "implement machine learning",
+        "apply machine learning"
+      ],
+      "synonyms": [
+        "AI learning",
+        "computational learning"
+      ]
+    },
+    {
+      "word": "Neural Network",
+      "pronunciation": "/ˈnjʊərəl ˈnetwɜːk/",
+      "partOfSpeech": "noun phrase",
+      "definition": "A computing system inspired by the biological neural networks that constitute animal brains.",
+      "indonesian": "Jaringan Saraf Tiruan",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Deep neural networks are capable of recognizing complex patterns in images.",
+      "collocations": [
+        "artificial neural network",
+        "deep neural network",
+        "convolutional neural network",
+        "design a neural network",
+        "train a neural network"
+      ],
+      "synonyms": [
+        "ANN",
+        "artificial brain"
+      ]
+    },
+    {
+      "word": "Ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere.",
+      "indonesian": "Ada di mana-mana",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous computing",
+        "ubiquitous presence",
+        "become ubiquitous",
+        "feel ubiquitous"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "everywhere"
       ]
     }
   ]

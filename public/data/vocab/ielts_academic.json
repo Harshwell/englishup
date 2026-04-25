@@ -1,66 +1,175 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
-      "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "elucidate",
+      "pronunciation": "/ɪˈluːsɪdeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something clear or easier to understand, by explaining it carefully",
+      "indonesian": "menjelaskan, memperjelas",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The professor's lecture aimed to elucidate the complex theories of quantum physics.",
+      "collocations": [
+        "elucidate the meaning",
+        "elucidate the process",
+        "elucidate the findings",
+        "further elucidate"
+      ],
+      "synonyms": [
+        "clarify",
+        "explain",
+        "illuminate",
+        "expound"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere",
+      "indonesian": "ada di mana-mana, umum",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7.0+",
+      "example": "Smartphones have become ubiquitous in modern society, transforming communication and access to information.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "ubiquitous presence",
+        "ubiquitous technology",
+        "increasingly ubiquitous"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "pervasive",
+        "omnipresent",
+        "widespread",
+        "universal"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "definition": "to make something less severe, serious, or painful",
+      "indonesian": "meredakan, mengurangi, meringankan",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Governments are implementing policies to mitigate the effects of climate change.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "mitigate the impact",
+        "mitigate the risk",
+        "mitigate the damage",
+        "help to mitigate"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "alleviate",
+        "reduce",
+        "lessen",
+        "ease"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
-      "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "word": "pertinent",
+      "pronunciation": "/ˈpɜːrtɪnənt/",
+      "partOfSpeech": "adjective",
+      "definition": "relevant to a particular matter; apposite",
+      "indonesian": "relevan, bersangkut paut",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "The speaker only addressed the pertinent issues during the conference.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "pertinent to",
+        "pertinent information",
+        "pertinent question"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "relevant",
+        "applicable",
+        "germane",
+        "appropriate"
+      ]
+    },
+    {
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of similarity between two or more things, or a difference between what is expected and what actually happens",
+      "indonesian": "ketidaksesuaian, perbedaan",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "There was a significant discrepancy between the reported sales figures and the actual revenue.",
+      "collocations": [
+        "a discrepancy between",
+        "significant discrepancy",
+        "major discrepancy",
+        "resolve a discrepancy"
+      ],
+      "synonyms": [
+        "disagreement",
+        "inconsistency",
+        "difference",
+        "variance"
+      ]
+    },
+    {
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to provide evidence to support or prove the truth of something",
+      "indonesian": "membuktikan, menguatkan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The research team sought to substantiate their hypothesis with rigorous empirical data.",
+      "collocations": [
+        "substantiate a claim",
+        "substantiate the findings",
+        "substantiate the theory"
+      ],
+      "synonyms": [
+        "prove",
+        "verify",
+        "confirm",
+        "corroborate"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model",
+      "indonesian": "paradigma, pola pikir, contoh",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The introduction of the internet represented a paradigm shift in how we access and share information.",
+      "collocations": [
+        "paradigm shift",
+        "new paradigm",
+        "scientific paradigm",
+        "change the paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework",
+        "example"
+      ]
+    },
+    {
+      "word": "conducive",
+      "pronunciation": "/kənˈdjuːsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "making a certain situation or outcome likely or possible",
+      "indonesian": "kondusif, mendukung",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "A quiet and organized study environment is conducive to effective learning.",
+      "collocations": [
+        "conducive to",
+        "conducive environment",
+        "highly conducive"
+      ],
+      "synonyms": [
+        "favorable",
+        "advantageous",
+        "beneficial",
+        "helpful"
       ]
     }
   ]
