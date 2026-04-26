@@ -193,6 +193,8 @@ export default function EnglishUp() {
   }, []);
   useEffect(() => {
     if (!hydrated) return;
+  }, []);
+  useEffect(() => {
     const payload = {
       xp,
       earned,
@@ -207,6 +209,7 @@ export default function EnglishUp() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
     } catch {}
   }, [hydrated, xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
+  }, [xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
   useEffect(() => {
     const { lvl: l } = getLvl(xp);
     if (l.n > prevLvRef.current) { prevLvRef.current = l.n; showNotif({ type: "levelup", data: l }); if (l.n >= 4) tryUnlock("level_4"); }
