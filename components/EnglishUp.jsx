@@ -124,6 +124,7 @@ export default function EnglishUp() {
   const prevLvRef = useRef(1);
   const t1 = useRef(null);
   const t2 = useRef(null);
+  const saveRef = useRef(null);
 
   // Chat
   const [msgs, setMsgs] = useState([CHAT_SEED_MESSAGE]);
@@ -193,8 +194,7 @@ export default function EnglishUp() {
   }, []);
   useEffect(() => {
     if (!hydrated) return;
-  }, []);
-  useEffect(() => {
+    clearTimeout(saveRef.current);
     const payload = {
       xp,
       earned,
@@ -205,11 +205,13 @@ export default function EnglishUp() {
       msgs: msgs.slice(-30),
       historyLog: historyLog.slice(0, 30)
     };
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-    } catch {}
+    saveRef.current = setTimeout(() => {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      } catch {}
+    }, 200);
+    return () => clearTimeout(saveRef.current);
   }, [hydrated, xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
-  }, [xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
   useEffect(() => {
     const { lvl: l } = getLvl(xp);
     if (l.n > prevLvRef.current) { prevLvRef.current = l.n; showNotif({ type: "levelup", data: l }); if (l.n >= 4) tryUnlock("level_4"); }
