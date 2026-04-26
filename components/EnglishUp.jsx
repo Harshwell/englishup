@@ -184,8 +184,31 @@ export default function EnglishUp() {
       setVocabN(Number(saved?.vocabN || 0));
       setReadN(Number(saved?.readN || 0));
       setChatN(Number(saved?.chatN || 0));
-      setMsgs(Array.isArray(saved?.msgs) && saved.msgs.length ? saved.msgs : [CHAT_SEED_MESSAGE]);
-      setHistoryLog(Array.isArray(saved?.historyLog) ? saved.historyLog.slice(0, 30) : []);
+      const safeMsgs = Array.isArray(saved?.msgs)
+        ? saved.msgs
+          .filter((item) => item && typeof item === "object")
+          .map((item, idx) => ({
+            id: item.id || `saved-${idx}`,
+            role: item.role === "user" ? "user" : "ai",
+            text: String(item.text || "")
+          }))
+          .slice(-30)
+        : [];
+      setMsgs(safeMsgs.length ? safeMsgs : [CHAT_SEED_MESSAGE]);
+
+      const safeHistory = Array.isArray(saved?.historyLog)
+        ? saved.historyLog
+          .filter((item) => item && typeof item === "object")
+          .map((item, idx) => ({
+            id: item.id || `hist-${idx}`,
+            type: String(item.type || "event"),
+            label: String(item.label || "-"),
+            value: String(item.value || ""),
+            at: String(item.at || "")
+          }))
+          .slice(0, 30)
+        : [];
+      setHistoryLog(safeHistory);
       if (Array.isArray(saved?.earned)) {
         unlockedRef.current = new Set(saved.earned);
       }
@@ -435,7 +458,7 @@ export default function EnglishUp() {
             else if (Number(ans[qi]) === oi) cls = "border-red-400 bg-red-50 text-red-700 line-through";
             else cls = "border-gray-100 text-gray-400";
           }
-          return <button key={oi} disabled={done} onClick={() => setAns((p) => ({ ...p, [qi]: oi }))} className={`w-full text-left px-3 py-2 rounded-xl border text-sm transition-colors ${cls}`}>{opt}</button>;
+          return <button key={oi} disabled={done} onClick={() => setAns((p) => ({ ...p, [qi]: oi }))} className={`w-full text-left px-3 py-2 rounded-xl border text-sm transition-colors ${cls}`}>{String(opt || "")}</button>;
         })}
       </div>
       {done && <p className="text-xs text-gray-500 bg-gray-50 rounded-xl px-3 py-2 leading-relaxed">💡 {q.explanation}</p>}
@@ -649,9 +672,9 @@ export default function EnglishUp() {
                 <div className="space-y-2">
                   {historyLog.slice(0, 8).map((item) => (
                     <div key={item.id} className="flex items-center gap-2 text-sm border border-gray-100 rounded-xl px-3 py-2">
-                      <span className="font-semibold text-gray-800 capitalize min-w-20">{item.type}</span>
-                      <span className="text-gray-600 truncate">{item.label}</span>
-                      <span className="ml-auto text-xs font-bold text-indigo-600">{item.value}</span>
+                      <span className="font-semibold text-gray-800 capitalize min-w-20">{String(item.type || "event")}</span>
+                      <span className="text-gray-600 truncate">{String(item.label || "-")}</span>
+                      <span className="ml-auto text-xs font-bold text-indigo-600">{String(item.value || "")}</span>
                     </div>
                   ))}
                 </div>
@@ -672,7 +695,7 @@ export default function EnglishUp() {
                 <div key={m.id} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
                   <div className={`max-w-4/5 rounded-2xl px-4 py-3 text-sm leading-relaxed whitespace-pre-line ${m.role === "user" ? "bg-indigo-600 text-white rounded-br-sm" : "bg-white border border-gray-200 text-gray-800 rounded-bl-sm shadow-sm"}`}>
                     {m.role === "ai" && <span className="block text-xs font-semibold text-indigo-500 mb-1">AI Tutor</span>}
-                    {m.text}
+                    {String(m.text || "")}
                   </div>
                 </div>
               ))}

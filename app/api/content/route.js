@@ -78,7 +78,13 @@ async function generateAiJson(prompt) {
 }
 
 function normalizeQuizItem(item, index = 0) {
-  const options = Array.isArray(item?.options) ? item.options.map((opt) => String(opt)) : [];
+  const options = Array.isArray(item?.options)
+    ? item.options.map((opt) => {
+      if (typeof opt === "string") return opt;
+      if (opt && typeof opt === "object") return String(opt.text || opt.label || opt.value || "Option");
+      return String(opt || "Option");
+    })
+    : [];
   const answer = Number(item?.answer);
   return {
     question: String(item?.question || `Extra question ${index + 1}`),
