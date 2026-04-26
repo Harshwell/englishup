@@ -118,45 +118,86 @@ function normalizeQuizOptions(options = []) {
   });
 }
 
-function normalizeGrammarData(raw = null) {
+function readText(value, keys = []) {
+  if (typeof value === "string") return value;
+  if (typeof value === "number") return String(value);
+  if (value && typeof value === "object") {
+    for (const key of keys) {
+      if (value[key] !== undefined && value[key] !== null) return String(value[key]);
+    }
+  }
+  return "";
+}
+
+function rotateOptions(question, seedValue = "seed") {
+  const options = Array.isArray(question.options) ? [...question.options] : [];
+  if (options.length <= 1) return question;
+  const offset = Math.abs(seedValue.split("").reduce((acc, ch) => acc + ch.charCodeAt(0), 0)) % options.length;
+  if (!offset) return question;
+  const rotated = options.map((_, i) => options[(i + offset) % options.length]);
+  const nextAnswer = (question.answer - offset + options.length) % options.length;
+  return { ...question, options: rotated, answer: nextAnswer };
+}
+
+function normalizeGrammarData(raw = null, topicLabel = "this grammar topic", variantSeed = "") {
   if (!raw || typeof raw !== "object") return null;
   const quiz = Array.isArray(raw.quiz)
     ? raw.quiz
       .filter((item) => item && typeof item === "object")
-      .map((item, idx) => ({
-        question: String(item.question || `Question ${idx + 1}`),
+      .map((item, idx) => rotateOptions({
+        question: readText(item.question || item, ["question", "text"]) || `Question ${idx + 1}`,
         options: normalizeQuizOptions(item.options),
         answer: Number.isInteger(Number(item.answer)) ? Number(item.answer) : 0,
-        explanation: String(item.explanation || "Review the explanation and retry.")
-      }))
+        explanation: readText(item.explanation || item, ["explanation", "reason"]) || "Review the explanation and retry."
+      }, `${variantSeed}-${idx}`))
     : [];
+
+  const examples = Array.isArray(raw.examples)
+    ? raw.examples.map((item) => ({
+      sentence: readText(item, ["sentence", "text", "example"]),
+      indonesian: readText(item, ["indonesian", "translation"]),
+      note: readText(item, ["note", "explanation"])
+    }))
+    : [];
+
+  const nonEmptyExamples = examples.filter((item) => item.sentence.trim());
+  if (!nonEmptyExamples.length) {
+    nonEmptyExamples.push(
+      { sentence: `I reviewed ${topicLabel.toLowerCase()} before class.`, indonesian: "", note: "Simple accurate model sentence." },
+      { sentence: `My tutor corrected one small form in my ${topicLabel.toLowerCase()} sentence.`, indonesian: "", note: "Small markers can change meaning." }
+    );
+  }
+
+  const commonMistakes = Array.isArray(raw.commonMistakes)
+    ? raw.commonMistakes.map((item) => ({
+      wrong: readText(item, ["wrong", "incorrect"]),
+      right: readText(item, ["right", "correct"]),
+      why: readText(item, ["why", "reason"])
+    })).filter((item) => item.wrong || item.right)
+    : [];
+
+  if (!commonMistakes.length) {
+    commonMistakes.push({
+      wrong: "Using structure without checking form marker.",
+      right: "Check article/tense marker before finalizing sentence.",
+      why: "Most grammar score loss comes from missing small markers."
+    });
+  }
 
   return {
     ...raw,
-    grammarChart: String(raw.grammarChart || ""),
-    explanation: String(raw.explanation || ""),
-    keyRules: Array.isArray(raw.keyRules) ? raw.keyRules.map((x) => String(x || "")) : [],
-    azarNotes: Array.isArray(raw.azarNotes) ? raw.azarNotes.map((x) => String(x || "")) : [],
-    examples: Array.isArray(raw.examples)
-      ? raw.examples.map((item) => ({
-        sentence: String(item?.sentence || ""),
-        indonesian: String(item?.indonesian || ""),
-        note: String(item?.note || "")
-      }))
-      : [],
-    commonMistakes: Array.isArray(raw.commonMistakes)
-      ? raw.commonMistakes.map((item) => ({
-        wrong: String(item?.wrong || ""),
-        right: String(item?.right || ""),
-        why: String(item?.why || "")
-      }))
-      : [],
-    ieltsTip: String(raw.ieltsTip || ""),
+    grammarChart: readText(raw.grammarChart || raw, ["grammarChart", "chart"]),
+    explanation: readText(raw.explanation || raw, ["explanation", "summary"]) || `${topicLabel} needs form, meaning, and use control. Focus on small markers and context accuracy.`,
+    keyRules: Array.isArray(raw.keyRules) ? raw.keyRules.map((x) => readText(x, ["text", "rule"])).filter(Boolean) : [],
+    azarNotes: Array.isArray(raw.azarNotes) ? raw.azarNotes.map((x) => readText(x, ["text", "note"])).filter(Boolean) : [],
+    examples: nonEmptyExamples,
+    commonMistakes,
+    ieltsTip: readText(raw.ieltsTip || raw, ["ieltsTip", "tip"]) || `Use one accurate ${topicLabel.toLowerCase()} sentence instead of forcing complex but wrong grammar.`,
     studyCase: raw.studyCase && typeof raw.studyCase === "object"
       ? {
-        context: String(raw.studyCase.context || ""),
-        task: String(raw.studyCase.task || ""),
-        checklist: Array.isArray(raw.studyCase.checklist) ? raw.studyCase.checklist.map((x) => String(x || "")) : []
+        context: readText(raw.studyCase.context || raw.studyCase, ["context", "text"]),
+        task: readText(raw.studyCase.task || raw.studyCase, ["task", "instruction"]),
+        checklist: Array.isArray(raw.studyCase.checklist) ? raw.studyCase.checklist.map((x) => readText(x, ["text", "item"])).filter(Boolean) : []
       }
       : null,
     quiz
@@ -352,17 +393,17 @@ export default function EnglishUp() {
       const generated = await safePostJSON("/api/content", { type: "grammar", topicId: t.id, seed }, { retries: 1 });
 
       if (generated?.quiz?.length) {
-        setGData(normalizeGrammarData(generated));
+        setGData(normalizeGrammarData(generated, t.label, seed));
         return;
       }
 
       const res = await fetch(`/data/grammar/${t.id}.json`);
       if (!res.ok) throw new Error("not found");
       const data = await res.json();
-      setGData(normalizeGrammarData(data));
+      setGData(normalizeGrammarData(data, t.label, seed));
     } catch {
       const fallback = getFallbackGrammar(t.id);
-      if (fallback) setGData(normalizeGrammarData(fallback));
+      if (fallback) setGData(normalizeGrammarData(fallback, t.label, seed));
       else setGError(true);
     } finally { setGLoad(false); }
   };
