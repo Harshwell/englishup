@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import { getFallbackGrammar, getFallbackVocab } from "../lib/fallback-content";
+import { buildSeed, deriveLearningInsights, safePostJSON } from "../lib/learning-flow";
 import {
   Home, MessageSquare, BookOpen, FileText, Send, RefreshCw,
   CheckCircle, XCircle, ChevronRight, Lightbulb, Trophy,
@@ -105,6 +106,112 @@ const DAILIES = [
   { task: "Send 5 messages in conversation practice",                     xp: 45, tab: "chat"    },
   { task: "Complete the Conditionals lesson — key for IELTS Task 2",      xp: 60, tab: "grammar" },
 ];
+const STORAGE_KEY = "englishup.v1.progress";
+const CHAT_SEED_MESSAGE = { role: "ai", id: 0, text: "Hello! Selamat datang di EnglishUp 👋\n\nSebagai lulusan Sastra Inggris yang me-refresh kemampuannya, kita fokus pada grammar detail (metode Azar), vocabulary kaya, dan reading comprehension ala IELTS.\n\nCoba tulis beberapa kalimat tentang dirimu dalam Bahasa Inggris — aku akan berikan detailed feedback!" };
+
+function normalizeQuizOptions(options = []) {
+  if (!Array.isArray(options)) return [];
+  return options.map((opt) => {
+    if (typeof opt === "string") return opt;
+    if (opt && typeof opt === "object") return String(opt.text || opt.label || opt.value || "Option");
+    return String(opt || "Option");
+  });
+}
+
+function readText(value, keys = []) {
+  if (typeof value === "string") return value;
+  if (typeof value === "number") return String(value);
+  if (value && typeof value === "object") {
+    for (const key of keys) {
+      if (value[key] !== undefined && value[key] !== null) return String(value[key]);
+    }
+  }
+  return "";
+}
+
+function rotateOptions(question, seedValue = "seed") {
+  const options = Array.isArray(question.options) ? [...question.options] : [];
+  if (options.length <= 1) return question;
+  const offset = Math.abs(seedValue.split("").reduce((acc, ch) => acc + ch.charCodeAt(0), 0)) % options.length;
+  if (!offset) return question;
+  const rotated = options.map((_, i) => options[(i + offset) % options.length]);
+  const nextAnswer = (question.answer - offset + options.length) % options.length;
+  return { ...question, options: rotated, answer: nextAnswer };
+}
+
+function normalizeGrammarData(raw = null, topicLabel = "this grammar topic", variantSeed = "") {
+  if (!raw || typeof raw !== "object") return null;
+  const quiz = Array.isArray(raw.quiz)
+    ? raw.quiz
+      .filter((item) => item && typeof item === "object")
+      .map((item, idx) => rotateOptions({
+        question: readText(item.question || item, ["question", "text"]) || `Question ${idx + 1}`,
+        options: normalizeQuizOptions(item.options),
+        answer: Number.isInteger(Number(item.answer)) ? Number(item.answer) : 0,
+        explanation: readText(item.explanation || item, ["explanation", "reason"]) || "Review the explanation and retry."
+      }, `${variantSeed}-${idx}`))
+    : [];
+
+  const examples = Array.isArray(raw.examples)
+    ? raw.examples.map((item) => ({
+      sentence: readText(item, ["sentence", "text", "example"]),
+      indonesian: readText(item, ["indonesian", "translation"]),
+      note: readText(item, ["note", "explanation"])
+    }))
+    : [];
+
+  const nonEmptyExamples = examples.filter((item) => item.sentence.trim());
+  if (!nonEmptyExamples.length) {
+    nonEmptyExamples.push(
+      { sentence: `I reviewed ${topicLabel.toLowerCase()} before class.`, indonesian: "", note: "Simple accurate model sentence." },
+      { sentence: `My tutor corrected one small form in my ${topicLabel.toLowerCase()} sentence.`, indonesian: "", note: "Small markers can change meaning." }
+    );
+  }
+
+  const commonMistakes = Array.isArray(raw.commonMistakes)
+    ? raw.commonMistakes.map((item) => ({
+      wrong: readText(item, ["wrong", "incorrect"]),
+      right: readText(item, ["right", "correct"]),
+      why: readText(item, ["why", "reason"])
+    })).filter((item) => item.wrong || item.right)
+    : [];
+
+  if (!commonMistakes.length) {
+    commonMistakes.push({
+      wrong: "Using structure without checking form marker.",
+      right: "Check article/tense marker before finalizing sentence.",
+      why: "Most grammar score loss comes from missing small markers."
+    });
+  }
+
+  return {
+    ...raw,
+    grammarChart: readText(raw.grammarChart || raw, ["grammarChart", "chart"]),
+    explanation: readText(raw.explanation || raw, ["explanation", "summary"]) || `${topicLabel} needs form, meaning, and use control. Focus on small markers and context accuracy.`,
+    keyRules: Array.isArray(raw.keyRules) ? raw.keyRules.map((x) => readText(x, ["text", "rule"])).filter(Boolean) : [],
+    azarNotes: Array.isArray(raw.azarNotes) ? raw.azarNotes.map((x) => readText(x, ["text", "note"])).filter(Boolean) : [],
+    examples: nonEmptyExamples,
+    commonMistakes,
+    ieltsTip: readText(raw.ieltsTip || raw, ["ieltsTip", "tip"]) || `Use one accurate ${topicLabel.toLowerCase()} sentence instead of forcing complex but wrong grammar.`,
+    studyCase: raw.studyCase && typeof raw.studyCase === "object"
+      ? {
+        context: readText(raw.studyCase.context || raw.studyCase, ["context", "text"]),
+        task: readText(raw.studyCase.task || raw.studyCase, ["task", "instruction"]),
+        checklist: Array.isArray(raw.studyCase.checklist) ? raw.studyCase.checklist.map((x) => readText(x, ["text", "item"])).filter(Boolean) : []
+      }
+      : null,
+    quiz
+  };
+}
+
+function classifyTopicKeyClient(text = "") {
+  const q = String(text).toLowerCase();
+  if (/(education|classroom|student|school|university)/.test(q)) return "education";
+  if (/(technology|ai|digital|data|software)/.test(q)) return "technology";
+  if (/(climate|environment|carbon|green|sustainab)/.test(q)) return "climate";
+  if (/(work|job|employment|career|productivity)/.test(q)) return "work";
+  return "default";
+}
 
 export default function EnglishUp() {
   const [tab, setTab] = useState("home");
@@ -121,12 +228,15 @@ export default function EnglishUp() {
   const prevLvRef = useRef(1);
   const t1 = useRef(null);
   const t2 = useRef(null);
+  const saveRef = useRef(null);
 
   // Chat
-  const [msgs, setMsgs] = useState([{ role: "ai", id: 0, text: "Hello! Selamat datang di EnglishUp 👋\n\nSebagai lulusan Sastra Inggris yang me-refresh kemampuannya, kita fokus pada grammar detail (metode Azar), vocabulary kaya, dan reading comprehension ala IELTS.\n\nCoba tulis beberapa kalimat tentang dirimu dalam Bahasa Inggris — aku akan berikan detailed feedback!" }]);
+  const [msgs, setMsgs] = useState([CHAT_SEED_MESSAGE]);
   const [chatIn, setChatIn] = useState("");
   const [chatLoad, setChatLoad] = useState(false);
   const chatEnd = useRef(null);
+  const [historyLog, setHistoryLog] = useState([]);
+  const [hydrated, setHydrated] = useState(false);
 
   // Grammar — loads from static JSON
   const [gTopic, setGTopic] = useState(null);
@@ -155,8 +265,80 @@ export default function EnglishUp() {
 
   const { lvl, nxt, pct } = getLvl(xp);
   const daily = DAILIES[new Date().getDate() % DAILIES.length];
+  const learningInsights = deriveLearningInsights({
+    grammarCompleted: doneL.size,
+    grammarTotal: G_TOPICS.length,
+    vocabLearned: vocabN,
+    readingCompleted: readN,
+    chatMessages: chatN,
+    streak,
+    xp
+  });
 
   useEffect(() => { chatEnd.current?.scrollIntoView({ behavior: "smooth" }); }, [msgs]);
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return;
+      const saved = JSON.parse(raw);
+
+      setXp(Number(saved?.xp || 0));
+      setEarned(Array.isArray(saved?.earned) ? saved.earned : []);
+      setDoneL(new Set(Array.isArray(saved?.doneL) ? saved.doneL : []));
+      setVocabN(Number(saved?.vocabN || 0));
+      setReadN(Number(saved?.readN || 0));
+      setChatN(Number(saved?.chatN || 0));
+      const safeMsgs = Array.isArray(saved?.msgs)
+        ? saved.msgs
+          .filter((item) => item && typeof item === "object")
+          .map((item, idx) => ({
+            id: item.id || `saved-${idx}`,
+            role: item.role === "user" ? "user" : "ai",
+            text: String(item.text || "")
+          }))
+          .slice(-30)
+        : [];
+      setMsgs(safeMsgs.length ? safeMsgs : [CHAT_SEED_MESSAGE]);
+
+      const safeHistory = Array.isArray(saved?.historyLog)
+        ? saved.historyLog
+          .filter((item) => item && typeof item === "object")
+          .map((item, idx) => ({
+            id: item.id || `hist-${idx}`,
+            type: String(item.type || "event"),
+            label: String(item.label || "-"),
+            value: String(item.value || ""),
+            at: String(item.at || "")
+          }))
+          .slice(0, 30)
+        : [];
+      setHistoryLog(safeHistory);
+      if (Array.isArray(saved?.earned)) {
+        unlockedRef.current = new Set(saved.earned);
+      }
+    } catch {}
+    setHydrated(true);
+  }, []);
+  useEffect(() => {
+    if (!hydrated) return;
+    clearTimeout(saveRef.current);
+    const payload = {
+      xp,
+      earned,
+      doneL: Array.from(doneL),
+      vocabN,
+      readN,
+      chatN,
+      msgs: msgs.slice(-30),
+      historyLog: historyLog.slice(0, 30)
+    };
+    saveRef.current = setTimeout(() => {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      } catch {}
+    }, 200);
+    return () => clearTimeout(saveRef.current);
+  }, [hydrated, xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
   useEffect(() => {
     const { lvl: l } = getLvl(xp);
     if (l.n > prevLvRef.current) { prevLvRef.current = l.n; showNotif({ type: "levelup", data: l }); if (l.n >= 4) tryUnlock("level_4"); }
@@ -169,6 +351,12 @@ export default function EnglishUp() {
 
   const addXP = (amt, label = "") => {
     setXp((p) => p + amt);
+    if (label) {
+      setHistoryLog((prev) => [
+        { id: `xp-${Date.now()}`, type: "xp", label, value: amt, at: new Date().toISOString() },
+        ...prev
+      ].slice(0, 30));
+    }
     clearTimeout(t1.current);
     setXpToast({ amt, label });
     t1.current = setTimeout(() => setXpToast(null), 2200);
@@ -196,6 +384,10 @@ export default function EnglishUp() {
         : "";
       const reply = await callAI(`${SYS_CHAT}\n\nConversation:\n${hist}${contextBlock}`);
       setMsgs((p) => [...p, { role: "ai", text: reply, id: Date.now() }]);
+      setHistoryLog((prev) => [
+        { id: `chat-${Date.now()}`, type: "chat", label: "Conversation session", value: "+1", at: new Date().toISOString() },
+        ...prev
+      ].slice(0, 30));
     } catch (e) {
       setMsgs((p) => [...p, { role: "ai", text: `Error: ${e.message}`, id: Date.now() }]);
     } finally { setChatLoad(false); }
@@ -204,27 +396,23 @@ export default function EnglishUp() {
   // ── GRAMMAR (static JSON) ─────────────────────────────────────────
   const loadGrammar = async (t) => {
     setGTopic(t); setGData(null); setGLoad(true); setGError(false); setQAns({}); setQDone(false);
-    const seed = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const seed = buildSeed("grammar");
 
     try {
-      const generated = await fetch("/api/content", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "grammar", topicId: t.id, seed })
-      }).then((r) => (r.ok ? r.json() : null));
+      const generated = await safePostJSON("/api/content", { type: "grammar", topicId: t.id, seed }, { retries: 1 });
 
       if (generated?.quiz?.length) {
-        setGData(generated);
+        setGData(normalizeGrammarData(generated, t.label, seed));
         return;
       }
 
       const res = await fetch(`/data/grammar/${t.id}.json`);
       if (!res.ok) throw new Error("not found");
       const data = await res.json();
-      setGData(data);
+      setGData(normalizeGrammarData(data, t.label, seed));
     } catch {
       const fallback = getFallbackGrammar(t.id);
-      if (fallback) setGData(fallback);
+      if (fallback) setGData(normalizeGrammarData(fallback, t.label, seed));
       else setGError(true);
     } finally { setGLoad(false); }
   };
@@ -235,19 +423,24 @@ export default function EnglishUp() {
     addXP(sc * 8 + (sc === gData.quiz.length ? 20 : 0), `Grammar ${sc}/${gData.quiz.length}`);
     if (sc === gData.quiz.length) tryUnlock("perfect_quiz");
     setDoneL((p) => new Set([...p, gTopic.id]));
+    setHistoryLog((prev) => [
+      { id: `grammar-${Date.now()}`, type: "grammar", label: gTopic.label, value: `${sc}/${gData.quiz.length}`, at: new Date().toISOString() },
+      ...prev
+    ].slice(0, 30));
+    fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "feedback", topicKey: classifyTopicKeyClient(gTopic?.label || ""), signal: "complete" })
+    }).catch(() => {});
   };
 
   // ── VOCAB (static JSON) ───────────────────────────────────────────
   const loadVocab = async (cat) => {
     setVCat(cat); setVWords(null); setVLoad(true); setVError(false); setVIdx(0); setVFlip(false);
-    const seed = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const seed = buildSeed("vocab");
 
     try {
-      const generated = await fetch("/api/content", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "vocab", category: cat.id, count: 12, seed })
-      }).then((r) => (r.ok ? r.json() : null));
+      const generated = await safePostJSON("/api/content", { type: "vocab", category: cat.id, count: 12, seed }, { retries: 1 });
 
       if (generated?.items?.length) {
         const normalized = generated.items.map((card) => ({
@@ -299,14 +492,10 @@ export default function EnglishUp() {
 
   const pickPassage = async () => {
     setRData(null); setRAns({}); setRDone(false);
-    const seed = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const seed = buildSeed("reading");
 
     try {
-      const generated = await fetch("/api/content", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "reading", difficulty: rDiff, size: 1, seed })
-      }).then((r) => (r.ok ? r.json() : null));
+      const generated = await safePostJSON("/api/content", { type: "reading", difficulty: rDiff, size: 1, seed }, { retries: 1 });
 
       const item = generated?.items?.[0];
       if (item) {
@@ -329,6 +518,23 @@ export default function EnglishUp() {
     addXP(sc * 8 + (sc === rData.questions.length ? 20 : 0), `Reading ${sc}/${rData.questions.length}`);
     if (sc === rData.questions.length) tryUnlock("perfect_quiz");
     setReadN((p) => p + 1);
+    setHistoryLog((prev) => [
+      { id: `reading-${Date.now()}`, type: "reading", label: rData.title, value: `${sc}/${rData.questions.length}`, at: new Date().toISOString() },
+      ...prev
+    ].slice(0, 30));
+    fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "feedback", topicKey: classifyTopicKeyClient(rData?.topic || rData?.title || ""), signal: "complete" })
+    }).catch(() => {});
+  };
+
+  const trackRefClick = (topicText = "") => {
+    fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "feedback", topicKey: classifyTopicKeyClient(topicText), signal: "click" })
+    }).catch(() => {});
   };
 
   // ── Shared micro-components ───────────────────────────────────────
@@ -374,7 +580,7 @@ export default function EnglishUp() {
             else if (Number(ans[qi]) === oi) cls = "border-red-400 bg-red-50 text-red-700 line-through";
             else cls = "border-gray-100 text-gray-400";
           }
-          return <button key={oi} disabled={done} onClick={() => setAns((p) => ({ ...p, [qi]: oi }))} className={`w-full text-left px-3 py-2 rounded-xl border text-sm transition-colors ${cls}`}>{opt}</button>;
+          return <button key={oi} disabled={done} onClick={() => setAns((p) => ({ ...p, [qi]: oi }))} className={`w-full text-left px-3 py-2 rounded-xl border text-sm transition-colors ${cls}`}>{String(opt || "")}</button>;
         })}
       </div>
       {done && <p className="text-xs text-gray-500 bg-gray-50 rounded-xl px-3 py-2 leading-relaxed">💡 {q.explanation}</p>}
@@ -495,6 +701,42 @@ export default function EnglishUp() {
                 </div>
               ))}
             </div>
+            <div className="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm space-y-3">
+              <div className="flex items-center justify-between gap-2">
+                <p className="text-sm font-bold text-gray-800">Learning Flow Health</p>
+                <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${
+                  learningInsights.momentum === "strong"
+                    ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                    : learningInsights.momentum === "stable"
+                    ? "bg-blue-50 text-blue-700 border border-blue-200"
+                    : "bg-amber-50 text-amber-700 border border-amber-200"
+                }`}>
+                  {learningInsights.momentum}
+                </span>
+              </div>
+              <div className="grid grid-cols-3 gap-2.5">
+                <div className="rounded-xl bg-slate-50 border border-slate-200 p-3">
+                  <p className="text-xs text-slate-500">Grammar Coverage</p>
+                  <p className="text-lg font-black text-slate-800">{learningInsights.grammarCoverage}%</p>
+                </div>
+                <div className="rounded-xl bg-slate-50 border border-slate-200 p-3">
+                  <p className="text-xs text-slate-500">Consistency Score</p>
+                  <p className="text-lg font-black text-slate-800">{learningInsights.consistencyScore}</p>
+                </div>
+                <div className="rounded-xl bg-slate-50 border border-slate-200 p-3">
+                  <p className="text-xs text-slate-500">Weakest Area</p>
+                  <p className="text-sm font-bold text-slate-800 capitalize">{learningInsights.weakest}</p>
+                </div>
+              </div>
+              <div className="rounded-xl bg-indigo-50 border border-indigo-200 p-3">
+                <p className="text-xs font-bold text-indigo-700 uppercase tracking-wide mb-1">System Recommendation</p>
+                <ul className="space-y-1.5">
+                  {learningInsights.recommendations.map((item) => (
+                    <li key={item} className="text-sm text-indigo-900 leading-relaxed">• {item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
             <div className="bg-white rounded-2xl p-4 border border-amber-200">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-7 h-7 bg-amber-100 rounded-lg flex items-center justify-center"><Zap className="w-3.5 h-3.5 text-amber-500" /></div>
@@ -541,6 +783,25 @@ export default function EnglishUp() {
                 <p className="text-sm text-blue-700 leading-relaxed">Dalam IELTS Writing Task 2, hindari <em>"I think / I believe"</em> berulang. Gunakan <em>"It can be argued that…"</em> atau <em>"Evidence suggests that…"</em>.</p>
               </div>
             </div>
+            <div className="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm">
+              <div className="flex items-center justify-between mb-3">
+                <p className="text-sm font-bold text-gray-800">Recent Learning History</p>
+                <span className="text-xs text-gray-400">tersimpan otomatis</span>
+              </div>
+              {historyLog.length === 0 ? (
+                <p className="text-sm text-gray-500">Belum ada history. Mulai chat atau quiz, progress akan tersimpan saat app ditutup.</p>
+              ) : (
+                <div className="space-y-2">
+                  {historyLog.slice(0, 8).map((item) => (
+                    <div key={item.id} className="flex items-center gap-2 text-sm border border-gray-100 rounded-xl px-3 py-2">
+                      <span className="font-semibold text-gray-800 capitalize min-w-20">{String(item.type || "event")}</span>
+                      <span className="text-gray-600 truncate">{String(item.label || "-")}</span>
+                      <span className="ml-auto text-xs font-bold text-indigo-600">{String(item.value || "")}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         )}
 
@@ -556,7 +817,7 @@ export default function EnglishUp() {
                 <div key={m.id} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
                   <div className={`max-w-4/5 rounded-2xl px-4 py-3 text-sm leading-relaxed whitespace-pre-line ${m.role === "user" ? "bg-indigo-600 text-white rounded-br-sm" : "bg-white border border-gray-200 text-gray-800 rounded-bl-sm shadow-sm"}`}>
                     {m.role === "ai" && <span className="block text-xs font-semibold text-indigo-500 mb-1">AI Tutor</span>}
-                    {m.text}
+                    {String(m.text || "")}
                   </div>
                 </div>
               ))}
@@ -657,7 +918,7 @@ export default function EnglishUp() {
                   )}
                   {gData.generatedMeta?.references?.map((ref) => (
                     <div key={ref.url} className="bg-slate-50 border border-slate-200 rounded-2xl p-3 text-xs text-slate-700">
-                      🔗 <a href={ref.url} target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">{ref.label}</a>
+                      🔗 <a href={ref.url} target="_blank" rel="noreferrer" onClick={() => trackRefClick(gTopic?.label || "")} className="text-indigo-700 hover:underline">{ref.label}</a>
                     </div>
                   ))}
                   <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
@@ -791,7 +1052,7 @@ export default function EnglishUp() {
                           <ScoreCard score={rData.questions.filter((q,i)=>Number(rAns[i])===q.answer).length} total={rData.questions.length} />
                           {rData.generatedMeta?.references?.map((ref) => (
                             <div key={ref.url} className="mt-2 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs text-slate-700">
-                              🔗 <a href={ref.url} target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">{ref.label}</a>
+                              🔗 <a href={ref.url} target="_blank" rel="noreferrer" onClick={() => trackRefClick(rData?.topic || rData?.title || "")} className="text-indigo-700 hover:underline">{ref.label}</a>
                             </div>
                           ))}
                           {rData.ieltsTips?.map((tip,i) => <div key={i} className="mt-2 bg-blue-50 border border-blue-200 rounded-xl p-3 text-xs text-blue-700">💡 {tip}</div>)}

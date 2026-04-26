@@ -1,0 +1,61 @@
+{
+  "stems": [
+    "Choose the best sentence for IELTS writing about {topic}.",
+    "Which sentence is most natural when citing {reference}?",
+    "Pick the sentence with better {topic} accuracy.",
+    "Which option sounds most controlled in academic tone for {topic}?",
+    "Choose the sentence that uses grammar markers correctly for {topic}.",
+    "Which sentence has the best form-meaning-use alignment for {topic}?"
+  ],
+  "subjects": [
+    "The essay",
+    "This paragraph",
+    "The argument",
+    "The analysis",
+    "The report",
+    "The conclusion",
+    "The introduction",
+    "This response"
+  ],
+  "lexical_defaults": [
+    "evidence",
+    "accuracy",
+    "clarity",
+    "coherence"
+  ],
+  "patterns": [
+    {
+      "question": "Which sentence is strongest if you reference {reference}?",
+      "options": [
+        "{reference} provide useful data for this claim.",
+        "{reference} provides useful data for this claim.",
+        "{reference} providing useful data for this claim.",
+        "{reference} provided useful data always for this claim."
+      ],
+      "answer": 1,
+      "explanation": "Use subject-verb agreement for cited source statements."
+    },
+    {
+      "question": "Choose the grammatically accurate modal pattern.",
+      "options": [
+        "Students should checks grammar before submit final draft.",
+        "Students should check grammar before submitting the final draft.",
+        "Students should checked grammar before to submit final draft.",
+        "Students should checking grammar before submited final draft."
+      ],
+      "answer": 1,
+      "explanation": "Modal + base verb. 'Before' naturally takes gerund here."
+    },
+    {
+      "question": "Choose the best sentence for plural/singular agreement in {topic}.",
+      "options": [
+        "There are many reason why {topic} matter.",
+        "There are many reasons why {topic} matters.",
+        "There is many reasons why {topic} matter.",
+        "There are many reasons why {topic} mattering."
+      ],
+      "answer": 1,
+      "explanation": "Plural noun + singular clause subject agreement must be consistent."
+    }
+  ]
+}

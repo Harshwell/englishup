@@ -104,6 +104,7 @@ Halaman flashcards:
 Route penting saat ini:
 - `app/api/chat/route.js`
 - `app/api/evaluate/route.js`
+- `app/api/library/route.js` (trusted articles + dictionary with topic/CEFR-aware ranking)
 
 ### Data layer
 
@@ -170,9 +171,11 @@ GEMINI_API_KEY=...
 GEMINI_MODEL=gemini-2.5-flash-lite
 OPENROUTER_API_KEY=...
 OPENROUTER_MODEL=openrouter/free
+OPENALEX_EMAIL=you@example.com
 ```
 
 Aplikasi tetap bisa hidup sebagian tanpa semua env di atas, tetapi fitur AI akan turun kualitas atau memakai fallback.
+`OPENALEX_EMAIL` opsional (API OpenAlex gratis tanpa registrasi), tapi disarankan untuk polite pool dan stabilitas rate limit.
 
 ## Menjalankan aplikasi secara lokal
 
