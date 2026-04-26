@@ -131,6 +131,7 @@ export default function EnglishUp() {
   const [chatLoad, setChatLoad] = useState(false);
   const chatEnd = useRef(null);
   const [historyLog, setHistoryLog] = useState([]);
+  const [hydrated, setHydrated] = useState(false);
 
   // Grammar — loads from static JSON
   const [gTopic, setGTopic] = useState(null);
@@ -188,6 +189,10 @@ export default function EnglishUp() {
         unlockedRef.current = new Set(saved.earned);
       }
     } catch {}
+    setHydrated(true);
+  }, []);
+  useEffect(() => {
+    if (!hydrated) return;
   }, []);
   useEffect(() => {
     const payload = {
@@ -203,6 +208,7 @@ export default function EnglishUp() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
     } catch {}
+  }, [hydrated, xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
   }, [xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
   useEffect(() => {
     const { lvl: l } = getLvl(xp);
