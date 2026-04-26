@@ -109,6 +109,60 @@ const DAILIES = [
 const STORAGE_KEY = "englishup.v1.progress";
 const CHAT_SEED_MESSAGE = { role: "ai", id: 0, text: "Hello! Selamat datang di EnglishUp 👋\n\nSebagai lulusan Sastra Inggris yang me-refresh kemampuannya, kita fokus pada grammar detail (metode Azar), vocabulary kaya, dan reading comprehension ala IELTS.\n\nCoba tulis beberapa kalimat tentang dirimu dalam Bahasa Inggris — aku akan berikan detailed feedback!" };
 
+function normalizeQuizOptions(options = []) {
+  if (!Array.isArray(options)) return [];
+  return options.map((opt) => {
+    if (typeof opt === "string") return opt;
+    if (opt && typeof opt === "object") return String(opt.text || opt.label || opt.value || "Option");
+    return String(opt || "Option");
+  });
+}
+
+function normalizeGrammarData(raw = null) {
+  if (!raw || typeof raw !== "object") return null;
+  const quiz = Array.isArray(raw.quiz)
+    ? raw.quiz
+      .filter((item) => item && typeof item === "object")
+      .map((item, idx) => ({
+        question: String(item.question || `Question ${idx + 1}`),
+        options: normalizeQuizOptions(item.options),
+        answer: Number.isInteger(Number(item.answer)) ? Number(item.answer) : 0,
+        explanation: String(item.explanation || "Review the explanation and retry.")
+      }))
+    : [];
+
+  return {
+    ...raw,
+    grammarChart: String(raw.grammarChart || ""),
+    explanation: String(raw.explanation || ""),
+    keyRules: Array.isArray(raw.keyRules) ? raw.keyRules.map((x) => String(x || "")) : [],
+    azarNotes: Array.isArray(raw.azarNotes) ? raw.azarNotes.map((x) => String(x || "")) : [],
+    examples: Array.isArray(raw.examples)
+      ? raw.examples.map((item) => ({
+        sentence: String(item?.sentence || ""),
+        indonesian: String(item?.indonesian || ""),
+        note: String(item?.note || "")
+      }))
+      : [],
+    commonMistakes: Array.isArray(raw.commonMistakes)
+      ? raw.commonMistakes.map((item) => ({
+        wrong: String(item?.wrong || ""),
+        right: String(item?.right || ""),
+        why: String(item?.why || "")
+      }))
+      : [],
+    ieltsTip: String(raw.ieltsTip || ""),
+    studyCase: raw.studyCase && typeof raw.studyCase === "object"
+      ? {
+        context: String(raw.studyCase.context || ""),
+        task: String(raw.studyCase.task || ""),
+        checklist: Array.isArray(raw.studyCase.checklist) ? raw.studyCase.checklist.map((x) => String(x || "")) : []
+      }
+      : null,
+    quiz
+  };
+}
+
 export default function EnglishUp() {
   const [tab, setTab] = useState("home");
   const [xp, setXp] = useState(0);
@@ -298,17 +352,17 @@ export default function EnglishUp() {
       const generated = await safePostJSON("/api/content", { type: "grammar", topicId: t.id, seed }, { retries: 1 });
 
       if (generated?.quiz?.length) {
-        setGData(generated);
+        setGData(normalizeGrammarData(generated));
         return;
       }
 
       const res = await fetch(`/data/grammar/${t.id}.json`);
       if (!res.ok) throw new Error("not found");
       const data = await res.json();
-      setGData(data);
+      setGData(normalizeGrammarData(data));
     } catch {
       const fallback = getFallbackGrammar(t.id);
-      if (fallback) setGData(fallback);
+      if (fallback) setGData(normalizeGrammarData(fallback));
       else setGError(true);
     } finally { setGLoad(false); }
   };
