@@ -7,6 +7,7 @@ import {
   ChevronRight,
   Volume2,
 } from "lucide-react";
+import { buildSeed, safePostJSON } from "../lib/learning-flow";
 
 const FALLBACK = [
   {
@@ -41,11 +42,7 @@ async function loadDeck(level, seed = `${Date.now()}`) {
   const category = level === "c1" ? "tech_ai" : "ielts_academic";
 
   try {
-    const generated = await fetch("/api/content", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ type: "vocab", category, count: 16, seed })
-    }).then((r) => (r.ok ? r.json() : null));
+    const generated = await safePostJSON("/api/content", { type: "vocab", category, count: 16, seed }, { retries: 1 });
 
     if (generated?.items?.length) return generated.items;
   } catch {}
@@ -69,7 +66,7 @@ export default function Flashcards({ standalone = false }) {
   const current = cards[index] || FALLBACK[0];
 
   useEffect(() => {
-    loadDeck(level, `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`).then((data) => {
+    loadDeck(level, buildSeed("flashcards")).then((data) => {
       setCards(Array.isArray(data) && data.length ? data : FALLBACK);
       setIndex(0);
       setFlipped(false);
