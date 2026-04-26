@@ -204,6 +204,15 @@ function normalizeGrammarData(raw = null, topicLabel = "this grammar topic", var
   };
 }
 
+function classifyTopicKeyClient(text = "") {
+  const q = String(text).toLowerCase();
+  if (/(education|classroom|student|school|university)/.test(q)) return "education";
+  if (/(technology|ai|digital|data|software)/.test(q)) return "technology";
+  if (/(climate|environment|carbon|green|sustainab)/.test(q)) return "climate";
+  if (/(work|job|employment|career|productivity)/.test(q)) return "work";
+  return "default";
+}
+
 export default function EnglishUp() {
   const [tab, setTab] = useState("home");
   const [xp, setXp] = useState(0);
@@ -418,6 +427,11 @@ export default function EnglishUp() {
       { id: `grammar-${Date.now()}`, type: "grammar", label: gTopic.label, value: `${sc}/${gData.quiz.length}`, at: new Date().toISOString() },
       ...prev
     ].slice(0, 30));
+    fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "feedback", topicKey: classifyTopicKeyClient(gTopic?.label || ""), signal: "complete" })
+    }).catch(() => {});
   };
 
   // ── VOCAB (static JSON) ───────────────────────────────────────────
@@ -508,6 +522,19 @@ export default function EnglishUp() {
       { id: `reading-${Date.now()}`, type: "reading", label: rData.title, value: `${sc}/${rData.questions.length}`, at: new Date().toISOString() },
       ...prev
     ].slice(0, 30));
+    fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "feedback", topicKey: classifyTopicKeyClient(rData?.topic || rData?.title || ""), signal: "complete" })
+    }).catch(() => {});
+  };
+
+  const trackRefClick = (topicText = "") => {
+    fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "feedback", topicKey: classifyTopicKeyClient(topicText), signal: "click" })
+    }).catch(() => {});
   };
 
   // ── Shared micro-components ───────────────────────────────────────
@@ -891,7 +918,7 @@ export default function EnglishUp() {
                   )}
                   {gData.generatedMeta?.references?.map((ref) => (
                     <div key={ref.url} className="bg-slate-50 border border-slate-200 rounded-2xl p-3 text-xs text-slate-700">
-                      🔗 <a href={ref.url} target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">{ref.label}</a>
+                      🔗 <a href={ref.url} target="_blank" rel="noreferrer" onClick={() => trackRefClick(gTopic?.label || "")} className="text-indigo-700 hover:underline">{ref.label}</a>
                     </div>
                   ))}
                   <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
@@ -1025,7 +1052,7 @@ export default function EnglishUp() {
                           <ScoreCard score={rData.questions.filter((q,i)=>Number(rAns[i])===q.answer).length} total={rData.questions.length} />
                           {rData.generatedMeta?.references?.map((ref) => (
                             <div key={ref.url} className="mt-2 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs text-slate-700">
-                              🔗 <a href={ref.url} target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">{ref.label}</a>
+                              🔗 <a href={ref.url} target="_blank" rel="noreferrer" onClick={() => trackRefClick(rData?.topic || rData?.title || "")} className="text-indigo-700 hover:underline">{ref.label}</a>
                             </div>
                           ))}
                           {rData.ieltsTips?.map((tip,i) => <div key={i} className="mt-2 bg-blue-50 border border-blue-200 rounded-xl p-3 text-xs text-blue-700">💡 {tip}</div>)}

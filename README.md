@@ -104,6 +104,7 @@ Halaman flashcards:
 Route penting saat ini:
 - `app/api/chat/route.js`
 - `app/api/evaluate/route.js`
+- `app/api/library/route.js` (trusted articles + dictionary with topic/CEFR-aware ranking)
 
 ### Data layer
 

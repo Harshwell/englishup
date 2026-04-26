@@ -187,91 +187,27 @@ function buildReadingTemplateTips(topic = "", difficulty = "intermediate", refs 
   ];
 }
 
-async function fetchWithTimeout(url, options = {}, timeoutMs = 18000) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, { ...options, signal: controller.signal });
-  } finally {
-    clearTimeout(timeout);
-  }
-}
-
-function extractJsonObject(raw = "") {
-  const cleaned = String(raw).replace(/```json/gi, "").replace(/```/g, "").trim();
-  const start = cleaned.indexOf("{");
-  const end = cleaned.lastIndexOf("}");
-  if (start === -1 || end === -1 || end < start) return null;
-  return cleaned.slice(start, end + 1);
-}
-
-async function generateAiJson(prompt) {
-  const geminiKey = process.env.GEMINI_API_KEY;
-  const openrouterKey = process.env.OPENROUTER_API_KEY;
-
-  try {
-    if (geminiKey) {
-      const model = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
-      const response = await fetchWithTimeout(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${geminiKey}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{ role: "user", parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.6, maxOutputTokens: 900 }
-        })
-      });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data?.error?.message || "gemini_failed");
-      const text = data?.candidates?.[0]?.content?.parts?.map((part) => part?.text || "").join("") || "";
-      const jsonText = extractJsonObject(text);
-      if (!jsonText) return null;
-      return JSON.parse(jsonText);
-    }
-  } catch {}
-
-  try {
-    if (openrouterKey) {
-      const model = process.env.OPENROUTER_MODEL || "openrouter/free";
-      const response = await fetchWithTimeout("https://openrouter.ai/api/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${openrouterKey}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          model,
-          temperature: 0.6,
-          max_tokens: 900,
-          messages: [{ role: "user", content: prompt }]
-        })
-      });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data?.error?.message || "openrouter_failed");
-      const text = data?.choices?.[0]?.message?.content || "";
-      const jsonText = extractJsonObject(text);
-      if (!jsonText) return null;
-      return JSON.parse(jsonText);
-    }
-  } catch {}
-
-  return null;
-}
-
-function normalizeQuizItem(item, index = 0) {
-  const options = Array.isArray(item?.options)
-    ? item.options.map((opt) => {
-      if (typeof opt === "string") return opt;
-      if (opt && typeof opt === "object") return String(opt.text || opt.label || opt.value || "Option");
-      return String(opt || "Option");
-    })
-    : [];
-  const answer = Number(item?.answer);
-  return {
-    question: String(item?.question || `Extra question ${index + 1}`),
-    options: options.length >= 2 ? options.slice(0, 4) : ["Option A", "Option B", "Option C", "Option D"],
-    answer: Number.isInteger(answer) && answer >= 0 && answer <= 3 ? answer : 0,
-    explanation: String(item?.explanation || "Review the structure and choose the most accurate form.")
+function classifyTopicKey(text = "") {
+  const q = String(text).toLowerCase();
+  const scores = {
+    education: /(education|classroom|school|student|learning|university)/g,
+    technology: /(technology|ai|digital|automation|software|data)/g,
+    climate: /(climate|environment|carbon|emission|sustainab|green)/g,
+    work: /(work|job|employment|career|productivity|company)/g
   };
+  const weighted = Object.entries(scores).map(([key, regex]) => {
+    const count = (q.match(regex) || []).length;
+    return { key, count };
+  }).sort((a, b) => b.count - a.count);
+  if (!weighted[0] || weighted[0].count === 0) return "default";
+  return weighted[0].key;
+}
+
+function toCefrFromDifficulty(value = "") {
+  const v = String(value).toLowerCase();
+  if (["beginner", "easy", "a1", "a2"].includes(v)) return "beginner";
+  if (["advanced", "hard", "c1", "c2"].includes(v)) return "advanced";
+  return "intermediate";
 }
 
 async function readJson(relativePath) {
@@ -298,7 +234,11 @@ export async function POST(req) {
 
       const enriched = await Promise.all(
         payload.map(async (item) => {
-          const refs = await getTrustedArticles(item?.topic || item?.title || "education", 3);
+          const topicKey = classifyTopicKey(item?.topic || item?.title || "education");
+          const refs = await getTrustedArticles(item?.topic || item?.title || "education", 3, {
+            topicKey,
+            cefr: toCefrFromDifficulty(difficulty)
+          });
           return {
             ...item,
             generatedMeta: {
@@ -367,7 +307,10 @@ export async function POST(req) {
         ? generateGrammarFromBase({ base: staticData, topicId, seed })
         : generateGrammarLesson({ topicId, seed });
 
-      const refs = await getTrustedArticles(topicId.replace(/_/g, " "), 2);
+      const refs = await getTrustedArticles(topicId.replace(/_/g, " "), 2, {
+        topicKey: classifyTopicKey(topicId.replace(/_/g, " ")),
+        cefr: "intermediate"
+      });
       const grammarTemplateConfig = getCachedContent("grammar-template-config")
         || setCachedContent("grammar-template-config", (await readJson("generated/grammar_bank.json")) || {}, 1000 * 60 * 60 * 24);
       const lexicalItems = await Promise.all(
@@ -387,10 +330,6 @@ export async function POST(req) {
       )
         .filter((item, idx, arr) => arr.findIndex((x) => x.question === item.question) === idx)
         .slice(0, 14);
-
-      const aiGrammar = await generateAiJson(
-        `Return JSON only with key "extraQuiz" as array (max 2) of multiple-choice grammar questions for topic "${topicId}". Each item: question, options (4), answer (0-3), explanation. seed=${seed}.`
-      );
 
       return NextResponse.json({
         ...payload,

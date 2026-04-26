@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getConversationContext, getTrustedArticles, lookupDictionary } from "../../../lib/api-library";
+import { getConversationContext, getTrustedArticles, lookupDictionary, recordArticleFeedback } from "../../../lib/api-library";
 
 export async function POST(req) {
   try {
@@ -9,7 +9,9 @@ export async function POST(req) {
     if (type === "articles") {
       const query = String(body?.query || "education");
       const limit = Math.min(6, Math.max(1, Number(body?.limit || 4)));
-      const items = await getTrustedArticles(query, limit);
+      const topicKey = String(body?.topicKey || "");
+      const cefr = String(body?.cefr || "intermediate");
+      const items = await getTrustedArticles(query, limit, { topicKey, cefr });
       return NextResponse.json({ items });
     }
 
@@ -23,6 +25,13 @@ export async function POST(req) {
       const text = String(body?.text || "");
       const items = await getConversationContext(text);
       return NextResponse.json({ items });
+    }
+
+    if (type === "feedback") {
+      const topicKey = String(body?.topicKey || "default");
+      const signal = String(body?.signal || "click");
+      const metrics = recordArticleFeedback({ topicKey, signal });
+      return NextResponse.json({ ok: true, metrics });
     }
 
     return NextResponse.json({ error: "Unsupported library type" }, { status: 400 });
