@@ -1,96 +1,25 @@
 {
-  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan nol artikel) adalah kata-kata kecil yang mendahului kata benda. Mereka memberikan informasi tentang apakah kata benda tersebut spesifik atau tidak, tunggal atau jamak, dan dapat dihitung atau tidak dapat dihitung. Memahami penggunaan artikel sangat penting untuk tata bahasa yang benar dan kejelasan dalam komunikasi.",
+  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
   "keyRules": [
-    {
-      "article": "a",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung dan dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang tidak spesifik atau umum.",
-      "example": "I saw a cat."
-    },
-    {
-      "article": "an",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung dan dimulai dengan bunyi vokal. Menunjukkan sesuatu yang tidak spesifik atau umum.",
-      "example": "She ate an apple."
-    },
-    {
-      "article": "the",
-      "rule": "Digunakan sebelum kata benda tunggal atau jamak, dapat dihitung atau tidak dapat dihitung, ketika kata benda tersebut spesifik atau sudah disebutkan sebelumnya. Juga digunakan untuk hal-hal yang unik.",
-      "example": "The sun is bright. I read the book you gave me."
-    },
-    {
-      "article": "Zero Article (tidak ada artikel)",
-      "rule": "Digunakan sebelum kata benda jamak yang tidak spesifik, kata benda abstrak, dan nama diri (orang, tempat, negara).",
-      "example": "Children like to play. Honesty is the best policy. Jakarta is the capital of Indonesia."
-    }
+    "Pahami pola dasar.",
+    "Perhatikan konteks.",
+    "Hindari terjemahan mentah.",
+    "Gunakan dalam writing dan speaking."
   ],
   "examples": [
-    "I need **a** pen. (salah satu dari banyak pen, tidak spesifik)",
-    "She is **an** excellent student. (dimulai dengan bunyi vokal 'e')",
-    "**The** book on the table is mine. (buku spesifik yang ada di atas meja)",
-    "I like **the** music you are playing. (musik spesifik yang sedang dimainkan)",
-    "**The** moon is visible tonight. (hanya ada satu bulan)",
-    "**The** students in this class are smart. (siswa spesifik di kelas ini)",
-    "I have **dogs**. (anjing secara umum, jamak, tidak spesifik)",
-    "She studies **mathematics**. (kata benda abstrak, tidak dapat dihitung)",
-    "**Mr. Smith** is coming. (nama diri)"
+    {
+      "sentence": "Articles appears in IELTS tasks.",
+      "note": "Use the structure accurately.",
+      "indonesian": "Articles muncul dalam tugas IELTS."
+    }
   ],
   "commonMistakes": [
-    "Menggunakan 'a' atau 'an' sebelum kata benda jamak.",
-    "Menggunakan 'the' untuk kata benda umum yang tidak spesifik.",
-    "Lupa menggunakan 'the' untuk hal-hal yang unik.",
-    "Salah menggunakan 'a' atau 'an' berdasarkan huruf, bukan bunyi (misalnya, 'a hour' seharusnya 'an hour').",
-    "Tidak menggunakan artikel sama sekali ketika seharusnya digunakan, atau sebaliknya."
-  ],
-  "ieltsTip": "Dalam IELTS Writing dan Speaking, perhatikan penggunaan artikel dengan cermat. Penggunaan artikel yang benar menunjukkan tingkat penguasaan tata bahasa yang tinggi. Latih diri Anda untuk mengidentifikasi apakah kata benda spesifik atau umum, tunggal atau jamak, dan dapat dihitung atau tidak dapat dihitung. Perhatikan juga kata benda yang unik (misalnya, 'the internet', 'the sky').",
-  "quiz": [
     {
-      "question": "Please pass me ______ salt.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
-      ],
-      "answer": "the"
-    },
-    {
-      "question": "I saw ______ interesting movie yesterday.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
-      ],
-      "answer": "an"
-    },
-    {
-      "question": "She is ______ doctor.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "______ dogs are loyal animals.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
-      ],
-      "answer": "zero article"
-    },
-    {
-      "question": "Can you turn on ______ light?",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
-      ],
-      "answer": "the"
+      "wrong": "Learner guesses the form.",
+      "right": "Learner checks the structure first.",
+      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
     }
-  ]
+  ],
+  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
+  "quiz": []
 }
