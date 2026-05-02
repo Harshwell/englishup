@@ -1,72 +1,155 @@
 {
-  "explanation": "Kalimat pasif (passive voice) dalam Bahasa Inggris digunakan ketika fokus kalimat adalah pada objek atau tindakan yang dilakukan, bukan pada siapa yang melakukan tindakan tersebut. Struktur dasarnya adalah 'be' (is, am, are, was, were, been, being) + past participle (kata kerja bentuk ketiga).  Ini berbeda dengan kalimat aktif (active voice) yang fokus pada subjek yang melakukan tindakan.",
+  "grammarChart": {
+    "title": "Passive Voice: be + Past Participle",
+    "structure": "Subject + be (am/is/are/was/were/been/being) + Past Participle",
+    "tenses": [
+      {
+        "tense": "Present Simple",
+        "active": "They build houses.",
+        "passive": "Houses are built (by them)."
+      },
+      {
+        "tense": "Past Simple",
+        "active": "She wrote a letter.",
+        "passive": "A letter was written (by her)."
+      },
+      {
+        "tense": "Present Continuous",
+        "active": "They are painting the walls.",
+        "passive": "The walls are being painted (by them)."
+      },
+      {
+        "tense": "Past Continuous",
+        "active": "He was fixing the car.",
+        "passive": "The car was being fixed (by him)."
+      },
+      {
+        "tense": "Present Perfect",
+        "active": "They have finished the project.",
+        "passive": "The project has been finished (by them)."
+      },
+      {
+        "tense": "Past Perfect",
+        "active": "She had already sent the email.",
+        "passive": "The email had already been sent (by her)."
+      },
+      {
+        "tense": "Future Simple (will)",
+        "active": "We will send the invitations.",
+        "passive": "The invitations will be sent (by us)."
+      },
+      {
+        "tense": "Future Perfect",
+        "active": "By next week, they will have completed the report.",
+        "passive": "By next week, the report will have been completed (by them)."
+      },
+      {
+        "tense": "Modals",
+        "active": "You must complete the assignment.",
+        "passive": "The assignment must be completed (by you)."
+      }
+    ]
+  },
+  "explanation": "The passive voice is used when the focus is on the action or the object of the action, rather than the person or thing performing the action (the agent). It's formed using a form of the verb 'to be' (am, is, are, was, were, been, being) followed by the past participle of the main verb. The original object of the active sentence becomes the subject of the passive sentence. The agent (the doer of the action) can be omitted or introduced with the preposition 'by'.",
   "keyRules": [
-    "Struktur dasar: Objek (dalam kalimat aktif) menjadi Subjek (dalam kalimat pasif) + Verb 'be' (sesuai tenses) + Past Participle (V3) + (by + Agen/Pelaku - opsional).",
-    "Verb 'be' harus sesuai dengan subjek baru (yang tadinya objek) dan tenses kalimat.",
-    "Past participle adalah bentuk ketiga dari kata kerja (misalnya: write - wrote - written, eat - ate - eaten, play - played - played).",
-    "Jika pelaku tindakan ingin disebutkan, gunakan 'by' sebelum pelaku tersebut.",
-    "Kalimat pasif sering digunakan dalam konteks formal, ilmiah, atau ketika pelaku tidak diketahui atau tidak penting."
+    "Identify the object of the active sentence. This will be the subject of the passive sentence.",
+    "Use the correct form of 'to be' that matches the tense of the original active verb and the new subject.",
+    "Use the past participle of the main verb.",
+    "The agent (the doer of the action) is often optional, especially when it's unknown, unimportant, or obvious from the context. It's introduced by 'by'."
+  ],
+  "azarNotes": [
+    "The past participle is the third form of a verb (e.g., go - went - gone; eat - ate - eaten). For regular verbs, it's the same as the simple past (e.g., play - played - played).",
+    "In formal writing, especially in academic contexts, the passive voice is frequently used to maintain objectivity and avoid personal pronouns.",
+    "Be careful with tenses. The 'be' verb must agree in tense with the original active verb."
   ],
   "examples": [
     {
-      "active": "The chef cooks the meal.",
-      "passive": "The meal is cooked by the chef."
+      "active": "The chef prepares the meal.",
+      "passive": "The meal is prepared (by the chef)."
     },
     {
-      "active": "They built the bridge last year.",
-      "passive": "The bridge was built by them last year."
+      "active": "Scientists discovered a new planet.",
+      "passive": "A new planet was discovered (by scientists)."
     },
     {
-      "active": "Someone has stolen my wallet.",
-      "passive": "My wallet has been stolen."
+      "active": "The company is launching a new product.",
+      "passive": "A new product is being launched (by the company)."
     },
     {
-      "active": "The company will launch the new product.",
-      "passive": "The new product will be launched by the company."
+      "active": "The architect designed the building.",
+      "passive": "The building was designed (by the architect)."
     },
     {
-      "active": "She is writing a report.",
-      "passive": "A report is being written by her."
+      "active": "They will announce the results tomorrow.",
+      "passive": "The results will be announced tomorrow (by them)."
+    },
+    {
+      "active": "The government has implemented new policies.",
+      "passive": "New policies have been implemented (by the government)."
     }
   ],
   "commonMistakes": [
-    "Menggunakan bentuk 'be' yang salah (misalnya: 'The book is write' bukan 'The book is written').",
-    "Menggunakan kata kerja bentuk dasar atau V-ing sebagai pengganti past participle.",
-    "Lupa menambahkan 'be' sama sekali.",
-    "Membuat kalimat pasif padahal kalimat aktif lebih tepat dan jelas.",
-    "Kesalahan dalam menyesuaikan 'be' dengan subjek pasif (misalnya: 'The cars is repaired' bukan 'The cars are repaired')."
+    "Incorrect form of 'to be': Using 'is' instead of 'was' for a past action, or forgetting to conjugate 'be' correctly.",
+    "Incorrect past participle: Using the simple past form instead of the past participle (e.g., 'The book was wrote' instead of 'The book was written').",
+    "Confusing active and passive: Writing a sentence that looks passive but is meant to be active, or vice-versa.",
+    "Overuse of the passive voice: Making writing sound unnatural or evasive by using passive voice when active voice would be clearer and more direct."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), kalimat pasif sangat umum digunakan untuk mendeskripsikan data pada grafik, tabel, atau diagram, di mana fokusnya adalah pada apa yang terjadi pada data tersebut, bukan siapa yang mengumpulkannya. Perhatikan penggunaan tenses yang tepat saat mengubah kalimat aktif menjadi pasif. Dalam IELTS Speaking, gunakan pasif untuk terdengar lebih formal dan terstruktur, terutama saat menjelaskan proses atau kejadian.",
+  "ieltsTip": "In IELTS Writing Task 1 (Academic), you will often use the passive voice to describe processes (e.g., 'The ingredients are mixed...', 'The mixture is then heated...'). In Task 2, it can be useful for presenting general statements, research findings, or when the agent is unknown or unimportant (e.g., 'It is believed that...', 'Mistakes were made...'). Aim for a balance; don't overuse it.",
   "quiz": [
     {
-      "question": "Change the following sentence into passive voice: 'The students completed the project on time.'",
+      "id": 1,
+      "question": "Transform this sentence into the passive voice: 'The students completed the assignment on time.'",
       "options": [
-        "The project completed by the students on time.",
-        "The project was completed by the students on time.",
-        "The project is completed by the students on time.",
-        "The project completing by the students on time."
+        "The assignment was completed by the students on time.",
+        "The assignment completed the students on time.",
+        "The students were completed the assignment on time.",
+        "The assignment is completed by the students on time."
       ],
-      "answer": "The project was completed by the students on time."
+      "correctAnswer": "The assignment was completed by the students on time."
     },
     {
-      "question": "Choose the correct passive form: 'A new policy ______ next month.'",
+      "id": 2,
+      "question": "What is the correct passive form of: 'The company will launch a new software next month.'",
       "options": [
-        "is introduced",
-        "will be introduced",
-        "was introduced",
-        "is being introduced"
+        "A new software will launch by the company next month.",
+        "A new software will be launched by the company next month.",
+        "A new software is launched by the company next month.",
+        "A new software was launched by the company next month."
       ],
-      "answer": "will be introduced"
+      "correctAnswer": "A new software will be launched by the company next month."
     },
     {
-      "question": "Identify the passive sentence: 'The museum displays ancient artifacts.'",
+      "id": 3,
+      "question": "Choose the correct passive sentence: 'They are building a new bridge.'",
       "options": [
-        "Ancient artifacts are displayed by the museum.",
-        "The museum displays ancient artifacts.",
-        "The museum is displaying ancient artifacts.",
-        "Ancient artifacts display the museum."
+        "A new bridge is building.",
+        "A new bridge is being built.",
+        "A new bridge was built.",
+        "A new bridge has been building."
       ],
-      "answer": "Ancient artifacts are displayed by the museum."
+      "correctAnswer": "A new bridge is being built."
+    },
+    {
+      "id": 4,
+      "question": "The past participle of 'write' is:",
+      "options": [
+        "wrote",
+        "written",
+        "writing",
+        "writ"
+      ],
+      "correctAnswer": "written"
+    },
+    {
+      "id": 5,
+      "question": "Which sentence correctly uses the passive voice to describe a general truth or fact?",
+      "options": [
+        "People say that learning is hard.",
+        "It is said that learning is hard.",
+        "Learning is said to be hard.",
+        "All of the above."
+      ],
+      "correctAnswer": "All of the above."
     }
   ]
 }

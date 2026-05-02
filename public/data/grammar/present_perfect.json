@@ -1,25 +1,188 @@
 {
-  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": {
+    "title": "Present Perfect Tense",
+    "structure": [
+      {
+        "positive": "Subject + have/has + Past Participle (V3)"
+      },
+      {
+        "negative": "Subject + have/has + not + Past Participle (V3)"
+      },
+      {
+        "question": "Have/Has + Subject + Past Participle (V3)?"
+      }
+    ],
+    "auxiliaryVerbs": [
+      "have (I, you, we, they)",
+      "has (he, she, it)"
+    ],
+    "pastParticipleExamples": [
+      {
+        "verb": "eat",
+        "pastParticiple": "eaten"
+      },
+      {
+        "verb": "go",
+        "pastParticiple": "gone"
+      },
+      {
+        "verb": "see",
+        "pastParticiple": "seen"
+      },
+      {
+        "verb": "write",
+        "pastParticiple": "written"
+      },
+      {
+        "verb": "play",
+        "pastParticiple": "played"
+      },
+      {
+        "verb": "study",
+        "pastParticiple": "studied"
+      }
+    ]
+  },
+  "explanation": "The Present Perfect tense connects the past to the present. It's used to talk about experiences, actions that started in the past and continue to the present, or actions that happened in the past but have a result or relevance in the present.  It emphasizes the completion of an action or its connection to the current moment, rather than the specific time it happened.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "ruleNumber": 1,
+      "description": "Use 'have' with I, you, we, and they. Use 'has' with he, she, and it.",
+      "example": "I have finished my homework. She has traveled to many countries."
+    },
+    {
+      "ruleNumber": 2,
+      "description": "The past participle (V3) is used. For regular verbs, it's usually the same as the simple past (e.g., played, studied). For irregular verbs, you need to learn them (e.g., eaten, gone, seen).",
+      "example": "They have played football. He has eaten breakfast."
+    },
+    {
+      "ruleNumber": 3,
+      "description": "Used for actions that happened at an unspecified time in the past, but the result is important now.",
+      "example": "I have lost my keys. (The result is I can't get into my house now.)"
+    },
+    {
+      "ruleNumber": 4,
+      "description": "Used for experiences (life experiences) without specifying when they happened.",
+      "example": "She has visited Bali twice."
+    },
+    {
+      "ruleNumber": 5,
+      "description": "Used for actions that started in the past and continue up to the present (often with 'for' and 'since').",
+      "example": "We have lived here for ten years. He has known her since 2010."
+    },
+    {
+      "ruleNumber": 6,
+      "description": "Used for recent past actions, often with 'just', 'already', and 'yet'.",
+      "example": "He has just arrived. They have already eaten dinner. I haven't finished yet."
+    }
+  ],
+  "azarNotes": [
+    "Be careful with irregular past participles. Memorize them!",
+    "The Present Perfect is often used in IELTS Writing Task 1 when describing changes over time, especially with verbs like 'increase', 'decrease', 'rise', 'fall', 'grow'.",
+    "In IELTS Speaking, use it to talk about your experiences or things you have done.",
+    "Don't confuse Present Perfect with Simple Past. Simple Past focuses on a finished action at a specific past time (e.g., 'I went to the cinema yesterday'). Present Perfect focuses on the connection to the present."
   ],
   "examples": [
     {
-      "sentence": "Present Perfect appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Present Perfect muncul dalam tugas IELTS."
+      "sentence": "I have read that book before.",
+      "tense": "Present Perfect",
+      "focus": "Experience"
+    },
+    {
+      "sentence": "She has lived in Jakarta for five years.",
+      "tense": "Present Perfect",
+      "focus": "Action continues to present"
+    },
+    {
+      "sentence": "They have just finished their project.",
+      "tense": "Present Perfect",
+      "focus": "Recent action with result"
+    },
+    {
+      "sentence": "Have you ever tried Indonesian food?",
+      "tense": "Present Perfect",
+      "focus": "Question about experience"
+    },
+    {
+      "sentence": "He hasn't seen his family recently.",
+      "tense": "Present Perfect",
+      "focus": "Negative, recent past"
+    },
+    {
+      "sentence": "The company has grown significantly since last year.",
+      "tense": "Present Perfect",
+      "focus": "Change over time (Task 1 relevant)"
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
+      "mistake": "Using simple past with 'for'/'since' when the action continues.",
+      "correction": "Incorrect: I lived here for ten years. Correct: I have lived here for ten years."
+    },
+    {
+      "mistake": "Using present perfect for a finished action at a specific past time.",
+      "correction": "Incorrect: I have seen that movie yesterday. Correct: I saw that movie yesterday."
+    },
+    {
+      "mistake": "Incorrect auxiliary verb (have/has).",
+      "correction": "Incorrect: She have gone. Correct: She has gone."
+    },
+    {
+      "mistake": "Using the base form or simple past instead of the past participle.",
+      "correction": "Incorrect: They have eat. Incorrect: They have ate. Correct: They have eaten."
     }
   ],
-  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 1, the Present Perfect is crucial for describing trends and changes over a period of time. For example: 'The number of tourists has increased significantly since 2010.' Use it to show a connection between past data and the present situation. In Speaking, it's great for sharing your life experiences: 'I have never been to Australia, but I would love to go someday.' This shows fluency and a wider range of grammatical structures.",
+  "quiz": [
+    {
+      "question": "Choose the correct form of the verb to complete the sentence:  She ______ to London last year.",
+      "options": [
+        "has gone",
+        "went",
+        "has been",
+        "go"
+      ],
+      "answer": "went"
+    },
+    {
+      "question": "Complete the sentence using the Present Perfect:  We ______ this movie already.",
+      "options": [
+        "watch",
+        "watched",
+        "have watched",
+        "has watched"
+      ],
+      "answer": "have watched"
+    },
+    {
+      "question": "Which sentence correctly uses the Present Perfect to describe an experience?",
+      "options": [
+        "I ate sushi yesterday.",
+        "I have eaten sushi once.",
+        "I eat sushi often.",
+        "I will eat sushi tomorrow."
+      ],
+      "answer": "I have eaten sushi once."
+    },
+    {
+      "question": "Fill in the blank with the correct form of 'have/has':  ______ you ever visited Bali?",
+      "options": [
+        "Has",
+        "Have",
+        "Do",
+        "Did"
+      ],
+      "answer": "Have"
+    },
+    {
+      "question": "Choose the correct sentence:  My brother ______ his keys.",
+      "options": [
+        "lost",
+        "has lost",
+        "loses",
+        "is losing"
+      ],
+      "answer": "has lost"
+    }
+  ]
 }
