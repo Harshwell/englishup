@@ -2,44 +2,185 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡəɹɪðm̩/",
+      "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
+      "indonesian": "algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "complex algorithm",
+        "search algorithm",
+        "learning algorithm",
+        "data algorithm",
+        "algorithm design"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "process",
+        "method",
+        "formula"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "/ˈbaɪəs/",
+      "word": "automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
       "partOfSpeech": "noun",
-      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "definition": "The use of technology to perform tasks with minimal human intervention.",
+      "indonesian": "otomatisasi",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Automation in manufacturing has led to increased efficiency.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "process automation",
+        "industrial automation",
+        "office automation",
+        "degree of automation",
+        "automation system"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "mechanization",
+        "robotization",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "connectivity",
+      "pronunciation": "/kəˌnekˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability to connect to or communicate with other devices or networks.",
+      "indonesian": "konektivitas",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "The new smartphone boasts enhanced connectivity options.",
+      "collocations": [
+        "network connectivity",
+        "internet connectivity",
+        "wireless connectivity",
+        "mobile connectivity",
+        "poor connectivity"
+      ],
+      "synonyms": [
+        "interconnection",
+        "linkage",
+        "association",
+        "network"
+      ]
+    },
+    {
+      "word": "disruptive",
+      "pronunciation": "/dɪsˈrʌptɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing significant change or disturbance to an existing industry or market.",
+      "indonesian": "mengganggu",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Artificial intelligence is a disruptive technology that is transforming many sectors.",
+      "collocations": [
+        "disruptive technology",
+        "disruptive innovation",
+        "disruptive force",
+        "disruptive effect",
+        "highly disruptive"
+      ],
+      "synonyms": [
+        "revolutionary",
+        "transformative",
+        "game-changing",
+        "unsettling"
+      ]
+    },
+    {
+      "word": "intelligence",
+      "pronunciation": "/ɪnˈtelɪdʒəns/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of machines to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.",
+      "indonesian": "kecerdasan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Artificial intelligence is a rapidly advancing field.",
+      "collocations": [
+        "artificial intelligence",
+        "machine intelligence",
+        "emotional intelligence",
+        "general intelligence",
+        "developing intelligence"
+      ],
+      "synonyms": [
+        "cognition",
+        "understanding",
+        "reasoning",
+        "intellect"
+      ]
+    },
+    {
+      "word": "interface",
+      "pronunciation": "/ˈɪntərfeɪs/",
+      "partOfSpeech": "noun",
+      "definition": "A point where two systems, subjects, organizations, etc. meet and interact.",
+      "indonesian": "antarmuka",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "The user interface of the new app is very intuitive.",
+      "collocations": [
+        "user interface",
+        "graphical interface",
+        "software interface",
+        "application interface",
+        "intuitive interface"
+      ],
+      "synonyms": [
+        "connection",
+        "link",
+        "gateway",
+        "junction"
+      ]
+    },
+    {
+      "word": "scalability",
+      "pronunciation": "/skeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "skalabilitas",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "The company's cloud infrastructure offers excellent scalability.",
+      "collocations": [
+        "system scalability",
+        "network scalability",
+        "platform scalability",
+        "high scalability",
+        "ensure scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "flexibility",
+        "adaptability",
+        "capacity"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous computing",
+        "increasingly ubiquitous",
+        "become ubiquitous",
+        "truly ubiquitous"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
       ]
     }
   ]

@@ -1,47 +1,163 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
-      "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "word": "Accompany",
+      "pronunciation": "/əˈkʌmpəni/",
+      "partOfSpeech": "verb",
+      "definition": "To go somewhere with someone as a companion.",
+      "indonesian": "Menemani",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": "7.0",
+      "example": "Would you like me to accompany you to the station?",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "accompany someone",
+        "accompany someone on a trip",
+        "accompany someone to an event"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "escort",
+        "join",
+        "tag along with"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
+      "word": "Bustling",
+      "pronunciation": "/ˈbʌslɪŋ/",
       "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "definition": "Full of activity, busy, and energetic.",
+      "indonesian": "Ramai",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "The market was bustling with shoppers on a Saturday morning.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "bustling city",
+        "bustling street",
+        "bustling with activity"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "lively",
+        "vibrant",
+        "busy"
+      ]
+    },
+    {
+      "word": "Catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To reach someone or something by going faster than them; to talk to someone you haven't seen for a while and find out what they have been doing.",
+      "indonesian": "Menyusul / Bertemu dan mengobrol",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I need to catch up on my sleep this weekend. Let's grab coffee and catch up soon!",
+      "collocations": [
+        "catch up on news",
+        "catch up with friends",
+        "catch up on work"
+      ],
+      "synonyms": [
+        "reconnect",
+        "update",
+        "overtake"
+      ]
+    },
+    {
+      "word": "Familiar",
+      "pronunciation": "/fəˈmɪliər/",
+      "partOfSpeech": "adjective",
+      "definition": "Well known from long or close association.",
+      "indonesian": "Akra",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "The smell of her grandmother's cooking was very familiar to her.",
+      "collocations": [
+        "familiar with",
+        "familiar face",
+        "familiar surroundings"
+      ],
+      "synonyms": [
+        "known",
+        "recognizable",
+        "commonplace"
+      ]
+    },
+    {
+      "word": "Hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing informally.",
+      "indonesian": "Nongkrong / Berkumpul",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "We usually hang out at the park after school.",
+      "collocations": [
+        "hang out with friends",
+        "hang out at a place",
+        "hang out together"
+      ],
+      "synonyms": [
+        "socialize",
+        "spend time",
+        "chill"
+      ]
+    },
+    {
+      "word": "Impressive",
+      "pronunciation": "/ɪmˈpresɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Evoking admiration; having a strong effect on one's senses, emotions, or mind.",
+      "indonesian": "Kesan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Her presentation was incredibly impressive; she clearly did a lot of research.",
+      "collocations": [
+        "impressive achievement",
+        "impressive performance",
+        "deeply impressive"
+      ],
+      "synonyms": [
+        "remarkable",
+        "striking",
+        "awe-inspiring"
+      ]
+    },
+    {
+      "word": "Overwhelmed",
+      "pronunciation": "/ˌoʊvərˈwɛlmd/",
+      "partOfSpeech": "adjective",
+      "definition": "Having too many things to deal with; feeling very stressed or confused.",
+      "indonesian": "Kewalahan",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "I'm feeling a bit overwhelmed with all the deadlines this week.",
+      "collocations": [
+        "feel overwhelmed",
+        "overwhelmed by",
+        "completely overwhelmed"
+      ],
+      "synonyms": [
+        "swamped",
+        "overburdened",
+        "snowed under"
+      ]
+    },
+    {
+      "word": "Spontaneous",
+      "pronunciation": "/spɑːnˈteɪniəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Happening or done without premeditation or any planning.",
+      "indonesian": "Spontan",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "We decided to go on a spontaneous road trip last weekend.",
+      "collocations": [
+        "spontaneous decision",
+        "spontaneous outburst",
+        "spontaneous trip"
+      ],
+      "synonyms": [
+        "impromptu",
+        "unplanned",
+        "offhand"
       ]
     }
   ]

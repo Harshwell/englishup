@@ -1,245 +1,230 @@
 [
   {
-    "title": "The AI Revolution in the Classroom",
+    "title": "The Dawn of AI in the Classroom",
     "topic": "Artificial Intelligence and Education",
-    "difficulty": "intermediate",
-    "passage": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly integrating into various aspects of our lives, and education is no exception.  The potential of AI to transform the learning landscape is immense, offering personalized learning experiences, automating administrative tasks, and providing valuable insights into student progress.  One of the most significant applications of AI in education is adaptive learning platforms. These systems analyze a student's performance in real-time, identifying areas of strength and weakness. Based on this analysis, the platform can then tailor the curriculum, offering additional practice or more challenging material as needed. This individualized approach can significantly improve engagement and learning outcomes, as students are neither bored by content that is too easy nor overwhelmed by material that is too difficult.\n\nBeyond personalized learning, AI can also alleviate the burden of administrative tasks for educators. Grading assignments, scheduling classes, and managing student records are time-consuming but essential duties. AI-powered tools can automate many of these processes, freeing up teachers' valuable time to focus on what they do best: teaching and interacting with students. Furthermore, AI can analyze vast amounts of data related to student performance, identifying trends and patterns that might be invisible to the human eye. This data can inform pedagogical strategies, curriculum development, and early intervention for students who may be struggling.\n\nHowever, the widespread adoption of AI in education is not without its challenges. Concerns about data privacy and security are paramount. Ensuring that sensitive student information is protected is crucial. Additionally, the ethical implications of AI in education, such as potential biases in algorithms and the impact on the teacher-student relationship, need careful consideration. The digital divide also presents a hurdle, as equitable access to AI-powered educational tools must be ensured for all students, regardless of their socioeconomic background.  Despite these challenges, the potential benefits of AI in creating a more effective, efficient, and equitable educational system are undeniable.",
+    "difficulty": "Intermediate",
+    "passage": "Artificial Intelligence (AI) is rapidly transforming various sectors, and education is no exception.  The integration of AI technologies into learning environments promises a paradigm shift, moving away from one-size-fits-all approaches towards personalized and adaptive educational experiences.  One of the most significant impacts of AI is its potential to tailor learning content to individual student needs.  AI-powered platforms can analyze a student's strengths, weaknesses, learning pace, and preferred learning styles, then curate specific resources and exercises. This adaptive learning approach ensures that students receive support where they struggle and are challenged appropriately where they excel, fostering deeper understanding and engagement.  Furthermore, AI can automate tedious administrative tasks for educators, such as grading multiple-choice tests and managing student records.  This frees up valuable time for teachers to focus on more critical aspects of their profession, like one-on-one student interaction, curriculum development, and creative lesson planning.  AI tutors, though still in their nascent stages, are also emerging as powerful tools.  These digital assistants can provide instant feedback, answer common student queries, and offer supplementary explanations, allowing students to seek help outside of traditional classroom hours.  However, the widespread adoption of AI in education is not without its challenges.  Concerns about data privacy and security are paramount, as educational AI systems collect vast amounts of sensitive student information.  Ensuring equitable access to AI-powered tools is another hurdle, as disparities in technology infrastructure could widen the achievement gap between students from different socioeconomic backgrounds.  Moreover, the ethical implications of relying heavily on AI for educational decisions, such as student assessment and pathway recommendations, require careful consideration and robust oversight.  Despite these challenges, the potential benefits of AI in enhancing learning outcomes, increasing teacher efficiency, and making education more accessible and personalized are undeniable.  As AI technology continues to mature, its role in shaping the future of education will undoubtedly expand.",
     "vocabulary": [
       {
-        "word": "confined",
-        "definition": "limited to or within a particular place or area."
+        "word": "transforming",
+        "meaning": "causing a marked change in someone or something",
+        "indonesian_translation": "mengubah"
       },
       {
-        "word": "integrating",
-        "definition": "combining one thing with another so that they become a whole."
+        "word": "paradigm shift",
+        "meaning": "a fundamental change in approach or underlying assumptions",
+        "indonesian_translation": "pergeseran paradigma"
       },
       {
-        "word": "immense",
-        "definition": "extremely large or great, especially in scale or degree."
+        "word": "curate",
+        "meaning": "select, organize, and look after the items in (a collection or exhibition)",
+        "indonesian_translation": "mengkurasi, memilih dan mengatur"
       },
       {
-        "word": "personalized",
-        "definition": "designed to meet the particular needs of an individual."
+        "word": "adaptive learning",
+        "meaning": "an educational method that uses technology to personalize the learning experience for each student",
+        "indonesian_translation": "pembelajaran adaptif"
       },
       {
-        "word": "automating",
-        "definition": "convert (a process or task) into a form that can be performed by a machine."
+        "word": "automate",
+        "meaning": "convert (a process or system) into something that is done by machines or computers",
+        "indonesian_translation": "mengotomatiskan"
       },
       {
-        "word": "administrative",
-        "definition": "relating to or concerned with the running of a business, organization, etc."
+        "word": "nascent",
+        "meaning": "just coming into existence and beginning to display potential",
+        "indonesian_translation": "baru lahir, berkembang"
       },
       {
-        "word": "adaptive",
-        "definition": "able to change or be changed in order to fit or work better in new conditions."
+        "word": "equitable access",
+        "meaning": "fair and impartial access",
+        "indonesian_translation": "akses yang merata/adil"
       },
       {
-        "word": "tailor",
-        "definition": "construct or alter (a garment or something else) to fit a particular person or situation."
+        "word": "disparities",
+        "meaning": "a great difference",
+        "indonesian_translation": "ketidaksetaraan, perbedaan"
       },
       {
-        "word": "alleviate",
-        "definition": "make (suffering, deficiency, or a problem) less severe."
+        "word": "socioeconomic",
+        "meaning": "relating to or concerned with the interaction of social and economic factors",
+        "indonesian_translation": "sosial ekonomi"
       },
       {
-        "word": "paramount",
-        "definition": "more important than anything else; supreme."
+        "word": "ethical implications",
+        "meaning": "the moral consequences of an action or decision",
+        "indonesian_translation": "implikasi etis/moral"
       },
       {
-        "word": "ethical",
-        "definition": "relating to moral principles or the branch of knowledge dealing with these."
+        "word": "robust oversight",
+        "meaning": "strong and effective supervision or monitoring",
+        "indonesian_translation": "pengawasan yang kuat/ketat"
       },
       {
-        "word": "equitable",
-        "definition": "fair and impartial."
+        "word": "undeniable",
+        "meaning": "unable to be denied or disputed",
+        "indonesian_translation": "tak terbantahkan"
       }
     ],
     "questions": [
       {
+        "id": 1,
         "type": "multiple_choice",
-        "question": "What is one of the primary benefits of AI in education mentioned in the passage?",
+        "question": "According to the passage, what is a primary benefit of AI in education regarding content delivery?",
         "options": [
-          "Reducing the cost of textbooks",
-          "Providing personalized learning experiences",
-          "Eliminating the need for teachers",
-          "Standardizing all learning materials"
+          "It standardizes teaching methods for all students.",
+          "It allows for personalized learning experiences tailored to individual needs.",
+          "It reduces the need for human teachers entirely.",
+          "It focuses solely on grading administrative tasks."
         ],
-        "answer": "Providing personalized learning experiences"
+        "correct_answer": "It allows for personalized learning experiences tailored to individual needs."
       },
       {
+        "id": 2,
         "type": "true_false_not_given",
-        "question": "Adaptive learning platforms use AI to create a one-size-fits-all curriculum for all students.",
+        "question": "AI tutors can only provide assistance during school hours.",
         "answer": "False"
       },
       {
+        "id": 3,
         "type": "short_answer",
-        "question": "Besides personalized learning, what other area can AI assist educators with?",
-        "answer": "Automating administrative tasks"
+        "question": "What is one administrative task that AI can automate for educators?",
+        "answer": "grading multiple-choice tests / managing student records"
       },
       {
+        "id": 4,
         "type": "multiple_choice",
-        "question": "Which of the following is NOT mentioned as a challenge to AI adoption in education?",
+        "question": "Which of the following is identified as a significant challenge for the widespread adoption of AI in education?",
         "options": [
-          "Data privacy and security",
-          "The cost of AI hardware",
-          "Ethical implications of algorithms",
-          "The digital divide"
+          "Lack of interest from students.",
+          "The high cost of AI development.",
+          "Concerns about data privacy and security.",
+          "Over-reliance on traditional teaching methods."
         ],
-        "answer": "The cost of AI hardware"
+        "correct_answer": "Concerns about data privacy and security."
       },
       {
+        "id": 5,
         "type": "true_false_not_given",
-        "question": "AI can analyze student data to identify trends that might be difficult for humans to detect.",
-        "answer": "True"
+        "question": "The passage suggests that AI will completely replace the role of human teachers in the future.",
+        "answer": "Not Given"
       }
     ],
     "ieltsTips": [
-      "Read the questions carefully before reading the passage to understand what information you need to find.",
-      "Scan the passage for keywords from the questions to locate relevant sections.",
-      "Pay attention to synonyms and paraphrased ideas, as the passage may not use the exact wording from the questions.",
-      "For True/False/Not Given questions, be precise. 'False' means the statement is contradicted by the passage. 'Not Given' means the information is not present in the passage.",
-      "For short answer questions, keep your answers concise and directly address the question using information from the text."
+      {
+        "tip": "For True/False/Not Given questions, carefully read the question and then scan the passage for keywords related to the statement. If the passage directly contradicts the statement, it's False. If the passage supports the statement, it's True. If the information is not present in the passage, it's Not Given.",
+        "focus": "True/False/Not Given Strategy"
+      },
+      {
+        "tip": "When answering Short Answer questions, look for specific information that directly answers the question. Avoid using information from other parts of the passage unless it's directly relevant to the answer.",
+        "focus": "Short Answer Question Technique"
+      },
+      {
+        "tip": "For Multiple Choice questions, identify the main idea of each option and then locate the corresponding information in the passage. Eliminate options that are clearly incorrect or not supported by the text.",
+        "focus": "Multiple Choice Question Strategy"
+      },
+      {
+        "tip": "Pay attention to synonyms and paraphrasing in the passage. The answer might not use the exact same words as the question.",
+        "focus": "Vocabulary and Paraphrasing"
+      },
+      {
+        "tip": "Read the entire passage once to get a general understanding before attempting the questions. This helps you to locate information more efficiently.",
+        "focus": "Reading Comprehension Strategy"
+      }
     ]
   },
   {
-    "title": "The Rise of Remote Work",
+    "title": "Working From Home: A New Way to Be Productive",
     "topic": "Remote Work and Productivity",
-    "difficulty": "beginner",
-    "passage": "Remote work, also known as working from home, has become increasingly popular in recent years. Many companies now allow their employees to work from their own homes instead of going to a traditional office. This change offers several benefits. For employees, it can mean more flexibility in their schedules and less time spent commuting. This can lead to a better work-life balance, allowing them to spend more time with family or pursue hobbies. For businesses, remote work can reduce the costs associated with office space and utilities.  Some studies suggest that remote workers can even be more productive because they have fewer distractions at home compared to a busy office environment. However, it's important for both employees and employers to establish clear communication channels and set expectations to ensure that remote work is successful and productive.",
+    "difficulty": "Beginner",
+    "passage": "The way people work is changing. Many companies now allow their employees to work from home, also known as remote work. This means people can do their jobs without going to an office every day.  For some, this is a great change. They can save time and money by not commuting.  They might also find they can focus better without the usual office distractions, like loud colleagues or constant meetings.  This can lead to more work being done, which is good for productivity.  However, remote work isn't perfect for everyone. Some people miss the social interaction of the office. They might feel isolated or find it hard to separate their work life from their home life.  Also, not all jobs can be done from home. Some tasks require special equipment or face-to-face interaction.  Despite these challenges, remote work is becoming more common.  Companies and employees are learning how to make it work best for them.",
     "vocabulary": [
       {
         "word": "remote work",
-        "definition": "working from home or a location other than a central office"
+        "meaning": "working from home or a place other than the office",
+        "indonesian_translation": "kerja jarak jauh"
       },
       {
-        "word": "popular",
-        "definition": "liked, enjoyed, or supported by many people"
-      },
-      {
-        "word": "traditional",
-        "definition": "existing in or as part of a tradition; long-established"
-      },
-      {
-        "word": "benefits",
-        "definition": "advantages or profits gained from something"
-      },
-      {
-        "word": "flexibility",
-        "definition": "the ability to be easily modified or adapted"
+        "word": "employees",
+        "meaning": "people who work for a company",
+        "indonesian_translation": "karyawan"
       },
       {
         "word": "commuting",
-        "definition": "travel some distance between one's home and place of work on a regular basis"
-      },
-      {
-        "word": "work-life balance",
-        "definition": "the state of equilibrium in which the demands of a person's job and personal life are equally balanced"
-      },
-      {
-        "word": "pursue hobbies",
-        "definition": "to spend time doing activities that you enjoy in your free time"
-      },
-      {
-        "word": "reduce costs",
-        "definition": "to make the amount of money spent on something smaller"
-      },
-      {
-        "word": "office space",
-        "definition": "the area or room in a building where people work"
-      },
-      {
-        "word": "utilities",
-        "definition": "services such as electricity, water, and gas"
-      },
-      {
-        "word": "productive",
-        "definition": "achieving a significant amount or result"
+        "meaning": "traveling to and from work",
+        "indonesian_translation": "perjalanan pulang-pergi kerja"
       },
       {
         "word": "distractions",
-        "definition": "things that prevent someone from giving full attention to something"
+        "meaning": "things that stop you from concentrating",
+        "indonesian_translation": "gangguan"
       },
       {
-        "word": "establish",
-        "definition": "to set up or create"
+        "word": "productivity",
+        "meaning": "the rate at which work is done",
+        "indonesian_translation": "produktivitas"
       },
       {
-        "word": "communication channels",
-        "definition": "the methods or ways through which information is exchanged"
+        "word": "isolated",
+        "meaning": "feeling alone",
+        "indonesian_translation": "terisolasi"
       },
       {
-        "word": "expectations",
-        "definition": "a strong belief that something will happen or be the case"
+        "word": "interaction",
+        "meaning": "communicating with others",
+        "indonesian_translation": "interaksi"
       }
     ],
     "questions": [
       {
+        "id": 1,
         "type": "multiple_choice",
-        "question": "What is another term for remote work mentioned in the passage?",
+        "question": "What is another name for working from home?",
         "options": [
           "Office work",
-          "Working from home",
-          "Business travel",
-          "Team meetings"
+          "Remote work",
+          "Commuting",
+          "Distractions"
         ],
-        "answer": "Working from home"
+        "correct_answer": "Remote work"
       },
       {
+        "id": 2,
         "type": "true_false_not_given",
-        "question": "Remote work means employees must always be available online.",
-        "answer": "not_given"
+        "question": "Remote work can save employees time and money.",
+        "answer": "True"
       },
       {
+        "id": 3,
         "type": "short_answer",
-        "question": "Name one benefit of remote work for employees.",
-        "answer": "more flexibility in their schedules"
+        "question": "What is one benefit of remote work mentioned in the passage?",
+        "answer_length": 3,
+        "answer": "better focus"
       },
       {
+        "id": 4,
         "type": "multiple_choice",
-        "question": "What costs can businesses reduce with remote work?",
+        "question": "Why might some people dislike remote work?",
         "options": [
-          "Employee salaries",
-          "Office space and utilities",
-          "Training programs",
-          "Marketing expenses"
+          "They have too many meetings.",
+          "They miss social interaction.",
+          "They get too much work.",
+          "They save too much money."
         ],
-        "answer": "Office space and utilities"
+        "correct_answer": "They miss social interaction."
       },
       {
+        "id": 5,
         "type": "true_false_not_given",
-        "question": "The passage states that remote workers are always less productive than office workers.",
-        "answer": "false"
-      },
-      {
-        "type": "short_answer",
-        "question": "What is important for successful remote work according to the passage?",
-        "answer": "clear communication channels and set expectations"
+        "question": "All jobs can be done from home.",
+        "answer": "False"
       }
     ],
     "ieltsTips": [
-      "Read the passage carefully to understand the main ideas.",
-      "Pay attention to keywords in the questions and find them in the passage.",
-      "For True/False/Not Given questions, carefully check if the statement is directly supported by the text (True), contradicted by the text (False), or not mentioned at all (Not Given).",
-      "For short answer questions, keep your answers brief and to the point, using words directly from the passage if possible.",
-      "Don't spend too much time on one question; if you're stuck, move on and come back later."
-    ]
-  },
-  {
-    "title": "Cities and Climate Planning",
-    "topic": "Cities and Climate Planning",
-    "difficulty": "advanced",
-    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
-    "vocabulary": [
-      {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
-      }
-    ],
-    "questions": [],
-    "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
+      "For True/False/Not Given questions, carefully read the statement and then find the relevant information in the passage. 'True' means the passage says the same thing. 'False' means the passage says the opposite. 'Not Given' means the passage does not mention the information.",
+      "For short answer questions, look for keywords from the question in the passage. The answer is usually a few words directly from the text.",
+      "When choosing between multiple choice options, read the question carefully and find the sentence in the passage that best answers it. Eliminate options that are clearly incorrect.",
+      "Pay attention to synonyms and paraphrasing. The passage might use different words to express the same idea as the question or options."
     ]
   }
 ]
