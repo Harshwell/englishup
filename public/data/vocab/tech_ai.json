@@ -2,171 +2,44 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡərɪðəm/",
+      "pronunciation": "/ˈælɡəɹɪðm̩/",
       "partOfSpeech": "noun",
-      "definition": "a set of rules or instructions that a computer follows to solve a problem or perform a task.",
-      "indonesian": "algoritma",
+      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
+      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The search engine uses a complex algorithm to rank websites.",
+      "ieltsBand": "6.5-7.0",
+      "example": "algorithm is often used in formal and academic English.",
       "collocations": [
-        "search algorithm",
-        "sorting algorithm",
-        "machine learning algorithm",
-        "design an algorithm",
-        "implement an algorithm"
+        "algorithms",
+        "iterative",
+        "compute",
+        "recursive"
       ],
       "synonyms": [
-        "procedure",
-        "process",
-        "method",
-        "system"
+        "algorithmic program",
+        "algorithmic rule"
       ]
     },
     {
-      "word": "automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+      "word": "bias",
+      "pronunciation": "/ˈbaɪəs/",
       "partOfSpeech": "noun",
-      "definition": "the use of machines and technology to perform tasks that were previously done by humans.",
-      "indonesian": "otomatisasi",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The factory is investing in automation to increase efficiency.",
-      "collocations": [
-        "industrial automation",
-        "process automation",
-        "home automation",
-        "drive automation",
-        "increase automation"
-      ],
-      "synonyms": [
-        "mechanization",
-        "robotics",
-        "self-operation"
-      ]
-    },
-    {
-      "word": "neural network",
-      "pronunciation": "/ˈnjʊərəl ˈnetwɜːk/",
-      "partOfSpeech": "noun",
-      "definition": "a type of artificial intelligence that mimics the way the human brain works, by using interconnected nodes or neurons.",
-      "indonesian": "jaringan saraf tiruan",
+      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
+      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Deep learning models often employ sophisticated neural networks.",
+      "ieltsBand": "7.0-7.5",
+      "example": "bias is often used in formal and academic English.",
       "collocations": [
-        "artificial neural network",
-        "deep neural network",
-        "train a neural network",
-        "design a neural network"
+        "biases",
+        "estimator",
+        "biased",
+        "diode"
       ],
       "synonyms": [
-        "AI network",
-        "computational network"
-      ]
-    },
-    {
-      "word": "predictive analytics",
-      "pronunciation": "/prɪˈdɪktɪv ˌænəˈlɪtɪks/",
-      "partOfSpeech": "noun",
-      "definition": "the use of data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data.",
-      "indonesian": "analitik prediktif",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Businesses use predictive analytics to forecast sales trends.",
-      "collocations": [
-        "data analytics",
-        "business analytics",
-        "marketing analytics",
-        "perform predictive analytics",
-        "implement predictive analytics"
-      ],
-      "synonyms": [
-        "forecasting",
-        "prognostics"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "nearly ubiquitous",
-        "increasingly ubiquitous",
-        "become ubiquitous",
-        "seem ubiquitous"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal"
-      ]
-    },
-    {
-      "word": "interoperability",
-      "pronunciation": "/ˌɪntərɒpərəˈbɪləti/",
-      "partOfSpeech": "noun",
-      "definition": "the ability of different computer systems or software applications to exchange and use information.",
-      "indonesian": "interoperabilitas",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "The lack of interoperability between different systems can be a major challenge.",
-      "collocations": [
-        "system interoperability",
-        "data interoperability",
-        "achieve interoperability",
-        "ensure interoperability"
-      ],
-      "synonyms": [
-        "compatibility",
-        "connectivity"
-      ]
-    },
-    {
-      "word": "democratize",
-      "pronunciation": "/dɪˈmɒkrətaɪz/",
-      "partOfSpeech": "verb",
-      "definition": "to make something accessible to everyone, regardless of wealth or social status.",
-      "indonesian": "mendekratisasi",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Open-source software aims to democratize access to advanced technology.",
-      "collocations": [
-        "democratize access",
-        "democratize knowledge",
-        "democratize technology",
-        "help to democratize"
-      ],
-      "synonyms": [
-        "popularize",
-        "make accessible",
-        "open up"
-      ]
-    },
-    {
-      "word": "disruptive",
-      "pronunciation": "/dɪsˈrʌptɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "causing great disturbance or trouble; causing a significant change in an industry or market.",
-      "indonesian": "mengganggu; revolusioner",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "New technologies are often disruptive to established industries.",
-      "collocations": [
-        "disruptive technology",
-        "disruptive innovation",
-        "potentially disruptive",
-        "highly disruptive"
-      ],
-      "synonyms": [
-        "revolutionary",
-        "transformative",
-        "destabilizing"
+        "oblique",
+        "prejudice",
+        "predetermine",
+        "diagonal"
       ]
     }
   ]

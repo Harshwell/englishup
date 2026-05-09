@@ -1,25 +1,107 @@
 {
-  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata yang mendahului kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan untuk mendapatkan skor tinggi dalam IELTS.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "article": "a",
+      "usage": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan suara konsonan. Menunjukkan sesuatu yang umum atau tidak spesifik.",
+      "examples": [
+        "I saw a cat in the garden.",
+        "She needs a new car."
+      ]
+    },
+    {
+      "article": "an",
+      "usage": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan suara vokal. Menunjukkan sesuatu yang umum atau tidak spesifik.",
+      "examples": [
+        "He ate an apple for breakfast.",
+        "It's an interesting book."
+      ]
+    },
+    {
+      "article": "the",
+      "usage": "Digunakan sebelum kata benda tunggal atau jamak, baik yang dapat dihitung maupun tidak dapat dihitung, ketika kata benda tersebut spesifik atau sudah disebutkan sebelumnya. Juga digunakan untuk hal-hal yang unik.",
+      "examples": [
+        "The sun is shining brightly.",
+        "I read the book you recommended.",
+        "Can you pass me the salt?"
+      ]
+    },
+    {
+      "article": "zero article",
+      "usage": "Tidak menggunakan artikel sama sekali. Digunakan untuk kata benda jamak yang umum, kata benda yang tidak dapat dihitung yang umum, nama diri, bahasa, mata pelajaran, hari, bulan, dan banyak lagi.",
+      "examples": [
+        "Cats are independent animals.",
+        "Water is essential for life.",
+        "I study English.",
+        "We go to school on Monday."
+      ]
+    }
   ],
   "examples": [
-    {
-      "sentence": "Articles appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Articles muncul dalam tugas IELTS."
-    }
+    "I have a dog. The dog is very friendly.",
+    "She bought an umbrella because it was raining.",
+    "The Amazon rainforest is the largest rainforest in the world.",
+    "Children love to play games.",
+    "Honesty is the best policy."
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Menggunakan 'a' atau 'an' dengan kata benda jamak atau yang tidak dapat dihitung.",
+    "Menggunakan 'the' untuk sesuatu yang umum atau tidak spesifik.",
+    "Lupa menggunakan 'the' untuk hal-hal yang unik (misalnya, the moon, the Eiffel Tower).",
+    "Salah menggunakan 'a' atau 'an' berdasarkan huruf awal, bukan suara awal (misalnya, 'a hour' seharusnya 'an hour').",
+    "Menggunakan artikel ketika seharusnya menggunakan zero article (misalnya, 'I like the music' padahal maksudnya musik secara umum)."
   ],
-  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "Dalam IELTS Writing Task 2, berhati-hatilah saat menggunakan artikel. Pastikan Anda menggunakan 'the' untuk merujuk pada sesuatu yang spesifik yang telah Anda sebutkan sebelumnya atau yang jelas bagi pembaca. Gunakan 'a'/'an' untuk memperkenalkan sesuatu yang umum. Untuk generalisasi dengan kata benda jamak atau yang tidak dapat dihitung, gunakan zero article. Perhatikan baik-baik konteksnya.",
+  "quiz": [
+    {
+      "question": "Please pass me _____ salt.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "zero article"
+      ],
+      "answer": "the"
+    },
+    {
+      "question": "She is _____ excellent student.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "zero article"
+      ],
+      "answer": "an"
+    },
+    {
+      "question": "_____ dogs are loyal animals.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "zero article"
+      ],
+      "answer": "zero article"
+    },
+    {
+      "question": "I need _____ new pair of shoes.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "zero article"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "_____ moon is visible tonight.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "zero article"
+      ],
+      "answer": "the"
+    }
+  ]
 }

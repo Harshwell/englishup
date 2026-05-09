@@ -1,171 +1,66 @@
 {
   "words": [
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something bad or unsatisfactory better.",
-      "indonesian": "memperbaiki, meningkatkan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The new government implemented policies to ameliorate the economic crisis.",
-      "collocations": [
-        "ameliorate the situation",
-        "ameliorate poverty",
-        "ameliorate conditions"
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "better",
-        "rectify"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, tersebar luas",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Smartphones have become ubiquitous in modern society, transforming communication and access to information.",
-      "collocations": [
-        "ubiquitous presence",
-        "ubiquitous technology",
-        "ubiquitous phenomenon"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrepənsi/",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
       "partOfSpeech": "noun",
-      "definition": "a lack of compatibility or similarity between two or more facts.",
-      "indonesian": "ketidaksesuaian, perbedaan",
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "There was a significant discrepancy between the reported figures and the actual data collected.",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "a discrepancy between",
-        "significant discrepancy",
-        "unexplained discrepancy"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "difference",
-        "inconsistency",
-        "variation",
-        "disparity"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "word": "allocate",
+      "pronunciation": "/ˈæl.ə.keɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "meringankan, mengurangi",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Governments are implementing measures to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate the risk",
-        "mitigate the impact",
-        "mitigate the damage"
-      ],
-      "synonyms": [
-        "alleviate",
-        "reduce",
-        "lessen",
-        "ease"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir",
+      "definition": "To set aside for a purpose.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The discovery of DNA represented a paradigm shift in our understanding of genetics.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "a paradigm shift",
-        "new paradigm",
-        "scientific paradigm"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example"
+        "appropriate",
+        "earmark",
+        "apportion"
       ]
     },
     {
-      "word": "conducive",
-      "pronunciation": "/kənˈdjuːsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "making a certain situation or outcome likely or possible.",
-      "indonesian": "kondusif, mendukung",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "A quiet and organized environment is often conducive to effective studying.",
-      "collocations": [
-        "conducive to",
-        "highly conducive",
-        "not conducive"
-      ],
-      "synonyms": [
-        "favorable",
-        "beneficial",
-        "helpful",
-        "advantageous"
-      ]
-    },
-    {
-      "word": "pertinent",
-      "pronunciation": "/ˈpɜːrtɪnənt/",
-      "partOfSpeech": "adjective",
-      "definition": "relevant or applicable to a particular matter; apposite.",
-      "indonesian": "relevan, berkaitan",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Please ensure that all the information you provide is pertinent to the topic of discussion.",
-      "collocations": [
-        "pertinent to",
-        "highly pertinent",
-        "pertinent question"
-      ],
-      "synonyms": [
-        "relevant",
-        "applicable",
-        "related",
-        "germane"
-      ]
-    },
-    {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "word": "enhance",
+      "pronunciation": "/ɪnˈhɑːns/",
       "partOfSpeech": "verb",
-      "definition": "to make a problem, bad situation, or negative feeling worse.",
-      "indonesian": "memperburuk",
+      "definition": "To lift, raise up.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The lack of proper communication can exacerbate the conflict between the two parties.",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "exacerbate the problem",
-        "exacerbate tensions",
-        "exacerbate the situation"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "compound"
+        "heighten",
+        "raise"
       ]
     }
   ]

@@ -1,163 +1,47 @@
 {
   "words": [
     {
-      "word": "Familiar",
-      "pronunciation": "/fəˈmɪliər/",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "partOfSpeech": "noun",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
+      "collocations": [
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
+      ],
+      "synonyms": [
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
+      ]
+    },
+    {
+      "word": "straightforward",
+      "pronunciation": "",
       "partOfSpeech": "adjective",
-      "definition": "Well known from long or close association; common.",
-      "indonesian": "Akbar, dikenal, lazim",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "The smell of freshly baked bread is very familiar to me.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "familiar with",
-        "become familiar with",
-        "make familiar"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "acquainted",
-        "known",
-        "recognisable"
-      ]
-    },
-    {
-      "word": "Encounter",
-      "pronunciation": "/ɪnˈkaʊntər/",
-      "partOfSpeech": "verb",
-      "definition": "Unexpectedly meet (someone) or experience (something).",
-      "indonesian": "Bertemu, menemui, mengalami",
-      "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "I had a brief encounter with my old teacher at the supermarket.",
-      "collocations": [
-        "encounter difficulties",
-        "encounter problems",
-        "encounter resistance"
-      ],
-      "synonyms": [
-        "meet",
-        "run into",
-        "come across"
-      ]
-    },
-    {
-      "word": "Subtle",
-      "pronunciation": "/ˈsʌtl/",
-      "partOfSpeech": "adjective",
-      "definition": "So delicate or precise as to be difficult to analyze or describe.",
-      "indonesian": "Halus, samar, terselubung",
-      "level": "C1",
-      "ieltsBand": "7-8",
-      "example": "There was a subtle hint of garlic in the sauce.",
-      "collocations": [
-        "subtle difference",
-        "subtle change",
-        "subtle suggestion"
-      ],
-      "synonyms": [
-        "delicate",
-        "faint",
-        "understated"
-      ]
-    },
-    {
-      "word": "Vibrant",
-      "pronunciation": "/ˈvaɪbrənt/",
-      "partOfSpeech": "adjective",
-      "definition": "Full of energy and enthusiasm; bright and striking.",
-      "indonesian": "Semarak, hidup, bersemangat",
-      "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "The city has a vibrant nightlife and a rich cultural scene.",
-      "collocations": [
-        "vibrant colours",
-        "vibrant personality",
-        "vibrant atmosphere"
-      ],
-      "synonyms": [
-        "lively",
-        "energetic",
-        "brilliant"
-      ]
-    },
-    {
-      "word": "Appreciate",
-      "pronunciation": "/əˈpriːʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "Recognize the full worth of; be grateful for.",
-      "indonesian": "Menghargai, mensyukuri",
-      "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "I really appreciate your help with this project.",
-      "collocations": [
-        "greatly appreciate",
-        "fully appreciate",
-        "appreciate the effort"
-      ],
-      "synonyms": [
-        "value",
-        "recognize",
-        "be grateful for"
-      ]
-    },
-    {
-      "word": "Insightful",
-      "pronunciation": "/ˈɪnˈsaɪtfəl/",
-      "partOfSpeech": "adjective",
-      "definition": "Having or showing an accurate and deep understanding.",
-      "indonesian": "Berwawasan, penuh pemahaman",
-      "level": "C1",
-      "ieltsBand": "7-8",
-      "example": "Her insightful comments helped us to see the problem from a new perspective.",
-      "collocations": [
-        "insightful analysis",
-        "insightful observation",
-        "insightful advice"
-      ],
-      "synonyms": [
-        "perceptive",
-        "understanding",
-        "wise"
-      ]
-    },
-    {
-      "word": "Initiate",
-      "pronunciation": "/ɪˈnɪʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "Cause (a process or action) to begin.",
-      "indonesian": "Memulai, mengawali",
-      "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "We need to initiate a discussion about the new marketing strategy.",
-      "collocations": [
-        "initiate contact",
-        "initiate proceedings",
-        "initiate a project"
-      ],
-      "synonyms": [
-        "start",
-        "begin",
-        "commence"
-      ]
-    },
-    {
-      "word": "Convey",
-      "pronunciation": "/kənˈveɪ/",
-      "partOfSpeech": "verb",
-      "definition": "Make (an idea, impression, or feeling) known or understandable to someone.",
-      "indonesian": "Menyampaikan, mengkomunikasikan",
-      "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "His facial expression conveyed his disappointment.",
-      "collocations": [
-        "convey information",
-        "convey a message",
-        "convey a sense of"
-      ],
-      "synonyms": [
-        "communicate",
-        "express",
-        "impart"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
