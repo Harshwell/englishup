@@ -1,39 +1,18 @@
 {
   "words": [
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something bad or unsatisfactory better.",
-      "indonesian": "memperbaiki, meningkatkan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The government is trying to ameliorate the effects of climate change by investing in renewable energy.",
-      "collocations": [
-        "ameliorate the situation",
-        "ameliorate poverty",
-        "ameliorate conditions"
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "better",
-        "mitigate"
-      ]
-    },
-    {
       "word": "ubiquitous",
       "pronunciation": "/juːˈbɪkwɪtəs/",
       "partOfSpeech": "adjective",
       "definition": "present, appearing, or found everywhere.",
       "indonesian": "ada di mana-mana",
-      "level": "B2",
-      "ieltsBand": "6.5+",
+      "level": "C1",
+      "ieltsBand": "7+",
       "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate and access information.",
       "collocations": [
-        "ubiquitous presence",
         "ubiquitous technology",
-        "ubiquitous phenomenon"
+        "ubiquitous presence",
+        "ubiquitous nature"
       ],
       "synonyms": [
         "omnipresent",
@@ -43,14 +22,35 @@
       ]
     },
     {
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something bad or unsatisfactory better.",
+      "indonesian": "memperbaiki, meningkatkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Governments are implementing policies to ameliorate the effects of climate change on vulnerable communities.",
+      "collocations": [
+        "ameliorate the situation",
+        "ameliorate poverty",
+        "ameliorate conditions"
+      ],
+      "synonyms": [
+        "improve",
+        "enhance",
+        "better",
+        "rectify"
+      ]
+    },
+    {
       "word": "disseminate",
       "pronunciation": "/dɪˈsɛmɪneɪt/",
       "partOfSpeech": "verb",
-      "definition": "to spread or disperse (something, especially information) widely.",
-      "indonesian": "menyebarkan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The internet has made it easier than ever to disseminate information globally.",
+      "definition": "to spread information widely.",
+      "indonesian": "menyebarkan (informasi)",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The internet has greatly facilitated the ability to disseminate information globally and instantaneously.",
       "collocations": [
         "disseminate information",
         "disseminate knowledge",
@@ -59,8 +59,29 @@
       "synonyms": [
         "spread",
         "circulate",
-        "propagate",
-        "broadcast"
+        "broadcast",
+        "propagate"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Efforts are being made to mitigate the risks associated with natural disasters through improved infrastructure and early warning systems.",
+      "collocations": [
+        "mitigate risks",
+        "mitigate the impact",
+        "mitigate damage"
+      ],
+      "synonyms": [
+        "alleviate",
+        "lessen",
+        "reduce",
+        "soften"
       ]
     },
     {
@@ -70,60 +91,39 @@
       "definition": "a typical example or pattern of something; a model.",
       "indonesian": "paradigma, pola pikir",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The shift from traditional media to digital platforms represents a significant paradigm shift in communication.",
+      "ieltsBand": "7+",
+      "example": "The shift from analog to digital technology represents a significant paradigm shift in communication and media.",
       "collocations": [
         "paradigm shift",
         "scientific paradigm",
-        "research paradigm"
+        "new paradigm"
       ],
       "synonyms": [
         "model",
         "pattern",
         "framework",
-        "example"
+        "template"
       ]
     },
     {
-      "word": "conducive",
-      "pronunciation": "/kənˈdjuːsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "making a certain situation or outcome likely or possible.",
-      "indonesian": "kondusif, memungkinkan",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "A quiet and organized study environment is conducive to effective learning.",
-      "collocations": [
-        "conducive to success",
-        "conducive to growth",
-        "conducive environment"
-      ],
-      "synonyms": [
-        "favorable",
-        "beneficial",
-        "helpful",
-        "advantageous"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "word": "ostracize",
+      "pronunciation": "/ˈɒstrəsaɪz/",
       "partOfSpeech": "verb",
-      "definition": "to make less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi",
+      "definition": "to exclude someone from a society or group.",
+      "indonesian": "mengucilkan",
       "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "Governments are implementing policies to mitigate the impact of economic recession.",
+      "ieltsBand": "7+",
+      "example": "Individuals who deviate from societal norms are sometimes ostracized by their communities.",
       "collocations": [
-        "mitigate risk",
-        "mitigate damage",
-        "mitigate the effects"
+        "ostracize from society",
+        "ostracize from the group",
+        "ostracize for their beliefs"
       ],
       "synonyms": [
-        "alleviate",
-        "reduce",
-        "lessen",
-        "ease"
+        "exclude",
+        "banish",
+        "shun",
+        "boycott"
       ]
     },
     {
@@ -133,39 +133,39 @@
       "definition": "spreading widely throughout an area or a group of people.",
       "indonesian": "meresap, menyebar luas",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The influence of social media has become pervasive in shaping public opinion.",
+      "ieltsBand": "7+",
+      "example": "The pervasive influence of social media has altered interpersonal relationships and the consumption of news.",
       "collocations": [
         "pervasive influence",
-        "pervasive culture",
-        "pervasive problem"
+        "pervasive problem",
+        "pervasive effect"
       ],
       "synonyms": [
         "widespread",
         "ubiquitous",
-        "rife",
-        "common"
+        "extensive",
+        "rife"
       ]
     },
     {
-      "word": "articulate",
-      "pronunciation": "/ɑːrˈtɪkjʊleɪt/",
+      "word": "juxtapose",
+      "pronunciation": "/ˈdʒʌkstəpəʊz/",
       "partOfSpeech": "verb",
-      "definition": "to express (an idea or feeling) fluently and coherently.",
-      "indonesian": "mengartikulasikan, mengungkapkan",
+      "definition": "to place or deal with close together for contrasting effect.",
+      "indonesian": "menempatkan bersebelahan (untuk kontras)",
       "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "It is important for researchers to articulate their findings clearly to a wider audience.",
+      "ieltsBand": "7+",
+      "example": "The artist chose to juxtapose traditional motifs with modern elements to create a striking visual commentary.",
       "collocations": [
-        "articulate ideas",
-        "articulate thoughts",
-        "articulate a vision"
+        "juxtapose with",
+        "juxtapose contrasting ideas",
+        "juxtapose images"
       ],
       "synonyms": [
-        "express",
-        "voice",
-        "state",
-        "utter"
+        "contrast",
+        "compare",
+        "place side by side",
+        "collate"
       ]
     }
   ]

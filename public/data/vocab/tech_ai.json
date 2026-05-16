@@ -2,12 +2,12 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡərɪðəm/",
+      "pronunciation": "/ˈælɡəˌrɪðəm/",
       "partOfSpeech": "noun",
       "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
       "indonesian": "algoritma",
       "level": "B2",
-      "ieltsBand": "7.0",
+      "ieltsBand": 7,
       "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
         "complex algorithm",
@@ -25,162 +25,154 @@
     },
     {
       "word": "automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
       "partOfSpeech": "noun",
-      "definition": "The use of technology to perform tasks with minimal human intervention.",
+      "definition": "The use of technology to carry out tasks with minimal human assistance.",
       "indonesian": "otomatisasi",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Automation in manufacturing has led to increased efficiency.",
+      "ieltsBand": 7,
+      "example": "Automation in factories has led to increased efficiency but also job displacement.",
       "collocations": [
         "process automation",
         "industrial automation",
-        "office automation",
-        "degree of automation",
-        "automation system"
+        "business automation",
+        "workflow automation",
+        "degree of automation"
       ],
       "synonyms": [
         "mechanization",
-        "robotization",
+        "robotics",
         "self-operation"
       ]
     },
     {
-      "word": "connectivity",
-      "pronunciation": "/kəˌnekˈtɪvəti/",
-      "partOfSpeech": "noun",
-      "definition": "The ability to connect to or communicate with other devices or networks.",
-      "indonesian": "konektivitas",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The new smartphone boasts enhanced connectivity options.",
-      "collocations": [
-        "network connectivity",
-        "internet connectivity",
-        "wireless connectivity",
-        "mobile connectivity",
-        "poor connectivity"
-      ],
-      "synonyms": [
-        "interconnection",
-        "linkage",
-        "association",
-        "network"
-      ]
-    },
-    {
-      "word": "disruptive",
-      "pronunciation": "/dɪsˈrʌptɪv/",
+      "word": "computational",
+      "pronunciation": "/ˌkɒmpjuˈteɪʃənl/",
       "partOfSpeech": "adjective",
-      "definition": "Causing significant change or disturbance to an existing industry or market.",
-      "indonesian": "mengganggu",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Artificial intelligence is a disruptive technology that is transforming many sectors.",
-      "collocations": [
-        "disruptive technology",
-        "disruptive innovation",
-        "disruptive force",
-        "disruptive effect",
-        "highly disruptive"
-      ],
-      "synonyms": [
-        "revolutionary",
-        "transformative",
-        "game-changing",
-        "unsettling"
-      ]
-    },
-    {
-      "word": "intelligence",
-      "pronunciation": "/ɪnˈtelɪdʒəns/",
-      "partOfSpeech": "noun",
-      "definition": "The ability of machines to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.",
-      "indonesian": "kecerdasan",
+      "definition": "Relating to or involving computation; using computers to solve problems.",
+      "indonesian": "komputasional",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Artificial intelligence is a rapidly advancing field.",
+      "ieltsBand": 7,
+      "example": "The scientist used computational models to simulate climate change.",
       "collocations": [
-        "artificial intelligence",
-        "machine intelligence",
-        "emotional intelligence",
-        "general intelligence",
-        "developing intelligence"
+        "computational power",
+        "computational linguistics",
+        "computational thinking",
+        "computational fluid dynamics",
+        "computational modeling"
       ],
       "synonyms": [
-        "cognition",
-        "understanding",
-        "reasoning",
-        "intellect"
+        "computerized",
+        "digital",
+        "algorithmic"
       ]
     },
     {
-      "word": "interface",
-      "pronunciation": "/ˈɪntərfeɪs/",
-      "partOfSpeech": "noun",
-      "definition": "A point where two systems, subjects, organizations, etc. meet and interact.",
-      "indonesian": "antarmuka",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The user interface of the new app is very intuitive.",
-      "collocations": [
-        "user interface",
-        "graphical interface",
-        "software interface",
-        "application interface",
-        "intuitive interface"
-      ],
-      "synonyms": [
-        "connection",
-        "link",
-        "gateway",
-        "junction"
-      ]
-    },
-    {
-      "word": "scalability",
-      "pronunciation": "/skeɪləˈbɪləti/",
-      "partOfSpeech": "noun",
-      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
-      "indonesian": "skalabilitas",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "The company's cloud infrastructure offers excellent scalability.",
-      "collocations": [
-        "system scalability",
-        "network scalability",
-        "platform scalability",
-        "high scalability",
-        "ensure scalability"
-      ],
-      "synonyms": [
-        "expandability",
-        "flexibility",
-        "adaptability",
-        "capacity"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "word": "data-driven",
+      "pronunciation": "/ˈdeɪtə ˈdrɪvən/",
       "partOfSpeech": "adjective",
-      "definition": "Present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Smartphones have become ubiquitous in modern society.",
+      "definition": "Based on or influenced by data; relying on analysis of data to make decisions.",
+      "indonesian": "berbasis data",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "The company's marketing strategy is entirely data-driven.",
       "collocations": [
-        "ubiquitous technology",
-        "ubiquitous computing",
-        "increasingly ubiquitous",
-        "become ubiquitous",
-        "truly ubiquitous"
+        "data-driven decisions",
+        "data-driven approach",
+        "data-driven insights",
+        "data-driven marketing",
+        "data-driven organization"
       ],
       "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
+        "evidence-based",
+        "analytical",
+        "empirical"
+      ]
+    },
+    {
+      "word": "neural network",
+      "pronunciation": "/ˈnjʊərə l ˈnetwɜːk/",
+      "partOfSpeech": "noun",
+      "definition": "A computing system inspired by the structure and function of the human brain, used in machine learning.",
+      "indonesian": "jaringan saraf tiruan",
+      "level": "C1",
+      "ieltsBand": 7,
+      "example": "Deep learning models often utilize complex neural networks.",
+      "collocations": [
+        "artificial neural network",
+        "deep neural network",
+        "convolutional neural network",
+        "recurrent neural network",
+        "train a neural network"
+      ],
+      "synonyms": [
+        "artificial intelligence model",
+        "machine learning model"
+      ]
+    },
+    {
+      "word": "predictive",
+      "pronunciation": "/prɪˈdɪktɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Able to foretell or forecast future events or trends.",
+      "indonesian": "prediktif",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Predictive analytics can help businesses anticipate customer needs.",
+      "collocations": [
+        "predictive analytics",
+        "predictive modeling",
+        "predictive maintenance",
+        "predictive capabilities",
+        "predictive power"
+      ],
+      "synonyms": [
+        "forecasting",
+        "prognostic",
+        "prescient"
+      ]
+    },
+    {
+      "word": "sophisticated",
+      "pronunciation": "/səˈfɪstɪkeɪtɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Having a high degree of complexity and advanced features; technically advanced.",
+      "indonesian": "canggih",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "The new smartphone features a sophisticated camera system.",
+      "collocations": [
+        "sophisticated technology",
+        "sophisticated system",
+        "sophisticated design",
+        "sophisticated equipment",
+        "highly sophisticated"
+      ],
+      "synonyms": [
+        "advanced",
+        "complex",
+        "intricate",
+        "refined"
+      ]
+    },
+    {
+      "word": "unsupervised learning",
+      "pronunciation": "/ʌnˈsuːpərvaɪzd ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun phrase",
+      "definition": "A type of machine learning where the algorithm learns from data that has not been labeled or classified.",
+      "indonesian": "pembelajaran tanpa pengawasan",
+      "level": "C1",
+      "ieltsBand": 7,
+      "example": "Clustering algorithms are a common example of unsupervised learning.",
+      "collocations": [
+        "perform unsupervised learning",
+        "type of unsupervised learning",
+        "unsupervised learning model",
+        "unsupervised learning techniques"
+      ],
+      "synonyms": [
+        "clustering",
+        "pattern recognition"
       ]
     }
   ]

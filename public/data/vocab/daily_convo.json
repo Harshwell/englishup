@@ -1,163 +1,163 @@
 {
   "words": [
     {
-      "word": "Accompany",
-      "pronunciation": "/əˈkʌmpəni/",
-      "partOfSpeech": "verb",
-      "definition": "To go somewhere with someone as a companion.",
-      "indonesian": "Menemani",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Would you like me to accompany you to the station?",
-      "collocations": [
-        "accompany someone",
-        "accompany someone on a trip",
-        "accompany someone to an event"
-      ],
-      "synonyms": [
-        "escort",
-        "join",
-        "tag along with"
-      ]
-    },
-    {
-      "word": "Bustling",
-      "pronunciation": "/ˈbʌslɪŋ/",
+      "word": "relatable",
+      "pronunciation": "/rɪˈleɪ.tə.bəl/",
       "partOfSpeech": "adjective",
-      "definition": "Full of activity, busy, and energetic.",
-      "indonesian": "Ramai",
+      "definition": "easy to understand or feel sympathy for because it is similar to your own experiences or feelings.",
+      "indonesian": "mudah dipahami, bisa dirasakan",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The market was bustling with shoppers on a Saturday morning.",
+      "ieltsBand": 7,
+      "example": "Her stories about dealing with a difficult boss were very relatable to everyone in the office.",
       "collocations": [
-        "bustling city",
-        "bustling street",
-        "bustling with activity"
+        "highly relatable",
+        "instantly relatable",
+        "find something relatable"
       ],
       "synonyms": [
-        "lively",
-        "vibrant",
-        "busy"
+        "understandable",
+        "familiar",
+        "recognizable"
       ]
     },
     {
-      "word": "Catch up",
-      "pronunciation": "/kætʃ ʌp/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To reach someone or something by going faster than them; to talk to someone you haven't seen for a while and find out what they have been doing.",
-      "indonesian": "Menyusul / Bertemu dan mengobrol",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I need to catch up on my sleep this weekend. Let's grab coffee and catch up soon!",
-      "collocations": [
-        "catch up on news",
-        "catch up with friends",
-        "catch up on work"
-      ],
-      "synonyms": [
-        "reconnect",
-        "update",
-        "overtake"
-      ]
-    },
-    {
-      "word": "Familiar",
-      "pronunciation": "/fəˈmɪliər/",
-      "partOfSpeech": "adjective",
-      "definition": "Well known from long or close association.",
-      "indonesian": "Akra",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The smell of her grandmother's cooking was very familiar to her.",
-      "collocations": [
-        "familiar with",
-        "familiar face",
-        "familiar surroundings"
-      ],
-      "synonyms": [
-        "known",
-        "recognizable",
-        "commonplace"
-      ]
-    },
-    {
-      "word": "Hang out",
-      "pronunciation": "/hæŋ aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To spend time relaxing or socializing informally.",
-      "indonesian": "Nongkrong / Berkumpul",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "We usually hang out at the park after school.",
-      "collocations": [
-        "hang out with friends",
-        "hang out at a place",
-        "hang out together"
-      ],
-      "synonyms": [
-        "socialize",
-        "spend time",
-        "chill"
-      ]
-    },
-    {
-      "word": "Impressive",
-      "pronunciation": "/ɪmˈpresɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "Evoking admiration; having a strong effect on one's senses, emotions, or mind.",
-      "indonesian": "Kesan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Her presentation was incredibly impressive; she clearly did a lot of research.",
-      "collocations": [
-        "impressive achievement",
-        "impressive performance",
-        "deeply impressive"
-      ],
-      "synonyms": [
-        "remarkable",
-        "striking",
-        "awe-inspiring"
-      ]
-    },
-    {
-      "word": "Overwhelmed",
-      "pronunciation": "/ˌoʊvərˈwɛlmd/",
-      "partOfSpeech": "adjective",
-      "definition": "Having too many things to deal with; feeling very stressed or confused.",
-      "indonesian": "Kewalahan",
+      "word": "nuance",
+      "pronunciation": "/ˈnuː.ɑːns/",
+      "partOfSpeech": "noun",
+      "definition": "a subtle difference in or shade of meaning, expression, or sound.",
+      "indonesian": "nuansa, perbedaan halus",
       "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "I'm feeling a bit overwhelmed with all the deadlines this week.",
+      "ieltsBand": 7.5,
+      "example": "The speaker's tone conveyed a subtle nuance of sarcasm that some people missed.",
+      "collocations": [
+        "subtle nuance",
+        "understand the nuance",
+        "miss the nuance"
+      ],
+      "synonyms": [
+        "distinction",
+        "shade",
+        "subtlety"
+      ]
+    },
+    {
+      "word": "overwhelmed",
+      "pronunciation": "/ˌoʊ.vɚˈwɛlmd/",
+      "partOfSpeech": "adjective",
+      "definition": "having too many things to deal with; feeling unable to cope.",
+      "indonesian": "kewalahan, terbebani",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "After a long week of work and personal commitments, I felt completely overwhelmed.",
       "collocations": [
         "feel overwhelmed",
-        "overwhelmed by",
-        "completely overwhelmed"
+        "completely overwhelmed",
+        "overwhelmed by"
       ],
       "synonyms": [
         "swamped",
-        "overburdened",
-        "snowed under"
+        "inundated",
+        "burdened"
       ]
     },
     {
-      "word": "Spontaneous",
-      "pronunciation": "/spɑːnˈteɪniəs/",
-      "partOfSpeech": "adjective",
-      "definition": "Happening or done without premeditation or any planning.",
-      "indonesian": "Spontan",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "We decided to go on a spontaneous road trip last weekend.",
+      "word": "articulate",
+      "pronunciation": "/ɑːrˈtɪk.jə.leɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to express an idea or feeling fluently and coherently.",
+      "indonesian": "mengartikulasikan, mengungkapkan dengan jelas",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "She found it difficult to articulate her thoughts during the heated debate.",
       "collocations": [
-        "spontaneous decision",
-        "spontaneous outburst",
-        "spontaneous trip"
+        "articulate clearly",
+        "articulate your thoughts",
+        "struggle to articulate"
       ],
       "synonyms": [
-        "impromptu",
-        "unplanned",
-        "offhand"
+        "express",
+        "voice",
+        "state"
+      ]
+    },
+    {
+      "word": "insightful",
+      "pronunciation": "/ˈɪn.saɪt.fəl/",
+      "partOfSpeech": "adjective",
+      "definition": "having or showing an accurate and deep understanding of someone or something.",
+      "indonesian": "berwawasan, mendalam",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "His insightful analysis of the market trends helped us make better decisions.",
+      "collocations": [
+        "insightful comment",
+        "insightful observation",
+        "provide insightful"
+      ],
+      "synonyms": [
+        "perceptive",
+        "wise",
+        "sagacious"
+      ]
+    },
+    {
+      "word": "mundane",
+      "pronunciation": "/mʌnˈdeɪn/",
+      "partOfSpeech": "adjective",
+      "definition": "lacking interest or excitement; dull.",
+      "indonesian": "biasa, membosankan",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Even the most mundane tasks can become interesting with the right attitude.",
+      "collocations": [
+        "mundane tasks",
+        "mundane reality",
+        "escape the mundane"
+      ],
+      "synonyms": [
+        "ordinary",
+        "commonplace",
+        "unexciting"
+      ]
+    },
+    {
+      "word": "empathy",
+      "pronunciation": "/ˈɛm.pə.θi/",
+      "partOfSpeech": "noun",
+      "definition": "the ability to understand and share the feelings of another.",
+      "indonesian": "empati, kepedulian",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Showing empathy towards your colleagues can improve teamwork.",
+      "collocations": [
+        "show empathy",
+        "have empathy",
+        "lack empathy"
+      ],
+      "synonyms": [
+        "compassion",
+        "understanding",
+        "sympathy"
+      ]
+    },
+    {
+      "word": "profound",
+      "pronunciation": "/prəˈfaʊnd/",
+      "partOfSpeech": "adjective",
+      "definition": "very great or intense; having or showing great knowledge or insight.",
+      "indonesian": "mendalam, signifikan",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "The experience had a profound impact on her life, changing her perspective entirely.",
+      "collocations": [
+        "profound impact",
+        "profound effect",
+        "profound change"
+      ],
+      "synonyms": [
+        "deep",
+        "significant",
+        "great"
       ]
     }
   ]
