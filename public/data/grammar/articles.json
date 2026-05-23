@@ -1,94 +1,89 @@
 {
-  "grammarChart": {
-    "title": "Articles: a, an, the, and Zero Article",
-    "sections": [
-      {
-        "article": "a/an",
-        "meaning": "Indefinite article. Refers to a non-specific or singular countable noun.",
-        "use": "Used before singular countable nouns when the listener/reader does not know which specific one is being referred to, or when introducing something for the first time."
-      },
-      {
-        "article": "the",
-        "meaning": "Definite article. Refers to a specific or singular/plural countable/uncountable noun.",
-        "use": "Used when the noun is specific, already known to the listener/reader, or unique."
-      },
-      {
-        "article": "Zero Article (-)",
-        "meaning": "Absence of an article. Refers to plural countable nouns or uncountable nouns in a general sense.",
-        "use": "Used when referring to nouns in a general or abstract way, or with proper nouns (names of people, most places, etc.)."
-      }
-    ]
-  },
-  "explanation": "Articles are small words (a, an, the) that come before nouns to specify whether the noun is general or specific. Indonesian does not have direct equivalents, so understanding their function in English is crucial.  The 'zero article' means no article is used.",
-  "keyRules": [
+  "grammarChart": [
     {
-      "rule": "Use 'a' before words starting with a consonant sound. Use 'an' before words starting with a vowel sound.",
-      "details": "The sound, not the letter, is what matters. (e.g., 'a university' because 'u' sounds like 'yoo', 'an hour' because 'h' is silent)."
+      "article": "a",
+      "form": "Used before singular, countable nouns that begin with a consonant sound.",
+      "meaning": "Indefinite, singular, general.",
+      "use": "To introduce a noun for the first time, or to refer to a non-specific member of a group."
     },
     {
-      "rule": "Use 'a/an' for singular, countable nouns when introducing them or referring to one of many.",
-      "details": "Example: 'I saw a cat.' (any cat) vs. 'I saw the cat.' (a specific cat we both know)."
+      "article": "an",
+      "form": "Used before singular, countable nouns that begin with a vowel sound.",
+      "meaning": "Indefinite, singular, general.",
+      "use": "To introduce a noun for the first time, or to refer to a non-specific member of a group."
     },
     {
-      "rule": "Use 'the' for specific nouns that are known to both speaker and listener.",
-      "details": "This can be because it's unique ('the sun'), mentioned before ('I bought a book. The book was interesting.'), or understood from context ('Please close the door.')."
+      "article": "the",
+      "form": "Used before singular or plural, countable or uncountable nouns.",
+      "meaning": "Definite, specific.",
+      "use": "To refer to a specific noun already mentioned, known to the listener/reader, or unique."
     },
     {
-      "rule": "Use 'the' with superlatives and ordinals.",
-      "details": "Example: 'the best', 'the second'."
-    },
-    {
-      "rule": "Use the zero article (-) with plural countable nouns and uncountable nouns when referring to them in a general sense.",
-      "details": "Example: 'Dogs are loyal animals.' (all dogs), 'Water is essential.' (water in general)."
-    },
-    {
-      "rule": "Use the zero article (-) with most proper nouns.",
-      "details": "This includes names of people, most countries (e.g., Indonesia, Japan), cities (e.g., Jakarta, London), continents, languages, and academic subjects. Exceptions exist for some countries (e.g., the USA, the UK)."
+      "article": "zero article (-)",
+      "form": "No article is used.",
+      "meaning": "General, plural, uncountable, abstract, proper nouns.",
+      "use": "For general statements about plural or uncountable nouns, abstract nouns, most proper nouns (names of people, cities, countries, etc.), and certain fixed expressions."
     }
   ],
-  "azarNotes": [
-    "Indonesian speakers often omit articles in their native language, so this is a common area for errors. Pay close attention to the 'specific vs. general' distinction.",
-    "Remember the sound rule for 'a' vs. 'an'. It's a frequent point of confusion.",
-    "The context is key! Always ask yourself: Is this noun specific or general? Has it been mentioned before?"
+  "explanation": "Articles are small words (a, an, the) that precede nouns. They tell us whether the noun is specific or general, singular or plural. Understanding their usage is crucial for clear and accurate communication, especially in academic writing and formal speaking, which are tested in IELTS. The zero article refers to the absence of an article where one might be expected in other contexts, often indicating generality or a specific category.",
+  "keyRules": [
+    "Use 'a' before consonant sounds and 'an' before vowel sounds (e.g., 'a university' because 'u' sounds like 'yoo', 'an hour' because 'h' is silent).",
+    "'The' is used for specific nouns. This includes nouns that have been mentioned before, nouns that are unique (e.g., 'the sun'), or nouns that are made specific by a phrase or clause (e.g., 'the book on the table').",
+    "Use the zero article for general plural nouns (e.g., 'Dogs are loyal animals.') and general uncountable nouns (e.g., 'Water is essential for life.').",
+    "Proper nouns generally do not take articles, with some exceptions (e.g., names of oceans, rivers, mountain ranges, certain countries like 'The United States').",
+    "Abstract nouns used generally take the zero article (e.g., 'Honesty is the best policy.'), but become specific with 'the' (e.g., 'The honesty of the witness was questioned.')."
   ],
+  "azarNotes": "Remember that the choice between 'a' and 'an' depends on the *sound* of the first letter of the word that follows, not the letter itself. For example, 'a European' (starts with a 'y' sound) and 'an umbrella' (starts with a vowel sound).  The zero article often signifies a broad category or a universally understood concept.",
   "examples": [
     {
-      "sentence": "I need to buy a new phone.",
-      "explanation": "'a' is used because 'phone' is a singular, countable noun, and the speaker is referring to any new phone, not a specific one."
+      "sentence": "I saw ___ dog in the park.",
+      "correctAnswer": "a"
     },
     {
-      "sentence": "She is an honest person.",
-      "explanation": "'an' is used because 'honest' starts with a vowel sound (the 'h' is silent)."
+      "sentence": "She is ___ honest person.",
+      "correctAnswer": "an"
     },
     {
-      "sentence": "The Eiffel Tower is in Paris.",
-      "explanation": "'The' is used because the Eiffel Tower is a unique landmark."
+      "sentence": "___ sun is setting.",
+      "correctAnswer": "the"
     },
     {
-      "sentence": "Could you pass me the salt, please?",
-      "explanation": "'The' is used because it refers to the specific salt on the table, known to both speaker and listener."
+      "sentence": "___ books on the shelf are mine.",
+      "correctAnswer": "the"
     },
     {
-      "sentence": "Children love playing outside.",
-      "explanation": "Zero article is used because 'children' is a plural countable noun referred to in a general sense."
+      "sentence": "___ children love to play.",
+      "correctAnswer": "-"
     },
     {
-      "sentence": "I study English at university.",
-      "explanation": "Zero article is used with 'university' when referring to the institution generally, not a specific building. 'English' is a language, so no article is used."
+      "sentence": "___ happiness is important.",
+      "correctAnswer": "-"
     },
     {
-      "sentence": "We visited the United States last year.",
-      "explanation": "'The' is used because it's an exception for a country name (United States)."
+      "sentence": "He lives in ___ United Kingdom.",
+      "correctAnswer": "the"
+    },
+    {
+      "sentence": "Could you pass me ___ salt, please?",
+      "correctAnswer": "the"
+    },
+    {
+      "sentence": "She is studying ___ engineering.",
+      "correctAnswer": "-"
+    },
+    {
+      "sentence": "He is ___ university professor.",
+      "correctAnswer": "a"
     }
   ],
   "commonMistakes": [
-    "Using 'a/an' with plural or uncountable nouns (e.g., 'a moneys', 'an informations').",
-    "Using 'the' when referring to nouns in a general sense (e.g., 'The dogs are friendly' when meaning dogs in general).",
-    "Incorrectly using 'a' or 'an' based on the letter instead of the sound (e.g., 'a hour').",
-    "Forgetting 'the' with unique items or when context makes a noun specific (e.g., 'Sun is bright').",
-    "Using articles with proper nouns where they are not needed (e.g., 'a John', 'the Jakarta')."
+    "Using 'a' or 'an' with plural nouns (e.g., 'a books').",
+    "Using 'the' with general plural or uncountable nouns (e.g., 'The dogs barked all night' when referring to dogs in general).",
+    "Incorrectly using 'a' or 'an' based on spelling rather than sound (e.g., 'a honest man').",
+    "Omitting 'the' when referring to a specific, unique, or previously mentioned noun (e.g., 'I read book yesterday' instead of 'I read the book yesterday').",
+    "Using articles with most proper nouns (e.g., 'The Jakarta' instead of 'Jakarta')."
   ],
-  "ieltsTip": "In IELTS Writing Task 1, you'll often describe trends and data. Use the zero article for general nouns (e.g., 'sales', 'production') and 'the' for specific figures or time periods mentioned (e.g., 'the increase in sales', 'the year 2020'). In Task 2, be mindful of using 'a/an' for introducing new ideas and 'the' for referring back to them or for specific examples. Pay attention to how native speakers use articles in academic texts.",
+  "ieltsTip": "In IELTS Writing Task 2 and Speaking, be mindful of using articles accurately. For instance, when discussing general societal issues, use the zero article for plural or uncountable nouns (e.g., 'Pollution is a global concern.'). When referring to specific examples or previously mentioned items, 'the' is essential. Pay attention to how native speakers use articles in authentic materials.",
   "quiz": [
     {
       "question": "Please close ___ door.",
@@ -101,17 +96,7 @@
       "correctAnswer": "the"
     },
     {
-      "question": "She has ___ interesting idea.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "correctAnswer": "an"
-    },
-    {
-      "question": "___ cats are independent animals.",
+      "question": "I need ___ advice on my essay.",
       "options": [
         "a",
         "an",
@@ -121,24 +106,34 @@
       "correctAnswer": "-"
     },
     {
-      "question": "He works as ___ engineer.",
+      "question": "She bought ___ new car yesterday.",
       "options": [
         "a",
         "an",
         "the",
         "-"
       ],
-      "correctAnswer": "an"
+      "correctAnswer": "a"
     },
     {
-      "question": "I read ___ book yesterday. ___ book was about history.",
+      "question": "___ Amazon River is the longest river in the world.",
       "options": [
-        "a, a",
-        "a, the",
-        "an, an",
-        "the, the"
+        "a",
+        "an",
+        "the",
+        "-"
       ],
-      "correctAnswer": "a, the"
+      "correctAnswer": "the"
+    },
+    {
+      "question": "___ information you provided was very helpful.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "-"
+      ],
+      "correctAnswer": "the"
     }
   ]
 }

@@ -1,39 +1,19 @@
 {
   "words": [
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate and access information.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous nature"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
       "word": "ameliorate",
       "pronunciation": "/əˈmiːliəreɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make something bad or unsatisfactory better.",
+      "definition": "to make something bad or unsatisfactory better",
       "indonesian": "memperbaiki, meningkatkan",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Governments are implementing policies to ameliorate the effects of climate change on vulnerable communities.",
+      "ieltsBand": "7.0+",
+      "example": "The government introduced new policies to ameliorate the effects of the economic recession.",
       "collocations": [
         "ameliorate the situation",
+        "ameliorate conditions",
         "ameliorate poverty",
-        "ameliorate conditions"
+        "ameliorate the problem"
       ],
       "synonyms": [
         "improve",
@@ -43,81 +23,105 @@
       ]
     },
     {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsɛmɪneɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to spread information widely.",
-      "indonesian": "menyebarkan (informasi)",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere",
+      "indonesian": "ada di mana-mana, serba ada",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The internet has greatly facilitated the ability to disseminate information globally and instantaneously.",
+      "ieltsBand": "7.0+",
+      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate.",
       "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate findings"
+        "ubiquitous presence",
+        "ubiquitous technology",
+        "ubiquitous phenomenon"
       ],
       "synonyms": [
-        "spread",
-        "circulate",
-        "broadcast",
-        "propagate"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
       ]
     },
     {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi",
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of similarity between two facts or situations; a difference",
+      "indonesian": "perbedaan, ketidaksesuaian",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Efforts are being made to mitigate the risks associated with natural disasters through improved infrastructure and early warning systems.",
+      "ieltsBand": "7.0+",
+      "example": "There is a significant discrepancy between the reported figures and the actual data.",
       "collocations": [
-        "mitigate risks",
-        "mitigate the impact",
-        "mitigate damage"
+        "a discrepancy between",
+        "a major discrepancy",
+        "a glaring discrepancy",
+        "resolve a discrepancy"
       ],
       "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "soften"
+        "difference",
+        "inconsistency",
+        "variation",
+        "disparity"
       ]
     },
     {
       "word": "paradigm",
       "pronunciation": "/ˈpærədaɪm/",
       "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir",
+      "definition": "a typical example or pattern of something; a model; a set of assumptions, beliefs, and practices that shapes how something is understood",
+      "indonesian": "paradigma, pola pikir, kerangka berpikir",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The shift from analog to digital technology represents a significant paradigm shift in communication and media.",
+      "ieltsBand": "7.0+",
+      "example": "The discovery of quantum mechanics represented a paradigm shift in our understanding of physics.",
       "collocations": [
         "paradigm shift",
-        "scientific paradigm",
-        "new paradigm"
+        "a new paradigm",
+        "a scientific paradigm",
+        "a research paradigm"
       ],
       "synonyms": [
         "model",
         "pattern",
         "framework",
-        "template"
+        "standard"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful",
+      "indonesian": "meredakan, mengurangi",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Efforts are being made to mitigate the environmental impact of industrial activities.",
+      "collocations": [
+        "mitigate the risks",
+        "mitigate the effects",
+        "mitigate the damage",
+        "mitigate climate change"
+      ],
+      "synonyms": [
+        "alleviate",
+        "reduce",
+        "lessen",
+        "ease"
       ]
     },
     {
       "word": "ostracize",
       "pronunciation": "/ˈɒstrəsaɪz/",
       "partOfSpeech": "verb",
-      "definition": "to exclude someone from a society or group.",
-      "indonesian": "mengucilkan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Individuals who deviate from societal norms are sometimes ostracized by their communities.",
+      "definition": "to exclude someone from a society or group",
+      "indonesian": "mengucilkan, memboikot",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "He was ostracized by his colleagues after the scandal.",
       "collocations": [
-        "ostracize from society",
-        "ostracize from the group",
-        "ostracize for their beliefs"
+        "ostracize someone from",
+        "ostracize a group",
+        "be ostracized by"
       ],
       "synonyms": [
         "exclude",
@@ -130,42 +134,44 @@
       "word": "pervasive",
       "pronunciation": "/pərˈveɪsɪv/",
       "partOfSpeech": "adjective",
-      "definition": "spreading widely throughout an area or a group of people.",
+      "definition": "spreading widely throughout an area or a group of people",
       "indonesian": "meresap, menyebar luas",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The pervasive influence of social media has altered interpersonal relationships and the consumption of news.",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "The influence of social media is pervasive in contemporary culture.",
       "collocations": [
         "pervasive influence",
         "pervasive problem",
+        "pervasive culture",
         "pervasive effect"
       ],
       "synonyms": [
         "widespread",
         "ubiquitous",
         "extensive",
-        "rife"
+        "rampant"
       ]
     },
     {
-      "word": "juxtapose",
-      "pronunciation": "/ˈdʒʌkstəpəʊz/",
+      "word": "synthesize",
+      "pronunciation": "/ˈsɪnθəsaɪz/",
       "partOfSpeech": "verb",
-      "definition": "to place or deal with close together for contrasting effect.",
-      "indonesian": "menempatkan bersebelahan (untuk kontras)",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The artist chose to juxtapose traditional motifs with modern elements to create a striking visual commentary.",
+      "definition": "to combine a number of things into a coherent whole; to produce a substance by chemical synthesis",
+      "indonesian": "mensintesis, menggabungkan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The essay requires students to synthesize information from multiple sources.",
       "collocations": [
-        "juxtapose with",
-        "juxtapose contrasting ideas",
-        "juxtapose images"
+        "synthesize information",
+        "synthesize data",
+        "synthesize findings",
+        "synthesize different ideas"
       ],
       "synonyms": [
-        "contrast",
-        "compare",
-        "place side by side",
-        "collate"
+        "combine",
+        "integrate",
+        "blend",
+        "unite"
       ]
     }
   ]

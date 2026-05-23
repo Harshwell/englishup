@@ -12,9 +12,8 @@
       "collocations": [
         "complex algorithm",
         "search algorithm",
-        "learning algorithm",
-        "data algorithm",
-        "algorithm design"
+        "sorting algorithm",
+        "machine learning algorithm"
       ],
       "synonyms": [
         "procedure",
@@ -25,154 +24,151 @@
     },
     {
       "word": "automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
       "partOfSpeech": "noun",
-      "definition": "The use of technology to carry out tasks with minimal human assistance.",
+      "definition": "The use of technology to perform tasks with minimal human intervention.",
       "indonesian": "otomatisasi",
       "level": "B2",
       "ieltsBand": 7,
-      "example": "Automation in factories has led to increased efficiency but also job displacement.",
+      "example": "Automation in manufacturing has led to increased efficiency.",
       "collocations": [
         "process automation",
         "industrial automation",
-        "business automation",
-        "workflow automation",
+        "office automation",
         "degree of automation"
       ],
       "synonyms": [
         "mechanization",
-        "robotics",
+        "robotization",
         "self-operation"
       ]
     },
     {
-      "word": "computational",
-      "pronunciation": "/ˌkɒmpjuˈteɪʃənl/",
-      "partOfSpeech": "adjective",
-      "definition": "Relating to or involving computation; using computers to solve problems.",
-      "indonesian": "komputasional",
+      "word": "big data",
+      "pronunciation": "/ˌbɪɡ ˈdeɪtə/",
+      "partOfSpeech": "noun phrase",
+      "definition": "Extremely large amounts of data that are too complex for traditional data processing applications to handle.",
+      "indonesian": "data besar",
       "level": "B2",
       "ieltsBand": 7,
-      "example": "The scientist used computational models to simulate climate change.",
+      "example": "Companies are investing heavily in big data analytics to gain insights.",
       "collocations": [
-        "computational power",
-        "computational linguistics",
-        "computational thinking",
-        "computational fluid dynamics",
-        "computational modeling"
+        "big data analytics",
+        "big data analysis",
+        "big data management",
+        "volume of big data"
       ],
       "synonyms": [
-        "computerized",
-        "digital",
-        "algorithmic"
+        "massive datasets",
+        "vast amounts of information"
       ]
     },
     {
-      "word": "data-driven",
-      "pronunciation": "/ˈdeɪtə ˈdrɪvən/",
+      "word": "cognitive",
+      "pronunciation": "/ˈkɒɡnɪtɪv/",
       "partOfSpeech": "adjective",
-      "definition": "Based on or influenced by data; relying on analysis of data to make decisions.",
-      "indonesian": "berbasis data",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "The company's marketing strategy is entirely data-driven.",
+      "definition": "Relating to the mental processes of perception, memory, judgment, and reasoning.",
+      "indonesian": "kognitif",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "AI aims to replicate human cognitive abilities.",
       "collocations": [
-        "data-driven decisions",
-        "data-driven approach",
-        "data-driven insights",
-        "data-driven marketing",
-        "data-driven organization"
+        "cognitive abilities",
+        "cognitive processes",
+        "cognitive science",
+        "cognitive load"
       ],
       "synonyms": [
-        "evidence-based",
-        "analytical",
-        "empirical"
+        "mental",
+        "intellectual",
+        "thinking",
+        "perceptual"
+      ]
+    },
+    {
+      "word": "disruptive",
+      "pronunciation": "/dɪsˈrʌptɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing significant change or innovation that fundamentally alters the way things are done.",
+      "indonesian": "mengganggu (dalam konteks inovasi)",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "New technologies are often disruptive to existing industries.",
+      "collocations": [
+        "disruptive technology",
+        "disruptive innovation",
+        "disruptive influence",
+        "highly disruptive"
+      ],
+      "synonyms": [
+        "revolutionary",
+        "transformative",
+        "game-changing",
+        "innovative"
+      ]
+    },
+    {
+      "word": "emulate",
+      "pronunciation": "/ˈemjʊleɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To try to be like someone or something else; to imitate.",
+      "indonesian": "meniru",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "Researchers are trying to create AI that can emulate human creativity.",
+      "collocations": [
+        "emulate human behavior",
+        "emulate performance",
+        "emulate success",
+        "closely emulate"
+      ],
+      "synonyms": [
+        "imitate",
+        "mimic",
+        "replicate",
+        "copy"
       ]
     },
     {
       "word": "neural network",
-      "pronunciation": "/ˈnjʊərə l ˈnetwɜːk/",
-      "partOfSpeech": "noun",
+      "pronunciation": "/ˈnjʊərəl ˈnetwɜːk/",
+      "partOfSpeech": "noun phrase",
       "definition": "A computing system inspired by the structure and function of the human brain, used in machine learning.",
       "indonesian": "jaringan saraf tiruan",
       "level": "C1",
-      "ieltsBand": 7,
-      "example": "Deep learning models often utilize complex neural networks.",
+      "ieltsBand": 7.5,
+      "example": "Deep learning models often rely on complex neural networks.",
       "collocations": [
         "artificial neural network",
         "deep neural network",
-        "convolutional neural network",
-        "recurrent neural network",
-        "train a neural network"
+        "train a neural network",
+        "neural network architecture"
       ],
       "synonyms": [
-        "artificial intelligence model",
-        "machine learning model"
+        "artificial brain",
+        "computational network"
       ]
     },
     {
-      "word": "predictive",
-      "pronunciation": "/prɪˈdɪktɪv/",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
       "partOfSpeech": "adjective",
-      "definition": "Able to foretell or forecast future events or trends.",
-      "indonesian": "prediktif",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "Predictive analytics can help businesses anticipate customer needs.",
-      "collocations": [
-        "predictive analytics",
-        "predictive modeling",
-        "predictive maintenance",
-        "predictive capabilities",
-        "predictive power"
-      ],
-      "synonyms": [
-        "forecasting",
-        "prognostic",
-        "prescient"
-      ]
-    },
-    {
-      "word": "sophisticated",
-      "pronunciation": "/səˈfɪstɪkeɪtɪd/",
-      "partOfSpeech": "adjective",
-      "definition": "Having a high degree of complexity and advanced features; technically advanced.",
-      "indonesian": "canggih",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "The new smartphone features a sophisticated camera system.",
-      "collocations": [
-        "sophisticated technology",
-        "sophisticated system",
-        "sophisticated design",
-        "sophisticated equipment",
-        "highly sophisticated"
-      ],
-      "synonyms": [
-        "advanced",
-        "complex",
-        "intricate",
-        "refined"
-      ]
-    },
-    {
-      "word": "unsupervised learning",
-      "pronunciation": "/ʌnˈsuːpərvaɪzd ˈlɜːnɪŋ/",
-      "partOfSpeech": "noun phrase",
-      "definition": "A type of machine learning where the algorithm learns from data that has not been labeled or classified.",
-      "indonesian": "pembelajaran tanpa pengawasan",
+      "definition": "Present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana",
       "level": "C1",
-      "ieltsBand": 7,
-      "example": "Clustering algorithms are a common example of unsupervised learning.",
+      "ieltsBand": 7.5,
+      "example": "Smartphones have become ubiquitous in modern society.",
       "collocations": [
-        "perform unsupervised learning",
-        "type of unsupervised learning",
-        "unsupervised learning model",
-        "unsupervised learning techniques"
+        "ubiquitous technology",
+        "ubiquitous computing",
+        "increasingly ubiquitous",
+        "virtually ubiquitous"
       ],
       "synonyms": [
-        "clustering",
-        "pattern recognition"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
       ]
     }
   ]

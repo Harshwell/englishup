@@ -1,163 +1,182 @@
 {
   "words": [
     {
-      "word": "relatable",
-      "pronunciation": "/rɪˈleɪ.tə.bəl/",
-      "partOfSpeech": "adjective",
-      "definition": "easy to understand or feel sympathy for because it is similar to your own experiences or feelings.",
-      "indonesian": "mudah dipahami, bisa dirasakan",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "Her stories about dealing with a difficult boss were very relatable to everyone in the office.",
-      "collocations": [
-        "highly relatable",
-        "instantly relatable",
-        "find something relatable"
-      ],
-      "synonyms": [
-        "understandable",
-        "familiar",
-        "recognizable"
-      ]
-    },
-    {
-      "word": "nuance",
-      "pronunciation": "/ˈnuː.ɑːns/",
+      "word": "Vibe",
+      "pronunciation": "/vaɪb/",
       "partOfSpeech": "noun",
-      "definition": "a subtle difference in or shade of meaning, expression, or sound.",
-      "indonesian": "nuansa, perbedaan halus",
-      "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "The speaker's tone conveyed a subtle nuance of sarcasm that some people missed.",
-      "collocations": [
-        "subtle nuance",
-        "understand the nuance",
-        "miss the nuance"
-      ],
-      "synonyms": [
-        "distinction",
-        "shade",
-        "subtlety"
-      ]
-    },
-    {
-      "word": "overwhelmed",
-      "pronunciation": "/ˌoʊ.vɚˈwɛlmd/",
-      "partOfSpeech": "adjective",
-      "definition": "having too many things to deal with; feeling unable to cope.",
-      "indonesian": "kewalahan, terbebani",
+      "definition": "The atmosphere or feeling that a place, person, or situation seems to have.",
+      "indonesian": "Suasana",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "After a long week of work and personal commitments, I felt completely overwhelmed.",
+      "ieltsBand": "7.0",
+      "example": "This cafe has a really relaxed vibe, perfect for studying.",
       "collocations": [
-        "feel overwhelmed",
-        "completely overwhelmed",
-        "overwhelmed by"
+        "good vibe",
+        "bad vibe",
+        "positive vibe",
+        "negative vibe",
+        "chill vibe",
+        "party vibe",
+        "get the vibe"
       ],
       "synonyms": [
-        "swamped",
-        "inundated",
-        "burdened"
+        "atmosphere",
+        "mood",
+        "feeling",
+        "aura",
+        "spirit"
       ]
     },
     {
-      "word": "articulate",
-      "pronunciation": "/ɑːrˈtɪk.jə.leɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to express an idea or feeling fluently and coherently.",
-      "indonesian": "mengartikulasikan, mengungkapkan dengan jelas",
+      "word": "Catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To talk to someone who you have not seen for some time and find out what they have been doing.",
+      "indonesian": "Bertemu (untuk ngobrol/update)",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "She found it difficult to articulate her thoughts during the heated debate.",
+      "ieltsBand": "7.0",
+      "example": "Let's grab coffee next week and catch up.",
       "collocations": [
-        "articulate clearly",
-        "articulate your thoughts",
-        "struggle to articulate"
+        "catch up with friends",
+        "catch up on news",
+        "catch up on work",
+        "catch up on sleep"
       ],
       "synonyms": [
-        "express",
-        "voice",
-        "state"
+        "reconnect",
+        "update each other",
+        "get together"
       ]
     },
     {
-      "word": "insightful",
-      "pronunciation": "/ˈɪn.saɪt.fəl/",
-      "partOfSpeech": "adjective",
-      "definition": "having or showing an accurate and deep understanding of someone or something.",
-      "indonesian": "berwawasan, mendalam",
-      "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "His insightful analysis of the market trends helped us make better decisions.",
-      "collocations": [
-        "insightful comment",
-        "insightful observation",
-        "provide insightful"
-      ],
-      "synonyms": [
-        "perceptive",
-        "wise",
-        "sagacious"
-      ]
-    },
-    {
-      "word": "mundane",
-      "pronunciation": "/mʌnˈdeɪn/",
-      "partOfSpeech": "adjective",
-      "definition": "lacking interest or excitement; dull.",
-      "indonesian": "biasa, membosankan",
+      "word": "Hassle",
+      "pronunciation": "/ˈhæsl/",
+      "partOfSpeech": "noun/verb",
+      "definition": "(noun) Annoyance or trouble. (verb) To annoy or bother someone.",
+      "indonesian": "Kerumitan/Gangguan (kata benda), Mengganggu (kata kerja)",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "Even the most mundane tasks can become interesting with the right attitude.",
+      "ieltsBand": "7.0",
+      "example": "Dealing with customer complaints can be a real hassle. (noun) Don't hassle me about finishing my homework right now. (verb)",
       "collocations": [
-        "mundane tasks",
-        "mundane reality",
-        "escape the mundane"
+        "a lot of hassle",
+        "no hassle",
+        "hassle-free",
+        "hassle someone"
       ],
       "synonyms": [
-        "ordinary",
-        "commonplace",
-        "unexciting"
+        "inconvenience",
+        "annoyance",
+        "trouble",
+        "bother",
+        "disturb"
       ]
     },
     {
-      "word": "empathy",
-      "pronunciation": "/ˈɛm.pə.θi/",
+      "word": "Chill",
+      "pronunciation": "/tʃɪl/",
+      "partOfSpeech": "verb/adjective",
+      "definition": "(verb) To relax. (adjective) Relaxed and calm.",
+      "indonesian": "Santai (kata kerja/sifat)",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I'm just going to chill at home tonight. (verb) He's a really chill guy, very easy to get along with. (adjective)",
+      "collocations": [
+        "chill out",
+        "chill vibes",
+        "chill music",
+        "chill atmosphere"
+      ],
+      "synonyms": [
+        "relax",
+        "unwind",
+        "calm",
+        "laid-back",
+        "easygoing"
+      ]
+    },
+    {
+      "word": "Fuss",
+      "pronunciation": "/fʌs/",
+      "partOfSpeech": "noun/verb",
+      "definition": "(noun) Unnecessary excitement, activity, or worry. (verb) To worry or be annoyed about something unimportant.",
+      "indonesian": "Keriuhan/Kekhawatiran yang tidak perlu (kata benda), Meributkan (kata kerja)",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "There's no need to make such a fuss about a small mistake. (noun) Stop fussing over the details and just get it done. (verb)",
+      "collocations": [
+        "make a fuss",
+        "a lot of fuss",
+        "without fuss",
+        "fuss about"
+      ],
+      "synonyms": [
+        "commotion",
+        "agitation",
+        "brouhaha",
+        "worry",
+        "fret"
+      ]
+    },
+    {
+      "word": "Hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing with someone.",
+      "indonesian": "Berkumpul/Menghabiskan waktu bersama",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I usually hang out with my friends on weekends.",
+      "collocations": [
+        "hang out with friends",
+        "hang out at home",
+        "hang out at the park"
+      ],
+      "synonyms": [
+        "socialize",
+        "spend time",
+        "gather",
+        "mingle"
+      ]
+    },
+    {
+      "word": "Craving",
+      "pronunciation": "/ˈkreɪvɪŋ/",
       "partOfSpeech": "noun",
-      "definition": "the ability to understand and share the feelings of another.",
-      "indonesian": "empati, kepedulian",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "Showing empathy towards your colleagues can improve teamwork.",
+      "definition": "A strong feeling of wanting something.",
+      "indonesian": "Keinginan kuat/Ngidam",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "I have a sudden craving for chocolate.",
       "collocations": [
-        "show empathy",
-        "have empathy",
-        "lack empathy"
+        "a strong craving",
+        "have a craving for",
+        "crave a particular food"
       ],
       "synonyms": [
-        "compassion",
-        "understanding",
-        "sympathy"
+        "longing",
+        "urge",
+        "desire",
+        "hankering"
       ]
     },
     {
-      "word": "profound",
-      "pronunciation": "/prəˈfaʊnd/",
-      "partOfSpeech": "adjective",
-      "definition": "very great or intense; having or showing great knowledge or insight.",
-      "indonesian": "mendalam, signifikan",
+      "word": "Gut feeling",
+      "pronunciation": "/ɡʌt ˈfiːlɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "An instinct or intuition about something.",
+      "indonesian": "Intuisi/Perasaan dari hati",
       "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "The experience had a profound impact on her life, changing her perspective entirely.",
+      "ieltsBand": "7.0",
+      "example": "I have a gut feeling that this deal is going to be successful.",
       "collocations": [
-        "profound impact",
-        "profound effect",
-        "profound change"
+        "have a gut feeling",
+        "trust your gut feeling",
+        "a strong gut feeling"
       ],
       "synonyms": [
-        "deep",
-        "significant",
-        "great"
+        "intuition",
+        "instinct",
+        "hunch",
+        "sixth sense"
       ]
     }
   ]
