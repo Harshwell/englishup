@@ -1,66 +1,195 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "Governments are implementing policies to mitigate the effects of climate change.",
+      "collocations": [
+        "mitigate risk",
+        "mitigate damage",
+        "mitigate the impact",
+        "mitigate the effects",
+        "mitigate poverty"
+      ],
+      "synonyms": [
+        "alleviate",
+        "reduce",
+        "lessen",
+        "ease",
+        "palliate"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate and access information.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous nature",
+        "ubiquitous in",
+        "become ubiquitous"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread",
+        "common"
+      ]
+    },
+    {
+      "word": "articulate",
+      "pronunciation": "/ɑːˈtɪkjʊleɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to express an idea or feeling fluently and coherently.",
+      "indonesian": "mengartikulasikan, mengutarakan",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "It is crucial for researchers to articulate their findings clearly and concisely in academic papers.",
+      "collocations": [
+        "articulate a vision",
+        "articulate a point",
+        "articulate an argument",
+        "articulate ideas",
+        "articulate needs"
+      ],
+      "synonyms": [
+        "express",
+        "voice",
+        "state",
+        "utter",
+        "put into words"
+      ]
+    },
+    {
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
       "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
-      "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "definition": "a lack of compatibility or similarity between two or more facts.",
+      "indonesian": "perbedaan, ketidaksesuaian",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "There is a significant discrepancy between the reported sales figures and the actual revenue.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "significant discrepancy",
+        "major discrepancy",
+        "noticeable discrepancy",
+        "discrepancy between",
+        "resolve a discrepancy"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "difference",
+        "inconsistency",
+        "disparity",
+        "variation",
+        "divergence"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
       "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "definition": "to make something bad or unsatisfactory better.",
+      "indonesian": "memperbaiki, meningkatkan",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "New educational programs are being introduced to ameliorate the current learning standards.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "ameliorate conditions",
+        "ameliorate the situation",
+        "ameliorate poverty",
+        "ameliorate the effects",
+        "seek to ameliorate"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "improve",
+        "better",
+        "amend",
+        "rectify",
+        "enhance"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
-      "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA marked a significant paradigm shift in the field of biology.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "paradigm shift",
+        "new paradigm",
+        "scientific paradigm",
+        "dominant paradigm",
+        "shift in paradigm"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "model",
+        "pattern",
+        "framework",
+        "template",
+        "example"
+      ]
+    },
+    {
+      "word": "conducive",
+      "pronunciation": "/kənˈdjuːsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "making a certain situation or outcome likely or possible.",
+      "indonesian": "kondusif, mendukung",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "A quiet and organized study environment is conducive to effective learning.",
+      "collocations": [
+        "conducive to",
+        "conducive environment",
+        "conducive to success",
+        "conducive to learning",
+        "not conducive to"
+      ],
+      "synonyms": [
+        "favorable",
+        "beneficial",
+        "helpful",
+        "advantageous",
+        "supportive"
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "The lack of rain will only exacerbate the drought conditions in the region.",
+      "collocations": [
+        "exacerbate the problem",
+        "exacerbate the situation",
+        "exacerbate tensions",
+        "exacerbate poverty",
+        "exacerbate conflict"
+      ],
+      "synonyms": [
+        "worsen",
+        "aggravate",
+        "intensify",
+        "compound",
+        "inflame"
       ]
     }
   ]
