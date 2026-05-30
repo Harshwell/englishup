@@ -1,177 +1,66 @@
 {
   "words": [
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something bad or unsatisfactory better",
-      "indonesian": "memperbaiki, meningkatkan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The government introduced new policies to ameliorate the effects of the economic recession.",
-      "collocations": [
-        "ameliorate the situation",
-        "ameliorate conditions",
-        "ameliorate poverty",
-        "ameliorate the problem"
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "better",
-        "rectify"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere",
-      "indonesian": "ada di mana-mana, serba ada",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate.",
-      "collocations": [
-        "ubiquitous presence",
-        "ubiquitous technology",
-        "ubiquitous phenomenon"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrepənsi/",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
       "partOfSpeech": "noun",
-      "definition": "a lack of similarity between two facts or situations; a difference",
-      "indonesian": "perbedaan, ketidaksesuaian",
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "There is a significant discrepancy between the reported figures and the actual data.",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "a discrepancy between",
-        "a major discrepancy",
-        "a glaring discrepancy",
-        "resolve a discrepancy"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "difference",
-        "inconsistency",
-        "variation",
-        "disparity"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model; a set of assumptions, beliefs, and practices that shapes how something is understood",
-      "indonesian": "paradigma, pola pikir, kerangka berpikir",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The discovery of quantum mechanics represented a paradigm shift in our understanding of physics.",
-      "collocations": [
-        "paradigm shift",
-        "a new paradigm",
-        "a scientific paradigm",
-        "a research paradigm"
-      ],
-      "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "standard"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "word": "allocate",
+      "pronunciation": "/ˈæl.ə.keɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful",
-      "indonesian": "meredakan, mengurangi",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Efforts are being made to mitigate the environmental impact of industrial activities.",
-      "collocations": [
-        "mitigate the risks",
-        "mitigate the effects",
-        "mitigate the damage",
-        "mitigate climate change"
-      ],
-      "synonyms": [
-        "alleviate",
-        "reduce",
-        "lessen",
-        "ease"
-      ]
-    },
-    {
-      "word": "ostracize",
-      "pronunciation": "/ˈɒstrəsaɪz/",
-      "partOfSpeech": "verb",
-      "definition": "to exclude someone from a society or group",
-      "indonesian": "mengucilkan, memboikot",
+      "definition": "To set aside for a purpose.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "He was ostracized by his colleagues after the scandal.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "ostracize someone from",
-        "ostracize a group",
-        "be ostracized by"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "exclude",
-        "banish",
-        "shun",
-        "boycott"
+        "appropriate",
+        "earmark",
+        "apportion"
       ]
     },
     {
-      "word": "pervasive",
-      "pronunciation": "/pərˈveɪsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "spreading widely throughout an area or a group of people",
-      "indonesian": "meresap, menyebar luas",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The influence of social media is pervasive in contemporary culture.",
-      "collocations": [
-        "pervasive influence",
-        "pervasive problem",
-        "pervasive culture",
-        "pervasive effect"
-      ],
-      "synonyms": [
-        "widespread",
-        "ubiquitous",
-        "extensive",
-        "rampant"
-      ]
-    },
-    {
-      "word": "synthesize",
-      "pronunciation": "/ˈsɪnθəsaɪz/",
+      "word": "enhance",
+      "pronunciation": "/ɪnˈhɑːns/",
       "partOfSpeech": "verb",
-      "definition": "to combine a number of things into a coherent whole; to produce a substance by chemical synthesis",
-      "indonesian": "mensintesis, menggabungkan",
+      "definition": "To lift, raise up.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The essay requires students to synthesize information from multiple sources.",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "synthesize information",
-        "synthesize data",
-        "synthesize findings",
-        "synthesize different ideas"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "combine",
-        "integrate",
-        "blend",
-        "unite"
+        "heighten",
+        "raise"
       ]
     }
   ]

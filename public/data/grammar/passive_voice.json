@@ -1,137 +1,66 @@
 {
-  "grammarChart": {
-    "title": "Passive Voice: Formation",
-    "tenses": [
-      {
-        "tense": "Present Simple",
-        "active": "Subject + V1(s/es) + Object",
-        "passive": "Object + am/is/are + Past Participle (V3) + (by + Subject)"
-      },
-      {
-        "tense": "Past Simple",
-        "active": "Subject + V2 + Object",
-        "passive": "Object + was/were + Past Participle (V3) + (by + Subject)"
-      },
-      {
-        "tense": "Present Continuous",
-        "active": "Subject + am/is/are + V-ing + Object",
-        "passive": "Object + am/is/are + being + Past Participle (V3) + (by + Subject)"
-      },
-      {
-        "tense": "Past Continuous",
-        "active": "Subject + was/were + V-ing + Object",
-        "passive": "Object + was/were + being + Past Participle (V3) + (by + Subject)"
-      },
-      {
-        "tense": "Present Perfect",
-        "active": "Subject + has/have + V3 + Object",
-        "passive": "Object + has/have + been + Past Participle (V3) + (by + Subject)"
-      },
-      {
-        "tense": "Past Perfect",
-        "active": "Subject + had + V3 + Object",
-        "passive": "Object + had + been + Past Participle (V3) + (by + Subject)"
-      },
-      {
-        "tense": "Future Simple (will)",
-        "active": "Subject + will + V1 + Object",
-        "passive": "Object + will + be + Past Participle (V3) + (by + Subject)"
-      },
-      {
-        "tense": "Future Perfect",
-        "active": "Subject + will have + V3 + Object",
-        "passive": "Object + will have + been + Past Participle (V3) + (by + Subject)"
-      }
-    ]
-  },
-  "explanation": "The passive voice is used when the focus of the sentence is on the action or the object of the action, rather than on the doer of the action. In English, the passive voice is formed using a form of the verb 'to be' (am, is, are, was, were, been, being) followed by the past participle (the third form) of the main verb. The 'by + agent' phrase is often omitted when the doer is unknown, unimportant, or obvious.",
+  "explanation": "Kalimat pasif dalam Bahasa Inggris digunakan ketika fokus utama adalah pada objek dari suatu tindakan, bukan pada siapa yang melakukan tindakan tersebut. Rumus dasar kalimat pasif adalah: **Subject (objek dari kalimat aktif) + be (is/am/are/was/were/been/being) + past participle (kata kerja bentuk ketiga) + (by + agent/pelaku)**.",
   "keyRules": [
-    "The object of the active sentence becomes the subject of the passive sentence.",
-    "The verb 'to be' must agree in tense and number with the new subject.",
-    "The main verb is always in its past participle form (V3).",
-    "The 'by + agent' phrase is optional.",
-    "Passive voice is particularly useful in formal writing, scientific reports, and news articles where objectivity is prioritized."
+    "Identifikasi objek dari kalimat aktif. Objek ini akan menjadi subjek dalam kalimat pasif.",
+    "Ubah kata kerja kalimat aktif ke dalam bentuk past participle (V3).",
+    "Tambahkan bentuk 'be' yang sesuai dengan tense kalimat aktif dan subjek baru (kalimat pasif).",
+    "Jika ingin menyebutkan siapa yang melakukan tindakan, tambahkan 'by' diikuti oleh pelaku (agent)."
   ],
-  "azarNotes": "Think of it this way: in the active voice, the subject *does* the action. In the passive voice, the subject *receives* the action.  For IELTS, mastering the passive voice will help you write more sophisticated and varied sentences, especially in the Writing section.",
   "examples": [
     {
-      "active": "The chef prepares the meal.",
-      "passive": "The meal is prepared by the chef."
+      "active": "The chef cooks the meal.",
+      "passive": "The meal is cooked by the chef."
     },
     {
-      "active": "Someone stole my bicycle yesterday.",
-      "passive": "My bicycle was stolen yesterday."
+      "active": "They built the house last year.",
+      "passive": "The house was built by them last year."
     },
     {
-      "active": "They are building a new bridge.",
-      "passive": "A new bridge is being built."
+      "active": "The company is developing a new product.",
+      "passive": "A new product is being developed by the company."
     },
     {
-      "active": "The committee had reviewed all the applications.",
-      "passive": "All the applications had been reviewed by the committee."
-    },
-    {
-      "active": "The government will announce new policies next week.",
-      "passive": "New policies will be announced by the government next week."
+      "active": "Someone has stolen my wallet.",
+      "passive": "My wallet has been stolen."
     }
   ],
   "commonMistakes": [
-    "Using the wrong form of 'to be' (e.g., 'The report is wrote' instead of 'The report was written').",
-    "Forgetting to use the past participle of the main verb (e.g., 'The cake is bake' instead of 'The cake is baked').",
-    "Overtly using the passive voice when the active voice is more direct and clear.",
-    "Incorrectly forming the passive of modal verbs (e.g., 'The problem can be solved' is correct, but 'The problem can solved' is wrong)."
+    "Menggunakan bentuk 'be' yang salah (tidak sesuai dengan subjek atau tense).",
+    "Lupa mengubah kata kerja ke bentuk past participle.",
+    "Terlalu sering menggunakan kalimat pasif ketika kalimat aktif lebih jelas dan ringkas.",
+    "Menghilangkan 'by + agent' padahal pelaku tindakan penting untuk disebutkan."
   ],
-  "ieltsTip": "In IELTS Writing Task 1 (Academic), you'll often need to describe processes or charts where the passive voice is very common (e.g., 'Water is heated...', 'The product is then packaged...'). In Task 2, use it judiciously to present objective information or discuss societal issues impersonally.",
+  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), kalimat pasif sering digunakan untuk mendeskripsikan proses atau grafik, di mana fokusnya adalah pada apa yang terjadi, bukan siapa yang melakukannya. Contoh: 'The raw materials are mixed with water.' Pastikan Anda menguasai berbagai bentuk 'be' dan past participle untuk berbagai tense.",
   "quiz": [
     {
-      "question": "Choose the correct passive form: The company ______ its products in Asia.",
+      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The students completed the project on time.'",
       "options": [
-        "manufactures",
-        "is manufactured",
-        "are manufactured",
-        "is manufacturing"
+        "The project completed by the students on time.",
+        "The project was completed by the students on time.",
+        "The students were completed the project on time.",
+        "The project is completed by the students on time."
       ],
-      "answer": "is manufactured"
+      "answer": "The project was completed by the students on time."
     },
     {
-      "question": "Transform the active sentence into passive: The students completed the assignment.",
+      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The government will announce the new policy next week.'",
       "options": [
-        "The assignment was completed by the students.",
-        "The assignment is completed by the students.",
-        "The students were completed the assignment.",
-        "The assignment completed the students."
+        "The new policy will announce by the government next week.",
+        "The new policy will be announced by the government next week.",
+        "The government will be announced the new policy next week.",
+        "The new policy is announced by the government next week."
       ],
-      "answer": "The assignment was completed by the students."
+      "answer": "The new policy will be announced by the government next week."
     },
     {
-      "question": "Which sentence uses the passive voice correctly?",
+      "question": "Kalimat pasif manakah yang benar? (Pilih satu)",
       "options": [
-        "The letter was post yesterday.",
-        "The letter was posted yesterday.",
-        "The letter is posted yesterday.",
-        "The letter has posted yesterday."
+        "The letter was wrote yesterday.",
+        "The letter was written yesterday.",
+        "The letter is wrote yesterday.",
+        "The letter is written yesterday."
       ],
-      "answer": "The letter was posted yesterday."
-    },
-    {
-      "question": "Choose the correct passive form: The bridge ______ by engineers next year.",
-      "options": [
-        "will build",
-        "will be built",
-        "will being built",
-        "is built"
-      ],
-      "answer": "will be built"
-    },
-    {
-      "question": "Transform the active sentence into passive: The committee has approved the proposal.",
-      "options": [
-        "The proposal has approved by the committee.",
-        "The proposal is approved by the committee.",
-        "The proposal has been approved by the committee.",
-        "The committee has been approved the proposal."
-      ],
-      "answer": "The proposal has been approved by the committee."
+      "answer": "The letter was written yesterday."
     }
   ]
 }

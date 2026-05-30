@@ -2,173 +2,44 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡəˌrɪðəm/",
+      "pronunciation": "/ˈælɡəɹɪðm̩/",
       "partOfSpeech": "noun",
-      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
-      "indonesian": "algoritma",
+      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
+      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "The search engine uses a complex algorithm to rank websites.",
+      "ieltsBand": "6.5-7.0",
+      "example": "algorithm is often used in formal and academic English.",
       "collocations": [
-        "complex algorithm",
-        "search algorithm",
-        "sorting algorithm",
-        "machine learning algorithm"
+        "algorithms",
+        "iterative",
+        "compute",
+        "recursive"
       ],
       "synonyms": [
-        "procedure",
-        "process",
-        "method",
-        "formula"
+        "algorithmic program",
+        "algorithmic rule"
       ]
     },
     {
-      "word": "automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+      "word": "bias",
+      "pronunciation": "/ˈbaɪəs/",
       "partOfSpeech": "noun",
-      "definition": "The use of technology to perform tasks with minimal human intervention.",
-      "indonesian": "otomatisasi",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "Automation in manufacturing has led to increased efficiency.",
-      "collocations": [
-        "process automation",
-        "industrial automation",
-        "office automation",
-        "degree of automation"
-      ],
-      "synonyms": [
-        "mechanization",
-        "robotization",
-        "self-operation"
-      ]
-    },
-    {
-      "word": "big data",
-      "pronunciation": "/ˌbɪɡ ˈdeɪtə/",
-      "partOfSpeech": "noun phrase",
-      "definition": "Extremely large amounts of data that are too complex for traditional data processing applications to handle.",
-      "indonesian": "data besar",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "Companies are investing heavily in big data analytics to gain insights.",
-      "collocations": [
-        "big data analytics",
-        "big data analysis",
-        "big data management",
-        "volume of big data"
-      ],
-      "synonyms": [
-        "massive datasets",
-        "vast amounts of information"
-      ]
-    },
-    {
-      "word": "cognitive",
-      "pronunciation": "/ˈkɒɡnɪtɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "Relating to the mental processes of perception, memory, judgment, and reasoning.",
-      "indonesian": "kognitif",
+      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
+      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "AI aims to replicate human cognitive abilities.",
+      "ieltsBand": "7.0-7.5",
+      "example": "bias is often used in formal and academic English.",
       "collocations": [
-        "cognitive abilities",
-        "cognitive processes",
-        "cognitive science",
-        "cognitive load"
+        "biases",
+        "estimator",
+        "biased",
+        "diode"
       ],
       "synonyms": [
-        "mental",
-        "intellectual",
-        "thinking",
-        "perceptual"
-      ]
-    },
-    {
-      "word": "disruptive",
-      "pronunciation": "/dɪsˈrʌptɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "Causing significant change or innovation that fundamentally alters the way things are done.",
-      "indonesian": "mengganggu (dalam konteks inovasi)",
-      "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "New technologies are often disruptive to existing industries.",
-      "collocations": [
-        "disruptive technology",
-        "disruptive innovation",
-        "disruptive influence",
-        "highly disruptive"
-      ],
-      "synonyms": [
-        "revolutionary",
-        "transformative",
-        "game-changing",
-        "innovative"
-      ]
-    },
-    {
-      "word": "emulate",
-      "pronunciation": "/ˈemjʊleɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To try to be like someone or something else; to imitate.",
-      "indonesian": "meniru",
-      "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "Researchers are trying to create AI that can emulate human creativity.",
-      "collocations": [
-        "emulate human behavior",
-        "emulate performance",
-        "emulate success",
-        "closely emulate"
-      ],
-      "synonyms": [
-        "imitate",
-        "mimic",
-        "replicate",
-        "copy"
-      ]
-    },
-    {
-      "word": "neural network",
-      "pronunciation": "/ˈnjʊərəl ˈnetwɜːk/",
-      "partOfSpeech": "noun phrase",
-      "definition": "A computing system inspired by the structure and function of the human brain, used in machine learning.",
-      "indonesian": "jaringan saraf tiruan",
-      "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "Deep learning models often rely on complex neural networks.",
-      "collocations": [
-        "artificial neural network",
-        "deep neural network",
-        "train a neural network",
-        "neural network architecture"
-      ],
-      "synonyms": [
-        "artificial brain",
-        "computational network"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "Present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous computing",
-        "increasingly ubiquitous",
-        "virtually ubiquitous"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
+        "oblique",
+        "prejudice",
+        "predetermine",
+        "diagonal"
       ]
     }
   ]

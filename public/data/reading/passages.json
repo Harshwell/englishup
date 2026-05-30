@@ -1,116 +1,244 @@
 [
   {
-    "title": "Working From Home: Is It Really Better?",
-    "topic": "Remote Work and Productivity",
-    "difficulty": "Beginner",
-    "passage": "Many companies are now letting their employees work from home. This is called remote work. Some people love working from home because they don't have to travel to the office. This saves time and money. They can also wear comfortable clothes and have their pets nearby. For some, this means they can focus better and get more work done. They have fewer distractions at home than in a busy office.\n\nHowever, not everyone finds remote work easy. Some people miss talking to their colleagues face-to-face. They feel lonely. It can also be hard to separate work from home life. Sometimes, people work too much because their office is always with them. Others find it difficult to stay motivated without the structure of an office. They might get distracted by things at home, like chores or family.\n\nFor remote work to be successful, both the employee and the company need to make an effort. Clear communication is very important. Companies need to trust their employees. Employees need to be disciplined and manage their time well. When done right, remote work can be a great way to be productive and happy.",
+    "title": "AI in the Classroom: Revolution or Risk?",
+    "topic": "Artificial Intelligence and Education",
+    "difficulty": "intermediate",
+    "passage": "Artificial Intelligence (AI) is rapidly transforming various sectors, and education is no exception.  From personalized learning platforms that adapt to individual student needs to automated grading systems that free up teacher time, AI promises a more efficient and effective educational experience.  AI-powered tools can analyze vast amounts of student data to identify learning gaps and suggest targeted interventions.  Virtual tutors, available 24/7, can provide instant feedback and support, catering to diverse learning styles and paces.  Furthermore, AI can assist in curriculum development by identifying trends and areas where students struggle.  However, the integration of AI in education is not without its challenges. Concerns about data privacy and security are paramount.  The potential for algorithmic bias, where AI systems inadvertently perpetuate existing inequalities, is a significant ethical consideration.  Moreover, the role of the human teacher is being re-evaluated.  While AI can automate certain tasks, the irreplaceable human elements of empathy, critical thinking guidance, and fostering social-emotional development remain crucial.  Striking the right balance between leveraging AI's capabilities and preserving the essential human touch in education will be key to its successful implementation.",
     "vocabulary": [
       {
-        "word": "remote work",
-        "meaning": "working from a location other than the main office, usually home"
+        "word": "transforming",
+        "definition": "making a marked change in someone or something's form, nature, or appearance."
       },
       {
-        "word": "employees",
-        "meaning": "people who work for a company or person"
+        "word": "personalized learning",
+        "definition": "an educational method that uses technology to provide tailored instruction to meet the unique needs of each student."
       },
       {
-        "word": "travel",
-        "meaning": "to go from one place to another"
+        "word": "automated grading",
+        "definition": "the use of technology to assess and score student work without direct human intervention."
       },
       {
-        "word": "distractions",
-        "meaning": "things that stop you from giving your full attention to something"
+        "word": "interventions",
+        "definition": "actions taken to improve a situation, especially one that is bad or has been getting worse."
       },
       {
-        "word": "colleagues",
-        "meaning": "people you work with"
+        "word": "virtual tutors",
+        "definition": "AI-powered programs that provide educational assistance and guidance to students."
       },
       {
-        "word": "lonely",
-        "meaning": "feeling sad because you are alone or have no friends"
+        "word": "curriculum development",
+        "definition": "the process of designing and creating educational programs and courses."
       },
       {
-        "word": "separate",
-        "meaning": "to divide or keep apart"
+        "word": "paramount",
+        "definition": "more important than anything else; supreme."
       },
       {
-        "word": "motivated",
-        "meaning": "having a strong reason to do something"
+        "word": "algorithmic bias",
+        "definition": "systematic and repeatable errors in a computer system that create unfair outcomes, such as privileging one arbitrary group of users over others."
       },
       {
-        "word": "disciplined",
-        "meaning": "able to control yourself and work hard"
+        "word": "perpetuate",
+        "definition": "make (something, typically an undesirable situation or an unfounded belief) continue indefinitely."
       },
       {
-        "word": "productive",
-        "meaning": "achieving a lot"
+        "word": "empathy",
+        "definition": "the ability to understand and share the feelings of another."
+      },
+      {
+        "word": "social-emotional development",
+        "definition": "the process by which children learn to understand and manage their emotions, build relationships, and make responsible decisions."
       }
     ],
     "questions": [
       {
-        "id": 1,
         "type": "multiple_choice",
-        "question": "What is the main topic of the passage?",
+        "question": "According to the passage, what is one of the primary benefits of AI in education?",
         "options": [
-          "The history of offices",
-          "The benefits and challenges of working from home",
-          "How to travel for work",
-          "The best clothes to wear at work"
+          "Replacing human teachers entirely",
+          "Providing personalized learning experiences",
+          "Eliminating the need for student assessment",
+          "Reducing the cost of educational materials"
         ],
-        "answer": "The benefits and challenges of working from home"
+        "answer": "Providing personalized learning experiences"
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "question": "According to the passage, working from home can save employees time and money.",
+        "type": "true_false_not_given",
+        "question": "AI-powered tools can identify learning gaps and suggest specific support for students.",
         "answer": "True"
       },
       {
-        "id": 3,
         "type": "short_answer",
-        "question": "Name one reason why some people might feel lonely when working from home.",
-        "answer": "They miss talking to their colleagues face-to-face."
+        "question": "What is a significant ethical concern mentioned regarding AI in education?",
+        "answer": "Algorithmic bias"
       },
       {
-        "id": 4,
         "type": "multiple_choice",
-        "question": "Which of the following is mentioned as a challenge of remote work?",
+        "question": "The passage suggests that virtual tutors can offer which of the following advantages?",
         "options": [
-          "Having too many colleagues",
-          "Working too little",
-          "Difficulty separating work from home life",
-          "Too much travel"
+          "Limited availability",
+          "Personalized feedback",
+          "Reduced learning pace",
+          "Less data analysis"
         ],
-        "answer": "Difficulty separating work from home life"
+        "answer": "Personalized feedback"
       },
       {
-        "id": 5,
-        "type": "true_false",
-        "question": "The passage suggests that remote work is always easy for everyone.",
+        "type": "true_false_not_given",
+        "question": "The passage argues that AI will completely replace the need for human teachers.",
         "answer": "False"
+      },
+      {
+        "type": "short_answer",
+        "question": "Besides personalized learning, what is another way AI can assist in education?",
+        "answer": "Automated grading systems"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is considered a crucial element that AI cannot replicate in education?",
+        "options": [
+          "Data analysis",
+          "Automated feedback",
+          "Empathy and social-emotional guidance",
+          "Curriculum trend identification"
+        ],
+        "answer": "Empathy and social-emotional guidance"
       }
     ],
     "ieltsTips": [
+      "Read the passage carefully to understand the main idea and supporting details.",
+      "Pay attention to keywords in the questions and locate them in the passage.",
+      "For True/False/Not Given questions, carefully distinguish between statements that are directly supported by the text (True), contradicted by the text (False), or not mentioned in the text (Not Given).",
+      "For multiple-choice questions, read all options before selecting the best answer based on the passage.",
+      "For short-answer questions, ensure your answer is concise and directly addresses the question, using information from the passage."
+    ]
+  },
+  {
+    "title": "The Rise of Remote Work: Is it Good for Productivity?",
+    "topic": "Remote Work and Productivity",
+    "difficulty": "beginner",
+    "passage": "Remote work, also known as working from home, has become very popular. Many companies now allow their employees to work from their houses instead of going to an office. This change offers several advantages. For employees, it can mean more flexibility. They can often set their own hours and avoid long commutes, which saves time and money. This can lead to a better work-life balance.  For companies, remote work can reduce the need for large office spaces, saving on rent and utilities.  However, there are also challenges. Some people find it hard to stay focused at home, with distractions like family or household chores.  Communication can also be more difficult when people are not in the same room.  Companies need to find ways to keep their remote teams connected and motivated.  Overall, remote work can be very productive, but it requires good planning and clear communication from both employers and employees.",
+    "vocabulary": [
       {
-        "tip": "Read the questions first before reading the passage. This helps you know what information to look for.",
-        "category": "Reading Strategy"
+        "word": "remote work",
+        "definition": "working from home or a location other than the main office."
       },
       {
-        "tip": "Pay attention to keywords in the questions and find them or similar words in the passage.",
-        "category": "Vocabulary"
+        "word": "popular",
+        "definition": "liked or admired by many people."
       },
       {
-        "tip": "For True/False/Not Given questions, carefully check if the statement in the question is exactly supported by the text (True), contradicted by the text (False), or not mentioned at all (Not Given).",
-        "category": "Question Type"
+        "word": "advantages",
+        "definition": "favorable circumstances or beneficial results."
       },
       {
-        "tip": "For short answer questions, try to find the exact answer in the passage. Keep your answers brief.",
-        "category": "Question Type"
+        "word": "flexibility",
+        "definition": "the ability to be easily modified or adapted."
       },
       {
-        "tip": "Don't spend too much time on one question. If you're stuck, move on and come back later if you have time.",
-        "category": "Time Management"
+        "word": "commutes",
+        "definition": "regular journeys between one's home and place of work."
+      },
+      {
+        "word": "work-life balance",
+        "definition": "the state of equilibrium in which the demands of a person's job and personal life are equally balanced."
+      },
+      {
+        "word": "reduce",
+        "definition": "make smaller or less in amount, degree, or size."
+      },
+      {
+        "word": "challenges",
+        "definition": "a task or situation that tests someone's abilities."
+      },
+      {
+        "word": "distractions",
+        "definition": "a thing that prevents someone from giving full attention to something else."
+      },
+      {
+        "word": "communication",
+        "definition": "the imparting or exchanging of information by speaking, writing, or using some other medium."
+      },
+      {
+        "word": "connected",
+        "definition": "joined or linked together."
+      },
+      {
+        "word": "motivated",
+        "definition": "having a strong reason to do something."
+      },
+      {
+        "word": "productive",
+        "definition": "achieving a significant amount or result."
+      },
+      {
+        "word": "planning",
+        "definition": "the process of thinking about and organizing the activities required to achieve a desired goal."
       }
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "What is another name for remote work?",
+        "options": [
+          "Office work",
+          "Working from home",
+          "Business travel",
+          "Team meetings"
+        ],
+        "answer": "Working from home"
+      },
+      {
+        "type": "true_false",
+        "question": "Remote work can help employees save time on commuting. (True/False)",
+        "answer": "True"
+      },
+      {
+        "type": "short_answer",
+        "question": "Name one advantage of remote work for companies.",
+        "answer": "Reduced need for office space"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is mentioned as a challenge of remote work?",
+        "options": [
+          "Too much flexibility",
+          "Easy communication",
+          "Difficulty staying focused",
+          "Saving money on rent"
+        ],
+        "answer": "Difficulty staying focused"
+      },
+      {
+        "type": "short_answer",
+        "question": "What is important for companies to do to help remote teams?",
+        "answer": "Keep them connected and motivated"
+      }
+    ],
+    "ieltsTips": [
+      "Read the passage carefully before answering the questions.",
+      "Pay attention to keywords in the questions and find them in the passage.",
+      "For True/False/Not Given questions, make sure the statement is directly supported by the text (True), contradicted by the text (False), or not mentioned at all (Not Given).",
+      "For short answer questions, keep your answers brief and to the point, using words from the passage if possible.",
+      "Review your answers to check for any mistakes."
+    ]
+  },
+  {
+    "title": "Cities and Climate Planning",
+    "topic": "Cities and Climate Planning",
+    "difficulty": "advanced",
+    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
+    "vocabulary": [
+      {
+        "word": "relevant",
+        "definition": "connected to the topic",
+        "indonesian": "relevan"
+      }
+    ],
+    "questions": [],
+    "ieltsTips": [
+      "Identify the main idea first.",
+      "Watch out for paraphrases, not only repeated words."
     ]
   }
 ]

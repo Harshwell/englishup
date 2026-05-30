@@ -1,139 +1,25 @@
 {
-  "grammarChart": [
-    {
-      "article": "a",
-      "form": "Used before singular, countable nouns that begin with a consonant sound.",
-      "meaning": "Indefinite, singular, general.",
-      "use": "To introduce a noun for the first time, or to refer to a non-specific member of a group."
-    },
-    {
-      "article": "an",
-      "form": "Used before singular, countable nouns that begin with a vowel sound.",
-      "meaning": "Indefinite, singular, general.",
-      "use": "To introduce a noun for the first time, or to refer to a non-specific member of a group."
-    },
-    {
-      "article": "the",
-      "form": "Used before singular or plural, countable or uncountable nouns.",
-      "meaning": "Definite, specific.",
-      "use": "To refer to a specific noun already mentioned, known to the listener/reader, or unique."
-    },
-    {
-      "article": "zero article (-)",
-      "form": "No article is used.",
-      "meaning": "General, plural, uncountable, abstract, proper nouns.",
-      "use": "For general statements about plural or uncountable nouns, abstract nouns, most proper nouns (names of people, cities, countries, etc.), and certain fixed expressions."
-    }
-  ],
-  "explanation": "Articles are small words (a, an, the) that precede nouns. They tell us whether the noun is specific or general, singular or plural. Understanding their usage is crucial for clear and accurate communication, especially in academic writing and formal speaking, which are tested in IELTS. The zero article refers to the absence of an article where one might be expected in other contexts, often indicating generality or a specific category.",
+  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
   "keyRules": [
-    "Use 'a' before consonant sounds and 'an' before vowel sounds (e.g., 'a university' because 'u' sounds like 'yoo', 'an hour' because 'h' is silent).",
-    "'The' is used for specific nouns. This includes nouns that have been mentioned before, nouns that are unique (e.g., 'the sun'), or nouns that are made specific by a phrase or clause (e.g., 'the book on the table').",
-    "Use the zero article for general plural nouns (e.g., 'Dogs are loyal animals.') and general uncountable nouns (e.g., 'Water is essential for life.').",
-    "Proper nouns generally do not take articles, with some exceptions (e.g., names of oceans, rivers, mountain ranges, certain countries like 'The United States').",
-    "Abstract nouns used generally take the zero article (e.g., 'Honesty is the best policy.'), but become specific with 'the' (e.g., 'The honesty of the witness was questioned.')."
+    "Pahami pola dasar.",
+    "Perhatikan konteks.",
+    "Hindari terjemahan mentah.",
+    "Gunakan dalam writing dan speaking."
   ],
-  "azarNotes": "Remember that the choice between 'a' and 'an' depends on the *sound* of the first letter of the word that follows, not the letter itself. For example, 'a European' (starts with a 'y' sound) and 'an umbrella' (starts with a vowel sound).  The zero article often signifies a broad category or a universally understood concept.",
   "examples": [
     {
-      "sentence": "I saw ___ dog in the park.",
-      "correctAnswer": "a"
-    },
-    {
-      "sentence": "She is ___ honest person.",
-      "correctAnswer": "an"
-    },
-    {
-      "sentence": "___ sun is setting.",
-      "correctAnswer": "the"
-    },
-    {
-      "sentence": "___ books on the shelf are mine.",
-      "correctAnswer": "the"
-    },
-    {
-      "sentence": "___ children love to play.",
-      "correctAnswer": "-"
-    },
-    {
-      "sentence": "___ happiness is important.",
-      "correctAnswer": "-"
-    },
-    {
-      "sentence": "He lives in ___ United Kingdom.",
-      "correctAnswer": "the"
-    },
-    {
-      "sentence": "Could you pass me ___ salt, please?",
-      "correctAnswer": "the"
-    },
-    {
-      "sentence": "She is studying ___ engineering.",
-      "correctAnswer": "-"
-    },
-    {
-      "sentence": "He is ___ university professor.",
-      "correctAnswer": "a"
+      "sentence": "Articles appears in IELTS tasks.",
+      "note": "Use the structure accurately.",
+      "indonesian": "Articles muncul dalam tugas IELTS."
     }
   ],
   "commonMistakes": [
-    "Using 'a' or 'an' with plural nouns (e.g., 'a books').",
-    "Using 'the' with general plural or uncountable nouns (e.g., 'The dogs barked all night' when referring to dogs in general).",
-    "Incorrectly using 'a' or 'an' based on spelling rather than sound (e.g., 'a honest man').",
-    "Omitting 'the' when referring to a specific, unique, or previously mentioned noun (e.g., 'I read book yesterday' instead of 'I read the book yesterday').",
-    "Using articles with most proper nouns (e.g., 'The Jakarta' instead of 'Jakarta')."
-  ],
-  "ieltsTip": "In IELTS Writing Task 2 and Speaking, be mindful of using articles accurately. For instance, when discussing general societal issues, use the zero article for plural or uncountable nouns (e.g., 'Pollution is a global concern.'). When referring to specific examples or previously mentioned items, 'the' is essential. Pay attention to how native speakers use articles in authentic materials.",
-  "quiz": [
     {
-      "question": "Please close ___ door.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "correctAnswer": "the"
-    },
-    {
-      "question": "I need ___ advice on my essay.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "correctAnswer": "-"
-    },
-    {
-      "question": "She bought ___ new car yesterday.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "correctAnswer": "a"
-    },
-    {
-      "question": "___ Amazon River is the longest river in the world.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "correctAnswer": "the"
-    },
-    {
-      "question": "___ information you provided was very helpful.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "correctAnswer": "the"
+      "wrong": "Learner guesses the form.",
+      "right": "Learner checks the structure first.",
+      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
     }
-  ]
+  ],
+  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
+  "quiz": []
 }

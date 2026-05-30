@@ -1,182 +1,47 @@
 {
   "words": [
     {
-      "word": "Vibe",
-      "pronunciation": "/vaɪb/",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
       "partOfSpeech": "noun",
-      "definition": "The atmosphere or feeling that a place, person, or situation seems to have.",
-      "indonesian": "Suasana",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "This cafe has a really relaxed vibe, perfect for studying.",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
       "collocations": [
-        "good vibe",
-        "bad vibe",
-        "positive vibe",
-        "negative vibe",
-        "chill vibe",
-        "party vibe",
-        "get the vibe"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "atmosphere",
-        "mood",
-        "feeling",
-        "aura",
-        "spirit"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Catch up",
-      "pronunciation": "/kætʃ ʌp/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To talk to someone who you have not seen for some time and find out what they have been doing.",
-      "indonesian": "Bertemu (untuk ngobrol/update)",
+      "word": "straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Let's grab coffee next week and catch up.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "catch up with friends",
-        "catch up on news",
-        "catch up on work",
-        "catch up on sleep"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "reconnect",
-        "update each other",
-        "get together"
-      ]
-    },
-    {
-      "word": "Hassle",
-      "pronunciation": "/ˈhæsl/",
-      "partOfSpeech": "noun/verb",
-      "definition": "(noun) Annoyance or trouble. (verb) To annoy or bother someone.",
-      "indonesian": "Kerumitan/Gangguan (kata benda), Mengganggu (kata kerja)",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Dealing with customer complaints can be a real hassle. (noun) Don't hassle me about finishing my homework right now. (verb)",
-      "collocations": [
-        "a lot of hassle",
-        "no hassle",
-        "hassle-free",
-        "hassle someone"
-      ],
-      "synonyms": [
-        "inconvenience",
-        "annoyance",
-        "trouble",
-        "bother",
-        "disturb"
-      ]
-    },
-    {
-      "word": "Chill",
-      "pronunciation": "/tʃɪl/",
-      "partOfSpeech": "verb/adjective",
-      "definition": "(verb) To relax. (adjective) Relaxed and calm.",
-      "indonesian": "Santai (kata kerja/sifat)",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I'm just going to chill at home tonight. (verb) He's a really chill guy, very easy to get along with. (adjective)",
-      "collocations": [
-        "chill out",
-        "chill vibes",
-        "chill music",
-        "chill atmosphere"
-      ],
-      "synonyms": [
-        "relax",
-        "unwind",
-        "calm",
-        "laid-back",
-        "easygoing"
-      ]
-    },
-    {
-      "word": "Fuss",
-      "pronunciation": "/fʌs/",
-      "partOfSpeech": "noun/verb",
-      "definition": "(noun) Unnecessary excitement, activity, or worry. (verb) To worry or be annoyed about something unimportant.",
-      "indonesian": "Keriuhan/Kekhawatiran yang tidak perlu (kata benda), Meributkan (kata kerja)",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "There's no need to make such a fuss about a small mistake. (noun) Stop fussing over the details and just get it done. (verb)",
-      "collocations": [
-        "make a fuss",
-        "a lot of fuss",
-        "without fuss",
-        "fuss about"
-      ],
-      "synonyms": [
-        "commotion",
-        "agitation",
-        "brouhaha",
-        "worry",
-        "fret"
-      ]
-    },
-    {
-      "word": "Hang out",
-      "pronunciation": "/hæŋ aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To spend time relaxing or socializing with someone.",
-      "indonesian": "Berkumpul/Menghabiskan waktu bersama",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I usually hang out with my friends on weekends.",
-      "collocations": [
-        "hang out with friends",
-        "hang out at home",
-        "hang out at the park"
-      ],
-      "synonyms": [
-        "socialize",
-        "spend time",
-        "gather",
-        "mingle"
-      ]
-    },
-    {
-      "word": "Craving",
-      "pronunciation": "/ˈkreɪvɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "A strong feeling of wanting something.",
-      "indonesian": "Keinginan kuat/Ngidam",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "I have a sudden craving for chocolate.",
-      "collocations": [
-        "a strong craving",
-        "have a craving for",
-        "crave a particular food"
-      ],
-      "synonyms": [
-        "longing",
-        "urge",
-        "desire",
-        "hankering"
-      ]
-    },
-    {
-      "word": "Gut feeling",
-      "pronunciation": "/ɡʌt ˈfiːlɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "An instinct or intuition about something.",
-      "indonesian": "Intuisi/Perasaan dari hati",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "I have a gut feeling that this deal is going to be successful.",
-      "collocations": [
-        "have a gut feeling",
-        "trust your gut feeling",
-        "a strong gut feeling"
-      ],
-      "synonyms": [
-        "intuition",
-        "instinct",
-        "hunch",
-        "sixth sense"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
