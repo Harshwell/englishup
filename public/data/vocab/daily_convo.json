@@ -1,161 +1,28 @@
 {
   "words": [
     {
-      "word": "catch up",
-      "pronunciation": "/ˌkætʃ ˈʌp/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to reach someone or something by going faster than them; to talk to someone you have not seen for some time and find out what they have done.",
-      "indonesian": "mengejar, bertemu dan bertukar kabar",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "partOfSpeech": "noun",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "I haven't seen Sarah in ages, I really need to catch up with her this weekend.",
-      "collocations": [
-        "catch up with someone",
-        "catch up on news",
-        "catch up on sleep"
-      ],
-      "synonyms": [
-        "reunite",
-        "reconnect",
-        "update"
-      ]
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
+      "collocations": [],
+      "synonyms": []
     },
     {
-      "word": "hang out",
-      "pronunciation": "/ˌhæŋ ˈaʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to spend time with someone or in a particular place, in a relaxed way.",
-      "indonesian": "bergaul, nongkrong",
+      "word": "straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "6.0+",
-      "example": "We usually hang out at the park on Saturdays.",
-      "collocations": [
-        "hang out with friends",
-        "hang out at a place"
-      ],
-      "synonyms": [
-        "socialize",
-        "spend time",
-        "loiter"
-      ]
-    },
-    {
-      "word": "figure out",
-      "pronunciation": "/ˌfɪɡ.ər ˈaʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to discover the solution to a problem or understand a situation.",
-      "indonesian": "memecahkan masalah, mencari tahu",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "I can't figure out how to assemble this furniture.",
-      "collocations": [
-        "figure out a problem",
-        "figure out a way",
-        "figure out someone's behavior"
-      ],
-      "synonyms": [
-        "solve",
-        "understand",
-        "deduce"
-      ]
-    },
-    {
-      "word": "look forward to",
-      "pronunciation": "/ˌlʊk ˈfɔːr.wərd tuː/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to be excited about something that is going to happen.",
-      "indonesian": "menantikan",
-      "level": "B2",
-      "ieltsBand": "6.0+",
-      "example": "I'm really looking forward to my vacation next month.",
-      "collocations": [
-        "look forward to an event",
-        "look forward to meeting someone"
-      ],
-      "synonyms": [
-        "anticipate",
-        "await",
-        "expect"
-      ]
-    },
-    {
-      "word": "get along with",
-      "pronunciation": "/ˌɡet əˈlɒŋ wɪθ/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to have a friendly relationship with someone.",
-      "indonesian": "berhubungan baik dengan",
-      "level": "B2",
-      "ieltsBand": "6.0+",
-      "example": "She gets along well with her colleagues.",
-      "collocations": [
-        "get along with someone",
-        "get along with family"
-      ],
-      "synonyms": [
-        "be on good terms with",
-        "be compatible with",
-        "be friendly with"
-      ]
-    },
-    {
-      "word": "deal with",
-      "pronunciation": "/ˈdiːl wɪθ/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to take action to solve a problem or manage a situation.",
-      "indonesian": "menangani, berurusan dengan",
-      "level": "B2",
-      "ieltsBand": "6.0+",
-      "example": "I have a lot of emails to deal with today.",
-      "collocations": [
-        "deal with a problem",
-        "deal with a customer",
-        "deal with stress"
-      ],
-      "synonyms": [
-        "handle",
-        "manage",
-        "cope with"
-      ]
-    },
-    {
-      "word": "put off",
-      "pronunciation": "/ˌpʊt ˈɒf/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to delay or postpone something; to make someone dislike something or someone.",
-      "indonesian": "menunda; membuat tidak suka",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "Don't put off your homework until the last minute. The smell of burnt toast really put me off my breakfast.",
-      "collocations": [
-        "put off a meeting",
-        "put off a decision",
-        "put someone off something"
-      ],
-      "synonyms": [
-        "postpone",
-        "delay",
-        "discourage"
-      ]
-    },
-    {
-      "word": "come up with",
-      "pronunciation": "/ˌkʌm ˈʌp wɪθ/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "to think of an idea or a plan.",
-      "indonesian": "memunculkan ide, menemukan",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "We need to come up with a solution to this problem.",
-      "collocations": [
-        "come up with an idea",
-        "come up with a plan",
-        "come up with a name"
-      ],
-      "synonyms": [
-        "invent",
-        "devise",
-        "generate"
-      ]
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
+      "collocations": [],
+      "synonyms": []
     }
   ]
 }

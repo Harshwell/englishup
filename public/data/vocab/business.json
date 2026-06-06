@@ -9,12 +9,7 @@
       "level": "B2",
       "ieltsBand": "6.5-7.0",
       "example": "workload is often used in formal and academic English.",
-      "collocations": [
-        "tivoli",
-        "automation",
-        "overs",
-        "cpu"
-      ],
+      "collocations": [],
       "synonyms": []
     },
     {
@@ -26,17 +21,8 @@
       "level": "C1",
       "ieltsBand": "7.0-7.5",
       "example": "delegate is often used in formal and academic English.",
-      "collocations": [
-        "convention",
-        "conventions",
-        "pledged",
-        "comintern"
-      ],
-      "synonyms": [
-        "designate",
-        "assign",
-        "depute"
-      ]
+      "collocations": [],
+      "synonyms": []
     }
   ]
 }

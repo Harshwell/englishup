@@ -5,17 +5,8 @@
       "definition": "That which has significance; a sign; a token; a symbol.",
       "phonetic": "/sɪɡˈnɪ.fɪ.kənt/",
       "example": "significant is often used in formal and academic English.",
-      "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
-      ],
-      "antonyms": [
-        "insignificant",
-        "unimportant",
-        "nonsignificant"
-      ],
+      "synonyms": [],
+      "antonyms": [],
       "level": "B2",
       "frequency": "high",
       "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/significant-us.mp3"
@@ -28,16 +19,8 @@
       "definition": "Something or someone reliable or dependable",
       "phonetic": "/ɹɪˈlaɪəbəl/",
       "example": "the old reliables",
-      "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
-      ],
-      "antonyms": [
-        "unreliable",
-        "undependable"
-      ],
+      "synonyms": [],
+      "antonyms": [],
       "level": "B2",
       "frequency": "high",
       "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/reliable-us.mp3"
@@ -50,12 +33,7 @@
       "definition": "Proceeding in a straight course or manner; not deviating.",
       "phonetic": "",
       "example": "straightforward is often used in formal and academic English.",
-      "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
-      ],
+      "synonyms": [],
       "antonyms": [],
       "level": "B2",
       "frequency": "high",
@@ -69,10 +47,7 @@
       "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
       "phonetic": "/ˈælɡəɹɪðm̩/",
       "example": "algorithm is often used in formal and academic English.",
-      "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
-      ],
+      "synonyms": [],
       "antonyms": [],
       "level": "B2",
       "frequency": "high",
@@ -103,9 +78,7 @@
       "synonyms": [
         "inequation"
       ],
-      "antonyms": [
-        "equality"
-      ],
+      "antonyms": [],
       "level": "B2",
       "frequency": "high",
       "audio": ""
