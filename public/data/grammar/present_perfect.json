@@ -1,117 +1,123 @@
 {
-  "explanation": "Present Perfect Tense digunakan untuk menyatakan tindakan atau kejadian yang telah terjadi di masa lalu tetapi masih memiliki relevansi atau hubungan dengan masa kini. Ini menekankan pada hasil atau pengalaman dari tindakan tersebut, bukan pada waktu spesifik kapan tindakan itu terjadi.",
-  "keyRules": [
+  "grammarChart": [
     {
-      "rule": "Pembentukan Kalimat Positif:",
-      "structure": "Subject + have/has + Past Participle (Verb 3)",
-      "notes": "Gunakan 'have' untuk subjek I, you, we, they, dan subjek jamak. Gunakan 'has' untuk subjek he, she, it, dan subjek tunggal."
-    },
-    {
-      "rule": "Pembentukan Kalimat Negatif:",
-      "structure": "Subject + have/has + not + Past Participle (Verb 3)",
-      "notes": "Bisa disingkat menjadi haven't/hasn't."
-    },
-    {
-      "rule": "Pembentukan Kalimat Tanya (Yes/No Question):",
-      "structure": "Have/Has + Subject + Past Participle (Verb 3)?",
-      "notes": "Jawaban singkat biasanya 'Yes, subject + have/has' atau 'No, subject + haven't/hasn't'."
-    },
-    {
-      "rule": "Penggunaan 'for' dan 'since':",
-      "notes": "'For' diikuti oleh periode waktu (e.g., for two hours, for a week). 'Since' diikuti oleh titik waktu spesifik (e.g., since 2010, since last Monday)."
-    },
-    {
-      "rule": "Kata Keterangan Waktu Umum:",
-      "keywords": [
-        "already",
-        "yet",
-        "just",
-        "ever",
-        "never",
-        "recently",
-        "lately"
+      "tense": "Present Perfect",
+      "form": "Subject + have/has + Past Participle (V3)",
+      "meaning": "Connects the past to the present; an action that happened at an unspecified time in the past, or an action that started in the past and continues to the present, or an action that happened in the past but has a result in the present.",
+      "use": [
+        "To talk about experiences (without specifying when).",
+        "To talk about actions that started in the past and continue to the present (often with for/since).",
+        "To talk about recent past actions with present results.",
+        "To talk about unfinished time periods (today, this week, this year)."
       ]
     }
   ],
+  "explanation": "The Present Perfect tense is a crucial tense in English that bridges the gap between the past and the present. It's formed using the auxiliary verb 'have' or 'has' (depending on the subject) followed by the past participle of the main verb (the V3 form).  It's not just about something that happened in the past; it's about how that past event or state relates to now. Think of it as a connection.  For example, 'I have lived here for ten years' means the action of living started ten years ago and is still happening now. 'She has lost her keys' means the keys are still lost now, and that's the present result of her past action.",
+  "keyRules": [
+    {
+      "rule": "Formation",
+      "details": "Positive: Subject + have/has + Past Participle (V3). Negative: Subject + have/has + not + Past Participle (V3). Question: Have/Has + Subject + Past Participle (V3)?"
+    },
+    {
+      "rule": "Subject-Verb Agreement",
+      "details": "'Have' is used with 'I', 'you', 'we', 'they', and plural nouns. 'Has' is used with 'he', 'she', 'it', and singular nouns."
+    },
+    {
+      "rule": "Past Participle",
+      "details": "Regular verbs form their past participle by adding -ed (e.g., walk - walked, play - played). Irregular verbs have unique past participle forms (e.g., go - gone, see - seen, eat - eaten). You need to memorize these."
+    },
+    {
+      "rule": "Usage with Time Expressions",
+      "details": "Often used with 'for' (a period of time) and 'since' (a point in time) to indicate actions that started in the past and continue to the present.  Also used with 'just', 'already', 'yet', 'ever', 'never'."
+    }
+  ],
+  "azarNotes": "Banyak pelajar Indonesia kesulitan membedakan kapan menggunakan Present Perfect dan Simple Past. Perhatikan 'koneksi' ke masa kini. Jika ada akibat di masa kini, atau tindakan masih berlanjut, atau pengalaman tanpa waktu spesifik, kemungkinan besar pakai Present Perfect. Jika tindakan sudah selesai di masa lalu dan tidak ada hubungannya dengan sekarang, gunakan Simple Past.",
   "examples": [
     {
       "sentence": "I have finished my homework.",
-      "translation": "Saya sudah menyelesaikan pekerjaan rumah saya."
+      "explanation": "The homework is done now. The present result is that I am free or can do something else."
     },
     {
       "sentence": "She has lived in Jakarta for five years.",
-      "translation": "Dia sudah tinggal di Jakarta selama lima tahun."
+      "explanation": "She started living in Jakarta five years ago and still lives there now."
     },
     {
-      "sentence": "They haven't seen that movie yet.",
-      "translation": "Mereka belum menonton film itu."
+      "sentence": "They have never traveled abroad.",
+      "explanation": "This is about their experience. The time of not traveling is unspecified, but it relates to their life up to the present."
     },
     {
-      "sentence": "Have you ever visited Bali?",
-      "translation": "Pernahkah kamu mengunjungi Bali?"
+      "sentence": "Have you ever seen this movie?",
+      "explanation": "Asking about an experience at any time in the past up to now."
     },
     {
       "sentence": "He has just arrived.",
-      "translation": "Dia baru saja tiba."
-    },
-    {
-      "sentence": "We have known each other since childhood.",
-      "translation": "Kami sudah saling mengenal sejak masa kecil."
+      "explanation": "The arrival happened very recently, and the present result is that he is here now."
     }
   ],
   "commonMistakes": [
-    "Menggunakan Simple Past Tense padahal Present Perfect lebih tepat, terutama ketika menekankan hasil atau pengalaman.",
-    "Salah menggunakan 'have' dan 'has' sesuai dengan subjek.",
-    "Lupa menggunakan bentuk Past Participle (Verb 3) dari kata kerja.",
-    "Salah menggunakan 'for' dan 'since'.",
-    "Menempatkan kata keterangan waktu (e.g., 'already', 'yet') di posisi yang salah."
+    {
+      "mistake": "Using Present Perfect with specific past time markers (yesterday, last week, in 1990).",
+      "correction": "This is incorrect. Use Simple Past for specific past times.  Correct: 'I went to Bali last year.' (NOT 'I have gone to Bali last year.')"
+    },
+    {
+      "mistake": "Confusing 'for' and 'since'.",
+      "correction": "'For' is used with a duration (e.g., 'for two hours', 'for a month'). 'Since' is used with a starting point (e.g., 'since 8 o'clock', 'since Monday', 'since 2020')."
+    },
+    {
+      "mistake": "Incorrect past participle.",
+      "correction": "Ensure you use the correct V3 form of the verb. For example, 'I have saw' is wrong; it should be 'I have seen'."
+    },
+    {
+      "mistake": "Using 'been' incorrectly.",
+      "correction": "'Been' is the past participle of 'be'.  'I have been to London' means I visited London and returned. 'I have gone to London' means I am in London now and have not returned."
+    }
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), Present Perfect sering digunakan untuk mendeskripsikan perubahan atau tren yang terjadi selama periode waktu tertentu yang relevan dengan data yang disajikan. Dalam IELTS Speaking, gunakan Present Perfect untuk berbagi pengalaman hidup atau pencapaian Anda.",
+  "ieltsTip": "In IELTS Writing Task 1, the Present Perfect is very useful for describing trends that started in the past and continued up to a certain point in the chart (e.g., 'The sales of product A have increased steadily since 2010 and reached a peak in 2015'). In Speaking, use it to talk about your experiences, achievements, or things you have done in your life up to the present moment.",
   "quiz": [
     {
-      "question": "Choose the correct form of the verb: I ______ (never/see) such a beautiful sunset before.",
+      "question": "Choose the correct sentence:",
       "options": [
-        "never saw",
-        "have never seen",
-        "never seeing"
+        "I have eaten breakfast this morning.",
+        "I ate breakfast this morning.",
+        "I eat breakfast this morning."
       ],
-      "answer": "have never seen"
+      "answer": "I ate breakfast this morning."
     },
     {
-      "question": "Choose the correct form of the verb: She ______ (live) here since 2015.",
+      "question": "Complete the sentence: She ___________ (work) here for three years.",
       "options": [
-        "lives",
-        "lived",
-        "has lived"
+        "works",
+        "worked",
+        "has worked"
       ],
-      "answer": "has lived"
+      "answer": "has worked"
     },
     {
-      "question": "Complete the sentence: They ______ (just/finish) their project.",
+      "question": "Which sentence describes an experience?",
       "options": [
-        "just finish",
-        "have just finished",
-        "just finished"
+        "They are going to the cinema tonight.",
+        "He has visited Paris twice.",
+        "We will finish the project tomorrow."
       ],
-      "answer": "have just finished"
+      "answer": "He has visited Paris twice."
     },
     {
-      "question": "Choose the correct form of the verb: ______ you ______ (ever/try) sushi?",
+      "question": "Choose the correct question form:",
       "options": [
-        "Did you ever try",
-        "Have you ever tried",
-        "Do you ever try"
+        "Did you ever see that film?",
+        "Have you ever seen that film?",
+        "Do you ever see that film?"
       ],
-      "answer": "Have you ever tried"
+      "answer": "Have you ever seen that film?"
     },
     {
-      "question": "Choose the correct form of the verb: He ______ (not/call) me for a week.",
+      "question": "Complete the sentence: They ___________ (not finish) their exams yet.",
       "options": [
-        "didn't call",
-        "hasn't called",
-        "not called"
+        "don't finish",
+        "haven't finished",
+        "didn't finish"
       ],
-      "answer": "hasn't called"
+      "answer": "haven't finished"
     }
   ]
 }

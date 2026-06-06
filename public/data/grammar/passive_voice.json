@@ -1,67 +1,127 @@
 {
-  "explanation": "Kalimat pasif (passive voice) digunakan ketika fokus kalimat adalah pada objek atau tindakan yang dilakukan, bukan pada siapa yang melakukan tindakan tersebut. Dalam bahasa Inggris, passive voice dibentuk dengan menggunakan kata kerja 'be' (is, am, are, was, were, been, being) diikuti oleh past participle (kata kerja bentuk ketiga) dari kata kerja utama.",
+  "grammarChart": {
+    "title": "Passive Voice: Structure",
+    "tenses": [
+      {
+        "tense": "Present Simple",
+        "active": "Subject + V1(s/es) + Object",
+        "passive": "Object + am/is/are + Past Participle + (by Subject)"
+      },
+      {
+        "tense": "Past Simple",
+        "active": "Subject + V2 + Object",
+        "passive": "Object + was/were + Past Participle + (by Subject)"
+      },
+      {
+        "tense": "Present Perfect",
+        "active": "Subject + has/have + Past Participle + Object",
+        "passive": "Object + has/have + been + Past Participle + (by Subject)"
+      },
+      {
+        "tense": "Future Simple",
+        "active": "Subject + will + V1 + Object",
+        "passive": "Object + will be + Past Participle + (by Subject)"
+      },
+      {
+        "tense": "Modal Verbs",
+        "active": "Subject + Modal + V1 + Object",
+        "passive": "Object + Modal + be + Past Participle + (by Subject)"
+      }
+    ]
+  },
+  "explanation": "The passive voice is used when the action or the object of the action is more important than the person or thing performing the action. In English, the passive voice is formed using a form of the verb 'to be' (am, is, are, was, were, been, being) followed by the past participle of the main verb.  The 'by + agent' phrase is optional and is often omitted when the agent is unknown, obvious, or unimportant.",
   "keyRules": [
-    "Identifikasi subjek dan objek dalam kalimat aktif.",
-    "Jadikan objek kalimat aktif sebagai subjek kalimat pasif.",
-    "Gunakan bentuk kata kerja 'be' yang sesuai dengan tense dan jumlah subjek baru.",
-    "Gunakan past participle dari kata kerja utama.",
-    "Jika perlu, tambahkan 'by' diikuti oleh subjek kalimat aktif di akhir kalimat pasif."
+    "Identify the object of the active sentence. This becomes the subject of the passive sentence.",
+    "Use the correct form of the verb 'to be' according to the tense of the original active sentence.",
+    "Use the past participle of the main verb.",
+    "The original subject of the active sentence can be introduced by 'by' in the passive sentence, but it's not always necessary.",
+    "Tenses like Present Continuous and Past Continuous also have passive forms (e.g., 'is being built', 'was being repaired')."
   ],
+  "azarNotes": "In Indonesian, the passive voice often uses prefixes like 'di-' or 'ter-'.  For example, 'The book was written by him' becomes 'Buku itu ditulis olehnya'.  Understanding the English passive structure helps you to express ideas with more formality and objectivity, which is useful in academic writing and formal contexts.",
   "examples": [
     {
-      "active": "The students write the essays.",
-      "passive": "The essays are written by the students."
+      "active": "The company manufactures cars.",
+      "passive": "Cars are manufactured by the company."
     },
     {
-      "active": "The chef cooked the meal.",
-      "passive": "The meal was cooked by the chef."
+      "active": "She wrote the report yesterday.",
+      "passive": "The report was written by her yesterday."
     },
     {
-      "active": "They will build a new bridge.",
-      "passive": "A new bridge will be built by them."
+      "active": "The chef has prepared the meal.",
+      "passive": "The meal has been prepared by the chef."
     },
     {
-      "active": "She has finished the report.",
-      "passive": "The report has been finished by her."
+      "active": "They will deliver the package tomorrow.",
+      "passive": "The package will be delivered tomorrow."
+    },
+    {
+      "active": "You must complete the assignment.",
+      "passive": "The assignment must be completed."
+    },
+    {
+      "active": "Scientists are conducting research.",
+      "passive": "Research is being conducted."
     }
   ],
   "commonMistakes": [
-    "Menggunakan 'be' + present participle (continuous tense) alih-alih past participle.",
-    "Lupa menggunakan kata kerja 'be'.",
-    "Salah menggunakan bentuk 'be' (misalnya, menggunakan 'is' untuk subjek jamak).",
-    "Menghilangkan 'by' ketika agen (pelaku) penting untuk disebutkan."
+    "Using the wrong form of 'to be'.",
+    "Forgetting to use the past participle of the main verb.",
+    "Incorrectly changing the tense when converting to passive voice.",
+    "Overusing the passive voice, making sentences sound unnatural or vague.",
+    "Confusing active and passive structures, especially with verbs that can be used in both ways."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, passive voice sering digunakan untuk memberikan kesan yang lebih formal dan objektif, terutama ketika membahas isu-isu umum atau proses. Perhatikan penggunaan tense yang tepat saat mengubah kalimat aktif menjadi pasif.  Hindari penggunaan passive voice yang berlebihan, karena bisa membuat tulisan terdengar kaku.",
+  "ieltsTip": "In IELTS Writing Task 2, the passive voice is frequently used in academic and formal contexts to present information objectively, discuss general truths, or when the doer of the action is unknown or unimportant.  For instance, when discussing causes or effects of social issues, the passive voice can be very effective.  However, avoid overusing it, as it can make your writing sound impersonal or evasive.",
   "quiz": [
     {
-      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The company launched a new product last year.'",
+      "question": "Change the following sentence to the passive voice: 'The artist painted this masterpiece.'",
       "options": [
-        "A new product was launched by the company last year.",
-        "A new product launched by the company last year.",
-        "The company was launched a new product last year.",
-        "Last year, a new product was launched the company."
+        "This masterpiece was painted by the artist.",
+        "The artist was painted this masterpiece.",
+        "This masterpiece painted the artist.",
+        "The artist is painted by this masterpiece."
       ],
-      "answer": "A new product was launched by the company last year."
+      "answer": "This masterpiece was painted by the artist."
     },
     {
-      "question": "Ubah kalimat aktif berikut menjadi pasif: 'Scientists are discovering new planets.'",
+      "question": "What is the correct passive form of 'They are building a new bridge'?",
       "options": [
-        "New planets are discovered by scientists.",
-        "New planets are being discovered by scientists.",
-        "Scientists are being discovered new planets.",
-        "New planets discovered by scientists."
+        "A new bridge is building by them.",
+        "A new bridge is being built by them.",
+        "A new bridge has been built by them.",
+        "A new bridge will be built by them."
       ],
-      "answer": "New planets are being discovered by scientists."
+      "answer": "A new bridge is being built by them."
     },
     {
-      "question": "Kalimat manakah yang menggunakan passive voice dengan benar?",
+      "question": "Identify the passive sentence: 'The students finished their homework.' vs. 'The homework was finished by the students.'",
       "options": [
-        "The book was read by many people.",
-        "The book was reading by many people.",
-        "Many people was reading the book.",
-        "The book reading by many people."
+        "The students finished their homework.",
+        "The homework was finished by the students.",
+        "Both are active.",
+        "Both are passive."
       ],
-      "answer": "The book was read by many people."
+      "answer": "The homework was finished by the students."
+    },
+    {
+      "question": "Complete the sentence with the correct passive form: 'All the applications ______ by the committee next week.'",
+      "options": [
+        "will review",
+        "will be reviewed",
+        "are reviewed",
+        "have reviewed"
+      ],
+      "answer": "will be reviewed"
+    },
+    {
+      "question": "What is the past participle of the verb 'write'?",
+      "options": [
+        "wrote",
+        "written",
+        "writing",
+        "write"
+      ],
+      "answer": "written"
     }
   ]
 }

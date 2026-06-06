@@ -1,28 +1,179 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
-      "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "word": "overwhelmed",
+      "pronunciation": "/ˌoʊvərˈwɛlmd/",
+      "partOfSpeech": "adjective",
+      "definition": "feeling like you have too much to do or deal with",
+      "indonesian": "kewalahan, terbebani",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
-      "collocations": [],
-      "synonyms": []
+      "ieltsBand": "7.0",
+      "example": "I'm feeling completely overwhelmed with all these assignments.",
+      "collocations": [
+        "feeling overwhelmed",
+        "completely overwhelmed",
+        "overwhelmed by",
+        "overwhelmed with"
+      ],
+      "synonyms": [
+        "swamped",
+        "inundated",
+        "buried",
+        "stressed"
+      ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
+      "word": "relatable",
+      "pronunciation": "/rɪˈleɪtəbl/",
       "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "definition": "easy to understand because it is similar to your own experiences",
+      "indonesian": "dapat dipahami, akrab",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
-      "collocations": [],
-      "synonyms": []
+      "ieltsBand": "7.0",
+      "example": "Her story about moving to a new city was very relatable.",
+      "collocations": [
+        "highly relatable",
+        "very relatable",
+        "relatable to"
+      ],
+      "synonyms": [
+        "understandable",
+        "familiar",
+        "recognizable",
+        "common"
+      ]
+    },
+    {
+      "word": "insightful",
+      "pronunciation": "/ˈɪnˌsaɪtfəl/",
+      "partOfSpeech": "adjective",
+      "definition": "showing a clear and deep understanding of something",
+      "indonesian": "berwawasan, penuh pengertian",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "The speaker offered some insightful comments on the future of technology.",
+      "collocations": [
+        "deeply insightful",
+        "truly insightful",
+        "insightful analysis",
+        "insightful observation"
+      ],
+      "synonyms": [
+        "perceptive",
+        "astute",
+        "wise",
+        "discerning"
+      ]
+    },
+    {
+      "word": "convenient",
+      "pronunciation": "/kənˈviːn.jənt/",
+      "partOfSpeech": "adjective",
+      "definition": "easy to use or access; suitable for your needs",
+      "indonesian": "nyaman, praktis",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "This new app makes it very convenient to order groceries online.",
+      "collocations": [
+        "very convenient",
+        "highly convenient",
+        "convenient location",
+        "convenient time"
+      ],
+      "synonyms": [
+        "handy",
+        "practical",
+        "suitable",
+        "accessible"
+      ]
+    },
+    {
+      "word": "frustrating",
+      "pronunciation": "/ˈfrʌs.treɪ.tɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "causing annoyance or disappointment because you cannot achieve what you want",
+      "indonesian": "mengecewakan, membuat frustrasi",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "It's frustrating when you can't get through on the phone.",
+      "collocations": [
+        "deeply frustrating",
+        "incredibly frustrating",
+        "frustrating experience",
+        "frustrating situation"
+      ],
+      "synonyms": [
+        "annoying",
+        "disappointing",
+        "vexing",
+        "irritating"
+      ]
+    },
+    {
+      "word": "articulate",
+      "pronunciation": "/ɑːrˈtɪk.jə.leɪt/",
+      "partOfSpeech": "adjective",
+      "definition": "able to express ideas and feelings in a clear and effective way",
+      "indonesian": "pandai berbicara, fasih",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "She gave a very articulate presentation of her research findings.",
+      "collocations": [
+        "highly articulate",
+        "very articulate",
+        "articulate speaker",
+        "articulate argument"
+      ],
+      "synonyms": [
+        "eloquent",
+        "well-spoken",
+        "expressive",
+        "fluent"
+      ]
+    },
+    {
+      "word": "spontaneous",
+      "pronunciation": "/spɒnˈteɪ.ni.əs/",
+      "partOfSpeech": "adjective",
+      "definition": "happening or done without being planned or organized",
+      "indonesian": "spontan, mendadak",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "We decided to go on a spontaneous road trip last weekend.",
+      "collocations": [
+        "completely spontaneous",
+        "highly spontaneous",
+        "spontaneous decision",
+        "spontaneous outburst"
+      ],
+      "synonyms": [
+        "impromptu",
+        "unplanned",
+        "unpremeditated",
+        "offhand"
+      ]
+    },
+    {
+      "word": "ambitious",
+      "pronunciation": "/æmˈbɪʃ.əs/",
+      "partOfSpeech": "adjective",
+      "definition": "having a strong desire to be successful, rich, or powerful; requiring a lot of effort and skill",
+      "indonesian": "ambisius, berambisi; menantang",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "She's a very ambitious young woman with big plans for her career.",
+      "collocations": [
+        "highly ambitious",
+        "very ambitious",
+        "ambitious goal",
+        "ambitious project"
+      ],
+      "synonyms": [
+        "driven",
+        "determined",
+        "aspiring",
+        "enterprising"
+      ]
     }
   ]
 }

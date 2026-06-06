@@ -1,44 +1,179 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
-      "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
-      "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
-      "collocations": [],
-      "synonyms": []
-    },
-    {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
       "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
+      "definition": "to make something bad or unsatisfactory better.",
+      "indonesian": "memperbaiki, meningkatkan",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
-      "collocations": [],
+      "ieltsBand": "7+",
+      "example": "The government introduced new policies to ameliorate the economic crisis.",
+      "collocations": [
+        "ameliorate the situation",
+        "ameliorate poverty",
+        "ameliorate conditions",
+        "ameliorate the effects of"
+      ],
       "synonyms": [
-        "appropriate",
-        "earmark"
+        "improve",
+        "enhance",
+        "better",
+        "amend"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
-      "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
-      "collocations": [],
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, lazim",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous in",
+        "increasingly ubiquitous"
+      ],
       "synonyms": [
-        "heighten"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
+      ]
+    },
+    {
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsemɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to spread or disperse (something, especially information) widely.",
+      "indonesian": "menyebarkan, menyebarluaskan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The organization aims to disseminate knowledge about climate change.",
+      "collocations": [
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate ideas",
+        "disseminate findings"
+      ],
+      "synonyms": [
+        "spread",
+        "circulate",
+        "broadcast",
+        "propagate"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir, kerangka acuan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA marked a paradigm shift in biology.",
+      "collocations": [
+        "paradigm shift",
+        "a new paradigm",
+        "a research paradigm",
+        "a theoretical paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework",
+        "example"
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk, memperjahat",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "His comments only served to exacerbate the tension between the two groups.",
+      "collocations": [
+        "exacerbate the problem",
+        "exacerbate tensions",
+        "exacerbate conflict",
+        "exacerbate inequality"
+      ],
+      "synonyms": [
+        "worsen",
+        "aggravate",
+        "intensify",
+        "inflame"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The government is taking steps to mitigate the impact of climate change.",
+      "collocations": [
+        "mitigate the risks",
+        "mitigate the effects of",
+        "mitigate the damage",
+        "mitigate poverty"
+      ],
+      "synonyms": [
+        "alleviate",
+        "reduce",
+        "lessen",
+        "diminish"
+      ]
+    },
+    {
+      "word": "synthesis",
+      "pronunciation": "/ˈsɪnθəsɪs/",
+      "partOfSpeech": "noun",
+      "definition": "the combination of ideas or substances to form a more complex whole.",
+      "indonesian": "sintesis, gabungan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The book offers a synthesis of historical events and their social consequences.",
+      "collocations": [
+        "a synthesis of",
+        "chemical synthesis",
+        "perform a synthesis",
+        "achieve synthesis"
+      ],
+      "synonyms": [
+        "combination",
+        "fusion",
+        "amalgamation",
+        "integration"
+      ]
+    },
+    {
+      "word": "proliferate",
+      "pronunciation": "/prəˈlɪfəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to increase rapidly in numbers; to multiply.",
+      "indonesian": "berkembang biak dengan cepat, berkembang pesat",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The internet has allowed information to proliferate at an unprecedented rate.",
+      "collocations": [
+        "proliferate rapidly",
+        "proliferate widely",
+        "proliferate unchecked",
+        "ideas proliferate"
+      ],
+      "synonyms": [
+        "multiply",
+        "increase",
+        "burgeon",
+        "expand"
       ]
     }
   ]
