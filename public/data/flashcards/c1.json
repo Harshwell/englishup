@@ -7,7 +7,8 @@
       "example": "allocate is often used in formal and academic English.",
       "synonyms": [
         "appropriate",
-        "earmark"
+        "earmark",
+        "apportion"
       ],
       "antonyms": [
         "deallocate",
@@ -26,7 +27,8 @@
       "phonetic": "/ɪnˈhɑːns/",
       "example": "enhance is often used in formal and academic English.",
       "synonyms": [
-        "heighten"
+        "heighten",
+        "raise"
       ],
       "antonyms": [],
       "level": "C1",
@@ -41,7 +43,12 @@
       "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
       "phonetic": "/ˈbaɪəs/",
       "example": "bias is often used in formal and academic English.",
-      "synonyms": [],
+      "synonyms": [
+        "oblique",
+        "prejudice",
+        "predetermine",
+        "diagonal"
+      ],
       "antonyms": [],
       "level": "C1",
       "frequency": "medium",
@@ -55,7 +62,11 @@
       "definition": "The mental ability to recover quickly from depression, illness or misfortune.",
       "phonetic": "/ɹə.zɪl.ɪ.əns/",
       "example": "resilience is often used in formal and academic English.",
-      "synonyms": [],
+      "synonyms": [
+        "buoyancy",
+        "irrepressibility",
+        "resiliency"
+      ],
       "antonyms": [],
       "level": "C1",
       "frequency": "medium",
@@ -69,7 +80,11 @@
       "definition": "A person authorized to act as representative for another; a deputy",
       "phonetic": "",
       "example": "delegate is often used in formal and academic English.",
-      "synonyms": [],
+      "synonyms": [
+        "designate",
+        "assign",
+        "depute"
+      ],
       "antonyms": [],
       "level": "C1",
       "frequency": "medium",

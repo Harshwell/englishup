@@ -9,7 +9,12 @@
       "level": "B2",
       "ieltsBand": "6.5-7.0",
       "example": "inequality is often used in formal and academic English.",
-      "collocations": [],
+      "collocations": [
+        "inequalities",
+        "disparities",
+        "unequal",
+        "oecd"
+      ],
       "synonyms": [
         "inequation"
       ]
