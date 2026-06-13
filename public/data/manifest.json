@@ -1,16 +1,12 @@
 {
-  "generatedAt": "2026-06-13T09:43:40.818Z",
-  "version": "v3",
-  "sources": [
-    "DictionaryAPI.dev",
-    "Datamuse",
-    "Gemini/OpenRouter",
-    "local seeds"
+  "generatedAt": "2026-06-13T20:15:53.662Z",
+  "savedCount": 6,
+  "errors": [
+    "grammar:passive_voice: invalid JSON",
+    "reading:Climate Change and Urban Planning: invalid JSON"
   ],
-  "features": [
-    "flashcards",
-    "grammar",
-    "vocabulary",
-    "reading"
-  ]
+  "providers": {
+    "gemini": true,
+    "openrouter": true
+  }
 }

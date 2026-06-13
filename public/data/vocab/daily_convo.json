@@ -1,47 +1,169 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "word": "hassle",
+      "pronunciation": "/ˈhæsəl/",
       "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "definition": "Annoyance or trouble caused by something.",
+      "indonesian": "keributan, kerepotan",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": "7.0",
+      "example": "Finding a parking spot in the city center is always such a hassle.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "a lot of hassle",
+        "avoid the hassle",
+        "a minor hassle",
+        "deal with the hassle"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "inconvenience",
+        "trouble",
+        "nuisance",
+        "difficulty"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "vibe",
+      "pronunciation": "/vaɪb/",
+      "partOfSpeech": "noun",
+      "definition": "The atmosphere or feeling that a place, person, or situation seems to have.",
+      "indonesian": "suasana, getaran (perasaan)",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "This cafe has a really relaxed and friendly vibe.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "good vibe",
+        "bad vibe",
+        "chill vibe",
+        "positive vibe"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "atmosphere",
+        "mood",
+        "feeling",
+        "aura"
+      ]
+    },
+    {
+      "word": "catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To talk to someone you know after you have not seen or heard from them for some time.",
+      "indonesian": "bertemu untuk mengobrol (setelah lama tidak bertemu)",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Let's grab coffee next week and catch up on what's been happening.",
+      "collocations": [
+        "catch up with friends",
+        "catch up on news",
+        "catch up on work"
+      ],
+      "synonyms": [
+        "reconnect",
+        "update each other",
+        "socialize"
+      ]
+    },
+    {
+      "word": "figure out",
+      "pronunciation": "/ˈfɪɡ.jər aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To understand or solve something.",
+      "indonesian": "memecahkan, mencari tahu",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I can't figure out how to assemble this furniture.",
+      "collocations": [
+        "figure out a problem",
+        "figure out a solution",
+        "figure out a way"
+      ],
+      "synonyms": [
+        "solve",
+        "understand",
+        "resolve",
+        "decipher"
+      ]
+    },
+    {
+      "word": "hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing with someone.",
+      "indonesian": "nongkrong, menghabiskan waktu",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "We usually hang out at the park on weekends.",
+      "collocations": [
+        "hang out with friends",
+        "hang out at home",
+        "hang out together"
+      ],
+      "synonyms": [
+        "spend time",
+        "socialize",
+        "relax with"
+      ]
+    },
+    {
+      "word": "get along",
+      "pronunciation": "/ɡɛt əˈlɒŋ/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To have a friendly relationship with someone.",
+      "indonesian": "berhubungan baik, akur",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I'm glad my new roommate and I get along so well.",
+      "collocations": [
+        "get along with someone",
+        "get along with colleagues"
+      ],
+      "synonyms": [
+        "be on good terms",
+        "be friendly with",
+        "coexist peacefully"
+      ]
+    },
+    {
+      "word": "relatable",
+      "pronunciation": "/rɪˈleɪ.tə.bəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Having qualities or experiences that people can understand and share.",
+      "indonesian": "dapat dihubungkan, mudah dipahami",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "Her struggles with work-life balance are very relatable to many people.",
+      "collocations": [
+        "highly relatable",
+        "very relatable",
+        "make something relatable"
+      ],
+      "synonyms": [
+        "understandable",
+        "recognizable",
+        "connectable"
+      ]
+    },
+    {
+      "word": "awkward",
+      "pronunciation": "/ˈɔː.kwəd/",
+      "partOfSpeech": "adjective",
+      "definition": "Uncomfortable or embarrassing.",
+      "indonesian": "canggung, kikuk",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "There was an awkward silence after his joke fell flat.",
+      "collocations": [
+        "awkward situation",
+        "awkward moment",
+        "awkward silence",
+        "feel awkward"
+      ],
+      "synonyms": [
+        "embarrassing",
+        "uncomfortable",
+        "clumsy",
+        "gauche"
       ]
     }
   ]

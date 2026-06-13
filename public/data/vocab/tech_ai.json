@@ -2,44 +2,176 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡəɹɪðm̩/",
+      "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "definition": "A set of rules or instructions that a computer follows in order to solve a problem or perform a task.",
+      "indonesian": "algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": 7,
+      "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "complex algorithm",
+        "search algorithm",
+        "learning algorithm",
+        "data algorithm",
+        "apply an algorithm"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "process",
+        "method",
+        "formula"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "/ˈbaɪəs/",
+      "word": "automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
       "partOfSpeech": "noun",
-      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "definition": "The use of technology to carry out a task with minimal human intervention.",
+      "indonesian": "otomatisasi",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "The factory has increased its efficiency through extensive automation.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "process automation",
+        "industrial automation",
+        "business automation",
+        "increase automation",
+        "implement automation"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "mechanization",
+        "robotics",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "connectivity",
+      "pronunciation": "/kənekˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability to connect to a network or communicate with other devices.",
+      "indonesian": "konektivitas",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "The success of smart cities depends heavily on reliable connectivity.",
+      "collocations": [
+        "internet connectivity",
+        "network connectivity",
+        "wireless connectivity",
+        "improve connectivity",
+        "lack of connectivity"
+      ],
+      "synonyms": [
+        "interconnection",
+        "linkage",
+        "network access"
+      ]
+    },
+    {
+      "word": "data mining",
+      "pronunciation": "/ˈdeɪtə ˈmaɪnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "The process of discovering patterns and insights from large amounts of data.",
+      "indonesian": "penambangan data",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Data mining is crucial for understanding customer behavior.",
+      "collocations": [
+        "data mining techniques",
+        "perform data mining",
+        "conduct data mining",
+        "data mining process",
+        "predictive data mining"
+      ],
+      "synonyms": [
+        "information extraction",
+        "knowledge discovery"
+      ]
+    },
+    {
+      "word": "interoperability",
+      "pronunciation": "/ˌɪntərɒpərəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of different computer systems or software applications to exchange and use information.",
+      "indonesian": "interoperabilitas",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "Ensuring interoperability between different healthcare systems is a major challenge.",
+      "collocations": [
+        "system interoperability",
+        "software interoperability",
+        "achieve interoperability",
+        "improve interoperability",
+        "lack of interoperability"
+      ],
+      "synonyms": [
+        "compatibility",
+        "interchangeability"
+      ]
+    },
+    {
+      "word": "scalability",
+      "pronunciation": "/skeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "skalabilitas",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "Cloud computing offers excellent scalability for businesses.",
+      "collocations": [
+        "system scalability",
+        "network scalability",
+        "application scalability",
+        "ensure scalability",
+        "test scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "flexibility",
+        "growth potential"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous computing",
+        "ubiquitous presence",
+        "increasingly ubiquitous",
+        "virtually ubiquitous"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal"
+      ]
+    },
+    {
+      "word": "virtualization",
+      "pronunciation": "/ˌvɜːrtʃuəlaɪˈzeɪʃn/",
+      "partOfSpeech": "noun",
+      "definition": "The creation of a virtual (rather than actual) version of something, such as an operating system, a storage device, or network resources.",
+      "indonesian": "virtualisasi",
+      "level": "C1",
+      "ieltsBand": 7.5,
+      "example": "Virtualization allows multiple operating systems to run on a single physical server.",
+      "collocations": [
+        "server virtualization",
+        "network virtualization",
+        "desktop virtualization",
+        "implement virtualization",
+        "benefits of virtualization"
+      ],
+      "synonyms": [
+        "emulation",
+        "simulation"
       ]
     }
   ]

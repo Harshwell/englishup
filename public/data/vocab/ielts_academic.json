@@ -1,66 +1,187 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
-      "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "articulate",
+      "pronunciation": "/ɑːˈtɪkjʊleɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to express an idea or feeling fluently and coherently.",
+      "indonesian": "mengartikulasikan, mengungkapkan dengan jelas",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The politician struggled to articulate his vision for the country.",
+      "collocations": [
+        "articulate a point",
+        "articulate an argument",
+        "articulate a thought",
+        "articulate a feeling"
+      ],
+      "synonyms": [
+        "express",
+        "voice",
+        "utter",
+        "state",
+        "communicate"
+      ]
+    },
+    {
+      "word": "comprehensive",
+      "pronunciation": "/ˌkɒmprɪˈhensɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "including or dealing with all or nearly all elements or aspects of something.",
+      "indonesian": "komprehensif, menyeluruh",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The report provides a comprehensive overview of the economic situation.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "comprehensive study",
+        "comprehensive review",
+        "comprehensive analysis",
+        "comprehensive understanding"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "thorough",
+        "complete",
+        "extensive",
+        "all-inclusive",
+        "detailed"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of similarity between two or more facts, often indicating an error or inconsistency.",
+      "indonesian": "ketidaksesuaian, perbedaan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "There is a significant discrepancy between the reported figures and the actual results.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "a discrepancy exists",
+        "a discrepancy arises",
+        "a discrepancy is found",
+        "a discrepancy in the data"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "difference",
+        "inconsistency",
+        "variation",
+        "disparity",
+        "mismatch"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
+      "word": "elucidate",
+      "pronunciation": "/ɪˈluːsɪdeɪt/",
       "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "definition": "to make something clear; explain.",
+      "indonesian": "menjelaskan, memperjelas",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The professor used a diagram to elucidate the complex theory.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "elucidate a concept",
+        "elucidate a point",
+        "elucidate the meaning",
+        "elucidate the process"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "explain",
+        "clarify",
+        "illuminate",
+        "unfold",
+        "expound"
+      ]
+    },
+    {
+      "word": "facilitate",
+      "pronunciation": "/fəˈsɪlɪteɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make an action or process easy or easier.",
+      "indonesian": "memfasilitasi, memudahkan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Technology can facilitate communication and collaboration.",
+      "collocations": [
+        "facilitate the process",
+        "facilitate growth",
+        "facilitate understanding",
+        "facilitate discussion"
+      ],
+      "synonyms": [
+        "ease",
+        "assist",
+        "aid",
+        "promote",
+        "support"
+      ]
+    },
+    {
+      "word": "indigenous",
+      "pronunciation": "/ɪnˈdɪdʒɪnəs/",
+      "partOfSpeech": "adjective",
+      "definition": "originating or occurring naturally in a particular place; native.",
+      "indonesian": "pribumi, asli",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The study focused on the impact of colonization on indigenous populations.",
+      "collocations": [
+        "indigenous people",
+        "indigenous culture",
+        "indigenous species",
+        "indigenous knowledge"
+      ],
+      "synonyms": [
+        "native",
+        "local",
+        "aboriginal",
+        "original",
+        "innate"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir, contoh",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The discovery of quantum mechanics represented a paradigm shift in physics.",
+      "collocations": [
+        "a paradigm shift",
+        "a new paradigm",
+        "a research paradigm",
+        "a theoretical paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework",
+        "template",
+        "example"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, tersebar luas",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous phenomenon",
+        "ubiquitous access"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread",
+        "common"
       ]
     }
   ]
