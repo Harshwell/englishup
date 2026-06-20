@@ -1,188 +1,240 @@
 [
   {
-    "title": "The AI Revolution in the Classroom",
+    "title": "The Rise of AI in the Classroom: Revolution or Reimagining?",
     "topic": "Artificial Intelligence and Education",
-    "difficulty": "intermediate",
-    "passage": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly transforming various sectors, and education is no exception.  The integration of AI into educational settings promises a paradigm shift, moving away from one-size-fits-all approaches towards personalized learning experiences.  AI-powered tools can analyze student performance data with unprecedented accuracy, identifying individual strengths and weaknesses. This allows for the creation of customized learning paths, where students receive content and exercises tailored to their specific needs and pace.  For instance, intelligent tutoring systems can provide immediate feedback, explain complex concepts in different ways, and adapt the difficulty of problems based on a student's progress.  Furthermore, AI can automate administrative tasks for educators, such as grading multiple-choice quizzes and managing schedules, freeing up valuable time for more meaningful interactions with students.  However, the widespread adoption of AI in education also presents challenges. Concerns about data privacy and security are paramount, as vast amounts of student information are collected and processed.  The potential for bias in AI algorithms, which could inadvertently perpetuate or even amplify existing inequalities, requires careful consideration and robust mitigation strategies.  Moreover, the digital divide remains a significant hurdle, as equitable access to AI-powered educational resources is not guaranteed for all students.  Finally, the role of the teacher is evolving, not diminishing.  AI should be viewed as a powerful assistant, augmenting human educators rather than replacing them.  Teachers will need to develop new skills to effectively leverage AI tools and guide students in an increasingly AI-driven world.",
-    "vocabulary": [
+    "difficulty": "Intermediate",
+    "passage": [
       {
-        "word": "paradigm shift",
-        "definition": "a fundamental change in approach or underlying assumptions"
+        "type": "paragraph",
+        "content": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly integrating into various aspects of our lives, and education is no exception. The potential for AI to transform the learning landscape is immense, promising personalized learning experiences, efficient administrative tasks, and even enhanced teaching methodologies.  However, this rapid advancement also sparks important discussions about its implications for students, educators, and the very nature of learning."
       },
       {
-        "word": "unprecedented",
-        "definition": "never done or known before"
+        "type": "paragraph",
+        "content": "One of the most significant promises of AI in education lies in its ability to personalize learning. Traditional classroom settings often struggle to cater to the diverse needs and learning paces of individual students. AI-powered platforms can analyze a student's strengths, weaknesses, and preferred learning styles, then adapt the curriculum and provide tailored resources accordingly. This means a student struggling with a particular mathematical concept might receive extra practice and explanatory videos, while another student who has mastered it can be presented with more challenging problems or advanced topics. This adaptive learning approach aims to ensure that no student is left behind or held back."
+      },
+      {
+        "type": "paragraph",
+        "content": "Beyond direct student interaction, AI can also significantly alleviate the administrative burden on educators. Tasks such as grading multiple-choice quizzes, scheduling parent-teacher conferences, and managing student records can be automated, freeing up valuable time for teachers to focus on more impactful activities like lesson planning, one-on-one student support, and professional development. Furthermore, AI can provide educators with valuable data insights into student performance trends, allowing them to identify areas where the class as a whole might be struggling and adjust their teaching strategies proactively."
+      },
+      {
+        "type": "paragraph",
+        "content": "Despite these promising benefits, the integration of AI in education is not without its challenges. Concerns about data privacy and security are paramount, as AI systems often require access to sensitive student information.  The 'digital divide' is another significant hurdle; ensuring equitable access to AI-powered educational tools for all students, regardless of their socioeconomic background, is crucial to avoid exacerbating existing inequalities.  Moreover, the role of the human teacher remains indispensable. While AI can provide personalized instruction and automate tasks, it cannot replicate the empathy, creativity, and critical thinking skills that a human educator fosters.  A balanced approach, where AI serves as a tool to augment human teaching rather than replace it, is likely the most effective path forward."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "confined",
+        "meaning": "limited to a particular place, situation, or topic"
+      },
+      {
+        "word": "immense",
+        "meaning": "extremely large or great"
+      },
+      {
+        "word": "implications",
+        "meaning": "possible effects or results of an action or event"
+      },
+      {
+        "word": "cater to",
+        "meaning": "provide what is needed or wanted"
       },
       {
         "word": "tailored",
-        "definition": "made or adapted for a particular purpose or person"
+        "meaning": "made or adapted for a particular purpose or person"
       },
       {
-        "word": "mitigation",
-        "definition": "the action of reducing the severity, seriousness, or painfulness of something"
+        "word": "alleviate",
+        "meaning": "make suffering, deficiency, or a problem less severe"
       },
       {
-        "word": "augmenting",
-        "definition": "making something greater by adding to it; increasing"
+        "word": "indispensable",
+        "meaning": "absolutely necessary"
+      },
+      {
+        "word": "augment",
+        "meaning": "make (something) greater by adding to it; increase"
       }
     ],
     "questions": [
       {
+        "id": 1,
         "type": "multiple_choice",
-        "question": "What is the primary benefit of AI in education according to the passage?",
+        "question": "According to the passage, what is one of the primary benefits of AI in education?",
         "options": [
-          "Reducing the workload of teachers",
-          "Providing personalized learning experiences",
-          "Automating all grading processes",
-          "Ensuring equitable access to resources"
+          "Reducing the cost of textbooks",
+          "Providing personalized learning experiences for students",
+          "Eliminating the need for standardized tests",
+          "Increasing the number of school holidays"
         ],
-        "answer": "Providing personalized learning experiences"
+        "correct_answer": "Providing personalized learning experiences for students"
       },
       {
+        "id": 2,
         "type": "true_false_not_given",
-        "question": "Intelligent tutoring systems can only provide feedback on factual recall.",
-        "answer": "False"
+        "question": "AI-powered platforms can adapt the curriculum based on a student's preferred learning styles and pace.",
+        "answer": "True"
       },
       {
-        "type": "short_answer",
-        "question": "Besides grading, what other administrative task can AI automate for educators?",
-        "answer": "Managing schedules"
-      },
-      {
-        "type": "matching_headings",
-        "question": "Match the following paragraph to its most suitable heading:",
-        "paragraph_excerpt": "Concerns about data privacy and security are paramount, as vast amounts of student information are collected and processed. The potential for bias in AI algorithms, which could inadvertently perpetuate or even amplify existing inequalities, requires careful consideration and robust mitigation strategies. Moreover, the digital divide remains a significant hurdle, as equitable access to AI-powered educational resources is not guaranteed for all students.",
-        "headings": [
-          "The Evolving Role of the Teacher",
-          "Challenges and Concerns of AI in Education",
-          "The Future of AI-Powered Learning"
-        ],
-        "answer": "Challenges and Concerns of AI in Education"
-      },
-      {
+        "id": 3,
         "type": "fill_in_the_blanks",
-        "question": "AI should be viewed as a powerful assistant, ______ human educators rather than replacing them.",
-        "answer": "augmenting"
+        "question": "AI can help educators by automating tasks such as grading and _______, freeing up their time for other activities.",
+        "options": [
+          "lesson planning",
+          "student support",
+          "administrative tasks",
+          "professional development"
+        ],
+        "correct_answer": "administrative tasks"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "Which of the following is NOT mentioned as a challenge associated with AI in education?",
+        "options": [
+          "Data privacy and security",
+          "The digital divide",
+          "Over-reliance on AI by students",
+          "The cost of AI implementation"
+        ],
+        "correct_answer": "Over-reliance on AI by students"
+      },
+      {
+        "id": 5,
+        "type": "summary_completion",
+        "question": "The passage suggests that the most effective way to integrate AI in education is to use it as a tool to _______ human teaching.",
+        "options": [
+          "replace",
+          "supplement",
+          "control",
+          "evaluate"
+        ],
+        "correct_answer": "supplement"
       }
     ],
     "ieltsTips": [
-      "Read the passage carefully to understand the main idea of each paragraph.",
-      "Pay attention to keywords in the questions and scan the passage for them.",
-      "For True/False/Not Given questions, carefully distinguish between statements that are directly supported by the text (True), contradicted by the text (False), or not mentioned in the text (Not Given).",
-      "For fill-in-the-blanks questions, ensure your answer is grammatically correct and fits the context of the sentence.",
-      "Don't spend too much time on one question; if you're stuck, move on and come back later."
+      {
+        "tipNumber": 1,
+        "tip": "For Multiple Choice questions, read the question carefully and identify keywords. Then, scan the passage for those keywords or synonyms. Eliminate options that are clearly incorrect based on the text."
+      },
+      {
+        "tipNumber": 2,
+        "tip": "For True/False/Not Given questions, understand the difference: 'True' means the statement is directly supported by the text. 'False' means the statement contradicts the text. 'Not Given' means the information is not present in the passage."
+      },
+      {
+        "tipNumber": 3,
+        "tip": "For Fill in the Blanks questions, focus on the sentence structure and the meaning around the blank. The answer will often be a single word or a short phrase that fits grammatically and contextually."
+      },
+      {
+        "tipNumber": 4,
+        "tip": "For Summary Completion questions, read the summary first to understand what information you need to find. Then, scan the passage for the main ideas that correspond to the summary points."
+      },
+      {
+        "tipNumber": 5,
+        "tip": "Pay attention to synonyms and paraphrasing in the passage. The IELTS often uses different wording than the questions themselves. Understanding these variations is key to accurate comprehension."
+      }
     ]
   },
   {
-    "title": "The Rise of Remote Work",
+    "title": "Working from Home: A New Way to Be Productive",
     "topic": "Remote Work and Productivity",
-    "difficulty": "beginner",
-    "passage": "Remote work, also known as telecommuting or working from home, has become increasingly popular in recent years. Many companies now allow their employees to work from a location outside the traditional office. This can be from their home, a co-working space, or even while traveling. The main benefit of remote work is flexibility. Employees can often set their own hours, which can lead to a better work-life balance. For example, someone might choose to start their workday earlier to finish sooner and spend more time with their family in the evening.  Another advantage is that remote workers can save time and money by not having to commute to an office every day. This also reduces traffic congestion and pollution.  However, remote work is not without its challenges. Some people find it difficult to stay focused when working at home, as there can be many distractions, such as household chores or family members.  Maintaining a strong connection with colleagues and feeling part of a team can also be harder when you are not physically together.  Companies need to provide good communication tools and encourage regular virtual meetings to overcome this.  Despite these challenges, many studies suggest that remote work can actually increase productivity. When employees have more control over their environment and schedule, they often feel more motivated and engaged in their work.  They can create a workspace that suits their needs, leading to better concentration and fewer interruptions.  Ultimately, the success of remote work depends on both the employee and the employer being adaptable and communicative.",
+    "difficulty": "Beginner",
+    "passage": "The way people work is changing. Many people now work from home, also known as remote work. This means they don't go to an office every day. Instead, they use computers and the internet to do their jobs.  Some people think working from home is great. They say they can focus better without office noise. They also save time and money by not commuting.  Others worry that it's hard to stay motivated when you are alone. They miss talking to colleagues.  However, many studies show that remote workers can be just as productive, or even more productive, than office workers.  Companies are learning how to manage remote teams. They use video calls and online tools to keep everyone connected.  Remote work offers flexibility, which many employees appreciate.  It can lead to a better balance between work and personal life.",
     "vocabulary": [
       {
-        "word": "telecommuting",
-        "definition": "working from home instead of going to an office"
-      },
-      {
-        "word": "flexibility",
-        "definition": "the ability to change or be changed easily"
-      },
-      {
-        "word": "work-life balance",
-        "definition": "the relationship between the demands of a job and the demands of a person's private life"
-      },
-      {
-        "word": "commute",
-        "definition": "to travel some distance between one's home and place of work"
-      },
-      {
-        "word": "congestion",
-        "definition": "the state of being crowded and full of traffic"
-      },
-      {
-        "word": "distractions",
-        "definition": "things that prevent someone from giving full attention to something"
-      },
-      {
-        "word": "virtual meetings",
-        "definition": "meetings held online using video conferencing technology"
+        "word": "remote work",
+        "meaning_id": "1",
+        "indonesian_translation": "kerja jarak jauh / kerja dari rumah"
       },
       {
         "word": "productivity",
-        "definition": "the rate at which goods are produced or work is completed"
+        "meaning_id": "2",
+        "indonesian_translation": "produktivitas"
+      },
+      {
+        "word": "commuting",
+        "meaning_id": "3",
+        "indonesian_translation": "perjalanan (pergi-pulang kerja)"
       },
       {
         "word": "motivated",
-        "definition": "having a strong reason to do something"
+        "meaning_id": "4",
+        "indonesian_translation": "termotivasi"
       },
       {
-        "word": "engaged",
-        "definition": "involved with or paying attention to something"
+        "word": "flexibility",
+        "meaning_id": "5",
+        "indonesian_translation": "fleksibilitas"
       }
     ],
     "questions": [
       {
-        "type": "multiple_choice",
-        "question": "What is another term for remote work mentioned in the passage?",
+        "id": "1",
+        "type": "True/False/Not Given",
+        "question": "Remote work means working in a traditional office building.",
+        "answer": "False",
+        "explanation": "The passage states that remote work means people 'don't go to an office every day'."
+      },
+      {
+        "id": "2",
+        "type": "Multiple Choice",
+        "question": "What is one advantage of working from home mentioned in the passage?",
         "options": [
-          "Office work",
-          "Telecommuting",
-          "Team meetings",
-          "Commuting"
+          "It is always noisy.",
+          "It saves time and money.",
+          "It requires more meetings.",
+          "It makes people feel tired."
         ],
-        "correct_answer": "Telecommuting"
+        "answer": "It saves time and money.",
+        "explanation": "The passage says, 'They also save time and money by not commuting'."
       },
       {
-        "type": "true_false_not_given",
-        "question": "Remote work always leads to a worse work-life balance.",
-        "answer": "False"
+        "id": "3",
+        "type": "Short Answer",
+        "question": "What is one worry people have about working from home?",
+        "answer": "It's hard to stay motivated or they miss talking to colleagues.",
+        "explanation": "The passage mentions, 'Others worry that it's hard to stay motivated when you are alone. They miss talking to colleagues.'"
       },
       {
-        "type": "fill_in_the_blanks",
-        "question": "Remote workers can save <<BLANK>> and money by not having to commute.",
-        "answer": "time"
+        "id": "4",
+        "type": "True/False/Not Given",
+        "question": "Studies show that remote workers are always less productive than office workers.",
+        "answer": "False",
+        "explanation": "The passage states, 'many studies show that remote workers can be just as productive, or even more productive, than office workers.'"
       },
       {
-        "type": "short_answer",
-        "question": "What is one challenge of working from home mentioned in the passage?",
-        "answer": "Difficulty staying focused"
-      },
-      {
-        "type": "multiple_choice",
-        "question": "According to the passage, what can remote work actually increase?",
-        "options": [
-          "Commute time",
-          "Office distractions",
-          "Productivity",
-          "Traffic congestion"
-        ],
-        "correct_answer": "Productivity"
+        "id": "5",
+        "type": "Short Answer",
+        "question": "What do companies use to keep remote teams connected?",
+        "answer": "Video calls and online tools.",
+        "explanation": "The passage says, 'They use video calls and online tools to keep everyone connected.'"
       }
     ],
     "ieltsTips": [
-      "Read the passage carefully before answering the questions.",
-      "Pay attention to keywords in the questions and find them in the passage.",
-      "For True/False/Not Given questions, look for explicit information in the text. 'False' means the text contradicts the statement. 'Not Given' means the text does not provide enough information to confirm or deny the statement.",
-      "For fill-in-the-blanks questions, ensure your answer is a single word or a short phrase as indicated by the blank.",
-      "For short answer questions, keep your answers concise and directly answer the question asked."
-    ]
-  },
-  {
-    "title": "Cities and Climate Planning",
-    "topic": "Cities and Climate Planning",
-    "difficulty": "advanced",
-    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
-    "vocabulary": [
       {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
+        "tip_id": "1",
+        "tip_title": "Understand Question Types",
+        "tip_description": "IELTS Reading has different question types like True/False/Not Given, Multiple Choice, and Short Answer. Read the passage carefully to find the exact information needed for each type."
+      },
+      {
+        "tip_id": "2",
+        "tip_title": "Scan for Keywords",
+        "tip_description": "When answering questions, look for keywords from the question in the passage. This helps you locate the relevant sentence or section quickly."
+      },
+      {
+        "tip_id": "3",
+        "tip_title": "Paraphrasing",
+        "tip_description": "Answers in the passage might not use the exact same words as the question. Look for synonyms or different sentence structures that convey the same meaning. For example, 'work from home' is a synonym for 'remote work'."
+      },
+      {
+        "tip_id": "4",
+        "tip_title": "True/False/Not Given Strategy",
+        "tip_description": "For True/False/Not Given: 'True' means the statement matches the passage. 'False' means the statement contradicts the passage. 'Not Given' means the information is not present in the passage."
+      },
+      {
+        "tip_id": "5",
+        "tip_title": "Vocabulary Building",
+        "tip_description": "Pay attention to the vocabulary section. Understanding new words will improve your comprehension of the passage and help you answer questions more accurately."
       }
-    ],
-    "questions": [],
-    "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
     ]
   }
 ]

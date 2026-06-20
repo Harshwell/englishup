@@ -1,25 +1,126 @@
 {
-  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
-  "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+  "grammarChart": [
+    {
+      "tense": "Present Perfect",
+      "form": "Subject + have/has + Past Participle (V3)",
+      "meaning": "Connects the past to the present. It describes actions that happened at an unspecified time in the past, or actions that started in the past and continue to the present, or actions that have a result in the present.",
+      "use": [
+        "Experiences (unspecified time)",
+        "Completed actions with present results",
+        "Actions that started in the past and continue to the present",
+        "Recent past actions"
+      ]
+    }
   ],
+  "explanation": "The Present Perfect tense is a crucial tense in English that links past events to the present moment. It's formed using the auxiliary verb 'have' (for I, you, we, they, and plural subjects) or 'has' (for he, she, it, and singular subjects) followed by the past participle of the main verb.  The past participle is the third form of the verb (e.g., go - went - gone; eat - ate - eaten; play - played - played).  This tense is versatile and used in several situations, all of which emphasize the connection to the present.",
+  "keyRules": [
+    {
+      "rule": "Formation",
+      "details": "Affirmative: Subject + have/has + Past Participle. Negative: Subject + have/has + not + Past Participle. Interrogative: Have/Has + Subject + Past Participle?"
+    },
+    {
+      "rule": "Past Participles",
+      "details": "Regular verbs form their past participle by adding '-ed' (e.g., walk - walked - walked). Irregular verbs have unique past participle forms that must be memorized (e.g., see - saw - seen; write - wrote - written)."
+    },
+    {
+      "rule": "Usage with 'for' and 'since'",
+      "details": " 'Since' is used with a specific point in time (e.g., since 2010, since Monday). 'For' is used with a duration of time (e.g., for five years, for two weeks)."
+    },
+    {
+      "rule": "Time expressions",
+      "details": "Commonly used with adverbs like 'already', 'yet', 'just', 'ever', 'never', 'recently', 'lately'."
+    }
+  ],
+  "azarNotes": "Don't confuse the Present Perfect with the Simple Past. The Simple Past focuses on a completed action at a specific past time, while the Present Perfect emphasizes the connection to the present or an unspecified past time. For IELTS, understanding the nuances of 'for' and 'since' is very important for expressing duration accurately.",
   "examples": [
     {
-      "sentence": "Present Perfect appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Present Perfect muncul dalam tugas IELTS."
+      "sentence": "I have visited Paris three times.",
+      "tense": "Present Perfect",
+      "use_case": "Experience (unspecified time)"
+    },
+    {
+      "sentence": "She has finished her homework.",
+      "tense": "Present Perfect",
+      "use_case": "Completed action with present result (she is now free)"
+    },
+    {
+      "sentence": "They have lived here for ten years.",
+      "tense": "Present Perfect",
+      "use_case": "Action started in the past and continues to the present"
+    },
+    {
+      "sentence": "He has just arrived.",
+      "tense": "Present Perfect",
+      "use_case": "Recent past action"
+    },
+    {
+      "sentence": "Have you ever eaten sushi?",
+      "tense": "Present Perfect",
+      "use_case": "Experience (unspecified time)"
+    },
+    {
+      "sentence": "We haven't seen him since last week.",
+      "tense": "Present Perfect (Negative)",
+      "use_case": "Action started in the past and continues to the present (or lack thereof)"
     }
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Using Simple Past instead of Present Perfect for experiences or actions with present relevance.",
+    "Incorrect formation of the past participle (especially with irregular verbs).",
+    "Confusing 'for' and 'since'.",
+    "Using the Present Perfect with specific past time markers (e.g., 'yesterday', 'last year' - these usually require Simple Past)."
   ],
-  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 1, you can use the Present Perfect to describe trends or changes that have occurred over a period of time leading up to the present (e.g., 'The number of tourists has increased significantly since 2005.'). In Speaking, use it to talk about your experiences, skills, and achievements.",
+  "quiz": [
+    {
+      "question": "Choose the correct form of the verb to complete the sentence: She ___________ (study) English for five years.",
+      "options": [
+        "studies",
+        "studied",
+        "has studied",
+        "is studying"
+      ],
+      "answer": "has studied"
+    },
+    {
+      "question": "Which sentence correctly uses the Present Perfect to describe an experience?",
+      "options": [
+        "I went to Japan last year.",
+        "I have been to Japan.",
+        "I am going to Japan.",
+        "I will go to Japan."
+      ],
+      "answer": "I have been to Japan."
+    },
+    {
+      "question": "Complete the sentence with the correct past participle: They ___________ (see) that movie already.",
+      "options": [
+        "saw",
+        "see",
+        "seen",
+        "seeing"
+      ],
+      "answer": "seen"
+    },
+    {
+      "question": "Choose the correct sentence: We ___________ (not finish) our project yet.",
+      "options": [
+        "didn't finish",
+        "haven't finish",
+        "haven't finished",
+        "are not finishing"
+      ],
+      "answer": "haven't finished"
+    },
+    {
+      "question": "Which time expression is appropriate with the Present Perfect for an action that started in the past and continues to the present?",
+      "options": [
+        "yesterday",
+        "last week",
+        "since 2015",
+        "two hours ago"
+      ],
+      "answer": "since 2015"
+    }
+  ]
 }

@@ -1,24 +1,58 @@
 {
-  "explanation": "Kalimat pasif (passive voice) dalam bahasa Inggris digunakan ketika fokus kalimat adalah pada objek atau tindakan yang dilakukan, bukan pada siapa yang melakukan tindakan tersebut. Struktur dasarnya adalah 'be' (is, am, are, was, were, been, being) + past participle (kata kerja bentuk ketiga).  Dalam bahasa Indonesia, ini sering diterjemahkan menggunakan kata 'di-' atau 'ter-'.",
+  "grammarChart": {
+    "title": "Passive Voice: be + Past Participle",
+    "structure": [
+      {
+        "tense": "Present Simple",
+        "active": "Subject + Verb (s/es) + Object",
+        "passive": "Object + am/is/are + Past Participle + (by Subject)"
+      },
+      {
+        "tense": "Past Simple",
+        "active": "Subject + Verb (ed) + Object",
+        "passive": "Object + was/were + Past Participle + (by Subject)"
+      },
+      {
+        "tense": "Present Perfect",
+        "active": "Subject + has/have + Past Participle + Object",
+        "passive": "Object + has/have + been + Past Participle + (by Subject)"
+      },
+      {
+        "tense": "Future Simple (will)",
+        "active": "Subject + will + Verb + Object",
+        "passive": "Object + will be + Past Participle + (by Subject)"
+      }
+    ]
+  },
+  "explanation": "The passive voice is used when the action or the object of the action is more important than the doer of the action. It shifts the focus from the subject (who performs the action) to the object (who or what receives the action). The structure of the passive voice is always 'be' (in the appropriate tense) + past participle of the main verb.",
   "keyRules": [
-    "Subjek kalimat aktif menjadi objek dalam kalimat pasif.",
-    "Objek kalimat aktif menjadi subjek dalam kalimat pasif.",
-    "Kata kerja dalam kalimat pasif selalu dalam bentuk past participle.",
-    "Kata kerja bantu 'be' disesuaikan dengan tense dan jumlah subjek kalimat pasif.",
-    "Pelaku tindakan (agen) dapat dihilangkan atau disebutkan menggunakan 'by'."
+    "Identify the object of the active sentence. This becomes the subject of the passive sentence.",
+    "Determine the tense of the active verb.",
+    "Use the correct form of the verb 'be' to match the tense and the new subject.",
+    "Use the past participle of the main verb.",
+    "The original subject can be included in a 'by' phrase, but it is often omitted if it is unknown, unimportant, or obvious."
+  ],
+  "azarNotes": [
+    "The past participle is the third form of a verb (e.g., write, wrote, written). For regular verbs, it's the same as the simple past form (e.g., cook, cooked, cooked).",
+    "The 'by' phrase is optional. In academic writing (like IELTS essays), the passive voice is frequently used to maintain objectivity and formality, often omitting the 'by' phrase.",
+    "Be careful with irregular past participles. Memorize them!"
   ],
   "examples": [
     {
-      "active": "The students wrote the essay.",
-      "passive": "The essay was written by the students."
+      "active": "The chef prepares the meal.",
+      "passive": "The meal is prepared by the chef."
     },
     {
-      "active": "The chef is preparing the meal.",
-      "passive": "The meal is being prepared by the chef."
+      "active": "Scientists discovered a new planet.",
+      "passive": "A new planet was discovered by scientists."
     },
     {
-      "active": "They have built a new bridge.",
-      "passive": "A new bridge has been built."
+      "active": "The company has launched a new product.",
+      "passive": "A new product has been launched by the company."
+    },
+    {
+      "active": "The committee will review the proposal.",
+      "passive": "The proposal will be reviewed by the committee."
     },
     {
       "active": "Someone stole my bike.",
@@ -26,40 +60,62 @@
     }
   ],
   "commonMistakes": [
-    "Menggunakan bentuk dasar kata kerja atau -ing sebagai pengganti past participle.",
-    "Salah memilih bentuk 'be' sesuai dengan tense.",
-    "Terlalu sering menggunakan kalimat pasif ketika kalimat aktif lebih jelas dan ringkas.",
-    "Menghilangkan 'be' dari kalimat pasif."
+    "Incorrect form of 'be': Using 'am/is/are' in the past tense, or vice-versa.",
+    "Incorrect past participle: Using the base form or simple past form instead of the past participle.",
+    "Forgetting 'be': Simply putting the past participle after the object (e.g., 'The meal prepared').",
+    "Overusing the passive voice: Making sentences sound unnatural or wordy when the active voice would be clearer."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif sering digunakan untuk memberikan kesan objektif dan formal, terutama saat membahas isu-isu umum atau ketika pelaku tindakan tidak diketahui atau tidak relevan. Namun, hindari penggunaan pasif yang berlebihan karena dapat membuat tulisan terdengar kaku dan kurang dinamis. Gunakan pasif secara strategis untuk menekankan objek atau hasil dari suatu tindakan.",
+  "ieltsTip": "In IELTS Writing Task 2, the passive voice is particularly useful for: \n- Discussing processes or procedures (e.g., 'The ingredients are mixed together...'). \n- Presenting research findings or general facts (e.g., 'It is believed that...'). \n- Avoiding repetition of 'people' or 'they' when the agent is general or unknown (e.g., 'More attention should be paid to...'). \n- Maintaining a formal and objective tone.",
   "quiz": [
     {
-      "question": "Change the following sentence to passive voice: 'The company will launch a new product next month.'",
+      "question": "Change the following sentence to passive voice: 'The government bans plastic bags.'",
       "options": [
-        "A new product will be launched by the company next month.",
-        "A new product is launched by the company next month.",
-        "The company is launching a new product next month.",
-        "A new product launched by the company next month."
+        "Plastic bags are banned by the government.",
+        "Plastic bags banned by the government.",
+        "The government is banned plastic bags.",
+        "Plastic bags is banned by the government."
       ],
-      "answer": "A new product will be launched by the company next month."
+      "correctAnswer": "Plastic bags are banned by the government."
     },
     {
-      "question": "Choose the correct passive form: 'The report _____ yesterday.'",
+      "question": "What is the correct passive form of 'They built the bridge last year.'?",
+      "options": [
+        "The bridge built last year.",
+        "The bridge was built last year.",
+        "The bridge is built last year.",
+        "The bridge has built last year."
+      ],
+      "correctAnswer": "The bridge was built last year."
+    },
+    {
+      "question": "Complete the sentence with the correct passive form: 'The report _______ by the team yesterday.'",
       "options": [
         "is submitted",
         "was submitted",
         "has submitted",
-        "submits"
+        "will submitted"
       ],
-      "answer": "was submitted"
+      "correctAnswer": "was submitted"
     },
     {
-      "question": "Identify the passive sentence: 'She wrote a letter.' vs 'A letter was written by her.'",
+      "question": "Choose the best passive sentence: 'Someone has stolen the painting.'",
       "options": [
-        "She wrote a letter.",
-        "A letter was written by her."
+        "The painting has stolen.",
+        "The painting has been stolen.",
+        "The painting is stolen.",
+        "The painting was stolen."
       ],
-      "answer": "A letter was written by her."
+      "correctAnswer": "The painting has been stolen."
+    },
+    {
+      "question": "Which sentence uses the passive voice correctly?",
+      "options": [
+        "The new policy will effect immediately.",
+        "The new policy will be effected immediately.",
+        "The new policy will be affect immediately.",
+        "The new policy will affect immediately."
+      ],
+      "correctAnswer": "The new policy will be effected immediately."
     }
   ]
 }
