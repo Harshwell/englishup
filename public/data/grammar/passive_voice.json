@@ -1,80 +1,65 @@
 {
-  "explanation": "Dalam Bahasa Inggris, kalimat pasif digunakan untuk menekankan objek dari suatu tindakan, bukan subjek yang melakukan tindakan tersebut.  Struktur dasar kalimat pasif adalah: **be + past participle (kata kerja bentuk ketiga)**.  Ini berbeda dengan kalimat aktif di mana subjek melakukan tindakan.",
+  "explanation": "Kalimat pasif (passive voice) dalam bahasa Inggris digunakan ketika fokus kalimat adalah pada objek atau tindakan yang dilakukan, bukan pada siapa yang melakukan tindakan tersebut. Struktur dasarnya adalah 'be' (is, am, are, was, were, been, being) + past participle (kata kerja bentuk ketiga).  Dalam bahasa Indonesia, ini sering diterjemahkan menggunakan kata 'di-' atau 'ter-'.",
   "keyRules": [
-    "**Struktur Dasar:** Objek kalimat aktif menjadi subjek kalimat pasif. Gunakan bentuk yang tepat dari kata kerja 'be' (am, is, are, was, were, been, being) sesuai dengan kala (tense) dan jumlah subjek.",
-    "**Past Participle:** Gunakan kata kerja bentuk ketiga (past participle) dari kata kerja utama.",
-    "**Oleh Agen (Opsional):** Jika ingin menyebutkan siapa yang melakukan tindakan, gunakan preposisi 'by' diikuti oleh agen (subjek kalimat aktif). Namun, ini seringkali dihilangkan jika agen tidak penting atau tidak diketahui.",
-    "**Perubahan Kala:** Bentuk kata kerja 'be' harus sesuai dengan kala kalimat aslinya.  Misalnya, present simple menjadi 'is/are + past participle', past simple menjadi 'was/were + past participle', present perfect menjadi 'has/have been + past participle'."
+    "Subjek kalimat aktif menjadi objek dalam kalimat pasif.",
+    "Objek kalimat aktif menjadi subjek dalam kalimat pasif.",
+    "Kata kerja dalam kalimat pasif selalu dalam bentuk past participle.",
+    "Kata kerja bantu 'be' disesuaikan dengan tense dan jumlah subjek kalimat pasif.",
+    "Pelaku tindakan (agen) dapat dihilangkan atau disebutkan menggunakan 'by'."
   ],
   "examples": [
     {
-      "active": "The students write the essays.",
-      "passive": "The essays **are written** by the students. (Present Simple)"
+      "active": "The students wrote the essay.",
+      "passive": "The essay was written by the students."
     },
     {
-      "active": "The chef cooked the meal.",
-      "passive": "The meal **was cooked** by the chef. (Past Simple)"
+      "active": "The chef is preparing the meal.",
+      "passive": "The meal is being prepared by the chef."
     },
     {
-      "active": "The company will launch a new product.",
-      "passive": "A new product **will be launched** by the company. (Future Simple)"
+      "active": "They have built a new bridge.",
+      "passive": "A new bridge has been built."
     },
     {
-      "active": "They have finished the project.",
-      "passive": "The project **has been finished** by them. (Present Perfect)"
-    },
-    {
-      "active": "Someone is cleaning the room.",
-      "passive": "The room **is being cleaned**. (Present Continuous)"
+      "active": "Someone stole my bike.",
+      "passive": "My bike was stolen."
     }
   ],
   "commonMistakes": [
-    "Menggunakan 'be' yang salah (misalnya, 'The book was read' bukan 'The book is read' untuk present simple).",
-    "Lupa menggunakan 'be' sama sekali (misalnya, 'The report written' bukan 'The report was written').",
-    "Menggunakan 'to + infinitive' setelah 'be' alih-alih past participle (misalnya, 'The house to build' bukan 'The house to be built').",
-    "Salah menggunakan past participle (misalnya, 'The letter was write' bukan 'The letter was written')."
+    "Menggunakan bentuk dasar kata kerja atau -ing sebagai pengganti past participle.",
+    "Salah memilih bentuk 'be' sesuai dengan tense.",
+    "Terlalu sering menggunakan kalimat pasif ketika kalimat aktif lebih jelas dan ringkas.",
+    "Menghilangkan 'be' dari kalimat pasif."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), kalimat pasif sangat umum digunakan untuk mendeskripsikan data, proses, atau grafik.  Fokusnya adalah pada apa yang terjadi atau bagaimana sesuatu dibuat, bukan siapa yang melakukannya.  Gunakan kalimat pasif untuk memberikan kesan formal dan objektif.  Perhatikan penggunaan kala yang tepat.",
+  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif sering digunakan untuk memberikan kesan objektif dan formal, terutama saat membahas isu-isu umum atau ketika pelaku tindakan tidak diketahui atau tidak relevan. Namun, hindari penggunaan pasif yang berlebihan karena dapat membuat tulisan terdengar kaku dan kurang dinamis. Gunakan pasif secara strategis untuk menekankan objek atau hasil dari suatu tindakan.",
   "quiz": [
     {
-      "question": "Change the following sentence to passive voice: 'The teacher explained the grammar rules.'",
+      "question": "Change the following sentence to passive voice: 'The company will launch a new product next month.'",
       "options": [
-        "The grammar rules explained by the teacher.",
-        "The grammar rules were explained by the teacher.",
-        "The grammar rules is explained by the teacher.",
-        "The teacher was explained the grammar rules."
+        "A new product will be launched by the company next month.",
+        "A new product is launched by the company next month.",
+        "The company is launching a new product next month.",
+        "A new product launched by the company next month."
       ],
-      "answer": "The grammar rules were explained by the teacher."
+      "answer": "A new product will be launched by the company next month."
     },
     {
-      "question": "Choose the correct passive form: 'The cake ______ by my mother yesterday.'",
+      "question": "Choose the correct passive form: 'The report _____ yesterday.'",
       "options": [
-        "is baked",
-        "was baked",
-        "baked",
-        "is being baked"
+        "is submitted",
+        "was submitted",
+        "has submitted",
+        "submits"
       ],
-      "answer": "was baked"
+      "answer": "was submitted"
     },
     {
-      "question": "What is the correct past participle of 'see'?",
+      "question": "Identify the passive sentence: 'She wrote a letter.' vs 'A letter was written by her.'",
       "options": [
-        "see",
-        "saw",
-        "seen",
-        "seeing"
+        "She wrote a letter.",
+        "A letter was written by her."
       ],
-      "answer": "seen"
-    },
-    {
-      "question": "Change to passive: 'They are building a new bridge.'",
-      "options": [
-        "A new bridge is built.",
-        "A new bridge is being built.",
-        "A new bridge was built.",
-        "A new bridge has been built."
-      ],
-      "answer": "A new bridge is being built."
+      "answer": "A letter was written by her."
     }
   ]
 }
