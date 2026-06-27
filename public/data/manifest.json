@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-20T20:14:44.470Z",
+  "generatedAt": "2026-06-27T20:11:22.923Z",
   "savedCount": 6,
   "errors": [
-    "grammar:articles: invalid JSON",
-    "reading:Climate Change and Urban Planning: invalid JSON"
+    "grammar:articles: gemini: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | openrouter: empty response",
+    "reading:Artificial Intelligence and Education: invalid JSON"
   ],
   "providers": {
     "gemini": true,

@@ -1,176 +1,161 @@
 {
   "words": [
     {
-      "word": "algorithm",
-      "pronunciation": "/ˈælɡərɪðəm/",
-      "partOfSpeech": "noun",
-      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
-      "indonesian": "algoritma",
+      "word": "Automate",
+      "pronunciation": "/ˈɔː.tə.meɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To make a process operate automatically by using machines or computers.",
+      "indonesian": "Mengotomatiskan",
       "level": "B2",
+      "ieltsBand": "6.5",
+      "example": "Many manufacturing processes have been automated to increase efficiency and reduce human error.",
+      "collocations": [
+        "fully automate",
+        "automate a process",
+        "automate tasks"
+      ],
+      "synonyms": [
+        "mechanize",
+        "computerize"
+      ]
+    },
+    {
+      "word": "Algorithm",
+      "pronunciation": "/ˈæl.ɡə.rɪ.ðəm/",
+      "partOfSpeech": "noun",
+      "definition": "A set of rules or steps to be followed in calculations or other problem-solving operations, especially by a computer.",
+      "indonesian": "Algoritma",
+      "level": "C1",
       "ieltsBand": "7.0",
-      "example": "The search engine uses a complex algorithm to rank websites.",
+      "example": "Social media platforms use complex algorithms to determine which content appears on a user's feed.",
       "collocations": [
         "complex algorithm",
         "search algorithm",
-        "learning algorithm",
-        "data algorithm",
         "algorithm design"
       ],
       "synonyms": [
         "procedure",
-        "process",
-        "method",
-        "formula"
+        "formula",
+        "set of rules"
       ]
     },
     {
-      "word": "automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
-      "partOfSpeech": "noun",
-      "definition": "The use of technology to carry out a task with minimal human intervention.",
-      "indonesian": "otomatisasi",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Automation in manufacturing has led to increased efficiency.",
-      "collocations": [
-        "industrial automation",
-        "process automation",
-        "office automation",
-        "automation system",
-        "degree of automation"
-      ],
-      "synonyms": [
-        "mechanization",
-        "robotics",
-        "self-operation"
-      ]
-    },
-    {
-      "word": "deployment",
-      "pronunciation": "/dɪˈplɔɪmənt/",
-      "partOfSpeech": "noun",
-      "definition": "The act of bringing resources, such as technology or personnel, into effective action.",
-      "indonesian": "penerapan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The deployment of the new AI system will take several months.",
-      "collocations": [
-        "software deployment",
-        "system deployment",
-        "full deployment",
-        "successful deployment",
-        "deployment strategy"
-      ],
-      "synonyms": [
-        "implementation",
-        "application",
-        "rollout",
-        "installation"
-      ]
-    },
-    {
-      "word": "neural network",
-      "pronunciation": "/ˈnjʊərəl ˈnɛtwɜːk/",
-      "partOfSpeech": "noun",
-      "definition": "A computational model inspired by the structure and function of the human brain, used in machine learning.",
-      "indonesian": "jaringan saraf tiruan",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "Deep learning models often utilize complex neural networks.",
-      "collocations": [
-        "deep neural network",
-        "artificial neural network",
-        "convolutional neural network",
-        "recurrent neural network",
-        "train a neural network"
-      ],
-      "synonyms": [
-        "ANN",
-        "computational network"
-      ]
-    },
-    {
-      "word": "predictive",
-      "pronunciation": "/prɪˈdɪktɪv/",
+      "word": "Disruptive",
+      "pronunciation": "/dɪsˈrʌp.tɪv/",
       "partOfSpeech": "adjective",
-      "definition": "Able to foretell or forecast future events or outcomes.",
-      "indonesian": "prediktif",
-      "level": "B2",
+      "definition": "Causing radical change in an industry or market, typically by introducing new technology.",
+      "indonesian": "Inovatif yang mengganggu (mengubah tatanan)",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Artificial intelligence is considered a disruptive technology that will reshape the global job market.",
+      "collocations": [
+        "disruptive technology",
+        "disruptive innovation",
+        "highly disruptive"
+      ],
+      "synonyms": [
+        "revolutionary",
+        "unsettling",
+        "transformative"
+      ]
+    },
+    {
+      "word": "Obsolete",
+      "pronunciation": "/ˈɒb.səl.iːt/",
+      "partOfSpeech": "adjective",
+      "definition": "No longer produced or used; out of date.",
+      "indonesian": "Usang / Ketinggalan zaman",
+      "level": "C1",
       "ieltsBand": "7.0",
-      "example": "Predictive analytics can help businesses anticipate market trends.",
+      "example": "Rapid technological advancement means that hardware can become obsolete within just a few years.",
       "collocations": [
-        "predictive modeling",
-        "predictive maintenance",
-        "predictive analytics",
-        "predictive capabilities",
-        "predictive power"
+        "become obsolete",
+        "technologically obsolete",
+        "rendered obsolete"
       ],
       "synonyms": [
-        "forecasting",
-        "prophetic",
-        "prescient"
+        "outdated",
+        "archaic",
+        "defunct"
       ]
     },
     {
-      "word": "scalability",
-      "pronunciation": "/ˌskeɪləˈbɪləti/",
-      "partOfSpeech": "noun",
-      "definition": "The ability of a system or technology to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
-      "indonesian": "skalabilitas",
+      "word": "Augment",
+      "pronunciation": "/ɔːɡˈment/",
+      "partOfSpeech": "verb",
+      "definition": "To make something greater by adding to it; in tech, to enhance human capabilities with technology.",
+      "indonesian": "Meningkatkan / Menambah",
       "level": "C1",
       "ieltsBand": "7.5",
-      "example": "The cloud infrastructure offers excellent scalability for our growing user base.",
+      "example": "Augmented reality is used to augment the user's perception of the physical world.",
       "collocations": [
-        "system scalability",
-        "application scalability",
-        "high scalability",
-        "ensure scalability",
-        "scalability issues"
+        "augment intelligence",
+        "augment capabilities",
+        "augment reality"
       ],
       "synonyms": [
-        "expandability",
-        "flexibility",
-        "adaptability"
+        "enhance",
+        "supplement",
+        "boost"
       ]
     },
     {
-      "word": "supervised learning",
-      "pronunciation": "/ˈsuːpərvaɪzd ˈlɜːrnɪŋ/",
-      "partOfSpeech": "noun phrase",
-      "definition": "A type of machine learning where an algorithm learns from a labeled dataset, meaning each training example has a known output.",
-      "indonesian": "pembelajaran terawasi",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Supervised learning is commonly used for classification and regression tasks.",
+      "word": "Ethical",
+      "pronunciation": "/ˈeθ.ɪ.kəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Relating to moral principles; often used in AI discussions regarding bias and privacy.",
+      "indonesian": "Etis / Berhubungan dengan etika",
+      "level": "B2",
+      "ieltsBand": "6.5",
+      "example": "The development of autonomous vehicles raises significant ethical concerns regarding liability in accidents.",
       "collocations": [
-        "supervised learning algorithm",
-        "supervised learning model",
-        "supervised learning technique",
-        "supervised learning task",
-        "supervised learning data"
+        "ethical dilemma",
+        "ethical implications",
+        "ethical standards"
       ],
       "synonyms": [
-        "labeled learning"
+        "moral",
+        "principled"
       ]
     },
     {
-      "word": "unsupervised learning",
-      "pronunciation": "/ʌnˈsuːpərvaɪzd ˈlɜːrnɪŋ/",
-      "partOfSpeech": "noun phrase",
-      "definition": "A type of machine learning where an algorithm learns from unlabeled data, identifying patterns and structures on its own.",
-      "indonesian": "pembelajaran tak terawasi",
+      "word": "Ubiquitous",
+      "pronunciation": "/juːˈbɪk.wɪ.təs/",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere.",
+      "indonesian": "Ada di mana-mana",
       "level": "C1",
       "ieltsBand": "7.5",
-      "example": "Unsupervised learning is useful for discovering hidden patterns in large datasets.",
+      "example": "Smartphones have become ubiquitous in modern society, changing how we communicate.",
       "collocations": [
-        "unsupervised learning algorithm",
-        "unsupervised learning model",
-        "unsupervised learning task",
-        "unsupervised learning data",
-        "unsupervised learning method"
+        "become ubiquitous",
+        "ubiquitous presence",
+        "increasingly ubiquitous"
       ],
       "synonyms": [
-        "unlabeled learning"
+        "omnipresent",
+        "pervasive",
+        "widespread"
+      ]
+    },
+    {
+      "word": "Vulnerable",
+      "pronunciation": "/ˈvʌl.nər.ə.bəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Susceptible to physical or emotional attack or damage; in tech, susceptible to security breaches.",
+      "indonesian": "Rentan",
+      "level": "B2",
+      "ieltsBand": "6.5",
+      "example": "Without proper encryption, personal data remains vulnerable to cyber-attacks.",
+      "collocations": [
+        "vulnerable to attacks",
+        "highly vulnerable",
+        "vulnerable system"
+      ],
+      "synonyms": [
+        "susceptible",
+        "exposed",
+        "at risk"
       ]
     }
   ]

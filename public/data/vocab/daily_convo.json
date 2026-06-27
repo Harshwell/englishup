@@ -1,164 +1,176 @@
 {
   "words": [
     {
-      "word": "elaborate",
-      "pronunciation": "/ɪˈlæbəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to explain something in more detail or add more information to it.",
-      "indonesian": "menjelaskan secara rinci",
+      "word": "Catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To reach someone or something by moving faster than them; to talk to someone you have not seen for some time.",
+      "indonesian": "Bertemu/berbicara dengan seseorang setelah lama tidak bertemu; mengejar ketertinggalan.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "Could you please elaborate on your plan for the marketing campaign?",
+      "ieltsBand": "6.5-7.5",
+      "example": "I haven't seen Sarah in months, so I'm going to meet her for coffee this weekend to catch up.",
       "collocations": [
-        "elaborate on",
-        "elaborate further"
+        "catch up with friends",
+        "catch up on news",
+        "catch up on work",
+        "catch up on sleep"
       ],
       "synonyms": [
-        "explain",
-        "detail",
-        "expound"
+        "reconnect",
+        "get together",
+        "update each other"
       ]
     },
     {
-      "word": "insight",
-      "pronunciation": "/ˈɪnsaɪt/",
-      "partOfSpeech": "noun",
-      "definition": "a clear, deep, and sometimes sudden understanding of a complicated problem or situation.",
-      "indonesian": "pemahaman mendalam",
+      "word": "Figure out",
+      "pronunciation": "/ˈfɪɡ.ər aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To understand or solve something.",
+      "indonesian": "Mencari tahu, memahami, memecahkan masalah.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "Her comments provided valuable insight into the company's financial struggles.",
+      "ieltsBand": "6.5-7.5",
+      "example": "I can't figure out how to assemble this IKEA furniture; the instructions are so confusing.",
       "collocations": [
-        "gain insight",
-        "offer insight",
-        "valuable insight",
-        "deep insight"
+        "figure out a problem",
+        "figure out a solution",
+        "figure out a way",
+        "figure out the meaning"
       ],
       "synonyms": [
-        "understanding",
-        "perception",
-        "apprehension"
+        "solve",
+        "understand",
+        "resolve",
+        "decipher"
       ]
     },
     {
-      "word": "nuance",
-      "pronunciation": "/ˈnjuːɑːns/",
-      "partOfSpeech": "noun",
-      "definition": "a slight or subtle difference in meaning, feeling, or tone.",
-      "indonesian": "nuansa, perbedaan halus",
-      "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "The artist's use of color captured the subtle nuance of the sunset.",
+      "word": "Hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing with someone.",
+      "indonesian": "Menghabiskan waktu bersama, nongkrong.",
+      "level": "B2",
+      "ieltsBand": "6.0-7.0",
+      "example": "We usually hang out at the park on Saturdays.",
       "collocations": [
-        "subtle nuance",
-        "understand nuance",
-        "catch the nuance"
+        "hang out with friends",
+        "hang out together",
+        "hang out at home",
+        "hang out in town"
       ],
       "synonyms": [
-        "subtlety",
-        "gradation",
-        "shade"
+        "socialize",
+        "spend time",
+        "mingle",
+        "associate"
       ]
     },
     {
-      "word": "articulate",
-      "pronunciation": "/ɑːrˈtɪkjʊleɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to express an idea or feeling fluently and coherently.",
-      "indonesian": "mengartikulasikan, mengungkapkan dengan jelas",
+      "word": "Look forward to",
+      "pronunciation": "/lʊk ˈfɔːr.wərd tuː/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To feel pleased and excited about something that is going to happen.",
+      "indonesian": "Menantikan sesuatu.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "She found it difficult to articulate her feelings after the argument.",
+      "ieltsBand": "6.5-7.5",
+      "example": "I'm really looking forward to my vacation next month.",
       "collocations": [
-        "articulate clearly",
-        "articulate thoughts",
-        "articulate a point"
+        "look forward to an event",
+        "look forward to meeting someone",
+        "look forward to hearing from you",
+        "look forward to the future"
       ],
       "synonyms": [
-        "express",
-        "voice",
-        "utter"
+        "anticipate",
+        "await",
+        "expect eagerly"
       ]
     },
     {
-      "word": "perceive",
-      "pronunciation": "/pərˈsiːv/",
-      "partOfSpeech": "verb",
-      "definition": "to become aware of something; to come to realize or understand.",
-      "indonesian": "mempersepsikan, menyadari",
+      "word": "Make sense",
+      "pronunciation": "/meɪk sens/",
+      "partOfSpeech": "idiom",
+      "definition": "To be logical or reasonable; to be easy to understand.",
+      "indonesian": "Masuk akal, dapat dimengerti.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "He perceived a change in her attitude when he mentioned his promotion.",
+      "ieltsBand": "6.0-7.0",
+      "example": "Her explanation of the new policy didn't make much sense to me.",
       "collocations": [
-        "perceive as",
-        "perceive a difference",
-        "perceive a threat"
-      ],
-      "synonyms": [
-        "notice",
-        "detect",
-        "recognize"
-      ]
-    },
-    {
-      "word": "subtle",
-      "pronunciation": "/ˈsʌtl/",
-      "partOfSpeech": "adjective",
-      "definition": "so delicate or precise as not to be obvious.",
-      "indonesian": "halus, samar",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "There was a subtle hint of cinnamon in the dessert.",
-      "collocations": [
-        "subtle difference",
-        "subtle change",
-        "subtle hint",
-        "subtle flavor"
-      ],
-      "synonyms": [
-        "faint",
-        "slight",
-        "delicate"
-      ]
-    },
-    {
-      "word": "coherent",
-      "pronunciation": "/koʊˈhɪərənt/",
-      "partOfSpeech": "adjective",
-      "definition": "logical and consistent; forming a unified whole.",
-      "indonesian": "koheren, padu",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "His argument was so coherent that everyone agreed with him.",
-      "collocations": [
-        "coherent argument",
-        "coherent plan",
-        "coherent narrative"
+        "make sense of something",
+        "it makes sense",
+        "doesn't make sense",
+        "common sense"
       ],
       "synonyms": [
         "logical",
-        "consistent",
+        "reasonable",
+        "comprehensible",
         "understandable"
       ]
     },
     {
-      "word": "substantiate",
-      "pronunciation": "/səbˈstænʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to provide evidence to support or prove the truth of something.",
-      "indonesian": "membuktikan, menguatkan",
+      "word": "On the go",
+      "pronunciation": "/ɒn ðə ɡəʊ/",
+      "partOfSpeech": "idiom",
+      "definition": "Very busy and active; doing many things at the same time.",
+      "indonesian": "Sangat sibuk, terus bergerak.",
       "level": "C1",
-      "ieltsBand": 7.5,
-      "example": "The lawyer needed more evidence to substantiate her client's claims.",
+      "ieltsBand": "7.0-8.0",
+      "example": "With two young children and a full-time job, she's always on the go.",
       "collocations": [
-        "substantiate a claim",
-        "substantiate a theory",
-        "substantiate allegations"
+        "always on the go",
+        "busy on the go",
+        "life on the go"
       ],
       "synonyms": [
-        "prove",
-        "verify",
-        "confirm"
+        "busy",
+        "active",
+        "hectic",
+        "on the move"
+      ]
+    },
+    {
+      "word": "Put off",
+      "pronunciation": "/pʊt ɒf/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To delay or postpone something.",
+      "indonesian": "Menunda.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.5",
+      "example": "I've been putting off going to the dentist for weeks.",
+      "collocations": [
+        "put off a decision",
+        "put off a meeting",
+        "put off until later",
+        "put off by something"
+      ],
+      "synonyms": [
+        "postpone",
+        "delay",
+        "defer",
+        "adjourn"
+      ]
+    },
+    {
+      "word": "So far",
+      "pronunciation": "/səʊ fɑːr/",
+      "partOfSpeech": "adverb",
+      "definition": "Until now; up to the present time.",
+      "indonesian": "Sejauh ini.",
+      "level": "B2",
+      "ieltsBand": "6.0-7.0",
+      "example": "So far, the project has been going very well.",
+      "collocations": [
+        "so far so good",
+        "so far this year",
+        "so far, we have",
+        "up to now / so far"
+      ],
+      "synonyms": [
+        "until now",
+        "up to now",
+        "to date",
+        "presently"
       ]
     }
   ]

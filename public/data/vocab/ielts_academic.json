@@ -1,171 +1,163 @@
 {
   "words": [
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, tersebar luas",
+      "word": "Exacerbate",
+      "pronunciation": "/ɪɡˈzæs.ə.beɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society.",
+      "ieltsBand": "7.5+",
+      "example": "The lack of investment in public transport will only exacerbate the existing traffic congestion in urban areas.",
       "collocations": [
-        "ubiquitous presence",
-        "ubiquitous technology",
-        "ubiquitous phenomenon"
+        "exacerbate the problem",
+        "exacerbate the situation",
+        "further exacerbate"
+      ],
+      "synonyms": [
+        "aggravate",
+        "worsen",
+        "intensify"
+      ]
+    },
+    {
+      "word": "Ubiquitous",
+      "pronunciation": "/juːˈbɪk.wɪ.təs/",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana",
+      "level": "C1",
+      "ieltsBand": "7.5+",
+      "example": "Mobile phones, once a luxury, have now become ubiquitous in almost every society.",
+      "collocations": [
+        "become ubiquitous",
+        "nearly ubiquitous",
+        "ubiquitous influence"
       ],
       "synonyms": [
         "omnipresent",
         "pervasive",
-        "universal",
-        "rife"
+        "universal"
       ]
     },
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
+      "word": "Mitigate",
+      "pronunciation": "/ˈmɪt.ɪ.ɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make something bad better.",
-      "indonesian": "memperbaiki, meningkatkan (situasi buruk)",
+      "definition": "To make something less severe, serious, or painful.",
+      "indonesian": "memitigasi / mengurangi dampak",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The government introduced new policies to ameliorate the economic crisis.",
+      "ieltsBand": "7.0+",
+      "example": "Governments must implement stricter regulations to mitigate the effects of climate change.",
       "collocations": [
-        "ameliorate the situation",
-        "ameliorate poverty",
-        "ameliorate conditions"
+        "mitigate the risk",
+        "mitigate the impact",
+        "mitigate the damage"
       ],
       "synonyms": [
-        "improve",
-        "better",
-        "enhance",
-        "alleviate"
+        "alleviate",
+        "reduce",
+        "attenuate"
       ]
     },
     {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsɛmɪneɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to spread or disperse (something, especially information) widely.",
-      "indonesian": "menyebarkan, menyiarkan (informasi)",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The organization aims to disseminate information about climate change to the public.",
-      "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate widely"
-      ],
-      "synonyms": [
-        "spread",
-        "circulate",
-        "propagate",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "conducive",
-      "pronunciation": "/kənˈdjuːsɪv/",
+      "word": "Pragmatic",
+      "pronunciation": "/præɡˈmæt.ɪk/",
       "partOfSpeech": "adjective",
-      "definition": "making a certain situation or outcome likely or possible.",
-      "indonesian": "mendukung, memungkinkan, kondusif",
+      "definition": "Solving problems in a sensible way that is based on practical rather than theoretical considerations.",
+      "indonesian": "pragmatis / praktis",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "A quiet environment is conducive to effective study.",
+      "ieltsBand": "7.0+",
+      "example": "A pragmatic approach to urban planning is necessary to balance economic growth with environmental preservation.",
       "collocations": [
-        "conducive to success",
-        "conducive to learning",
-        "conducive to growth"
+        "pragmatic approach",
+        "pragmatic solution",
+        "highly pragmatic"
       ],
       "synonyms": [
-        "favorable",
-        "beneficial",
-        "helpful",
-        "advantageous"
+        "practical",
+        "realistic",
+        "utilitarian"
       ]
     },
     {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
+      "word": "Detrimental",
+      "pronunciation": "/ˌdet.rɪˈmen.təl/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing harm or damage.",
+      "indonesian": "merugikan / berbahaya",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Excessive screen time can have a detrimental effect on a child's social development.",
+      "collocations": [
+        "detrimental effect",
+        "detrimental impact",
+        "highly detrimental"
+      ],
+      "synonyms": [
+        "harmful",
+        "deleterious",
+        "adverse"
+      ]
+    },
+    {
+      "word": "Ambiguous",
+      "pronunciation": "/æmˈbɪɡ.ju.əs/",
+      "partOfSpeech": "adjective",
+      "definition": "Open to more than one interpretation; not having one obvious meaning.",
+      "indonesian": "ambigu / bermakna ganda",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "The wording of the new law is ambiguous, leading to various interpretations by legal experts.",
+      "collocations": [
+        "ambiguous meaning",
+        "highly ambiguous",
+        "ambiguous phrasing"
+      ],
+      "synonyms": [
+        "equivocal",
+        "unclear",
+        "obscure"
+      ]
+    },
+    {
+      "word": "Proliferation",
+      "pronunciation": "/prəˌlɪf.əˈreɪ.ʃən/",
       "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir, contoh model",
+      "definition": "A rapid increase in the number or amount of something.",
+      "indonesian": "proliferasi / pertambahan cepat",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The discovery of DNA represented a paradigm shift in biology.",
+      "ieltsBand": "8.0+",
+      "example": "The proliferation of fake news on social media has undermined public trust in traditional journalism.",
+      "collocations": [
+        "rapid proliferation",
+        "proliferation of weapons",
+        "proliferation of technology"
+      ],
+      "synonyms": [
+        "expansion",
+        "surge",
+        "multiplication"
+      ]
+    },
+    {
+      "word": "Paradigm",
+      "pronunciation": "/ˈpær.ə.daɪm/",
+      "partOfSpeech": "noun",
+      "definition": "A typical example or pattern of something; a model.",
+      "indonesian": "paradigma / pola",
+      "level": "C1",
+      "ieltsBand": "8.0+",
+      "example": "The shift toward remote work represents a new paradigm in the modern professional landscape.",
       "collocations": [
         "paradigm shift",
-        "a new paradigm",
-        "scientific paradigm"
+        "dominant paradigm",
+        "conceptual paradigm"
       ],
       "synonyms": [
         "model",
-        "pattern",
         "framework",
-        "example"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "mengurangi, meredakan, memitigasi",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The company implemented measures to mitigate the environmental impact of its operations.",
-      "collocations": [
-        "mitigate risks",
-        "mitigate the effects",
-        "mitigate damage"
-      ],
-      "synonyms": [
-        "reduce",
-        "lessen",
-        "alleviate",
-        "ease"
-      ]
-    },
-    {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make a problem, bad situation, or negative feeling worse.",
-      "indonesian": "memperburuk, memperparah",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The drought will only exacerbate the food shortages in the region.",
-      "collocations": [
-        "exacerbate the problem",
-        "exacerbate tensions",
-        "exacerbate conflict"
-      ],
-      "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "inflame"
-      ]
-    },
-    {
-      "word": "pertinent",
-      "pronunciation": "/ˈpɜːrtɪnənt/",
-      "partOfSpeech": "adjective",
-      "definition": "relevant to a particular matter; apposite.",
-      "indonesian": "relevan, berkaitan, bersangkut paut",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Please only include information that is pertinent to the research question.",
-      "collocations": [
-        "pertinent to",
-        "pertinent information",
-        "pertinent question"
-      ],
-      "synonyms": [
-        "relevant",
-        "applicable",
-        "appropriate",
-        "germane"
+        "prototype"
       ]
     }
   ]

@@ -1,121 +1,37 @@
 {
-  "grammarChart": {
-    "title": "Passive Voice: be + Past Participle",
-    "structure": [
-      {
-        "tense": "Present Simple",
-        "active": "Subject + Verb (s/es) + Object",
-        "passive": "Object + am/is/are + Past Participle + (by Subject)"
-      },
-      {
-        "tense": "Past Simple",
-        "active": "Subject + Verb (ed) + Object",
-        "passive": "Object + was/were + Past Participle + (by Subject)"
-      },
-      {
-        "tense": "Present Perfect",
-        "active": "Subject + has/have + Past Participle + Object",
-        "passive": "Object + has/have + been + Past Participle + (by Subject)"
-      },
-      {
-        "tense": "Future Simple (will)",
-        "active": "Subject + will + Verb + Object",
-        "passive": "Object + will be + Past Participle + (by Subject)"
-      }
-    ]
-  },
-  "explanation": "The passive voice is used when the action or the object of the action is more important than the doer of the action. It shifts the focus from the subject (who performs the action) to the object (who or what receives the action). The structure of the passive voice is always 'be' (in the appropriate tense) + past participle of the main verb.",
+  "grammarChart": "Subject + be (am/is/are/was/were) + past participle",
+  "explanation": "The passive voice is formed with a form of the verb 'be' (am, is, are, was, were) followed by the past participle of the main verb. It is used when the focus is on the action or the object rather than the doer, which is often omitted.",
   "keyRules": [
-    "Identify the object of the active sentence. This becomes the subject of the passive sentence.",
-    "Determine the tense of the active verb.",
-    "Use the correct form of the verb 'be' to match the tense and the new subject.",
-    "Use the past participle of the main verb.",
-    "The original subject can be included in a 'by' phrase, but it is often omitted if it is unknown, unimportant, or obvious."
+    "Use the appropriate form of 'be' according to tense and subject agreement.",
+    "The past participle must agree with the verb's past participle form (e.g., 'written', 'broken', 'eaten').",
+    "For continuous tenses, use 'be' + 'being' + past participle (e.g., 'is being built').",
+    "For perfect tenses, use 'has/have/had' + past participle (active) or 'was/were' + past participle (passive)."
   ],
   "azarNotes": [
-    "The past participle is the third form of a verb (e.g., write, wrote, written). For regular verbs, it's the same as the simple past form (e.g., cook, cooked, cooked).",
-    "The 'by' phrase is optional. In academic writing (like IELTS essays), the passive voice is frequently used to maintain objectivity and formality, often omitting the 'by' phrase.",
-    "Be careful with irregular past participles. Memorize them!"
+    "In Indonesian, the passive can often be expressed with 'dibuat' or 'didanai', but in English we must use the auxiliary 'be'.",
+    "The tense of 'be' determines the tense of the whole passive clause.",
+    "If the doer is mentioned, it follows 'by' (e.g., 'by the committee')."
   ],
   "examples": [
-    {
-      "active": "The chef prepares the meal.",
-      "passive": "The meal is prepared by the chef."
-    },
-    {
-      "active": "Scientists discovered a new planet.",
-      "passive": "A new planet was discovered by scientists."
-    },
-    {
-      "active": "The company has launched a new product.",
-      "passive": "A new product has been launched by the company."
-    },
-    {
-      "active": "The committee will review the proposal.",
-      "passive": "The proposal will be reviewed by the committee."
-    },
-    {
-      "active": "Someone stole my bike.",
-      "passive": "My bike was stolen."
-    }
+    "The cake was baked by Maria.",
+    "The letters are written every day.",
+    "The project had been completed before the deadline.",
+    "The road is being repaired.",
+    "The book will be read by many students."
   ],
   "commonMistakes": [
-    "Incorrect form of 'be': Using 'am/is/are' in the past tense, or vice-versa.",
-    "Incorrect past participle: Using the base form or simple past form instead of the past participle.",
-    "Forgetting 'be': Simply putting the past participle after the object (e.g., 'The meal prepared').",
-    "Overusing the passive voice: Making sentences sound unnatural or wordy when the active voice would be clearer."
+    "Using 'was' with plural subjects (should be 'were').",
+    "Omitting the past participle (e.g., 'The window is' instead of 'The window is broken').",
+    "Using the base form of the verb instead of the past participle (e.g., 'The window is break').",
+    "Incorrectly placing 'by' phrase after the object instead of after the past participle.",
+    "Confusing active and passive forms in perfect tenses (e.g., 'has wrote' instead of 'has written')."
   ],
-  "ieltsTip": "In IELTS Writing Task 2, the passive voice is particularly useful for: \n- Discussing processes or procedures (e.g., 'The ingredients are mixed together...'). \n- Presenting research findings or general facts (e.g., 'It is believed that...'). \n- Avoiding repetition of 'people' or 'they' when the agent is general or unknown (e.g., 'More attention should be paid to...'). \n- Maintaining a formal and objective tone.",
+  "ieltsTip": "When describing a process or results in Task 1, use passive voice to keep the focus on the data rather than who performed the action, which helps achieve a higher band for grammatical range and accuracy.",
   "quiz": [
-    {
-      "question": "Change the following sentence to passive voice: 'The government bans plastic bags.'",
-      "options": [
-        "Plastic bags are banned by the government.",
-        "Plastic bags banned by the government.",
-        "The government is banned plastic bags.",
-        "Plastic bags is banned by the government."
-      ],
-      "correctAnswer": "Plastic bags are banned by the government."
-    },
-    {
-      "question": "What is the correct passive form of 'They built the bridge last year.'?",
-      "options": [
-        "The bridge built last year.",
-        "The bridge was built last year.",
-        "The bridge is built last year.",
-        "The bridge has built last year."
-      ],
-      "correctAnswer": "The bridge was built last year."
-    },
-    {
-      "question": "Complete the sentence with the correct passive form: 'The report _______ by the team yesterday.'",
-      "options": [
-        "is submitted",
-        "was submitted",
-        "has submitted",
-        "will submitted"
-      ],
-      "correctAnswer": "was submitted"
-    },
-    {
-      "question": "Choose the best passive sentence: 'Someone has stolen the painting.'",
-      "options": [
-        "The painting has stolen.",
-        "The painting has been stolen.",
-        "The painting is stolen.",
-        "The painting was stolen."
-      ],
-      "correctAnswer": "The painting has been stolen."
-    },
-    {
-      "question": "Which sentence uses the passive voice correctly?",
-      "options": [
-        "The new policy will effect immediately.",
-        "The new policy will be effected immediately.",
-        "The new policy will be affect immediately.",
-        "The new policy will affect immediately."
-      ],
-      "correctAnswer": "The new policy will be effected immediately."
-    }
+    "Choose the correct passive form: \"The scientist ___ (discover) a new species.\"",
+    "Identify the tense: \"The report was submitted yesterday.\" (What tense is the verb phrase?)",
+    "Rewrite the sentence in passive voice: \"The committee will approve the proposal.\"",
+    "Select the correct 'be' form for the sentence: \"All the cookies ___ (eat) by the children.\"",
+    "Which sentence correctly uses the passive continuous tense? A) The book is read B) The book is being read C) The book was read D) The book has been read"
   ]
 }
