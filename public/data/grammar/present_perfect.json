@@ -1,87 +1,136 @@
 {
   "grammarChart": {
-    "Form": "have/has + past participle",
-    "Meaning": "Experience, result, or action that started in the past and continues to present",
-    "Use": [
-      "Experience: I have visited London.",
-      "Result: She has broken her arm.",
-      "Duration since a past time: They have lived here for five years."
-    ]
+    "title": "Present Perfect Tense",
+    "structure": {
+      "positive": "Subject + have/has + Past Participle (V3)",
+      "negative": "Subject + have/has + not + Past Participle (V3)",
+      "question": "Have/Has + Subject + Past Participle (V3)?",
+      "shortAnswerYes": "Yes, Subject + have/has.",
+      "shortAnswerNo": "No, Subject + haven't/hasn't."
+    },
+    "auxiliaryVerbs": {
+      "have": [
+        "I",
+        "you",
+        "we",
+        "they",
+        "plural nouns"
+      ],
+      "has": [
+        "he",
+        "she",
+        "it",
+        "singular nouns"
+      ]
+    }
   },
-  "explanation": "The Present Perfect links past actions to the present. It is formed with the auxiliary verb ‘have’ (I, you, we, they) or ‘has’ (he, she, it) followed by the past participle form of the main verb. It expresses actions that are relevant now, have an impact on the present, or have occurred at an unspecified time.",
+  "explanation": "The Present Perfect tense is used to connect the past with the present. It talks about actions or states that started in the past and continue to the present, or actions that happened at an unspecified time in the past but have a result or relevance in the present.  The structure involves the auxiliary verbs 'have' or 'has' followed by the past participle form of the main verb.",
   "keyRules": [
-    "1. Use ‘have’ for I/you/we/they; use ‘has’ for he/she/it.",
-    "2. The past participle of regular verbs ends in –ed (walk → walked).",
-    "3. Irregular verbs have unique past participles (go → gone, see → seen, eat → eaten).",
-    "4. Time expressions: ‘ever’, ‘never’, ‘already’, ‘yet’, ‘just’, ‘since’, ‘for’.",
-    "5. Negative: have/has + not + past participle (haven’t, hasn’t).",
-    "6. Questions: Have/Has + subject + past participle?"
+    {
+      "rule": "Formation",
+      "description": "Use 'have' with I, you, we, they, and plural subjects. Use 'has' with he, she, it, and singular subjects. The past participle is the third form of the verb (e.g., go - went - gone; eat - ate - eaten). For regular verbs, the past participle is usually the same as the simple past (e.g., walk - walked - walked)."
+    },
+    {
+      "rule": "Usage 1: Unfinished Actions/States",
+      "description": "To talk about actions or states that began in the past and continue up to the present. Often used with 'for' (duration) and 'since' (starting point)."
+    },
+    {
+      "rule": "Usage 2: Completed Actions with Present Relevance",
+      "description": "To talk about actions that happened at an unspecified time in the past, but the result or effect is important now. This is common with adverbs like 'just', 'already', 'yet', 'ever', 'never'."
+    },
+    {
+      "rule": "Usage 3: Life Experiences",
+      "description": "To ask about or state experiences someone has had in their life, without specifying when. Often used with 'ever' and 'never'."
+    }
   ],
-  "azarNotes": "The Present Perfect is often confused with the simple past. Remember: the past participle does not indicate a specific time—use time expressions to clarify duration or experience.",
+  "azarNotes": "Remember that the past participle is crucial. For regular verbs, it's often '-ed', but for irregular verbs, you need to memorize them (e.g., 'seen', 'written', 'broken').  The context will usually tell you if the action is still relevant or ongoing.",
   "examples": [
-    "She has finished her homework.",
-    "They have been married for 12 years.",
-    "I have never tried sushi.",
-    "We have just moved into a new apartment.",
-    "He has broken his leg during the match."
+    {
+      "sentence": "She **has lived** in Jakarta for ten years.",
+      "tense": "Present Perfect",
+      "usage": "Unfinished action (still lives there)",
+      "notes": "Started living in Jakarta 10 years ago and continues to live there."
+    },
+    {
+      "sentence": "I **have never eaten** sushi before.",
+      "tense": "Present Perfect",
+      "usage": "Life experience (no sushi eaten up to now)",
+      "notes": "This is about my life experience until this moment."
+    },
+    {
+      "sentence": "They **have just finished** their project.",
+      "tense": "Present Perfect",
+      "usage": "Completed action with present relevance (the project is now done)",
+      "notes": "The action is finished, and the result (project is done) is important now."
+    },
+    {
+      "sentence": "He **hasn't called** me yet.",
+      "tense": "Present Perfect Negative",
+      "usage": "Unfinished action (still waiting for the call)",
+      "notes": "The call was expected, but it hasn't happened up to now."
+    },
+    {
+      "sentence": "**Have** you **seen** that new movie?",
+      "tense": "Present Perfect Question",
+      "usage": "Life experience/Completed action with present relevance (asking about their experience)",
+      "notes": "Asking if they have had the experience of seeing the movie."
+    }
   ],
   "commonMistakes": [
-    "Using ‘has/have’ with a past time expression: *I have visited Paris last year* (should be *I visited Paris last year*).",
-    "Forgetting the past participle form of irregular verbs: *She has ate* instead of *She has eaten*.",
-    "Using the simple present with a completed action: *I have the book* instead of *I have read the book*.",
-    "Incorrect negative form: *I don’t have finished the test* (should be *I haven’t finished the test*)."
+    "Using the simple past instead of the present perfect when the time is unspecified but has present relevance (e.g., 'I ate breakfast already' instead of 'I have already eaten breakfast').",
+    "Confusing 'for' and 'since' (e.g., 'I have lived here since 2020' is correct, but 'I have lived here for 2020' is incorrect).",
+    "Incorrect past participle form (e.g., 'He has went' instead of 'He has gone').",
+    "Using the present perfect with specific past time markers (e.g., 'I have gone there yesterday' is incorrect; use simple past: 'I went there yesterday')."
   ],
-  "ieltsTip": "In the IELTS Speaking test, use the Present Perfect to describe life experiences and achievements. It shows lexical range and grammatical accuracy. Example: *I have worked on a community project that helped reduce local waste.*",
+  "ieltsTip": "In IELTS Writing Task 1, the Present Perfect is very useful for describing changes over a period of time, especially when comparing past data to the present (e.g., 'The population **has increased** significantly since 1990'). In Speaking, use it to talk about your experiences and achievements.",
   "quiz": [
     {
-      "question": "Choose the correct form: She ___ (go) to the conference two times this year.",
+      "question": "Complete the sentence: She ______ to London three times.",
       "options": [
+        "went",
+        "goes",
         "has gone",
-        "has go",
-        "has went",
-        "has going"
+        "gone"
       ],
-      "answer": "has gone"
+      "correctAnswer": "has gone"
     },
     {
-      "question": "Fill in the blank: I ___ (never/see) such a beautiful sunrise.",
+      "question": "Choose the correct sentence:",
       "options": [
-        "has never seen",
-        "have never seen",
-        "has never saw",
-        "have never saw"
+        "I have finished my homework an hour ago.",
+        "I finished my homework an hour ago.",
+        "I have finished my homework an hour ago."
       ],
-      "answer": "have never seen"
+      "correctAnswer": "I finished my homework an hour ago."
     },
     {
-      "question": "Which sentence is incorrect?",
+      "question": "Complete the sentence: They ______ for this company since 2010.",
       "options": [
-        "They have lived here for five years.",
-        "He has broken his arm.",
-        "We have ate dinner already.",
-        "I have finished my assignment."
+        "work",
+        "worked",
+        "have worked",
+        "has worked"
       ],
-      "answer": "We have ate dinner already."
+      "correctAnswer": "have worked"
     },
     {
-      "question": "Rewrite in the Present Perfect: 'They moved to Jakarta last month.'",
+      "question": "Choose the correct question:",
       "options": [
-        "They have moved to Jakarta last month.",
-        "They have moved to Jakarta.",
-        "They have moved to Jakarta last month already.",
-        "They have been moved to Jakarta."
+        "Have you ever visited Bali?",
+        "Did you ever visit Bali?",
+        "Ever have you visited Bali?"
       ],
-      "answer": "They have moved to Jakarta."
+      "correctAnswer": "Have you ever visited Bali?"
     },
     {
-      "question": "Identify the correct negative form: 'She has not ___ (finish) the report.'",
+      "question": "Complete the sentence: He ______ his keys. He can't find them.",
       "options": [
-        "finished",
-        "finishing",
-        "finish",
-        "finishes"
+        "lost",
+        "has lost",
+        "loses",
+        "lose"
       ],
-      "answer": "finished"
+      "correctAnswer": "has lost"
     }
   ]
 }

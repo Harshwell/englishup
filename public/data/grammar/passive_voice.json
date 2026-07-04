@@ -1,37 +1,146 @@
 {
-  "grammarChart": "Subject + be (am/is/are/was/were) + past participle",
-  "explanation": "The passive voice is formed with a form of the verb 'be' (am, is, are, was, were) followed by the past participle of the main verb. It is used when the focus is on the action or the object rather than the doer, which is often omitted.",
+  "grammarChart": {
+    "title": "Passive Voice (be + past participle)",
+    "tenses": [
+      {
+        "tense": "Present Simple",
+        "active": "Subject + V1(s/es) + Object",
+        "passive": "Object + is/am/are + Past Participle (V3) + (by Subject)"
+      },
+      {
+        "tense": "Past Simple",
+        "active": "Subject + V2 + Object",
+        "passive": "Object + was/were + Past Participle (V3) + (by Subject)"
+      },
+      {
+        "tense": "Present Continuous",
+        "active": "Subject + is/am/are + V-ing + Object",
+        "passive": "Object + is/am/are + being + Past Participle (V3) + (by Subject)"
+      },
+      {
+        "tense": "Past Continuous",
+        "active": "Subject + was/were + V-ing + Object",
+        "passive": "Object + was/were + being + Past Participle (V3) + (by Subject)"
+      },
+      {
+        "tense": "Present Perfect",
+        "active": "Subject + has/have + Past Participle (V3) + Object",
+        "passive": "Object + has/have + been + Past Participle (V3) + (by Subject)"
+      },
+      {
+        "tense": "Past Perfect",
+        "active": "Subject + had + Past Participle (V3) + Object",
+        "passive": "Object + had + been + Past Participle (V3) + (by Subject)"
+      },
+      {
+        "tense": "Future Simple",
+        "active": "Subject + will + V1 + Object",
+        "passive": "Object + will + be + Past Participle (V3) + (by Subject)"
+      },
+      {
+        "tense": "Modals",
+        "active": "Subject + Modal + V1 + Object",
+        "passive": "Object + Modal + be + Past Participle (V3) + (by Subject)"
+      }
+    ]
+  },
+  "explanation": "The passive voice is a grammatical construction where the subject of a sentence receives the action of the verb, rather than performing it. It is formed using a form of the verb 'to be' (is, am, are, was, were, been, being) followed by the past participle (V3) of the main verb. The agent (the doer of the action) can be omitted or introduced with the preposition 'by'.",
   "keyRules": [
-    "Use the appropriate form of 'be' according to tense and subject agreement.",
-    "The past participle must agree with the verb's past participle form (e.g., 'written', 'broken', 'eaten').",
-    "For continuous tenses, use 'be' + 'being' + past participle (e.g., 'is being built').",
-    "For perfect tenses, use 'has/have/had' + past participle (active) or 'was/were' + past participle (passive)."
+    "The object of the active sentence becomes the subject of the passive sentence.",
+    "The verb in the passive sentence is always 'be' + past participle (V3).",
+    "The tense of the 'be' verb must match the tense of the original active sentence.",
+    "The agent (the original subject) is often omitted in the passive voice, especially when it is unknown, unimportant, or obvious.",
+    "If the agent is included, it is introduced by the preposition 'by'."
   ],
   "azarNotes": [
-    "In Indonesian, the passive can often be expressed with 'dibuat' or 'didanai', but in English we must use the auxiliary 'be'.",
-    "The tense of 'be' determines the tense of the whole passive clause.",
-    "If the doer is mentioned, it follows 'by' (e.g., 'by the committee')."
+    "Think of it as shifting the focus from *who* did the action to *what* was acted upon.",
+    "Passive voice is common in formal writing, scientific reports, news articles, and when the action itself is more important than the doer.",
+    "Be careful not to overuse the passive voice, as it can sometimes make your writing sound indirect or wordy. Active voice is generally more direct and engaging."
   ],
   "examples": [
-    "The cake was baked by Maria.",
-    "The letters are written every day.",
-    "The project had been completed before the deadline.",
-    "The road is being repaired.",
-    "The book will be read by many students."
+    {
+      "active": "The chef prepares the meal.",
+      "passive": "The meal is prepared by the chef."
+    },
+    {
+      "active": "The students completed the assignment.",
+      "passive": "The assignment was completed by the students."
+    },
+    {
+      "active": "The company is launching a new product.",
+      "passive": "A new product is being launched by the company."
+    },
+    {
+      "active": "They had already finished the project.",
+      "passive": "The project had already been finished by them."
+    },
+    {
+      "active": "Scientists will discover a cure.",
+      "passive": "A cure will be discovered by scientists."
+    },
+    {
+      "active": "You must submit the report by Friday.",
+      "passive": "The report must be submitted by Friday."
+    }
   ],
   "commonMistakes": [
-    "Using 'was' with plural subjects (should be 'were').",
-    "Omitting the past participle (e.g., 'The window is' instead of 'The window is broken').",
-    "Using the base form of the verb instead of the past participle (e.g., 'The window is break').",
-    "Incorrectly placing 'by' phrase after the object instead of after the past participle.",
-    "Confusing active and passive forms in perfect tenses (e.g., 'has wrote' instead of 'has written')."
+    "Incorrect form of 'be': Using 'is' with a plural subject, or forgetting 'be' altogether.",
+    "Using the wrong participle: Using the present participle (-ing) instead of the past participle (V3).",
+    "Confusing active and passive: Forgetting to shift the object to subject and vice-versa.",
+    "Overusing passive voice: Making sentences sound weak or indirect when active voice would be better.",
+    "Incorrect preposition for the agent: Using 'with' or other prepositions instead of 'by' when introducing the agent."
   ],
-  "ieltsTip": "When describing a process or results in Task 1, use passive voice to keep the focus on the data rather than who performed the action, which helps achieve a higher band for grammatical range and accuracy.",
+  "ieltsTip": "In IELTS Writing Task 1 (Academic), the passive voice is essential for describing processes and reports where the focus is on the stages or the results, not necessarily on who performs them. For example, 'Water is heated to 100°C' or 'The results were analyzed by the research team'. In Task 2, use it strategically to emphasize the action or the subject receiving the action, especially in formal arguments.",
   "quiz": [
-    "Choose the correct passive form: \"The scientist ___ (discover) a new species.\"",
-    "Identify the tense: \"The report was submitted yesterday.\" (What tense is the verb phrase?)",
-    "Rewrite the sentence in passive voice: \"The committee will approve the proposal.\"",
-    "Select the correct 'be' form for the sentence: \"All the cookies ___ (eat) by the children.\"",
-    "Which sentence correctly uses the passive continuous tense? A) The book is read B) The book is being read C) The book was read D) The book has been read"
+    {
+      "question": "Choose the correct passive form: The company ______ a new policy last week.",
+      "options": [
+        "introduced",
+        "was introduced",
+        "is introduced",
+        "has introduced"
+      ],
+      "answer": "was introduced"
+    },
+    {
+      "question": "Choose the correct passive form: The Mona Lisa ______ by Leonardo da Vinci.",
+      "options": [
+        "painted",
+        "is painting",
+        "is painted",
+        "has painted"
+      ],
+      "answer": "is painted"
+    },
+    {
+      "question": "Choose the correct passive form: The report ______ by the end of the day.",
+      "options": [
+        "will finish",
+        "will be finished",
+        "is finishing",
+        "has finished"
+      ],
+      "answer": "will be finished"
+    },
+    {
+      "question": "Choose the correct passive form: The students ______ the exam questions right now.",
+      "options": [
+        "are answering",
+        "are being answered",
+        "are answered",
+        "have answered"
+      ],
+      "answer": "are being answered"
+    },
+    {
+      "question": "Choose the correct passive form: All the necessary documents ______ before the meeting.",
+      "options": [
+        "had been submitted",
+        "had submitted",
+        "were submitted",
+        "are submitted"
+      ],
+      "answer": "had been submitted"
+    }
   ]
 }

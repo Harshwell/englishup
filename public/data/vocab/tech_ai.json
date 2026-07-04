@@ -1,161 +1,176 @@
 {
   "words": [
     {
-      "word": "Automate",
-      "pronunciation": "/ˈɔː.tə.meɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To make a process operate automatically by using machines or computers.",
-      "indonesian": "Mengotomatiskan",
-      "level": "B2",
-      "ieltsBand": "6.5",
-      "example": "Many manufacturing processes have been automated to increase efficiency and reduce human error.",
-      "collocations": [
-        "fully automate",
-        "automate a process",
-        "automate tasks"
-      ],
-      "synonyms": [
-        "mechanize",
-        "computerize"
-      ]
-    },
-    {
       "word": "Algorithm",
-      "pronunciation": "/ˈæl.ɡə.rɪ.ðəm/",
+      "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A set of rules or steps to be followed in calculations or other problem-solving operations, especially by a computer.",
+      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
       "indonesian": "Algoritma",
-      "level": "C1",
+      "level": "B2",
       "ieltsBand": "7.0",
-      "example": "Social media platforms use complex algorithms to determine which content appears on a user's feed.",
+      "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
         "complex algorithm",
         "search algorithm",
+        "machine learning algorithm",
+        "data algorithm",
         "algorithm design"
       ],
       "synonyms": [
         "procedure",
-        "formula",
-        "set of rules"
+        "process",
+        "method",
+        "formula"
       ]
     },
     {
-      "word": "Disruptive",
-      "pronunciation": "/dɪsˈrʌp.tɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "Causing radical change in an industry or market, typically by introducing new technology.",
-      "indonesian": "Inovatif yang mengganggu (mengubah tatanan)",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Artificial intelligence is considered a disruptive technology that will reshape the global job market.",
-      "collocations": [
-        "disruptive technology",
-        "disruptive innovation",
-        "highly disruptive"
-      ],
-      "synonyms": [
-        "revolutionary",
-        "unsettling",
-        "transformative"
-      ]
-    },
-    {
-      "word": "Obsolete",
-      "pronunciation": "/ˈɒb.səl.iːt/",
-      "partOfSpeech": "adjective",
-      "definition": "No longer produced or used; out of date.",
-      "indonesian": "Usang / Ketinggalan zaman",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "Rapid technological advancement means that hardware can become obsolete within just a few years.",
-      "collocations": [
-        "become obsolete",
-        "technologically obsolete",
-        "rendered obsolete"
-      ],
-      "synonyms": [
-        "outdated",
-        "archaic",
-        "defunct"
-      ]
-    },
-    {
-      "word": "Augment",
-      "pronunciation": "/ɔːɡˈment/",
-      "partOfSpeech": "verb",
-      "definition": "To make something greater by adding to it; in tech, to enhance human capabilities with technology.",
-      "indonesian": "Meningkatkan / Menambah",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Augmented reality is used to augment the user's perception of the physical world.",
-      "collocations": [
-        "augment intelligence",
-        "augment capabilities",
-        "augment reality"
-      ],
-      "synonyms": [
-        "enhance",
-        "supplement",
-        "boost"
-      ]
-    },
-    {
-      "word": "Ethical",
-      "pronunciation": "/ˈeθ.ɪ.kəl/",
-      "partOfSpeech": "adjective",
-      "definition": "Relating to moral principles; often used in AI discussions regarding bias and privacy.",
-      "indonesian": "Etis / Berhubungan dengan etika",
+      "word": "Automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
+      "partOfSpeech": "noun",
+      "definition": "The use of technology to perform tasks with minimal human intervention.",
+      "indonesian": "Otomatisasi",
       "level": "B2",
-      "ieltsBand": "6.5",
-      "example": "The development of autonomous vehicles raises significant ethical concerns regarding liability in accidents.",
+      "ieltsBand": "7.0",
+      "example": "Automation is transforming manufacturing industries.",
       "collocations": [
-        "ethical dilemma",
-        "ethical implications",
-        "ethical standards"
+        "process automation",
+        "industrial automation",
+        "home automation",
+        "job automation",
+        "increase automation"
       ],
       "synonyms": [
-        "moral",
-        "principled"
+        "mechanization",
+        "robotics",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "Neural Network",
+      "pronunciation": "/ˈnjʊərəl ˈnetwɜːk/",
+      "partOfSpeech": "noun",
+      "definition": "A type of artificial intelligence modeled on the human brain, used for learning and pattern recognition.",
+      "indonesian": "Jaringan Saraf Tiruan",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Deep learning relies heavily on sophisticated neural networks.",
+      "collocations": [
+        "artificial neural network",
+        "deep neural network",
+        "train a neural network",
+        "neural network architecture",
+        "neural network model"
+      ],
+      "synonyms": [
+        "AI model",
+        "computational model"
+      ]
+    },
+    {
+      "word": "Scalability",
+      "pronunciation": "/ˌskeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "Skalabilitas",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "The cloud platform offers excellent scalability for growing businesses.",
+      "collocations": [
+        "system scalability",
+        "platform scalability",
+        "network scalability",
+        "ensure scalability",
+        "test scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "flexibility",
+        "adaptability"
       ]
     },
     {
       "word": "Ubiquitous",
-      "pronunciation": "/juːˈbɪk.wɪ.təs/",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
       "partOfSpeech": "adjective",
       "definition": "Present, appearing, or found everywhere.",
       "indonesian": "Ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "Smartphones have become ubiquitous in modern society, changing how we communicate.",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Smartphones have become ubiquitous in modern society.",
       "collocations": [
-        "become ubiquitous",
+        "ubiquitous technology",
+        "ubiquitous computing",
         "ubiquitous presence",
-        "increasingly ubiquitous"
+        "become ubiquitous",
+        "nearly ubiquitous"
       ],
       "synonyms": [
         "omnipresent",
         "pervasive",
+        "universal",
         "widespread"
       ]
     },
     {
-      "word": "Vulnerable",
-      "pronunciation": "/ˈvʌl.nər.ə.bəl/",
-      "partOfSpeech": "adjective",
-      "definition": "Susceptible to physical or emotional attack or damage; in tech, susceptible to security breaches.",
-      "indonesian": "Rentan",
-      "level": "B2",
-      "ieltsBand": "6.5",
-      "example": "Without proper encryption, personal data remains vulnerable to cyber-attacks.",
+      "word": "Augmented Reality (AR)",
+      "pronunciation": "/ɔːɡˈmentɪd riˈælɪti/",
+      "partOfSpeech": "noun",
+      "definition": "A technology that superimposes computer-generated images onto a user's view of the real world.",
+      "indonesian": "Realitas Tertambah (AR)",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Augmented reality is being used in education and gaming.",
       "collocations": [
-        "vulnerable to attacks",
-        "highly vulnerable",
-        "vulnerable system"
+        "augmented reality experience",
+        "augmented reality application",
+        "augmented reality system",
+        "develop augmented reality",
+        "immerse in augmented reality"
       ],
       "synonyms": [
-        "susceptible",
-        "exposed",
-        "at risk"
+        "enhanced reality"
+      ]
+    },
+    {
+      "word": "Disruptive",
+      "pronunciation": "/dɪsˈrʌptɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing or tending to cause disruption; relating to or characterized by disruption.",
+      "indonesian": "Mengganggu / Merusak (dalam konteks inovasi)",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Artificial intelligence is a disruptive technology that is changing many industries.",
+      "collocations": [
+        "disruptive technology",
+        "disruptive innovation",
+        "disruptive effect",
+        "potentially disruptive",
+        "highly disruptive"
+      ],
+      "synonyms": [
+        "revolutionary",
+        "game-changing",
+        "transformative"
+      ]
+    },
+    {
+      "word": "Machine Learning",
+      "pronunciation": "/məˈʃiːn ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "A subfield of artificial intelligence that gives computers the ability to learn without being explicitly programmed.",
+      "indonesian": "Pembelajaran Mesin",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Machine learning algorithms are used to predict customer behavior.",
+      "collocations": [
+        "machine learning model",
+        "supervised machine learning",
+        "unsupervised machine learning",
+        "apply machine learning",
+        "advances in machine learning"
+      ],
+      "synonyms": [
+        "ML"
       ]
     }
   ]

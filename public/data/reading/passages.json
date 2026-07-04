@@ -1,181 +1,251 @@
 [
   {
-    "title": "Working from Home: A New Way to Be Productive?",
-    "topic": "Remote Work and Productivity",
-    "difficulty": "Beginner",
-    "passage": "Remote work, also known as working from home, has become very popular. Many companies now let their employees work from their houses instead of going to the office every day.  This change started a few years ago and has grown a lot.  One of the main reasons people like remote work is flexibility.  They can often choose when they start and finish their work. This can help them balance their job with their personal life.  For example, someone might start work early so they can finish in the afternoon to pick up their children from school.  Another benefit is that people save time and money by not commuting.  Commuting is traveling to and from work.  This travel can be long and tiring.  Saving this time means more time for other activities.  However, remote work is not always easy.  Some people find it hard to focus at home. There can be many distractions, like family members or household chores.  Also, some people miss the social interaction they have in the office. Talking to colleagues and having lunch together can be important for many.\n\nDespite these challenges, many studies show that remote work can actually increase productivity. When people have more control over their schedule and fewer interruptions, they can often get more done. They can create a work environment that suits them best.  For instance, some people work better in quiet spaces, while others prefer listening to music.  Company culture can also adapt to remote work.  Many businesses are finding new ways to keep their teams connected and motivated, even when they are not in the same physical location.  This might involve regular video calls or online team-building activities.  Overall, remote work offers a different approach to work that can be very effective for both employees and employers.",
+    "title": "The Dawn of AI in the Classroom",
+    "topic": "Artificial Intelligence and Education",
+    "difficulty": "Intermediate",
+    "passage": "Artificial Intelligence (AI) is no longer a futuristic concept; it is rapidly becoming an integrated part of our daily lives, and its influence is increasingly being felt in the realm of education.  The potential applications of AI in educational settings are vast and varied, promising to revolutionize how students learn and how educators teach. One of the most significant impacts is the development of personalized learning platforms. These systems can analyze a student's performance, identify areas of weakness, and tailor the curriculum to their individual needs and pace.  For instance, an AI tutor could provide immediate feedback on assignments, offer supplementary materials for difficult concepts, or even adjust the difficulty of exercises in real-time. This level of customization was previously unimaginable in traditional classroom environments, where a single teacher must cater to a diverse group of learners.\n\nBeyond personalized learning, AI is also poised to streamline administrative tasks for educators. Grading papers, managing student records, and scheduling can be time-consuming burdens that detract from valuable teaching time. AI-powered tools can automate many of these processes, freeing up teachers to focus on more impactful activities like lesson planning, student interaction, and professional development. Furthermore, AI can assist in identifying students who may be struggling or at risk of falling behind. By analyzing patterns in engagement, performance, and attendance, AI systems can flag these students for early intervention, allowing educators to provide targeted support before issues escalate.\n\nHowever, the integration of AI into education is not without its challenges. Concerns about data privacy and security are paramount. Educational institutions must ensure that student data collected by AI systems is protected from misuse and breaches. Ethical considerations also arise, particularly regarding the potential for bias in AI algorithms. If not carefully designed and monitored, AI systems could inadvertently perpetuate existing inequalities.  Moreover, the role of the human teacher remains crucial. While AI can offer valuable support, it cannot fully replicate the empathy, creativity, and critical thinking skills that human educators bring to the classroom.  The future of AI in education likely lies in a collaborative model, where AI serves as a powerful assistant to human teachers, enhancing their capabilities and enriching the learning experience for students.",
     "vocabulary": [
       {
-        "word": "Remote work",
-        "meaning": "Working from a location outside the traditional office, usually from home.",
-        "example": "Remote work allows for more flexibility in daily schedules."
+        "word": "futuristic",
+        "meaning": "relating to or characteristic of the future",
+        "indonesian_meaning": "futuristik, bersifat masa depan"
       },
       {
-        "word": "Productivity",
-        "meaning": "The rate at which goods are produced or work is completed.",
-        "example": "Studies show that remote work can increase productivity for some people."
+        "word": "integrated",
+        "meaning": "combined with something else",
+        "indonesian_meaning": "terintegrasi, terpadu"
       },
       {
-        "word": "Flexibility",
-        "meaning": "The ability to change or be changed easily.",
-        "example": "The flexibility of remote work is a major advantage."
+        "word": "realm",
+        "meaning": "an area of activity or interest",
+        "indonesian_meaning": "ranah, bidang"
       },
       {
-        "word": "Commuting",
-        "meaning": "The regular journey between one's home and place of work.",
-        "example": "Commuting can take up a lot of time and energy."
+        "word": "tailor",
+        "meaning": "to make or adapt something for a particular purpose or person",
+        "indonesian_meaning": "menyesuaikan, merancang khusus"
       },
       {
-        "word": "Distractions",
-        "meaning": "Things that prevent someone from giving full attention to something.",
-        "example": "It can be hard to avoid distractions when working from home."
+        "word": "unimaginable",
+        "meaning": "impossible to imagine",
+        "indonesian_meaning": "tak terbayangkan"
       },
       {
-        "word": "Interaction",
-        "meaning": "Communication or direct involvement with someone or something.",
-        "example": "Some people miss the social interaction of the office."
+        "word": "streamline",
+        "meaning": "to make an organization or system more efficient and effective by using faster or simpler methods",
+        "indonesian_meaning": "menyederhanakan, mengefisienkan"
       },
       {
-        "word": "Motivated",
-        "meaning": "Enthusiastic and committed to a task or purpose.",
-        "example": "Companies need to find ways to keep remote teams motivated."
+        "word": "detract",
+        "meaning": "to reduce or take away the value or importance of something",
+        "indonesian_meaning": "mengurangi, mengurangi nilai"
+      },
+      {
+        "word": "automate",
+        "meaning": "to use machines and technology to do a job instead of humans",
+        "indonesian_meaning": "mengotomatisasi"
+      },
+      {
+        "word": "paramount",
+        "meaning": "more important than anything else; supreme",
+        "indonesian_meaning": "paling penting, utama"
+      },
+      {
+        "word": "perpetuate",
+        "meaning": "to make something continue indefinitely",
+        "indonesian_meaning": "melanggengkan, mempertahankan"
+      },
+      {
+        "word": "empathy",
+        "meaning": "the ability to understand and share the feelings of another",
+        "indonesian_meaning": "empati, kepedulian"
+      },
+      {
+        "word": "collaborative",
+        "meaning": "involving or done by two or more people or organizations working together",
+        "indonesian_meaning": "kolaboratif, kerja sama"
       }
     ],
     "questions": [
       {
         "id": 1,
         "type": "multiple_choice",
-        "question": "What is another name for remote work mentioned in the passage?",
+        "question": "According to the passage, what is one of the primary benefits of AI in education?",
         "options": [
-          "Office work",
-          "Working from home",
-          "Business travel",
-          "Team meetings"
+          "Reducing the cost of textbooks",
+          "Providing personalized learning experiences",
+          "Eliminating the need for human teachers",
+          "Increasing the number of standardized tests"
         ],
-        "answer": "Working from home"
+        "correct_answer": "Providing personalized learning experiences"
       },
       {
         "id": 2,
         "type": "true_false_not_given",
-        "question": "Remote work means employees must go to the office twice a week.",
-        "answer": "False"
+        "question": "AI can help teachers by automating administrative tasks, allowing them to focus more on teaching.",
+        "answer": "True"
       },
       {
         "id": 3,
         "type": "short_answer",
-        "question": "What is one benefit of remote work related to time and money?",
-        "answer": "Saving time and money by not commuting."
+        "question": "What kind of intervention can AI systems facilitate for students who are struggling?",
+        "answer": "Early intervention"
       },
       {
         "id": 4,
         "type": "multiple_choice",
-        "question": "Which of the following is a challenge of remote work?",
+        "question": "Which of the following is NOT mentioned as a challenge associated with AI in education?",
         "options": [
-          "Too much flexibility",
-          "Lack of social interaction",
-          "Saving too much money",
-          "Too much quiet"
+          "Data privacy and security",
+          "The cost of AI hardware",
+          "Potential for bias in algorithms",
+          "The irreplaceable role of human teachers"
         ],
-        "answer": "Lack of social interaction"
+        "correct_answer": "The cost of AI hardware"
       },
       {
         "id": 5,
         "type": "true_false_not_given",
-        "question": "Studies show that remote work always decreases productivity.",
+        "question": "The passage suggests that AI will completely replace human teachers in the future.",
         "answer": "False"
       }
     ],
     "ieltsTips": [
       {
-        "tip": "Read the questions first before reading the passage. This will help you know what information to look for.",
-        "section": "General"
+        "tip": "For 'True/False/Not Given' questions, carefully read the statement and then scan the passage for keywords. If the passage directly supports the statement, it's 'True'. If it directly contradicts it, it's 'False'. If the information is not present in the passage, it's 'Not Given'.",
+        "focus": "True/False/Not Given"
       },
       {
-        "tip": "For True/False/Not Given questions, carefully compare the statement in the question with the information in the passage. If the passage says the opposite, it's False. If the information is not in the passage, it's Not Given.",
-        "section": "True/False/Not Given"
+        "tip": "When answering 'Short Answer' questions, look for specific information that directly answers the question. Avoid adding extra information that is not asked for. Keep your answers concise.",
+        "focus": "Short Answer"
       },
       {
-        "tip": "For Short Answer questions, find the specific information in the passage that answers the question. Keep your answers concise.",
-        "section": "Short Answer"
+        "tip": "For 'Multiple Choice' questions, read the question and then read all the options before looking for the answer in the passage. Eliminate options that are clearly incorrect based on the text.",
+        "focus": "Multiple Choice"
       },
       {
-        "tip": "Pay attention to synonyms and paraphrased ideas. The passage might not use the exact same words as the question.",
-        "section": "General"
+        "tip": "Pay attention to synonyms and paraphrased ideas in the passage. The IELTS often uses different wording to express the same meaning.",
+        "focus": "Vocabulary and Paraphrasing"
+      },
+      {
+        "tip": "Understand the main idea of each paragraph. This will help you locate specific information more efficiently and answer comprehension questions accurately.",
+        "focus": "Reading Comprehension Strategy"
       }
     ]
   },
   {
-    "title": "Climate Change and Urban Planning: Rethinking Sustainable Cities",
-    "topic": "Climate Change and Urban Planning",
-    "difficulty": "Advanced",
-    "passage": "The accelerated pace of urbanisation worldwide has precipitated a symbiotic relationship between climate change and city development, necessitating a fundamental paradigm shift in how metropolitan areas are conceptualised and constructed. Rising global temperatures, erratic weather patterns, and increased frequency of extreme climatic events have exposed the vulnerability of existing urban infrastructure, which was predominantly designed during an era of relative climatic stability. Contemporary urban planners are increasingly recognising that traditional approaches to city planning, characterised by horizontal sprawl and car-centric design, have exacerbated greenhouse gas emissions while simultaneously diminishing urban resilience to climate impacts.\n\nA comprehensive analysis of leading sustainable cities reveals that successful adaptation strategies typically integrate three core principles: mitigation through carbon-neutral development, adaptation through resilient infrastructure, and restoration through ecological rehabilitation. Singapore's 'City in a Garden' vision exemplifies this holistic approach, where vertical greening systems, extensive public transportation networks, and smart building technologies collectively reduce the urban heat island effect while sequestering carbon. Similarly, Copenhagen's commitment to carbon neutrality by 2025 demonstrates how integrated energy systems, cycling infrastructure, and district heating can transform urban mobility patterns and energy consumption.\n\nHowever, the implementation of such sophisticated urban planning frameworks encounters substantial barriers, including fiscal constraints, political resistance, and the entrenched nature of existing infrastructure. Emerging economies, particularly those experiencing rapid urban growth, often struggle to balance immediate developmental needs with long-term sustainability objectives. The concept of 'climate gentrification' further complicates this landscape, as environmentally improved neighbourhoods frequently become inaccessible to existing low-income communities, thereby perpetuating social inequities despite environmental gains.\n\nInnovative financing mechanisms, such as green bonds and payment for ecosystem services, are beginning to address some financial barriers, while technological advances in smart city applications offer unprecedented opportunities for real-time monitoring and optimisation of urban systems. Nevertheless, the transition towards climate-resilient urban development requires not merely technical solutions but a fundamental reconfiguration of governance structures, social norms, and economic incentives that currently perpetuate unsustainable practices.",
+    "title": "Working from Home: A New Way to Be Productive?",
+    "topic": "Remote Work and Productivity",
+    "difficulty": "Beginner",
+    "passage": "Many companies are now letting their employees work from home. This is often called 'remote work' or 'working from home'. For some people, working at home means they can focus better. There are fewer interruptions from colleagues, and they can create a quiet space for their tasks. This can lead to more work being done in less time, which is good for productivity.\n\nHowever, working from home is not always easy. Some people find it hard to separate their work life from their home life. They might get distracted by things around the house, like family or chores. It can also be difficult to communicate with colleagues and managers when you are not in the same office. This can sometimes slow down projects.\n\nDespite these challenges, many studies show that remote work can be very productive. Companies need to provide good tools and support for their remote workers. Clear communication and trust are also very important for success. When done correctly, working from home can be a win-win situation for both employees and employers.",
     "vocabulary": [
       {
-        "word": "precipitated",
-        "definition": "caused or brought about (something)"
+        "word": "remote work",
+        "meaning": "working from a location other than the office, usually home"
       },
       {
-        "word": "symbiotic relationship",
-        "definition": "interdependent relationship between two or more elements"
+        "word": "productivity",
+        "meaning": "the rate at which work is done"
       },
       {
-        "word": "paradigm shift",
-        "definition": "a fundamental change in approach or concept"
+        "word": "interruptions",
+        "meaning": "things that stop you from continuing what you are doing"
       },
       {
-        "word": "urban heat island effect",
-        "definition": "the phenomenon where cities are significantly warmer than surrounding rural areas"
+        "word": "distracted",
+        "meaning": "unable to concentrate because of something else"
       },
       {
-        "word": "carbon-neutral development",
-        "definition": "development that produces no net carbon emissions"
+        "word": "communicate",
+        "meaning": "to share information with someone"
       },
       {
-        "word": "ecological rehabilitation",
-        "definition": "restoring damaged ecosystems to a healthy state"
+        "word": "challenges",
+        "meaning": "difficulties"
       },
       {
-        "word": "climate gentrification",
-        "definition": "displacement of residents due to environmental improvements"
-      },
-      {
-        "word": "green bonds",
-        "definition": "financial instruments financing environmentally beneficial projects"
+        "word": "win-win situation",
+        "meaning": "a situation where everyone involved benefits"
       }
     ],
     "questions": [
       {
-        "question": "According to the passage, what are the three core principles that successful adaptation strategies in sustainable cities typically integrate?",
-        "answer_type": "factual",
-        "answer": "mitigation through carbon-neutral development, adaptation through resilient infrastructure, and restoration through ecological rehabilitation"
+        "question_number": 1,
+        "question_text": "What is another name for 'remote work' mentioned in the passage?",
+        "options": {
+          "A": "Office work",
+          "B": "Working from home",
+          "C": "Teamwork",
+          "D": "Business travel"
+        },
+        "correct_answer": "B"
       },
       {
-        "question": "Which two cities does the passage cite as examples of successful climate-adaptive urban planning, and what specific strategies do they employ?",
-        "answer_type": "comparative",
-        "answer": "Singapore employs vertical greening systems, extensive public transportation networks, and smart building technologies; Copenhagen focuses on integrated energy systems, cycling infrastructure, and district heating"
+        "question_number": 2,
+        "question_text": "According to the passage, why might some people focus better when working at home?",
+        "options": {
+          "A": "Because they have more meetings.",
+          "B": "Because there are fewer interruptions.",
+          "C": "Because they can see their colleagues.",
+          "D": "Because the office is too quiet."
+        },
+        "correct_answer": "B"
       },
       {
-        "question": "What barriers to implementing sophisticated urban planning frameworks does the passage identify, and how do they disproportionately affect emerging economies?",
-        "answer_type": "analytical",
-        "answer": "The passage identifies fiscal constraints, political resistance, and entrenched infrastructure as barriers. Emerging economies struggle most because they must balance immediate developmental needs with long-term sustainability while often lacking the financial resources for expensive green infrastructure"
+        "question_number": 3,
+        "question_text": "What is a difficulty mentioned for people working from home?",
+        "options": {
+          "A": "Too much communication",
+          "B": "Not enough chores",
+          "C": "Hard to separate work and home life",
+          "D": "Too many colleagues"
+        },
+        "correct_answer": "C"
       },
       {
-        "question": "How does the passage define 'climate gentrification,' and what social problem does this phenomenon create?",
-        "answer_type": "inferential",
-        "answer": "'Climate gentrification' refers to environmentally improved neighbourhoods becoming inaccessible to existing low-income communities. This creates social inequity by displacing residents despite environmental improvements."
+        "question_number": 4,
+        "question_text": "What can sometimes slow down projects when working remotely?",
+        "options": {
+          "A": "Good communication",
+          "B": "Clear instructions",
+          "C": "Difficulty communicating with others",
+          "D": "More free time"
+        },
+        "correct_answer": "C"
       },
       {
-        "question": "What does the passage suggest is necessary beyond technical solutions for transitioning to climate-resilient urban development?",
-        "answer_type": "evaluation",
-        "answer": "Beyond technical solutions, the passage suggests that transitioning requires fundamental reconfiguration of governance structures, social norms, and economic incentives that perpetuate unsustainable practices"
+        "question_number": 5,
+        "question_text": "What does the passage say is important for the success of remote work?",
+        "options": {
+          "A": "More office parties",
+          "B": "Good tools, support, communication, and trust",
+          "C": "Fewer distractions at home",
+          "D": "Working longer hours"
+        },
+        "correct_answer": "B"
       }
     ],
     "ieltsTips": [
-      "For multiple choice questions, focus on precise wording - IELTS often includes distractors with partially correct but inaccurate information",
-      "When summarising paragraphs, look for the main idea in the first sentence and supporting details in subsequent sentences",
-      "For true/false/not given questions, distinguish between absolute certainty and partial truth - the passage may contain facts that are technically correct but not directly stated",
-      "Practise identifying synonyms and paraphrasing techniques to match question words with passage wording",
-      "Set a timer for 20 minutes when practising to simulate actual test conditions and improve time management skills"
+      {
+        "tip_number": 1,
+        "tip_text": "Read the questions carefully first to understand what information you need to find in the passage. This is called 'skimming' for specific answers.",
+        "for_section": "Reading Comprehension"
+      },
+      {
+        "tip_number": 2,
+        "tip_text": "Look for keywords from the questions in the passage. The answers are often found near these keywords.",
+        "for_section": "Reading Comprehension"
+      },
+      {
+        "tip_number": 3,
+        "tip_text": "Pay attention to synonyms. The passage might use different words to describe the same idea as in the question.",
+        "for_section": "Vocabulary and Understanding"
+      },
+      {
+        "tip_number": 4,
+        "tip_text": "For multiple-choice questions, read all the options before choosing. Sometimes, one option might seem correct but is not fully supported by the text.",
+        "for_section": "Reading Comprehension (Multiple Choice)"
+      }
     ]
   }
 ]

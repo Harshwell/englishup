@@ -4,43 +4,41 @@
       "word": "Catch up",
       "pronunciation": "/kætʃ ʌp/",
       "partOfSpeech": "phrasal verb",
-      "definition": "To reach someone or something by moving faster than them; to talk to someone you have not seen for some time.",
-      "indonesian": "Bertemu/berbicara dengan seseorang setelah lama tidak bertemu; mengejar ketertinggalan.",
+      "definition": "To reach someone or something by going faster than them; to talk to someone you have not seen for some time.",
+      "indonesian": "Bertemu kembali / Menyusul",
       "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "I haven't seen Sarah in months, so I'm going to meet her for coffee this weekend to catch up.",
+      "ieltsBand": 7,
+      "example": "I haven't seen Sarah for ages, so I'm going to meet her for coffee to catch up.",
       "collocations": [
-        "catch up with friends",
+        "catch up with someone",
         "catch up on news",
-        "catch up on work",
-        "catch up on sleep"
+        "catch up on work"
       ],
       "synonyms": [
+        "reunite",
         "reconnect",
-        "get together",
-        "update each other"
+        "get up to speed"
       ]
     },
     {
       "word": "Figure out",
-      "pronunciation": "/ˈfɪɡ.ər aʊt/",
+      "pronunciation": "/ˈfɪɡ.jər aʊt/",
       "partOfSpeech": "phrasal verb",
       "definition": "To understand or solve something.",
-      "indonesian": "Mencari tahu, memahami, memecahkan masalah.",
+      "indonesian": "Mencari tahu / Memecahkan",
       "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "I can't figure out how to assemble this IKEA furniture; the instructions are so confusing.",
+      "ieltsBand": 7,
+      "example": "I can't figure out why the printer isn't working. I've tried everything.",
       "collocations": [
         "figure out a problem",
         "figure out a solution",
-        "figure out a way",
-        "figure out the meaning"
+        "figure out how to do something"
       ],
       "synonyms": [
-        "solve",
         "understand",
-        "resolve",
-        "decipher"
+        "solve",
+        "decipher",
+        "work out"
       ]
     },
     {
@@ -48,36 +46,34 @@
       "pronunciation": "/hæŋ aʊt/",
       "partOfSpeech": "phrasal verb",
       "definition": "To spend time relaxing or socializing with someone.",
-      "indonesian": "Menghabiskan waktu bersama, nongkrong.",
+      "indonesian": "Nongkrong / Menghabiskan waktu",
       "level": "B2",
-      "ieltsBand": "6.0-7.0",
-      "example": "We usually hang out at the park on Saturdays.",
+      "ieltsBand": 7,
+      "example": "My friends and I usually hang out at the park on weekends.",
       "collocations": [
         "hang out with friends",
         "hang out together",
-        "hang out at home",
-        "hang out in town"
+        "hang out at a place"
       ],
       "synonyms": [
         "socialize",
         "spend time",
-        "mingle",
-        "associate"
+        "chill",
+        "gather"
       ]
     },
     {
       "word": "Look forward to",
       "pronunciation": "/lʊk ˈfɔːr.wərd tuː/",
       "partOfSpeech": "phrasal verb",
-      "definition": "To feel pleased and excited about something that is going to happen.",
-      "indonesian": "Menantikan sesuatu.",
+      "definition": "To feel happy and excited about something that is going to happen.",
+      "indonesian": "Menanti-nantikan / Bersemangat menantikan",
       "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "I'm really looking forward to my vacation next month.",
+      "ieltsBand": 7,
+      "example": "I'm really looking forward to my holiday next month. I need a break.",
       "collocations": [
         "look forward to an event",
         "look forward to meeting someone",
-        "look forward to hearing from you",
         "look forward to the future"
       ],
       "synonyms": [
@@ -87,90 +83,83 @@
       ]
     },
     {
-      "word": "Make sense",
-      "pronunciation": "/meɪk sens/",
-      "partOfSpeech": "idiom",
-      "definition": "To be logical or reasonable; to be easy to understand.",
-      "indonesian": "Masuk akal, dapat dimengerti.",
-      "level": "B2",
-      "ieltsBand": "6.0-7.0",
-      "example": "Her explanation of the new policy didn't make much sense to me.",
-      "collocations": [
-        "make sense of something",
-        "it makes sense",
-        "doesn't make sense",
-        "common sense"
-      ],
-      "synonyms": [
-        "logical",
-        "reasonable",
-        "comprehensible",
-        "understandable"
-      ]
-    },
-    {
       "word": "On the go",
       "pronunciation": "/ɒn ðə ɡəʊ/",
       "partOfSpeech": "idiom",
-      "definition": "Very busy and active; doing many things at the same time.",
-      "indonesian": "Sangat sibuk, terus bergerak.",
-      "level": "C1",
-      "ieltsBand": "7.0-8.0",
+      "definition": "Very busy and active.",
+      "indonesian": "Sangat sibuk / Bergerak terus",
+      "level": "B2",
+      "ieltsBand": 7,
       "example": "With two young children and a full-time job, she's always on the go.",
       "collocations": [
         "always on the go",
-        "busy on the go",
-        "life on the go"
+        "keeping on the go"
       ],
       "synonyms": [
         "busy",
         "active",
-        "hectic",
-        "on the move"
+        "hustling",
+        "dynamic"
       ]
     },
     {
-      "word": "Put off",
-      "pronunciation": "/pʊt ɒf/",
+      "word": "Stuck in a rut",
+      "pronunciation": "/stʌk ɪn ə rʌt/",
+      "partOfSpeech": "idiom",
+      "definition": "In a boring or unpleasant situation that is difficult to change.",
+      "indonesian": "Terjebak dalam rutinitas yang membosankan",
+      "level": "C1",
+      "ieltsBand": 7,
+      "example": "I feel like I'm stuck in a rut at my current job. I need a change.",
+      "collocations": [
+        "feel stuck in a rut",
+        "get stuck in a rut"
+      ],
+      "synonyms": [
+        "monotonous",
+        "stagnant",
+        "uninspired",
+        "unproductive"
+      ]
+    },
+    {
+      "word": "Under the weather",
+      "pronunciation": "/ˈʌn.dər ðə ˈweð.ər/",
+      "partOfSpeech": "idiom",
+      "definition": "Slightly unwell.",
+      "indonesian": "Merasa kurang sehat",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "I'm feeling a bit under the weather today, so I'm going to stay home.",
+      "collocations": [
+        "feel under the weather"
+      ],
+      "synonyms": [
+        "unwell",
+        "sickly",
+        "indisposed",
+        "off-color"
+      ]
+    },
+    {
+      "word": "Wrap up",
+      "pronunciation": "/ræp ʌp/",
       "partOfSpeech": "phrasal verb",
-      "definition": "To delay or postpone something.",
-      "indonesian": "Menunda.",
+      "definition": "To finish something; to conclude a meeting or discussion.",
+      "indonesian": "Menyelesaikan / Mengakhiri",
       "level": "B2",
-      "ieltsBand": "6.5-7.5",
-      "example": "I've been putting off going to the dentist for weeks.",
+      "ieltsBand": 7,
+      "example": "Let's wrap up this discussion and move on to the next item on the agenda.",
       "collocations": [
-        "put off a decision",
-        "put off a meeting",
-        "put off until later",
-        "put off by something"
+        "wrap up a project",
+        "wrap up a deal",
+        "wrap up a presentation"
       ],
       "synonyms": [
-        "postpone",
-        "delay",
-        "defer",
-        "adjourn"
-      ]
-    },
-    {
-      "word": "So far",
-      "pronunciation": "/səʊ fɑːr/",
-      "partOfSpeech": "adverb",
-      "definition": "Until now; up to the present time.",
-      "indonesian": "Sejauh ini.",
-      "level": "B2",
-      "ieltsBand": "6.0-7.0",
-      "example": "So far, the project has been going very well.",
-      "collocations": [
-        "so far so good",
-        "so far this year",
-        "so far, we have",
-        "up to now / so far"
-      ],
-      "synonyms": [
-        "until now",
-        "up to now",
-        "to date",
-        "presently"
+        "finish",
+        "complete",
+        "conclude",
+        "finalize"
       ]
     }
   ]
