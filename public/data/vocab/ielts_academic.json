@@ -1,41 +1,110 @@
 {
   "words": [
     {
-      "word": "articulate",
-      "pronunciation": "/ɑːˈtɪkjʊlət/",
-      "partOfSpeech": "adjective",
-      "definition": "having or showing the ability to speak fluently and coherently.",
-      "indonesian": "fasih, jelas dalam berbicara",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "She is an articulate speaker who can express complex ideas with ease.",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful",
+      "indonesian": "meredakan, mengurangi",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Governments are trying to mitigate the effects of climate change by investing in renewable energy.",
       "collocations": [
-        "an articulate argument",
-        "an articulate response",
-        "an articulate individual",
-        "articulate your thoughts"
+        "mitigate risks",
+        "mitigate damage",
+        "mitigate the impact",
+        "mitigate the effects",
+        "mitigate poverty"
       ],
       "synonyms": [
-        "eloquent",
-        "fluent",
-        "well-spoken",
-        "coherent"
+        "alleviate",
+        "lessen",
+        "reduce",
+        "diminish"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere",
+      "indonesian": "ada di mana-mana, merata",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate and access information.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous nature",
+        "ubiquitous in"
+      ],
+      "synonyms": [
+        "pervasive",
+        "omnipresent",
+        "universal",
+        "widespread"
+      ]
+    },
+    {
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of similarity between two or more things, or a difference between what is expected and what actually happens",
+      "indonesian": "ketidaksesuaian, perbedaan",
+      "level": "B2",
+      "ieltsBand": "6.5+",
+      "example": "There is a significant discrepancy between the reported income and the actual earnings of the company.",
+      "collocations": [
+        "significant discrepancy",
+        "major discrepancy",
+        "noticeable discrepancy",
+        "discrepancy between",
+        "discrepancy in"
+      ],
+      "synonyms": [
+        "difference",
+        "inconsistency",
+        "variation",
+        "disparity"
+      ]
+    },
+    {
+      "word": "prevalent",
+      "pronunciation": "/ˈprevələnt/",
+      "partOfSpeech": "adjective",
+      "definition": "common or widespread in a particular area or at a particular time",
+      "indonesian": "lazim, umum, tersebar luas",
+      "level": "B2",
+      "ieltsBand": "6.5+",
+      "example": "Obesity is a prevalent health issue in many developed countries.",
+      "collocations": [
+        "prevalent in",
+        "increasingly prevalent",
+        "highly prevalent",
+        "prevalent attitude"
+      ],
+      "synonyms": [
+        "common",
+        "widespread",
+        "rife",
+        "ubiquitous"
       ]
     },
     {
       "word": "comprehensive",
       "pronunciation": "/ˌkɒmprɪˈhensɪv/",
       "partOfSpeech": "adjective",
-      "definition": "including or dealing with all or many of the relevant details; thorough.",
+      "definition": "including or dealing with all or nearly all elements or aspects of something",
       "indonesian": "komprehensif, menyeluruh",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
+      "level": "B2",
+      "ieltsBand": "6.5+",
       "example": "The report provides a comprehensive overview of the current economic situation.",
       "collocations": [
-        "a comprehensive study",
-        "a comprehensive analysis",
-        "a comprehensive review",
-        "comprehensive insurance"
+        "comprehensive study",
+        "comprehensive analysis",
+        "comprehensive review",
+        "comprehensive range",
+        "comprehensive understanding"
       ],
       "synonyms": [
         "thorough",
@@ -45,135 +114,72 @@
       ]
     },
     {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsemɪneɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to spread or disperse (something, especially information) widely.",
-      "indonesian": "menyebarkan, menyebarluaskan",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "The organization aims to disseminate information about sustainable practices to a global audience.",
+      "word": "implication",
+      "pronunciation": "/ˌɪmplɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "definition": "a likely consequence of something that has happened or been suggested",
+      "indonesian": "implikasi, akibat",
+      "level": "B2",
+      "ieltsBand": "6.5+",
+      "example": "The research has significant implications for future policy decisions.",
       "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate ideas",
-        "disseminate research"
+        "significant implication",
+        "serious implication",
+        "direct implication",
+        "implication of",
+        "implication for"
       ],
       "synonyms": [
-        "spread",
-        "circulate",
-        "propagate",
-        "broadcast"
+        "consequence",
+        "effect",
+        "repercussion",
+        "ramification"
       ]
     },
     {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsəbeɪt/",
+      "word": "advocate",
+      "pronunciation": "/ˈædvəkeɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make (a problem, bad situation, or negative feeling) worse.",
-      "indonesian": "memperburuk",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "The new policy could exacerbate existing social inequalities.",
+      "definition": "publicly recommend or support",
+      "indonesian": "menganjurkan, mendukung",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Many scientists advocate for stricter regulations on industrial pollution.",
       "collocations": [
-        "exacerbate a problem",
-        "exacerbate tensions",
-        "exacerbate conflict",
-        "exacerbate the situation"
+        "advocate for",
+        "strongly advocate",
+        "publicly advocate",
+        "advocate change",
+        "advocate a policy"
       ],
       "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "compound"
+        "support",
+        "endorse",
+        "champion",
+        "promote"
       ]
     },
     {
       "word": "inherent",
       "pronunciation": "/ɪnˈhɪərənt/",
       "partOfSpeech": "adjective",
-      "definition": "existing in something as a permanent, essential, or characteristic attribute.",
-      "indonesian": "melekat, bawaan",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "There are inherent risks associated with investing in volatile markets.",
+      "definition": "existing in something as a permanent, essential, or characteristic attribute",
+      "indonesian": "melekat, bawaan, hakiki",
+      "level": "B2",
+      "ieltsBand": "6.5+",
+      "example": "The inherent risks associated with space exploration must be carefully managed.",
       "collocations": [
-        "inherent risks",
-        "inherent dangers",
-        "inherent qualities",
-        "inherent problems"
+        "inherent risk",
+        "inherent advantage",
+        "inherent problem",
+        "inherent in",
+        "inherent nature"
       ],
       "synonyms": [
         "intrinsic",
         "essential",
         "fundamental",
         "built-in"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make less severe, serious, or painful.",
-      "indonesian": "mengurangi, meredakan",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "Governments are implementing measures to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate the impact",
-        "mitigate risks",
-        "mitigate the damage",
-        "mitigate the effects"
-      ],
-      "synonyms": [
-        "alleviate",
-        "reduce",
-        "lessen",
-        "diminish"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "The scientific community is witnessing a paradigm shift in our understanding of the universe.",
-      "collocations": [
-        "a paradigm shift",
-        "a new paradigm",
-        "a research paradigm",
-        "a theoretical paradigm"
-      ],
-      "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, umum",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous access",
-        "ubiquitous nature"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
       ]
     }
   ]

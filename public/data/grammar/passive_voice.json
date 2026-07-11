@@ -1,146 +1,135 @@
 {
   "grammarChart": {
-    "title": "Passive Voice (be + past participle)",
+    "title": "Passive Voice: be + past participle",
+    "structure": "Subject + be (am, is, are, was, were, been, being) + past participle of main verb",
     "tenses": [
       {
         "tense": "Present Simple",
-        "active": "Subject + V1(s/es) + Object",
-        "passive": "Object + is/am/are + Past Participle (V3) + (by Subject)"
+        "active": "Someone cleans the room.",
+        "passive": "The room is cleaned (by someone)."
       },
       {
         "tense": "Past Simple",
-        "active": "Subject + V2 + Object",
-        "passive": "Object + was/were + Past Participle (V3) + (by Subject)"
+        "active": "Someone cleaned the room.",
+        "passive": "The room was cleaned (by someone)."
       },
       {
         "tense": "Present Continuous",
-        "active": "Subject + is/am/are + V-ing + Object",
-        "passive": "Object + is/am/are + being + Past Participle (V3) + (by Subject)"
+        "active": "Someone is cleaning the room.",
+        "passive": "The room is being cleaned (by someone)."
       },
       {
         "tense": "Past Continuous",
-        "active": "Subject + was/were + V-ing + Object",
-        "passive": "Object + was/were + being + Past Participle (V3) + (by Subject)"
+        "active": "Someone was cleaning the room.",
+        "passive": "The room was being cleaned (by someone)."
       },
       {
         "tense": "Present Perfect",
-        "active": "Subject + has/have + Past Participle (V3) + Object",
-        "passive": "Object + has/have + been + Past Participle (V3) + (by Subject)"
+        "active": "Someone has cleaned the room.",
+        "passive": "The room has been cleaned (by someone)."
       },
       {
         "tense": "Past Perfect",
-        "active": "Subject + had + Past Participle (V3) + Object",
-        "passive": "Object + had + been + Past Participle (V3) + (by Subject)"
+        "active": "Someone had cleaned the room.",
+        "passive": "The room had been cleaned (by someone)."
       },
       {
-        "tense": "Future Simple",
-        "active": "Subject + will + V1 + Object",
-        "passive": "Object + will + be + Past Participle (V3) + (by Subject)"
+        "tense": "Future Simple (will)",
+        "active": "Someone will clean the room.",
+        "passive": "The room will be cleaned (by someone)."
       },
       {
-        "tense": "Modals",
-        "active": "Subject + Modal + V1 + Object",
-        "passive": "Object + Modal + be + Past Participle (V3) + (by Subject)"
+        "tense": "Future Perfect",
+        "active": "Someone will have cleaned the room.",
+        "passive": "The room will have been cleaned (by someone)."
+      },
+      {
+        "tense": "Modals (can, must, should, etc.)",
+        "active": "Someone can clean the room.",
+        "passive": "The room can be cleaned (by someone)."
       }
     ]
   },
-  "explanation": "The passive voice is a grammatical construction where the subject of a sentence receives the action of the verb, rather than performing it. It is formed using a form of the verb 'to be' (is, am, are, was, were, been, being) followed by the past participle (V3) of the main verb. The agent (the doer of the action) can be omitted or introduced with the preposition 'by'.",
+  "explanation": "The passive voice is used when the focus is on the action or the object of the action, rather than the person or thing performing the action (the agent). It's formed by using a form of the verb 'to be' (am, is, are, was, were, been, being) followed by the past participle of the main verb.  The agent (the doer of the action) can be included using the preposition 'by', but it is often omitted if it is unknown, unimportant, or obvious from the context.",
   "keyRules": [
-    "The object of the active sentence becomes the subject of the passive sentence.",
-    "The verb in the passive sentence is always 'be' + past participle (V3).",
-    "The tense of the 'be' verb must match the tense of the original active sentence.",
-    "The agent (the original subject) is often omitted in the passive voice, especially when it is unknown, unimportant, or obvious.",
-    "If the agent is included, it is introduced by the preposition 'by'."
+    "Identify the object of the active sentence. This becomes the subject of the passive sentence.",
+    "Use the correct form of the verb 'to be' that matches the tense of the active sentence and the new subject.",
+    "Use the past participle of the main verb from the active sentence.",
+    "The agent (the doer) can be added with 'by' but is often optional."
   ],
   "azarNotes": [
-    "Think of it as shifting the focus from *who* did the action to *what* was acted upon.",
-    "Passive voice is common in formal writing, scientific reports, news articles, and when the action itself is more important than the doer.",
-    "Be careful not to overuse the passive voice, as it can sometimes make your writing sound indirect or wordy. Active voice is generally more direct and engaging."
+    "Think of the passive voice as shifting the spotlight. In active voice, the actor is the star. In passive voice, the receiver of the action or the action itself takes center stage.",
+    "Mastering the past participle forms of irregular verbs is crucial for forming correct passive sentences.",
+    "The passive voice is very common in formal writing, especially in academic and scientific contexts, where objectivity is valued."
   ],
   "examples": [
-    {
-      "active": "The chef prepares the meal.",
-      "passive": "The meal is prepared by the chef."
-    },
-    {
-      "active": "The students completed the assignment.",
-      "passive": "The assignment was completed by the students."
-    },
-    {
-      "active": "The company is launching a new product.",
-      "passive": "A new product is being launched by the company."
-    },
-    {
-      "active": "They had already finished the project.",
-      "passive": "The project had already been finished by them."
-    },
-    {
-      "active": "Scientists will discover a cure.",
-      "passive": "A cure will be discovered by scientists."
-    },
-    {
-      "active": "You must submit the report by Friday.",
-      "passive": "The report must be submitted by Friday."
-    }
+    "Active: The company launched a new product. \nPassive: A new product was launched by the company.",
+    "Active: Scientists are conducting research on climate change. \nPassive: Research on climate change is being conducted by scientists.",
+    "Active: The government has implemented new policies. \nPassive: New policies have been implemented by the government.",
+    "Active: You must complete this assignment by Friday. \nPassive: This assignment must be completed by Friday."
   ],
   "commonMistakes": [
-    "Incorrect form of 'be': Using 'is' with a plural subject, or forgetting 'be' altogether.",
-    "Using the wrong participle: Using the present participle (-ing) instead of the past participle (V3).",
-    "Confusing active and passive: Forgetting to shift the object to subject and vice-versa.",
-    "Overusing passive voice: Making sentences sound weak or indirect when active voice would be better.",
-    "Incorrect preposition for the agent: Using 'with' or other prepositions instead of 'by' when introducing the agent."
+    "Using the wrong form of 'to be'. For example, saying 'The book is wrote' instead of 'The book was written'.",
+    "Forgetting to use the past participle. For example, saying 'The cake is bake' instead of 'The cake is baked'.",
+    "Confusing active and passive voice. For example, using passive when the agent is important and should be highlighted.",
+    "Incorrectly forming the passive with modal verbs. For example, saying 'The work can finished' instead of 'The work can be finished'."
   ],
-  "ieltsTip": "In IELTS Writing Task 1 (Academic), the passive voice is essential for describing processes and reports where the focus is on the stages or the results, not necessarily on who performs them. For example, 'Water is heated to 100°C' or 'The results were analyzed by the research team'. In Task 2, use it strategically to emphasize the action or the subject receiving the action, especially in formal arguments.",
+  "ieltsTip": "In IELTS Writing Task 1 (Academic), passive voice is frequently used to describe processes and charts where the agent is often unknown or irrelevant (e.g., 'Water is heated', 'The data is presented'). In Writing Task 2, use it judiciously to add formality and objectivity, especially when discussing research or general truths. Avoid overusing it, as it can make your writing sound unnatural or evasive.",
   "quiz": [
     {
-      "question": "Choose the correct passive form: The company ______ a new policy last week.",
+      "id": 1,
+      "question": "Choose the correct passive form: The letter ______ yesterday.",
       "options": [
-        "introduced",
-        "was introduced",
-        "is introduced",
-        "has introduced"
+        "is sent",
+        "was sent",
+        "has sent",
+        "is being sent"
       ],
-      "answer": "was introduced"
+      "answer": "was sent"
     },
     {
-      "question": "Choose the correct passive form: The Mona Lisa ______ by Leonardo da Vinci.",
+      "id": 2,
+      "question": "Choose the correct passive form: The report ______ by the team next week.",
       "options": [
-        "painted",
-        "is painting",
-        "is painted",
-        "has painted"
+        "will write",
+        "will be writing",
+        "will be written",
+        "will have written"
       ],
-      "answer": "is painted"
+      "answer": "will be written"
     },
     {
-      "question": "Choose the correct passive form: The report ______ by the end of the day.",
+      "id": 3,
+      "question": "Choose the correct passive form: The bridge ______ by thousands of people every day.",
       "options": [
-        "will finish",
-        "will be finished",
-        "is finishing",
-        "has finished"
+        "is used",
+        "is using",
+        "has used",
+        "used"
       ],
-      "answer": "will be finished"
+      "answer": "is used"
     },
     {
-      "question": "Choose the correct passive form: The students ______ the exam questions right now.",
+      "id": 4,
+      "question": "Choose the correct passive form: The mistakes ______ in the previous draft.",
       "options": [
-        "are answering",
-        "are being answered",
-        "are answered",
-        "have answered"
+        "had been corrected",
+        "were corrected",
+        "are corrected",
+        "had corrected"
       ],
-      "answer": "are being answered"
+      "answer": "had been corrected"
     },
     {
-      "question": "Choose the correct passive form: All the necessary documents ______ before the meeting.",
+      "id": 5,
+      "question": "Choose the correct passive form: This problem ______ immediately.",
       "options": [
-        "had been submitted",
-        "had submitted",
-        "were submitted",
-        "are submitted"
+        "must solve",
+        "must be solving",
+        "must be solved",
+        "must have solved"
       ],
-      "answer": "had been submitted"
+      "answer": "must be solved"
     }
   ]
 }
