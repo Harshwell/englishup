@@ -1,68 +1,60 @@
 {
-  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata yang digunakan sebelum kata benda untuk menentukan apakah kata benda tersebut spesifik atau tidak spesifik. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan akurat dalam IELTS.",
+  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan artikel nol) adalah kata-kata yang diletakkan sebelum kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak spesifik. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan jelas dalam bahasa Inggris, termasuk dalam ujian IELTS.",
   "keyRules": [
     {
       "article": "a",
-      "usage": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang tidak spesifik atau umum.",
-      "example": "a book, a chair, a university (bunyi 'y' seperti konsonan)"
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable) dan dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang tidak spesifik atau pertama kali disebutkan."
     },
     {
       "article": "an",
-      "usage": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi vokal. Menunjukkan sesuatu yang tidak spesifik atau umum.",
-      "example": "an apple, an hour (bunyi 'h' tidak diucapkan), an umbrella"
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable) dan dimulai dengan bunyi vokal. Menunjukkan sesuatu yang tidak spesifik atau pertama kali disebutkan."
     },
     {
       "article": "the",
-      "usage": "Digunakan sebelum kata benda tunggal atau jamak, baik yang dapat dihitung maupun tidak dapat dihitung (uncountable nouns). Menunjukkan sesuatu yang spesifik, sudah disebutkan sebelumnya, unik, atau diketahui oleh pendengar/pembaca.",
-      "example": "the sun, the book I lent you, the best student, the Eiffel Tower"
+      "rule": "Digunakan sebelum kata benda tunggal atau jamak, baik yang dapat dihitung maupun tidak dapat dihitung. Menunjukkan sesuatu yang spesifik, sudah diketahui oleh pendengar/pembaca, atau unik."
     },
     {
-      "article": "zero article",
-      "usage": "Tidak menggunakan artikel sama sekali. Digunakan sebelum kata benda jamak atau tidak dapat dihitung dalam konteks umum, atau sebelum nama diri (orang, tempat, bahasa, mata uang, dll.).",
-      "example": "Books are interesting. Water is essential. I speak English. She lives in Jakarta. They use dollars."
+      "article": "zero article (tanpa artikel)",
+      "rule": "Digunakan sebelum kata benda jamak atau kata benda yang tidak dapat dihitung (uncountable) ketika berbicara tentang sesuatu secara umum. Juga digunakan dengan nama orang, kota, negara (umumnya), bahasa, mata pelajaran, dan beberapa ungkapan tetap."
     }
   ],
   "examples": [
     {
-      "sentence": "I saw **a** cat in the garden.",
-      "explanation": "'a cat' - seekor kucing yang tidak spesifik."
+      "article": "a",
+      "sentence": "I saw **a** cat in the garden."
     },
     {
-      "sentence": "**The** cat was black.",
-      "explanation": "'the cat' - kucing spesifik yang sudah disebutkan sebelumnya."
+      "article": "an",
+      "sentence": "She is **an** excellent student."
     },
     {
-      "sentence": "She wants **an** apple.",
-      "explanation": "'an apple' - sebuah apel yang tidak spesifik."
+      "article": "the",
+      "sentence": "**The** sun is shining brightly today."
     },
     {
-      "sentence": "He is **an** honest man.",
-      "explanation": "'an honest man' - 'honest' dimulai dengan bunyi vokal."
+      "article": "the",
+      "sentence": "Can you pass me **the** salt, please?"
     },
     {
-      "sentence": "**The** moon is bright tonight.",
-      "explanation": "'the moon' - bulan adalah unik."
+      "article": "zero article",
+      "sentence": "**Children** love to play."
     },
     {
-      "sentence": "I like **music**.",
-      "explanation": "'music' - kata benda tidak dapat dihitung dalam konteks umum (zero article)."
+      "article": "zero article",
+      "sentence": "I enjoy **music**."
     },
     {
-      "sentence": "We are learning **Spanish**.",
-      "explanation": "'Spanish' - nama bahasa (zero article)."
-    },
-    {
-      "sentence": "Can you pass me **the salt**?",
-      "explanation": "'the salt' - garam spesifik yang ada di meja."
+      "article": "zero article",
+      "sentence": "He lives in **London**."
     }
   ],
   "commonMistakes": [
-    "Menggunakan 'a' atau 'an' sebelum kata benda jamak atau tidak dapat dihitung.",
-    "Menggunakan 'the' untuk hal-hal yang umum atau tidak spesifik.",
-    "Mengabaikan 'the' untuk hal-hal yang unik atau sudah diketahui.",
-    "Kesalahan dalam menentukan bunyi awal kata benda (misalnya, 'a university' vs 'an umbrella')."
+    "Menggunakan 'a' atau 'an' dengan kata benda jamak atau tidak dapat dihitung.",
+    "Menggunakan 'the' ketika berbicara tentang sesuatu secara umum.",
+    "Lupa menggunakan artikel ketika diperlukan, terutama dengan kata benda tunggal yang dapat dihitung.",
+    "Salah memilih antara 'a' dan 'an' berdasarkan huruf pertama kata benda, bukan bunyi pertamanya (misalnya, 'a university' bukan 'an university')."
   ],
-  "ieltsTip": "Dalam IELTS Writing dan Speaking, perhatikan konteks. Apakah Anda berbicara tentang sesuatu yang spesifik atau umum? Gunakan 'the' untuk merujuk kembali pada sesuatu yang sudah disebutkan. Latihan membaca dan mendengarkan materi berbahasa Inggris akan membantu Anda menangkap pola penggunaan artikel secara alami.",
+  "ieltsTip": "Dalam IELTS Writing Task 2, gunakan 'a'/'an' untuk memperkenalkan ide baru dan 'the' untuk merujuk kembali pada ide yang sama atau ketika ide tersebut sudah spesifik. Perhatikan penggunaan artikel nol untuk kata benda jamak dan tidak dapat dihitung saat membahas konsep umum. Latihan membaca materi berbahasa Inggris dan menganalisis penggunaan artikel akan sangat membantu.",
   "quiz": [
     {
       "question": "Please give me ______ advice.",
@@ -70,49 +62,49 @@
         "a",
         "an",
         "the",
-        "zero article"
+        "no article"
       ],
-      "answer": "zero article"
+      "answer": "no article"
     },
     {
-      "question": "She is ______ excellent doctor.",
+      "question": "She bought ______ new dress yesterday.",
       "options": [
         "a",
         "an",
         "the",
-        "zero article"
-      ],
-      "answer": "an"
-    },
-    {
-      "question": "______ sun rises in the east.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
-      ],
-      "answer": "the"
-    },
-    {
-      "question": "I need to buy ______ new pair of shoes.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "zero article"
+        "no article"
       ],
       "answer": "a"
     },
     {
-      "question": "______ rich should help ______ poor.",
+      "question": "______ Eiffel Tower is in Paris.",
       "options": [
-        "a / a",
-        "the / the",
-        "a / the",
-        "the / a"
+        "a",
+        "an",
+        "the",
+        "no article"
       ],
-      "answer": "the / the"
+      "answer": "the"
+    },
+    {
+      "question": "I need to buy ______ umbrella because it's raining.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an"
+    },
+    {
+      "question": "______ dogs are loyal animals.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article"
     }
   ]
 }

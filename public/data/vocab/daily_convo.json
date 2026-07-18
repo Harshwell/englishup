@@ -1,165 +1,47 @@
 {
   "words": [
     {
-      "word": "Glimpse",
-      "pronunciation": "/ɡlɪmps/",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
       "partOfSpeech": "noun",
-      "definition": "a brief or incomplete view of something",
-      "indonesian": "sekilas pandang",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I caught a glimpse of him as he was leaving the building.",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
       "collocations": [
-        "catch a glimpse of",
-        "get a glimpse of",
-        "a fleeting glimpse"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "peek",
-        "flash",
-        "sight"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Vibe",
-      "pronunciation": "/vaɪb/",
-      "partOfSpeech": "noun",
-      "definition": "the atmosphere or feeling that a place, person, or situation seems to have",
-      "indonesian": "suasana",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "This cafe has a really relaxed vibe.",
-      "collocations": [
-        "good vibe",
-        "bad vibe",
-        "positive vibe",
-        "negative vibe",
-        "chill vibe"
-      ],
-      "synonyms": [
-        "atmosphere",
-        "mood",
-        "aura"
-      ]
-    },
-    {
-      "word": "Underestimated",
-      "pronunciation": "/ˌʌndərˈɛstɪmeɪtɪd/",
-      "partOfSpeech": "verb (past tense)",
-      "definition": "to think that someone or something is worse, less good, or less important than they really are",
-      "indonesian": "meremehkan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I underestimated how difficult the exam would be.",
-      "collocations": [
-        "grossly underestimated",
-        "seriously underestimated",
-        "never underestimate"
-      ],
-      "synonyms": [
-        "underrated",
-        "belittled",
-        "undervalued"
-      ]
-    },
-    {
-      "word": "Familiar",
-      "pronunciation": "/fəˈmɪliər/",
+      "word": "straightforward",
+      "pronunciation": "",
       "partOfSpeech": "adjective",
-      "definition": "well known from long or close association",
-      "indonesian": "akrab, kenal",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The smell of freshly baked bread is very familiar to me.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "become familiar with",
-        "grow familiar with",
-        "all too familiar"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "known",
-        "common",
-        "recognizable"
-      ]
-    },
-    {
-      "word": "Overwhelmed",
-      "pronunciation": "/ˌoʊvərˈwɛlmd/",
-      "partOfSpeech": "adjective",
-      "definition": "having too many things to deal with",
-      "indonesian": "kewalahan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "She felt completely overwhelmed by the amount of work she had to do.",
-      "collocations": [
-        "feel overwhelmed",
-        "completely overwhelmed",
-        "overwhelmed by"
-      ],
-      "synonyms": [
-        "swamped",
-        "inundated",
-        "overburdened"
-      ]
-    },
-    {
-      "word": "Craving",
-      "pronunciation": "/ˈkreɪvɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "a strong feeling of wanting something",
-      "indonesian": "ngidam, keinginan kuat",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "I have a sudden craving for chocolate.",
-      "collocations": [
-        "a strong craving",
-        "have a craving for",
-        "satisfy a craving"
-      ],
-      "synonyms": [
-        "longing",
-        "desire",
-        "urge"
-      ]
-    },
-    {
-      "word": "Appreciate",
-      "pronunciation": "/əˈpriːʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to be grateful for something",
-      "indonesian": "menghargai",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "I really appreciate all your help with this project.",
-      "collocations": [
-        "greatly appreciate",
-        "truly appreciate",
-        "appreciate the effort"
-      ],
-      "synonyms": [
-        "value",
-        "cherish",
-        "recognize"
-      ]
-    },
-    {
-      "word": "Enthusiastic",
-      "pronunciation": "/ɪnˌθuːziˈæstɪk/",
-      "partOfSpeech": "adjective",
-      "definition": "showing or having intense enjoyment, interest, or approval",
-      "indonesian": "antusias, bersemangat",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "She was very enthusiastic about the new plan.",
-      "collocations": [
-        "very enthusiastic",
-        "extremely enthusiastic",
-        "enthusiastic about"
-      ],
-      "synonyms": [
-        "eager",
-        "passionate",
-        "keen"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
