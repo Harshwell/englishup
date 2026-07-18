@@ -1,66 +1,171 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
-      "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, tersebar luas",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "increasingly ubiquitous"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "widespread"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "make less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi, memitigasi",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The government introduced policies to mitigate the effects of climate change.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "mitigate risk",
+        "mitigate damage",
+        "mitigate the impact",
+        "mitigate the effects"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "alleviate",
+        "lessen",
+        "reduce",
+        "ease"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of compatibility or similarity between two or more facts.",
+      "indonesian": "ketidaksesuaian, perbedaan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "There is a significant discrepancy between the reported figures and the actual numbers.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "significant discrepancy",
+        "glaring discrepancy",
+        "detect a discrepancy",
+        "resolve a discrepancy"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "discrepancy",
+        "inconsistency",
+        "disagreement",
+        "variation"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
       "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "definition": "make (a problem, bad situation, or negative feeling) worse.",
+      "indonesian": "memperburuk, memperparah",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The economic downturn is likely to exacerbate poverty levels.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "exacerbate the problem",
+        "exacerbate tensions",
+        "exacerbate a crisis"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "worsen",
+        "aggravate",
+        "intensify"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir, kerangka berpikir",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA marked a significant paradigm shift in biology.",
+      "collocations": [
+        "paradigm shift",
+        "new paradigm",
+        "scientific paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework",
+        "example"
+      ]
+    },
+    {
+      "word": "prevalent",
+      "pronunciation": "/ˈprevələnt/",
+      "partOfSpeech": "adjective",
+      "definition": "common; widespread.",
+      "indonesian": "lazim, umum, tersebar luas",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Smoking is still prevalent in some parts of the country.",
+      "collocations": [
+        "prevalent issue",
+        "prevalent trend",
+        "increasingly prevalent"
+      ],
+      "synonyms": [
+        "common",
+        "widespread",
+        "rife",
+        "ubiquitous"
+      ]
+    },
+    {
+      "word": "advocate",
+      "pronunciation": "/ˈædvəkeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "publicly recommend or support.",
+      "indonesian": "menganjurkan, mendukung, membela",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The organization advocates for greater environmental protection.",
+      "collocations": [
+        "strongly advocate",
+        "advocate for change",
+        "advocate a policy"
+      ],
+      "synonyms": [
+        "support",
+        "endorse",
+        "champion",
+        "promote"
+      ]
+    },
+    {
+      "word": "synthesis",
+      "pronunciation": "/ˈsɪnθəsɪs/",
+      "partOfSpeech": "noun",
+      "definition": "the combination of ideas or substances to form a more complex whole.",
+      "indonesian": "sintesis, gabungan, perpaduan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The report provides a synthesis of current research on the topic.",
+      "collocations": [
+        "chemical synthesis",
+        "synthesis of ideas",
+        "achieve a synthesis"
+      ],
+      "synonyms": [
+        "combination",
+        "fusion",
+        "amalgamation",
+        "integration"
       ]
     }
   ]

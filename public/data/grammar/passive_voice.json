@@ -1,92 +1,112 @@
 {
-  "explanation": "Kalimat pasif (passive voice) adalah struktur kalimat di mana subjek menerima tindakan, bukan melakukan tindakan. Dalam bahasa Inggris, ini dibentuk dengan menggunakan kata kerja 'be' (is, am, are, was, were, been, being) diikuti oleh past participle (bentuk ketiga) dari kata kerja utama.  Ini sering digunakan dalam penulisan akademis dan formal, termasuk dalam IELTS, untuk menekankan pada tindakan atau objek yang menerima tindakan, bukan pada pelaku tindakan.",
-  "keyRules": [
-    "Struktur dasar: Subjek (penerima aksi) + be + past participle + (by + agen/pelaku aksi).",
-    "Kata kerja 'be' harus sesuai dengan subjek dan tense kalimat.",
-    "Past participle adalah bentuk ketiga dari kata kerja (contoh: written, eaten, built, seen).",
-    "Jika pelaku aksi penting, gunakan 'by' diikuti oleh pelaku aksi. Namun, dalam banyak kasus pasif, pelaku aksi dihilangkan karena tidak diketahui, tidak penting, atau sudah jelas dari konteksnya.",
-    "Perubahan dari aktif ke pasif: Objek dari kalimat aktif menjadi subjek kalimat pasif. Subjek dari kalimat aktif menjadi agen (opsional) dalam kalimat pasif."
+  "grammarChart": [
+    {
+      "tense": "Present Simple",
+      "structure": "am/is/are + V3",
+      "example": "The report is written by the manager."
+    },
+    {
+      "tense": "Past Simple",
+      "structure": "was/were + V3",
+      "example": "The report was written yesterday."
+    },
+    {
+      "tense": "Present Perfect",
+      "structure": "have/has been + V3",
+      "example": "The report has been written already."
+    },
+    {
+      "tense": "Future Simple",
+      "structure": "will be + V3",
+      "example": "The report will be written tomorrow."
+    },
+    {
+      "tense": "Modals",
+      "structure": "can/must/should + be + V3",
+      "example": "The report must be written carefully."
+    }
   ],
+  "explanation": "Passive Voice digunakan ketika fokus utama kalimat adalah pada tindakan (action) atau objek yang menerima tindakan, bukan pada pelaku (doer). Dalam bahasa Indonesia, ini mirip dengan penggunaan imbuhan 'di-' atau 'ter-'. Contoh: 'Buku dibaca' (The book is read). Dalam konteks akademik (IELTS), passive voice memberikan kesan objektif dan formal karena mengalihkan perhatian dari subjek personal ke fakta atau proses.",
+  "keyRules": [
+    "Rumus utama: To Be (sesuai tense) + Past Participle (Verb 3).",
+    "Gunakan 'by + agent' hanya jika pelaku sangat penting untuk diketahui.",
+    "Subjek dalam kalimat aktif berubah menjadi objek dalam kalimat pasif.",
+    "Tense pada kalimat pasif harus mengikuti tense kalimat aktifnya."
+  ],
+  "azarNotes": "Ingat! Jangan tertukar antara Verb 3 (Past Participle) dengan Verb 2 (Past Simple). Contoh: 'It was written' (benar) vs 'It was wrote' (salah). Pastikan Anda menghafal daftar irregular verbs untuk menguasai ini.",
   "examples": [
     {
-      "active": "The students wrote the essay.",
-      "passive": "The essay was written by the students."
+      "active": "The government implemented new policies.",
+      "passive": "New policies were implemented by the government.",
+      "note": "Past Simple"
     },
     {
-      "active": "The company will launch a new product.",
-      "passive": "A new product will be launched by the company."
+      "active": "Scientists are studying the climate change.",
+      "passive": "Climate change is being studied by scientists.",
+      "note": "Present Continuous"
     },
     {
-      "active": "Someone has stolen my wallet.",
-      "passive": "My wallet has been stolen."
-    },
-    {
-      "active": "The chef is preparing the meal.",
-      "passive": "The meal is being prepared by the chef."
-    },
-    {
-      "active": "They built this bridge in 1950.",
-      "passive": "This bridge was built in 1950."
+      "active": "They have completed the project.",
+      "passive": "The project has been completed.",
+      "note": "Present Perfect"
     }
   ],
   "commonMistakes": [
-    "Menggunakan 'be' yang tidak sesuai dengan subjek atau tense.",
-    "Menggunakan bentuk dasar kata kerja atau present participle sebagai pengganti past participle.",
-    "Menggunakan kalimat pasif ketika kalimat aktif lebih jelas dan langsung.",
-    "Menghilangkan 'be' sama sekali.",
-    "Kesalahan dalam mengubah objek kalimat aktif menjadi subjek kalimat pasif."
+    "Lupa menggunakan 'be' (Contoh: 'The cake eaten' seharusnya 'The cake was eaten').",
+    "Menggunakan Verb 2 alih-alih Verb 3 (Contoh: 'It was took' seharusnya 'It was taken').",
+    "Menggunakan passive voice untuk kata kerja intransitive seperti 'leep', 'arrive', atau 'happen' (Kata-kata ini tidak bisa dipasifkan)."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif sangat berguna untuk memberikan kesan formal dan objektif, terutama ketika Anda ingin fokus pada proses, hasil, atau masalah tanpa harus menyebutkan siapa yang bertanggung jawab secara spesifik. Gunakanlah ketika Anda ingin terdengar lebih akademis dan menghindari penggunaan 'I think' atau 'people say' secara berlebihan. Perhatikan penggunaan tense yang tepat.",
+  "ieltsTip": "Gunakan Passive Voice dalam IELTS Writing Task 1 (Process Diagram) untuk menjelaskan tahapan produksi. Gunakan juga dalam Writing Task 2 untuk menjaga nada formal dan objektif (misal: 'It is often argued that...' daripada 'I think that...'). Ini akan membantu Anda mencapai skor tinggi di kriteria Grammatical Range and Accuracy.",
   "quiz": [
     {
-      "question": "Change the following sentence to passive voice: 'The scientists discovered a new planet.'",
+      "question": "Ubah ke pasif: 'The company launched a new product last month.'",
       "options": [
-        "A new planet discovered by the scientists.",
-        "A new planet was discovered by the scientists.",
-        "The scientists were discovered by a new planet.",
-        "A new planet is discovered by the scientists."
+        "A new product was launched by the company last month.",
+        "A new product is launched by the company last month.",
+        "A new product was launch by the company last month.",
+        "A new product has been launched by the company last month."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Pilih struktur yang benar: 'The data _______ by the researchers.'",
+      "options": [
+        "is analyzed",
+        "has been analyzed",
+        "was analyzed",
+        "All of the above are correct depending on context"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Ubah ke pasif: 'People should protect the environment.'",
+      "options": [
+        "The environment should protected.",
+        "The environment should be protected.",
+        "The environment is protected.",
+        "The environment must protected."
       ],
       "answer": "B"
     },
     {
-      "question": "Choose the correct passive form: 'The report ______ yesterday.'",
+      "question": "Manakah kalimat yang salah (Grammatically incorrect)?",
       "options": [
-        "is submitted",
-        "was submitted",
-        "submitted",
-        "is being submitted"
-      ],
-      "answer": "B"
-    },
-    {
-      "question": "Identify the past participle in the passive sentence: 'The cake has been eaten.'",
-      "options": [
-        "has",
-        "been",
-        "eaten",
-        "cake"
+        "The bridge was built in 1990.",
+        "The letter has been sent.",
+        "The mistake was forgot.",
+        "The decision will be made soon."
       ],
       "answer": "C"
     },
     {
-      "question": "Which sentence uses the passive voice correctly?",
+      "question": "Ubah ke pasif: 'They are repairing the road.'",
       "options": [
-        "The letter will send tomorrow.",
-        "The letter will be sent tomorrow.",
-        "The letter will sending tomorrow.",
-        "The letter will be send tomorrow."
+        "The road is repaired.",
+        "The road is being repaired.",
+        "The road was being repaired.",
+        "The road has been repaired."
       ],
       "answer": "B"
-    },
-    {
-      "question": "Complete the sentence with the correct passive form: 'The old building ______ last year.'",
-      "options": [
-        "was demolished",
-        "demolished",
-        "is demolished",
-        "demolishing"
-      ],
-      "answer": "A"
     }
   ]
 }

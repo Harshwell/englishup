@@ -1,82 +1,57 @@
 {
-  "explanation": "Present Perfect Tense dalam Bahasa Indonesia digunakan untuk menyatakan suatu tindakan atau kejadian yang telah terjadi di masa lalu dan masih memiliki relevansi atau dampak pada masa sekarang.  Ini sering kali digunakan untuk berbicara tentang pengalaman, perubahan, atau tindakan yang baru saja selesai.",
+  "grammarChart": {
+    "structure": "have/has + past participle",
+    "affirmative": "I/You/We/They have <past participle>.\nHe/She/It has <past participle>.",
+    "negative": "I/You/We/They have not (haven't) <past participle>.\nHe/She/It has not (hasn't) <past participle>.",
+    "question": "Have I/You/We/They <past participle>?\nHas He/She/It <past participle>?"
+  },
+  "explanation": "The Present Perfect tense connects past actions to the present. It is formed with 'have/has' + past participle (e.g., 'I have studied'). It indicates actions that happened at an unspecified time before now, ongoing actions, or experiences relevant to the present.",
   "keyRules": [
-    "Bentuk Positif: Subjek + have/has + Past Participle (Verb 3)",
-    "Bentuk Negatif: Subjek + have/has + not + Past Participle (Verb 3)",
-    "Bentuk Interogatif: Have/Has + Subjek + Past Participle (Verb 3)?",
-    "Penggunaan 'have' dengan subjek: I, you, we, they, dan subjek jamak.",
-    "Penggunaan 'has' dengan subjek: he, she, it, dan subjek tunggal.",
-    "Past Participle adalah bentuk ketiga dari kata kerja (misalnya: go - went - gone, eat - ate - eaten, play - played - played)."
+    "1. Unspecified past time (no exact date/year): 'I have visited Paris.'",
+    "2. Life experiences: 'She has visited three countries.'",
+    "3. Ongoing actions with present relevance: 'They have lived here since 2010.'",
+    "4. Recent actions with present results: 'He has just left.'",
+    "5. Changes over time: 'The climate has changed dramatically.'"
+  ],
+  "azarNotes": [
+    "Use 'already', 'yet', 'ever', 'never', 'just', 'so far': 'Have you already eaten? I haven't finished yet.'",
+    "No specific time words (e.g., 'yesterday') with Present Perfect: ❌ 'I have eaten yesterday.' ✅ 'I ate yesterday.'",
+    "Past actions with present consequences: 'She has broken her leg (and can't walk now).'"
   ],
   "examples": [
-    {
-      "sentence": "I have visited Bali three times.",
-      "translation": "Saya sudah mengunjungi Bali tiga kali."
-    },
-    {
-      "sentence": "She has finished her homework.",
-      "translation": "Dia (perempuan) sudah menyelesaikan pekerjaan rumahnya."
-    },
-    {
-      "sentence": "They have not seen that movie before.",
-      "translation": "Mereka belum pernah menonton film itu sebelumnya."
-    },
-    {
-      "sentence": "Has he ever eaten sushi?",
-      "translation": "Apakah dia (laki-laki) pernah makan sushi?"
-    },
-    {
-      "sentence": "We have lived here for five years.",
-      "translation": "Kami sudah tinggal di sini selama lima tahun."
-    }
+    "We have completed the project.",
+    "Has she finished her homework?",
+    "They haven't seen that movie.",
+    "I have never tried sushi.",
+    "He has just arrived."
   ],
   "commonMistakes": [
-    "Menggunakan Simple Past Tense padahal Present Perfect lebih tepat, terutama ketika menekankan relevansi dengan masa kini.",
-    "Salah menggunakan 'have' dan 'has' sesuai dengan subjeknya.",
-    "Lupa menggunakan bentuk Past Participle (Verb 3) dari kata kerja.",
-    "Menggunakan 'for' dan 'since' secara bergantian atau salah."
+    "Confusing Present Perfect with Past Simple: ❌ 'I have went to the store.' ✅ 'I went/I have gone to the store.'",
+    "Incorrect use of 'ago': ❌ 'I have seen her two days ago.' ✅ 'I saw her two days ago.'",
+    "Forgetting past participle: ❌ 'She has run fast.' ✅ 'She has run quickly.'",
+    "Mixing tenses unnecessarily: ❌ 'I have eating lunch.' ✅ 'I have eaten lunch.'"
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, gunakan Present Perfect untuk menyatakan tren atau perubahan yang telah terjadi dan masih relevan dengan topik yang dibahas. Dalam Speaking, gunakan untuk menceritakan pengalaman hidup Anda.",
+  "ieltstip": "Use Present Perfect to discuss recent changes, lifelong experiences, or actions affecting the present. In IELTS Writing/Speaking, it demonstrates advanced grammar control (e.g., 'Many people have become more health-conscious in recent years').",
   "quiz": [
     {
-      "question": "Fill in the blank: I ______ (see) that film already.",
-      "options": [
-        "see",
-        "saw",
-        "have seen",
-        "has seen"
-      ],
-      "answer": "have seen"
+      "question": "Choose the correct sentence:\nA) I have watched that movie last night.\nB) She has watched that movie last night.\nC) We have watched that movie yesterday.",
+      "answer": "None (all incorrect). Present Perfect cannot use 'last night/yesterday' with no specific time allowed."
     },
     {
-      "question": "Fill in the blank: She ______ (not finish) her project yet.",
-      "options": [
-        "not finish",
-        "didn't finish",
-        "has not finished",
-        "have not finished"
-      ],
-      "answer": "has not finished"
+      "question": "Correct the mistake: 'He has broke his leg.'",
+      "answer": "He has broken his leg."
     },
     {
-      "question": "Fill in the blank: ______ you ever ______ (travel) abroad?",
-      "options": [
-        "Do, travel",
-        "Did, travel",
-        "Have, travelled",
-        "Has, travelled"
-      ],
-      "answer": "Have, travelled"
+      "question": "Fill in the blank: 'Have you ____ (she) to Paris before?'",
+      "answer": "ever been"
     },
     {
-      "question": "Choose the correct sentence:",
-      "options": [
-        "He go to the shop yesterday.",
-        "He has gone to the shop.",
-        "He went to the shop.",
-        "He have gone to the shop."
-      ],
-      "answer": "He has gone to the shop."
+      "question": "Is this correct? 'They have lived here since 2015.'",
+      "answer": "Yes (correct use of ongoing action with present relevance)"
+    },
+    {
+      "question": "Rewrite using Present Perfect: 'I bought a new car last month.'",
+      "answer": "I have bought a new car last month. (Note: Technically incorrect, but sometimes accepted in informal speech. Better: 'I have bought a new car.' or 'I bought a new car last month.')"
     }
   ]
 }

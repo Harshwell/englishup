@@ -1,47 +1,163 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "word": "Glimpse",
+      "pronunciation": "/ɡlɪmps/",
       "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "definition": "a momentary or partial view",
+      "indonesian": "sekilas pandang",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": "7.0",
+      "example": "I caught a glimpse of him as he rushed past the window.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "catch a glimpse",
+        "a fleeting glimpse",
+        "a brief glimpse"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "peek",
+        "flash",
+        "sight"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
+      "word": "Fascinating",
+      "pronunciation": "/ˈfæsɪneɪtɪŋ/",
       "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "definition": "extremely interesting",
+      "indonesian": "sangat menarik",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "The documentary about ancient civilizations was absolutely fascinating.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "truly fascinating",
+        "utterly fascinating",
+        "find something fascinating"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "captivating",
+        "engrossing",
+        "intriguing"
+      ]
+    },
+    {
+      "word": "Underestimate",
+      "pronunciation": "/ˌʌndərˈɛstɪmeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to estimate something as being less than its real worth or amount",
+      "indonesian": "meremehkan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Never underestimate the power of a good cup of coffee to wake you up.",
+      "collocations": [
+        "underestimate the importance",
+        "underestimate the difficulty",
+        "never underestimate"
+      ],
+      "synonyms": [
+        "underrate",
+        "belittle",
+        "discount"
+      ]
+    },
+    {
+      "word": "Appreciate",
+      "pronunciation": "/əˈpriːʃieɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to understand how good someone or something is; to value something",
+      "indonesian": "menghargai",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I really appreciate all the help you've given me with this project.",
+      "collocations": [
+        "greatly appreciate",
+        "truly appreciate",
+        "appreciate the effort"
+      ],
+      "synonyms": [
+        "value",
+        "cherish",
+        "recognize"
+      ]
+    },
+    {
+      "word": "Encounter",
+      "pronunciation": "/ɪnˈkaʊntər/",
+      "partOfSpeech": "verb",
+      "definition": "to meet someone or experience something, especially unexpectedly",
+      "indonesian": "menemui, menghadapi",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "During my trip, I encountered a lot of interesting people.",
+      "collocations": [
+        "unexpectedly encounter",
+        "encounter difficulties",
+        "encounter opposition"
+      ],
+      "synonyms": [
+        "meet",
+        "come across",
+        "face"
+      ]
+    },
+    {
+      "word": "Subtle",
+      "pronunciation": "/ˈsʌtl/",
+      "partOfSpeech": "adjective",
+      "definition": "so delicate or precise as to be difficult to analyze or describe",
+      "indonesian": "halus, samar",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "There was a subtle shift in his tone of voice that made me suspicious.",
+      "collocations": [
+        "subtle difference",
+        "subtle hint",
+        "subtle change"
+      ],
+      "synonyms": [
+        "delicate",
+        "nuanced",
+        "understated"
+      ]
+    },
+    {
+      "word": "Insight",
+      "pronunciation": "/ˈɪnsaɪt/",
+      "partOfSpeech": "noun",
+      "definition": "an understanding of a complex situation or subject",
+      "indonesian": "wawasan",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "Her latest book provides valuable insights into the human mind.",
+      "collocations": [
+        "gain insight",
+        "valuable insight",
+        "deep insight"
+      ],
+      "synonyms": [
+        "understanding",
+        "perception",
+        "comprehension"
+      ]
+    },
+    {
+      "word": "Ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere",
+      "indonesian": "ada di mana-mana",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "seemingly ubiquitous",
+        "increasingly ubiquitous",
+        "ubiquitous presence"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal"
       ]
     }
   ]
