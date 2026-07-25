@@ -10,162 +10,154 @@
       "ieltsBand": "7+",
       "example": "Smartphones have become ubiquitous in modern society.",
       "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "increasingly ubiquitous"
+        "become ubiquitous",
+        "seem ubiquitous",
+        "virtually ubiquitous"
       ],
       "synonyms": [
         "omnipresent",
-        "pervasive",
-        "widespread"
+        "universal",
+        "pervasive"
+      ]
+    },
+    {
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsɛmɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to spread or disperse something, especially information, widely.",
+      "indonesian": "menyebarluaskan, menyebarkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The internet has made it easier to disseminate information globally.",
+      "collocations": [
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate findings"
+      ],
+      "synonyms": [
+        "spread",
+        "circulate",
+        "propagate"
       ]
     },
     {
       "word": "mitigate",
       "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "make less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi, memitigasi",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi, meringankan",
       "level": "B2",
       "ieltsBand": "7+",
-      "example": "The government introduced policies to mitigate the effects of climate change.",
+      "example": "Governments are implementing policies to mitigate the effects of climate change.",
       "collocations": [
-        "mitigate risk",
-        "mitigate damage",
         "mitigate the impact",
+        "mitigate risk",
         "mitigate the effects"
       ],
       "synonyms": [
         "alleviate",
         "lessen",
-        "reduce",
-        "ease"
-      ]
-    },
-    {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrepənsi/",
-      "partOfSpeech": "noun",
-      "definition": "a lack of compatibility or similarity between two or more facts.",
-      "indonesian": "ketidaksesuaian, perbedaan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There is a significant discrepancy between the reported figures and the actual numbers.",
-      "collocations": [
-        "significant discrepancy",
-        "glaring discrepancy",
-        "detect a discrepancy",
-        "resolve a discrepancy"
-      ],
-      "synonyms": [
-        "discrepancy",
-        "inconsistency",
-        "disagreement",
-        "variation"
-      ]
-    },
-    {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "make (a problem, bad situation, or negative feeling) worse.",
-      "indonesian": "memperburuk, memperparah",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The economic downturn is likely to exacerbate poverty levels.",
-      "collocations": [
-        "exacerbate the problem",
-        "exacerbate tensions",
-        "exacerbate a crisis"
-      ],
-      "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir, kerangka berpikir",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The discovery of DNA marked a significant paradigm shift in biology.",
-      "collocations": [
-        "paradigm shift",
-        "new paradigm",
-        "scientific paradigm"
-      ],
-      "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example"
+        "reduce"
       ]
     },
     {
       "word": "prevalent",
-      "pronunciation": "/ˈprevələnt/",
+      "pronunciation": "/ˈprɛvələnt/",
       "partOfSpeech": "adjective",
-      "definition": "common; widespread.",
-      "indonesian": "lazim, umum, tersebar luas",
+      "definition": "widespread; common.",
+      "indonesian": "umum, lazim, meluas",
       "level": "B2",
       "ieltsBand": "7+",
-      "example": "Smoking is still prevalent in some parts of the country.",
+      "example": "Obesity is increasingly prevalent in developed countries.",
       "collocations": [
-        "prevalent issue",
-        "prevalent trend",
-        "increasingly prevalent"
+        "be prevalent",
+        "increasingly prevalent",
+        "highly prevalent"
       ],
       "synonyms": [
         "common",
         "widespread",
-        "rife",
-        "ubiquitous"
+        "rife"
       ]
     },
     {
-      "word": "advocate",
-      "pronunciation": "/ˈædvəkeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "publicly recommend or support.",
-      "indonesian": "menganjurkan, mendukung, membela",
+      "word": "conducive",
+      "pronunciation": "/kənˈdjuːsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "making a certain situation or outcome likely or possible.",
+      "indonesian": "kondusif, mendukung, membantu",
       "level": "B2",
       "ieltsBand": "7+",
-      "example": "The organization advocates for greater environmental protection.",
+      "example": "A quiet environment is conducive to focused study.",
       "collocations": [
-        "strongly advocate",
-        "advocate for change",
-        "advocate a policy"
+        "conducive to",
+        "highly conducive",
+        "more conducive"
       ],
       "synonyms": [
-        "support",
-        "endorse",
-        "champion",
-        "promote"
+        "beneficial",
+        "favorable",
+        "helpful"
       ]
     },
     {
-      "word": "synthesis",
-      "pronunciation": "/ˈsɪnθəsɪs/",
-      "partOfSpeech": "noun",
-      "definition": "the combination of ideas or substances to form a more complex whole.",
-      "indonesian": "sintesis, gabungan, perpaduan",
-      "level": "C1",
+      "word": "eradicate",
+      "pronunciation": "/ɪˈrædɪkeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "destroy completely; put an end to.",
+      "indonesian": "memberantas, membasmi, menghapus",
+      "level": "B2",
       "ieltsBand": "7+",
-      "example": "The report provides a synthesis of current research on the topic.",
+      "example": "The goal of the campaign is to eradicate poverty.",
       "collocations": [
-        "chemical synthesis",
-        "synthesis of ideas",
-        "achieve a synthesis"
+        "eradicate poverty",
+        "eradicate disease",
+        "attempt to eradicate"
       ],
       "synonyms": [
-        "combination",
-        "fusion",
-        "amalgamation",
-        "integration"
+        "eliminate",
+        "abolish",
+        "wipe out"
+      ]
+    },
+    {
+      "word": "indigenous",
+      "pronunciation": "/ɪnˈdɪdʒɪnəs/",
+      "partOfSpeech": "adjective",
+      "definition": "originating or occurring naturally in a particular place; native.",
+      "indonesian": "pribumi, asli, penduduk asli",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The study focused on the impact of tourism on indigenous communities.",
+      "collocations": [
+        "indigenous people",
+        "indigenous species",
+        "indigenous population"
+      ],
+      "synonyms": [
+        "native",
+        "local",
+        "aboriginal"
+      ]
+    },
+    {
+      "word": "sustain",
+      "pronunciation": "/səˈsteɪn/",
+      "partOfSpeech": "verb",
+      "definition": "to keep going over a period of time; maintain.",
+      "indonesian": "mempertahankan, menopang, berkelanjutan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "It is challenging for businesses to sustain growth in a competitive market.",
+      "collocations": [
+        "sustain growth",
+        "sustain life",
+        "sustain interest"
+      ],
+      "synonyms": [
+        "maintain",
+        "support",
+        "keep up"
       ]
     }
   ]

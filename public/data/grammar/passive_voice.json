@@ -1,112 +1,112 @@
 {
-  "grammarChart": [
-    {
-      "tense": "Present Simple",
-      "structure": "am/is/are + V3",
-      "example": "The report is written by the manager."
-    },
-    {
-      "tense": "Past Simple",
-      "structure": "was/were + V3",
-      "example": "The report was written yesterday."
-    },
-    {
-      "tense": "Present Perfect",
-      "structure": "have/has been + V3",
-      "example": "The report has been written already."
-    },
-    {
-      "tense": "Future Simple",
-      "structure": "will be + V3",
-      "example": "The report will be written tomorrow."
-    },
-    {
-      "tense": "Modals",
-      "structure": "can/must/should + be + V3",
-      "example": "The report must be written carefully."
-    }
-  ],
-  "explanation": "Passive Voice digunakan ketika fokus utama kalimat adalah pada tindakan (action) atau objek yang menerima tindakan, bukan pada pelaku (doer). Dalam bahasa Indonesia, ini mirip dengan penggunaan imbuhan 'di-' atau 'ter-'. Contoh: 'Buku dibaca' (The book is read). Dalam konteks akademik (IELTS), passive voice memberikan kesan objektif dan formal karena mengalihkan perhatian dari subjek personal ke fakta atau proses.",
+  "grammarChart": {
+    "title": "Passive Voice: Form, Meaning, Use",
+    "sections": [
+      {
+        "heading": "Form",
+        "content": "Subject + be (am/is/are/was/were/been/being) + Past Participle (V3)"
+      },
+      {
+        "heading": "Meaning",
+        "content": "Focus shifts from the doer of the action to the receiver of the action. The action itself or the object of the action becomes the subject."
+      },
+      {
+        "heading": "Use",
+        "content": "1. When the doer is unknown, unimportant, or obvious.\n2. To sound more formal or objective (common in academic writing and news reports).\n3. To avoid mentioning the doer directly."
+      }
+    ]
+  },
+  "explanation": "The passive voice is a grammatical construction where the subject of a sentence receives the action, rather than performing it. In contrast to the active voice, where the subject performs the action (e.g., 'The chef cooked the meal'), the passive voice emphasizes the object of the action (e.g., 'The meal was cooked by the chef'). We form the passive voice using a form of the verb 'to be' (am, is, are, was, were, been, being) followed by the past participle of the main verb (the V3 form, like 'cooked', 'written', 'seen'). The choice of 'be' verb depends on the tense of the original active sentence.",
   "keyRules": [
-    "Rumus utama: To Be (sesuai tense) + Past Participle (Verb 3).",
-    "Gunakan 'by + agent' hanya jika pelaku sangat penting untuk diketahui.",
-    "Subjek dalam kalimat aktif berubah menjadi objek dalam kalimat pasif.",
-    "Tense pada kalimat pasif harus mengikuti tense kalimat aktifnya."
+    "Identify the object of the active sentence. This becomes the subject of the passive sentence.",
+    "Change the verb to the correct form of 'be' + past participle.",
+    "The tense of 'be' must match the tense of the original active verb.",
+    "The original subject (the doer) can be included in a 'by...' phrase, but it's often omitted."
   ],
-  "azarNotes": "Ingat! Jangan tertukar antara Verb 3 (Past Participle) dengan Verb 2 (Past Simple). Contoh: 'It was written' (benar) vs 'It was wrote' (salah). Pastikan Anda menghafal daftar irregular verbs untuk menguasai ini.",
+  "azarNotes": [
+    "Remember that not all verbs can be used in the passive voice. Transitive verbs (verbs that take a direct object) are typically used.",
+    "Irregular past participles are crucial for passive voice. Make sure you know them (e.g., see-saw-seen, write-wrote-written, eat-ate-eaten).",
+    "The passive voice is particularly useful in IELTS Writing Task 2 for maintaining a formal and objective tone."
+  ],
   "examples": [
     {
-      "active": "The government implemented new policies.",
-      "passive": "New policies were implemented by the government.",
-      "note": "Past Simple"
+      "active": "The company launched a new product last year.",
+      "passive": "A new product was launched by the company last year."
     },
     {
-      "active": "Scientists are studying the climate change.",
-      "passive": "Climate change is being studied by scientists.",
-      "note": "Present Continuous"
+      "active": "Scientists are developing a vaccine.",
+      "passive": "A vaccine is being developed by scientists."
     },
     {
-      "active": "They have completed the project.",
-      "passive": "The project has been completed.",
-      "note": "Present Perfect"
+      "active": "Someone has stolen my bicycle.",
+      "passive": "My bicycle has been stolen."
+    },
+    {
+      "active": "The government will build more roads.",
+      "passive": "More roads will be built by the government."
+    },
+    {
+      "active": "She wrote the report yesterday.",
+      "passive": "The report was written by her yesterday."
     }
   ],
   "commonMistakes": [
-    "Lupa menggunakan 'be' (Contoh: 'The cake eaten' seharusnya 'The cake was eaten').",
-    "Menggunakan Verb 2 alih-alih Verb 3 (Contoh: 'It was took' seharusnya 'It was taken').",
-    "Menggunakan passive voice untuk kata kerja intransitive seperti 'leep', 'arrive', atau 'happen' (Kata-kata ini tidak bisa dipasifkan)."
+    "Using the wrong form of 'be'.",
+    "Forgetting to use the past participle (V3).",
+    "Confusing active and passive voice when objectivity is needed.",
+    "Incorrectly changing the tense when converting from active to passive."
   ],
-  "ieltsTip": "Gunakan Passive Voice dalam IELTS Writing Task 1 (Process Diagram) untuk menjelaskan tahapan produksi. Gunakan juga dalam Writing Task 2 untuk menjaga nada formal dan objektif (misal: 'It is often argued that...' daripada 'I think that...'). Ini akan membantu Anda mencapai skor tinggi di kriteria Grammatical Range and Accuracy.",
+  "ieltsTip": "In IELTS Writing Task 2, you'll frequently encounter situations where the passive voice is essential for academic tone. For instance, when discussing processes, research findings, or historical events, the focus is often on what happened or what was done, rather than who did it. Look for opportunities to use the passive voice to sound more sophisticated and objective. For example, instead of 'People use this method,' you could write 'This method is used.'",
   "quiz": [
     {
-      "question": "Ubah ke pasif: 'The company launched a new product last month.'",
+      "question": "Choose the correct passive form of the sentence: 'The chef prepared the meal.'",
       "options": [
-        "A new product was launched by the company last month.",
-        "A new product is launched by the company last month.",
-        "A new product was launch by the company last month.",
-        "A new product has been launched by the company last month."
+        "The meal prepared the chef.",
+        "The meal was prepared by the chef.",
+        "The meal is preparing by the chef.",
+        "The meal prepared was the chef."
       ],
-      "answer": "A"
+      "answer": "The meal was prepared by the chef."
     },
     {
-      "question": "Pilih struktur yang benar: 'The data _______ by the researchers.'",
+      "question": "Complete the sentence with the correct passive form: 'The new bridge _______ next year.' (build)",
       "options": [
-        "is analyzed",
-        "has been analyzed",
-        "was analyzed",
-        "All of the above are correct depending on context"
+        "will build",
+        "will be build",
+        "will be built",
+        "is built"
       ],
-      "answer": "D"
+      "answer": "will be built"
     },
     {
-      "question": "Ubah ke pasif: 'People should protect the environment.'",
+      "question": "What is the passive form of 'Someone stole my wallet'?",
       "options": [
-        "The environment should protected.",
-        "The environment should be protected.",
-        "The environment is protected.",
-        "The environment must protected."
+        "My wallet stole someone.",
+        "My wallet was stolen by someone.",
+        "My wallet has been stolen.",
+        "Someone was stolen by my wallet."
       ],
-      "answer": "B"
+      "answer": "My wallet has been stolen."
     },
     {
-      "question": "Manakah kalimat yang salah (Grammatically incorrect)?",
+      "question": "Identify the passive sentence:",
       "options": [
-        "The bridge was built in 1990.",
-        "The letter has been sent.",
-        "The mistake was forgot.",
-        "The decision will be made soon."
+        "The students completed the assignment.",
+        "The assignment was completed by the students.",
+        "The students are completing the assignment.",
+        "The assignment is completed by the students."
       ],
-      "answer": "C"
+      "answer": "The assignment was completed by the students."
     },
     {
-      "question": "Ubah ke pasif: 'They are repairing the road.'",
+      "question": "Choose the correct passive form: 'They are discussing the issue.'",
       "options": [
-        "The road is repaired.",
-        "The road is being repaired.",
-        "The road was being repaired.",
-        "The road has been repaired."
+        "The issue is discussing.",
+        "The issue is being discussed.",
+        "The issue was discussed.",
+        "The issue has been discussed."
       ],
-      "answer": "B"
+      "answer": "The issue is being discussed."
     }
   ]
 }

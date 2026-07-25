@@ -4,17 +4,17 @@
       "word": "Algorithm",
       "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
+      "definition": "A set of rules or instructions followed in calculations or other problem-solving operations, especially by a computer.",
       "indonesian": "Algoritma",
       "level": "B2",
-      "ieltsBand": "7+",
+      "ieltsBand": 7,
       "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
         "complex algorithm",
         "search algorithm",
         "learning algorithm",
         "design an algorithm",
-        "run an algorithm"
+        "implement an algorithm"
       ],
       "synonyms": [
         "procedure",
@@ -25,23 +25,23 @@
     },
     {
       "word": "Automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
       "partOfSpeech": "noun",
-      "definition": "The use of technology to carry out tasks with minimal human intervention.",
+      "definition": "The use of technology to carry out a process with minimal human assistance.",
       "indonesian": "Otomatisasi",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The factory has increased its efficiency through automation.",
+      "ieltsBand": 7,
+      "example": "Automation in manufacturing has led to increased efficiency but also job displacement.",
       "collocations": [
         "industrial automation",
         "process automation",
-        "workplace automation",
-        "implement automation",
-        "benefit from automation"
+        "home automation",
+        "increase automation",
+        "reduce automation"
       ],
       "synonyms": [
         "mechanization",
-        "robotization",
+        "robotics",
         "self-operation"
       ]
     },
@@ -49,80 +49,38 @@
       "word": "Big Data",
       "pronunciation": "/ˌbɪɡ ˈdeɪtə/",
       "partOfSpeech": "noun",
-      "definition": "Extremely large amounts of data that can be analyzed to reveal patterns, trends, and associations, especially relating to human behavior and interactions.",
+      "definition": "Extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions.",
       "indonesian": "Data Besar",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Companies are increasingly using big data to understand customer preferences.",
+      "ieltsBand": 7,
+      "example": "Companies are leveraging big data to understand customer preferences and market trends.",
       "collocations": [
+        "volume of big data",
         "analyze big data",
-        "big data analytics",
-        "big data solutions",
         "manage big data",
-        "process big data"
+        "big data analytics",
+        "big data solutions"
       ],
       "synonyms": [
-        "large-scale data",
-        "vast datasets"
-      ]
-    },
-    {
-      "word": "Cloud Computing",
-      "pronunciation": "/klaʊd kəmˈpjuːtɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "The practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer.",
-      "indonesian": "Komputasi Awan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Many businesses have migrated their operations to cloud computing platforms.",
-      "collocations": [
-        "cloud computing services",
-        "cloud computing infrastructure",
-        "cloud computing security",
-        "adopt cloud computing",
-        "move to cloud computing"
-      ],
-      "synonyms": [
-        "internet-based computing",
-        "on-demand computing"
-      ]
-    },
-    {
-      "word": "Cybersecurity",
-      "pronunciation": "/ˌsaɪbər sɪˈkjʊərɪti/",
-      "partOfSpeech": "noun",
-      "definition": "The practice of protecting systems, networks, and programs from digital attacks.",
-      "indonesian": "Keamanan Siber",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Robust cybersecurity measures are essential for protecting sensitive information.",
-      "collocations": [
-        "network cybersecurity",
-        "data cybersecurity",
-        "cybersecurity threats",
-        "improve cybersecurity",
-        "invest in cybersecurity"
-      ],
-      "synonyms": [
-        "information security",
-        "digital security"
+        "massive datasets",
+        "large-scale data"
       ]
     },
     {
       "word": "Machine Learning",
-      "pronunciation": "/məˈʃiːn ˈlɜːnɪŋ/",
+      "pronunciation": "/məˈʃiːn ˈlɜːrnɪŋ/",
       "partOfSpeech": "noun",
-      "definition": "A type of artificial intelligence that allows computers to learn from data without being explicitly programmed.",
+      "definition": "A subset of artificial intelligence that provides systems with the ability to automatically learn and improve from experience without being explicitly programmed.",
       "indonesian": "Pembelajaran Mesin",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Machine learning algorithms are used in recommendation systems and image recognition.",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Machine learning algorithms are used in recommendation systems and fraud detection.",
       "collocations": [
         "supervised machine learning",
         "unsupervised machine learning",
         "deep machine learning",
         "apply machine learning",
-        "develop machine learning"
+        "machine learning model"
       ],
       "synonyms": [
         "AI learning",
@@ -131,13 +89,13 @@
     },
     {
       "word": "Neural Network",
-      "pronunciation": "/ˈnjʊərəl ˈnɛtwɜːk/",
+      "pronunciation": "/ˈnjʊərəl ˈnɛtwɜːrk/",
       "partOfSpeech": "noun",
-      "definition": "A computing system inspired by the biological neural networks that constitute animal brains.",
+      "definition": "A computational model inspired by the structure and function of biological neural networks, used in machine learning for pattern recognition and prediction.",
       "indonesian": "Jaringan Saraf Tiruan",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Deep neural networks have achieved remarkable success in natural language processing.",
+      "ieltsBand": 7,
+      "example": "Deep neural networks are capable of processing highly complex information, such as images and speech.",
       "collocations": [
         "artificial neural network",
         "deep neural network",
@@ -146,30 +104,72 @@
         "design a neural network"
       ],
       "synonyms": [
-        "artificial brain",
-        "computational network"
+        "artificial neural system",
+        "neural net"
       ]
     },
     {
-      "word": "Scalable",
-      "pronunciation": "/ˈskeɪləbl/",
-      "partOfSpeech": "adjective",
-      "definition": "Able to be changed in size or scale; able to grow or be expanded.",
-      "indonesian": "Skalabel",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The new software is highly scalable, allowing it to handle increasing user demand.",
+      "word": "Predictive Analytics",
+      "pronunciation": "/prɪˈdɪktɪv ˌænəˈlɪtɪks/",
+      "partOfSpeech": "noun",
+      "definition": "The use of data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data.",
+      "indonesian": "Analitik Prediktif",
+      "level": "C1",
+      "ieltsBand": 7,
+      "example": "Businesses use predictive analytics to forecast sales and identify potential risks.",
       "collocations": [
-        "highly scalable",
-        "scalable architecture",
-        "scalable solution",
-        "make scalable",
-        "become scalable"
+        "advanced predictive analytics",
+        "predictive analytics software",
+        "marketing predictive analytics",
+        "implement predictive analytics",
+        "perform predictive analytics"
       ],
       "synonyms": [
-        "expandable",
-        "adaptable",
-        "flexible"
+        "forecasting",
+        "prognostication"
+      ]
+    },
+    {
+      "word": "Scalability",
+      "pronunciation": "/ˌskeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The capacity of a system, network, or process to grow and handle an increasing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "Skalabilitas",
+      "level": "C1",
+      "ieltsBand": 7,
+      "example": "Cloud computing offers excellent scalability, allowing businesses to adjust resources as needed.",
+      "collocations": [
+        "system scalability",
+        "network scalability",
+        "high scalability",
+        "ensure scalability",
+        "achieve scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "flexibility",
+        "adaptability"
+      ]
+    },
+    {
+      "word": "Virtualization",
+      "pronunciation": "/ˌvɜːrtʃuəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The creation of a virtual (rather than actual) version of something, such as an operating system, a server, a storage device, or network resources.",
+      "indonesian": "Virtualisasi",
+      "level": "C1",
+      "ieltsBand": 7,
+      "example": "Virtualization allows multiple operating systems to run on a single physical machine, saving costs and energy.",
+      "collocations": [
+        "server virtualization",
+        "network virtualization",
+        "desktop virtualization",
+        "implement virtualization",
+        "benefits of virtualization"
+      ],
+      "synonyms": [
+        "emulation",
+        "simulation"
       ]
     }
   ]

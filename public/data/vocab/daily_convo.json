@@ -1,163 +1,178 @@
 {
   "words": [
     {
-      "word": "Glimpse",
-      "pronunciation": "/ɡlɪmps/",
+      "word": "utterly",
+      "pronunciation": "/ˈʌtərli/",
+      "partOfSpeech": "adverb",
+      "definition": "completely; totally",
+      "indonesian": "benar-benar, sama sekali",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "I was utterly exhausted after the long hike.",
+      "collocations": [
+        "utterly exhausted",
+        "utterly ridiculous",
+        "utterly convinced",
+        "utterly devastated"
+      ],
+      "synonyms": [
+        "completely",
+        "totally",
+        "absolutely",
+        "entirely"
+      ]
+    },
+    {
+      "word": "flabbergasted",
+      "pronunciation": "/ˈflæbərˌɡæstɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "greatly surprised or impressed; amazed",
+      "indonesian": "tercengang, terkejut luar biasa",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "She was flabbergasted when she heard the news of her promotion.",
+      "collocations": [
+        "utterly flabbergasted",
+        "completely flabbergasted",
+        "left flabbergasted"
+      ],
+      "synonyms": [
+        "astonished",
+        "amazed",
+        "dumbfounded",
+        "bewildered"
+      ]
+    },
+    {
+      "word": "nuance",
+      "pronunciation": "/ˈnuːɑːns/",
       "partOfSpeech": "noun",
-      "definition": "a momentary or partial view",
-      "indonesian": "sekilas pandang",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I caught a glimpse of him as he rushed past the window.",
-      "collocations": [
-        "catch a glimpse",
-        "a fleeting glimpse",
-        "a brief glimpse"
-      ],
-      "synonyms": [
-        "peek",
-        "flash",
-        "sight"
-      ]
-    },
-    {
-      "word": "Fascinating",
-      "pronunciation": "/ˈfæsɪneɪtɪŋ/",
-      "partOfSpeech": "adjective",
-      "definition": "extremely interesting",
-      "indonesian": "sangat menarik",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "The documentary about ancient civilizations was absolutely fascinating.",
-      "collocations": [
-        "truly fascinating",
-        "utterly fascinating",
-        "find something fascinating"
-      ],
-      "synonyms": [
-        "captivating",
-        "engrossing",
-        "intriguing"
-      ]
-    },
-    {
-      "word": "Underestimate",
-      "pronunciation": "/ˌʌndərˈɛstɪmeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to estimate something as being less than its real worth or amount",
-      "indonesian": "meremehkan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Never underestimate the power of a good cup of coffee to wake you up.",
-      "collocations": [
-        "underestimate the importance",
-        "underestimate the difficulty",
-        "never underestimate"
-      ],
-      "synonyms": [
-        "underrate",
-        "belittle",
-        "discount"
-      ]
-    },
-    {
-      "word": "Appreciate",
-      "pronunciation": "/əˈpriːʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to understand how good someone or something is; to value something",
-      "indonesian": "menghargai",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I really appreciate all the help you've given me with this project.",
-      "collocations": [
-        "greatly appreciate",
-        "truly appreciate",
-        "appreciate the effort"
-      ],
-      "synonyms": [
-        "value",
-        "cherish",
-        "recognize"
-      ]
-    },
-    {
-      "word": "Encounter",
-      "pronunciation": "/ɪnˈkaʊntər/",
-      "partOfSpeech": "verb",
-      "definition": "to meet someone or experience something, especially unexpectedly",
-      "indonesian": "menemui, menghadapi",
+      "definition": "a subtle difference in or shade of meaning, expression, or sound",
+      "indonesian": "nuansa, seluk-beluk, perbedaan halus",
       "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "During my trip, I encountered a lot of interesting people.",
+      "ieltsBand": "7.0+",
+      "example": "The artist's painting captured every nuance of the landscape.",
       "collocations": [
-        "unexpectedly encounter",
-        "encounter difficulties",
-        "encounter opposition"
+        "subtle nuance",
+        "understand the nuance",
+        "miss the nuance",
+        "a nuance of meaning"
       ],
       "synonyms": [
-        "meet",
-        "come across",
-        "face"
+        "subtlety",
+        "shade",
+        "gradation",
+        "distinction"
       ]
     },
     {
-      "word": "Subtle",
-      "pronunciation": "/ˈsʌtl/",
+      "word": "overwhelmed",
+      "pronunciation": "/ˌoʊvərˈwɛlmd/",
       "partOfSpeech": "adjective",
-      "definition": "so delicate or precise as to be difficult to analyze or describe",
-      "indonesian": "halus, samar",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "There was a subtle shift in his tone of voice that made me suspicious.",
+      "definition": "having too many things to deal with; feeling unable to cope",
+      "indonesian": "kewalahan, terbebani",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "He felt overwhelmed by the amount of work he had to do.",
       "collocations": [
-        "subtle difference",
-        "subtle hint",
-        "subtle change"
+        "feeling overwhelmed",
+        "completely overwhelmed",
+        "overwhelmed by emotion",
+        "overwhelmed with work"
       ],
       "synonyms": [
-        "delicate",
-        "nuanced",
-        "understated"
+        "swamped",
+        "inundated",
+        "burdened",
+        "overcome"
       ]
     },
     {
-      "word": "Insight",
-      "pronunciation": "/ˈɪnsaɪt/",
+      "word": "resilience",
+      "pronunciation": "/rɪˈzɪliəns/",
       "partOfSpeech": "noun",
-      "definition": "an understanding of a complex situation or subject",
-      "indonesian": "wawasan",
+      "definition": "the capacity to recover quickly from difficulties; toughness",
+      "indonesian": "ketahanan, daya lenting",
       "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "Her latest book provides valuable insights into the human mind.",
+      "ieltsBand": "7.0+",
+      "example": "Her resilience in the face of adversity was inspiring.",
       "collocations": [
-        "gain insight",
-        "valuable insight",
-        "deep insight"
+        "mental resilience",
+        "emotional resilience",
+        "build resilience",
+        "show resilience"
       ],
       "synonyms": [
-        "understanding",
-        "perception",
-        "comprehension"
+        "toughness",
+        "strength",
+        "hardiness",
+        "sturdiness"
       ]
     },
     {
-      "word": "Ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere",
-      "indonesian": "ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "Smartphones have become ubiquitous in modern society.",
+      "word": "articulate",
+      "pronunciation": "/ɑːrˈtɪkjʊleɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to express an idea or feeling fluently and coherently",
+      "indonesian": "mengartikulasikan, mengungkapkan dengan jelas",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "It's important to be able to articulate your thoughts clearly.",
       "collocations": [
-        "seemingly ubiquitous",
-        "increasingly ubiquitous",
-        "ubiquitous presence"
+        "articulate a point",
+        "articulate a vision",
+        "articulate feelings",
+        "well-articulated"
       ],
       "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal"
+        "express",
+        "voice",
+        "state",
+        "phrase"
+      ]
+    },
+    {
+      "word": "conundrum",
+      "pronunciation": "/kəˈnʌndrəm/",
+      "partOfSpeech": "noun",
+      "definition": "a confusing and difficult problem or question",
+      "indonesian": "teka-teki, masalah yang membingungkan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The economic situation presents a real conundrum for the government.",
+      "collocations": [
+        "a difficult conundrum",
+        "a simple conundrum",
+        "solve a conundrum",
+        "present a conundrum"
+      ],
+      "synonyms": [
+        "puzzle",
+        "riddle",
+        "problem",
+        "mystery"
+      ]
+    },
+    {
+      "word": "inevitable",
+      "pronunciation": "/ɪnˈɛvɪtəbl/",
+      "partOfSpeech": "adjective",
+      "definition": "certain to happen; unavoidable",
+      "indonesian": "tak terhindarkan, pasti terjadi",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Change is inevitable in life.",
+      "collocations": [
+        "seem inevitable",
+        "become inevitable",
+        "inevitable consequence",
+        "inevitable outcome"
+      ],
+      "synonyms": [
+        "unavoidable",
+        "certain",
+        "bound to happen",
+        "fated"
       ]
     }
   ]
