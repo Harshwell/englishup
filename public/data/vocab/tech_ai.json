@@ -1,45 +1,176 @@
 {
   "words": [
     {
-      "word": "algorithm",
-      "pronunciation": "/ˈælɡəɹɪðm̩/",
+      "word": "Algorithm",
+      "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
+      "indonesian": "Algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "The search engine uses a complex algorithm to rank web pages.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "complex algorithm",
+        "search algorithm",
+        "sorting algorithm",
+        "machine learning algorithm",
+        "data algorithm"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "process",
+        "method",
+        "formula"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "/ˈbaɪəs/",
+      "word": "Automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
       "partOfSpeech": "noun",
-      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "definition": "The use of technology to perform tasks with minimal human intervention.",
+      "indonesian": "Otomatisasi",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Automation in manufacturing has led to increased efficiency but also job displacement.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "industrial automation",
+        "process automation",
+        "home automation",
+        "workplace automation",
+        "digital automation"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "mechanization",
+        "robotics",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "Big Data",
+      "pronunciation": "/ˌbɪɡ ˈdeɪtə/",
+      "partOfSpeech": "noun",
+      "definition": "Extremely large amounts of data that can be analyzed to reveal patterns, trends, and associations.",
+      "indonesian": "Big Data",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Companies are increasingly using big data to understand customer behavior and personalize marketing.",
+      "collocations": [
+        "analyze big data",
+        "manage big data",
+        "big data analytics",
+        "big data solutions",
+        "volume of big data"
+      ],
+      "synonyms": [
+        "large-scale data",
+        "mass data"
+      ]
+    },
+    {
+      "word": "Cloud Computing",
+      "pronunciation": "/klaʊd kəmˈpjuːtɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "The delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (“the cloud”).",
+      "indonesian": "Komputasi Awan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Many startups leverage cloud computing to reduce infrastructure costs and scale their operations.",
+      "collocations": [
+        "cloud computing services",
+        "cloud computing platform",
+        "cloud computing solutions",
+        "public cloud computing",
+        "private cloud computing"
+      ],
+      "synonyms": [
+        "online computing",
+        "internet-based computing"
+      ]
+    },
+    {
+      "word": "Cybersecurity",
+      "pronunciation": "/ˌsaɪbər sɪˈkjʊərəti/",
+      "partOfSpeech": "noun",
+      "definition": "The practice of protecting systems, networks, and programs from digital attacks.",
+      "indonesian": "Keamanan Siber",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Robust cybersecurity measures are essential to protect sensitive information from hackers.",
+      "collocations": [
+        "network cybersecurity",
+        "data cybersecurity",
+        "cybersecurity threats",
+        "cybersecurity measures",
+        "cybersecurity expert"
+      ],
+      "synonyms": [
+        "information security",
+        "computer security",
+        "digital security"
+      ]
+    },
+    {
+      "word": "Machine Learning",
+      "pronunciation": "/məˈʃiːn ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "A type of artificial intelligence that allows computer systems to learn from data without being explicitly programmed.",
+      "indonesian": "Pembelajaran Mesin",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Machine learning algorithms are used in recommendation systems and fraud detection.",
+      "collocations": [
+        "supervised machine learning",
+        "unsupervised machine learning",
+        "deep machine learning",
+        "machine learning model",
+        "machine learning techniques"
+      ],
+      "synonyms": [
+        "AI learning",
+        "computational learning"
+      ]
+    },
+    {
+      "word": "Neural Network",
+      "pronunciation": "/ˈnjʊərəl ˈnetwɜːrk/",
+      "partOfSpeech": "noun",
+      "definition": "A computational model inspired by the structure and function of biological neural networks, used in machine learning for tasks like image recognition and natural language processing.",
+      "indonesian": "Jaringan Saraf Tiruan",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Deep neural networks have achieved remarkable success in artificial intelligence research.",
+      "collocations": [
+        "artificial neural network",
+        "deep neural network",
+        "convolutional neural network",
+        "recurrent neural network",
+        "train a neural network"
+      ],
+      "synonyms": [
+        "artificial neuron network",
+        "interconnected nodes"
+      ]
+    },
+    {
+      "word": "Scalability",
+      "pronunciation": "/ˌskeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "Skalabilitas",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "The new software platform was designed for high scalability to accommodate millions of users.",
+      "collocations": [
+        "system scalability",
+        "network scalability",
+        "application scalability",
+        "business scalability",
+        "achieve scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "adaptability",
+        "flexibility"
       ]
     }
   ]
