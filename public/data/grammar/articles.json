@@ -1,146 +1,107 @@
 {
-  "grammarChart": [
+  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata yang mendahului kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak spesifik. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan komunikasi yang jelas.",
+  "keyRules": [
     {
       "article": "a",
-      "meaning": "one, any, not specific",
-      "use": "Before singular countable nouns that start with a consonant sound."
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang tidak spesifik atau umum."
     },
     {
       "article": "an",
-      "meaning": "one, any, not specific",
-      "use": "Before singular countable nouns that start with a vowel sound."
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi vokal. Menunjukkan sesuatu yang tidak spesifik atau umum."
     },
     {
       "article": "the",
-      "meaning": "specific, unique, already mentioned",
-      "use": "Before singular or plural countable or uncountable nouns when the noun is specific or has been mentioned before."
+      "rule": "Digunakan sebelum kata benda tunggal atau jamak, yang dapat dihitung atau tidak dapat dihitung (uncountable nouns). Menunjukkan sesuatu yang spesifik, sudah diketahui oleh pendengar/pembaca, atau unik."
     },
     {
-      "article": "zero article (-)",
-      "meaning": "general, plural, uncountable, abstract",
-      "use": "Before plural countable nouns used in a general sense, uncountable nouns used in a general sense, abstract nouns, and proper nouns (with some exceptions)."
+      "article": "Zero Article (tidak ada artikel)",
+      "rule": "Digunakan dalam beberapa kasus, seperti sebelum kata benda jamak atau tidak dapat dihitung yang merujuk pada sesuatu secara umum, sebelum nama orang, kota, negara, bahasa, mata pelajaran, dan sebelum kata benda abstrak dalam konteks umum."
     }
   ],
-  "explanation": "Articles are small words that come before nouns to indicate whether the noun is specific or general. In English, we have three articles: 'a', 'an', and 'the'. We also use the 'zero article' (no article) in certain situations. Understanding when to use each is crucial for clear and accurate communication, especially for IELTS.",
-  "keyRules": [
-    {
-      "rule": "Use 'a' or 'an' for singular, countable nouns when you are introducing them for the first time or referring to any one of them.",
-      "example": "I saw a dog in the park. (any dog, first mention)"
-    },
-    {
-      "rule": "Use 'the' when the noun is specific, unique, or has already been mentioned.",
-      "example": "The dog I saw was a Golden Retriever. (the specific dog we just talked about)"
-    },
-    {
-      "rule": "Use 'the' for unique things (e.g., the sun, the moon, the Earth).",
-      "example": "The sun rises in the east."
-    },
-    {
-      "rule": "Use 'the' with superlatives (e.g., the best, the tallest).",
-      "example": "She is the smartest student in the class."
-    },
-    {
-      "rule": "Use the zero article for general plural nouns and general uncountable nouns.",
-      "example": "Cats are independent animals. (all cats, generally) / Water is essential for life. (water in general)"
-    },
-    {
-      "rule": "Use the zero article with most proper nouns (names of people, most countries, cities, continents).",
-      "example": "John lives in London. / Asia is a large continent."
-    },
-    {
-      "rule": "Use 'an' before vowel sounds, not just vowel letters. 'a' before consonant sounds.",
-      "example": "an hour (h is silent, vowel sound) / a university (u sounds like 'yoo', consonant sound)"
-    }
-  ],
-  "azarNotes": "Remember that 'a' and 'an' are indefinite articles, meaning they refer to a non-specific noun. 'The' is a definite article, referring to a specific noun. The zero article is used when no article is needed, often for general concepts or proper nouns.",
   "examples": [
     {
-      "sentence": "I need to buy a new laptop.",
-      "explanation": "'a' is used because 'laptop' is a singular, countable noun, and it's the first mention, implying any new laptop."
+      "scenario": "Penggunaan 'a' dan 'an'",
+      "sentences": [
+        "I saw **a** cat in the garden.",
+        "She is **an** excellent student.",
+        "He ate **an** apple for breakfast."
+      ]
     },
     {
-      "sentence": "She is an excellent musician.",
-      "explanation": "'an' is used because 'excellent' starts with a vowel sound, and 'musician' is a singular, countable noun."
+      "scenario": "Penggunaan 'the'",
+      "sentences": [
+        "**The** sun is shining today.",
+        "I read **the** book you recommended.",
+        "Can you pass me **the** salt, please?"
+      ]
     },
     {
-      "sentence": "The president will give a speech tomorrow.",
-      "explanation": "'the' is used because there is only one president at a time, making it unique and specific."
-    },
-    {
-      "sentence": "Can you pass me the salt?",
-      "explanation": "'the' is used because the speaker is referring to a specific salt shaker on the table, not salt in general."
-    },
-    {
-      "sentence": "Children love playing games.",
-      "explanation": "Zero article is used because 'children' and 'games' are plural nouns used in a general sense."
-    },
-    {
-      "sentence": "Honesty is the best policy.",
-      "explanation": "Zero article is used for the abstract noun 'honesty'. 'the' is used for the superlative 'best'."
-    },
-    {
-      "sentence": "He went to the United States.",
-      "explanation": "'the' is used with countries that include words like 'Republic', 'Kingdom', or are plural (e.g., the Netherlands)."
+      "scenario": "Penggunaan Zero Article",
+      "sentences": [
+        "**Children** love to play.",
+        "**Water** is essential for life.",
+        "I study **English** at university.",
+        "He speaks **French** fluently."
+      ]
     }
   ],
   "commonMistakes": [
-    "Using 'the' with general plural or uncountable nouns (e.g., 'The dogs are friendly' when referring to dogs in general).",
-    "Using 'a' or 'an' with uncountable nouns (e.g., 'a water').",
-    "Incorrectly using 'a' or 'an' based on the letter rather than the sound (e.g., 'a hour' instead of 'an hour').",
-    "Forgetting 'the' with unique items (e.g., 'Sun is bright').",
-    "Using an article with most proper nouns (e.g., 'the John' or 'the London')."
+    "Menggunakan 'a' atau 'an' sebelum kata benda jamak atau tidak dapat dihitung.",
+    "Menggunakan 'the' ketika merujuk pada sesuatu secara umum.",
+    "Lupa menggunakan 'the' ketika merujuk pada sesuatu yang spesifik atau sudah disebutkan sebelumnya.",
+    "Kesalahan dalam menentukan bunyi awal (vokal atau konsonan) untuk 'a' dan 'an' (misalnya, 'an hour' bukan 'a hour')."
   ],
-  "ieltsTip": "In IELTS Writing and Speaking, pay close attention to the specificity of the noun. If you're talking about something general, use the zero article or 'a/an'. If it's specific, or has been mentioned before, use 'the'. Practice identifying these distinctions in authentic materials like news articles and academic texts.",
+  "ieltsTip": "Dalam IELTS Writing dan Speaking, perhatikan konteks. Jika Anda memperkenalkan sesuatu untuk pertama kalinya, gunakan 'a' atau 'an'. Jika Anda merujuknya lagi atau jika pendengar/pembaca sudah tahu apa yang Anda maksud, gunakan 'the'. Latihan membaca dan mendengarkan materi berbahasa Inggris akan membantu Anda memahami pola penggunaan artikel secara intuitif.",
   "quiz": [
     {
-      "question": "She is ______ doctor and ______ honest person.",
+      "question": "Choose the correct article: I bought ______ new car.",
       "options": [
-        "a, a",
-        "an, an",
-        "a, an",
-        "an, a"
+        "a",
+        "an",
+        "the",
+        "zero article"
       ],
-      "answer": "a, an"
+      "answer": "a"
     },
     {
-      "question": "______ Mount Everest is ______ highest mountain in ______ world.",
+      "question": "Choose the correct article: She has ______ interesting idea.",
       "options": [
-        "The, the, the",
-        "A, the, the",
-        "The, a, the",
-        "-, the, the"
+        "a",
+        "an",
+        "the",
+        "zero article"
       ],
-      "answer": "The, the, the"
+      "answer": "an"
     },
     {
-      "question": "I enjoy listening to ______ music, especially classical ______.",
+      "question": "Choose the correct article: ______ Eiffel Tower is in Paris.",
       "options": [
-        "the, music",
-        "-, music",
-        "a, music",
-        "the, a music"
+        "a",
+        "an",
+        "the",
+        "zero article"
       ],
-      "answer": "-, music"
+      "answer": "the"
     },
     {
-      "question": "He bought ______ new car, but ______ car was too expensive.",
+      "question": "Choose the correct article: ______ dogs are loyal animals.",
       "options": [
-        "a, the",
-        "the, a",
-        "a, a",
-        "the, the"
+        "a",
+        "an",
+        "the",
+        "zero article"
       ],
-      "answer": "a, the"
+      "answer": "zero article"
     },
     {
-      "question": "______ air we breathe is crucial for ______ life.",
+      "question": "Choose the correct article: Can you close ______ door?",
       "options": [
-        "The, the",
-        "A, a",
-        "The, a",
-        "-, the"
+        "a",
+        "an",
+        "the",
+        "zero article"
       ],
-      "answer": "The, a"
+      "answer": "the"
     }
   ]
 }
