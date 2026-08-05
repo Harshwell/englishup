@@ -19,7 +19,11 @@ try {
   ({ readingPassageSchema } = await import("../lib/schemas/englishup-schemas.mjs"));
 } catch (error) {
   if (error.code !== "ERR_MODULE_NOT_FOUND") throw error;
-  console.warn("⚠ Zod is not installed in node_modules; using structural validation fallback. Run npm install to enable full Zod validation.");
+  if (process.env.CI === "true") {
+    console.error("Zod is required for CI content validation. Run npm install before npm run validate:content.");
+    process.exit(1);
+  }
+  console.warn("⚠ Zod is not installed in node_modules; using local-only structural validation fallback. CI will fail without Zod.");
 }
 
 const reading = await readJson("public/data/reading/passages.json");

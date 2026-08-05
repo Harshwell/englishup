@@ -4,27 +4,10 @@ import path from "node:path";
 import { generateGrammarFromBase, generateGrammarLesson, generateReadingSet, generateVocabularySet } from "../../../lib/content-generation";
 import { getFallbackVocab } from "../../../lib/fallback-content";
 import { getTrustedArticles, lookupDictionary } from "../../../lib/api-library";
-import {
-  contentGrammarResponseSchema,
-  contentReadingResponseSchema,
-  contentVocabResponseSchema,
-  parseOrNull,
-  readingPoolSchema,
-  vocabPayloadSchema,
-} from "../../../lib/schemas/englishup-schemas.mjs";
+import { callGeminiGateway } from "../../../lib/ai/gemini-gateway";
 
 const CONTENT_ROOT = path.join(process.cwd(), "public", "data");
 const CONTENT_CACHE = new Map();
-
-async function fetchWithTimeout(url, options = {}, timeoutMs = 18000) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, { ...options, signal: controller.signal });
-  } finally {
-    clearTimeout(timeout);
-  }
-}
 
 function extractJsonObject(raw = "") {
   const cleaned = String(raw).replace(/```json/gi, "").replace(/```/g, "").trim();
@@ -34,56 +17,22 @@ function extractJsonObject(raw = "") {
   return cleaned.slice(start, end + 1);
 }
 
-async function generateAiJson(prompt) {
-  const geminiKey = process.env.GEMINI_API_KEY;
-  const openrouterKey = process.env.OPENROUTER_API_KEY;
-
-  try {
-    if (geminiKey) {
-      const model = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
-      const response = await fetchWithTimeout(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${geminiKey}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{ role: "user", parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.6, maxOutputTokens: 900 }
-        })
-      });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data?.error?.message || "gemini_failed");
-      const text = data?.candidates?.[0]?.content?.parts?.map((part) => part?.text || "").join("") || "";
-      const jsonText = extractJsonObject(text);
-      if (!jsonText) return null;
+async function generateAiJson(prompt, fallbackData = null, promptVersion = "content-generator-v2") {
+  const result = await callGeminiGateway({
+    prompt,
+    maxOutputTokens: 900,
+    temperature: 0.6,
+    promptVersion,
+    endpoint: "content.generateJson",
+    fallbackData,
+    responseParser: (raw) => {
+      const jsonText = extractJsonObject(raw);
+      if (!jsonText) throw new Error("invalid_response_json_missing");
       return JSON.parse(jsonText);
-    }
-  } catch {}
+    },
+  });
 
-  try {
-    if (openrouterKey) {
-      const model = process.env.OPENROUTER_MODEL || "openrouter/free";
-      const response = await fetchWithTimeout("https://openrouter.ai/api/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${openrouterKey}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          model,
-          temperature: 0.6,
-          max_tokens: 900,
-          messages: [{ role: "user", content: prompt }]
-        })
-      });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data?.error?.message || "openrouter_failed");
-      const text = data?.choices?.[0]?.message?.content || "";
-      const jsonText = extractJsonObject(text);
-      if (!jsonText) return null;
-      return JSON.parse(jsonText);
-    }
-  } catch {}
-
-  return null;
+  return result.ok ? result.data : fallbackData;
 }
 
 function normalizeQuizItem(item, index = 0) {

@@ -1,18 +1,8 @@
 import { NextResponse } from "next/server";
-import { evaluationResponseSchema } from "../../../lib/schemas/englishup-schemas.mjs";
+import { callGeminiGateway } from "../../../lib/ai/gemini-gateway";
 
 const SCORE_KEYS = ["cohesion", "syntax", "vocabulary", "grammar", "conventions"];
 const MAX_TEXT_CHARS = 15000;
-
-async function fetchWithTimeout(url, options = {}, timeoutMs = 25000) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, { ...options, signal: controller.signal });
-  } finally {
-    clearTimeout(timeout);
-  }
-}
 
 function fallbackEvaluation(text) {
   const words = text.trim().split(/\s+/).filter(Boolean).length;
@@ -62,31 +52,45 @@ function normalizeEvaluation(result) {
   return { provider: "gemini", scores, recommendations };
 }
 
+function buildEvaluationPrompt(text) {
+  return `Evaluate this English learner text using an IELTS-readiness learning rubric, not an official IELTS score. Return only JSON with keys scores and recommendations. scores must include cohesion, syntax, vocabulary, grammar, conventions with values 1-5. recommendations must be an array of 4 concise Indonesian action items.
+
+Text:
+${text}`;
+}
+
 async function evaluateWithGemini(text) {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) throw new Error("GEMINI_API_KEY not configured");
+  const result = await callGeminiGateway({
+    prompt: buildEvaluationPrompt(text),
+    maxOutputTokens: 800,
+    temperature: 0.2,
+    promptVersion: "writing-evaluation-v2",
+    endpoint: "evaluate.writing",
+    fallbackData: fallbackEvaluation(text),
+    responseParser: (raw) => normalizeEvaluation(JSON.parse(extractJsonObject(raw))),
+  });
 
-  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
-  const prompt = `Evaluate this English learner text using an ELLIPSE-style rubric. Return only JSON with keys scores and recommendations. scores must include cohesion, syntax, vocabulary, grammar, conventions with values 1-5. recommendations must be an array of 4 concise Indonesian action items.\n\nText:\n${text}`;
+  if (!result.ok) {
+    return {
+      provider: "fallback",
+      source: result.source,
+      fallbackReason: result.failureReason,
+      latencyMs: result.latencyMs,
+      cacheKey: result.cacheKey,
+      promptVersion: result.promptVersion,
+      ...result.data,
+    };
+  }
 
-  const response = await fetchWithTimeout(
-    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ role: "user", parts: [{ text: prompt }] }],
-        generationConfig: { maxOutputTokens: 800, temperature: 0.2 }
-      })
-    }
-  );
-
-  const data = await response.json();
-  if (!response.ok) throw new Error(data?.error?.message || "Gemini API error");
-
-  const raw = data?.candidates?.[0]?.content?.parts?.map((part) => part?.text || "").join("") || "";
-  const parsed = JSON.parse(extractJsonObject(raw));
-  return normalizeEvaluation(parsed);
+  return {
+    provider: "gemini",
+    source: result.source,
+    latencyMs: result.latencyMs,
+    cacheKey: result.cacheKey,
+    promptVersion: result.promptVersion,
+    tokenUsage: result.tokenUsage,
+    ...result.data,
+  };
 }
 
 export async function POST(req) {
@@ -99,14 +103,8 @@ export async function POST(req) {
       return NextResponse.json({ error: `Text exceeds ${MAX_TEXT_CHARS} characters` }, { status: 400 });
     }
 
-    try {
-      const result = evaluateResponseSchema.safeParse(await evaluateWithGemini(text));
-      if (!result.success) throw new Error(result.error);
-      return NextResponse.json(result.data);
-    } catch {
-      const fallback = evaluationResponseSchema.safeParse(fallbackEvaluation(text));
-      return NextResponse.json(fallback.success ? fallback.data : fallbackEvaluation(text));
-    }
+    const result = await evaluateWithGemini(text);
+    return NextResponse.json(result);
   } catch (error) {
     return NextResponse.json({ error: error?.message || "Unexpected server error" }, { status: 500 });
   }

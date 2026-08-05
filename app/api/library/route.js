@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import { getConversationContext, getTrustedArticles, lookupDictionary, recordArticleFeedback } from "../../../lib/api-library";
-import { dictionaryResponseSchema, feedbackResponseSchema, libraryItemsResponseSchema, parseOrNull } from "../../../lib/schemas/englishup-schemas.mjs";
+import { getConversationContext, getMaterialEnrichment, getTrustedArticles, lookupDictionary, recordArticleFeedback } from "../../../lib/api-library";
 
 export async function POST(req) {
   try {
@@ -20,6 +19,16 @@ export async function POST(req) {
       const word = String(body?.word || "study");
       const item = await lookupDictionary(word);
       return NextResponse.json(parseOrNull(dictionaryResponseSchema, { item }) || { item: { word, definition: "", phonetic: "", example: "", synonyms: [] } });
+    }
+
+    if (type === "enrichment") {
+      const query = String(body?.query || body?.text || "education");
+      const word = String(body?.word || query.split(/\s+/)[0] || "study");
+      const limit = Math.min(6, Math.max(1, Number(body?.limit || 4)));
+      const topicKey = String(body?.topicKey || "");
+      const cefr = String(body?.cefr || "intermediate");
+      const item = await getMaterialEnrichment({ query, word, limit, topicKey, cefr });
+      return NextResponse.json({ item });
     }
 
     if (type === "enrichment") {

@@ -77,7 +77,7 @@ export default function EnglishUpEnhanced() {
         <header className="rounded-3xl bg-gradient-to-br from-indigo-950 via-indigo-800 to-sky-800 text-white p-6 shadow-sm">
           <p className="text-xs font-bold uppercase tracking-[0.25em] text-indigo-200">EnglishUp v3</p>
           <h1 className="text-3xl font-black mt-2">Data-backed IELTS practice</h1>
-          <p className="mt-2 max-w-2xl text-sm text-indigo-100 leading-relaxed">Materi statis, fallback lokal, chat Gemini/OpenRouter, flashcards, dan evaluasi tulisan berbasis rubrik.</p>
+          <p className="mt-2 max-w-2xl text-sm text-indigo-100 leading-relaxed">Materi statis, fallback lokal, enrichment API gratis, flashcards, dan evaluasi tulisan berbasis rubrik.</p>
         </header>
         <div className="mt-4 grid gap-4 lg:grid-cols-[240px_minmax(0,1fr)]">
           <nav aria-label="Primary" className="rounded-3xl bg-white border border-slate-200 p-3 h-fit shadow-sm">

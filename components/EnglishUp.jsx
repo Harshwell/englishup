@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import { getFallbackGrammar, getFallbackVocab, getFallbackReadingPool } from "../lib/fallback-content";
-import { buildSeed, deriveLearningInsights, safePostJSON } from "../lib/learning-flow";
+import { getFallbackGrammar, getFallbackVocab } from "../lib/fallback-content";
+import { buildDailyChallenge, buildSeed, deriveLearningInsights, getActivityStreak, safePostJSON } from "../lib/learning-flow";
 import {
   Home, MessageSquare, BookOpen, FileText, Send, RefreshCw,
   CheckCircle, XCircle, ChevronRight, Lightbulb, Trophy,
@@ -108,25 +108,8 @@ const C = {
   rose:    { bg: "bg-rose-50",    br: "border-rose-200",    tx: "text-rose-700",    tg: "bg-rose-100 text-rose-800"     },
 };
 
-const DAILIES = [
-  { task: "Complete the Articles grammar lesson and score 4/5 or higher", xp: 60, tab: "grammar" },
-  { task: "Learn all 8 IELTS Academic vocabulary words today",            xp: 50, tab: "vocab"   },
-  { task: "Read a Climate Change passage and answer 4/5 correctly",       xp: 70, tab: "reading" },
-  { task: "Send 5 messages in conversation practice",                     xp: 45, tab: "chat"    },
-  { task: "Complete the Conditionals lesson — key for IELTS Task 2",      xp: 60, tab: "grammar" },
-];
 const STORAGE_KEY = "englishup.v1.progress";
 const todayKey = () => new Date().toISOString().slice(0, 10);
-const getActivityStreak = (activeDates = []) => {
-  const dates = new Set(activeDates);
-  let streak = 0;
-  const cursor = new Date();
-  while (dates.has(cursor.toISOString().slice(0, 10))) {
-    streak += 1;
-    cursor.setDate(cursor.getDate() - 1);
-  }
-  return streak;
-};
 const CHAT_SEED_MESSAGE = { role: "ai", id: 0, text: "Halo, kita latihan conversation secara bertahap. Tulis 2–3 kalimat dalam bahasa Inggris tentang topik yang kamu pilih; aku akan fokus pada 1–2 koreksi prioritas supaya flow tetap hidup." };
 
 function normalizeQuizOptions(options = []) {
@@ -303,7 +286,6 @@ export default function EnglishUp() {
   const [rDone, setRDone] = useState(false);
 
   const { lvl, nxt, pct } = getLvl(xp);
-  const daily = DAILIES[new Date().getDate() % DAILIES.length];
   const learningInsights = deriveLearningInsights({
     grammarCompleted: doneL.size,
     grammarTotal: G_TOPICS.length,
@@ -313,6 +295,7 @@ export default function EnglishUp() {
     streak,
     xp
   });
+  const daily = buildDailyChallenge(learningInsights);
 
   useEffect(() => { chatEnd.current?.scrollIntoView({ behavior: "smooth" }); }, [msgs]);
   useEffect(() => {
@@ -796,10 +779,11 @@ export default function EnglishUp() {
             <div className="bg-white rounded-2xl p-4 border border-amber-200">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-7 h-7 bg-amber-100 rounded-lg flex items-center justify-center"><Zap className="w-3.5 h-3.5 text-amber-500" /></div>
-                <p className="font-bold text-gray-800 text-sm">Daily Challenge dari weakest skill</p>
+                <p className="font-bold text-gray-800 text-sm">Daily Challenge · {daily.skill}</p>
                 <span className="ml-auto text-xs font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">+{daily.xp} XP</span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed">{daily.task}</p>
+              <p className="mt-2 text-xs text-amber-700">Kenapa ini muncul: {daily.reason}</p>
               <button onClick={() => setTab(daily.tab)} className="mt-3 w-full py-2 bg-amber-50 hover:bg-amber-100 border border-amber-200 text-amber-700 rounded-xl text-sm font-semibold transition-colors">Start Challenge →</button>
             </div>
             <div className="grid grid-cols-2 gap-3">

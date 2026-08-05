@@ -1,17 +1,28 @@
 # Architecture
 
-## Content validation and fallback paths
+EnglishUp follows a static-first App Router architecture. Public learning pages should render from validated JSON where possible, while interactive practice can hydrate client components only for stateful actions.
 
-EnglishUp treats generated content and static JSON as untrusted until it passes the schemas in `lib/schemas/englishup-schemas.mjs`.
+## Layers
+- `app/`: routes, layouts, API handlers, and page composition.
+- `components/`: reusable UI and current application shells.
+- `features/`: target home for domain modules such as grammar, flashcards, reading, writing, conversation, onboarding, and dashboard.
+- `lib/`: shared runtime logic, AI gateway, storage, scheduling, and fallback helpers.
+- `lib/schemas/`: Zod contracts for static payloads, AI responses, and versioned progress.
+- `public/data/`: runtime JSON that must work without AI.
+- `content/`: authoring/intermediate material before export to runtime JSON.
+- `scripts/`: import, validation, extraction, and generation tooling.
 
-- `/api/content` reads static JSON from `public/data`, enriches it with dictionary/article/AI helpers, then validates the final response before returning `NextResponse.json`.
-- `components/EnglishUp.jsx` validates generated `/api/content` grammar, vocabulary, and reading responses before rendering. Invalid generated content falls through to static JSON; invalid static JSON falls through to curated local fallback modules where available.
-- `components/Flashcards.jsx` validates generated vocab decks first, then static flashcard JSON, then the in-component local fallback cards.
-- `/api/chat`, `/api/chat-v2`, and `/api/evaluate` validate the minimum AI response shape before returning successful responses. Evaluation falls back to a deterministic local rubric when provider output is unavailable or invalid.
+## Data flow
+1. Static JSON is generated or curated.
+2. Scripts validate payloads with Zod.
+3. Pages and API routes load validated payloads.
+4. Client interactions persist versioned progress locally.
+5. AI/API enrichment may add feedback or explanations, but static content remains the source of truth.
 
-Current fallback order:
+## AI and fallback flow
+AI requests go through `lib/ai/gemini-gateway.js`. Gemini is the only runtime provider during MVP. The gateway enforces an 8 second timeout, one retry maximum, prompt-version cache keys, circuit breaker state, latency metadata, and fallback. Fallback must distinguish `api_down`, `quota_exceeded`, `timeout`, `invalid_response`, and `circuit_open`.
 
-1. Runtime generated `/api/content` payload.
-2. Static JSON under `public/data`.
-3. Local fallback content from `lib/fallback-content.js` or in-component fallback data.
-4. Error UI only when no valid fallback exists.
+Circuit breaker policy: three AI failures in sixty seconds open static/rule-based fallback for three minutes. API enrichment such as DictionaryAPI.dev, Datamuse, Wikipedia REST summaries, Web Speech API/browser audio, OpenAlex, and Crossref is independent from the AI fallback chain. The `/api/library` enrichment route returns `aiUsed: false` plus source-level metadata so UI can add definitions, pronunciation, collocations, related words, reference context, and trusted articles without spending AI calls.
+
+## Storage
+Progress is local-first and versioned. The current dashboard reads and writes active dates in localStorage so streaks are derived from real learning activity rather than login or hardcoded values. Daily challenge selection is generated from weakest-skill insight and is deterministic per day. The `ProgressState` schema includes XP, level, active dates, streak, completed lessons, quiz attempts, FSRS state, reading results, writing and conversation history, achievements, and settings. Future IndexedDB migrations must bump the version and keep a migration note in the changelog.

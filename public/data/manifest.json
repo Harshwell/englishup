@@ -6,6 +6,6 @@
   ],
   "providers": {
     "gemini": true,
-    "openrouter": true
+    "secondaryAi": false
   }
 }

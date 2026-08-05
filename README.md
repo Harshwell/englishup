@@ -19,9 +19,10 @@ EnglishUp dibangun untuk tiga hal:
 Fitur conversation dipakai untuk latihan interaksi bahasa Inggris secara aktif.
 
 - endpoint utama: `/api/chat`
-- provider: Gemini sebagai primary AI MVP; fallback harus statis/rule-based ketika AI gagal
-- output diarahkan untuk tutor-style feedback, bukan jawaban generik yang terdengar pintar tapi kosong
-- secondary AI provider tidak menjadi dependency default sampai observability membuktikan kebutuhan
+- provider runtime: Gemini-only pada MVP; tidak ada secondary AI chain default
+- timeout AI: 8 detik, maksimal satu retry, lalu fallback statis/rule-based
+- fallback response menyertakan reason seperti `api_down`, `quota_exceeded`, `timeout`, `invalid_response`, atau `circuit_open`
+- output diarahkan untuk tutor-style feedback prioritas, bukan jawaban generik yang terdengar pintar tapi kosong
 
 ### 2. Grammar
 
@@ -180,7 +181,7 @@ GEMINI_MODEL=gemini-2.5-flash-lite
 OPENALEX_EMAIL=you@example.com
 ```
 
-Aplikasi tetap bisa hidup sebagian tanpa semua env di atas; fitur AI wajib turun ke fallback statis/rule-based dengan alasan spesifik.
+Aplikasi tetap bisa hidup sebagian tanpa semua env di atas; fitur AI wajib turun ke fallback statis/rule-based dengan alasan spesifik. Secondary AI provider tidak digunakan sebagai runtime default pada MVP.
 `OPENALEX_EMAIL` opsional (API OpenAlex gratis tanpa registrasi), tapi disarankan untuk polite pool dan stabilitas rate limit.
 
 ## Menjalankan aplikasi secara lokal
@@ -203,10 +204,16 @@ Generate konten v3:
 npm run generate:v3
 ```
 
-Validasi konten statis:
+Validasi konten statis lokal:
 
 ```bash
 npm run validate:content
+```
+
+Validasi konten CI wajib memakai Zod penuh dan akan gagal bila dependency belum ter-install:
+
+```bash
+npm run validate:content:ci
 ```
 
 Build production:
