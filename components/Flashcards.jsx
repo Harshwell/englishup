@@ -8,6 +8,7 @@ import {
   Volume2,
 } from "lucide-react";
 import { buildSeed, safePostJSON } from "../lib/learning-flow";
+import { contentVocabResponseSchema, flashcardDeckSchema, parseOrNull } from "../lib/schemas/englishup-schemas.mjs";
 
 const FALLBACK = [
   {
@@ -44,13 +45,17 @@ async function loadDeck(level, seed = `${Date.now()}`) {
   try {
     const generated = await safePostJSON("/api/content", { type: "vocab", category, count: 16, seed }, { retries: 1 });
 
-    if (generated?.items?.length) return generated.items;
+    const parsedGenerated = parseOrNull(contentVocabResponseSchema, generated);
+    if (parsedGenerated?.items?.length) return parsedGenerated.items;
   } catch {}
 
   for (const path of [`/data/flashcards/${level}.json`, `/data/flashcards/b2.json`]) {
     try {
       const res = await fetch(path);
-      if (res.ok) return await res.json();
+      if (res.ok) {
+        const parsedDeck = parseOrNull(flashcardDeckSchema, await res.json());
+        if (parsedDeck?.length) return parsedDeck;
+      }
     } catch {}
   }
   return FALLBACK;
@@ -67,7 +72,8 @@ export default function Flashcards({ standalone = false }) {
 
   useEffect(() => {
     loadDeck(level, buildSeed("flashcards")).then((data) => {
-      setCards(Array.isArray(data) && data.length ? data : FALLBACK);
+      const parsedDeck = parseOrNull(flashcardDeckSchema, data);
+      setCards(parsedDeck?.length ? parsedDeck : FALLBACK);
       setIndex(0);
       setFlipped(false);
     });
@@ -262,7 +268,8 @@ export default function Flashcards({ standalone = false }) {
               <button
                 onClick={async () => {
                   const data = await loadDeck(level, `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`);
-                  setCards(Array.isArray(data) && data.length ? data : FALLBACK);
+                  const parsedDeck = parseOrNull(flashcardDeckSchema, data);
+                  setCards(parsedDeck?.length ? parsedDeck : FALLBACK);
                   setIndex(0);
                   setFlipped(false);
                   setMemorized([]);

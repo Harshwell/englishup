@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { aiGatewayResultSchema } from "../../../lib/schemas/englishup-schemas.mjs";
 
 const MAX_PROMPT_CHARS = 8000;
 const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
@@ -79,7 +80,10 @@ export async function POST(req) {
     ]) {
       try {
         const text = await provider.call();
-        return NextResponse.json({ text, provider: provider.name });
+        const payload = { text, provider: provider.name };
+        const parsed = aiGatewayResultSchema.safeParse(payload);
+        if (!parsed.success) throw new Error(parsed.error);
+        return NextResponse.json(parsed.data);
       } catch (error) {
         failures.push(`${provider.name}: ${toUserSafeError(error)}`);
       }
