@@ -7,8 +7,6 @@ const ROOT = join(__dirname, "..");
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "openrouter/free";
 
 const SYS = "You are an expert English tutor for Indonesian learners preparing for IELTS Band 7+. Follow a clear Form-Meaning-Use teaching style. Return ONLY valid JSON with no markdown.";
 
@@ -62,26 +60,8 @@ async function askGemini(prompt, max = 1800) {
   return data?.candidates?.[0]?.content?.parts?.map((part) => part?.text || "").join("") || "";
 }
 
-async function askOpenRouter(prompt, max = 1800) {
-  if (!OPENROUTER_API_KEY) throw new Error("OPENROUTER_API_KEY not configured");
-
-  const res = await fetchWithTimeout("https://openrouter.ai/api/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: OPENROUTER_MODEL,
-      messages: [{ role: "user", content: `${SYS}\n\n${prompt}` }],
-      max_tokens: max,
-      temperature: 0.7,
-    }),
-  });
-
-  const data = await res.json();
-  if (!res.ok) throw new Error(data?.error?.message || "OpenRouter API error");
-  return data?.choices?.[0]?.message?.content || "";
+async function askSecondaryAI() {
+  return "";
 }
 
 async function ask(prompt, max = 1800) {
@@ -96,11 +76,11 @@ async function ask(prompt, max = 1800) {
   }
 
   try {
-    const text = await askOpenRouter(prompt, max);
+    const text = await askSecondaryAI(prompt, max);
     if (text?.trim()) return text;
-    failures.push("openrouter: empty response");
+    failures.push("secondary_ai: disabled for Gemini-only MVP");
   } catch (error) {
-    failures.push(`openrouter: ${error.message}`);
+    failures.push(`secondary_ai: ${error.message}`);
   }
 
   throw new Error(failures.join(" | "));
@@ -192,7 +172,7 @@ async function main() {
     errors,
     providers: {
       gemini: Boolean(GEMINI_API_KEY),
-      openrouter: Boolean(OPENROUTER_API_KEY),
+      secondaryAi: false,
     },
   });
 

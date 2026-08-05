@@ -7,8 +7,6 @@ const ROOT = join(__dirname, "..");
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "openrouter/free";
 
 const WORDS = [
   { word: "significant", level: "B2", topic: "ielts_academic" },
@@ -105,22 +103,6 @@ async function askLLM(prompt, maxTokens = 1200) {
       })
     });
     return data?.candidates?.[0]?.content?.parts?.map((p) => p.text || "").join("") || "";
-  }
-  if (OPENROUTER_API_KEY) {
-    const data = await fetchJson("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model: OPENROUTER_MODEL,
-        messages: [{ role: "user", content: prompt }],
-        max_tokens: maxTokens,
-        temperature: 0.4
-      })
-    });
-    return data?.choices?.[0]?.message?.content || "";
   }
   return "";
 }
@@ -227,7 +209,7 @@ async function main() {
   save(join(ROOT, "public", "data", "manifest.json"), {
     generatedAt: new Date().toISOString(),
     version: "v3",
-    sources: ["DictionaryAPI.dev", "Datamuse", "Gemini/OpenRouter", "local seeds"],
+    sources: ["DictionaryAPI.dev", "Datamuse", "Gemini", "local seeds"],
     features: ["flashcards", "grammar", "vocabulary", "reading"]
   });
 }
