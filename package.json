@@ -13,13 +13,15 @@
     "extract:words-cefr": "node scripts/extract_words_cefr.js",
     "extract:subtlex": "node scripts/extract_subtlex.js",
     "extract:tatoeba": "node scripts/extract_tatoeba.js",
-    "refresh:content": "node scripts/generate-content-v3.mjs"
+    "refresh:content": "node scripts/generate-content-v3.mjs",
+    "validate:content": "node scripts/validate-content.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.383.0",
     "next": "^15.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

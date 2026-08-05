@@ -5,7 +5,7 @@ import { buildSeed, deriveLearningInsights, safePostJSON } from "../lib/learning
 import {
   Home, MessageSquare, BookOpen, FileText, Send, RefreshCw,
   CheckCircle, XCircle, ChevronRight, Lightbulb, Trophy,
-  Flame, GraduationCap, Layers, Award, Zap,
+  Flame, GraduationCap, Layers, Award, Zap, ShieldCheck,
 } from "lucide-react";
 import {
   contentGrammarResponseSchema,
@@ -116,7 +116,18 @@ const DAILIES = [
   { task: "Complete the Conditionals lesson — key for IELTS Task 2",      xp: 60, tab: "grammar" },
 ];
 const STORAGE_KEY = "englishup.v1.progress";
-const CHAT_SEED_MESSAGE = { role: "ai", id: 0, text: "Hello! Selamat datang di EnglishUp 👋\n\nSebagai lulusan Sastra Inggris yang me-refresh kemampuannya, kita fokus pada grammar detail (metode Azar), vocabulary kaya, dan reading comprehension ala IELTS.\n\nCoba tulis beberapa kalimat tentang dirimu dalam Bahasa Inggris — aku akan berikan detailed feedback!" };
+const todayKey = () => new Date().toISOString().slice(0, 10);
+const getActivityStreak = (activeDates = []) => {
+  const dates = new Set(activeDates);
+  let streak = 0;
+  const cursor = new Date();
+  while (dates.has(cursor.toISOString().slice(0, 10))) {
+    streak += 1;
+    cursor.setDate(cursor.getDate() - 1);
+  }
+  return streak;
+};
+const CHAT_SEED_MESSAGE = { role: "ai", id: 0, text: "Halo, kita latihan conversation secara bertahap. Tulis 2–3 kalimat dalam bahasa Inggris tentang topik yang kamu pilih; aku akan fokus pada 1–2 koreksi prioritas supaya flow tetap hidup." };
 
 function normalizeQuizOptions(options = []) {
   if (!Array.isArray(options)) return [];
@@ -232,7 +243,9 @@ export default function EnglishUp() {
   const [chatN, setChatN] = useState(0);
   const [xpToast, setXpToast] = useState(null);
   const [notif, setNotif] = useState(null);
-  const streak = 7;
+  const [activeDates, setActiveDates] = useState([]);
+  const [streakFreezesAvailable, setStreakFreezesAvailable] = useState(1);
+  const streak = getActivityStreak(activeDates);
   const unlockedRef = useRef(new Set());
   const prevLvRef = useRef(1);
   const t1 = useRef(null);
@@ -262,6 +275,23 @@ export default function EnglishUp() {
   const [vError, setVError] = useState(false);
   const [vIdx, setVIdx] = useState(0);
   const [vFlip, setVFlip] = useState(false);
+  const [vEnrichment, setVEnrichment] = useState(null);
+
+  useEffect(() => {
+    const word = vWords?.[vIdx]?.word;
+    if (!word) { setVEnrichment(null); return; }
+    let cancelled = false;
+    setVEnrichment(null);
+    fetch("/api/library", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "enrichment", word, query: `${word} English vocabulary`, limit: 3, cefr: vWords?.[vIdx]?.level || "B2" })
+    })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => { if (!cancelled) setVEnrichment(data?.item || null); })
+      .catch(() => { if (!cancelled) setVEnrichment(null); });
+    return () => { cancelled = true; };
+  }, [vWords, vIdx]);
 
   // Reading — loads from static JSON pool
   const [rPassages, setRPassages] = useState(null);
@@ -297,6 +327,8 @@ export default function EnglishUp() {
       setVocabN(Number(saved?.vocabN || 0));
       setReadN(Number(saved?.readN || 0));
       setChatN(Number(saved?.chatN || 0));
+      setActiveDates(Array.isArray(saved?.activeDates) ? saved.activeDates : []);
+      setStreakFreezesAvailable(Number(saved?.streakFreezesAvailable ?? 1));
       const safeMsgs = Array.isArray(saved?.msgs)
         ? saved.msgs
           .filter((item) => item && typeof item === "object")
@@ -332,12 +364,15 @@ export default function EnglishUp() {
     if (!hydrated) return;
     clearTimeout(saveRef.current);
     const payload = {
+      version: 1,
       xp,
       earned,
       doneL: Array.from(doneL),
       vocabN,
       readN,
       chatN,
+      activeDates,
+      streakFreezesAvailable,
       msgs: msgs.slice(-30),
       historyLog: historyLog.slice(0, 30)
     };
@@ -347,7 +382,7 @@ export default function EnglishUp() {
       } catch {}
     }, 200);
     return () => clearTimeout(saveRef.current);
-  }, [hydrated, xp, earned, doneL, vocabN, readN, chatN, msgs, historyLog]);
+  }, [hydrated, xp, earned, doneL, vocabN, readN, chatN, activeDates, streakFreezesAvailable, msgs, historyLog]);
   useEffect(() => {
     const { lvl: l } = getLvl(xp);
     if (l.n > prevLvRef.current) { prevLvRef.current = l.n; showNotif({ type: "levelup", data: l }); if (l.n >= 4) tryUnlock("level_4"); }
@@ -359,6 +394,7 @@ export default function EnglishUp() {
   useEffect(() => { const id = setTimeout(() => { if (streak >= 3) tryUnlock("streak_3"); if (streak >= 7) tryUnlock("streak_7"); }, 2000); return () => clearTimeout(id); }, []);
 
   const addXP = (amt, label = "") => {
+    setActiveDates((prev) => prev.includes(todayKey()) ? prev : [...prev, todayKey()].slice(-120));
     setXp((p) => p + amt);
     if (label) {
       setHistoryLog((prev) => [
@@ -654,7 +690,7 @@ export default function EnglishUp() {
       <div className="w-52 flex-shrink-0 flex flex-col" style={{ background: "linear-gradient(160deg,#1e1b4b,#312e81 60%,#1e3a5f)" }}>
         <div className="px-4 py-4 border-b border-white/10 flex items-center gap-2.5">
           <div className="w-9 h-9 bg-indigo-500 rounded-xl flex items-center justify-center"><GraduationCap className="w-5 h-5 text-white" /></div>
-          <div><div className="text-white font-black text-sm">EnglishUp</div><div className="text-indigo-400 text-xs">IELTS Prep</div></div>
+          <div><div className="text-white font-black text-sm">EnglishUp</div><div className="text-indigo-400 text-xs">Study OS</div></div>
         </div>
         <div className="px-4 py-3 border-b border-white/10">
           <div className="flex justify-between mb-1.5">
@@ -678,7 +714,7 @@ export default function EnglishUp() {
         <div className="p-3 border-t border-white/10">
           <div className="bg-white/10 rounded-xl p-3 flex items-center gap-2.5">
             <Flame className="w-5 h-5 text-orange-400" />
-            <div><p className="text-white font-black text-lg leading-none">{streak} days</p><p className="text-indigo-300 text-xs">Streak</p></div>
+            <div><p className="text-white font-black text-lg leading-none">{streak} days</p><p className="text-indigo-300 text-xs">Active streak</p></div>
           </div>
         </div>
       </div>
@@ -692,9 +728,9 @@ export default function EnglishUp() {
             <div className="rounded-3xl p-5 text-white" style={{ background: "linear-gradient(135deg,#1e1b4b,#312e81,#1e3a5f)" }}>
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <p className="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-1">Selamat belajar!</p>
-                  <h2 className="text-xl font-black">{lvl.emoji} {lvl.name}</h2>
-                  <p className="text-indigo-300 text-sm mt-0.5">{xp} XP · {earned.length} badges</p>
+                  <p className="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-1">Dashboard belajar hari ini</p>
+                  <h2 className="text-xl font-black">{lvl.name}</h2>
+                  <p className="text-indigo-300 text-sm mt-0.5">{xp} XP · {earned.length} badges · {activeDates.length} active days</p>
                 </div>
                 <div className="text-right"><div className="text-3xl font-black">Lv.{lvl.n}</div><div className="text-indigo-400 text-xs">of 7</div></div>
               </div>
@@ -706,9 +742,10 @@ export default function EnglishUp() {
                 <div className="bg-gradient-to-r from-indigo-400 to-violet-300 h-2 rounded-full transition-all duration-700" style={{ width: `${pct}%` }} />
               </div>
             </div>
-            <div className="grid grid-cols-4 gap-2.5">
+            <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-5">
               {[
-                { icon: <Flame className="w-4 h-4" />,    v: streak,      u: "d",             label: "Streak",  bg: "bg-orange-50", tc: "text-orange-500"  },
+                { icon: <Flame className="w-4 h-4" />,    v: streak,      u: "d",             label: "Active streak",  bg: "bg-orange-50", tc: "text-orange-500"  },
+                { icon: <ShieldCheck className="w-4 h-4" />, v: streakFreezesAvailable, u: "", label: "Freeze", bg: "bg-sky-50", tc: "text-sky-600" },
                 { icon: <Award className="w-4 h-4" />,    v: earned.length, u: `/${BADGES.length}`, label: "Badges", bg: "bg-yellow-50", tc: "text-yellow-600" },
                 { icon: <Layers className="w-4 h-4" />,   v: vocabN,      u: "",              label: "Vocab",   bg: "bg-emerald-50", tc: "text-emerald-600" },
                 { icon: <BookOpen className="w-4 h-4" />, v: doneL.size,  u: `/${G_TOPICS.length}`, label: "Lessons", bg: "bg-indigo-50", tc: "text-indigo-600" },
@@ -748,7 +785,7 @@ export default function EnglishUp() {
                 </div>
               </div>
               <div className="rounded-xl bg-indigo-50 border border-indigo-200 p-3">
-                <p className="text-xs font-bold text-indigo-700 uppercase tracking-wide mb-1">System Recommendation</p>
+                <p className="text-xs font-bold text-indigo-700 uppercase tracking-wide mb-1">Next best action</p>
                 <ul className="space-y-1.5">
                   {learningInsights.recommendations.map((item) => (
                     <li key={item} className="text-sm text-indigo-900 leading-relaxed">• {item}</li>
@@ -759,7 +796,7 @@ export default function EnglishUp() {
             <div className="bg-white rounded-2xl p-4 border border-amber-200">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-7 h-7 bg-amber-100 rounded-lg flex items-center justify-center"><Zap className="w-3.5 h-3.5 text-amber-500" /></div>
-                <p className="font-bold text-gray-800 text-sm">Daily Challenge</p>
+                <p className="font-bold text-gray-800 text-sm">Daily Challenge dari weakest skill</p>
                 <span className="ml-auto text-xs font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">+{daily.xp} XP</span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed">{daily.task}</p>
@@ -767,10 +804,10 @@ export default function EnglishUp() {
             </div>
             <div className="grid grid-cols-2 gap-3">
               {[
-                { t: "chat",    e: "💬", title: "Conversation", desc: "AI chat + real-time feedback",  g1: "from-blue-500",   g2: "to-indigo-600" },
-                { t: "grammar", e: "📐", title: "Grammar",      desc: "Azar method · quiz · XP",      g1: "from-violet-500", g2: "to-purple-600" },
-                { t: "vocab",   e: "📚", title: "Vocabulary",   desc: "IELTS AWL · flip cards",       g1: "from-emerald-500",g2: "to-teal-600"   },
-                { t: "reading", e: "📰", title: "Reading",      desc: "IELTS passages · strategies",  g1: "from-amber-500",  g2: "to-orange-500" },
+                { t: "chat",    e: "01", title: "Conversation", desc: "Scenario practice · 1–2 corrections",  g1: "from-blue-500",   g2: "to-indigo-600" },
+                { t: "grammar", e: "02", title: "Grammar",      desc: "Form · meaning · Indonesian pitfalls",      g1: "from-violet-500", g2: "to-purple-600" },
+                { t: "vocab",   e: "03", title: "Vocabulary",   desc: "Dictionary · collocation · review",       g1: "from-emerald-500",g2: "to-teal-600"   },
+                { t: "reading", e: "04", title: "Reading",      desc: "Evidence questions · source view",  g1: "from-amber-500",  g2: "to-orange-500" },
               ].map((a, i) => (
                 <button key={i} onClick={() => setTab(a.t)} className={`bg-gradient-to-br ${a.g1} ${a.g2} rounded-2xl p-4 text-left text-white hover:opacity-95 transition-all shadow-sm`}>
                   <div className="text-2xl mb-2">{a.e}</div>
@@ -1001,9 +1038,12 @@ export default function EnglishUp() {
                       <div><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Definition</p><p className="text-gray-800 text-sm leading-relaxed">{w.definition}</p></div>
                       <div><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Bahasa Indonesia</p><p className="text-gray-500 text-sm italic">{w.indonesian}</p></div>
                       {vFlip ? (<>
-                        <div className="border-t border-gray-100 pt-4"><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Example (2024–25)</p><p className="text-gray-700 text-sm italic leading-relaxed">"{w.example}"</p></div>
-                        {w.collocations?.length > 0 && <div><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Collocations</p><div className="flex flex-wrap gap-1.5">{w.collocations.map((col,i) => <span key={i} className="text-xs px-2.5 py-1 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded-full">{col}</span>)}</div></div>}
-                        {w.synonyms?.length > 0 && <div><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Synonyms</p><div className="flex flex-wrap gap-1.5">{w.synonyms.map((s,i) => <span key={i} className="text-xs px-2.5 py-1 bg-blue-50 text-blue-700 border border-blue-200 rounded-full">{s}</span>)}</div></div>}
+                        <div className="border-t border-gray-100 pt-4"><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Example</p><p className="text-gray-700 text-sm italic leading-relaxed">"{w.example}"</p></div>
+                        {vEnrichment?.dictionary?.audio && <button type="button" onClick={() => new Audio(vEnrichment.dictionary.audio).play().catch(() => {})} className="text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-3 py-1.5">Play pronunciation audio</button>}
+                        {vEnrichment?.dictionary?.definition && <div className="rounded-xl border border-slate-200 bg-slate-50 p-3"><p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">API enrichment · DictionaryAPI.dev</p><p className="text-sm text-slate-700">{vEnrichment.dictionary.definition}</p></div>}
+                        {((vEnrichment?.dictionary?.collocations?.length ? vEnrichment.dictionary.collocations : w.collocations) || []).length > 0 && <div><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Collocations</p><div className="flex flex-wrap gap-1.5">{((vEnrichment?.dictionary?.collocations?.length ? vEnrichment.dictionary.collocations : w.collocations) || []).map((col,i) => <span key={i} className="text-xs px-2.5 py-1 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded-full">{col}</span>)}</div></div>}
+                        {((vEnrichment?.dictionary?.synonyms?.length ? vEnrichment.dictionary.synonyms : w.synonyms) || []).length > 0 && <div><p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Synonyms</p><div className="flex flex-wrap gap-1.5">{((vEnrichment?.dictionary?.synonyms?.length ? vEnrichment.dictionary.synonyms : w.synonyms) || []).map((s,i) => <span key={i} className="text-xs px-2.5 py-1 bg-blue-50 text-blue-700 border border-blue-200 rounded-full">{s}</span>)}</div></div>}
+                        {vEnrichment?.wikipedia && <a href={vEnrichment.wikipedia.url} target="_blank" rel="noreferrer" className="block rounded-xl border border-indigo-100 bg-indigo-50 p-3 text-xs text-indigo-900 hover:bg-indigo-100"><span className="font-bold uppercase tracking-widest text-indigo-600">Reference context · Wikipedia</span><br />{vEnrichment.wikipedia.title}</a>}
                         <div className="flex gap-2 pt-2">
                           <button disabled={vIdx===0} onClick={() => { setVIdx(p=>p-1); setVFlip(false); }} className="flex-1 py-2.5 border border-gray-200 text-gray-600 rounded-xl text-sm font-medium disabled:opacity-30 hover:bg-gray-50 transition-colors">← Prev</button>
                           <button onClick={nextCard} className="flex-1 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-sm font-semibold transition-colors">{vIdx<vWords.length-1?"Next +5 XP →":"Done ✓ +15 XP"}</button>

@@ -22,6 +22,16 @@ export async function POST(req) {
       return NextResponse.json(parseOrNull(dictionaryResponseSchema, { item }) || { item: { word, definition: "", phonetic: "", example: "", synonyms: [] } });
     }
 
+    if (type === "enrichment") {
+      const query = String(body?.query || body?.text || "education");
+      const word = String(body?.word || query.split(/\s+/)[0] || "study");
+      const limit = Math.min(6, Math.max(1, Number(body?.limit || 4)));
+      const topicKey = String(body?.topicKey || "");
+      const cefr = String(body?.cefr || "intermediate");
+      const item = await getMaterialEnrichment({ query, word, limit, topicKey, cefr });
+      return NextResponse.json({ item });
+    }
+
     if (type === "conversation") {
       const text = String(body?.text || "");
       const items = await getConversationContext(text);
