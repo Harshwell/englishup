@@ -49,7 +49,7 @@ function normalizeEvaluation(result) {
     recommendations.push("Lakukan satu revisi terfokus lalu cek lagi dengan rubric yang sama.");
   }
 
-  return { scores, recommendations };
+  return { provider: "gemini", scores, recommendations };
 }
 
 function buildEvaluationPrompt(text) {
