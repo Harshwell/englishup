@@ -204,6 +204,17 @@ npm run build
 npm run start
 ```
 
+
+## Validasi konten
+
+Jalankan validasi konten sebelum mengubah atau merilis data statis:
+
+```bash
+npm run validate:content
+```
+
+Di CI, workflow harus menjalankan `npm install` terlebih dahulu lalu `npm run validate:content` agar dependency `zod` tersedia dan validasi yang dipakai adalah full Zod validation. Mode structural fallback hanya boleh muncul sebagai warning untuk environment lokal yang belum meng-install dependency, bukan sebagai validasi utama CI.
+
 ## Struktur repo yang penting
 
 - `app/` → routing dan API routes
