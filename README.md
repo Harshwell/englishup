@@ -19,8 +19,9 @@ EnglishUp dibangun untuk tiga hal:
 Fitur conversation dipakai untuk latihan interaksi bahasa Inggris secara aktif.
 
 - endpoint utama: `/api/chat`
-- provider: Gemini sebagai primary, OpenRouter sebagai fallback
+- provider: Gemini sebagai primary AI MVP; fallback harus statis/rule-based ketika AI gagal
 - output diarahkan untuk tutor-style feedback, bukan jawaban generik yang terdengar pintar tapi kosong
+- secondary AI provider tidak menjadi dependency default sampai observability membuktikan kebutuhan
 
 ### 2. Grammar
 
@@ -104,7 +105,13 @@ Halaman flashcards:
 Route penting saat ini:
 - `app/api/chat/route.js`
 - `app/api/evaluate/route.js`
-- `app/api/library/route.js` (trusted articles + dictionary with topic/CEFR-aware ranking)
+- `app/api/library/route.js` (trusted articles, dictionary, Datamuse collocations/related words, Wikipedia summary, and topic/CEFR-aware enrichment ranking)
+
+### Schema dan validasi
+
+Dashboard utama sekarang menampilkan streak berbasis aktivitas nyata, streak freeze, weakest skill, dan next best action agar gamification terasa seperti study operating system, bukan leaderboard generik.
+
+Kontrak runtime berada di `lib/schemas/englishup-schemas.mjs` dan mencakup GrammarQuestion, VocabularyCard, ReadingPassage, WritingPrompt, ConversationScenario, ProgressState, dan AIGatewayResult. Jalankan `npm run validate:content` untuk memeriksa viability seed statis yang sudah ada sebelum memperluas generator atau importer.
 
 ### Data layer
 
@@ -143,6 +150,7 @@ Pipeline v3 adalah arah pengembangan utama untuk materi yang lebih kaya.
 - Tatoeba
 - DictionaryAPI.dev
 - Datamuse
+- Wikipedia REST summary API
 - ELLIPSE Corpus
 
 ### Fungsi AI dalam pipeline
@@ -169,12 +177,10 @@ Minimal yang direkomendasikan:
 ```env
 GEMINI_API_KEY=...
 GEMINI_MODEL=gemini-2.5-flash-lite
-OPENROUTER_API_KEY=...
-OPENROUTER_MODEL=openrouter/free
 OPENALEX_EMAIL=you@example.com
 ```
 
-Aplikasi tetap bisa hidup sebagian tanpa semua env di atas, tetapi fitur AI akan turun kualitas atau memakai fallback.
+Aplikasi tetap bisa hidup sebagian tanpa semua env di atas; fitur AI wajib turun ke fallback statis/rule-based dengan alasan spesifik.
 `OPENALEX_EMAIL` opsional (API OpenAlex gratis tanpa registrasi), tapi disarankan untuk polite pool dan stabilitas rate limit.
 
 ## Menjalankan aplikasi secara lokal
@@ -195,6 +201,12 @@ Generate konten v3:
 
 ```bash
 npm run generate:v3
+```
+
+Validasi konten statis:
+
+```bash
+npm run validate:content
 ```
 
 Build production:
@@ -245,3 +257,15 @@ Kalau ingin memahami EnglishUp secara singkat:
 - workflow konten harus bisa diperbarui otomatis dari GitHub Actions.
 
 Kalau sistem ini dikembangkan dengan disiplin, EnglishUp bisa naik kelas dari sekadar “chat app dengan beberapa tab” menjadi platform belajar yang jauh lebih matang, stabil, dan layak dipakai terus-menerus.
+
+## Dokumentasi produk dan arsitektur
+
+Dokumentasi baseline yang wajib dirawat bersama perubahan fitur berada di:
+
+- `AGENTS.md` untuk guardrail kerja agent dan Definition of Done.
+- `docs/ARCHITECTURE.md` untuk layer, data flow, fallback, dan storage.
+- `docs/CONTENT_PIPELINE.md` untuk workflow Obsidian/private reference ke JSON runtime.
+- `docs/QUESTION_SCHEMA.md` untuk kontrak question bank, review status, dan AI gateway result.
+- `docs/DECISIONS.md` untuk ADR ringkas dan trade-off.
+- `docs/ROADMAP.md` untuk fase implementasi dan acceptance criteria.
+
