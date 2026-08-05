@@ -4,6 +4,14 @@ import path from "node:path";
 import { generateGrammarFromBase, generateGrammarLesson, generateReadingSet, generateVocabularySet } from "../../../lib/content-generation";
 import { getFallbackVocab } from "../../../lib/fallback-content";
 import { getTrustedArticles, lookupDictionary } from "../../../lib/api-library";
+import {
+  contentGrammarResponseSchema,
+  contentReadingResponseSchema,
+  contentVocabResponseSchema,
+  parseOrNull,
+  readingPoolSchema,
+  vocabPayloadSchema,
+} from "../../../lib/schemas/englishup-schemas.mjs";
 
 const CONTENT_ROOT = path.join(process.cwd(), "public", "data");
 const CONTENT_CACHE = new Map();
@@ -229,7 +237,7 @@ export async function POST(req) {
     if (type === "reading") {
       const difficulty = String(body?.difficulty || "intermediate");
       const size = Math.min(3, Math.max(1, Number(body?.size || 1)));
-      const passages = (await readJson("reading/passages.json")) || [];
+      const passages = parseOrNull(readingPoolSchema, await readJson("reading/passages.json")) || [];
       const payload = generateReadingSet({ passages, difficulty, size, seed });
 
       const enriched = await Promise.all(
@@ -259,13 +267,15 @@ export async function POST(req) {
       const aiTips = Array.isArray(aiVariants?.tips) ? aiVariants.tips.slice(0, 3).map((item) => String(item || "")) : [];
       const mergedTips = [...templateTips, ...aiTips].filter(Boolean).filter((item, idx, arr) => arr.indexOf(item) === idx).slice(0, 6);
 
-      return NextResponse.json({ items: enriched, aiTips: mergedTips });
+      const responsePayload = parseOrNull(contentReadingResponseSchema, { items: enriched, aiTips: mergedTips });
+      if (!responsePayload) throw new Error("Generated reading payload failed schema validation");
+      return NextResponse.json({ ...responsePayload, aiTips: mergedTips });
     }
 
     if (type === "vocab") {
       const category = String(body?.category || "ielts_academic");
       const count = Math.min(20, Math.max(5, Number(body?.count || 10)));
-      const vocab = (await readJson(`vocab/${category}.json`)) || getFallbackVocab(category);
+      const vocab = parseOrNull(vocabPayloadSchema, await readJson(`vocab/${category}.json`)) || parseOrNull(vocabPayloadSchema, getFallbackVocab(category));
       const payload = generateVocabularySet({ vocab, category, count, seed });
 
       const enriched = await Promise.all(
@@ -297,7 +307,9 @@ export async function POST(req) {
         }
       }));
 
-      return NextResponse.json({ items: withAiExamples });
+      const responsePayload = parseOrNull(contentVocabResponseSchema, { items: withAiExamples });
+      if (!responsePayload) throw new Error("Generated vocabulary payload failed schema validation");
+      return NextResponse.json(responsePayload);
     }
 
     if (type === "grammar") {
@@ -331,14 +343,17 @@ export async function POST(req) {
         .filter((item, idx, arr) => arr.findIndex((x) => x.question === item.question) === idx)
         .slice(0, 14);
 
-      return NextResponse.json({
+      const responsePayload = {
         ...payload,
         quiz: mergedQuiz,
         generatedMeta: {
           ...(payload.generatedMeta || {}),
           references: refs.map((ref) => ({ label: `${ref.source} — ${ref.title}`, url: ref.url }))
         }
-      });
+      };
+      const parsedGrammar = parseOrNull(contentGrammarResponseSchema, responsePayload);
+      if (!parsedGrammar) throw new Error("Generated grammar payload failed schema validation");
+      return NextResponse.json(parsedGrammar);
     }
 
     return NextResponse.json({ error: "Unsupported content type" }, { status: 400 });

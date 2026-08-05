@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { evaluationResponseSchema } from "../../../lib/schemas/englishup-schemas.mjs";
 
 const SCORE_KEYS = ["cohesion", "syntax", "vocabulary", "grammar", "conventions"];
 const MAX_TEXT_CHARS = 15000;
@@ -58,7 +59,7 @@ function normalizeEvaluation(result) {
     recommendations.push("Lakukan satu revisi terfokus lalu cek lagi dengan rubric yang sama.");
   }
 
-  return { scores, recommendations };
+  return { provider: "gemini", scores, recommendations };
 }
 
 async function evaluateWithGemini(text) {
@@ -99,10 +100,12 @@ export async function POST(req) {
     }
 
     try {
-      const result = await evaluateWithGemini(text);
-      return NextResponse.json({ provider: "gemini", ...result });
+      const result = evaluateResponseSchema.safeParse(await evaluateWithGemini(text));
+      if (!result.success) throw new Error(result.error);
+      return NextResponse.json(result.data);
     } catch {
-      return NextResponse.json(fallbackEvaluation(text));
+      const fallback = evaluationResponseSchema.safeParse(fallbackEvaluation(text));
+      return NextResponse.json(fallback.success ? fallback.data : fallbackEvaluation(text));
     }
   } catch (error) {
     return NextResponse.json({ error: error?.message || "Unexpected server error" }, { status: 500 });

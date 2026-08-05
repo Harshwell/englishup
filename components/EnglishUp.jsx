@@ -1,12 +1,21 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import { getFallbackGrammar, getFallbackVocab } from "../lib/fallback-content";
+import { getFallbackGrammar, getFallbackVocab, getFallbackReadingPool } from "../lib/fallback-content";
 import { buildSeed, deriveLearningInsights, safePostJSON } from "../lib/learning-flow";
 import {
   Home, MessageSquare, BookOpen, FileText, Send, RefreshCw,
   CheckCircle, XCircle, ChevronRight, Lightbulb, Trophy,
   Flame, GraduationCap, Layers, Award, Zap, ShieldCheck,
 } from "lucide-react";
+import {
+  contentGrammarResponseSchema,
+  contentReadingResponseSchema,
+  contentVocabResponseSchema,
+  grammarLessonSchema,
+  parseOrNull,
+  readingPoolSchema,
+  vocabPayloadSchema,
+} from "../lib/schemas/englishup-schemas.mjs";
 
 // Chat uses AI API; Grammar/Vocab/Reading use low-bandwidth hybrid generation + static fallback
 const callAI = async (prompt, max = 800) => {
@@ -437,18 +446,21 @@ export default function EnglishUp() {
     try {
       const generated = await safePostJSON("/api/content", { type: "grammar", topicId: t.id, seed }, { retries: 1 });
 
-      if (generated?.quiz?.length) {
-        setGData(normalizeGrammarData(generated, t.label, seed));
+      const generatedGrammar = parseOrNull(contentGrammarResponseSchema, normalizeGrammarData(generated, t.label, seed));
+      if (generatedGrammar?.quiz?.length) {
+        setGData(generatedGrammar);
         return;
       }
 
       const res = await fetch(`/data/grammar/${t.id}.json`);
       if (!res.ok) throw new Error("not found");
-      const data = await res.json();
-      setGData(normalizeGrammarData(data, t.label, seed));
+      const data = parseOrNull(grammarLessonSchema, normalizeGrammarData(await res.json(), t.label, seed));
+      if (!data) throw new Error("invalid grammar payload");
+      setGData(data);
     } catch {
       const fallback = getFallbackGrammar(t.id);
-      if (fallback) setGData(normalizeGrammarData(fallback, t.label, seed));
+      const parsedFallback = parseOrNull(grammarLessonSchema, normalizeGrammarData(fallback, t.label, seed));
+      if (parsedFallback) setGData(parsedFallback);
       else setGError(true);
     } finally { setGLoad(false); }
   };
@@ -478,8 +490,9 @@ export default function EnglishUp() {
     try {
       const generated = await safePostJSON("/api/content", { type: "vocab", category: cat.id, count: 12, seed }, { retries: 1 });
 
-      if (generated?.items?.length) {
-        const normalized = generated.items.map((card) => ({
+      const generatedVocab = parseOrNull(contentVocabResponseSchema, generated);
+      if (generatedVocab?.items?.length) {
+        const normalized = generatedVocab.items.map((card) => ({
           word: card.front,
           pronunciation: card.back?.phonetic || "",
           partOfSpeech: "word",
@@ -497,11 +510,13 @@ export default function EnglishUp() {
 
       const res = await fetch(`/data/vocab/${cat.id}.json`);
       if (!res.ok) throw new Error("not found");
-      const data = await res.json();
+      const data = parseOrNull(vocabPayloadSchema, await res.json());
+      if (!data) throw new Error("invalid vocab payload");
       setVWords(data.words);
     } catch {
       const fallback = getFallbackVocab(cat.id);
-      if (fallback?.words?.length) setVWords(fallback.words);
+      const parsedFallback = parseOrNull(vocabPayloadSchema, fallback);
+      if (parsedFallback?.words?.length) setVWords(parsedFallback.words);
       else setVError(true);
     } finally { setVLoad(false); }
   };
@@ -519,9 +534,12 @@ export default function EnglishUp() {
     try {
       const res = await fetch("/data/reading/passages.json");
       if (!res.ok) throw new Error("not found");
-      const data = await res.json();
+      const data = parseOrNull(readingPoolSchema, await res.json());
+      if (!data) throw new Error("invalid reading pool");
       setRPassages(data); return data;
     } catch {
+      const fallbackPool = parseOrNull(readingPoolSchema, getFallbackReadingPool());
+      if (fallbackPool) { setRPassages(fallbackPool); return fallbackPool; }
       setRError(true); return null;
     } finally { setRLoad(false); }
   };
@@ -533,7 +551,8 @@ export default function EnglishUp() {
     try {
       const generated = await safePostJSON("/api/content", { type: "reading", difficulty: rDiff, size: 1, seed }, { retries: 1 });
 
-      const item = generated?.items?.[0];
+      const generatedReading = parseOrNull(contentReadingResponseSchema, generated);
+      const item = generatedReading?.items?.[0];
       if (item) {
         setRData(item);
         return;

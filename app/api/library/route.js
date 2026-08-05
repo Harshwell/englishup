@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { getConversationContext, getMaterialEnrichment, getTrustedArticles, lookupDictionary, recordArticleFeedback } from "../../../lib/api-library";
+import { getConversationContext, getTrustedArticles, lookupDictionary, recordArticleFeedback } from "../../../lib/api-library";
+import { dictionaryResponseSchema, feedbackResponseSchema, libraryItemsResponseSchema, parseOrNull } from "../../../lib/schemas/englishup-schemas.mjs";
 
 export async function POST(req) {
   try {
@@ -12,13 +13,13 @@ export async function POST(req) {
       const topicKey = String(body?.topicKey || "");
       const cefr = String(body?.cefr || "intermediate");
       const items = await getTrustedArticles(query, limit, { topicKey, cefr });
-      return NextResponse.json({ items });
+      return NextResponse.json(parseOrNull(libraryItemsResponseSchema, { items }) || { items: [] });
     }
 
     if (type === "dictionary") {
       const word = String(body?.word || "study");
       const item = await lookupDictionary(word);
-      return NextResponse.json({ item });
+      return NextResponse.json(parseOrNull(dictionaryResponseSchema, { item }) || { item: { word, definition: "", phonetic: "", example: "", synonyms: [] } });
     }
 
     if (type === "enrichment") {
@@ -34,14 +35,14 @@ export async function POST(req) {
     if (type === "conversation") {
       const text = String(body?.text || "");
       const items = await getConversationContext(text);
-      return NextResponse.json({ items });
+      return NextResponse.json(parseOrNull(libraryItemsResponseSchema, { items }) || { items: [] });
     }
 
     if (type === "feedback") {
       const topicKey = String(body?.topicKey || "default");
       const signal = String(body?.signal || "click");
       const metrics = recordArticleFeedback({ topicKey, signal });
-      return NextResponse.json({ ok: true, metrics });
+      return NextResponse.json(parseOrNull(feedbackResponseSchema, { ok: true, metrics }) || { ok: true, metrics: {} });
     }
 
     return NextResponse.json({ error: "Unsupported library type" }, { status: 400 });
