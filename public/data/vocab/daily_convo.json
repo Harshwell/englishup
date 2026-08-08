@@ -1,47 +1,175 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
-      "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "word": "Grateful",
+      "pronunciation": "/ˈɡreɪtfəl/",
+      "partOfSpeech": "adjective",
+      "definition": "feeling or showing thanks and appreciation.",
+      "indonesian": "bersyukur, berterima kasih",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": "7+",
+      "example": "I'm so grateful for all your help with this project.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "deeply grateful",
+        "immensely grateful",
+        "truly grateful",
+        "grateful for",
+        "grateful to someone"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "thankful",
+        "appreciative",
+        "indebted"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
+      "word": "Enthusiastic",
+      "pronunciation": "/ɛnˌθuːziˈæstɪk/",
       "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "definition": "having or showing intense and eager enjoyment, interest, or approval.",
+      "indonesian": "antusias, bersemangat",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "She was very enthusiastic about the new marketing strategy.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "enthusiastic about",
+        "enthusiastic supporter",
+        "enthusiastic response",
+        "become enthusiastic"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "eager",
+        "keen",
+        "passionate",
+        "excited"
+      ]
+    },
+    {
+      "word": "Appreciative",
+      "pronunciation": "/əˈpriːʃiətɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "feeling or showing recognition and enjoyment of the good qualities of someone or something.",
+      "indonesian": "menghargai, menghargai",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "We're very appreciative of your efforts in organizing this event.",
+      "collocations": [
+        "deeply appreciative",
+        "fully appreciative",
+        "appreciative of",
+        "appreciative of the opportunity"
+      ],
+      "synonyms": [
+        "grateful",
+        "thankful",
+        "recognizant"
+      ]
+    },
+    {
+      "word": "Reliable",
+      "pronunciation": "/rɪˈlaɪəbl/",
+      "partOfSpeech": "adjective",
+      "definition": "consistently good in quality or performance; able to be trusted.",
+      "indonesian": "dapat diandalkan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "He's a reliable employee who always finishes his work on time.",
+      "collocations": [
+        "reliable source",
+        "reliable information",
+        "reliable car",
+        "reliable person",
+        "become reliable"
+      ],
+      "synonyms": [
+        "dependable",
+        "trustworthy",
+        "consistent"
+      ]
+    },
+    {
+      "word": "Flexible",
+      "pronunciation": "/ˈflɛksəbl/",
+      "partOfSpeech": "adjective",
+      "definition": "able to change or be changed easily according to the situation.",
+      "indonesian": "fleksibel, luwes",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "We need a flexible approach to solve this complex problem.",
+      "collocations": [
+        "flexible hours",
+        "flexible plan",
+        "flexible working",
+        "flexible attitude",
+        "be flexible"
+      ],
+      "synonyms": [
+        "adaptable",
+        "versatile",
+        "pliable"
+      ]
+    },
+    {
+      "word": "Proactive",
+      "pronunciation": "/proʊˈæktɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "taking or intending to take action to influence a situation rather than reacting to it after it has happened.",
+      "indonesian": "proaktif",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "It's important to be proactive about your health and not wait until you get sick.",
+      "collocations": [
+        "proactive approach",
+        "proactive measures",
+        "be proactive",
+        "proactive in doing something"
+      ],
+      "synonyms": [
+        "forward-thinking",
+        "enterprising",
+        "initiative-taking"
+      ]
+    },
+    {
+      "word": "Resourceful",
+      "pronunciation": "/rɪˈsɔːrsfəl/",
+      "partOfSpeech": "adjective",
+      "definition": "having the ability to find quick and clever ways to overcome difficulties.",
+      "indonesian": "cerdik, pandai mencari jalan keluar",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "She's a very resourceful person who can always find a solution.",
+      "collocations": [
+        "highly resourceful",
+        "very resourceful",
+        "resourceful in finding",
+        "be resourceful"
+      ],
+      "synonyms": [
+        "inventive",
+        "ingenious",
+        "clever"
+      ]
+    },
+    {
+      "word": "Diligent",
+      "pronunciation": "/ˈdɪlɪdʒənt/",
+      "partOfSpeech": "adjective",
+      "definition": "having or showing care and conscientiousness in one's work or duties.",
+      "indonesian": "rajin, tekun",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "He's a diligent student who always puts in a lot of effort.",
+      "collocations": [
+        "diligent worker",
+        "diligent student",
+        "diligent effort",
+        "be diligent"
+      ],
+      "synonyms": [
+        "hard-working",
+        "conscientious",
+        "assiduous"
       ]
     }
   ]
