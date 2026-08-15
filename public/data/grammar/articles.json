@@ -1,25 +1,152 @@
 {
-  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": {
+    "title": "Articles: a, an, the, and Zero Article",
+    "sections": [
+      {
+        "article": "a/an",
+        "meaning": "Indefinite, singular, countable noun. One of many.",
+        "use": "To introduce a noun for the first time, or when referring to any member of a group."
+      },
+      {
+        "article": "the",
+        "meaning": "Definite, singular or plural, countable or uncountable noun. Specific, identified.",
+        "use": "To refer to something already mentioned, unique, or clearly understood by both speaker and listener."
+      },
+      {
+        "article": "Zero Article (Ø)",
+        "meaning": "No article is used.",
+        "use": "With plural countable nouns (general), uncountable nouns (general), proper nouns (most), abstract nouns (general), and certain fixed expressions."
+      }
+    ]
+  },
+  "explanation": "Articles are small but crucial words that precede nouns. They tell us whether the noun is specific or not, and whether it's singular or plural. Mastering articles is essential for clear and accurate English, especially for achieving a high IELTS band score.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "rule": "Use 'a' before consonant sounds and 'an' before vowel sounds.",
+      "details": "The choice depends on the sound, not the letter. E.g., 'a university' (y sound), 'an hour' (h is silent)."
+    },
+    {
+      "rule": "Use 'a/an' for singular, countable nouns when the listener doesn't know which one.",
+      "details": "Example: 'I saw a dog in the park.' (Any dog)."
+    },
+    {
+      "rule": "Use 'the' for singular or plural, countable or uncountable nouns when the listener knows which one.",
+      "details": "Example: 'The dog I saw in the park was a Golden Retriever.' (The specific dog previously mentioned)."
+    },
+    {
+      "rule": "Use 'the' for unique things.",
+      "details": "Examples: 'the sun', 'the moon', 'the President'."
+    },
+    {
+      "rule": "Use 'the' with superlatives.",
+      "details": "Example: 'This is the best book I've ever read.'"
+    },
+    {
+      "rule": "Use the zero article (Ø) with most proper nouns.",
+      "details": "Examples: Ø John, Ø London, Ø Mount Everest. (Exceptions: Ø the United States, Ø the Netherlands)."
+    },
+    {
+      "rule": "Use the zero article (Ø) with abstract nouns and uncountable nouns when speaking generally.",
+      "details": "Examples: Ø Happiness is important. Ø Water is essential for life."
+    },
+    {
+      "rule": "Use the zero article (Ø) with plural countable nouns when speaking generally.",
+      "details": "Example: Ø Cars are a common form of transport."
+    }
   ],
+  "azarNotes": "Indonesian often omits articles where English requires them. Pay close attention to the distinction between specific (the) and non-specific (a/an) references. Also, remember that 'the' is used for unique items like 'the internet' and 'the sky'.",
   "examples": [
     {
-      "sentence": "Articles appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Articles muncul dalam tugas IELTS."
+      "sentence": "I need to buy a new laptop.",
+      "explanation": "'a' is used because it's a singular, countable noun, and the specific laptop isn't identified yet."
+    },
+    {
+      "sentence": "The laptop I bought yesterday is very fast.",
+      "explanation": "'the' is used because the laptop is specific – the one bought yesterday."
+    },
+    {
+      "sentence": "She is an excellent doctor.",
+      "explanation": "'an' is used before the vowel sound of 'excellent'."
+    },
+    {
+      "sentence": "He lives in Jakarta.",
+      "explanation": "Zero article is used with the proper noun 'Jakarta'."
+    },
+    {
+      "sentence": "Knowledge is power.",
+      "explanation": "Zero article is used with the abstract noun 'knowledge' in a general sense."
+    },
+    {
+      "sentence": "Birds fly.",
+      "explanation": "Zero article is used with the plural countable noun 'birds' in a general sense."
+    },
+    {
+      "sentence": "Could you pass me the salt, please?",
+      "explanation": "'the' is used because it refers to a specific salt shaker on the table, understood by both speakers."
+    },
+    {
+      "sentence": "I love listening to music.",
+      "explanation": "Zero article is used with the uncountable noun 'music' in a general sense."
     }
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Using 'a/an' with plural or uncountable nouns.",
+    "Omitting 'the' when referring to something specific or unique.",
+    "Using 'the' with general statements about plural or uncountable nouns.",
+    "Incorrectly using 'a' or 'an' based on spelling rather than pronunciation.",
+    "Forgetting 'the' with common unique items like 'the internet' or 'the sky'."
   ],
-  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 1 (reports) and Task 2 (essays), precision with articles is vital. For example, when describing trends, use 'a rise' or 'an increase' for a single instance, and 'the increases' or 'the rises' if discussing multiple specific instances. When discussing general concepts, use the zero article. Pay attention to the context to decide between 'a/an' and 'the'.",
+  "quiz": [
+    {
+      "question": "I saw ___ interesting documentary on TV last night.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "answer": "an"
+    },
+    {
+      "question": "___ Eiffel Tower is in Paris.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "answer": "the"
+    },
+    {
+      "question": "She has ___ dog and ___ cat.",
+      "options": [
+        "a, a",
+        "an, a",
+        "the, the",
+        "a, the"
+      ],
+      "answer": "a, a"
+    },
+    {
+      "question": "___ honesty is ___ best policy.",
+      "options": [
+        "The, a",
+        "A, the",
+        "Ø, a",
+        "Ø, the"
+      ],
+      "answer": "Ø, the"
+    },
+    {
+      "question": "Can you pass me ___ book on the table?",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "answer": "the"
+    }
+  ]
 }

@@ -1,45 +1,175 @@
 {
   "words": [
     {
-      "word": "algorithm",
-      "pronunciation": "/ˈælɡəɹɪðm̩/",
+      "word": "Algorithm",
+      "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
+      "indonesian": "Algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": "7.0+",
+      "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "complex algorithm",
+        "search algorithm",
+        "sorting algorithm",
+        "machine learning algorithm",
+        "develop an algorithm"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "process",
+        "method",
+        "formula"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "/ˈbaɪəs/",
+      "word": "Neural Network",
+      "pronunciation": "/ˈnjʊərəl ˈnɛtwɜːrk/",
       "partOfSpeech": "noun",
-      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
+      "definition": "A computing system inspired by the biological neural networks that constitute animal brains.",
+      "indonesian": "Jaringan Saraf Tiruan",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "ieltsBand": "7.5+",
+      "example": "Deep learning models often employ a sophisticated neural network architecture.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "deep neural network",
+        "artificial neural network",
+        "train a neural network",
+        "neural network model",
+        "neural network architecture"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "AI model",
+        "computational model"
+      ]
+    },
+    {
+      "word": "Automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The use of technology to carry out a process with minimal human assistance.",
+      "indonesian": "Otomatisasi",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "The factory is investing in automation to increase production efficiency.",
+      "collocations": [
+        "process automation",
+        "industrial automation",
+        "business automation",
+        "implement automation",
+        "drive automation"
+      ],
+      "synonyms": [
+        "mechanization",
+        "robotization",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "Machine Learning",
+      "pronunciation": "/məˈʃiːn ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "A type of artificial intelligence that enables systems to learn from data and improve their performance over time without being explicitly programmed.",
+      "indonesian": "Pembelajaran Mesin",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Machine learning algorithms are crucial for developing intelligent applications.",
+      "collocations": [
+        "supervised machine learning",
+        "unsupervised machine learning",
+        "reinforcement machine learning",
+        "apply machine learning",
+        "machine learning model"
+      ],
+      "synonyms": [
+        "AI learning",
+        "data-driven learning"
+      ]
+    },
+    {
+      "word": "Big Data",
+      "pronunciation": "/bɪɡ ˈdeɪtə/",
+      "partOfSpeech": "noun",
+      "definition": "Extremely large amounts of data that can be analyzed to reveal patterns, trends, and associations.",
+      "indonesian": "Data Besar",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Companies are using big data analytics to understand customer behavior.",
+      "collocations": [
+        "big data analytics",
+        "big data processing",
+        "big data management",
+        "handle big data",
+        "analyze big data"
+      ],
+      "synonyms": [
+        "vast data",
+        "massive datasets"
+      ]
+    },
+    {
+      "word": "Predictive Analytics",
+      "pronunciation": "/prɪˈdɪktɪv ˌænəˈlɪtɪks/",
+      "partOfSpeech": "noun",
+      "definition": "The use of data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data.",
+      "indonesian": "Analitik Prediktif",
+      "level": "C1",
+      "ieltsBand": "7.5+",
+      "example": "Predictive analytics can help businesses forecast sales and identify potential risks.",
+      "collocations": [
+        "predictive analytics model",
+        "customer predictive analytics",
+        "financial predictive analytics",
+        "perform predictive analytics",
+        "employ predictive analytics"
+      ],
+      "synonyms": [
+        "forecasting",
+        "prognostics"
+      ]
+    },
+    {
+      "word": "Scalability",
+      "pronunciation": "/ˌskeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "Skalabilitas",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "The software's scalability is important for accommodating future user growth.",
+      "collocations": [
+        "system scalability",
+        "network scalability",
+        "application scalability",
+        "ensure scalability",
+        "achieve scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "capacity",
+        "flexibility"
+      ]
+    },
+    {
+      "word": "Augmented Reality (AR)",
+      "pronunciation": "/ɔːɡˈmɛntɪd riˈælɪti/",
+      "partOfSpeech": "noun",
+      "definition": "A technology that superimposes computer-generated images onto a user's view of the real world.",
+      "indonesian": "Realitas Tertambah",
+      "level": "C1",
+      "ieltsBand": "7.5+",
+      "example": "Augmented reality is transforming how we interact with digital information in physical spaces.",
+      "collocations": [
+        "augmented reality experience",
+        "augmented reality application",
+        "augmented reality headset",
+        "develop augmented reality",
+        "use augmented reality"
+      ],
+      "synonyms": [
+        "AR",
+        "mixed reality"
       ]
     }
   ]

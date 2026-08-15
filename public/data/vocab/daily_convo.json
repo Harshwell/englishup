@@ -1,47 +1,179 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
-      "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "word": "Accurate",
+      "pronunciation": "/ˈækjərət/",
+      "partOfSpeech": "adjective",
+      "definition": "Correct in all details; exact.",
+      "indonesian": "Akurat, tepat",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": 7,
+      "example": "The weather forecast was surprisingly accurate this time.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "accurate information",
+        "accurate measurement",
+        "accurate prediction",
+        "accurate assessment"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "precise",
+        "exact",
+        "correct",
+        "right"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "Appreciate",
+      "pronunciation": "/əˈpriːʃieɪt/",
+      "partOfSpeech": "verb",
+      "definition": "Recognize the full worth of; be grateful for.",
+      "indonesian": "Menghargai, berterima kasih",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": 7,
+      "example": "I really appreciate all your help with this project.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "appreciate the effort",
+        "appreciate the gesture",
+        "appreciate the feedback",
+        "deeply appreciate"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "value",
+        "recognize",
+        "be grateful for",
+        "thank"
+      ]
+    },
+    {
+      "word": "Consider",
+      "pronunciation": "/kənˈsɪdər/",
+      "partOfSpeech": "verb",
+      "definition": "Think carefully about something, typically before making a decision.",
+      "indonesian": "Mempertimbangkan",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "We need to consider all the options before we decide.",
+      "collocations": [
+        "consider the consequences",
+        "consider the implications",
+        "consider a proposal",
+        "seriously consider"
+      ],
+      "synonyms": [
+        "think about",
+        "ponder",
+        "contemplate",
+        "weigh"
+      ]
+    },
+    {
+      "word": "Effective",
+      "pronunciation": "/ɪˈfektɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Successful in producing a desired or intended result.",
+      "indonesian": "Efektif, berhasil guna",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "This new marketing strategy has been very effective.",
+      "collocations": [
+        "effective communication",
+        "effective solution",
+        "effective management",
+        "highly effective"
+      ],
+      "synonyms": [
+        "successful",
+        "efficient",
+        "productive",
+        "impactful"
+      ]
+    },
+    {
+      "word": "Essential",
+      "pronunciation": "/ɪˈsenʃəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Absolutely necessary; extremely important.",
+      "indonesian": "Esensial, penting sekali",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Water is essential for all living things.",
+      "collocations": [
+        "essential for",
+        "essential component",
+        "essential information",
+        "absolutely essential"
+      ],
+      "synonyms": [
+        "crucial",
+        "vital",
+        "necessary",
+        "fundamental"
+      ]
+    },
+    {
+      "word": "Flexible",
+      "pronunciation": "/ˈflɛksəbl/",
+      "partOfSpeech": "adjective",
+      "definition": "Able to change or be changed easily according to the situation.",
+      "indonesian": "Fleksibel, luwes",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "We need a flexible approach to solve this problem.",
+      "collocations": [
+        "flexible hours",
+        "flexible working",
+        "flexible schedule",
+        "more flexible"
+      ],
+      "synonyms": [
+        "adaptable",
+        "versatile",
+        "pliable",
+        "adjustable"
+      ]
+    },
+    {
+      "word": "Relevant",
+      "pronunciation": "/ˈrɛləvənt/",
+      "partOfSpeech": "adjective",
+      "definition": "Closely connected or appropriate to what is being done or considered.",
+      "indonesian": "Relevan, berhubungan",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Please only include information that is relevant to the topic.",
+      "collocations": [
+        "relevant to",
+        "relevant experience",
+        "relevant details",
+        "highly relevant"
+      ],
+      "synonyms": [
+        "pertinent",
+        "applicable",
+        "related",
+        "appropriate"
+      ]
+    },
+    {
+      "word": "Significant",
+      "pronunciation": "/sɪɡˈnɪfɪkənt/",
+      "partOfSpeech": "adjective",
+      "definition": "Sufficiently great or important to be worthy of attention; noteworthy.",
+      "indonesian": "Signifikan, berarti, penting",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "There has been a significant improvement in her grades.",
+      "collocations": [
+        "significant impact",
+        "significant difference",
+        "significant increase",
+        "highly significant"
+      ],
+      "synonyms": [
+        "important",
+        "notable",
+        "considerable",
+        "meaningful"
       ]
     }
   ]
