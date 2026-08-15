@@ -1,179 +1,66 @@
 {
   "words": [
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society, changing the way we communicate and access information.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous nature",
-        "ubiquitous trend"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "mengurangi, meredakan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Governments are implementing policies to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate risks",
-        "mitigate damage",
-        "mitigate the impact",
-        "mitigate poverty"
-      ],
-      "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "ease"
-      ]
-    },
-    {
-      "word": "conducive",
-      "pronunciation": "/kənˈdjuːsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "making a certain situation or outcome likely or possible.",
-      "indonesian": "kondusif, menguntungkan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "A quiet and organized study environment is conducive to effective learning.",
-      "collocations": [
-        "conducive to success",
-        "conducive to learning",
-        "conducive to growth",
-        "conducive atmosphere"
-      ],
-      "synonyms": [
-        "favorable",
-        "beneficial",
-        "helpful",
-        "advantageous"
-      ]
-    },
-    {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make a problem, bad situation, or negative feeling worse.",
-      "indonesian": "memperburuk",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The economic downturn is likely to exacerbate existing social inequalities.",
-      "collocations": [
-        "exacerbate the problem",
-        "exacerbate tensions",
-        "exacerbate poverty",
-        "exacerbate conflict"
-      ],
-      "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "inflame"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
       "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir",
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
+      "collocations": [
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
+      ],
+      "synonyms": [
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
+      ]
+    },
+    {
+      "word": "allocate",
+      "pronunciation": "/ˈæl.ə.keɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To set aside for a purpose.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The discovery of DNA marked a significant paradigm shift in the field of biology.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "paradigm shift",
-        "scientific paradigm",
-        "theoretical paradigm",
-        "new paradigm"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "template"
+        "appropriate",
+        "earmark",
+        "apportion"
       ]
     },
     {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsɛmɪneɪt/",
+      "word": "enhance",
+      "pronunciation": "/ɪnˈhɑːns/",
       "partOfSpeech": "verb",
-      "definition": "to spread or disperse something, especially information, widely.",
-      "indonesian": "menyebarkan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The organization aims to disseminate accurate information about public health.",
+      "definition": "To lift, raise up.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "level": "C1",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate research",
-        "disseminate ideas"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "spread",
-        "circulate",
-        "propagate",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "inherent",
-      "pronunciation": "/ɪnˈhɪərənt/",
-      "partOfSpeech": "adjective",
-      "definition": "existing in something as a permanent, essential, or characteristic attribute.",
-      "indonesian": "melekat, bawaan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There are inherent risks associated with investing in volatile markets.",
-      "collocations": [
-        "inherent risk",
-        "inherent advantage",
-        "inherent problem",
-        "inherent quality"
-      ],
-      "synonyms": [
-        "intrinsic",
-        "essential",
-        "fundamental",
-        "innate"
-      ]
-    },
-    {
-      "word": "articulate",
-      "pronunciation": "/ɑːrˈtɪkjʊleɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to express an idea or feeling fluently and coherently.",
-      "indonesian": "mengartikulasikan, mengungkapkan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "It can be challenging for young children to articulate their emotions clearly.",
-      "collocations": [
-        "articulate a point",
-        "articulate an argument",
-        "articulate a vision",
-        "articulate thoughts"
-      ],
-      "synonyms": [
-        "express",
-        "voice",
-        "state",
-        "verbalize"
+        "heighten",
+        "raise"
       ]
     }
   ]

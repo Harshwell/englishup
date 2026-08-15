@@ -2,174 +2,44 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "/ˈælɡərɪðəm/",
+      "pronunciation": "/ˈælɡəɹɪðm̩/",
       "partOfSpeech": "noun",
-      "definition": "A set of rules or instructions that a computer follows to solve a problem or perform a task.",
-      "indonesian": "algoritma",
+      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
+      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The search engine uses a complex algorithm to rank web pages.",
+      "ieltsBand": "6.5-7.0",
+      "example": "algorithm is often used in formal and academic English.",
       "collocations": [
-        "complex algorithm",
-        "search algorithm",
-        "machine learning algorithm",
-        "data algorithm",
-        "develop an algorithm"
+        "algorithms",
+        "iterative",
+        "compute",
+        "recursive"
       ],
       "synonyms": [
-        "procedure",
-        "process",
-        "method",
-        "formula"
+        "algorithmic program",
+        "algorithmic rule"
       ]
     },
     {
-      "word": "automation",
-      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+      "word": "bias",
+      "pronunciation": "/ˈbaɪəs/",
       "partOfSpeech": "noun",
-      "definition": "The use of technology to perform tasks with minimal human intervention.",
-      "indonesian": "otomatisasi",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Automation in factories has led to increased efficiency but also job displacement.",
-      "collocations": [
-        "process automation",
-        "industrial automation",
-        "office automation",
-        "home automation",
-        "degree of automation"
-      ],
-      "synonyms": [
-        "mechanization",
-        "robotics",
-        "self-operation"
-      ]
-    },
-    {
-      "word": "big data",
-      "pronunciation": "/ˌbɪɡ ˈdeɪtə/",
-      "partOfSpeech": "noun",
-      "definition": "Extremely large amounts of data that can be analyzed to reveal patterns, trends, and associations.",
-      "indonesian": "big data (data besar)",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Companies are using big data analytics to understand customer behavior.",
-      "collocations": [
-        "collect big data",
-        "analyze big data",
-        "big data sets",
-        "big data platform",
-        "big data solutions"
-      ],
-      "synonyms": [
-        "vast datasets",
-        "large-scale data"
-      ]
-    },
-    {
-      "word": "cloud computing",
-      "pronunciation": "/klaʊd kəmˈpjuːtɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "The delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet ('the cloud').",
-      "indonesian": "komputasi awan",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Many businesses are migrating to cloud computing for its scalability and cost-effectiveness.",
-      "collocations": [
-        "access cloud computing",
-        "deploy cloud computing",
-        "cloud computing services",
-        "cloud computing infrastructure",
-        "private cloud computing"
-      ],
-      "synonyms": [
-        "online computing",
-        "internet-based computing"
-      ]
-    },
-    {
-      "word": "disruptive technology",
-      "pronunciation": "/dɪsˈrʌptɪv tekˈnɒlədʒi/",
-      "partOfSpeech": "noun phrase",
-      "definition": "A technology that significantly alters the way that consumers, industries, or businesses operate.",
-      "indonesian": "teknologi disruptif",
+      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
+      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Smartphones were a disruptive technology that changed how we communicate and access information.",
+      "ieltsBand": "7.0-7.5",
+      "example": "bias is often used in formal and academic English.",
       "collocations": [
-        "truly disruptive technology",
-        "potentially disruptive technology",
-        "emerging disruptive technology",
-        "a disruptive technology trend",
-        "a disruptive technology market"
+        "biases",
+        "estimator",
+        "biased",
+        "diode"
       ],
       "synonyms": [
-        "game-changing technology",
-        "transformative technology"
-      ]
-    },
-    {
-      "word": "machine learning",
-      "pronunciation": "/məˈʃiːn ˈlɜːnɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "A type of artificial intelligence that enables systems to automatically learn and improve from experience without being explicitly programmed.",
-      "indonesian": "pembelajaran mesin",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Machine learning is at the core of many AI applications, from recommendation systems to self-driving cars.",
-      "collocations": [
-        "apply machine learning",
-        "develop machine learning",
-        "machine learning model",
-        "machine learning algorithms",
-        "deep machine learning"
-      ],
-      "synonyms": [
-        "ML",
-        "computational learning"
-      ]
-    },
-    {
-      "word": "scalability",
-      "pronunciation": "/ˌskeɪləˈbɪləti/",
-      "partOfSpeech": "noun",
-      "definition": "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.",
-      "indonesian": "skalabilitas",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The software's scalability is crucial for its adoption by large enterprises.",
-      "collocations": [
-        "ensure scalability",
-        "improve scalability",
-        "system scalability",
-        "network scalability",
-        "application scalability"
-      ],
-      "synonyms": [
-        "expandability",
-        "flexibility",
-        "adaptability"
-      ]
-    },
-    {
-      "word": "virtualization",
-      "pronunciation": "/ˌvɜːrtʃuəlaɪˈzeɪʃən/",
-      "partOfSpeech": "noun",
-      "definition": "The creation of a virtual version of something, such as an operating system, a server, a storage device, or network resources.",
-      "indonesian": "virtualisasi",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Virtualization allows multiple operating systems to run on a single physical machine.",
-      "collocations": [
-        "implement virtualization",
-        "benefits of virtualization",
-        "server virtualization",
-        "network virtualization",
-        "desktop virtualization"
-      ],
-      "synonyms": [
-        "emulation",
-        "simulation"
+        "oblique",
+        "prejudice",
+        "predetermine",
+        "diagonal"
       ]
     }
   ]
