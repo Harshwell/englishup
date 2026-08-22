@@ -1,47 +1,169 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "word": "hassle",
+      "pronunciation": "/ˈhæs.əl/",
       "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "definition": "Annoyance or trouble.",
+      "indonesian": "kerumitan, kerepotan",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": 7,
+      "example": "Finding a parking spot in the city center can be a real hassle.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "a lot of hassle",
+        "avoid the hassle",
+        "minor hassle",
+        "unnecessary hassle"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "inconvenience",
+        "trouble",
+        "nuisance",
+        "difficulty"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "adjective",
-      "definition": "Proceeding in a straight course or manner; not deviating.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "vibe",
+      "pronunciation": "/vaɪb/",
+      "partOfSpeech": "noun",
+      "definition": "The atmosphere or feeling of a place or person.",
+      "indonesian": "suasana, aura",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": 7,
+      "example": "This cafe has a really relaxed vibe; I love coming here to study.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "good vibe",
+        "bad vibe",
+        "positive vibe",
+        "negative vibe",
+        "get a vibe"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "atmosphere",
+        "mood",
+        "feeling",
+        "aura"
+      ]
+    },
+    {
+      "word": "catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To do something that you did not have time to do earlier, or to talk to someone you have not seen for some time.",
+      "indonesian": "menyusul, bertemu (setelah lama tidak bertemu)",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "Let's grab coffee next week and catch up on everything.",
+      "collocations": [
+        "catch up on work",
+        "catch up with friends",
+        "catch up on sleep",
+        "catch up on news"
+      ],
+      "synonyms": [
+        "reconnect",
+        "update",
+        "get together"
+      ]
+    },
+    {
+      "word": "hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing.",
+      "indonesian": "nongkrong, menghabiskan waktu bersama",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "We usually hang out at the park on Saturdays.",
+      "collocations": [
+        "hang out with friends",
+        "hang out at home",
+        "hang out at the mall"
+      ],
+      "synonyms": [
+        "socialize",
+        "spend time",
+        "chill"
+      ]
+    },
+    {
+      "word": "figure out",
+      "pronunciation": "/ˈfɪɡ.ər aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To understand or solve something.",
+      "indonesian": "memecahkan, mencari tahu",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "I'm trying to figure out how to use this new software.",
+      "collocations": [
+        "figure out a problem",
+        "figure out a solution",
+        "figure out a way"
+      ],
+      "synonyms": [
+        "solve",
+        "understand",
+        "comprehend",
+        "resolve"
+      ]
+    },
+    {
+      "word": "cut down on",
+      "pronunciation": "/kʌt daʊn ɒn/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To reduce the amount of something you do, eat, or use.",
+      "indonesian": "mengurangi",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "I'm trying to cut down on sugar because of my health.",
+      "collocations": [
+        "cut down on expenses",
+        "cut down on screen time",
+        "cut down on unhealthy food"
+      ],
+      "synonyms": [
+        "reduce",
+        "decrease",
+        "limit"
+      ]
+    },
+    {
+      "word": "look forward to",
+      "pronunciation": "/lʊk ˈfɔː.wəd tuː/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To be excited about something that is going to happen.",
+      "indonesian": "menantikan",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "I'm really looking forward to my vacation next month.",
+      "collocations": [
+        "look forward to meeting",
+        "look forward to hearing from you",
+        "look forward to the future"
+      ],
+      "synonyms": [
+        "anticipate",
+        "eagerly await"
+      ]
+    },
+    {
+      "word": "get along",
+      "pronunciation": "/ɡɛt əˈlɒŋ/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To have a friendly relationship with someone.",
+      "indonesian": "berhubungan baik, akur",
+      "level": "B2",
+      "ieltsBand": 7,
+      "example": "My new roommate and I get along really well.",
+      "collocations": [
+        "get along with someone",
+        "get along with colleagues",
+        "get along with family"
+      ],
+      "synonyms": [
+        "be on good terms",
+        "be friendly with",
+        "harmonize"
       ]
     }
   ]
