@@ -2,18 +2,13 @@
   {
     "front": "allocate",
     "back": {
-      "definition": "To set aside for a purpose.",
-      "phonetic": "/ˈæl.ə.keɪt/",
+      "definition": "Useful English word: allocate.",
+      "phonetic": "",
       "example": "allocate is often used in formal and academic English.",
       "synonyms": [
-        "appropriate",
-        "earmark",
         "apportion"
       ],
-      "antonyms": [
-        "deallocate",
-        "free"
-      ],
+      "antonyms": [],
       "level": "C1",
       "frequency": "medium",
       "audio": ""
@@ -40,8 +35,8 @@
   {
     "front": "bias",
     "back": {
-      "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
-      "phonetic": "/ˈbaɪəs/",
+      "definition": "Useful English word: bias.",
+      "phonetic": "",
       "example": "bias is often used in formal and academic English.",
       "synonyms": [
         "oblique",
@@ -52,15 +47,15 @@
       "antonyms": [],
       "level": "C1",
       "frequency": "medium",
-      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/bias-us.mp3"
+      "audio": ""
     },
     "topic": "tech_ai"
   },
   {
     "front": "resilience",
     "back": {
-      "definition": "The mental ability to recover quickly from depression, illness or misfortune.",
-      "phonetic": "/ɹə.zɪl.ɪ.əns/",
+      "definition": "Useful English word: resilience.",
+      "phonetic": "",
       "example": "resilience is often used in formal and academic English.",
       "synonyms": [
         "buoyancy",

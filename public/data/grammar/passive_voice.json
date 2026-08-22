@@ -1,66 +1,66 @@
 {
-  "explanation": "Kalimat pasif (Passive Voice) adalah struktur kalimat di mana subjek menerima tindakan, bukan melakukan tindakan. Ini berbeda dengan kalimat aktif (Active Voice) di mana subjek melakukan tindakan. Dalam bahasa Inggris, kalimat pasif dibentuk dengan menggunakan bentuk 'be' (am, is, are, was, were, been, being) diikuti oleh past participle (kata kerja bentuk ketiga).",
+  "explanation": "Dalam bahasa Inggris, kalimat pasif digunakan ketika fokusnya adalah pada tindakan atau objek yang menerima tindakan, bukan pada siapa yang melakukan tindakan tersebut.  Struktur dasar kalimat pasif adalah: **Subject + be (is, am, are, was, were, been, being) + past participle (kata kerja bentuk ketiga)**.  Dalam bahasa Indonesia, ini sering diterjemahkan menggunakan kata 'di-' atau 'ter-'.",
   "keyRules": [
-    "Subjek kalimat pasif adalah objek dari kalimat aktif.",
-    "Kata kerja utama diubah menjadi past participle.",
-    "Kata kerja bantu 'be' digunakan sesuai dengan tense kalimat aktif dan jumlah subjek.",
-    "Pelaku tindakan (agen) dapat dihilangkan atau disebutkan dengan 'by' (opsional)."
+    "Identifikasi objek dari kalimat aktif. Objek ini akan menjadi subjek dalam kalimat pasif.",
+    "Gunakan bentuk 'be' yang sesuai dengan subjek baru dan tense kalimat.",
+    "Gunakan past participle dari kata kerja utama.",
+    "Jika Anda ingin menyebutkan pelaku tindakan, gunakan preposisi 'by' diikuti oleh pelaku tersebut (opsional)."
   ],
   "examples": [
     {
-      "active": "The students completed the assignment.",
-      "passive": "The assignment was completed by the students."
+      "active": "The students write the essays.",
+      "passive": "The essays are written by the students."
     },
     {
-      "active": "The chef is preparing the meal.",
-      "passive": "The meal is being prepared by the chef."
+      "active": "The chef cooked the meal.",
+      "passive": "The meal was cooked by the chef."
     },
     {
       "active": "They have built a new bridge.",
       "passive": "A new bridge has been built by them."
     },
     {
-      "active": "Someone stole my wallet.",
-      "passive": "My wallet was stolen."
+      "active": "The company is developing a new software.",
+      "passive": "A new software is being developed by the company."
     }
   ],
   "commonMistakes": [
-    "Menggunakan 'be' yang salah (misalnya, 'The book is write' bukan 'The book is written').",
-    "Lupa menggunakan past participle (misalnya, 'The house was build' bukan 'The house was built').",
-    "Menggunakan kalimat pasif ketika kalimat aktif lebih jelas dan ringkas.",
-    "Kesalahan dalam menyesuaikan bentuk 'be' dengan subjek dan tense."
+    "Menggunakan bentuk 'be' yang salah.",
+    "Menggunakan bentuk kata kerja yang salah (misalnya, present participle bukan past participle).",
+    "Terlalu sering menggunakan kalimat pasif, yang bisa membuat tulisan terdengar kaku atau tidak langsung.",
+    "Melupakan kata kerja 'be' sama sekali."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), kalimat pasif sering digunakan untuk mendeskripsikan proses atau data tanpa menekankan siapa yang melakukan tindakan. Gunakan kalimat pasif untuk variasi dan untuk terdengar lebih formal. Perhatikan penggunaan tense yang tepat.",
+  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif bisa sangat berguna untuk menjaga objektivitas dan fokus pada topik, terutama saat membahas masalah umum atau proses. Namun, gunakanlah secara strategis dan jangan berlebihan. Pastikan Anda menguasai berbagai bentuk 'be' dan past participle.",
   "quiz": [
     {
-      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The company hired many new employees last year.'",
+      "question": "Change the following sentence to passive voice: 'The teacher explained the grammar rules.'",
       "options": [
-        "Many new employees were hired by the company last year.",
-        "The company was hired by many new employees last year.",
-        "Many new employees hired the company last year.",
-        "Hired were many new employees by the company last year."
+        "The grammar rules explained by the teacher.",
+        "The grammar rules were explained by the teacher.",
+        "The teacher was explained the grammar rules.",
+        "The grammar rules is explained by the teacher."
       ],
-      "correctAnswer": "Many new employees were hired by the company last year."
+      "answer": "The grammar rules were explained by the teacher."
     },
     {
-      "question": "Lengkapi kalimat pasif berikut: 'The report ______ by the manager yesterday.'",
+      "question": "What is the past participle of 'break'?",
       "options": [
-        "is reviewed",
-        "was reviewed",
-        "reviewed",
-        "is reviewing"
+        "break",
+        "breaking",
+        "broke",
+        "broken"
       ],
-      "correctAnswer": "was reviewed"
+      "answer": "broken"
     },
     {
-      "question": "Kalimat mana yang menggunakan struktur pasif dengan benar?",
+      "question": "Complete the sentence with the correct passive form: 'The cake ______ by my mother yesterday.'",
       "options": [
-        "The cake is bake by my mother.",
-        "The cake was baked by my mother.",
-        "The cake baked by my mother.",
-        "My mother baked the cake."
+        "is baked",
+        "was baked",
+        "baked",
+        "is baking"
       ],
-      "correctAnswer": "The cake was baked by my mother."
+      "answer": "was baked"
     }
   ]
 }

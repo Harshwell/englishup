@@ -2,8 +2,8 @@
   {
     "front": "significant",
     "back": {
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "phonetic": "/sɪɡˈnɪ.fɪ.kənt/",
+      "definition": "Useful English word: significant.",
+      "phonetic": "",
       "example": "significant is often used in formal and academic English.",
       "synonyms": [
         "profound",
@@ -18,7 +18,7 @@
       ],
       "level": "B2",
       "frequency": "high",
-      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/significant-us.mp3"
+      "audio": ""
     },
     "topic": "ielts_academic"
   },
@@ -47,7 +47,7 @@
   {
     "front": "straightforward",
     "back": {
-      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "definition": "Useful English word: straightforward.",
       "phonetic": "",
       "example": "straightforward is often used in formal and academic English.",
       "synonyms": [
@@ -66,8 +66,8 @@
   {
     "front": "algorithm",
     "back": {
-      "definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "phonetic": "/ˈælɡəɹɪðm̩/",
+      "definition": "Useful English word: algorithm.",
+      "phonetic": "",
       "example": "algorithm is often used in formal and academic English.",
       "synonyms": [
         "algorithmic program",
@@ -76,15 +76,15 @@
       "antonyms": [],
       "level": "B2",
       "frequency": "high",
-      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/algorithm-us.mp3"
+      "audio": ""
     },
     "topic": "tech_ai"
   },
   {
     "front": "sustainable",
     "back": {
-      "definition": "Able to be sustained.",
-      "phonetic": "/səˈsteɪnəbəl/",
+      "definition": "Useful English word: sustainable.",
+      "phonetic": "",
       "example": "sustainable is often used in formal and academic English.",
       "synonyms": [],
       "antonyms": [],

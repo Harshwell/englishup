@@ -1,179 +1,64 @@
 {
   "words": [
     {
-      "word": "elucidate",
-      "pronunciation": "/ɪˈluːsɪdeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something clear or easier to understand; to explain.",
-      "indonesian": "menjelaskan, memperjelas",
+      "word": "significant",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: significant.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
+      "collocations": [
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
+      ],
+      "synonyms": [
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
+      ]
+    },
+    {
+      "word": "allocate",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: allocate.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The professor will elucidate the complex theories of quantum physics.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "elucidate a concept",
-        "elucidate the meaning",
-        "elucidate the process",
-        "elucidate the findings"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "clarify",
-        "explain",
-        "illuminate",
-        "expound"
+        "apportion"
       ]
     },
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, umum",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "Smartphones have become ubiquitous in modern society, changing the way we communicate.",
-      "collocations": [
-        "ubiquitous presence",
-        "ubiquitous technology",
-        "ubiquitous phenomenon",
-        "ubiquitous in nature"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "word": "enhance",
+      "pronunciation": "/ɪnˈhɑːns/",
       "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "mengurangi, meredakan",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "Governments are implementing policies to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate the impact",
-        "mitigate the risks",
-        "mitigate the damage",
-        "mitigate the severity"
-      ],
-      "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "soften"
-      ]
-    },
-    {
-      "word": "profound",
-      "pronunciation": "/prəˈfaʊnd/",
-      "partOfSpeech": "adjective",
-      "definition": "very great or intense; having or showing great knowledge or insight.",
-      "indonesian": "mendalam, besar sekali",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "The discovery of DNA had a profound impact on the field of genetics.",
-      "collocations": [
-        "profound impact",
-        "profound effect",
-        "profound insight",
-        "profound change"
-      ],
-      "synonyms": [
-        "deep",
-        "significant",
-        "intense",
-        "great"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola, contoh",
+      "definition": "To lift, raise up.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The shift from analog to digital technology represents a major paradigm shift in communication.",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "paradigm shift",
-        "new paradigm",
-        "research paradigm",
-        "scientific paradigm"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example"
-      ]
-    },
-    {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrepənsi/",
-      "partOfSpeech": "noun",
-      "definition": "a lack of similarity between two or more things; a difference.",
-      "indonesian": "ketidaksesuaian, perbedaan",
-      "level": "B2",
-      "ieltsBand": "6.5+",
-      "example": "There is a significant discrepancy between the reported figures and the actual data.",
-      "collocations": [
-        "significant discrepancy",
-        "noticeable discrepancy",
-        "explain the discrepancy",
-        "resolve the discrepancy"
-      ],
-      "synonyms": [
-        "difference",
-        "disagreement",
-        "inconsistency",
-        "variation"
-      ]
-    },
-    {
-      "word": "comprehensive",
-      "pronunciation": "/ˌkɒmprɪˈhensɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "including or dealing with all elements or aspects of something.",
-      "indonesian": "komprehensif, menyeluruh",
-      "level": "B2",
-      "ieltsBand": "6.0+",
-      "example": "The report provides a comprehensive overview of the economic situation.",
-      "collocations": [
-        "comprehensive study",
-        "comprehensive analysis",
-        "comprehensive approach",
-        "comprehensive review"
-      ],
-      "synonyms": [
-        "complete",
-        "thorough",
-        "extensive",
-        "all-inclusive"
-      ]
-    },
-    {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsemɪneɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to spread information widely.",
-      "indonesian": "menyebarkan, menyiarkan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The organization aims to disseminate knowledge about sustainable energy practices.",
-      "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate ideas",
-        "disseminate findings"
-      ],
-      "synonyms": [
-        "spread",
-        "circulate",
-        "broadcast",
-        "propagate"
+        "heighten",
+        "raise"
       ]
     }
   ]
