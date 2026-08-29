@@ -1,66 +1,171 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
-      "partOfSpeech": "noun",
-      "definition": "That which has significance; a sign; a token; a symbol.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something bad or unsatisfactory better.",
+      "indonesian": "memperbaiki, meringankan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The government introduced new policies to ameliorate the economic crisis.",
+      "collocations": [
+        "ameliorate the situation",
+        "ameliorate poverty",
+        "ameliorate conditions"
+      ],
+      "synonyms": [
+        "improve",
+        "enhance",
+        "better",
+        "reform"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, umum",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7.0+",
+      "example": "Smartphones have become ubiquitous in modern society.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "ubiquitous presence",
+        "ubiquitous technology",
+        "ubiquitous phenomenon"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "/ˈæl.ə.keɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To set aside for a purpose.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
+      "word": "deleterious",
+      "pronunciation": "/ˌdelɪˈtɪəriəs/",
+      "partOfSpeech": "adjective",
+      "definition": "causing harm or damage.",
+      "indonesian": "berbahaya, merusak",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "ieltsBand": "7.0+",
+      "example": "The long-term effects of pollution can be deleterious to human health.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "deleterious impact",
+        "deleterious effects",
+        "deleterious consequences"
       ],
       "synonyms": [
-        "appropriate",
-        "earmark",
-        "apportion"
+        "harmful",
+        "damaging",
+        "injurious",
+        "detrimental"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "/ɪnˈhɑːns/",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "To lift, raise up.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "mengurangi, meringankan",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Efforts are being made to mitigate the effects of climate change.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "mitigate risk",
+        "mitigate damage",
+        "mitigate the impact"
       ],
       "synonyms": [
-        "heighten",
-        "raise"
+        "alleviate",
+        "lessen",
+        "reduce",
+        "diminish"
+      ]
+    },
+    {
+      "word": "prevalent",
+      "pronunciation": "/ˈprevələnt/",
+      "partOfSpeech": "adjective",
+      "definition": "widespread in a particular area or at a particular time.",
+      "indonesian": "lazim, umum, tersebar luas",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Obesity is becoming increasingly prevalent among children.",
+      "collocations": [
+        "prevalent in",
+        "prevalent trend",
+        "prevalent issue"
+      ],
+      "synonyms": [
+        "common",
+        "widespread",
+        "rife",
+        "ubiquitous"
+      ]
+    },
+    {
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsemɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to spread or disperse (something, especially information) widely.",
+      "indonesian": "menyebarkan, menyiarkan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The organization aims to disseminate information about renewable energy sources.",
+      "collocations": [
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate widely"
+      ],
+      "synonyms": [
+        "spread",
+        "circulate",
+        "propagate",
+        "broadcast"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola pikir, contoh",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The discovery of DNA represented a paradigm shift in biology.",
+      "collocations": [
+        "paradigm shift",
+        "new paradigm",
+        "scientific paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework",
+        "example"
+      ]
+    },
+    {
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to provide evidence to support or prove the truth of.",
+      "indonesian": "membuktikan, menguatkan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The scientist was unable to substantiate his claims with sufficient data.",
+      "collocations": [
+        "substantiate a claim",
+        "substantiate allegations",
+        "substantiate evidence"
+      ],
+      "synonyms": [
+        "prove",
+        "confirm",
+        "verify",
+        "support"
       ]
     }
   ]

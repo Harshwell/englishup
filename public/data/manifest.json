@@ -1,16 +1,11 @@
 {
-  "generatedAt": "2026-08-29T12:50:10.992Z",
-  "version": "v3",
-  "sources": [
-    "DictionaryAPI.dev",
-    "Datamuse",
-    "Gemini",
-    "local seeds"
+  "generatedAt": "2026-08-29T21:31:18.154Z",
+  "savedCount": 6,
+  "errors": [
+    "grammar:present_perfect: invalid JSON"
   ],
-  "features": [
-    "flashcards",
-    "grammar",
-    "vocabulary",
-    "reading"
-  ]
+  "providers": {
+    "gemini": true,
+    "secondaryAi": false
+  }
 }

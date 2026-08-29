@@ -1,105 +1,144 @@
 {
-  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata yang digunakan sebelum kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak spesifik. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan jelas.",
+  "grammarChart": {
+    "title": "Articles: a, an, the, and Zero Article",
+    "sections": [
+      {
+        "article": "a/an",
+        "meaning": "Indefinite, singular, countable noun.  Refers to one of many, or introduces something for the first time.",
+        "use": "Before singular countable nouns that begin with a consonant sound ('a') or a vowel sound ('an')."
+      },
+      {
+        "article": "the",
+        "meaning": "Definite. Refers to a specific noun that is known to both the speaker/writer and listener/reader.",
+        "use": "Before singular or plural countable nouns, and uncountable nouns, when they are specific or have been mentioned before, or are unique."
+      },
+      {
+        "article": "Zero Article (-)",
+        "meaning": "No article is used.",
+        "use": "Before plural countable nouns and uncountable nouns in general statements; before abstract nouns in general statements; before proper nouns (names of people, most places, most languages, most subjects); before certain fixed expressions."
+      }
+    ]
+  },
+  "explanation": "Articles are small words that come before nouns to specify whether the noun is general or specific.  In English, we have three main types: 'a', 'an', and 'the'.  We also use the 'zero article' where no article is needed.  Understanding when to use each is crucial for clear and accurate communication, especially in academic writing and formal speaking, which are tested in IELTS.",
   "keyRules": [
     {
-      "article": "A",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya.",
-      "examples": [
-        "I saw a dog in the park.",
-        "She needs a new car."
-      ]
+      "rule": "Use 'a'/'an' for singular, countable nouns when you mention them for the first time or when referring to any one of a group.",
+      "example": "I saw **a** dog in the park.  It was **an** interesting sight."
     },
     {
-      "article": "An",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi vokal. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya.",
-      "examples": [
-        "He ate an apple for breakfast.",
-        "It was an interesting book."
-      ]
+      "rule": "Use 'the' when the noun is specific, already known, or unique.",
+      "example": "I saw **a** dog in the park. **The** dog was a golden retriever.  **The** sun is shining."
     },
     {
-      "article": "The",
-      "rule": "Digunakan sebelum kata benda tunggal atau jamak, baik yang dapat dihitung maupun yang tidak dapat dihitung. Menunjukkan sesuatu yang spesifik, sudah diketahui oleh pendengar/pembaca, atau unik.",
-      "examples": [
-        "The sun is shining brightly.",
-        "I read the book you recommended.",
-        "Can you pass me the salt?"
-      ]
+      "rule": "Use 'the' before superlatives and ordinal numbers.",
+      "example": "**The** tallest building, **the** first day."
     },
     {
-      "article": "Zero Article (Tidak Ada Artikel)",
-      "rule": "Digunakan dalam beberapa kasus, seperti sebelum kata benda jamak yang tidak spesifik, kata benda yang tidak dapat dihitung yang tidak spesifik, nama orang, nama tempat (kecuali jika ada keterangan tambahan), bahasa, mata pelajaran, hari, bulan, dan musim.",
-      "examples": [
-        "Children like to play.",
-        "Water is essential for life.",
-        "I study English.",
-        "We go on holiday in summer."
-      ]
+      "rule": "Use 'the' with geographical names that include a plural noun or a descriptive noun (e.g., rivers, oceans, mountain ranges, groups of islands, deserts).",
+      "example": "**The** Amazon River, **the** Pacific Ocean, **the** Alps, **the** Maldives, **the** Sahara Desert."
+    },
+    {
+      "rule": "Do NOT use an article (zero article) with most proper nouns (names of people, continents, countries, cities, single mountains, single lakes, most streets, most languages, most subjects).",
+      "example": "John lives in London.  He speaks English.  He studies Mathematics."
+    },
+    {
+      "rule": "Use the zero article for general statements with plural countable nouns and uncountable nouns.",
+      "example": "**Cats** are independent animals.  **Water** is essential for life."
+    },
+    {
+      "rule": "Use 'the' when referring to a specific instance of a plural or uncountable noun.",
+      "example": "**The cats** in my neighborhood are very friendly.  **The water** in this bottle is cold."
     }
   ],
+  "azarNotes": "Indonesian learners often struggle with articles because Indonesian does not have direct equivalents.  Pay close attention to the distinction between general and specific references.  Practice is key!",
   "examples": [
-    "I bought a pen and an eraser. The pen is blue, and the eraser is pink.",
-    "She is a doctor. The hospital where she works is very famous.",
-    "He likes music. He listens to classical music every day.",
-    "We visited Paris last year. Paris is a beautiful city."
+    {
+      "sentence": "She is **a** doctor.",
+      "explanation": "'a' is used because 'doctor' is a singular, countable noun, and we are referring to her profession in a general sense."
+    },
+    {
+      "sentence": "I need **an** umbrella.",
+      "explanation": "'an' is used because 'umbrella' is a singular, countable noun starting with a vowel sound."
+    },
+    {
+      "sentence": "Could you pass me **the** salt, please?",
+      "explanation": "'the' is used because we are referring to a specific salt shaker on the table, understood by both speaker and listener."
+    },
+    {
+      "sentence": "**The** Eiffel Tower is in Paris.",
+      "explanation": "'the' is used because the Eiffel Tower is a unique landmark."
+    },
+    {
+      "sentence": "**Honesty** is **the** best policy.",
+      "explanation": "'Honesty' uses the zero article because it's an abstract noun used in a general statement. 'the' is used with 'best' because it's a superlative."
+    },
+    {
+      "sentence": "**Children** love **ice cream**.",
+      "explanation": "Zero article is used for 'children' (plural, general) and 'ice cream' (uncountable, general)."
+    },
+    {
+      "sentence": "**The children** in my class are very active.",
+      "explanation": "'the' is used to specify a particular group of children."
+    }
   ],
   "commonMistakes": [
-    "Menggunakan 'a' atau 'an' sebelum kata benda jamak atau yang tidak dapat dihitung.",
-    "Menggunakan 'the' ketika merujuk pada sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya.",
-    "Melupakan artikel ketika seharusnya digunakan, terutama dengan kata benda tunggal yang dapat dihitung.",
-    "Salah menggunakan 'a' atau 'an' berdasarkan huruf awal kata benda, bukan bunyi awal."
+    "Using 'a'/'an' with plural or uncountable nouns.",
+    "Omitting 'the' when referring to something specific or unique.",
+    "Using 'the' with general statements about plural or uncountable nouns.",
+    "Incorrectly using articles with proper nouns (e.g., 'the Indonesia', 'the John').",
+    "Confusing 'a' and 'an' based on spelling rather than sound."
   ],
-  "ieltsTip": "Perhatikan konteks kalimat. Apakah Anda berbicara tentang sesuatu yang spesifik atau umum? Apakah pendengar/pembaca sudah tahu apa yang Anda maksud? Latihan membaca dan mendengarkan materi IELTS akan membantu Anda mengenali pola penggunaan artikel yang benar.",
+  "ieltsTip": "In IELTS Writing Task 2, be mindful of using articles correctly when discussing general concepts (zero article for plural/uncountable nouns) versus specific examples ('the'). In Speaking, aim for natural and accurate article usage to demonstrate fluency and grammatical range.  Listen to native speakers and read widely to internalize correct patterns.",
   "quiz": [
     {
-      "question": "Please give me ______ glass of water.",
+      "question": "Please close ___ door.",
       "options": [
         "a",
         "an",
         "the",
-        "no article"
+        "-"
       ],
-      "answer": "a"
+      "correctAnswer": "the"
     },
     {
-      "question": "______ moon is full tonight.",
+      "question": "She wants to buy ___ new car.",
       "options": [
         "a",
         "an",
         "the",
-        "no article"
+        "-"
       ],
-      "answer": "the"
+      "correctAnswer": "a"
     },
     {
-      "question": "She is ______ honest person.",
+      "question": "___ Mount Everest is the highest mountain in the world.",
       "options": [
         "a",
         "an",
         "the",
-        "no article"
+        "-"
       ],
-      "answer": "an"
+      "correctAnswer": "-"
     },
     {
-      "question": "I want to learn ______ new language.",
+      "question": "I had ___ apple and ___ banana for breakfast.",
       "options": [
         "a",
         "an",
         "the",
-        "no article"
+        "-"
       ],
-      "answer": "a"
+      "correctAnswer": "an, a"
     },
     {
-      "question": "______ dogs are loyal animals.",
+      "question": "___ water in the ocean is salty.",
       "options": [
         "a",
         "an",
         "the",
-        "no article"
+        "-"
       ],
-      "answer": "no article"
+      "correctAnswer": "the"
     }
   ]
 }
