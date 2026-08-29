@@ -1,25 +1,105 @@
 {
-  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata yang digunakan sebelum kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak spesifik. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan jelas.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "article": "A",
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya.",
+      "examples": [
+        "I saw a dog in the park.",
+        "She needs a new car."
+      ]
+    },
+    {
+      "article": "An",
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan bunyi vokal. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya.",
+      "examples": [
+        "He ate an apple for breakfast.",
+        "It was an interesting book."
+      ]
+    },
+    {
+      "article": "The",
+      "rule": "Digunakan sebelum kata benda tunggal atau jamak, baik yang dapat dihitung maupun yang tidak dapat dihitung. Menunjukkan sesuatu yang spesifik, sudah diketahui oleh pendengar/pembaca, atau unik.",
+      "examples": [
+        "The sun is shining brightly.",
+        "I read the book you recommended.",
+        "Can you pass me the salt?"
+      ]
+    },
+    {
+      "article": "Zero Article (Tidak Ada Artikel)",
+      "rule": "Digunakan dalam beberapa kasus, seperti sebelum kata benda jamak yang tidak spesifik, kata benda yang tidak dapat dihitung yang tidak spesifik, nama orang, nama tempat (kecuali jika ada keterangan tambahan), bahasa, mata pelajaran, hari, bulan, dan musim.",
+      "examples": [
+        "Children like to play.",
+        "Water is essential for life.",
+        "I study English.",
+        "We go on holiday in summer."
+      ]
+    }
   ],
   "examples": [
-    {
-      "sentence": "Articles appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Articles muncul dalam tugas IELTS."
-    }
+    "I bought a pen and an eraser. The pen is blue, and the eraser is pink.",
+    "She is a doctor. The hospital where she works is very famous.",
+    "He likes music. He listens to classical music every day.",
+    "We visited Paris last year. Paris is a beautiful city."
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Menggunakan 'a' atau 'an' sebelum kata benda jamak atau yang tidak dapat dihitung.",
+    "Menggunakan 'the' ketika merujuk pada sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya.",
+    "Melupakan artikel ketika seharusnya digunakan, terutama dengan kata benda tunggal yang dapat dihitung.",
+    "Salah menggunakan 'a' atau 'an' berdasarkan huruf awal kata benda, bukan bunyi awal."
   ],
-  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "Perhatikan konteks kalimat. Apakah Anda berbicara tentang sesuatu yang spesifik atau umum? Apakah pendengar/pembaca sudah tahu apa yang Anda maksud? Latihan membaca dan mendengarkan materi IELTS akan membantu Anda mengenali pola penggunaan artikel yang benar.",
+  "quiz": [
+    {
+      "question": "Please give me ______ glass of water.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "______ moon is full tonight.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "the"
+    },
+    {
+      "question": "She is ______ honest person.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an"
+    },
+    {
+      "question": "I want to learn ______ new language.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "______ dogs are loyal animals.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article"
+    }
+  ]
 }

@@ -1,117 +1,67 @@
 {
-  "grammarChart": [
-    {
-      "tense": "Present Simple",
-      "active": "Subject + Verb(s/es) + Object",
-      "passive": "Object + am/is/are + Past Participle + (by + Subject)"
-    },
-    {
-      "tense": "Past Simple",
-      "active": "Subject + Verb(ed) + Object",
-      "passive": "Object + was/were + Past Participle + (by + Subject)"
-    },
-    {
-      "tense": "Present Perfect",
-      "active": "Subject + has/have + Past Participle + Object",
-      "passive": "Object + has/have + been + Past Participle + (by + Subject)"
-    },
-    {
-      "tense": "Future Simple",
-      "active": "Subject + will + Verb + Object",
-      "passive": "Object + will + be + Past Participle + (by + Subject)"
-    }
-  ],
-  "explanation": "The passive voice is used when the action or the object of the action is more important than the person or thing performing the action. It shifts the focus from the doer to the receiver of the action. The basic structure of the passive voice is the appropriate form of the verb 'to be' (am, is, are, was, were, been, will be) followed by the past participle of the main verb.",
+  "explanation": "Kalimat pasif (Passive Voice) dalam Bahasa Inggris digunakan ketika fokus utama kalimat adalah pada objek yang menerima tindakan, bukan pada pelaku tindakan. Struktur dasarnya adalah 'be' (is, am, are, was, were, been, being) + past participle (kata kerja bentuk ketiga).  Ini berbeda dengan kalimat aktif di mana subjek melakukan tindakan.",
   "keyRules": [
-    "Identify the object of the active sentence. This becomes the subject of the passive sentence.",
-    "Use the correct form of the verb 'to be' that matches the tense of the original active verb and the new subject.",
-    "Use the past participle of the main verb.",
-    "The original subject can be omitted or introduced with 'by' if it is important or unknown."
-  ],
-  "azarNotes": [
-    "In Indonesian, the passive voice is often formed by adding 'di-' to the verb. For example, 'Membaca' (to read) becomes 'Dibaca' (is read).",
-    "When translating from Indonesian to English passive, pay close attention to the tense. The 'di-' prefix doesn't explicitly indicate tense, so you'll need to infer it from context or add auxiliary verbs.",
-    "The 'by + agent' phrase is optional in the passive voice. It's often omitted when the agent is unknown, unimportant, or obvious."
+    "Identifikasi subjek dan objek dalam kalimat aktif.",
+    "Ubah objek kalimat aktif menjadi subjek kalimat pasif.",
+    "Gunakan bentuk 'be' yang sesuai dengan tense kalimat.",
+    "Ubah kata kerja utama kalimat aktif menjadi past participle.",
+    "Jika pelaku tindakan penting, tambahkan 'by' diikuti oleh subjek kalimat aktif."
   ],
   "examples": [
     {
-      "active": "The chef prepares the meal.",
-      "passive": "The meal is prepared by the chef."
+      "active": "The chef cooks the meal.",
+      "passive": "The meal is cooked by the chef."
     },
     {
-      "active": "Scientists discovered a new planet.",
-      "passive": "A new planet was discovered by scientists."
+      "active": "They built the bridge last year.",
+      "passive": "The bridge was built by them last year."
+    },
+    {
+      "active": "She is writing a novel.",
+      "passive": "A novel is being written by her."
     },
     {
       "active": "The company has hired new employees.",
       "passive": "New employees have been hired by the company."
-    },
-    {
-      "active": "The government will implement new policies.",
-      "passive": "New policies will be implemented by the government."
-    },
-    {
-      "active": "Someone stole my bicycle.",
-      "passive": "My bicycle was stolen."
     }
   ],
   "commonMistakes": [
-    "Using the wrong form of 'to be'. For example, 'The book is wrote' instead of 'The book was written'.",
-    "Forgetting to use the past participle. For example, 'The cake is bake' instead of 'The cake is baked'.",
-    "Incorrectly changing the tense when converting to passive.",
-    "Overusing the passive voice, making the writing sound impersonal or vague."
+    "Menggunakan bentuk 'be' yang salah (misalnya, 'The book is write' bukan 'The book is written').",
+    "Lupa menggunakan 'by' ketika pelaku tindakan perlu disebutkan.",
+    "Mencampuradukkan struktur aktif dan pasif dalam satu kalimat.",
+    "Kesalahan dalam menentukan bentuk past participle dari kata kerja."
   ],
-  "ieltsTip": "In IELTS Writing Task 2, the passive voice is useful for discussing general truths, processes, or when you want to sound more objective and formal. For example, when describing a process or discussing societal issues, the passive voice can be very effective. However, avoid overusing it, as it can make your writing sound unnatural. Use it strategically to emphasize the action or the recipient of the action.",
+  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), kalimat pasif sering digunakan untuk mendeskripsikan proses atau grafik, di mana fokusnya adalah pada apa yang terjadi, bukan siapa yang melakukannya.  Perhatikan baik-baik tense yang digunakan dalam data atau proses yang Anda deskripsikan untuk menggunakan bentuk 'be' yang tepat.  Dalam Task 2, kalimat pasif dapat membantu Anda untuk terdengar lebih formal dan objektif.",
   "quiz": [
     {
-      "question": "Choose the correct passive form of the following sentence: 'The students completed the project.'",
+      "question": "Change the following sentence to passive voice: 'The students completed the project on time.'",
       "options": [
-        "The project completed by the students.",
-        "The project was completed by the students.",
-        "The project is completed by the students.",
-        "The project has completed by the students."
+        "The project completed by the students on time.",
+        "The project was completed by the students on time.",
+        "The project is completed by the students on time.",
+        "The students were completed the project on time."
       ],
-      "answer": "The project was completed by the students."
+      "answer": "The project was completed by the students on time."
     },
     {
-      "question": "Choose the correct passive form of the following sentence: 'The artist is painting a portrait.'",
+      "question": "Identify the passive voice sentence:",
       "options": [
-        "A portrait is painted by the artist.",
-        "A portrait was painting by the artist.",
-        "A portrait is being painted by the artist.",
-        "A portrait has been painting by the artist."
+        "He reads a book every day.",
+        "The book was read by him.",
+        "He is reading a book.",
+        "He will read a book."
       ],
-      "answer": "A portrait is being painted by the artist."
+      "answer": "The book was read by him."
     },
     {
-      "question": "Choose the correct passive form of the following sentence: 'The committee will announce the results next week.'",
+      "question": "Complete the sentence with the correct passive form: 'The cake ______ by my mother yesterday.'",
       "options": [
-        "The results will announce next week by the committee.",
-        "The results will be announce next week by the committee.",
-        "The results will be announced next week by the committee.",
-        "The results are announced next week by the committee."
+        "is baked",
+        "was baked",
+        "baked",
+        "is baking"
       ],
-      "answer": "The results will be announced next week by the committee."
-    },
-    {
-      "question": "Choose the correct passive form of the following sentence: 'They have built a new bridge.'",
-      "options": [
-        "A new bridge has built.",
-        "A new bridge is built.",
-        "A new bridge has been built.",
-        "A new bridge was built."
-      ],
-      "answer": "A new bridge has been built."
-    },
-    {
-      "question": "Which sentence is NOT in the passive voice?",
-      "options": [
-        "The book was written by a famous author.",
-        "The experiment is conducted carefully.",
-        "The students are studying for their exams.",
-        "The report has been submitted."
-      ],
-      "answer": "The students are studying for their exams."
+      "answer": "was baked"
     }
   ]
 }
