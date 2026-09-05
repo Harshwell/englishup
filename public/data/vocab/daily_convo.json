@@ -1,171 +1,47 @@
 {
   "words": [
     {
-      "word": "flabbergasted",
-      "pronunciation": "/ˈflæbərˌɡæstɪd/",
-      "partOfSpeech": "adjective",
-      "definition": "greatly surprised or impressed; astonished.",
-      "indonesian": "tercengang, sangat terkejut",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "I was absolutely flabbergasted when they announced I had won the award.",
-      "collocations": [
-        "utterly flabbergasted",
-        "completely flabbergasted",
-        "left flabbergasted"
-      ],
-      "synonyms": [
-        "astonished",
-        "amazed",
-        "dumbfounded",
-        "speechless"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, umum",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "become ubiquitous",
-        "seem ubiquitous",
-        "ubiquitous technology"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "ephemeral",
-      "pronunciation": "/ɪˈfɛmərəl/",
-      "partOfSpeech": "adjective",
-      "definition": "lasting for a very short time.",
-      "indonesian": "singkat, sementara, fana",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The beauty of cherry blossoms is ephemeral, lasting only a week or two.",
-      "collocations": [
-        "truly ephemeral",
-        "somewhat ephemeral",
-        "ephemeral moment"
-      ],
-      "synonyms": [
-        "transient",
-        "fleeting",
-        "short-lived",
-        "temporary"
-      ]
-    },
-    {
-      "word": "articulate",
-      "pronunciation": "/ɑːrˈtɪkjʊleɪt/",
-      "partOfSpeech": "adjective",
-      "definition": "(of a person or discourse) having or showing the ability to speak fluently and coherently.",
-      "indonesian": "fasih berbicara, jelas, terstruktur",
+      "word": "reliable",
+      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "partOfSpeech": "noun",
+      "definition": "Something or someone reliable or dependable",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "She is a very articulate speaker who can explain complex ideas clearly.",
+      "ieltsBand": "6.5-7.0",
+      "example": "the old reliables",
       "collocations": [
-        "highly articulate",
-        "well-articulate",
-        "articulate arguments"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "eloquent",
-        "fluent",
-        "coherent",
-        "expressive"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "make less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi, meringankan",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The government is taking steps to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate the impact",
-        "mitigate the risk",
-        "mitigate the damage"
-      ],
-      "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "ease"
-      ]
-    },
-    {
-      "word": "resilient",
-      "pronunciation": "/rɪˈzɪliənt/",
+      "word": "straightforward",
+      "pronunciation": "",
       "partOfSpeech": "adjective",
-      "definition": "able to withstand or recover quickly from difficult conditions.",
-      "indonesian": "tahan banting, tangguh, kuat",
+      "definition": "Proceeding in a straight course or manner; not deviating.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Children are often more resilient than adults when facing adversity.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "highly resilient",
-        "remarkably resilient",
-        "resilient economy"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "tough",
-        "hardy",
-        "strong",
-        "adaptable"
-      ]
-    },
-    {
-      "word": "perplexed",
-      "pronunciation": "/pərˈplɛkst/",
-      "partOfSpeech": "adjective",
-      "definition": "completely baffled; very puzzled.",
-      "indonesian": "bingung, terperangah",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "He looked at the strange symbols with a perplexed expression.",
-      "collocations": [
-        "utterly perplexed",
-        "deeply perplexed",
-        "left perplexed"
-      ],
-      "synonyms": [
-        "puzzled",
-        "confused",
-        "bewildered",
-        "baffled"
-      ]
-    },
-    {
-      "word": "diligent",
-      "pronunciation": "/ˈdɪlɪdʒənt/",
-      "partOfSpeech": "adjective",
-      "definition": "having or showing care and conscientiousness in one's work or duties.",
-      "indonesian": "rajin, tekun, teliti",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Her diligent approach to studying paid off with excellent grades.",
-      "collocations": [
-        "highly diligent",
-        "truly diligent",
-        "diligent student"
-      ],
-      "synonyms": [
-        "hardworking",
-        "conscientious",
-        "industrious",
-        "assiduous"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]

@@ -1,147 +1,67 @@
 {
-  "grammarChart": {
-    "title": "Passive Voice: be + Past Participle",
-    "structure": "Subject + be (am, is, are, was, were, been, being) + Past Participle (V3)",
-    "purpose": "To emphasize the action or the receiver of the action, rather than the doer.",
-    "tenses": [
-      {
-        "tense": "Present Simple",
-        "active": "Someone cleans the room.",
-        "passive": "The room is cleaned."
-      },
-      {
-        "tense": "Present Continuous",
-        "active": "Someone is cleaning the room.",
-        "passive": "The room is being cleaned."
-      },
-      {
-        "tense": "Present Perfect",
-        "active": "Someone has cleaned the room.",
-        "passive": "The room has been cleaned."
-      },
-      {
-        "tense": "Past Simple",
-        "active": "Someone cleaned the room.",
-        "passive": "The room was cleaned."
-      },
-      {
-        "tense": "Past Continuous",
-        "active": "Someone was cleaning the room.",
-        "passive": "The room was being cleaned."
-      },
-      {
-        "tense": "Past Perfect",
-        "active": "Someone had cleaned the room.",
-        "passive": "The room had been cleaned."
-      },
-      {
-        "tense": "Future Simple (will)",
-        "active": "Someone will clean the room.",
-        "passive": "The room will be cleaned."
-      },
-      {
-        "tense": "Future Perfect",
-        "active": "Someone will have cleaned the room.",
-        "passive": "The room will have been cleaned."
-      },
-      {
-        "tense": "Modal Verbs (can, must, should, etc.)",
-        "active": "Someone must clean the room.",
-        "passive": "The room must be cleaned."
-      }
-    ]
-  },
-  "explanation": "The passive voice is a grammatical construction where the subject of a sentence receives the action of the verb, rather than performing it. It is formed using a form of the verb 'to be' (am, is, are, was, were, been, being) followed by the past participle of the main verb.  We use the passive voice when the doer of the action is unknown, unimportant, or when we want to focus on the thing or person that is affected by the action.",
+  "explanation": "Kalimat pasif (Passive Voice) digunakan ketika fokus kalimat adalah pada objek yang menerima tindakan, bukan pada subjek yang melakukan tindakan. Dalam bahasa Inggris, struktur kalimat pasif yang paling umum adalah 'be + past participle'. Ini berbeda dengan kalimat aktif di mana subjek melakukan tindakan.",
   "keyRules": [
-    "Identify the object of the active sentence. This becomes the subject of the passive sentence.",
-    "Use the correct form of the auxiliary verb 'to be' according to the tense of the active sentence.",
-    "Use the past participle (V3) of the main verb.",
-    "The original subject of the active sentence can be introduced with 'by' if it is important to mention.",
-    "Ensure subject-verb agreement in the passive sentence."
-  ],
-  "azarNotes": [
-    "In formal writing, especially academic essays and reports, the passive voice is frequently used to maintain objectivity and focus on the research or findings rather than the researcher.",
-    "Be mindful of overusing the passive voice. Too much passive voice can make your writing sound indirect, wordy, and less engaging."
+    "Identifikasi subjek dan objek dalam kalimat aktif.",
+    "Ubah objek kalimat aktif menjadi subjek kalimat pasif.",
+    "Gunakan bentuk 'be' yang sesuai dengan subjek baru dan tense kalimat.",
+    "Ubah kata kerja utama kalimat aktif menjadi past participle (V3).",
+    "Jika perlu, tambahkan 'by + subjek asli' untuk menunjukkan siapa yang melakukan tindakan (opsional)."
   ],
   "examples": [
     {
-      "active": "The government introduced new policies last year.",
-      "passive": "New policies were introduced by the government last year."
+      "active": "The students wrote the essay.",
+      "passive": "The essay was written by the students."
     },
     {
-      "active": "Scientists are conducting research on climate change.",
-      "passive": "Research on climate change is being conducted by scientists."
+      "active": "The chef is preparing the meal.",
+      "passive": "The meal is being prepared by the chef."
     },
     {
-      "active": "The company will launch the product next month.",
-      "passive": "The product will be launched by the company next month."
+      "active": "They have built a new bridge.",
+      "passive": "A new bridge has been built by them."
     },
     {
-      "active": "Someone has stolen my wallet.",
-      "passive": "My wallet has been stolen."
-    },
-    {
-      "active": "Students must submit their assignments by Friday.",
-      "passive": "Assignments must be submitted by students by Friday."
+      "active": "Someone stole my wallet.",
+      "passive": "My wallet was stolen."
     }
   ],
   "commonMistakes": [
-    "Incorrect form of 'to be': Using 'is' instead of 'was' for past tense, or omitting 'be' altogether.",
-    "Incorrect past participle: Using the base form or simple past instead of the past participle (e.g., 'was write' instead of 'was written').",
-    "Confusing active and passive:  Using the passive structure when the subject is performing the action.",
-    "Tense errors:  Not matching the tense of 'to be' to the original active sentence."
+    "Menggunakan 'be' yang salah (misalnya, 'is' untuk past tense).",
+    "Lupa mengubah kata kerja menjadi past participle.",
+    "Menggunakan kalimat pasif ketika kalimat aktif lebih jelas dan ringkas.",
+    "Salah menempatkan 'by + agen' (subjek asli)."
   ],
-  "ieltsTip": "In IELTS Writing Task 1 (Academic), you will frequently use the passive voice to describe processes or data. For example, 'The raw materials are mixed...' or 'The figures were analyzed...'. In Task 2, use it judiciously to present arguments objectively or to discuss general truths.  Focus on clarity and accuracy.",
+  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif sering digunakan untuk memberikan kesan yang lebih formal dan objektif, terutama ketika Anda ingin menekankan pada topik atau proses daripada pada siapa yang melakukan tindakan. Namun, jangan terlalu sering menggunakannya karena bisa membuat tulisan terdengar kaku. Gunakan secara strategis untuk variasi dan penekanan.",
   "quiz": [
     {
-      "question": "Choose the correct passive form of the following sentence: 'The chef prepared a delicious meal.'",
+      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The company will launch a new product next month.'",
       "options": [
-        "A delicious meal prepared the chef.",
-        "A delicious meal was prepared by the chef.",
-        "A delicious meal is prepared by the chef.",
-        "A delicious meal prepares the chef."
+        "A new product will be launched by the company next month.",
+        "A new product is launched by the company next month.",
+        "The company is launching a new product next month.",
+        "A new product will launch by the company next month."
       ],
-      "answer": "B"
+      "answer": "A new product will be launched by the company next month."
     },
     {
-      "question": "Identify the passive sentence:",
+      "question": "Ubah kalimat aktif berikut menjadi pasif: 'She has finished the report.'",
       "options": [
-        "The students are reading a book.",
-        "A book is being read by the students.",
-        "The students have read a book.",
-        "The students will read a book."
+        "The report has finished by her.",
+        "The report is finished by her.",
+        "The report has been finished by her.",
+        "The report was finished by her."
       ],
-      "answer": "B"
+      "answer": "The report has been finished by her."
     },
     {
-      "question": "Complete the sentence with the correct passive form: 'The bridge _______ by engineers next year.'",
+      "question": "Kalimat pasif yang benar adalah:",
       "options": [
-        "will build",
-        "will be built",
-        "is built",
-        "was built"
+        "The book was read by many people.",
+        "The book was readed by many people.",
+        "The book is readed by many people.",
+        "The book is reading by many people."
       ],
-      "answer": "B"
-    },
-    {
-      "question": "Which sentence correctly uses the passive voice to emphasize the object?",
-      "options": [
-        "The artist painted the portrait.",
-        "The portrait was painted by the artist.",
-        "The artist is painting the portrait.",
-        "The portrait painted the artist."
-      ],
-      "answer": "B"
-    },
-    {
-      "question": "Change the active sentence to passive: 'The committee has approved the proposal.'",
-      "options": [
-        "The proposal has approved the committee.",
-        "The proposal is approved by the committee.",
-        "The proposal has been approved by the committee.",
-        "The committee has been approved by the proposal."
-      ],
-      "answer": "C"
+      "answer": "The book was read by many people."
     }
   ]
 }

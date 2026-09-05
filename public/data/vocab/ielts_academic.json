@@ -1,171 +1,66 @@
 {
   "words": [
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something bad or unsatisfactory better.",
-      "indonesian": "memperbaiki, meringankan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The government introduced new policies to ameliorate the economic crisis.",
-      "collocations": [
-        "ameliorate the situation",
-        "ameliorate poverty",
-        "ameliorate conditions"
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "better",
-        "reform"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, umum",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "ubiquitous presence",
-        "ubiquitous technology",
-        "ubiquitous phenomenon"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "deleterious",
-      "pronunciation": "/ˌdelɪˈtɪəriəs/",
-      "partOfSpeech": "adjective",
-      "definition": "causing harm or damage.",
-      "indonesian": "berbahaya, merusak",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The long-term effects of pollution can be deleterious to human health.",
-      "collocations": [
-        "deleterious impact",
-        "deleterious effects",
-        "deleterious consequences"
-      ],
-      "synonyms": [
-        "harmful",
-        "damaging",
-        "injurious",
-        "detrimental"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "mengurangi, meringankan",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Efforts are being made to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate risk",
-        "mitigate damage",
-        "mitigate the impact"
-      ],
-      "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "diminish"
-      ]
-    },
-    {
-      "word": "prevalent",
-      "pronunciation": "/ˈprevələnt/",
-      "partOfSpeech": "adjective",
-      "definition": "widespread in a particular area or at a particular time.",
-      "indonesian": "lazim, umum, tersebar luas",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Obesity is becoming increasingly prevalent among children.",
-      "collocations": [
-        "prevalent in",
-        "prevalent trend",
-        "prevalent issue"
-      ],
-      "synonyms": [
-        "common",
-        "widespread",
-        "rife",
-        "ubiquitous"
-      ]
-    },
-    {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsemɪneɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to spread or disperse (something, especially information) widely.",
-      "indonesian": "menyebarkan, menyiarkan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The organization aims to disseminate information about renewable energy sources.",
-      "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate widely"
-      ],
-      "synonyms": [
-        "spread",
-        "circulate",
-        "propagate",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
       "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir, contoh",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The discovery of DNA represented a paradigm shift in biology.",
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "paradigm shift",
-        "new paradigm",
-        "scientific paradigm"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "substantiate",
-      "pronunciation": "/səbˈstænʃieɪt/",
+      "word": "allocate",
+      "pronunciation": "/ˈæl.ə.keɪt/",
       "partOfSpeech": "verb",
-      "definition": "to provide evidence to support or prove the truth of.",
-      "indonesian": "membuktikan, menguatkan",
+      "definition": "To set aside for a purpose.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The scientist was unable to substantiate his claims with sufficient data.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "substantiate a claim",
-        "substantiate allegations",
-        "substantiate evidence"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "prove",
-        "confirm",
-        "verify",
-        "support"
+        "appropriate",
+        "earmark",
+        "apportion"
+      ]
+    },
+    {
+      "word": "enhance",
+      "pronunciation": "/ɪnˈhɑːns/",
+      "partOfSpeech": "verb",
+      "definition": "To lift, raise up.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "level": "C1",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
+      "collocations": [
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
+      ],
+      "synonyms": [
+        "heighten",
+        "raise"
       ]
     }
   ]

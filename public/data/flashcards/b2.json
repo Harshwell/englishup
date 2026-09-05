@@ -25,9 +25,9 @@
   {
     "front": "reliable",
     "back": {
-      "definition": "Useful English word: reliable.",
-      "phonetic": "",
-      "example": "reliable is often used in formal and academic English.",
+      "definition": "Something or someone reliable or dependable",
+      "phonetic": "/ɹɪˈlaɪəbəl/",
+      "example": "the old reliables",
       "synonyms": [
         "true",
         "authentic",
@@ -40,7 +40,7 @@
       ],
       "level": "B2",
       "frequency": "high",
-      "audio": ""
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/reliable-us.mp3"
     },
     "topic": "daily_convo"
   },
@@ -97,12 +97,10 @@
   {
     "front": "inequality",
     "back": {
-      "definition": "An unfair, not equal, state.",
-      "phonetic": "/ˌɪnɪˈkwɒlɪti/",
+      "definition": "Useful English word: inequality.",
+      "phonetic": "",
       "example": "inequality is often used in formal and academic English.",
-      "synonyms": [
-        "inequation"
-      ],
+      "synonyms": [],
       "antonyms": [
         "equality"
       ],
@@ -115,7 +113,7 @@
   {
     "front": "workload",
     "back": {
-      "definition": "The amount of work assigned to a particular worker, normally in a specified time period",
+      "definition": "Useful English word: workload.",
       "phonetic": "",
       "example": "workload is often used in formal and academic English.",
       "synonyms": [],

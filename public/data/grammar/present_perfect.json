@@ -1,92 +1,25 @@
 {
-  "explanation": "Present Perfect Tense digunakan untuk menyatakan tindakan atau kejadian yang telah terjadi di masa lalu dan masih memiliki hubungan atau relevansi dengan masa kini.  Ini bisa berupa pengalaman, tindakan yang baru saja selesai, atau tindakan yang dimulai di masa lalu dan berlanjut hingga sekarang.",
+  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
   "keyRules": [
-    "Struktur kalimat positif: Subject + have/has + Past Participle (Verb 3)",
-    "Struktur kalimat negatif: Subject + have/has + not + Past Participle (Verb 3)",
-    "Struktur kalimat tanya: Have/Has + Subject + Past Participle (Verb 3) + ?",
-    "Penggunaan 'have': untuk subjek I, you, we, they, dan plural nouns.",
-    "Penggunaan 'has': untuk subjek he, she, it, dan singular nouns.",
-    "Past Participle adalah bentuk ketiga dari kata kerja (misalnya: go - went - gone, eat - ate - eaten, play - played - played)."
+    "Pahami pola dasar.",
+    "Perhatikan konteks.",
+    "Hindari terjemahan mentah.",
+    "Gunakan dalam writing dan speaking."
   ],
   "examples": [
     {
-      "sentence": "I have visited Bali twice.",
-      "translation": "Saya sudah mengunjungi Bali dua kali."
-    },
-    {
-      "sentence": "She has finished her homework.",
-      "translation": "Dia (perempuan) sudah menyelesaikan pekerjaan rumahnya."
-    },
-    {
-      "sentence": "They have lived here for five years.",
-      "translation": "Mereka sudah tinggal di sini selama lima tahun."
-    },
-    {
-      "sentence": "Have you ever eaten sushi?",
-      "translation": "Apakah kamu pernah makan sushi?"
-    },
-    {
-      "sentence": "He has not seen that movie yet.",
-      "translation": "Dia (laki-laki) belum melihat film itu."
+      "sentence": "Present Perfect appears in IELTS tasks.",
+      "note": "Use the structure accurately.",
+      "indonesian": "Present Perfect muncul dalam tugas IELTS."
     }
   ],
   "commonMistakes": [
-    "Menggunakan Simple Past Tense padahal seharusnya Present Perfect, terutama ketika ada kata 'already', 'yet', 'just', 'ever', 'never'. Contoh salah: I ate breakfast already. (Benar: I have already eaten breakfast.)",
-    "Lupa menggunakan 'have' atau 'has' sebelum past participle. Contoh salah: She finished her work. (Jika konteksnya relevan dengan sekarang, benar: She has finished her work.)",
-    "Menggunakan bentuk Verb 1 atau Verb 2 sebagai past participle. Contoh salah: They have went to the park. (Benar: They have gone to the park.)",
-    "Salah memilih antara 'have' dan 'has' berdasarkan subjek. Contoh salah: He have a new car. (Benar: He has a new car.)"
-  ],
-  "ieltsTip": "Dalam IELTS, Present Perfect sering digunakan untuk mendeskripsikan tren, perubahan, atau pengalaman yang relevan dengan topik yang dibahas dalam Reading, Writing (Task 1 & 2), dan Speaking. Perhatikan penggunaan kata keterangan waktu seperti 'recently', 'lately', 'since', dan 'for' yang seringkali mengindikasikan penggunaan Present Perfect.",
-  "quiz": [
     {
-      "question": "Complete the sentence: They ______ to London last week.",
-      "options": [
-        "go",
-        "went",
-        "have gone",
-        "had gone"
-      ],
-      "answer": "went"
-    },
-    {
-      "question": "Complete the sentence: She ______ her keys.",
-      "options": [
-        "lose",
-        "lost",
-        "has lost",
-        "had lost"
-      ],
-      "answer": "has lost"
-    },
-    {
-      "question": "Choose the correct sentence: ",
-      "options": [
-        "I have see that movie before.",
-        "I have saw that movie before.",
-        "I have seen that movie before.",
-        "I saw that movie before."
-      ],
-      "answer": "I have seen that movie before."
-    },
-    {
-      "question": "Complete the sentence: We ______ not ______ the news yet.",
-      "options": [
-        "have / hear",
-        "has / heard",
-        "have / heard",
-        "had / heard"
-      ],
-      "answer": "have / heard"
-    },
-    {
-      "question": "Complete the sentence: ______ you ______ a new language?",
-      "options": [
-        "Has / learn",
-        "Have / learned",
-        "Have / learn",
-        "Had / learned"
-      ],
-      "answer": "Have / learned"
+      "wrong": "Learner guesses the form.",
+      "right": "Learner checks the structure first.",
+      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
     }
-  ]
+  ],
+  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
+  "quiz": []
 }

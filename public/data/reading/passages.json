@@ -1,358 +1,210 @@
 [
   {
-    "title": "The Rise of AI in the Classroom: Transforming Education",
+    "title": "AI in the Classroom: Revolution or Distraction?",
     "topic": "Artificial Intelligence and Education",
-    "difficulty": "Intermediate",
-    "passage": "Artificial Intelligence (AI) is rapidly making its presence felt across various sectors, and the realm of education is no exception.  Once a concept confined to science fiction, AI is now a tangible force, poised to revolutionize how we teach and learn.  One of the most significant impacts of AI in education is its ability to personalize learning experiences.  Traditional classrooms often struggle to cater to the diverse needs and learning paces of individual students.  AI-powered platforms, however, can analyze a student's performance in real-time, identifying areas of weakness and strength.  Based on this analysis, these systems can then adapt the curriculum, offering targeted exercises and resources.  For instance, if a student consistently struggles with algebraic equations, an AI tutor might provide extra practice problems and explanatory videos specifically on that topic, while a student excelling in the same area might be presented with more advanced challenges.\n\nFurthermore, AI can significantly ease the administrative burden on educators. Tasks such as grading multiple-choice quizzes, scheduling appointments, and even providing initial feedback on essays can be automated. This frees up teachers' valuable time, allowing them to focus on more complex pedagogical activities, such as fostering critical thinking, facilitating discussions, and providing individualized emotional support to students.  The potential for AI to act as a tireless teaching assistant is immense, offering consistent support and feedback without the limitations of human fatigue or availability.\n\nHowever, the integration of AI into education is not without its challenges. Concerns about data privacy and security are paramount.  As AI systems collect vast amounts of student data, robust measures must be in place to protect this sensitive information from breaches or misuse.  Another crucial consideration is the potential for AI to exacerbate existing inequalities.  If access to advanced AI educational tools is limited to well-funded institutions, it could widen the gap between privileged and underprivileged students.  Ensuring equitable access and addressing potential biases within AI algorithms are critical steps towards a fair and inclusive educational future.  Finally, the role of the human teacher remains indispensable. While AI can automate certain tasks and personalize learning, it cannot replicate the empathy, creativity, and nuanced understanding that a human educator brings to the classroom. The most effective future likely involves a symbiotic relationship between AI and teachers, where technology enhances, rather than replaces, human instruction.",
+    "difficulty": "intermediate",
+    "passage": "The integration of Artificial Intelligence (AI) into educational settings is no longer a futuristic concept; it is a rapidly unfolding reality. From personalized learning platforms that adapt to individual student paces to AI-powered grading systems that free up teacher time, the potential benefits are significant.  AI can analyze vast amounts of student data to identify learning gaps and recommend targeted interventions, offering a level of individualized attention previously unimaginable in large classrooms.  Furthermore, AI tutors can provide instant feedback and support, allowing students to practice and master concepts at their own convenience, anytime and anywhere.  This can be particularly beneficial for students who are shy or hesitant to ask questions in a traditional classroom environment.\n\nHowever, the widespread adoption of AI in education is not without its challenges and concerns.  One primary worry revolves around data privacy and security.  As AI systems collect and process sensitive student information, robust safeguards are essential to prevent misuse or breaches.  Another significant consideration is the potential for over-reliance on technology, which could diminish the crucial human element of teaching.  The nuanced understanding, emotional support, and mentorship that a human educator provides are difficult, if not impossible, for AI to replicate.  There's also the risk of exacerbating existing inequalities if access to AI-powered educational tools is not equitable across all socioeconomic backgrounds.  Finally, the ethical implications of AI in assessment, such as algorithmic bias, need careful examination to ensure fairness and prevent discrimination.\n\nDespite these hurdles, the trajectory suggests AI will play an increasingly vital role in shaping the future of education.  The key lies in finding a harmonious balance, leveraging AI's strengths to augment human teaching and learning, rather than replace it entirely.  Thoughtful implementation, coupled with ongoing research and ethical considerations, will be paramount in harnessing AI's transformative power for the benefit of all learners.",
     "vocabulary": [
       {
-        "word": "tangible",
-        "meaning": "perceptible by touch or able to be touched; real or concrete.",
-        "example": "The benefits of this new technology are becoming increasingly tangible."
+        "word": "integration",
+        "definition": "the process of combining two or more things so that they work together"
       },
       {
-        "word": "poised",
-        "meaning": "ready or likely to happen in the near future.",
-        "example": "The company is poised for significant growth next year."
+        "word": "personalized learning",
+        "definition": "an educational approach that uses technology to provide customized instruction and learning experiences for each student"
       },
       {
-        "word": "cater to",
-        "meaning": "provide what is desired or needed by someone.",
-        "example": "The restaurant caters to a wide range of dietary requirements."
+        "word": "interventions",
+        "definition": "actions taken to improve a situation, especially a difficult one"
       },
       {
-        "word": "targeted",
-        "meaning": "aimed at or intended for a specific person, group, or purpose.",
-        "example": "The marketing campaign used targeted advertising to reach young adults."
+        "word": "unimaginable",
+        "definition": "impossible to imagine or think of"
       },
       {
-        "word": "administrative burden",
-        "meaning": "the amount of work and responsibility involved in managing an organization or system.",
-        "example": "The new software aims to reduce the administrative burden on office staff."
+        "word": "hesitant",
+        "definition": "tending to hold back or delay; not eager"
       },
       {
-        "word": "pedagogical",
-        "meaning": "relating to the method and practice of teaching.",
-        "example": "The teacher's pedagogical approach was highly effective."
+        "word": "diminish",
+        "definition": "to make or become less"
       },
       {
-        "word": "symbiotic",
-        "meaning": "an interaction between two different organisms living in close physical association, typically to the advantage of both.",
-        "example": "The relationship between the bee and the flower is symbiotic."
+        "word": "nuanced",
+        "definition": "having or showing a subtle difference or distinction"
       },
       {
-        "word": "indispensable",
-        "meaning": "absolutely necessary.",
-        "example": "A good dictionary is indispensable for any student."
-      }
-    ],
-    "questions": [
-      {
-        "id": 1,
-        "type": "multiple_choice",
-        "question": "According to the passage, what is one of the primary ways AI can enhance education?",
-        "options": [
-          "By replacing human teachers entirely.",
-          "By automating all grading and administrative tasks.",
-          "By personalizing learning experiences for individual students.",
-          "By reducing the cost of educational resources."
-        ],
-        "correct_answer": "By personalizing learning experiences for individual students."
-      },
-      {
-        "id": 2,
-        "type": "true_false_not_given",
-        "question": "AI-powered platforms can identify a student's strengths and weaknesses by analyzing their performance in real-time.",
-        "answer": "True"
-      },
-      {
-        "id": 3,
-        "type": "short_answer",
-        "question": "Besides grading, name one other administrative task that AI can automate for educators.",
-        "answer": "Scheduling appointments / Providing initial feedback on essays (either is acceptable)"
-      },
-      {
-        "id": 4,
-        "type": "multiple_choice",
-        "question": "Which of the following is identified as a significant challenge in the integration of AI into education?",
-        "options": [
-          "The lack of AI technology available.",
-          "The potential for AI to increase existing educational inequalities.",
-          "The inability of AI to provide consistent feedback.",
-          "The high cost of AI training for teachers."
-        ],
-        "correct_answer": "The potential for AI to increase existing educational inequalities."
-      },
-      {
-        "id": 5,
-        "type": "true_false_not_given",
-        "question": "The passage suggests that the role of the human teacher will become obsolete with the advancement of AI.",
-        "answer": "False"
-      }
-    ],
-    "ieltsTips": [
-      {
-        "tip": "For True/False/Not Given questions, carefully read the statement and then scan the passage for information that directly confirms or contradicts it. If the passage does not mention the information, choose 'Not Given'.",
-        "section": "Question Types"
-      },
-      {
-        "tip": "When answering short answer questions, look for keywords from the question in the passage and extract the specific information needed. Keep your answers concise and to the point.",
-        "section": "Answering Strategy"
-      },
-      {
-        "tip": "Pay attention to the vocabulary section. Understanding the meaning of less common words can significantly improve your comprehension of the passage.",
-        "section": "Vocabulary Focus"
-      },
-      {
-        "tip": "For multiple-choice questions, read the question carefully and identify the key information it asks for. Then, read all the options before selecting the one that best matches the information in the passage.",
-        "section": "Question Types"
-      },
-      {
-        "tip": "Identify the main ideas of each paragraph to grasp the overall structure and argument of the passage, which aids in answering comprehension questions.",
-        "section": "Reading Strategy"
-      }
-    ]
-  },
-  {
-    "title": "Working from Home: A New Way to Be Productive",
-    "topic": "Remote Work and Productivity",
-    "difficulty": "Beginner",
-    "passage": "The world of work is changing. More and more people are choosing to work from home, also known as remote work. This means they do their jobs from their house instead of going to an office.  Many people find that working from home helps them be more productive.  One reason is that they can avoid long commutes.  Instead of spending hours on buses or trains, they can use that time to start their work earlier or take a break.  Another benefit is that people can create their own comfortable workspace.  They can set up their desk in a quiet room, away from the noise of an office.  This can help them focus better on their tasks.  However, not everyone finds remote work easy. Some people miss the social interaction of the office and can feel lonely.  It is also important to have good self-discipline to stay focused and avoid distractions at home, like television or household chores.  Overall, for many, remote work offers a flexible and productive way to earn a living.",
-    "vocabulary": [
-      {
-        "word": "remote work",
-        "meaning": "working from home or a location away from the main office"
-      },
-      {
-        "word": "productive",
-        "meaning": "achieving a lot; efficient"
-      },
-      {
-        "word": "commute",
-        "meaning": "the journey to and from work"
-      },
-      {
-        "word": "benefit",
-        "meaning": "an advantage or profit gained from something"
-      },
-      {
-        "word": "workspace",
-        "meaning": "a place where someone works"
-      },
-      {
-        "word": "focus",
-        "meaning": "to concentrate attention or effort on something"
-      },
-      {
-        "word": "interaction",
-        "meaning": "communication or direct involvement with someone or something"
-      },
-      {
-        "word": "self-discipline",
-        "meaning": "the ability to control one's feelings and overcome weaknesses; the ability to pursue what one thinks one ought to do"
-      },
-      {
-        "word": "distractions",
-        "meaning": "things that prevent someone from giving full attention to something"
-      },
-      {
-        "word": "flexible",
-        "meaning": "able to change or be changed easily according to the situation"
-      }
-    ],
-    "questions": [
-      {
-        "id": 1,
-        "type": "multiple_choice",
-        "question": "What is another name for working from home?",
-        "options": [
-          "Office work",
-          "Remote work",
-          "Commuting",
-          "Workspace"
-        ],
-        "answer": "Remote work"
-      },
-      {
-        "id": 2,
-        "type": "true_false_not_given",
-        "question": "Working from home helps people avoid long commutes.",
-        "answer": "True"
-      },
-      {
-        "id": 3,
-        "type": "short_answer",
-        "question": "According to the passage, what can people create at home to help them focus better?",
-        "answer": "comfortable workspace"
-      },
-      {
-        "id": 4,
-        "type": "multiple_choice",
-        "question": "Which of the following is a challenge of remote work mentioned in the passage?",
-        "options": [
-          "Too much social interaction",
-          "Feeling lonely",
-          "Too much work",
-          "Easy to focus"
-        ],
-        "answer": "Feeling lonely"
-      },
-      {
-        "id": 5,
-        "type": "true_false_not_given",
-        "question": "The passage states that all people find remote work easy.",
-        "answer": "False"
-      }
-    ],
-    "ieltsTips": [
-      {
-        "tipNumber": 1,
-        "tip": "Read the questions first to understand what information you need to find in the passage.",
-        "area": "Reading Strategy"
-      },
-      {
-        "tipNumber": 2,
-        "tip": "Look for keywords from the questions in the passage. These words can help you locate the relevant section.",
-        "area": "Scanning"
-      },
-      {
-        "tipNumber": 3,
-        "tip": "For True/False/Not Given questions, carefully check if the statement in the question is directly supported by the text (True), contradicted by the text (False), or if there is no information about it (Not Given).",
-        "area": "Question Types"
-      },
-      {
-        "tipNumber": 4,
-        "tip": "For short answer questions, try to answer using words directly from the passage, but keep your answers concise.",
-        "area": "Question Types"
-      },
-      {
-        "tipNumber": 5,
-        "tip": "Don't spend too much time on one question. If you can't find the answer, move on and come back later if you have time.",
-        "area": "Time Management"
-      }
-    ]
-  },
-  {
-    "title": "The Symbiotic Dance: Climate Change and the Future of Urban Planning",
-    "topic": "Climate Change and Urban Planning",
-    "difficulty": "Advanced",
-    "passage": "The escalating reality of climate change presents an unprecedented challenge to the established paradigms of urban planning. For decades, cities have been conceived and developed with a primary focus on economic growth, population density, and efficient transportation networks, often with a tacit assumption of environmental stability. However, the undeniable acceleration of global warming, manifesting in more frequent and intense heatwaves, rising sea levels, and erratic precipitation patterns, necessitates a radical re-evaluation of these foundational principles.  Urban planners are now compelled to move beyond mitigation strategies, which aim to reduce greenhouse gas emissions, and embrace adaptation measures that build resilience within urban infrastructures and communities.\n\nThis paradigm shift is not merely an additive process; it requires a fundamental restructuring of how we conceptualize urban spaces.  The integration of green infrastructure – such as parks, green roofs, and permeable pavements – is no longer a discretionary aesthetic enhancement but a critical component of climate-resilient design. These elements serve multiple functions: mitigating the urban heat island effect, managing stormwater runoff, enhancing biodiversity, and improving air quality.  Furthermore, the siting and design of new developments must meticulously consider projected climate impacts. Areas historically considered safe may become vulnerable to flooding or extreme heat, demanding a proactive approach to land-use zoning and building regulations.  The concept of the '15-minute city,' where essential amenities are accessible within a short walk or cycle, gains renewed significance not only for quality of life but also for reducing transportation-related emissions and fostering local community resilience.\n\nHowever, the implementation of these adaptive strategies is fraught with complexities.  Financial constraints, entrenched political interests, and the sheer inertia of existing urban fabric pose significant hurdles.  Moreover, the equitable distribution of adaptation benefits is a paramount concern.  Vulnerable populations, often residing in historically underserved areas, are disproportionately affected by climate impacts and may lack the resources to adapt.  Therefore, urban planning in the age of climate change must be intrinsically linked with social justice, ensuring that resilience-building measures do not exacerbate existing inequalities.  The future of urban planning lies in its capacity to orchestrate a symbiotic dance between human habitation and the evolving natural environment, fostering not just survival but genuine thriving in the face of climatic uncertainty.",
-    "vocabulary": [
-      {
-        "word": "escalating",
-        "meaning": "increasing at a higher level or rate"
-      },
-      {
-        "word": "paradigms",
-        "meaning": "a typical example or pattern of something; a model"
-      },
-      {
-        "word": "tacit",
-        "meaning": "understood or implied without being stated openly"
-      },
-      {
-        "word": "mitigation",
-        "meaning": "the action of reducing the severity, seriousness, or painfulness of something"
-      },
-      {
-        "word": "adaptation",
-        "meaning": "the process of changing to suit a new condition or environment"
-      },
-      {
-        "word": "resilience",
-        "meaning": "the capacity to recover quickly from difficulties; toughness"
-      },
-      {
-        "word": "discretionary",
-        "meaning": "left to individual choice or judgment"
-      },
-      {
-        "word": "permeable",
-        "meaning": "allowing liquids or gases to pass through"
-      },
-      {
-        "word": "stormwater runoff",
-        "meaning": "water from rain or snowmelt that flows over the land surface"
-      },
-      {
-        "word": "biodiversity",
-        "meaning": "the variety of plant and animal life in the world or in a particular habitat"
-      },
-      {
-        "word": "siting",
-        "meaning": "the location of something"
-      },
-      {
-        "word": "erratic",
-        "meaning": "not even or regular in pattern or movement; unpredictable"
-      },
-      {
-        "word": "inertia",
-        "meaning": "a tendency to do nothing or to remain unchanged"
-      },
-      {
-        "word": "entrenched",
-        "meaning": "established firmly and unlikely to change"
+        "word": "mentorship",
+        "definition": "the guidance and support provided by an experienced and trusted advisor"
       },
       {
         "word": "exacerbate",
-        "meaning": "make (a problem, bad situation, or negative feeling) worse"
+        "definition": "to make a problem, bad situation, or negative feeling worse"
       },
       {
-        "word": "symbiotic",
-        "meaning": "involving or characterized by interaction and cooperation between two different organisms or entities"
+        "word": "equitable",
+        "definition": "fair and impartial"
+      },
+      {
+        "word": "algorithmic bias",
+        "definition": "systematic and repeatable errors in a computer system that create unfair outcomes, such as privileging one arbitrary group of users over others"
+      },
+      {
+        "word": "paramount",
+        "definition": "more important than anything else; supreme"
+      },
+      {
+        "word": "augment",
+        "definition": "to increase or make greater"
       }
     ],
     "questions": [
       {
-        "id": 1,
         "type": "multiple_choice",
-        "question": "According to the passage, what has been the primary focus of urban planning for decades, often with an implicit assumption of environmental stability?",
+        "question": "According to the passage, what is one of the primary benefits of AI in education?",
         "options": [
-          "Mitigation strategies for climate change",
-          "Economic growth, population density, and efficient transportation",
-          "The integration of green infrastructure",
-          "Adapting urban areas to rising sea levels"
+          "Reducing the need for human teachers",
+          "Providing instant feedback and support to students",
+          "Eliminating the need for student assessment",
+          "Ensuring complete data privacy for all students"
         ],
-        "correct_answer": "Economic growth, population density, and efficient transportation"
+        "answer": "Providing instant feedback and support to students"
       },
       {
-        "id": 2,
         "type": "true_false_not_given",
-        "question": "The passage suggests that adaptation measures are solely focused on reducing greenhouse gas emissions.",
+        "question": "AI tutors are capable of replicating the emotional support and mentorship provided by human teachers.",
         "answer": "False"
       },
       {
-        "id": 3,
         "type": "short_answer",
-        "question": "What are three functions of green infrastructure mentioned in the passage?",
-        "answer": "Mitigating the urban heat island effect, managing stormwater runoff, and enhancing biodiversity."
+        "question": "What is one of the main concerns regarding the use of AI in education mentioned in the passage?",
+        "answer": "Data privacy and security"
       },
       {
-        "id": 4,
-        "type": "multiple_choice",
-        "question": "The concept of the '15-minute city' is highlighted as significant for which of the following reasons in the context of climate change?",
-        "options": [
-          "Increasing population density",
-          "Reducing transportation-related emissions and fostering local community resilience",
-          "Encouraging the development of new transportation networks",
-          "Solely improving the aesthetic appeal of urban areas"
+        "type": "matching_headings",
+        "question": "Match the following paragraphs with their main idea.",
+        "paragraphs": [
+          "Paragraph 1",
+          "Paragraph 2",
+          "Paragraph 3"
         ],
-        "correct_answer": "Reducing transportation-related emissions and fostering local community resilience"
+        "headings": [
+          "The Future Role of AI",
+          "Potential Benefits of AI in Education",
+          "Challenges and Ethical Considerations of AI in Education"
+        ],
+        "answer": {
+          "Paragraph 1": "Potential Benefits of AI in Education",
+          "Paragraph 2": "Challenges and Ethical Considerations of AI in Education",
+          "Paragraph 3": "The Future Role of AI"
+        }
       },
       {
-        "id": 5,
-        "type": "true_false_not_given",
-        "question": "The passage states that financial constraints are the only significant hurdle in implementing adaptive climate change strategies in urban planning.",
-        "answer": "False"
+        "type": "fill_in_the_blanks",
+        "question": "The passage suggests that the key to successful AI integration in education lies in finding a harmonious ________, leveraging AI's strengths to ________ human teaching and learning.",
+        "blanks": [
+          "balance",
+          "augment"
+        ]
       }
     ],
     "ieltsTips": [
-      "**For Multiple Choice Questions:** Read the question carefully and identify keywords. Scan the passage for these keywords or synonyms. Eliminate options that are clearly not supported by the text. Read the relevant section of the passage thoroughly to confirm the correct answer.",
-      "**For True/False/Not Given Questions:** Understand the difference: 'True' means the statement is directly supported by the passage. 'False' means the statement is contradicted by the passage. 'Not Given' means the information is not present in the passage. Look for explicit statements or strong implications. If a statement is a partial truth or an exaggeration, it's likely False or Not Given.",
-      "**For Short Answer Questions:** Identify the specific information requested in the question. Scan the passage for keywords related to the question. Extract the exact information needed, ensuring it directly answers the question. Keep answers concise and to the point.",
-      "**Vocabulary Building:** Pay attention to the 'vocabulary' section. Understanding advanced vocabulary is crucial for comprehending complex texts and for achieving a higher band score in IELTS. Try to use these words in your own speaking and writing practice.",
-      "**Passage Comprehension:** For advanced passages like this, focus on understanding the main ideas, the author's purpose, and the relationships between different concepts. Don't get bogged down by every single word; try to grasp the overall meaning first."
+      "Read the questions first to understand what information you need to look for in the passage.",
+      "Pay attention to keywords in the questions and scan the passage for synonyms or related terms.",
+      "For True/False/Not Given questions, carefully distinguish between statements that are directly supported by the text (True), contradicted by the text (False), or not mentioned at all (Not Given).",
+      "For fill-in-the-blanks questions, consider the grammatical structure and the meaning of the surrounding words to determine the correct word.",
+      "When matching headings, read the paragraph first to grasp its main idea before looking at the list of headings."
+    ]
+  },
+  {
+    "title": "The Rise of Remote Work",
+    "topic": "Remote Work and Productivity",
+    "difficulty": "beginner",
+    "passage": "Remote work, also known as working from home, has become very popular in recent years. Many companies now allow their employees to work from their own homes instead of going to an office. This offers several advantages. For employees, it means no more commuting, which saves time and money. They can also have more flexibility in their daily schedules, perhaps spending more time with family or pursuing hobbies. For companies, remote work can reduce the need for large office spaces, saving on rent and utilities. It can also lead to increased productivity as some people find they can concentrate better without office distractions. However, remote work also has challenges. It can be difficult to separate work life from home life, and some people might feel isolated without regular face-to-face interaction with colleagues. Effective communication and clear expectations are important for successful remote work.",
+    "vocabulary": [
+      {
+        "word": "commuting",
+        "definition": "the regular journey between one's home and place of work"
+      },
+      {
+        "word": "flexibility",
+        "definition": "the ability to be easily modified or adapted"
+      },
+      {
+        "word": "distractions",
+        "definition": "things that prevent someone from giving full attention to something"
+      },
+      {
+        "word": "isolated",
+        "definition": "feeling alone or separate from others"
+      },
+      {
+        "word": "interaction",
+        "definition": "communication or direct involvement with someone or something"
+      }
+    ],
+    "questions": [
+      {
+        "type": "True/False/Not Given",
+        "question": "Remote work means working in a company's main office.",
+        "answer": "False"
+      },
+      {
+        "type": "True/False/Not Given",
+        "question": "Employees save time and money by not commuting.",
+        "answer": "True"
+      },
+      {
+        "type": "True/False/Not Given",
+        "question": "Remote work always leads to less productivity.",
+        "answer": "False"
+      },
+      {
+        "type": "Multiple Choice",
+        "question": "Which of the following is an advantage of remote work for employees?",
+        "options": [
+          "More office distractions",
+          "No need for communication",
+          "More flexibility in schedules",
+          "Increased commuting time"
+        ],
+        "answer": "More flexibility in schedules"
+      },
+      {
+        "type": "Multiple Choice",
+        "question": "What is a challenge of remote work mentioned in the passage?",
+        "options": [
+          "Saving on rent",
+          "Feeling isolated",
+          "Reduced office space",
+          "Better concentration"
+        ],
+        "answer": "Feeling isolated"
+      }
+    ],
+    "ieltsTips": [
+      "Read the questions first to understand what information you need to find in the passage.",
+      "Scan the passage for keywords from the questions.",
+      "Pay attention to synonyms and paraphrased information, as the passage may not use the exact same words as the questions.",
+      "For True/False/Not Given questions, look for statements that are directly supported by the text (True), contradicted by the text (False), or not mentioned at all (Not Given)."
+    ]
+  },
+  {
+    "title": "Cities and Climate Planning",
+    "topic": "Cities and Climate Planning",
+    "difficulty": "advanced",
+    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
+    "vocabulary": [
+      {
+        "word": "relevant",
+        "definition": "connected to the topic",
+        "indonesian": "relevan"
+      }
+    ],
+    "questions": [],
+    "ieltsTips": [
+      "Identify the main idea first.",
+      "Watch out for paraphrases, not only repeated words."
     ]
   }
 ]
