@@ -1,25 +1,176 @@
 {
-  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": {
+    "title": "Present Perfect Tense",
+    "structure": {
+      "affirmative": "Subject + have/has + Past Participle (V3)",
+      "negative": "Subject + have/has + not + Past Participle (V3)",
+      "interrogative": "Have/Has + Subject + Past Participle (V3)?"
+    },
+    "auxiliaryVerbs": {
+      "have": [
+        "I",
+        "you",
+        "we",
+        "they",
+        "plural nouns"
+      ],
+      "has": [
+        "he",
+        "she",
+        "it",
+        "singular nouns"
+      ]
+    }
+  },
+  "explanation": "The Present Perfect tense connects the past with the present. It's used to talk about actions or states that happened at an unspecified time in the past, or actions that started in the past and continue to the present. The key is that there's a relevance to the present moment.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "rule": "Unspecified Past Time",
+      "description": "When the exact time of the action is not important or unknown, and we focus on the result or experience.",
+      "keywords": [
+        "ever",
+        "never",
+        "already",
+        "yet",
+        "just",
+        "recently",
+        "lately",
+        "so far",
+        "up to now",
+        "this week/month/year"
+      ]
+    },
+    {
+      "rule": "Actions Continuing to the Present",
+      "description": "For actions or states that began in the past and are still true or happening now. Often used with 'for' (duration) and 'since' (starting point).",
+      "keywords": [
+        "for",
+        "since",
+        "all day/morning/week"
+      ]
+    },
+    {
+      "rule": "Past Actions with Present Results",
+      "description": "When a past action has a clear consequence or impact on the present.",
+      "keywords": [
+        "I've lost my keys (so I can't get in now)",
+        "She's broken her leg (so she can't walk)"
+      ]
+    },
+    {
+      "rule": "Life Experiences",
+      "description": "To talk about things that have or haven't happened in someone's life up to the present moment.",
+      "keywords": [
+        "ever",
+        "never"
+      ]
+    }
+  ],
+  "azarNotes": [
+    "The past participle (V3) is crucial. For regular verbs, it's usually the same as the past simple (e.g., 'played', 'worked'). For irregular verbs, you need to memorize them (e.g., 'seen', 'gone', 'written').",
+    "Be careful not to confuse the Present Perfect with the Past Simple. Past Simple requires a specific past time reference (e.g., 'yesterday', 'last week'). Present Perfect does not usually have a specific past time reference.",
+    "'Have' and 'has' are auxiliary verbs. They don't carry the main meaning of the sentence; the past participle does."
   ],
   "examples": [
     {
-      "sentence": "Present Perfect appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Present Perfect muncul dalam tugas IELTS."
+      "sentence": "I have visited Bali three times.",
+      "tense": "Present Perfect",
+      "explanation": "Focuses on the experience of visiting Bali, the exact time of each visit is not important."
+    },
+    {
+      "sentence": "She has lived here for ten years.",
+      "tense": "Present Perfect",
+      "explanation": "Indicates that she started living here ten years ago and still lives here now."
+    },
+    {
+      "sentence": "Have you ever eaten sushi?",
+      "tense": "Present Perfect",
+      "explanation": "Asking about a life experience up to the present moment."
+    },
+    {
+      "sentence": "They haven't finished their homework yet.",
+      "tense": "Present Perfect (Negative)",
+      "explanation": "The homework was expected to be finished, but it hasn't happened up to now."
+    },
+    {
+      "sentence": "He has just arrived.",
+      "tense": "Present Perfect",
+      "explanation": "The action of arriving happened very recently and is relevant now."
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
+      "mistake": "Using Past Simple instead of Present Perfect with 'ever', 'never', 'already', 'yet', 'just'.",
+      "correction": "Incorrect: 'I ate already.' Correct: 'I have already eaten.'",
+      "reason": "These adverbs signal a connection to the present, making Present Perfect the appropriate tense."
+    },
+    {
+      "mistake": "Using Present Perfect with a specific past time.",
+      "correction": "Incorrect: 'I have seen him yesterday.' Correct: 'I saw him yesterday.'",
+      "reason": "Specific past time references require the Past Simple tense."
+    },
+    {
+      "mistake": "Forgetting the past participle or using the base form/past simple form.",
+      "correction": "Incorrect: 'She has go to the store.' Correct: 'She has gone to the store.'",
+      "reason": "The structure requires the past participle of the main verb."
+    },
+    {
+      "mistake": "Confusing 'for' and 'since' with Past Simple.",
+      "correction": "Incorrect: 'He lived here since 2010.' Correct: 'He has lived here since 2010.'",
+      "reason": "'For' and 'since' with present relevance indicate the Present Perfect."
     }
   ],
-  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 1, use the Present Perfect to describe trends or changes that started in the past and continue up to the present, or to describe cumulative data over a period leading up to the present. In Speaking, it's excellent for discussing experiences, opinions, and completed actions with present relevance.",
+  "quiz": [
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) I have finished my work yesterday.",
+        "b) I finished my work yesterday.",
+        "c) I have finished my work.",
+        "d) I finish my work yesterday."
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Complete the sentence: She ______ to London twice.",
+      "options": [
+        "a) go",
+        "b) went",
+        "c) has gone",
+        "d) have gone"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) They never see such a beautiful sunset.",
+        "b) They have never seen such a beautiful sunset.",
+        "c) They have never saw such a beautiful sunset.",
+        "d) They never seen such a beautiful sunset."
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Complete the sentence: We ______ here for five years.",
+      "options": [
+        "a) live",
+        "b) lived",
+        "c) have lived",
+        "d) has lived"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) Has he already eat dinner?",
+        "b) Did he already eat dinner?",
+        "c) Has he already eaten dinner?",
+        "d) He has already eat dinner."
+      ],
+      "answer": "c"
+    }
+  ]
 }
