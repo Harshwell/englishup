@@ -1,68 +1,80 @@
 {
-  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata yang diletakkan sebelum kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak spesifik. Memahami penggunaannya sangat penting untuk tata bahasa yang benar dan komunikasi yang jelas.",
+  "explanation": "Artikel dalam bahasa Inggris (a, an, the, dan zero article) adalah kata-kata kecil yang mendahului kata benda. Mereka memberikan informasi tentang apakah kata benda tersebut spesifik atau tidak, tunggal atau jamak, dan dapat dihitung atau tidak dapat dihitung. Memahami penggunaan artikel sangat penting untuk komunikasi yang jelas dan akurat dalam bahasa Inggris, dan merupakan area yang sering diuji dalam IELTS.",
   "keyRules": [
     {
       "article": "a",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan suara konsonan. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya."
+      "usage": "Digunakan sebelum kata benda tunggal yang dapat dihitung dan dimulai dengan bunyi konsonan. Menunjukkan sesuatu yang umum atau tidak spesifik.",
+      "examples": [
+        "a book",
+        "a car",
+        "a university"
+      ]
     },
     {
       "article": "an",
-      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable nouns) yang dimulai dengan suara vokal. Menunjukkan sesuatu yang tidak spesifik atau disebutkan untuk pertama kalinya."
+      "usage": "Digunakan sebelum kata benda tunggal yang dapat dihitung dan dimulai dengan bunyi vokal. Menunjukkan sesuatu yang umum atau tidak spesifik.",
+      "examples": [
+        "an apple",
+        "an hour",
+        "an umbrella"
+      ]
     },
     {
       "article": "the",
-      "rule": "Digunakan sebelum kata benda tunggal atau jamak, baik yang dapat dihitung maupun tidak dapat dihitung (uncountable nouns). Menunjukkan sesuatu yang spesifik, sudah diketahui oleh pendengar/pembaca, atau disebutkan untuk kedua kalinya atau lebih."
+      "usage": "Digunakan sebelum kata benda tunggal atau jamak, yang dapat dihitung atau tidak dapat dihitung, ketika kata benda tersebut spesifik atau sudah disebutkan sebelumnya. Juga digunakan untuk hal-hal unik.",
+      "examples": [
+        "the book on the table",
+        "the sun",
+        "the students in my class"
+      ]
     },
     {
-      "article": "zero article",
-      "rule": "Tidak menggunakan artikel sama sekali. Digunakan untuk kata benda jamak yang tidak spesifik, kata benda yang tidak dapat dihitung yang tidak spesifik, nama orang, nama kota, nama negara (umumnya), nama bahasa, nama mata pelajaran, dan sebelum kata benda abstrak dalam penggunaan umum."
+      "article": "Zero Article",
+      "usage": "Tidak menggunakan artikel sebelum kata benda jamak yang umum, kata benda abstrak, atau kata benda tidak dapat dihitung yang digunakan secara umum.",
+      "examples": [
+        "Dogs are loyal animals.",
+        "Happiness is important.",
+        "Water is essential for life."
+      ]
     }
   ],
   "examples": [
     {
-      "category": "a",
-      "sentence": "I saw **a** cat in the garden."
+      "sentence": "I saw **a** cat in the garden.",
+      "explanation": "'a' digunakan karena 'cat' adalah kata benda tunggal yang dapat dihitung dan tidak spesifik."
     },
     {
-      "category": "an",
-      "sentence": "She is **an** excellent student."
+      "sentence": "She ate **an** orange.",
+      "explanation": "'an' digunakan karena 'orange' dimulai dengan bunyi vokal."
     },
     {
-      "category": "the (specific)",
-      "sentence": "**The** sun is shining brightly today."
+      "sentence": "**The** cat I saw was black.",
+      "explanation": "'the' digunakan karena kita merujuk pada kucing spesifik yang sudah disebutkan sebelumnya."
     },
     {
-      "category": "the (previously mentioned)",
-      "sentence": "I bought **a** book yesterday. **The** book was very interesting."
+      "sentence": "**The** moon is beautiful tonight.",
+      "explanation": "'the' digunakan karena 'moon' adalah benda unik."
     },
     {
-      "category": "zero article (plural non-specific)",
-      "sentence": "**Cars** are a common mode of transportation."
+      "sentence": "I like **music**.",
+      "explanation": "Zero article digunakan karena 'music' adalah kata benda abstrak yang digunakan secara umum."
     },
     {
-      "category": "zero article (uncountable non-specific)",
-      "sentence": "**Water** is essential for life."
-    },
-    {
-      "category": "zero article (proper nouns)",
-      "sentence": "**John** lives in **London**."
-    },
-    {
-      "category": "zero article (abstract nouns general)",
-      "sentence": "**Honesty** is the best policy."
+      "sentence": "Children need love.",
+      "explanation": "Zero article digunakan karena 'children' adalah kata benda jamak yang digunakan secara umum."
     }
   ],
   "commonMistakes": [
-    "Menggunakan 'a' atau 'an' dengan kata benda jamak atau yang tidak dapat dihitung.",
-    "Menggunakan 'the' ketika kata benda tidak spesifik atau baru disebutkan.",
-    "Lupa menggunakan 'the' ketika merujuk pada sesuatu yang spesifik atau sudah diketahui.",
-    "Kesalahan dalam memilih antara 'a' dan 'an' berdasarkan huruf awal kata benda, bukan suara awal.",
-    "Menggunakan artikel ketika seharusnya menggunakan zero article (misalnya, dengan nama kota atau bahasa)."
+    "Menggunakan 'a' atau 'an' sebelum kata benda jamak atau kata benda tidak dapat dihitung.",
+    "Menggunakan 'the' ketika merujuk pada sesuatu yang umum atau tidak spesifik.",
+    "Lupa menggunakan 'the' untuk hal-hal unik (misalnya, the sun, the earth).",
+    "Kesalahan dalam menentukan bunyi awal kata benda (misalnya, 'a hour' seharusnya 'an hour').",
+    "Menggunakan artikel ketika seharusnya menggunakan zero article (misalnya, 'a happiness' seharusnya 'happiness')."
   ],
-  "ieltsTip": "Dalam IELTS Writing dan Speaking, perhatikan baik-baik konteks kalimat. Apakah Anda merujuk pada sesuatu yang umum atau spesifik? Apakah kata benda tersebut sudah disebutkan sebelumnya? Penggunaan artikel yang tepat akan menunjukkan penguasaan tata bahasa Anda yang lebih baik dan membuat jawaban Anda lebih jelas dan akurat. Latih diri Anda untuk mengenali perbedaan antara penggunaan 'a/an' dan 'the' dalam berbagai situasi.",
+  "ieltsTip": "Dalam IELTS Writing dan Speaking, perhatikan konteks kalimat. Tanyakan pada diri Anda: Apakah kata benda ini spesifik atau umum? Apakah ini pertama kalinya saya menyebutkannya? Apakah ini benda unik? Latihan membaca dan mendengarkan materi berbahasa Inggris akan membantu Anda mengembangkan 'rasa' kapan harus menggunakan artikel yang benar. Perhatikan juga kata-kata yang dimulai dengan huruf 'u' atau 'eu' yang terdengar seperti bunyi 'y' (misalnya, 'university', 'European') yang membutuhkan 'a', bukan 'an'.",
   "quiz": [
     {
-      "question": "Please pass me ____ salt.",
+      "question": "Please pass me ______ salt.",
       "options": [
         "a",
         "an",
@@ -72,7 +84,7 @@
       "answer": "the"
     },
     {
-      "question": "She is ____ honest person.",
+      "question": "She is ______ honest person.",
       "options": [
         "a",
         "an",
@@ -82,7 +94,7 @@
       "answer": "an"
     },
     {
-      "question": "____ dogs are loyal animals.",
+      "question": "I need ______ advice.",
       "options": [
         "a",
         "an",
@@ -92,7 +104,7 @@
       "answer": "zero article"
     },
     {
-      "question": "I need to buy ____ new laptop.",
+      "question": "He bought ______ new car.",
       "options": [
         "a",
         "an",
@@ -102,7 +114,7 @@
       "answer": "a"
     },
     {
-      "question": "____ Eiffel Tower is in Paris.",
+      "question": "______ Eiffel Tower is in Paris.",
       "options": [
         "a",
         "an",

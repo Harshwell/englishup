@@ -1,179 +1,64 @@
 {
   "words": [
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, tersebar luas",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate and access information.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous nature",
-        "ubiquitous in society"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "rife"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Governments are implementing policies to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate risk",
-        "mitigate the impact",
-        "mitigate the effects",
-        "mitigate damage"
-      ],
-      "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "ease"
-      ]
-    },
-    {
-      "word": "profound",
-      "pronunciation": "/prəˈfaʊnd/",
-      "partOfSpeech": "adjective",
-      "definition": "very great or intense; having or showing great knowledge or insight.",
-      "indonesian": "mendalam, dalam",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The discovery of penicillin had a profound impact on medicine.",
-      "collocations": [
-        "profound impact",
-        "profound effect",
-        "profound understanding",
-        "profound change"
-      ],
-      "synonyms": [
-        "deep",
-        "intense",
-        "significant",
-        "far-reaching"
-      ]
-    },
-    {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrepənsi/",
+      "word": "significant",
+      "pronunciation": "/sɪɡˈnɪ.fɪ.kənt/",
       "partOfSpeech": "noun",
-      "definition": "a lack of compatibility or similarity between two or more facts; a difference.",
-      "indonesian": "ketidaksesuaian, perbedaan",
+      "definition": "That which has significance; a sign; a token; a symbol.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "There is a significant discrepancy between the reported figures and the actual results.",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "significant discrepancy",
-        "a discrepancy between",
-        "resolve a discrepancy",
-        "notice a discrepancy"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "difference",
-        "inconsistency",
-        "variation",
-        "disparity"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make a problem, bad situation, or negative feeling worse.",
-      "indonesian": "memperburuk",
+      "word": "allocate",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: allocate.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The prolonged drought will only exacerbate the food shortage crisis.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "exacerbate the problem",
-        "exacerbate the situation",
-        "exacerbate tensions",
-        "exacerbate conflict"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "compound"
+        "apportion"
       ]
     },
     {
-      "word": "pervasive",
-      "pronunciation": "/pərˈveɪsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "spreading widely throughout an area or a group of people.",
-      "indonesian": "meresap, menyebar luas",
+      "word": "enhance",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: enhance.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The influence of social media is pervasive in contemporary culture.",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "pervasive influence",
-        "pervasive problem",
-        "pervasive effect",
-        "pervasive sense"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "widespread",
-        "ubiquitous",
-        "extensive",
-        "penetrating"
-      ]
-    },
-    {
-      "word": "stipulate",
-      "pronunciation": "/ˈstɪp.jʊ.leɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to demand or specify a requirement, typically as part of an agreement or bargain.",
-      "indonesian": "menentukan, menetapkan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The contract stipulates that the payment must be made within thirty days.",
-      "collocations": [
-        "stipulate that",
-        "stipulate conditions",
-        "stipulate requirements",
-        "as stipulated"
-      ],
-      "synonyms": [
-        "specify",
-        "state",
-        "lay down",
-        "require"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The internet has created a new paradigm for communication and information sharing.",
-      "collocations": [
-        "paradigm shift",
-        "a new paradigm",
-        "research paradigm",
-        "theoretical paradigm"
-      ],
-      "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "template"
+        "raise",
+        "heighten"
       ]
     }
   ]
