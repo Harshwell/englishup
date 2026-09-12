@@ -1,47 +1,171 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: reliable.",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "word": "Grasping",
+      "pronunciation": "/ˈɡrɑːspɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Understanding something difficult; intelligent and quick to learn.",
+      "indonesian": "Memahami dengan cepat, cerdas, pintar",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "reliable is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "She's very grasping, so she picked up the new software in no time.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "a grasping mind",
+        "a grasping student",
+        "quick-grasping"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "intelligent",
+        "clever",
+        "sharp",
+        "astute",
+        "perceptive"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: straightforward.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "Elaborate",
+      "pronunciation": "/ɪˈlæbəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To explain something in more detail, adding more information and examples.",
+      "indonesian": "Menjelaskan secara rinci, merinci",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "Could you elaborate on your previous point? I didn't quite follow.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "elaborate on something",
+        "elaborate further",
+        "elaborate at length"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "explain",
+        "detail",
+        "expand on",
+        "clarify"
+      ]
+    },
+    {
+      "word": "Underrate",
+      "pronunciation": "/ˌʌndərˈeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To consider someone or something to be less important or capable than they really are.",
+      "indonesian": "Meremehkan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Don't underrate the difficulty of this exam; it's known to be challenging.",
+      "collocations": [
+        "underrate an opponent",
+        "underrate the importance of",
+        "never underrate"
+      ],
+      "synonyms": [
+        "underestimate",
+        "belittle",
+        "discount"
+      ]
+    },
+    {
+      "word": "Plausible",
+      "pronunciation": "/ˈplɔːzəbl/",
+      "partOfSpeech": "adjective",
+      "definition": "Seeming reasonable or probable; believable.",
+      "indonesian": "Masuk akal, bisa dipercaya",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "His excuse for being late sounded plausible, but I'm not entirely convinced.",
+      "collocations": [
+        "a plausible explanation",
+        "a plausible reason",
+        "highly plausible"
+      ],
+      "synonyms": [
+        "believable",
+        "credible",
+        "reasonable",
+        "convincing"
+      ]
+    },
+    {
+      "word": "Conceal",
+      "pronunciation": "/kənˈsiːl/",
+      "partOfSpeech": "verb",
+      "definition": "To hide something or keep it secret.",
+      "indonesian": "Menyembunyikan, merahasiakan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "He tried to conceal his disappointment, but his expression gave him away.",
+      "collocations": [
+        "conceal evidence",
+        "conceal the truth",
+        "conceal a weapon"
+      ],
+      "synonyms": [
+        "hide",
+        "cover up",
+        "mask",
+        "disguise"
+      ]
+    },
+    {
+      "word": "Inadvertently",
+      "pronunciation": "/ˌɪnədˈvɜːrtntli/",
+      "partOfSpeech": "adverb",
+      "definition": "Without intention; accidentally.",
+      "indonesian": "Secara tidak sengaja, tanpa disadari",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "I inadvertently deleted the important file from my computer.",
+      "collocations": [
+        "inadvertently cause",
+        "inadvertently reveal",
+        "inadvertently offend"
+      ],
+      "synonyms": [
+        "accidentally",
+        "unintentionally",
+        "by mistake",
+        "carelessly"
+      ]
+    },
+    {
+      "word": "Ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere.",
+      "indonesian": "Ada di mana-mana, tersebar luas",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "increasingly ubiquitous"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
+      ]
+    },
+    {
+      "word": "Mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To make something less severe, serious, or painful.",
+      "indonesian": "Mengurangi, meredakan, meringankan",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "We need to take steps to mitigate the environmental impact of our factory.",
+      "collocations": [
+        "mitigate the effects of",
+        "mitigate the risks",
+        "mitigate the damage"
+      ],
+      "synonyms": [
+        "alleviate",
+        "reduce",
+        "lessen",
+        "ease"
       ]
     }
   ]
