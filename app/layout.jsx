@@ -1,8 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "EnglishUp — IELTS Prep",
-  description: "Data-backed English learning for Indonesian speakers targeting IELTS Band 7+",
+  title: "EnglishUp | A little better, every day",
+  description:
+    "Ruang belajar bahasa Inggris untuk pembelajar Indonesia. Grammar, vocabulary, reading, dan latihan menulis dengan progres harian yang nyata.",
 };
 
 export default function RootLayout({ children }) {

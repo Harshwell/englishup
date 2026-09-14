@@ -1,6 +1,5 @@
-"use client";
-import Flashcards from "../../components/Flashcards";
+import LearningApp from "../../components/learning/LearningApp";
 
 export default function FlashcardsPage() {
-  return <Flashcards standalone />;
+  return <LearningApp initialView="vocabulary" />;
 }

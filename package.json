@@ -6,6 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "node --test tests/study-progress.test.mjs tests/study-content.test.mjs",
+    "test:ui": "playwright test",
+    "format:check": "prettier --check app/page.jsx app/layout.jsx app/globals.css app/pretest/page.jsx app/flashcards/page.jsx components/learning lib/study-content.js lib/study-progress.mjs tests playwright.config.cjs",
     "generate": "node scripts/generate-content-v3.mjs",
     "generate:v2": "node scripts/generate-content-v2.mjs",
     "generate:v3": "node scripts/generate-content-v3.mjs",
@@ -25,8 +28,11 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
+    "prettier": "^3.9.6",
     "tailwindcss": "^3.4.1"
   }
 }
