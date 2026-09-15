@@ -29,6 +29,7 @@ Fitur conversation dipakai untuk latihan interaksi bahasa Inggris secara aktif.
 Materi grammar dimuat dari file JSON statis di `public/data/grammar/`.
 
 Target desainnya:
+
 - penjelasan berbahasa Indonesia yang jelas,
 - fokus pada form, meaning, use,
 - contoh kalimat yang realistis,
@@ -40,6 +41,7 @@ Target desainnya:
 Vocabulary dimuat dari `public/data/vocab/`.
 
 Setiap entri idealnya memuat:
+
 - kata,
 - pronunciation,
 - part of speech,
@@ -55,6 +57,7 @@ Setiap entri idealnya memuat:
 Reading passage dimuat dari `public/data/reading/passages.json`.
 
 Arah pengembangan:
+
 - level bertahap,
 - pertanyaan reading style IELTS,
 - vocabulary support,
@@ -66,10 +69,12 @@ Arah pengembangan:
 Flashcards tersedia melalui halaman `/flashcards`.
 
 Fitur ini dibuat untuk mempercepat memorisasi vocabulary tanpa mengorbankan konteks. Setiap kartu berisi:
+
 - kata di sisi depan,
 - definisi, phonetic, example, synonym, antonym, level, frequency, dan audio di sisi belakang.
 
 Sumber data flashcard saat ini:
+
 - file JSON di `public/data/flashcards/`
 - fallback lokal bila file belum ada
 
@@ -78,6 +83,7 @@ Sumber data flashcard saat ini:
 Endpoint `/api/evaluate` dipakai untuk mengevaluasi tulisan pengguna.
 
 Tujuan utama fitur ini:
+
 - memberi penilaian cepat pada cohesion, syntax, vocabulary, grammar, dan conventions,
 - mengembalikan rekomendasi tindakan yang bisa langsung dipakai,
 - menjaga aplikasi tetap usable dengan fallback meskipun evaluasi AI tidak tersedia.
@@ -87,23 +93,30 @@ Tujuan utama fitur ini:
 ### Frontend
 
 Framework utama:
+
 - Next.js App Router
 - React
 - Tailwind CSS
 - lucide-react untuk ikon
 
-Shell UI utama berada di komponen baru:
-- `components/EnglishUpEnhanced.jsx`
+Shell UI utama:
+
+- `components/learning/LearningApp.jsx`
+
+The current product shell is `components/learning/LearningApp.jsx`. It presents a learning path first, with separate practice studios for vocabulary, reading, conversation, and writing. Read `DESIGN.md` for the visual direction and interaction rationale.
 
 Halaman utama:
+
 - `app/page.jsx`
 
 Halaman flashcards:
+
 - `app/flashcards/page.jsx`
 
 ### Backend routes
 
 Route penting saat ini:
+
 - `app/api/chat/route.js`
 - `app/api/evaluate/route.js`
 - `app/api/library/route.js` (trusted articles, dictionary, Datamuse collocations/related words, Wikipedia summary, and topic/CEFR-aware enrichment ranking)
@@ -117,11 +130,14 @@ Kontrak runtime berada di `lib/schemas/englishup-schemas.mjs` dan mencakup Gramm
 ### Data layer
 
 Konten statis berada di:
+
 - `public/data/grammar/`
 - `public/data/vocab/`
 - `public/data/reading/`
 - `public/data/flashcards/`
 - `public/data/manifest.json`
+
+Learning progress is stored locally under `englishup.v2.progress`. The record is versioned and migrates the previous `englishup.v1.progress` counters on first load. XP is an activity signal, not an IELTS or CEFR score. Static content is validated and remains available when AI is unavailable.
 
 ## Prinsip desain sistem
 
@@ -157,6 +173,7 @@ Pipeline v3 adalah arah pengembangan utama untuk materi yang lebih kaya.
 ### Fungsi AI dalam pipeline
 
 AI dipakai untuk:
+
 - menyusun lesson dari data mentah,
 - membuat variasi latihan,
 - menghasilkan pertanyaan reading,
@@ -166,9 +183,11 @@ AI dipakai untuk:
 ### Workflow pembaruan
 
 Workflow utama untuk v3:
+
 - `.github/workflows/content-refresh-v3.yml`
 
 Script generator utama:
+
 - `scripts/generate-content-v3.mjs`
 
 ## Environment variables
@@ -223,6 +242,14 @@ npm run build
 npm run start
 ```
 
+Relevant checks:
+
+```bash
+npm test
+npm run test:ui
+npm run validate:content
+npm run format:check
+```
 
 ## Validasi konten
 
@@ -248,6 +275,7 @@ Di CI, workflow harus menjalankan `npm install` terlebih dahulu lalu `npm run va
 EnglishUp diposisikan sebagai proyek personal dan free-to-use. Namun begitu, setiap sumber data tetap harus dihormati sesuai lisensi masing-masing.
 
 Poin penting:
+
 - CEFR-J perlu atribusi yang jelas
 - SUBTLEX-US memiliki lisensi CC BY-SA
 - ELLIPSE menggunakan CC BY-NC-SA 4.0, sehingga tidak aman untuk komersialisasi tanpa izin
@@ -287,3 +315,6 @@ Dokumentasi baseline yang wajib dirawat bersama perubahan fitur berada di:
 - `docs/DECISIONS.md` untuk ADR ringkas dan trade-off.
 - `docs/ROADMAP.md` untuk fase implementasi dan acceptance criteria.
 
+## Resource room
+
+Menu Resources menyediakan pencarian Free Dictionary API tanpa API key, dengan atribusi dan lisensi dari respons. Pencarian membutuhkan internet; deck dan lesson tetap tersedia tanpa provider. Lima topik tambahan memakai materi orisinal lokal dengan 20 soal kontekstual. Detail sumber, batas penggunaan, dan review: `docs/RESOURCES.md`.

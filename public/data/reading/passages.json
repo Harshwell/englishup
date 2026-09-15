@@ -193,6 +193,7 @@
     "questions": [
       {
         "type": "multiple_choice",
+        "id": 1,
         "question": "What is another name for working from home mentioned in the passage?",
         "options": [
           "Office work",
@@ -204,21 +205,25 @@
       },
       {
         "type": "true_false_not_given",
+        "id": 2,
         "question": "According to the passage, working at home always leads to more productivity.",
         "answer": "False"
       },
       {
         "type": "short_answer",
+        "id": 3,
         "question": "What is one advantage of working from home mentioned in the passage?",
         "answer": "Fewer distractions / Can concentrate better / Can create a quiet space"
       },
       {
         "type": "short_answer",
+        "id": 4,
         "question": "What is one challenge of working from home mentioned in the passage?",
         "answer": "Hard to separate work and home life / Get distracted by chores or family / Miss social interaction"
       },
       {
         "type": "multiple_choice",
+        "id": 5,
         "question": "Why might some people miss working in an office?",
         "options": [
           "They like attending many meetings.",
