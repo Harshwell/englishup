@@ -298,3 +298,52 @@ test("corrupt stored progress is preserved and browser storage denial is explain
     await page.evaluate(() => localStorage.getItem("englishup.v2.progress")),
   ).toBe("broken-json");
 });
+
+test("resource room handles dictionary success, missing words and offline responses", async ({
+  page,
+}) => {
+  await home(page);
+  await navigate(page, "Resources");
+  await page.route("**/api/resources?*", (route) =>
+    route.fulfill({
+      json: {
+        item: {
+          word: "study",
+          phonetic: "/study/",
+          definitions: [
+            { partOfSpeech: "noun", definition: "Learning through attention." },
+          ],
+          license: {
+            name: "CC BY-SA 3.0",
+            url: "https://creativecommons.org/licenses/by-sa/3.0/",
+          },
+          sourceUrls: ["https://en.wiktionary.org/wiki/study"],
+        },
+      },
+    }),
+  );
+  await page.getByLabel("Kata bahasa Inggris").fill("study");
+  await page.getByRole("button", { name: "Cari kata", exact: true }).click();
+  await expect(page.getByText("Learning through attention.")).toBeVisible();
+  await expect(page.getByRole("link", { name: "CC BY-SA 3.0" })).toBeVisible();
+  expect(
+    (await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).analyze())
+      .violations,
+  ).toEqual([]);
+  await page.route("**/api/resources?*", (route) =>
+    route.fulfill({ status: 404, json: { error: "missing" } }),
+  );
+  await page.getByRole("button", { name: "Cari kata", exact: true }).click();
+  await expect(page.getByRole("main").getByRole("alert")).toContainText(
+    "Kata belum tersedia",
+  );
+  await page.route("**/api/resources?*", (route) => route.abort());
+  await page.getByRole("button", { name: "Cari kata", exact: true }).click();
+  await expect(page.getByRole("main").getByRole("alert")).toBeVisible();
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});

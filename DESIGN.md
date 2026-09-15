@@ -10,3 +10,5 @@ EnglishUp is a focused learning workspace for Indonesian adults rebuilding Engli
 - ENERGY 2 / RHYTHM 2 / MOTION 1: a balanced product workspace with a few compositional breaks and restrained interaction motion.
 
 Decision record: the home screen prioritizes the next lesson because the user needs a next action; the learning path shows sequence because grammar is cumulative; the daily goal and streak sit beside the path because they reinforce activity without competing with the lesson; milestone cards show personal progress rather than invented social proof.
+
+Resource room keeps one search panel as the focal point, with an editorial list of external references below it. Navigation icons identify real destinations; outward arrows indicate external resources, and chevrons indicate progression. Shared action buttons make search consistent with lesson actions. Uppercase micro-labels separate section context from study content; they are not promotional badges.

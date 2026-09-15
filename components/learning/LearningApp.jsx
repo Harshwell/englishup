@@ -34,12 +34,14 @@ import {
   WritingPractice,
 } from "./Practice";
 
+import Resources from "./Resources";
 const NAV = [
   { id: "home", title: "Jalur belajar", icon: BookOpen },
   { id: "vocabulary", title: "Vocabulary", icon: Layers },
   { id: "reading", title: "Reading", icon: FileText },
   { id: "conversation", title: "Conversation", icon: MessageSquare },
   { id: "writing", title: "Writing lab", icon: PenLine },
+  { id: "resources", title: "Resources", icon: BookOpen },
   { id: "progress", title: "Progres saya", icon: Award },
 ];
 function WeekActivity({ dates }) {
@@ -561,6 +563,7 @@ export default function LearningApp({ initialView = "home" }) {
                   </div>
                 </>
               )}
+              {view === "resources" && <Resources />}
               {view === "grammar" && topic && (
                 <GrammarPractice
                   key={topic.id}

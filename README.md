@@ -99,9 +99,9 @@ Framework utama:
 - Tailwind CSS
 - lucide-react untuk ikon
 
-Shell UI utama berada di komponen baru:
+Shell UI utama:
 
-- `components/EnglishUpEnhanced.jsx`
+- `components/learning/LearningApp.jsx`
 
 The current product shell is `components/learning/LearningApp.jsx`. It presents a learning path first, with separate practice studios for vocabulary, reading, conversation, and writing. Read `DESIGN.md` for the visual direction and interaction rationale.
 
@@ -314,3 +314,7 @@ Dokumentasi baseline yang wajib dirawat bersama perubahan fitur berada di:
 - `docs/QUESTION_SCHEMA.md` untuk kontrak question bank, review status, dan AI gateway result.
 - `docs/DECISIONS.md` untuk ADR ringkas dan trade-off.
 - `docs/ROADMAP.md` untuk fase implementasi dan acceptance criteria.
+
+## Resource room
+
+Menu Resources menyediakan pencarian Free Dictionary API tanpa API key, dengan atribusi dan lisensi dari respons. Pencarian membutuhkan internet; deck dan lesson tetap tersedia tanpa provider. Lima topik tambahan memakai materi orisinal lokal dengan 20 soal kontekstual. Detail sumber, batas penggunaan, dan review: `docs/RESOURCES.md`.

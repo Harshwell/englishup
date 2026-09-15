@@ -34,3 +34,6 @@ Progress is local-first and versioned. The learning workspace writes `englishup.
 ## UI composition
 
 `components/learning/LearningApp.jsx` owns the workspace shell and navigation. `Practice.jsx` owns grammar, vocabulary, reading, conversation, and writing practice boundaries. `study-content.js` validates and normalizes the static-first payloads. The home path is intentionally content-led: the next lesson is the focal point, daily XP and streak are supporting context, and milestones replace fabricated leaderboards or claims. `DESIGN.md` records the palette, type choices, rhythm, and reasons behind the composition.
+
+## Resource references
+The resource room uses a dedicated, validated `/api/resources` adapter. External references never block the static study path or grant progress rewards. See RESOURCES.md for provider boundaries and attribution.

@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node --test tests/study-progress.test.mjs tests/study-content.test.mjs",
+    "test": "node --test tests/study-progress.test.mjs tests/study-content.test.mjs tests/resources.test.mjs",
     "test:ui": "playwright test",
     "format:check": "prettier --check app/page.jsx app/layout.jsx app/globals.css app/pretest/page.jsx app/flashcards/page.jsx components/learning lib/study-content.js lib/study-progress.mjs tests playwright.config.cjs",
     "generate": "node scripts/generate-content-v3.mjs",

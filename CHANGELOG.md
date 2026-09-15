@@ -30,5 +30,11 @@
 
 ### Migration and fallback notes
 
-- No user data migration is required in this version.
+- The current learning workspace migrates the legacy v1 progress record to v2 on first use; the original record is retained.
 - Existing static content remains the fallback source; schema normalization of all seed records is planned as the next phase.
+
+## Resource expansion
+- Added a no-key dictionary resource room with validated source/license metadata and bounded requests.
+- Added open textbook, sentence-corpus, and accessible reading references.
+- Replaced generic fallback teaching for five grammar topics with original topic-specific lessons and 20 explained questions.
+- Added provider/schema and resource interaction tests. See docs/RESOURCES.md for provenance and review status.
