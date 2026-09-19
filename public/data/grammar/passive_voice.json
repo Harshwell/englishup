@@ -1,66 +1,66 @@
 {
-  "explanation": "Kalimat pasif (passive voice) adalah struktur kalimat di mana subjek menerima tindakan, bukan melakukan tindakan. Dalam bahasa Inggris, kalimat pasif dibentuk dengan menggunakan 'be' (is, am, are, was, were, been, being) diikuti oleh past participle (kata kerja bentuk ketiga) dari kata kerja utama.  Ini berbeda dengan kalimat aktif di mana subjek melakukan tindakan.",
+  "explanation": "Kalimat pasif (Passive Voice) digunakan ketika fokus utama adalah pada objek dari sebuah tindakan, bukan pada pelaku tindakan tersebut. Dalam Bahasa Inggris, kalimat pasif dibentuk dengan menggunakan kata kerja 'be' (is, am, are, was, were, been, being) diikuti oleh past participle (bentuk ketiga) dari kata kerja utama.  Ini berbeda dengan kalimat aktif di mana subjek melakukan tindakan.",
   "keyRules": [
-    "Subjek kalimat pasif adalah objek dari kalimat aktif.",
-    "Kata kerja utama dalam kalimat pasif adalah past participle.",
-    "Kata kerja bantu 'be' digunakan sebelum past participle, dan bentuk 'be' disesuaikan dengan tense kalimat.",
-    "Pelaku tindakan (agen) dapat disebutkan dengan menggunakan preposisi 'by', tetapi seringkali dihilangkan jika tidak penting atau tidak diketahui."
+    "Bentuk dasar: Subject + be (sesuai tense) + past participle + (by + agent).",
+    "Jika pelaku tindakan (agent) tidak penting atau tidak diketahui, 'by + agent' dapat dihilangkan.",
+    "Tense dari kata kerja 'be' harus sesuai dengan tense kalimat aslinya.",
+    "Past participle adalah bentuk ketiga dari kata kerja (misalnya: written, eaten, seen, played, studied)."
   ],
   "examples": [
     {
-      "active": "The students write the essay.",
-      "passive": "The essay is written by the students."
+      "active": "The students wrote the essay.",
+      "passive": "The essay was written by the students."
     },
     {
-      "active": "The chef cooked the meal.",
-      "passive": "The meal was cooked by the chef."
+      "active": "Someone stole my bike yesterday.",
+      "passive": "My bike was stolen yesterday."
     },
     {
-      "active": "They will build a new bridge.",
-      "passive": "A new bridge will be built by them."
+      "active": "The company will launch a new product next month.",
+      "passive": "A new product will be launched by the company next month."
     },
     {
-      "active": "Someone has stolen my wallet.",
-      "passive": "My wallet has been stolen."
+      "active": "They are building a new bridge.",
+      "passive": "A new bridge is being built."
     }
   ],
   "commonMistakes": [
-    "Menggunakan bentuk dasar kata kerja atau present participle alih-alih past participle.",
-    "Lupa menggunakan kata kerja bantu 'be'.",
-    "Salah memilih bentuk 'be' yang sesuai dengan tense.",
-    "Menggunakan kalimat pasif ketika kalimat aktif lebih jelas dan ringkas."
+    "Menggunakan 'be' tanpa past participle: 'The book is read' (benar) vs 'The book is reading' (salah).",
+    "Menggunakan past participle tanpa 'be': 'The letter written yesterday' (salah jika ini adalah kalimat lengkap) vs 'The letter was written yesterday' (benar).",
+    "Salah menentukan tense 'be': Menggunakan 'is' untuk kejadian di masa lalu.",
+    "Terlalu sering menggunakan kalimat pasif dalam penulisan, yang bisa membuat tulisan terdengar kaku atau tidak langsung."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif sering digunakan untuk menjaga nada formal dan objektif, terutama ketika fokusnya adalah pada tindakan itu sendiri daripada siapa yang melakukannya.  Namun, jangan terlalu sering menggunakannya karena bisa membuat tulisan terdengar kaku. Gunakan secara strategis untuk menekankan objek atau ketika agen tidak diketahui/tidak relevan.",
+  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif sering digunakan untuk membahas isu-isu umum, opini, atau ketika pelaku tindakan tidak relevan.  Contohnya: 'It is believed that...', 'Many people are concerned about...', 'Pollution is caused by...'.  Gunakan secara strategis untuk variasi dan kejelasan, tetapi jangan berlebihan.",
   "quiz": [
     {
-      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The company launched a new product.'",
+      "question": "Change the following sentence to passive voice: 'The chef prepared the meal.'",
       "options": [
-        "A new product launched by the company.",
-        "A new product was launched by the company.",
-        "A new product is launched by the company.",
-        "A new product will be launched by the company."
+        "The meal prepared the chef.",
+        "The meal was prepared by the chef.",
+        "The chef was prepared the meal.",
+        "The meal is prepared by the chef."
       ],
-      "answer": "B"
+      "answer": "The meal was prepared by the chef."
     },
     {
-      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The teacher will explain the concept.'",
+      "question": "Which sentence is in the passive voice?",
       "options": [
-        "The concept will explain by the teacher.",
-        "The concept is explained by the teacher.",
-        "The concept was explained by the teacher.",
-        "The concept will be explained by the teacher."
+        "She is writing a letter.",
+        "A letter is being written by her.",
+        "She wrote a letter.",
+        "A letter was written by her."
       ],
-      "answer": "D"
+      "answer": "A letter was written by her."
     },
     {
-      "question": "Kalimat pasif yang benar adalah:",
+      "question": "Complete the sentence with the correct passive form: 'The report ______ by the manager tomorrow.'",
       "options": [
-        "The book was read by me.",
-        "The book is read by me.",
-        "The book reading by me.",
-        "The book read by me."
+        "is submitted",
+        "will be submitted",
+        "was submitted",
+        "is being submitted"
       ],
-      "answer": "A"
+      "answer": "will be submitted"
     }
   ]
 }
