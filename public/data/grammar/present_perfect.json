@@ -1,86 +1,112 @@
 {
-  "explanation": "Present Perfect Tense digunakan untuk menyatakan tindakan atau kejadian yang telah terjadi di masa lalu dan masih memiliki hubungan atau relevansi dengan masa kini. Ini menekankan pada hasil atau pengalaman dari tindakan tersebut, bukan pada waktu spesifik kapan tindakan itu terjadi.",
-  "keyRules": [
-    "Bentuk positif: Subject + have/has + Past Participle (Verb 3)",
-    "Bentuk negatif: Subject + have/has + not + Past Participle (Verb 3)",
-    "Bentuk tanya: Have/Has + Subject + Past Participle (Verb 3)?"
+  "grammarChart": [
+    {
+      "tense": "Present Perfect",
+      "form": "Subject + have/has + past participle (verb 3)",
+      "meaning": "Expresses an action that happened at an unspecified time in the past, or an action that started in the past and continues to the present. It often emphasizes the result or experience.",
+      "use": [
+        "To talk about experiences (without specifying when).",
+        "To talk about actions that started in the past and continue to the present.",
+        "To talk about recent actions with a present result.",
+        "To talk about actions that have happened in a period of time up to now."
+      ]
+    }
   ],
+  "explanation": "The Present Perfect tense is a crucial tense in English, especially for IELTS. It connects the past with the present.  We use it to discuss experiences we've had, or situations that began in the past and are still relevant or ongoing. The structure is straightforward: 'have' or 'has' (depending on the subject) followed by the past participle of the main verb.  Remember, the past participle is the third form of a verb (e.g., 'go' - 'went' - 'gone'; 'eat' - 'ate' - 'eaten'; 'play' - 'played' - 'played').",
+  "keyRules": [
+    {
+      "rule": "Subject-Verb Agreement",
+      "details": "Use 'have' with 'I', 'you', 'we', 'they', and plural nouns. Use 'has' with 'he', 'she', 'it', and singular nouns."
+    },
+    {
+      "rule": "Past Participle Forms",
+      "details": "Regular verbs form their past participle by adding '-ed' (e.g., 'worked', 'studied'). Irregular verbs have unique past participle forms that need to be memorized (e.g., 'seen', 'written', 'been')."
+    },
+    {
+      "rule": "Negative and Question Forms",
+      "details": "For negatives, add 'not' after 'have/has' (haven't/hasn't). For questions, invert the subject and auxiliary verb ('Have you...?', 'Has she...?')."
+    }
+  ],
+  "azarNotes": "For Indonesian learners, the concept of 'sudah' often maps to the Present Perfect. However, be careful! 'Sudah' can also translate to the Simple Past in some contexts. The key difference is that Present Perfect emphasizes the *connection* to the present, while Simple Past refers to a *completed action* at a specific past time. Pay close attention to time expressions like 'ever', 'never', 'already', 'yet', 'for', 'since', and 'just' as they strongly indicate the Present Perfect.",
   "examples": [
     {
-      "sentence": "She has finished her homework.",
-      "translation": "Dia telah menyelesaikan pekerjaan rumahnya."
+      "sentence": "I **have visited** Bali three times.",
+      "explanation": "This talks about an experience (visiting Bali) without specifying when the visits occurred. It's about the accumulation of experiences."
     },
     {
-      "sentence": "We have lived here for five years.",
-      "translation": "Kami telah tinggal di sini selama lima tahun."
+      "sentence": "She **has lived** in Jakarta since 2010.",
+      "explanation": "This indicates an action (living in Jakarta) that started in the past (2010) and continues to the present."
     },
     {
-      "sentence": "They haven't seen that movie before.",
-      "translation": "Mereka belum pernah menonton film itu sebelumnya."
+      "sentence": "They **have just finished** their project.",
+      "explanation": "This refers to a recent action ('just finished') with a clear present result (the project is now complete)."
     },
     {
-      "sentence": "Have you ever been to Bali?",
-      "translation": "Pernahkah kamu pergi ke Bali?"
+      "sentence": "He **hasn't seen** that movie before.",
+      "explanation": "This is a negative statement about an experience (not seeing the movie)."
     },
     {
-      "sentence": "He has just arrived.",
-      "translation": "Dia baru saja tiba."
+      "sentence": "**Have you ever eaten** durian?",
+      "explanation": "This is a question asking about a past experience."
     }
   ],
   "commonMistakes": [
-    "Menggunakan Simple Past Tense ketika Present Perfect lebih tepat, terutama ketika menekankan hasil atau pengalaman.",
-    "Kesalahan dalam menggunakan 'have' dan 'has' (have untuk I, you, we, they; has untuk he, she, it).",
-    "Lupa menggunakan bentuk Past Participle (Verb 3) dari kata kerja.",
-    "Menambahkan 'ago' atau waktu spesifik di masa lalu dengan Present Perfect (seharusnya Simple Past)."
+    "Using Simple Past instead of Present Perfect for unspecified past times: 'I went to London last year.' (Correct for a specific past time) vs. 'I have been to London.' (Correct for an experience, time unspecified).",
+    "Confusing 'for' and 'since': 'for' indicates a duration (for two years), 'since' indicates a starting point (since 2022).",
+    "Incorrect past participle forms: Forgetting irregular verb forms (e.g., 'I have eat' instead of 'I have eaten').",
+    "Using Present Perfect with specific past time markers: 'I have seen him yesterday.' (Incorrect; should be 'I saw him yesterday.')"
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 1 (Academic), Present Perfect sering digunakan untuk menggambarkan perubahan atau tren yang terjadi selama periode waktu tertentu hingga saat ini. Misalnya, 'The number of tourists has increased significantly since 2010.' Dalam Speaking, gunakan Present Perfect untuk berbagi pengalaman hidup Anda.",
+  "ieltsTip": "In IELTS Writing Task 1 (Academic), you'll often use the Present Perfect to describe trends or changes that started in the past and continued up to the point described by the data (e.g., 'The population has increased significantly since 1990.'). In Speaking, use it to talk about your life experiences, studies, or work. Be mindful of using it with 'for' and 'since' correctly.",
   "quiz": [
     {
-      "question": "Complete the sentence: They ______ (visit) London three times.",
+      "question": "Choose the correct form of the verb to complete the sentence:  She _______ to Paris twice.",
       "options": [
-        "visit",
-        "visited",
-        "have visited",
-        "has visited"
+        "goes",
+        "went",
+        "has gone",
+        "is going"
       ],
-      "answer": "have visited"
+      "answer": "has gone"
     },
     {
-      "question": "Choose the correct sentence: a) I have eat breakfast. b) I have ate breakfast. c) I have eaten breakfast.",
+      "question": "Choose the correct form of the verb to complete the sentence:  They _______ their exams last week.",
       "options": [
-        "a",
-        "b",
-        "c"
+        "have finished",
+        "finished",
+        "are finished",
+        "finish"
       ],
-      "answer": "c"
+      "answer": "finished"
     },
     {
-      "question": "Complete the sentence: She ______ (not finish) her project yet.",
+      "question": "Choose the correct form of the verb to complete the sentence:  I _______ this book for three days.",
       "options": [
-        "has not finish",
-        "has not finished",
-        "have not finished"
+        "read",
+        "am reading",
+        "have read",
+        "have been reading"
       ],
-      "answer": "has not finished"
+      "answer": "have been reading"
     },
     {
-      "question": "Choose the correct question: a) Have you seen this film? b) Has you seen this film? c) Have you saw this film?",
+      "question": "Choose the correct form of the verb to complete the sentence:  _______ you ever _______ sushi?",
       "options": [
-        "a",
-        "b",
-        "c"
+        "Do, eat",
+        "Did, ate",
+        "Have, eaten",
+        "Are, eating"
       ],
-      "answer": "a"
+      "answer": "Have, eaten"
     },
     {
-      "question": "Complete the sentence: We ______ (live) in this city for ten years.",
+      "question": "Choose the correct form of the verb to complete the sentence:  He _______ his keys, so he can't get into the house.",
       "options": [
-        "live",
-        "lived",
-        "have lived",
-        "has lived"
+        "lost",
+        "has lost",
+        "loses",
+        "is losing"
       ],
-      "answer": "have lived"
+      "answer": "has lost"
     }
   ]
 }

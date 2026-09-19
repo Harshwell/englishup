@@ -1,230 +1,122 @@
 [
   {
-    "title": "The AI Revolution in the Classroom",
-    "topic": "Artificial Intelligence and Education",
-    "difficulty": "intermediate",
-    "passage": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly transforming various sectors, and education is no exception.  The integration of AI in educational settings promises to revolutionize how students learn and how educators teach.  One of the most significant impacts of AI is its ability to personalize learning experiences.  AI-powered platforms can analyze a student's strengths, weaknesses, and learning pace, then tailor educational content and activities accordingly. This adaptive learning approach ensures that students receive support where they need it most and are challenged appropriately, fostering a more efficient and engaging learning journey.  Furthermore, AI can automate many administrative tasks that currently consume educators' valuable time. Grading assignments, scheduling classes, and providing basic student support can all be handled by AI systems, freeing up teachers to focus on more complex pedagogical tasks, such as curriculum development and one-on-one student interaction.  AI tutors, for instance, can offer instant feedback and explanations, acting as a supplementary resource for students outside of traditional classroom hours.  However, the widespread adoption of AI in education also raises important questions. Concerns about data privacy and security are paramount, as AI systems often require access to sensitive student information.  The potential for algorithmic bias, where AI systems inadvertently perpetuate existing societal inequalities, also needs careful consideration.  Moreover, the role of the human teacher in an AI-enhanced classroom needs to be redefined. While AI can handle certain tasks, the empathy, critical thinking, and mentorship provided by human educators remain irreplaceable.  Striking a balance between leveraging AI's capabilities and preserving the human element of education will be crucial for a successful and equitable future.",
-    "vocabulary": [
-      {
-        "word": "confined",
-        "definition": "limited to or within a particular place or area."
-      },
-      {
-        "word": "transforming",
-        "definition": "making a thorough or dramatic change in the form, appearance, or character of."
-      },
-      {
-        "word": "revolutionize",
-        "definition": "change something radically or fundamentally."
-      },
-      {
-        "word": "personalize",
-        "definition": "design or produce something to meet someone's individual requirements."
-      },
-      {
-        "word": "adaptive",
-        "definition": "able to change or be changed in order to fit or work better in new situations."
-      },
-      {
-        "word": "fostering",
-        "definition": "encourage or promote the development or growth of."
-      },
-      {
-        "word": "automate",
-        "definition": "convert (a process or facility) into or to use automatic machinery."
-      },
-      {
-        "word": "pedagogical",
-        "definition": "relating to the method and practice of teaching."
-      },
-      {
-        "word": "paramount",
-        "definition": "more important than anything else; supreme."
-      },
-      {
-        "word": "algorithmic bias",
-        "definition": "systematic and repeatable errors in a computer system that create unfair outcomes, such as privileging one arbitrary group of users over others."
-      },
-      {
-        "word": "perpetuate",
-        "definition": "make (something, typically an undesirable situation or an unfounded belief) continue indefinitely."
-      },
-      {
-        "word": "irreplaceable",
-        "definition": "impossible to replace."
-      },
-      {
-        "word": "equitable",
-        "definition": "fair and impartial."
-      }
-    ],
-    "questions": [
-      {
-        "type": "multiple_choice",
-        "question": "According to the passage, what is one of the primary benefits of AI in education?",
-        "options": [
-          "Reducing the cost of textbooks",
-          "Personalizing learning experiences for students",
-          "Eliminating the need for human teachers",
-          "Providing students with more leisure time"
-        ],
-        "answer": "Personalizing learning experiences for students"
-      },
-      {
-        "type": "true_false_not_given",
-        "question": "AI-powered platforms can identify a student's learning pace.",
-        "answer": "True"
-      },
-      {
-        "type": "short_answer",
-        "question": "What administrative tasks can AI systems handle in educational settings?",
-        "answer": "Grading assignments, scheduling classes, and providing basic student support."
-      },
-      {
-        "type": "multiple_choice",
-        "question": "Which of the following is NOT mentioned as a concern regarding AI in education?",
-        "options": [
-          "Data privacy and security",
-          "The cost of AI implementation",
-          "Algorithmic bias",
-          "The changing role of human teachers"
-        ],
-        "answer": "The cost of AI implementation"
-      },
-      {
-        "type": "true_false_not_given",
-        "question": "The passage suggests that AI tutors can fully replace the mentorship provided by human teachers.",
-        "answer": "False"
-      },
-      {
-        "type": "short_answer",
-        "question": "What is described as crucial for a successful and equitable future of AI in education?",
-        "answer": "Striking a balance between leveraging AI's capabilities and preserving the human element of education."
-      }
-    ],
-    "ieltsTips": [
-      "Read the questions carefully before reading the passage to understand what information you need to find.",
-      "Scan the passage for keywords from the questions to locate relevant sections.",
-      "Pay attention to synonyms and paraphrased ideas, as the passage may not use the exact same wording as the questions.",
-      "For True/False/Not Given questions, carefully distinguish between statements that are directly supported by the text (True), contradicted by the text (False), or not mentioned at all (Not Given).",
-      "For short answer questions, ensure your answers are concise and directly address the question asked, using information from the passage.",
-      "Manage your time effectively to ensure you attempt all questions."
-    ]
-  },
-  {
-    "title": "The Rise of Remote Work",
+    "title": "Working from Home: Is it Really More Productive?",
     "topic": "Remote Work and Productivity",
-    "difficulty": "beginner",
-    "passage": "Remote work, also known as working from home, has become increasingly popular. Many companies now allow their employees to work from their homes instead of going to an office. This offers several benefits. For employees, it can mean more flexibility in their schedules and less time spent commuting. They can save money on travel and lunches. For employers, remote work can sometimes lead to increased productivity. Employees might feel more focused without office distractions.  However, it's important for remote workers to have a dedicated workspace at home to maintain focus and professionalism.  Clear communication between teams is also crucial for successful remote work.  Technology plays a big role, with video calls and online collaboration tools helping teams stay connected.",
+    "difficulty": "Beginner",
+    "passage": "Many companies are now allowing employees to work from home, a practice often called 'remote work' or 'working from home'. This has become very popular in recent years.  Some people believe that working from home makes them more productive. They say they can focus better without the noise and distractions of a busy office.  They might also save time and money by not commuting to work every day.  This extra time can be used for more work or for personal activities.\n\nHowever, not everyone agrees that remote work is always better. Some employees miss the social interaction of the office. They might find it harder to ask colleagues for help or to brainstorm ideas together.  Also, some people find it difficult to separate their work life from their home life when they work from their living room or bedroom.  This can lead to feeling stressed or working too much.  Companies also need to make sure their employees have the right technology and a quiet space to work effectively.  So, while remote work has many benefits, it also has challenges.",
     "vocabulary": [
       {
         "word": "remote work",
-        "definition": "working from home or a location other than the office."
+        "meaning": "working from a place other than the main office, usually from home.",
+        "example": "Remote work offers flexibility for many employees."
       },
       {
-        "word": "popular",
-        "definition": "liked, enjoyed, or supported by many people."
-      },
-      {
-        "word": "allow",
-        "definition": "to permit or give permission for."
-      },
-      {
-        "word": "benefits",
-        "definition": "advantages or good things."
-      },
-      {
-        "word": "flexibility",
-        "definition": "the ability to change or be changed easily."
-      },
-      {
-        "word": "commuting",
-        "definition": "the regular journey between one's home and place of work."
-      },
-      {
-        "word": "productivity",
-        "definition": "the rate at which goods are produced or work is completed."
+        "word": "productive",
+        "meaning": "achieving a lot; producing a large amount of something.",
+        "example": "She is very productive when she has a clear goal."
       },
       {
         "word": "distractions",
-        "definition": "things that prevent someone from giving full attention to something."
+        "meaning": "things that prevent you from giving your full attention to something.",
+        "example": "Loud music can be a distraction when studying."
       },
       {
-        "word": "dedicated",
-        "definition": "created or used for a particular purpose."
+        "word": "commuting",
+        "meaning": "the act of traveling regularly between home and work.",
+        "example": "My daily commute takes about an hour."
       },
       {
-        "word": "crucial",
-        "definition": "extremely important or necessary."
+        "word": "social interaction",
+        "meaning": "talking and doing things with other people.",
+        "example": "He enjoys the social interaction at his club."
       },
       {
-        "word": "collaboration",
-        "definition": "the action of working with someone to produce or create something."
+        "word": "brainstorm ideas",
+        "meaning": "to think of many possible ideas or solutions to a problem.",
+        "example": "Let's brainstorm ideas for the new project."
+      },
+      {
+        "word": "separate",
+        "meaning": "to divide or keep apart.",
+        "example": "It's important to separate work and personal life."
+      },
+      {
+        "word": "effectively",
+        "meaning": "in a way that produces the intended result.",
+        "example": "He managed the team effectively."
+      },
+      {
+        "word": "benefits",
+        "meaning": "advantages or good things.",
+        "example": "There are many benefits to exercising regularly."
+      },
+      {
+        "word": "challenges",
+        "meaning": "difficulties or problems.",
+        "example": "Learning a new language presents many challenges."
       }
     ],
     "questions": [
       {
-        "type": "multiple choice",
-        "question": "What is another name for remote work mentioned in the passage?",
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "What is another name for 'remote work' mentioned in the passage?",
         "options": [
           "Office work",
           "Working from home",
-          "Business travel",
-          "Team meetings"
+          "Commuting",
+          "Social interaction"
         ],
-        "answer": "Working from home"
+        "correct_answer": "Working from home"
       },
       {
-        "type": "true/false",
-        "question": "Remote work can lead to less time spent commuting. (True/False)",
+        "id": 2,
+        "type": "true_false_not_given",
+        "question": "According to some people, working from home helps them focus better.",
         "answer": "True"
       },
       {
-        "type": "fill in the blank",
-        "question": "For successful remote work, clear ________ between teams is crucial.",
-        "answer": "communication"
+        "id": 3,
+        "type": "short_answer",
+        "question": "What do some employees miss about working in the office?",
+        "answer": "Social interaction"
       },
       {
-        "type": "short answer",
-        "question": "What is one benefit of remote work for employees?",
-        "answer": "More flexibility in schedules or less time spent commuting or saving money on travel and lunches."
-      },
-      {
-        "type": "multiple choice",
-        "question": "What is important for remote workers to have at home to maintain focus?",
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "Which of the following can be a problem when working from home?",
         "options": [
-          "A noisy environment",
-          "A shared workspace",
-          "A dedicated workspace",
-          "Many colleagues nearby"
+          "Saving time on commuting",
+          "Having too much free time",
+          "Difficulty separating work and home life",
+          "Better focus"
         ],
-        "answer": "A dedicated workspace"
-      }
-    ],
-    "ieltsTips": [
-      "Read the passage carefully before answering the questions.",
-      "Underline keywords in the questions and scan the passage for them.",
-      "Pay attention to synonyms and paraphrased information.",
-      "For True/False/Not Given questions, carefully check if the statement is directly supported, contradicted, or not mentioned in the text.",
-      "For fill-in-the-blank questions, ensure your answer is a single word or a short phrase as indicated."
-    ]
-  },
-  {
-    "title": "Cities and Climate Planning",
-    "topic": "Cities and Climate Planning",
-    "difficulty": "advanced",
-    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
-    "vocabulary": [
+        "correct_answer": "Difficulty separating work and home life"
+      },
       {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
+        "id": 5,
+        "type": "true_false_not_given",
+        "question": "All companies have the necessary technology for remote work.",
+        "answer": "Not Given"
       }
     ],
-    "questions": [],
     "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
+      {
+        "tip": "For True/False/Not Given questions, carefully read the question and then scan the passage for keywords. If the passage states the same information, it's True. If it states the opposite, it's False. If the information is not mentioned at all, it's Not Given.",
+        "section": "True/False/Not Given"
+      },
+      {
+        "tip": "For Short Answer questions, look for the specific information requested in the question. The answer will usually be a word or a short phrase found directly in the passage.",
+        "section": "Short Answer"
+      },
+      {
+        "tip": "When answering Multiple Choice questions, read the question and all the options. Then, find the part of the passage that discusses the topic of the question and choose the option that best matches the information.",
+        "section": "Multiple Choice"
+      },
+      {
+        "tip": "Don't spend too much time on one question. If you are unsure, make your best guess and move on. You can come back to it later if you have time.",
+        "section": "General"
+      }
     ]
   }
 ]

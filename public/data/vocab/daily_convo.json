@@ -1,47 +1,169 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: reliable.",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "word": "vibe",
+      "pronunciation": "/vaɪb/",
+      "partOfSpeech": "noun",
+      "definition": "the atmosphere or feeling that a place, person, or situation seems to have.",
+      "indonesian": "suasana, getaran",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "reliable is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "This cafe has a really relaxed vibe, perfect for studying.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "good vibe",
+        "bad vibe",
+        "chill vibe",
+        "positive vibe",
+        "negative vibe",
+        "get the vibe"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "atmosphere",
+        "mood",
+        "feeling",
+        "aura"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: straightforward.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "to spend time relaxing or socializing with someone.",
+      "indonesian": "nongkrong, menghabiskan waktu",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "We're just going to hang out at my place this weekend.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "hang out with friends",
+        "hang out together",
+        "hang out somewhere"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "socialize",
+        "spend time",
+        "gather",
+        "chill"
+      ]
+    },
+    {
+      "word": "catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "to talk to someone you have not seen for a long time and find out what they have been doing.",
+      "indonesian": "bertemu untuk bertukar kabar",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Let's grab coffee next week and catch up on everything.",
+      "collocations": [
+        "catch up with someone",
+        "catch up on news",
+        "catch up on work"
+      ],
+      "synonyms": [
+        "reconnect",
+        "update",
+        "reunite"
+      ]
+    },
+    {
+      "word": "chill",
+      "pronunciation": "/tʃɪl/",
+      "partOfSpeech": "adjective/verb",
+      "definition": "relaxed and calm; to relax.",
+      "indonesian": "santai, menenangkan diri",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I'm just going to chill at home tonight. It's been a long week.",
+      "collocations": [
+        "chill out",
+        "chill vibes",
+        "stay chill"
+      ],
+      "synonyms": [
+        "relaxed",
+        "laid-back",
+        "calm",
+        "unwind"
+      ]
+    },
+    {
+      "word": "awesome",
+      "pronunciation": "/ˈɔːsəm/",
+      "partOfSpeech": "adjective",
+      "definition": "extremely good or impressive.",
+      "indonesian": "luar biasa, keren",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "That concert was awesome! The band was amazing.",
+      "collocations": [
+        "absolutely awesome",
+        "truly awesome",
+        "an awesome experience"
+      ],
+      "synonyms": [
+        "amazing",
+        "fantastic",
+        "wonderful",
+        "incredible"
+      ]
+    },
+    {
+      "word": "awkward",
+      "pronunciation": "/ˈɔːkwərd/",
+      "partOfSpeech": "adjective",
+      "definition": "uncomfortable or embarrassing.",
+      "indonesian": "canggung, tidak nyaman",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "There was an awkward silence after he told that joke.",
+      "collocations": [
+        "awkward moment",
+        "awkward situation",
+        "awkward silence",
+        "feel awkward"
+      ],
+      "synonyms": [
+        "embarrassing",
+        "uncomfortable",
+        "clumsy",
+        "tactless"
+      ]
+    },
+    {
+      "word": "fair enough",
+      "pronunciation": "/ˌfer ˈɛnʌf/",
+      "partOfSpeech": "interjection",
+      "definition": "used to say that you accept what someone says because it is reasonable.",
+      "indonesian": "masuk akal, bisa diterima",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "You don't want to go out tonight? Fair enough, maybe another time.",
+      "collocations": [],
+      "synonyms": [
+        "understandable",
+        "reasonable",
+        "acceptable",
+        "all right"
+      ]
+    },
+    {
+      "word": "hit me up",
+      "pronunciation": "/ˈhɪt mi ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "to contact someone, especially to ask for something or to arrange to meet.",
+      "indonesian": "hubungi aku",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "If you need any help with the project, just hit me up.",
+      "collocations": [
+        "hit me up later",
+        "hit me up with"
+      ],
+      "synonyms": [
+        "contact me",
+        "reach out to me",
+        "call me",
+        "text me"
       ]
     }
   ]
