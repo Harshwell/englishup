@@ -1,178 +1,64 @@
 {
   "words": [
     {
-      "word": "substantiate",
-      "pronunciation": "/səbˈstænʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to provide evidence to support or prove the truth of something.",
-      "indonesian": "membuktikan, menguatkan",
+      "word": "significant",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: significant.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
+      "collocations": [
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
+      ],
+      "synonyms": [
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
+      ]
+    },
+    {
+      "word": "allocate",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: allocate.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The researcher was able to substantiate her claims with extensive data.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "substantiate a claim",
-        "substantiate allegations",
-        "substantiate findings",
-        "substantiate with evidence"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "verify",
-        "confirm",
-        "corroborate",
-        "validate"
+        "apportion"
       ]
     },
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, serba ada",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous nature"
-      ],
-      "synonyms": [
-        "pervasive",
-        "omnipresent",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Governments are implementing policies to mitigate the effects of climate change.",
-      "collocations": [
-        "mitigate risk",
-        "mitigate damage",
-        "mitigate the impact",
-        "mitigate losses"
-      ],
-      "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "soften"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola pikir, kerangka konseptual",
+      "word": "enhance",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: enhance.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The discovery of DNA represented a paradigm shift in biology.",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "paradigm shift",
-        "new paradigm",
-        "research paradigm",
-        "theoretical paradigm"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "template"
-      ]
-    },
-    {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrepənsi/",
-      "partOfSpeech": "noun",
-      "definition": "a lack of compatibility or similarity between two or more facts.",
-      "indonesian": "ketidaksesuaian, perbedaan, selisih",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There is a significant discrepancy between the reported figures and the actual numbers.",
-      "collocations": [
-        "significant discrepancy",
-        "noticeable discrepancy",
-        "financial discrepancy",
-        "data discrepancy"
-      ],
-      "synonyms": [
-        "difference",
-        "variation",
-        "inconsistency",
-        "disagreement"
-      ]
-    },
-    {
-      "word": "exacerbate",
-      "pronunciation": "/ɪɡˈzæsərbeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make a problem, bad situation, or negative feeling worse.",
-      "indonesian": "memperburuk, memperparah",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The new tax policies could exacerbate the existing economic inequalities.",
-      "collocations": [
-        "exacerbate a problem",
-        "exacerbate tensions",
-        "exacerbate conflict",
-        "exacerbate the situation"
-      ],
-      "synonyms": [
-        "worsen",
-        "aggravate",
-        "intensify",
-        "inflame"
-      ]
-    },
-    {
-      "word": "subtle",
-      "pronunciation": "/ˈsʌtl/",
-      "partOfSpeech": "adjective",
-      "definition": "so delicate or precise as to be difficult to analyze or describe.",
-      "indonesian": "halus, samar, terselubung",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There was a subtle change in her expression that indicated her disapproval.",
-      "collocations": [
-        "subtle difference",
-        "subtle hint",
-        "subtle effect",
-        "subtle nuances"
-      ],
-      "synonyms": [
-        "faint",
-        "slight",
-        "delicate",
-        "nuanced"
-      ]
-    },
-    {
-      "word": "subsequently",
-      "pronunciation": "/ˈsʌbsɪkwəntli/",
-      "partOfSpeech": "adverb",
-      "definition": "after a particular thing has happened; afterwards.",
-      "indonesian": "kemudian, setelah itu, selanjutnya",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The company launched a new product, and subsequently saw a significant increase in sales.",
-      "collocations": [
-        "subsequently discovered",
-        "subsequently implemented",
-        "subsequently occurred",
-        "subsequently led to"
-      ],
-      "synonyms": [
-        "afterwards",
-        "later",
-        "following",
-        "hence"
+        "raise",
+        "heighten"
       ]
     }
   ]

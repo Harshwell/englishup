@@ -1,12 +1,16 @@
 {
-  "generatedAt": "2026-09-19T21:18:50.856Z",
-  "savedCount": 7,
-  "errors": [
-    "reading:Artificial Intelligence and Education: invalid JSON",
-    "reading:Climate Change and Urban Planning: gemini: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | secondary_ai: disabled for Gemini-only MVP"
+  "generatedAt": "2026-09-26T11:50:53.738Z",
+  "version": "v3",
+  "sources": [
+    "DictionaryAPI.dev",
+    "Datamuse",
+    "Gemini",
+    "local seeds"
   ],
-  "providers": {
-    "gemini": true,
-    "secondaryAi": false
-  }
+  "features": [
+    "flashcards",
+    "grammar",
+    "vocabulary",
+    "reading"
+  ]
 }
