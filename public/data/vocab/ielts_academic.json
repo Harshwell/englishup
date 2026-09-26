@@ -1,64 +1,163 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: significant.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something bad or unsatisfactory better.",
+      "indonesian": "memperbaiki, meningkatkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The government introduced new policies to ameliorate the economic situation.",
+      "collocations": [
+        "ameliorate the situation",
+        "ameliorate poverty",
+        "ameliorate conditions"
+      ],
+      "synonyms": [
+        "improve",
+        "better",
+        "enhance"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana, lazim",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous phenomenon"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "pervasive",
+        "omnipresent",
+        "widespread"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: allocate.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsɛmɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to spread or disperse (something, especially information) widely.",
+      "indonesian": "menyebarkan, menyiarkan",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The organization aims to disseminate information about climate change to the public.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate research"
       ],
       "synonyms": [
-        "apportion"
+        "spread",
+        "circulate",
+        "propagate"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: enhance.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful.",
+      "indonesian": "meredakan, mengurangi",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The company implemented measures to mitigate the environmental impact of its operations.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "mitigate the risk",
+        "mitigate the effects",
+        "mitigate climate change"
       ],
       "synonyms": [
-        "raise",
-        "heighten"
+        "alleviate",
+        "lessen",
+        "reduce"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, pola, contoh",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA represented a paradigm shift in biology.",
+      "collocations": [
+        "paradigm shift",
+        "scientific paradigm",
+        "new paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework"
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk, memperjahat",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The prolonged drought will only exacerbate the food shortage in the region.",
+      "collocations": [
+        "exacerbate the problem",
+        "exacerbate tensions",
+        "exacerbate conflict"
+      ],
+      "synonyms": [
+        "worsen",
+        "aggravate",
+        "intensify"
+      ]
+    },
+    {
+      "word": "pertinent",
+      "pronunciation": "/ˈpɜːrtɪnənt/",
+      "partOfSpeech": "adjective",
+      "definition": "relevant to a particular matter or subject.",
+      "indonesian": "relevan, bersangkutan, penting",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Please ensure all answers are pertinent to the question asked.",
+      "collocations": [
+        "pertinent information",
+        "pertinent question",
+        "pertinent details"
+      ],
+      "synonyms": [
+        "relevant",
+        "applicable",
+        "germane"
+      ]
+    },
+    {
+      "word": "conducive",
+      "pronunciation": "/kənˈdjuːsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "making a certain situation or outcome likely or possible.",
+      "indonesian": "kondusif, menguntungkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "A quiet and organized environment is conducive to effective studying.",
+      "collocations": [
+        "conducive to success",
+        "conducive to learning",
+        "conducive atmosphere"
+      ],
+      "synonyms": [
+        "favorable",
+        "beneficial",
+        "helpful"
       ]
     }
   ]

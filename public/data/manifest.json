@@ -1,16 +1,12 @@
 {
-  "generatedAt": "2026-09-26T11:50:53.738Z",
-  "version": "v3",
-  "sources": [
-    "DictionaryAPI.dev",
-    "Datamuse",
-    "Gemini",
-    "local seeds"
+  "generatedAt": "2026-09-26T21:51:00.760Z",
+  "savedCount": 6,
+  "errors": [
+    "grammar:articles: gemini: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | secondary_ai: disabled for Gemini-only MVP",
+    "reading:Climate Change and Urban Planning: invalid JSON"
   ],
-  "features": [
-    "flashcards",
-    "grammar",
-    "vocabulary",
-    "reading"
-  ]
+  "providers": {
+    "gemini": true,
+    "secondaryAi": false
+  }
 }
