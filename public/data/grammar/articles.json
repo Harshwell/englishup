@@ -1,25 +1,88 @@
 {
-  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "explanation": "Artikel adalah kata-kata kecil yang mendahului kata benda untuk menunjukkan apakah kata benda tersebut spesifik atau tidak spesifik. Dalam bahasa Inggris, ada tiga artikel utama: 'a', 'an', dan 'the'. Selain itu, ada juga penggunaan 'zero article' (tidak menggunakan artikel) dalam situasi tertentu.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "article": "a",
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable) dan dimulai dengan bunyi konsonan. 'A' berarti 'satu' atau 'sebuah'."
+    },
+    {
+      "article": "an",
+      "rule": "Digunakan sebelum kata benda tunggal yang dapat dihitung (countable) dan dimulai dengan bunyi vokal (a, e, i, o, u). 'An' juga berarti 'satu' atau 'sebuah'."
+    },
+    {
+      "article": "the",
+      "rule": "Digunakan sebelum kata benda tunggal atau jamak, yang dapat dihitung atau tidak dapat dihitung (uncountable), ketika kata benda tersebut spesifik atau sudah diketahui oleh pendengar/pembaca. Ini bisa karena sudah disebutkan sebelumnya, unik, atau jelas dari konteksnya."
+    },
+    {
+      "article": "zero article",
+      "rule": "Tidak menggunakan artikel sama sekali. Ini terjadi sebelum kata benda jamak yang bersifat umum, kata benda tak dapat dihitung yang bersifat umum, nama diri (orang, tempat, kota, negara), bahasa, mata pelajaran, olahraga, makanan, hari, bulan, dan beberapa frasa tetap."
+    }
   ],
   "examples": [
     {
-      "sentence": "Articles appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Articles muncul dalam tugas IELTS."
+      "usage": "a",
+      "sentence": "I saw **a** cat in the garden.",
+      "explanation": "Kata 'cat' tunggal, dapat dihitung, dan dimulai dengan bunyi konsonan 'c'."
+    },
+    {
+      "usage": "an",
+      "sentence": "She is **an** honest person.",
+      "explanation": "Kata 'honest' dimulai dengan bunyi vokal (meskipun hurufnya 'h', bunyi awalnya adalah vokal)."
+    },
+    {
+      "usage": "the",
+      "sentence": "Please pass me **the** salt.",
+      "explanation": "Merujuk pada garam spesifik yang ada di meja."
+    },
+    {
+      "usage": "the",
+      "sentence": "I read **the** book you recommended.",
+      "explanation": "Merujuk pada buku spesifik yang sudah direkomendasikan."
+    },
+    {
+      "usage": "zero article",
+      "sentence": "**Cats** are independent animals.",
+      "explanation": "Kata 'cats' jamak dan merujuk pada kucing secara umum."
+    },
+    {
+      "usage": "zero article",
+      "sentence": "I like **coffee**.",
+      "explanation": "Kata 'coffee' tak dapat dihitung dan merujuk pada kopi secara umum."
+    },
+    {
+      "usage": "zero article",
+      "sentence": "**Jakarta** is the capital of Indonesia.",
+      "explanation": "Nama diri (kota dan negara)."
     }
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Menggunakan 'a' atau 'an' sebelum kata benda jamak.",
+    "Menggunakan 'a' atau 'an' sebelum kata benda tak dapat dihitung.",
+    "Menggunakan 'the' ketika merujuk pada sesuatu secara umum.",
+    "Lupa menggunakan 'the' ketika merujuk pada sesuatu yang spesifik atau unik.",
+    "Salah memilih antara 'a' dan 'an' berdasarkan huruf awal, bukan bunyi awal."
   ],
-  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "Dalam IELTS Writing dan Speaking, penggunaan artikel yang tepat menunjukkan penguasaan tata bahasa Anda. Perhatikan apakah Anda berbicara tentang sesuatu yang spesifik ('the') atau umum ('a', 'an', atau zero article). Latihan mengenali kata benda yang dapat dihitung dan tidak dapat dihitung sangat penting.",
+  "quiz": [
+    {
+      "question": "Fill in the blank with the correct article (a, an, the, or zero article): I want to buy ______ new car.",
+      "answer": "a"
+    },
+    {
+      "question": "Fill in the blank with the correct article (a, an, the, or zero article): ______ sun rises in the east.",
+      "answer": "the"
+    },
+    {
+      "question": "Fill in the blank with the correct article (a, an, the, or zero article): She has ______ interesting idea.",
+      "answer": "an"
+    },
+    {
+      "question": "Fill in the blank with the correct article (a, an, the, or zero article): ______ dogs are loyal pets.",
+      "answer": "zero article"
+    },
+    {
+      "question": "Fill in the blank with the correct article (a, an, the, or zero article): Could you please close ______ door?",
+      "answer": "the"
+    }
+  ]
 }
