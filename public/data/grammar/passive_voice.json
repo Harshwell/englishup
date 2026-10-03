@@ -1,70 +1,128 @@
 {
-  "explanation": "Kalimat pasif (passive voice) adalah struktur kalimat di mana subjek menerima tindakan, bukan melakukan tindakan.  Ini berbeda dengan kalimat aktif di mana subjek yang melakukan tindakan.  Dalam bahasa Inggris, kalimat pasif umumnya dibentuk dengan menggunakan 'be' (is, am, are, was, were, been, being) diikuti oleh past participle (kata kerja bentuk ketiga).",
+  "grammarChart": {
+    "title": "Passive Voice (be + past participle)",
+    "structure": "Subject + be (am/is/are/was/were/been/being) + Past Participle (V3)",
+    "forms": [
+      {
+        "tense": "Present Simple",
+        "active": "Someone cleans the room.",
+        "passive": "The room is cleaned."
+      },
+      {
+        "tense": "Past Simple",
+        "active": "Someone cleaned the room.",
+        "passive": "The room was cleaned."
+      },
+      {
+        "tense": "Present Continuous",
+        "active": "Someone is cleaning the room.",
+        "passive": "The room is being cleaned."
+      },
+      {
+        "tense": "Past Continuous",
+        "active": "Someone was cleaning the room.",
+        "passive": "The room was being cleaned."
+      },
+      {
+        "tense": "Present Perfect",
+        "active": "Someone has cleaned the room.",
+        "passive": "The room has been cleaned."
+      },
+      {
+        "tense": "Past Perfect",
+        "active": "Someone had cleaned the room.",
+        "passive": "The room had been cleaned."
+      },
+      {
+        "tense": "Future Simple",
+        "active": "Someone will clean the room.",
+        "passive": "The room will be cleaned."
+      },
+      {
+        "tense": "Future Perfect",
+        "active": "Someone will have cleaned the room.",
+        "passive": "The room will have been cleaned."
+      },
+      {
+        "tense": "Modal Verbs",
+        "active": "Someone can clean the room.",
+        "passive": "The room can be cleaned."
+      }
+    ]
+  },
+  "explanation": "The passive voice is used when the action or the object of the action is more important than the doer of the action. It shifts the focus from the 'doer' (agent) to the 'receiver' of the action. The structure is always 'be' (in the appropriate tense) plus the past participle of the main verb.",
   "keyRules": [
-    "Struktur dasar: Subjek (penerima tindakan) + be + past participle + (by + agen tindakan).",
-    "Jika ingin menyebutkan siapa yang melakukan tindakan, gunakan 'by' sebelum agen tindakan.",
-    "Tenses dari 'be' harus sesuai dengan tenses kalimat aslinya.",
-    "Jika kalimat aktif menggunakan modal verb (can, will, may, etc.), kalimat pasifnya adalah: modal verb + be + past participle."
+    "Identify the object of the active sentence; it becomes the subject of the passive sentence.",
+    "Change the verb to the passive form: 'be' (conjugated to match the new subject and tense) + past participle (V3).",
+    "The original subject (the doer) can be omitted or introduced with 'by' if it's important.",
+    "The passive voice is particularly useful in formal writing and academic contexts where objectivity is valued."
   ],
+  "azarNotes": "Think of it as 'what happened to the subject?' rather than 'who did something?'. For IELTS, mastering the passive voice is crucial for academic writing (Task 1 reports, Task 2 essays) and even for giving more formal answers in Speaking.",
   "examples": [
-    {
-      "active": "The chef cooks the meal.",
-      "passive": "The meal is cooked by the chef."
-    },
-    {
-      "active": "They built the bridge last year.",
-      "passive": "The bridge was built by them last year."
-    },
-    {
-      "active": "Someone has stolen my wallet.",
-      "passive": "My wallet has been stolen."
-    },
-    {
-      "active": "The teacher will explain the grammar rule.",
-      "passive": "The grammar rule will be explained by the teacher."
-    },
-    {
-      "active": "You should finish this report.",
-      "passive": "This report should be finished."
-    }
+    "Active: The company launched a new product last year. \nPassive: A new product was launched by the company last year.",
+    "Active: Scientists are developing a cure for the disease. \nPassive: A cure for the disease is being developed by scientists.",
+    "Active: The government has implemented new policies. \nPassive: New policies have been implemented by the government.",
+    "Active: The students will complete the project by Friday. \nPassive: The project will be completed by the students by Friday.",
+    "Active: You should read this book. \nPassive: This book should be read."
   ],
   "commonMistakes": [
-    "Menggunakan 'be' tanpa past participle (misalnya: 'The book is read' seharusnya 'The book is read').",
-    "Menggunakan past participle tanpa 'be' (misalnya: 'The letter written yesterday' seharusnya 'The letter was written yesterday').",
-    "Salah menentukan subjek penerima tindakan.",
-    "Menggunakan bentuk 'be' yang salah untuk tenses yang berbeda."
+    "Using the active verb form instead of the past participle (e.g., 'The house was build' instead of 'The house was built').",
+    "Incorrectly conjugating the 'be' verb (e.g., 'The report is wrote' instead of 'The report was written').",
+    "Forgetting the 'be' verb altogether (e.g., 'The cake baked by my mother' instead of 'The cake was baked by my mother').",
+    "Overusing the passive voice, making sentences sound indirect or unclear.",
+    "Confusing the passive voice with the perfect tenses (e.g., 'The letter has written' instead of 'The letter has been written')."
   ],
-  "ieltsTip": "Dalam IELTS Writing Task 2, kalimat pasif sering digunakan untuk terdengar lebih formal dan objektif, terutama ketika fokusnya adalah pada tindakan atau hasilnya, bukan pada siapa yang melakukannya. Gunakan kalimat pasif untuk menjelaskan proses, hasil penelitian, atau kejadian umum. Namun, jangan terlalu sering menggunakannya sehingga membuat tulisan terdengar kaku atau tidak jelas.",
+  "ieltsTip": "In IELTS Writing Task 1 (reports), you'll frequently use the passive voice to describe processes or how something is made, as the focus is on the process itself, not who is performing it. For example: 'The ingredients are mixed...' or 'The mixture is then heated...'. In Task 2, use it to present arguments objectively or when the doer is unknown or unimportant: 'It is widely believed that...' or 'Pollution has been a major concern for decades.'",
   "quiz": [
     {
-      "question": "Ubah kalimat aktif berikut menjadi pasif: 'The company launched a new product.'",
+      "question": "Choose the correct passive form: The old bridge _______ last year.",
       "options": [
-        "A new product launched by the company.",
-        "A new product was launched by the company.",
-        "The company was launched a new product.",
-        "A new product is launched by the company."
+        "was built",
+        "is built",
+        "built",
+        "was building"
       ],
-      "answer": "B"
+      "correctAnswer": "was built"
     },
     {
-      "question": "Ubah kalimat aktif berikut menjadi pasif: 'They are building a new hospital.'",
+      "question": "Choose the correct passive form: The report _______ by the committee next week.",
       "options": [
-        "A new hospital is built by them.",
-        "A new hospital is being built by them.",
-        "A new hospital was being built by them.",
-        "A new hospital will be built by them."
+        "will be reviewed",
+        "is reviewed",
+        "will review",
+        "has reviewed"
       ],
-      "answer": "B"
+      "correctAnswer": "will be reviewed"
     },
     {
-      "question": "Pilih kalimat pasif yang benar: 'The letter ______ yesterday.'",
+      "question": "Choose the correct passive form: Many mistakes _______ in the exam.",
       "options": [
-        "is written",
-        "was write",
-        "was written",
-        "written"
+        "were made",
+        "made",
+        "are made",
+        "were making"
       ],
-      "answer": "C"
+      "correctAnswer": "were made"
+    },
+    {
+      "question": "Choose the correct passive form: The famous novel _______ by millions of people worldwide.",
+      "options": [
+        "has been read",
+        "has read",
+        "is read",
+        "was reading"
+      ],
+      "correctAnswer": "has been read"
+    },
+    {
+      "question": "Choose the correct passive form: The new software _______ at the moment.",
+      "options": [
+        "is being developed",
+        "is developed",
+        "is developing",
+        "has developed"
+      ],
+      "correctAnswer": "is being developed"
     }
   ]
 }

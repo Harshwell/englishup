@@ -1,47 +1,174 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "/ɹɪˈlaɪəbəl/",
+      "word": "Vibe",
+      "pronunciation": "/vaɪb/",
       "partOfSpeech": "noun",
-      "definition": "Something or someone reliable or dependable",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "definition": "The atmosphere or feeling that a place, person, or situation seems to have.",
+      "indonesian": "Suasana, getaran, nuansa",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "the old reliables",
+      "ieltsBand": "7.0",
+      "example": "This coffee shop has a really relaxed vibe. I love coming here to study.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "good vibe",
+        "bad vibe",
+        "chill vibe",
+        "positive vibe",
+        "negative vibe",
+        "get the vibe"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "atmosphere",
+        "mood",
+        "feeling",
+        "aura",
+        "ambiance"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: straightforward.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "Craving",
+      "pronunciation": "/ˈkreɪvɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "A strong desire for something.",
+      "indonesian": "Keinginan kuat, kerinduan",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "I'm having a serious craving for chocolate right now. I need some!",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "have a craving",
+        "intense craving",
+        "sudden craving"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "desire",
+        "longing",
+        "urge",
+        "hankering",
+        "appetite"
+      ]
+    },
+    {
+      "word": "Chill",
+      "pronunciation": "/tʃɪl/",
+      "partOfSpeech": "verb",
+      "definition": "To relax and do nothing; to spend time relaxing.",
+      "indonesian": "Bersantai, santai-santai",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "After a long week of work, I just want to chill at home this weekend.",
+      "collocations": [
+        "chill out",
+        "chill at home",
+        "chill with friends"
+      ],
+      "synonyms": [
+        "relax",
+        "unwind",
+        "rest",
+        "take it easy"
+      ]
+    },
+    {
+      "word": "Stoked",
+      "pronunciation": "/stoʊkt/",
+      "partOfSpeech": "adjective",
+      "definition": "Very excited and happy about something.",
+      "indonesian": "Sangat bersemangat, gembira",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "I'm so stoked about the concert next week! I've wanted to see them for years.",
+      "collocations": [
+        "be stoked about",
+        "really stoked",
+        "super stoked"
+      ],
+      "synonyms": [
+        "excited",
+        "thrilled",
+        "enthusiastic",
+        "pumped"
+      ]
+    },
+    {
+      "word": "Bummer",
+      "pronunciation": "/ˈbʌmər/",
+      "partOfSpeech": "noun",
+      "definition": "A disappointing or unfortunate situation.",
+      "indonesian": "Kekecewaan, sial",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "It's a real bummer that the picnic got rained out. We were looking forward to it.",
+      "collocations": [
+        "what a bummer",
+        "a total bummer",
+        "such a bummer"
+      ],
+      "synonyms": [
+        "disappointment",
+        "letdown",
+        "unfortunate event",
+        "drag"
+      ]
+    },
+    {
+      "word": "Hang out",
+      "pronunciation": "/ˈhæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time with someone in a relaxed way.",
+      "indonesian": "Berkumpul, menghabiskan waktu bersama",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Do you want to hang out after class today?",
+      "collocations": [
+        "hang out with friends",
+        "hang out at home",
+        "hang out together"
+      ],
+      "synonyms": [
+        "spend time",
+        "socialize",
+        "get together",
+        "associate"
+      ]
+    },
+    {
+      "word": "Fomo",
+      "pronunciation": "/ˈfoʊmoʊ/",
+      "partOfSpeech": "noun",
+      "definition": "The feeling of anxiety that you are missing out on something exciting or interesting that other people are experiencing.",
+      "indonesian": "Takut ketinggalan (sesuatu)",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "I get major fomo when I see my friends posting pictures from their holidays.",
+      "collocations": [
+        "experience fomo",
+        "have fomo",
+        "deal with fomo"
+      ],
+      "synonyms": [
+        "fear of missing out"
+      ]
+    },
+    {
+      "word": "Legit",
+      "pronunciation": "/ləˈdʒɪt/",
+      "partOfSpeech": "adjective (informal)",
+      "definition": "Genuine, real, or true; legal.",
+      "indonesian": "Sah, asli, nyata, benar",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Is that story legit, or are you just making it up?",
+      "collocations": [
+        "totally legit",
+        "completely legit",
+        "sound legit"
+      ],
+      "synonyms": [
+        "real",
+        "authentic",
+        "genuine",
+        "valid",
+        "legal"
       ]
     }
   ]
