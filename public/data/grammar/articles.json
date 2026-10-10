@@ -4,146 +4,157 @@
     "sections": [
       {
         "article": "a/an",
-        "form": "a + singular countable noun (beginning with consonant sound)",
-        "meaning": "one, any one of a group, indefinite",
-        "use": "To refer to a non-specific, singular, countable noun for the first time, or when the listener/reader doesn't know which specific one you mean.",
-        "examples": [
-          "I saw a dog.",
-          "She is a doctor.",
-          "Can you give me a pen?"
-        ]
-      },
-      {
-        "article": "an",
-        "form": "an + singular countable noun (beginning with vowel sound)",
-        "meaning": "one, any one of a group, indefinite",
-        "use": "Same as 'a', but used before words starting with a vowel sound (a, e, i, o, u). Note: 'u' can be a consonant sound (university).",
-        "examples": [
-          "He ate an apple.",
-          "It's an interesting book.",
-          "I need an umbrella."
-        ]
+        "form": "a + consonant sound; an + vowel sound",
+        "meaning": "Indefinite, singular, countable noun. Refers to one of many, or introduces something for the first time.",
+        "use": "To talk about a non-specific, singular, countable noun."
       },
       {
         "article": "the",
-        "form": "the + singular or plural countable noun, or uncountable noun",
-        "meaning": "specific, particular",
-        "use": "To refer to a specific noun that both the speaker/writer and listener/reader know about. This can be because it's unique, has been mentioned before, or is clear from context.",
-        "examples": [
-          "The dog I saw was big.",
-          "Please close the door.",
-          "The sun is shining."
-        ]
+        "form": "the",
+        "meaning": "Definite. Refers to a specific noun that is known to both speaker and listener, or has been mentioned before, or is unique.",
+        "use": "To talk about a specific noun. Also used with superlatives, ordinal numbers, unique items, and certain proper nouns."
       },
       {
-        "article": "Zero Article (-)",
-        "form": "No article before plural countable nouns or uncountable nouns in general statements.",
-        "meaning": "general, all, in general",
-        "use": "To refer to nouns in a general or abstract sense, or when talking about things in general. Also used with certain proper nouns (names of people, most countries, continents, streets, lakes, mountains).",
-        "examples": [
-          "Dogs are friendly animals.",
-          "Water is essential for life.",
-          "She likes coffee."
-        ]
+        "article": "Zero Article (Ø)",
+        "form": "Ø",
+        "meaning": "No article is used.",
+        "use": "With plural countable nouns (when general), uncountable nouns (when general), abstract nouns (when general), proper nouns (most), and certain fixed expressions."
       }
     ]
   },
-  "explanation": "Articles are small words (a, an, the) that come before nouns and indicate whether the noun is general or specific. The zero article means no article is used. Understanding when to use each is crucial for clear and accurate English, especially in academic contexts like IELTS.",
+  "explanation": "Articles are small words that precede nouns. They tell us whether the noun is specific or general, singular or plural, and countable or uncountable. Mastering articles is crucial for clear and accurate English communication, especially for achieving a high IELTS band score.",
   "keyRules": [
-    "Use 'a' before words that start with a consonant sound.",
-    "Use 'an' before words that start with a vowel sound.",
-    "Use 'a'/'an' with singular, countable nouns that are not specific.",
-    "Use 'the' with singular or plural countable nouns, or uncountable nouns when they are specific or have been mentioned before.",
-    "Use the zero article for general statements about plural countable nouns and uncountable nouns.",
-    "Be careful with 'u' and 'eu' sounds, which often start with a 'yoo' sound (e.g., 'a university', 'a European').",
-    "The zero article is used with many proper nouns like names of people, continents, most countries, and languages."
+    {
+      "rule": "Use 'a' before consonant sounds and 'an' before vowel sounds.",
+      "details": "The choice depends on the sound, not the letter. E.g., 'a university' (starts with a 'yoo' sound), 'an hour' (starts with a vowel sound)."
+    },
+    {
+      "rule": "Use 'a/an' with singular, countable nouns when you are introducing them or referring to one of many.",
+      "details": "Example: 'I saw a dog.' (one dog out of many). 'She is a doctor.' (one profession)."
+    },
+    {
+      "rule": "Use 'the' when the noun is specific and already known to the listener/reader.",
+      "details": "This can be because it's been mentioned before, it's unique, or it's clear from the context. Example: 'The dog I saw yesterday was friendly.' (a specific dog)."
+    },
+    {
+      "rule": "Use 'the' with superlatives and ordinal numbers.",
+      "details": "Example: 'This is the best book.' 'She was the first person to arrive.'"
+    },
+    {
+      "rule": "Use 'the' with unique things.",
+      "details": "Example: 'the sun', 'the moon', 'the internet'."
+    },
+    {
+      "rule": "Use the zero article (Ø) with general plural countable nouns and general uncountable nouns.",
+      "details": "Example: 'Children like to play.' (all children). 'Water is essential for life.' (water in general)."
+    },
+    {
+      "rule": "Use the zero article (Ø) with most proper nouns (names of people, most countries, cities, streets, languages, academic subjects).",
+      "details": "Example: 'John lives in London.' 'She speaks English.' 'I study mathematics.'"
+    },
+    {
+      "rule": "Be aware of exceptions and idiomatic uses.",
+      "details": "Some phrases require specific article usage. Example: 'in the morning', 'at night', 'go to bed'."
+    }
   ],
-  "azarNotes": "Indonesian learners often struggle with articles because Indonesian doesn't have direct equivalents. The key is to think about specificity: is it 'any one' (a/an) or 'that specific one' (the)? If you're talking about the concept of something in general, or a group, you might not need an article at all.",
+  "azarNotes": "Indonesian often doesn't use articles in the same way English does. This means you need to consciously learn the rules for 'a', 'an', 'the', and when to omit them. Pay close attention to context and specificity.",
   "examples": [
     {
-      "sentence": "I bought a new car yesterday. The car is red.",
-      "analysis": "'a new car' - first mention, non-specific. 'The car' - refers to the specific car already mentioned."
+      "sentence": "I bought a new book yesterday.",
+      "explanation": "'a' is used because 'book' is a singular, countable noun and it's being introduced for the first time (non-specific)."
     },
     {
-      "sentence": "She wants to be an engineer. Engineers are important.",
-      "analysis": "'an engineer' - first mention, non-specific profession. 'Engineers' - general statement about engineers."
+      "sentence": "The book I am reading is fascinating.",
+      "explanation": "'the' is used because 'book' is specific; it's the one the speaker is currently reading."
     },
     {
-      "sentence": "The Amazon rainforest is home to incredible biodiversity.",
-      "analysis": "'The Amazon rainforest' - unique geographical feature."
+      "sentence": "She is an excellent teacher.",
+      "explanation": "'an' is used because 'excellent' starts with a vowel sound."
     },
     {
-      "sentence": "Can you pass me the salt?",
-      "analysis": "'the salt' - specific salt on the table, understood by both speaker and listener."
+      "sentence": "We visited the Eiffel Tower last summer.",
+      "explanation": "'the' is used because the Eiffel Tower is a unique landmark."
     },
     {
-      "sentence": "Children love playing games.",
-      "analysis": "'Children' - general statement about children."
+      "sentence": "Computers have changed the way we live.",
+      "explanation": "'Ø' is used before 'Computers' (general plural countable noun) and 'the' is used before 'way' (specific way in this context)."
+    },
+    {
+      "sentence": "Honesty is the best policy.",
+      "explanation": "'Ø' is used before 'Honesty' (abstract noun, general concept). 'the' is used before 'best' (superlative)."
+    },
+    {
+      "sentence": "He travelled to Japan.",
+      "explanation": "'Ø' is used before 'Japan' (most country names)."
+    },
+    {
+      "sentence": "She works in the hospital.",
+      "explanation": "'the' is used if referring to a specific hospital known to the listener, or if it's the generic 'the hospital' as a place of work/institution."
+    },
+    {
+      "sentence": "She works in hospital.",
+      "explanation": "'Ø' is used if referring to the general concept of being in a hospital (e.g., as a patient), not as a specific building."
     }
   ],
   "commonMistakes": [
-    "Using 'a'/'an' with plural nouns (e.g., 'a dogs').",
-    "Using 'the' when the noun is not specific (e.g., 'I want the apple' when you mean any apple).",
-    "Forgetting 'the' for unique items (e.g., 'Sun is bright').",
-    "Incorrectly using 'a' or 'an' based on spelling rather than sound (e.g., 'a hour' instead of 'an hour').",
-    "Overusing articles with general statements (e.g., 'The happiness is important')."
+    "Using 'a'/'an' with plural or uncountable nouns.",
+    "Forgetting 'the' with unique items or when specificity is implied.",
+    "Using 'the' with general plural or uncountable nouns.",
+    "Incorrectly choosing between 'a' and 'an' based on the letter instead of the sound.",
+    "Omitting articles where they are required, especially with specific singular countable nouns.",
+    "Using articles with proper nouns where the zero article is appropriate (e.g., 'the London', 'the John')."
   ],
-  "ieltsTip": "In IELTS Writing Task 2, pay close attention to your use of articles when discussing abstract concepts (use zero article for general ideas, 'the' for specific ones) and when referring back to previously mentioned subjects. In Speaking, natural and accurate article use makes your fluency sound more native-like.",
+  "ieltsTip": "In IELTS Writing Task 2, be precise. Use 'a/an' to introduce new ideas or examples. Use 'the' to refer back to something previously mentioned or when discussing specific aspects of a topic. In Speaking, natural use of articles demonstrates fluency and accuracy. Practice describing specific objects or events using 'the' and general concepts using 'a/an' or the zero article.",
   "quiz": [
     {
-      "id": 1,
-      "question": "I need to buy ______ new laptop for my studies.",
+      "question": "I need to buy ______ new pair of shoes.",
       "options": [
         "a",
         "an",
         "the",
-        "-"
+        "Ø"
       ],
       "answer": "a"
     },
     {
-      "id": 2,
-      "question": "______ Mount Everest is ______ highest mountain in the world.",
-      "options": [
-        "The / the",
-        "The / -",
-        "- / the",
-        "- / -"
-      ],
-      "answer": "The / the"
-    },
-    {
-      "id": 3,
-      "question": "She is ______ honest person, and ______ honesty is a rare quality.",
-      "options": [
-        "an / the",
-        "a / -",
-        "an / -",
-        "a / the"
-      ],
-      "answer": "an / -"
-    },
-    {
-      "id": 4,
-      "question": "Could you please close ______ window? It's cold in here.",
+      "question": "______ sun is shining brightly today.",
       "options": [
         "a",
         "an",
         "the",
-        "-"
+        "Ø"
       ],
       "answer": "the"
     },
     {
-      "id": 5,
-      "question": "______ students in ______ university are expected to attend orientation.",
+      "question": "She has ______ interesting idea for the project.",
       "options": [
-        "The / a",
-        "The / the",
-        "- / a",
-        "- / the"
+        "a",
+        "an",
+        "the",
+        "Ø"
       ],
-      "answer": "The / the"
+      "answer": "an"
+    },
+    {
+      "question": "______ children in this class are very creative.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "answer": "the"
+    },
+    {
+      "question": "We had ______ wonderful time at ______ party last night.",
+      "options": [
+        "a / the",
+        "an / a",
+        "the / Ø",
+        "a / a"
+      ],
+      "answer": "a / the"
     }
   ]
 }

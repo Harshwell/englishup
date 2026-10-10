@@ -2,102 +2,128 @@
   "grammarChart": {
     "title": "Present Perfect Tense",
     "structure": {
-      "positive": "Subject + have/has + Past Participle (Verb 3)",
-      "negative": "Subject + have/has + not + Past Participle (Verb 3)",
-      "question": "Have/Has + Subject + Past Participle (Verb 3)?"
+      "positive": "Subject + have/has + Past Participle (V3)",
+      "negative": "Subject + have/has + not + Past Participle (V3)",
+      "question": "Have/Has + Subject + Past Participle (V3)?"
     },
     "examples": {
       "positive": "I have finished my homework.",
       "negative": "She has not seen that movie before.",
-      "question": "Have you ever traveled abroad?"
+      "question": "Have you ever been to Bali?"
     }
   },
-  "explanation": "The Present Perfect tense connects the past with the present. It's used to talk about actions or states that happened at an unspecified time in the past, or actions that started in the past and continue to the present.  We use 'have' with 'I', 'you', 'we', and 'they', and 'has' with 'he', 'she', and 'it'. The past participle is the third form of the verb (e.g., seen, gone, eaten).",
+  "explanation": "The Present Perfect tense is used to connect the past with the present. It talks about actions or states that started in the past and continue to the present, or actions that happened at an unspecified time in the past but have a result or relevance in the present.",
   "keyRules": [
     {
-      "rule": "Unspecified Past Time: The exact time of the action is not important or is unknown.",
-      "example": "I have lost my keys."
+      "rule": "Formation: It is formed using the auxiliary verb 'have' or 'has' followed by the past participle of the main verb.",
+      "details": "'Have' is used with I, you, we, and they. 'Has' is used with he, she, and it."
     },
     {
-      "rule": "Life Experiences: To talk about things we have or haven't done in our lives.",
-      "example": "She has visited Paris twice."
+      "rule": "Usage 1: Unfinished Actions/States (Continuing to the Present).",
+      "details": "Used to talk about something that started in the past and is still true or happening now. Often used with 'for' (duration) and 'since' (starting point)."
     },
     {
-      "rule": "Actions Completed Recently: Often used with 'just'.",
-      "example": "He has just arrived."
+      "rule": "Usage 2: Completed Actions with Present Relevance.",
+      "details": "Used to talk about an action that happened at an unspecified time in the past, but the result or consequence is important now. The exact time of the action is not mentioned or is not important."
     },
     {
-      "rule": "Actions with Present Result: The action happened in the past, but the result is visible or relevant now.",
-      "example": "The train has left, so we'll be late."
+      "rule": "Usage 3: Experiences.",
+      "details": "Used to talk about life experiences. The focus is on whether the experience has happened, not when."
     },
     {
-      "rule": "Duration from Past to Present: Used with 'for' and 'since' to indicate a period of time continuing up to now.",
-      "example": "They have lived here for ten years."
+      "rule": "Usage 4: Recent Past Actions (with 'just', 'already', 'yet').",
+      "details": "'Just' indicates a very recent action. 'Already' indicates an action that happened sooner than expected. 'Yet' is used in negative sentences and questions to indicate something that has not happened but is expected to."
     }
   ],
-  "azarNotes": "For Indonesian learners, remember that the past participle often ends in '-ed' for regular verbs (e.g., played, worked), but irregular verbs have unique forms that you need to memorize (e.g., go-went-gone, eat-ate-eaten). Pay close attention to these irregular forms!",
+  "azarNotes": [
+    "Don't confuse Present Perfect with Simple Past. Simple Past refers to a completed action at a specific time in the past (e.g., 'I went to the cinema yesterday'). Present Perfect connects past to present (e.g., 'I have seen that movie' - implies you know what it's like now).",
+    "Pay attention to the past participle form of irregular verbs. For regular verbs, the past participle is the same as the simple past form (e.g., 'walked' - 'have walked').",
+    "The adverbs 'ever', 'never', 'always', 'often', 'sometimes', 'rarely', 'seldom', 'usually', 'recently', 'lately' are commonly used with the Present Perfect."
+  ],
   "examples": [
-    "I have already eaten lunch.",
-    "She has never tried sushi before.",
-    "Have you finished reading the book?",
-    "We have known each other since childhood.",
-    "My brother has broken his arm.",
-    "They have been married for fifty years.",
-    "Has he ever failed an exam?",
-    "I haven't seen you in ages!"
+    {
+      "sentence": "She has lived in Jakarta for five years.",
+      "tense": "Present Perfect",
+      "explanation": "Action started in the past (5 years ago) and continues to the present. 'For' indicates duration."
+    },
+    {
+      "sentence": "I have never eaten sushi before.",
+      "tense": "Present Perfect",
+      "explanation": "Talking about a life experience (or lack thereof). The time is not important, only the experience itself."
+    },
+    {
+      "sentence": "They have just arrived at the airport.",
+      "tense": "Present Perfect",
+      "explanation": "Action happened very recently, and its relevance is now (they are at the airport now)."
+    },
+    {
+      "sentence": "Has he finished his project yet?",
+      "tense": "Present Perfect",
+      "explanation": "Asking about a recent action that is expected to be completed. 'Yet' is used in questions."
+    },
+    {
+      "sentence": "We haven't seen this documentary yet.",
+      "tense": "Present Perfect",
+      "explanation": "Negative statement about a recent action that is expected to happen. 'Yet' is used in negative sentences."
+    },
+    {
+      "sentence": "The company has invested heavily in new technology.",
+      "tense": "Present Perfect",
+      "explanation": "An action in the past with a present result (the company now has new technology)."
+    }
   ],
   "commonMistakes": [
-    "Confusing Present Perfect with Simple Past: Using Simple Past when the time is unspecified or when there's a connection to the present. (Incorrect: I saw him yesterday. Correct: I have seen him recently.)",
-    "Incorrect Past Participle Forms: Using the base form or simple past instead of the past participle. (Incorrect: She has go to the store. Correct: She has gone to the store.)",
-    "Overuse with Specific Past Times: Using Present Perfect with specific past time markers like 'yesterday', 'last week', 'two years ago'. (Incorrect: I have visited Bali last year. Correct: I visited Bali last year.)",
-    "Incorrect auxiliary verb: Using 'is' or 'am' instead of 'have/has'. (Incorrect: He is finished his work. Correct: He has finished his work.)"
+    "Using Simple Past instead of Present Perfect when the time is not specified or when there is a connection to the present. (e.g., Incorrect: 'I ate this cake yesterday.' Correct: 'I have eaten this cake before.')",
+    "Incorrect formation of the past participle, especially with irregular verbs. (e.g., Incorrect: 'She has went to the store.' Correct: 'She has gone to the store.')",
+    "Confusing 'for' and 'since'. 'For' is used with a period of time (e.g., 'for two hours'), while 'since' is used with a specific point in time (e.g., 'since 2020').",
+    "Using Present Perfect with definite past time markers (e.g., 'yesterday', 'last week', 'in 1999'). These require Simple Past."
   ],
-  "ieltsTip": "In IELTS Writing Task 1, the Present Perfect is useful for describing trends or changes over a period of time that leads up to the present. For example: 'The number of tourists has increased significantly since 2010.' In Speaking, use it to talk about your experiences or achievements.",
+  "ieltsTip": "In IELTS Writing Task 1 (Academic), you can use the Present Perfect to describe trends that started in the past and are still continuing, or to highlight significant changes that have occurred up to the present point. In Writing Task 2 and Speaking, it's useful for discussing experiences, achievements, or the current state of affairs resulting from past actions. For example, 'The number of tourists has increased significantly since 2010' or 'Many people have become more aware of environmental issues in recent years.'",
   "quiz": [
     {
-      "question": "Choose the correct form of the verb to complete the sentence: I ______ (visit) London three times.",
+      "question": "Choose the correct sentence:",
       "options": [
-        "visited",
-        "have visited",
-        "visit"
+        "I have saw that movie last night.",
+        "I saw that movie last night.",
+        "I have seen that movie last night."
       ],
-      "answer": "have visited"
+      "answer": "I saw that movie last night."
     },
     {
-      "question": "Choose the correct form of the verb to complete the sentence: She ______ (not finish) her essay yet.",
+      "question": "Complete the sentence: She _______ in this company _______ 2018.",
       "options": [
-        "didn't finish",
-        "hasn't finished",
-        "doesn't finish"
+        "has worked, for",
+        "worked, since",
+        "has worked, since"
       ],
-      "answer": "hasn't finished"
+      "answer": "has worked, since"
     },
     {
-      "question": "Choose the correct form of the verb to complete the sentence: ______ you ever ______ (try) spicy food?",
+      "question": "Which sentence correctly uses 'yet'?",
       "options": [
-        "Did...try",
-        "Have...tried",
-        "Are...trying"
+        "He has already finished his work yet.",
+        "Has he finished his work yet?",
+        "He has not finished his work already."
       ],
-      "answer": "Have...tried"
+      "answer": "Has he finished his work yet?"
     },
     {
-      "question": "Choose the correct form of the verb to complete the sentence: They ______ (live) in this city for five years.",
+      "question": "Choose the correct past participle for 'go':",
       "options": [
-        "lived",
-        "have lived",
-        "live"
+        "goed",
+        "gone",
+        "going"
       ],
-      "answer": "have lived"
+      "answer": "gone"
     },
     {
-      "question": "Choose the correct form of the verb to complete the sentence: He ______ (just / call) his mother.",
+      "question": "Complete the sentence: They _______ their keys. They can't get into the house.",
       "options": [
-        "just called",
-        "has just called",
-        "is just calling"
+        "lost",
+        "have lost",
+        "lose"
       ],
-      "answer": "has just called"
+      "answer": "have lost"
     }
   ]
 }

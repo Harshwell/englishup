@@ -1,106 +1,18 @@
 {
   "words": [
     {
-      "word": "alleviate",
-      "pronunciation": "/əˈliːvieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe or painful.",
-      "indonesian": "meredakan, meringankan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The government introduced measures to alleviate poverty in the region.",
-      "collocations": [
-        "alleviate suffering",
-        "alleviate symptoms",
-        "alleviate pressure",
-        "alleviate concerns"
-      ],
-      "synonyms": [
-        "ease",
-        "lessen",
-        "mitigate",
-        "relieve"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana, ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Smartphones have become ubiquitous in modern society.",
-      "collocations": [
-        "ubiquitous presence",
-        "ubiquitous technology",
-        "ubiquitous trend"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "pertinent",
-      "pronunciation": "/ˈpɜːrtɪnənt/",
-      "partOfSpeech": "adjective",
-      "definition": "relevant to a particular matter; apposite.",
-      "indonesian": "relevan, bersangkut paut",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Please only include information that is pertinent to the investigation.",
-      "collocations": [
-        "pertinent information",
-        "pertinent question",
-        "pertinent details",
-        "pertinent to the issue"
-      ],
-      "synonyms": [
-        "relevant",
-        "applicable",
-        "germane",
-        "appropriate"
-      ]
-    },
-    {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsemɪneɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to spread or disperse (something, especially information) widely.",
-      "indonesian": "menyebarkan, menyebarluaskan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The organization aims to disseminate knowledge about climate change.",
-      "collocations": [
-        "disseminate information",
-        "disseminate findings",
-        "disseminate ideas",
-        "disseminate propaganda"
-      ],
-      "synonyms": [
-        "spread",
-        "circulate",
-        "broadcast",
-        "propagate"
-      ]
-    },
-    {
       "word": "ameliorate",
       "pronunciation": "/əˈmiːliəreɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make (something bad or unsatisfactory) better.",
-      "indonesian": "memperbaiki, meningkatkan",
+      "definition": "to make something bad or unsatisfactory better",
+      "indonesian": "memperbaiki, meningkatkan (keadaan buruk)",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "New policies were implemented to ameliorate the economic situation.",
+      "ieltsBand": "7+",
+      "example": "The government implemented new policies to ameliorate the economic crisis.",
       "collocations": [
-        "ameliorate conditions",
-        "ameliorate poverty",
         "ameliorate the situation",
-        "ameliorate the effects"
+        "ameliorate conditions",
+        "ameliorate poverty"
       ],
       "synonyms": [
         "improve",
@@ -110,69 +22,150 @@
       ]
     },
     {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, pola, contoh",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The discovery of DNA represented a paradigm shift in biology.",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere",
+      "indonesian": "ada di mana-mana",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
       "collocations": [
-        "paradigm shift",
-        "scientific paradigm",
-        "new paradigm",
-        "research paradigm"
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous phenomenon"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "example",
-        "framework"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
       ]
     },
     {
-      "word": "conducive",
-      "pronunciation": "/kənˈdjuːsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "making a certain situation or outcome likely or possible.",
-      "indonesian": "kondusif, mendukung",
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrɛpənsi/",
+      "partOfSpeech": "noun",
+      "definition": "a lack of compatibility or similarity between two or more facts",
+      "indonesian": "ketidaksesuaian, perbedaan",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "A quiet environment is often conducive to effective study.",
+      "ieltsBand": "7+",
+      "example": "There was a significant discrepancy between the reported figures and the actual results.",
       "collocations": [
-        "conducive to success",
-        "conducive to learning",
-        "conducive to growth",
-        "conducive atmosphere"
+        "a discrepancy between",
+        "a discrepancy in",
+        "resolve a discrepancy"
       ],
       "synonyms": [
-        "helpful",
-        "beneficial",
-        "favorable",
-        "conducive"
+        "difference",
+        "disagreement",
+        "inconsistency",
+        "variation"
       ]
     },
     {
       "word": "mitigate",
       "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make less severe, serious, or painful.",
+      "definition": "to make something less severe, serious, or painful",
       "indonesian": "meredakan, mengurangi",
       "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "The company took steps to mitigate the environmental impact of its operations.",
+      "ieltsBand": "7+",
+      "example": "Efforts were made to mitigate the environmental impact of the construction project.",
       "collocations": [
-        "mitigate risk",
-        "mitigate damage",
-        "mitigate the effects",
-        "mitigate losses"
+        "mitigate the effects of",
+        "mitigate risks",
+        "mitigate the damage"
       ],
       "synonyms": [
         "alleviate",
         "lessen",
         "reduce",
         "diminish"
+      ]
+    },
+    {
+      "word": "prevalent",
+      "pronunciation": "/ˈprɛvələnt/",
+      "partOfSpeech": "adjective",
+      "definition": "common; widespread",
+      "indonesian": "umum, lazim",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "Obesity is a prevalent health issue in many developed countries.",
+      "collocations": [
+        "prevalent in",
+        "prevalent among",
+        "prevalent trend"
+      ],
+      "synonyms": [
+        "common",
+        "widespread",
+        "rife",
+        "ubiquitous"
+      ]
+    },
+    {
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to provide evidence to support or prove the truth of something",
+      "indonesian": "membuktikan, menguatkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The researcher failed to substantiate her claims with sufficient data.",
+      "collocations": [
+        "substantiate a claim",
+        "substantiate the allegations",
+        "substantiate the findings"
+      ],
+      "synonyms": [
+        "prove",
+        "verify",
+        "confirm",
+        "corroborate"
+      ]
+    },
+    {
+      "word": "conducive",
+      "pronunciation": "/kənˈdjuːsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "making a certain situation or outcome likely or possible",
+      "indonesian": "mendukung, menguntungkan",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "A quiet environment is conducive to effective studying.",
+      "collocations": [
+        "conducive to",
+        "conducive to learning",
+        "conducive to success"
+      ],
+      "synonyms": [
+        "favorable",
+        "beneficial",
+        "helpful",
+        "advantageous"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model",
+      "indonesian": "paradigma, pola",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The discovery of DNA represented a paradigm shift in biology.",
+      "collocations": [
+        "a paradigm shift",
+        "a new paradigm",
+        "a theoretical paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "example",
+        "framework"
       ]
     }
   ]

@@ -1,129 +1,250 @@
 [
   {
-    "title": "Working from Home: A New Way to Be Productive",
-    "topic": "Remote Work and Productivity",
-    "difficulty": "Beginner",
-    "passage": "Many people are now working from home, also known as remote work. This means they do their jobs from their houses instead of going to an office.  Some people think working from home makes them more productive. They say they have fewer distractions at home.  For example, there are no loud colleagues talking or meetings that are not important.  They can also set their own schedule. This means they can work when they feel most energetic.  Others find it hard.  They miss the social interaction with their colleagues.  It can also be difficult to separate work from personal life when you are always at home.  However, with good planning, remote work can be a very effective way to get work done.",
+    "title": "AI: Revolutionizing the Classroom or Replacing the Teacher?",
+    "topic": "Artificial Intelligence in Education",
+    "difficulty": "Intermediate",
+    "passage": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly integrating into various sectors, and education is no exception. The potential of AI to transform learning environments is immense, offering personalized learning experiences and automating administrative tasks.  One of the most significant promises of AI in education is its ability to adapt to individual student needs. Unlike traditional teaching methods that often follow a one-size-fits-all approach, AI-powered platforms can analyze a student's performance, identify areas of difficulty, and provide tailored content and exercises. This personalized approach can help struggling students catch up and advanced learners to accelerate their progress, fostering a more efficient and effective learning journey for everyone.\n\nFurthermore, AI can significantly alleviate the burden of administrative work for educators. Tasks such as grading assignments, scheduling, and managing student records can be automated, freeing up teachers' valuable time to focus on more impactful activities like lesson planning, one-on-one student interaction, and professional development. AI-driven tools can also offer insights into student engagement and learning patterns, enabling teachers to intervene proactively when students show signs of disengagement or difficulty.\n\nHowever, the integration of AI into education is not without its challenges and concerns. A primary worry revolves around the potential for AI to replace human teachers. While AI can excel at delivering information and providing feedback, it cannot replicate the empathy, creativity, and critical thinking that a human educator brings to the classroom. The nuanced understanding of a student's emotional state, the ability to inspire and motivate, and the facilitation of collaborative learning are all areas where human interaction remains indispensable.  Moreover, concerns about data privacy and the ethical implications of using AI in educational settings are paramount. Ensuring that student data is protected and that AI systems are free from bias are crucial considerations that require careful attention and robust regulatory frameworks.\n\nDespite these concerns, the future of AI in education appears promising.  As the technology continues to evolve, it is likely to become an indispensable tool for both students and educators, augmenting rather than replacing the human element in teaching and learning. The key lies in finding a harmonious balance, leveraging AI's strengths to enhance educational outcomes while preserving the irreplaceable value of human connection and guidance.",
     "vocabulary": [
       {
-        "word": "remote work",
-        "meaning": "working from a location other than a central office, usually one's home.",
-        "indonesian_translation": "kerja jarak jauh"
+        "word": "confined",
+        "meaning": "limited to or restricted to a particular place or area"
       },
       {
-        "word": "productive",
-        "meaning": "achieving a lot; efficient.",
-        "indonesian_translation": "produktif"
+        "word": "integrating",
+        "meaning": "combining one thing with another so that they become whole"
       },
       {
-        "word": "distractions",
-        "meaning": "things that prevent someone from giving full attention to something.",
-        "indonesian_translation": "gangguan"
+        "word": "personalized",
+        "meaning": "designed or adapted to meet the specific needs of an individual"
       },
       {
-        "word": "colleagues",
-        "meaning": "people that you work with.",
-        "indonesian_translation": "rekan kerja"
+        "word": "tailored",
+        "meaning": "made or adapted for a particular person or purpose"
       },
       {
-        "word": "schedule",
-        "meaning": "a plan of times for doing things.",
-        "indonesian_translation": "jadwal"
+        "word": "alleviate",
+        "meaning": "make suffering, deficiency, or a problem less severe"
       },
       {
-        "word": "energetic",
-        "meaning": "having or showing a lot of energy.",
-        "indonesian_translation": "berenergi"
+        "word": "indispensable",
+        "meaning": "absolutely necessary"
       },
       {
-        "word": "interaction",
-        "meaning": "communication or direct involvement with someone or something.",
-        "indonesian_translation": "interaksi"
+        "word": "paramount",
+        "meaning": "more important than anything else; supreme"
       },
       {
-        "word": "separate",
-        "meaning": "to divide into constituent parts.",
-        "indonesian_translation": "memisahkan"
-      },
-      {
-        "word": "effective",
-        "meaning": "successful in producing a desired or intended result.",
-        "indonesian_translation": "efektif"
+        "word": "augmenting",
+        "meaning": "making something greater by adding to it; increasing"
       }
     ],
     "questions": [
       {
         "id": 1,
-        "question": "What is another name for working from home?",
         "type": "multiple_choice",
+        "question": "According to the passage, what is one of the main benefits of AI in education regarding students?",
+        "options": [
+          "It can replace the need for human teachers entirely.",
+          "It offers a one-size-fits-all approach to learning.",
+          "It provides personalized learning experiences by adapting to individual needs.",
+          "It automates all aspects of student assessment."
+        ],
+        "correct_answer": "It provides personalized learning experiences by adapting to individual needs."
+      },
+      {
+        "id": 2,
+        "type": "true_false_not_given",
+        "question": "The passage suggests that AI can fully replicate the empathy and creativity of a human teacher.",
+        "answer": "False"
+      },
+      {
+        "id": 3,
+        "type": "short_answer",
+        "question": "Besides grading, name one other administrative task that AI can automate for educators.",
+        "answer": "scheduling, managing student records"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "Which of the following is presented as a significant concern regarding AI in education?",
+        "options": [
+          "AI systems are too expensive for schools to implement.",
+          "AI might lead to a decrease in student engagement.",
+          "Concerns about data privacy and ethical implications.",
+          "AI cannot provide any form of feedback to students."
+        ],
+        "correct_answer": "Concerns about data privacy and ethical implications."
+      },
+      {
+        "id": 5,
+        "type": "summary_completion",
+        "question": "The passage concludes that the future of AI in education involves AI ________ rather than ________ the human element.",
+        "answer": "augmenting, replacing"
+      }
+    ],
+    "ieltsTips": [
+      "**For Multiple Choice Questions:** Read the question carefully, then scan the passage for keywords. Eliminate options that are clearly incorrect based on the text. Pay attention to the exact wording in the passage and the options.",
+      "**For True/False/Not Given Questions:** Understand the difference between False (the statement contradicts the passage) and Not Given (the passage doesn't provide enough information to confirm or deny the statement). Look for direct evidence in the text.",
+      "**For Short Answer Questions:** Identify the keywords in the question and scan the passage for them. The answer will usually be a specific word or phrase found in the text. Keep your answers concise.",
+      "**For Summary Completion Questions:** Read the summary first to understand the main idea. Then, scan the passage to find the sentences that convey the same meaning. The missing words will usually be synonyms or paraphrases of words in the passage.",
+      "**Vocabulary Building:** Pay attention to the 'Vocabulary' section provided. Understanding these words will significantly improve your comprehension of the passage and your ability to answer questions accurately."
+    ]
+  },
+  {
+    "title": "The Rise of Working from Home",
+    "topic": "Remote Work and Productivity",
+    "difficulty": "Beginner",
+    "passage": "Working from home, also known as remote work, has become very popular in recent years. Many companies now allow their employees to work from their houses instead of going to an office. This has some good points and some bad points.\n\nOne good thing about working from home is that people can save time and money. They don't have to travel to the office every day. This means no money spent on petrol or bus tickets. It also means more time for sleep or hobbies. Another advantage is that people might feel more relaxed at home, which can help them focus better on their work. Some people also find they can be more productive when they work from home because there are fewer distractions than in a busy office.\n\nHowever, working from home can also be difficult. It can be hard to separate work life from home life. Some people find it hard to stop working when they are at home. They might work too much. Also, it can be lonely for some people. They miss talking to their colleagues and having lunch together. Sometimes, it is harder to communicate with colleagues and managers when everyone is in different places. This can slow down projects.\n\nCompanies need to think carefully about how to make remote work successful. They need to make sure employees have the right tools and support to do their jobs well, whether they are at home or in the office. The future of work might involve more people working from home, so understanding its benefits and challenges is important.",
+    "vocabulary": [
+      {
+        "word": "remote work",
+        "meaning": "working from a location other than the main office, usually home."
+      },
+      {
+        "word": "popular",
+        "meaning": "liked or enjoyed by many people."
+      },
+      {
+        "word": "allow",
+        "meaning": "to let someone do something; to permit."
+      },
+      {
+        "word": "advantage",
+        "meaning": "a condition giving a greater chance of success or superiority; a benefit."
+      },
+      {
+        "word": "save time and money",
+        "meaning": "to not use a lot of time or money."
+      },
+      {
+        "word": "travel",
+        "meaning": "to go from one place to another."
+      },
+      {
+        "word": "petrol",
+        "meaning": "fuel for cars (British English)."
+      },
+      {
+        "word": "hobbies",
+        "meaning": "activities done regularly in one's leisure time for pleasure."
+      },
+      {
+        "word": "relaxed",
+        "meaning": "free from tension and anxiety; at ease."
+      },
+      {
+        "word": "focus",
+        "meaning": "to pay special attention to someone or something."
+      },
+      {
+        "word": "productive",
+        "meaning": "achieving a lot; efficient."
+      },
+      {
+        "word": "distractions",
+        "meaning": "things that prevent someone from giving their full attention to something."
+      },
+      {
+        "word": "difficult",
+        "meaning": "hard to do, understand, or deal with."
+      },
+      {
+        "word": "separate",
+        "meaning": "to divide or keep apart."
+      },
+      {
+        "word": "lonely",
+        "meaning": "sad because you are alone or have no friends."
+      },
+      {
+        "word": "colleagues",
+        "meaning": "people that you work with."
+      },
+      {
+        "word": "communicate",
+        "meaning": "to share or exchange information, news, or ideas."
+      },
+      {
+        "word": "managers",
+        "meaning": "people who are in charge of a group of workers or a part of a company."
+      },
+      {
+        "word": "slow down",
+        "meaning": "to make something happen more slowly."
+      },
+      {
+        "word": "successful",
+        "meaning": "achieving the results wanted or hoped for."
+      },
+      {
+        "word": "support",
+        "meaning": "help or encouragement."
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "What is another name for working from home?",
         "options": [
           "Office work",
           "Remote work",
-          "Group work",
-          "Team work"
+          "Business travel",
+          "Team meeting"
         ],
         "correct_answer": "Remote work"
       },
       {
         "id": 2,
-        "question": "According to the passage, why might some people be more productive working from home?",
-        "type": "multiple_choice",
-        "options": [
-          "They can see their colleagues more often.",
-          "They have more meetings.",
-          "They have fewer distractions.",
-          "They have to commute to the office."
-        ],
-        "correct_answer": "They have fewer distractions."
+        "type": "true_false_not_applicable",
+        "question": "Working from home means people do not have to spend money on transport.",
+        "answer": "True"
       },
       {
         "id": 3,
-        "question": "What does it mean to set your own schedule?",
-        "type": "fill_in_the_blank",
-        "blank_type": "single",
-        "sentence": "It means you can work when you feel most __________.",
-        "correct_answer": "energetic"
+        "type": "short_answer",
+        "question": "According to the passage, what is one reason people might be more productive at home?",
+        "answer": "Fewer distractions"
       },
       {
         "id": 4,
-        "question": "What is one difficulty mentioned about working from home?",
         "type": "multiple_choice",
+        "question": "What is one difficulty of working from home mentioned in the passage?",
         "options": [
-          "Too much social interaction",
-          "Too many unimportant meetings",
-          "Difficulty separating work from personal life",
-          "Not enough distractions"
+          "Too much free time",
+          "Being too relaxed",
+          "Missing social interaction with colleagues",
+          "Working too little"
         ],
-        "correct_answer": "Difficulty separating work from personal life"
+        "correct_answer": "Missing social interaction with colleagues"
       },
       {
         "id": 5,
-        "question": "What is needed for remote work to be effective?",
         "type": "short_answer",
-        "answer_length": "short",
-        "correct_answer": "good planning"
+        "question": "What do companies need to ensure for successful remote work?",
+        "answer": "The right tools and support"
       }
     ],
     "ieltsTips": [
       {
-        "tip": "Read the passage carefully to understand the main idea.",
-        "explanation": "Before answering questions, get a general understanding of what the text is about. This helps you locate information faster."
+        "tip": "Read the questions first before reading the passage. This will help you know what information to look for.",
+        "section": "General"
       },
       {
-        "tip": "Look for keywords in the questions and find them in the passage.",
-        "explanation": "Keywords are important words in the question. Finding them in the text will lead you to the answer."
+        "tip": "Pay attention to keywords in the questions and then scan the passage for those keywords or similar words.",
+        "section": "Reading Comprehension"
       },
       {
-        "tip": "Pay attention to synonyms and paraphrased information.",
-        "explanation": "The IELTS test often uses different words to say the same thing. For example, 'working from home' can be referred to as 'remote work'."
+        "tip": "For True/False/Not Applicable questions, look for information in the text that directly supports or contradicts the statement. If the information is not in the text, choose 'Not Applicable'.",
+        "section": "True/False/Not Applicable"
       },
       {
-        "tip": "For fill-in-the-blank questions, ensure your answer fits grammatically and makes sense in the sentence.",
-        "explanation": "The word you choose should correctly complete the sentence and match the meaning of the passage."
+        "tip": "For short answer questions, try to find the exact answer in the passage. Keep your answers brief and to the point.",
+        "section": "Short Answer"
       },
       {
-        "tip": "For short-answer questions, keep your answers concise and directly answer the question asked.",
-        "explanation": "Do not add extra information. Just provide the specific answer based on the passage."
+        "tip": "For multiple choice questions, read all the options carefully. Eliminate the incorrect options before choosing the best answer.",
+        "section": "Multiple Choice"
       }
     ]
   }

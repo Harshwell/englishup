@@ -4,11 +4,11 @@
       "word": "Vibe",
       "pronunciation": "/vaɪb/",
       "partOfSpeech": "noun",
-      "definition": "The atmosphere or feeling that a place, person, or situation seems to have.",
+      "definition": "The atmosphere or feeling of a place, person, or situation.",
       "indonesian": "Suasana, getaran, nuansa",
       "level": "B2",
       "ieltsBand": "7.0",
-      "example": "This coffee shop has a really relaxed vibe. I love coming here to study.",
+      "example": "This cafe has a really relaxed vibe, perfect for studying.",
       "collocations": [
         "good vibe",
         "bad vibe",
@@ -21,8 +21,7 @@
         "atmosphere",
         "mood",
         "feeling",
-        "aura",
-        "ambiance"
+        "aura"
       ]
     },
     {
@@ -30,12 +29,12 @@
       "pronunciation": "/ˈkreɪvɪŋ/",
       "partOfSpeech": "noun",
       "definition": "A strong desire for something.",
-      "indonesian": "Keinginan kuat, kerinduan",
+      "indonesian": "Keinginan kuat, dambaan",
       "level": "B2",
       "ieltsBand": "7.0",
-      "example": "I'm having a serious craving for chocolate right now. I need some!",
+      "example": "I have a serious craving for chocolate right now.",
       "collocations": [
-        "have a craving",
+        "have a craving for",
         "intense craving",
         "sudden craving"
       ],
@@ -43,132 +42,122 @@
         "desire",
         "longing",
         "urge",
-        "hankering",
         "appetite"
       ]
     },
     {
-      "word": "Chill",
-      "pronunciation": "/tʃɪl/",
-      "partOfSpeech": "verb",
-      "definition": "To relax and do nothing; to spend time relaxing.",
-      "indonesian": "Bersantai, santai-santai",
+      "word": "Chill Out",
+      "pronunciation": "/tʃɪl aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To relax and stop worrying.",
+      "indonesian": "Bersantai, menenangkan diri",
       "level": "B2",
       "ieltsBand": "7.0",
-      "example": "After a long week of work, I just want to chill at home this weekend.",
+      "example": "You're getting too stressed about the exam. Just chill out a bit.",
       "collocations": [
-        "chill out",
-        "chill at home",
-        "chill with friends"
+        "chill out with friends",
+        "chill out at home"
       ],
       "synonyms": [
         "relax",
         "unwind",
-        "rest",
         "take it easy"
       ]
     },
     {
-      "word": "Stoked",
-      "pronunciation": "/stoʊkt/",
-      "partOfSpeech": "adjective",
-      "definition": "Very excited and happy about something.",
-      "indonesian": "Sangat bersemangat, gembira",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "I'm so stoked about the concert next week! I've wanted to see them for years.",
-      "collocations": [
-        "be stoked about",
-        "really stoked",
-        "super stoked"
-      ],
-      "synonyms": [
-        "excited",
-        "thrilled",
-        "enthusiastic",
-        "pumped"
-      ]
-    },
-    {
-      "word": "Bummer",
-      "pronunciation": "/ˈbʌmər/",
-      "partOfSpeech": "noun",
-      "definition": "A disappointing or unfortunate situation.",
-      "indonesian": "Kekecewaan, sial",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "It's a real bummer that the picnic got rained out. We were looking forward to it.",
-      "collocations": [
-        "what a bummer",
-        "a total bummer",
-        "such a bummer"
-      ],
-      "synonyms": [
-        "disappointment",
-        "letdown",
-        "unfortunate event",
-        "drag"
-      ]
-    },
-    {
-      "word": "Hang out",
-      "pronunciation": "/ˈhæŋ aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To spend time with someone in a relaxed way.",
-      "indonesian": "Berkumpul, menghabiskan waktu bersama",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Do you want to hang out after class today?",
-      "collocations": [
-        "hang out with friends",
-        "hang out at home",
-        "hang out together"
-      ],
-      "synonyms": [
-        "spend time",
-        "socialize",
-        "get together",
-        "associate"
-      ]
-    },
-    {
       "word": "Fomo",
-      "pronunciation": "/ˈfoʊmoʊ/",
+      "pronunciation": "/ˈfəʊməʊ/",
       "partOfSpeech": "noun",
-      "definition": "The feeling of anxiety that you are missing out on something exciting or interesting that other people are experiencing.",
-      "indonesian": "Takut ketinggalan (sesuatu)",
+      "definition": "Abbreviation for 'Fear Of Missing Out'. The feeling that you're missing out on something exciting that others are doing.",
+      "indonesian": "Ketakutan ketinggalan (sesuatu yang seru)",
       "level": "C1",
       "ieltsBand": "7.0",
-      "example": "I get major fomo when I see my friends posting pictures from their holidays.",
+      "example": "I had serious fomo when I saw all the photos from the party I couldn't attend.",
       "collocations": [
         "experience fomo",
-        "have fomo",
-        "deal with fomo"
+        "suffer from fomo"
       ],
       "synonyms": [
-        "fear of missing out"
+        "anxiety about missing out"
+      ]
+    },
+    {
+      "word": "Hang Out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing with someone.",
+      "indonesian": "Bertemu, nongkrong, menghabiskan waktu bersama",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "We're going to hang out at the park this weekend.",
+      "collocations": [
+        "hang out with friends",
+        "hang out at a cafe"
+      ],
+      "synonyms": [
+        "socialize",
+        "spend time",
+        "get together"
       ]
     },
     {
       "word": "Legit",
-      "pronunciation": "/ləˈdʒɪt/",
+      "pronunciation": "/ˈlɛdʒɪt/",
       "partOfSpeech": "adjective (informal)",
-      "definition": "Genuine, real, or true; legal.",
-      "indonesian": "Sah, asli, nyata, benar",
-      "level": "B2",
+      "definition": "Short for 'legitimate'. Meaning real, genuine, or excellent.",
+      "indonesian": "Sah, asli, asli banget, keren banget (informal)",
+      "level": "C1",
       "ieltsBand": "7.0",
-      "example": "Is that story legit, or are you just making it up?",
+      "example": "That concert was legit amazing!",
       "collocations": [
         "totally legit",
-        "completely legit",
-        "sound legit"
+        "make it legit"
       ],
       "synonyms": [
         "real",
-        "authentic",
         "genuine",
-        "valid",
-        "legal"
+        "authentic",
+        "excellent",
+        "awesome"
+      ]
+    },
+    {
+      "word": "Spill the Tea",
+      "pronunciation": "/spɪl ðə tiː/",
+      "partOfSpeech": "idiom",
+      "definition": "To share gossip or secret information.",
+      "indonesian": "Membocorkan gosip, menceritakan rahasia",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "Come on, spill the tea! What happened at the party last night?",
+      "collocations": [
+        "spill the tea on someone",
+        "want to spill the tea"
+      ],
+      "synonyms": [
+        "gossip",
+        "divulge secrets",
+        "tell tales"
+      ]
+    },
+    {
+      "word": "Woke",
+      "pronunciation": "/wəʊk/",
+      "partOfSpeech": "adjective (informal)",
+      "definition": "Aware of and actively attentive to important societal facts and issues, especially issues of racial and social justice.",
+      "indonesian": "Sadar akan isu sosial dan keadilan",
+      "level": "C1",
+      "ieltsBand": "7.0",
+      "example": "She's very woke about environmental issues and always tries to reduce her carbon footprint.",
+      "collocations": [
+        "stay woke",
+        "be woke to"
+      ],
+      "synonyms": [
+        "aware",
+        "informed",
+        "conscious",
+        "enlightened"
       ]
     }
   ]
