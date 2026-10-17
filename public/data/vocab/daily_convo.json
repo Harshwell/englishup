@@ -1,47 +1,180 @@
 {
   "words": [
     {
-      "word": "reliable",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: reliable.",
-      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
+      "word": "hassle",
+      "pronunciation": "/ˈhæsəl/",
+      "partOfSpeech": "noun",
+      "definition": "Annoyance or inconvenience; a situation causing difficulty or trouble.",
+      "indonesian": "kerepotan, keributan",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "reliable is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "Finding parking in the city center is such a hassle.",
       "collocations": [
-        "indicator",
-        "unreliable",
-        "reliability",
-        "sources"
+        "a lot of hassle",
+        "avoid the hassle",
+        "deal with the hassle",
+        "minor hassle"
       ],
       "synonyms": [
-        "true",
-        "authentic",
-        "sure",
-        "dependable"
+        "inconvenience",
+        "trouble",
+        "bother",
+        "annoyance",
+        "difficulty"
       ]
     },
     {
-      "word": "straightforward",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: straightforward.",
-      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "word": "catch up",
+      "pronunciation": "/kætʃ ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To reach someone or something by moving faster than they do; to update someone on recent events.",
+      "indonesian": "mengejar ketinggalan, bertukar kabar",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "straightforward is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "I haven't seen her in ages, I need to catch up with her soon.",
       "collocations": [
-        "calculation",
-        "honest",
-        "manner",
-        "algorithm"
+        "catch up on news",
+        "catch up with friends",
+        "catch up on work",
+        "catch up to someone"
       ],
       "synonyms": [
-        "unequivocal",
-        "direct",
-        "square",
-        "univocal"
+        "reconnect",
+        "update",
+        "network",
+        "reach",
+        "overtake"
+      ]
+    },
+    {
+      "word": "hang out",
+      "pronunciation": "/hæŋ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spend time relaxing or socializing with someone.",
+      "indonesian": "berkumpul, nongkrong",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "We usually hang out at the park on weekends.",
+      "collocations": [
+        "hang out with friends",
+        "hang out together",
+        "hang out at a place"
+      ],
+      "synonyms": [
+        "socialize",
+        "spend time",
+        "gather",
+        "mingle"
+      ]
+    },
+    {
+      "word": "figure out",
+      "pronunciation": "/ˈfɪɡər aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To understand or solve something.",
+      "indonesian": "memecahkan, mencari tahu",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I can't figure out how to use this new app.",
+      "collocations": [
+        "figure out a problem",
+        "figure out a way",
+        "figure out the meaning"
+      ],
+      "synonyms": [
+        "solve",
+        "understand",
+        "deduce",
+        "discern",
+        "comprehend"
+      ]
+    },
+    {
+      "word": "come up with",
+      "pronunciation": "/kʌm ʌp wɪð/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To think of an idea or a plan.",
+      "indonesian": "menemukan ide, mengemukakan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "She came up with a brilliant solution to the problem.",
+      "collocations": [
+        "come up with an idea",
+        "come up with a plan",
+        "come up with a suggestion",
+        "come up with a name"
+      ],
+      "synonyms": [
+        "invent",
+        "create",
+        "devise",
+        "conceive",
+        "generate"
+      ]
+    },
+    {
+      "word": "put off",
+      "pronunciation": "/pʊt ɒf/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To postpone something; to make someone dislike something or someone.",
+      "indonesian": "menunda; membuat tidak suka",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Don't put off your homework until the last minute.",
+      "collocations": [
+        "put off a meeting",
+        "put off a decision",
+        "put someone off",
+        "put off by something"
+      ],
+      "synonyms": [
+        "postpone",
+        "delay",
+        "adjourn",
+        "repel",
+        "discourage"
+      ]
+    },
+    {
+      "word": "get along",
+      "pronunciation": "/ɡet əˈlɔŋ/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To have a friendly relationship with someone.",
+      "indonesian": "bergaul baik, akur",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I really get along well with my colleagues.",
+      "collocations": [
+        "get along with someone",
+        "get along with each other",
+        "get along fine"
+      ],
+      "synonyms": [
+        "be compatible",
+        "be on good terms",
+        "be friendly",
+        "harmonize"
+      ]
+    },
+    {
+      "word": "look forward to",
+      "pronunciation": "/lʊk ˈfɔːrwərd tuː/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To feel pleased and excited about something that is going to happen.",
+      "indonesian": "menantikan",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "I'm really looking forward to my vacation next month.",
+      "collocations": [
+        "look forward to an event",
+        "look forward to seeing someone",
+        "look forward to the future"
+      ],
+      "synonyms": [
+        "anticipate",
+        "await",
+        "expect",
+        "be eager for"
       ]
     }
   ]

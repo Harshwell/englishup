@@ -1,64 +1,187 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: significant.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
-      "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "word": "articulate",
+      "pronunciation": "/ɑːˈtɪkjʊleɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to express an idea or feeling in a way that is clear and easy to understand",
+      "indonesian": "mengartikulasikan, menyuarakan",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "The speaker was able to articulate complex theories with remarkable clarity.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "articulate a point",
+        "articulate an idea",
+        "articulate a vision",
+        "articulate a concern"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "express",
+        "voice",
+        "utter",
+        "state",
+        "formulate"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: allocate.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "word": "comprehensive",
+      "pronunciation": "/ˌkɒmprɪˈhensɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "including or dealing with all or nearly all elements or aspects of something",
+      "indonesian": "komprehensif, menyeluruh",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "The report provided a comprehensive analysis of the economic situation.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "comprehensive study",
+        "comprehensive review",
+        "comprehensive understanding",
+        "comprehensive approach"
       ],
       "synonyms": [
-        "apportion"
+        "thorough",
+        "complete",
+        "extensive",
+        "all-inclusive",
+        "in-depth"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: enhance.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make something less severe, serious, or painful",
+      "indonesian": "meredakan, mengurangi",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "Governments are implementing policies to mitigate the effects of climate change.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "mitigate risk",
+        "mitigate damage",
+        "mitigate the impact",
+        "mitigate the effects"
       ],
       "synonyms": [
-        "raise",
-        "heighten"
+        "alleviate",
+        "reduce",
+        "lessen",
+        "ease",
+        "diminish"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model",
+      "indonesian": "paradigma, pola pikir",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The scientific community is awaiting a new paradigm to explain these phenomena.",
+      "collocations": [
+        "paradigm shift",
+        "scientific paradigm",
+        "intellectual paradigm",
+        "research paradigm"
+      ],
+      "synonyms": [
+        "model",
+        "pattern",
+        "framework",
+        "example",
+        "template"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere",
+      "indonesian": "ada di mana-mana, umum",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous access",
+        "ubiquitous nature"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread",
+        "common"
+      ]
+    },
+    {
+      "word": "advocate",
+      "pronunciation": "/ˈædvəkeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to publicly recommend or support",
+      "indonesian": "mendukung, menganjurkan",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "The organization advocates for stricter environmental regulations.",
+      "collocations": [
+        "advocate for",
+        "strongly advocate",
+        "publicly advocate",
+        "advocate change"
+      ],
+      "synonyms": [
+        "support",
+        "champion",
+        "endorse",
+        "promote",
+        "back"
+      ]
+    },
+    {
+      "word": "intrinsic",
+      "pronunciation": "/ɪnˈtrɪnsɪk/",
+      "partOfSpeech": "adjective",
+      "definition": "belonging naturally; essential",
+      "indonesian": "intrinsik, melekat",
+      "level": "B2/C1",
+      "ieltsBand": "7+",
+      "example": "The intrinsic value of education goes beyond its economic benefits.",
+      "collocations": [
+        "intrinsic motivation",
+        "intrinsic quality",
+        "intrinsic factor",
+        "intrinsic worth"
+      ],
+      "synonyms": [
+        "inherent",
+        "essential",
+        "fundamental",
+        "natural",
+        "built-in"
+      ]
+    },
+    {
+      "word": "pervasive",
+      "pronunciation": "/pərˈveɪsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "spreading widely throughout an area or a group of people",
+      "indonesian": "meresap, menyebar luas",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The influence of social media is pervasive in today's culture.",
+      "collocations": [
+        "pervasive influence",
+        "pervasive culture",
+        "pervasive problem",
+        "pervasive effect"
+      ],
+      "synonyms": [
+        "widespread",
+        "ubiquitous",
+        "extensive",
+        "rife",
+        "penetrating"
       ]
     }
   ]

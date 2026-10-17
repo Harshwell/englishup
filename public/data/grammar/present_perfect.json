@@ -1,25 +1,104 @@
 {
-  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": {
+    "tense": "Present Perfect",
+    "form": {
+      "positive": "Subject + have/has + past participle (V3)",
+      "negative": "Subject + have/has + not + past participle (V3)",
+      "question": "Have/Has + Subject + past participle (V3)?",
+      "shortAnswerYes": "Yes, Subject + have/has.",
+      "shortAnswerNo": "No, Subject + haven't/hasn't."
+    },
+    "meaning": "Connects the past with the present. It talks about actions or states that started in the past and continue to the present, or actions that happened in the past at an unspecified time but have a result in the present.",
+    "use": [
+      "Unfinished actions: To talk about actions or states that started in the past and continue up to now.",
+      "Finished actions with present relevance: To talk about actions that happened at an unspecified time in the past but have a result or connection to the present.",
+      "Life experiences: To talk about things that have or haven't happened in someone's life up to the present.",
+      "Recent past actions: Often used with 'just' to talk about very recent events."
+    ]
+  },
+  "explanation": "The Present Perfect tense is a crucial tense in English that links past events to the present moment. It's formed using the auxiliary verbs 'have' or 'has' (depending on the subject) followed by the past participle of the main verb.  We use 'have' with 'I', 'you', 'we', and 'they', and 'has' with 'he', 'she', and 'it'. The past participle is the third form of a verb (e.g., go - went - gone; eat - ate - eaten; play - played - played).  Understanding when to use the Present Perfect is key to expressing a range of meanings, from ongoing situations to completed actions with present consequences.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    "Use 'have' with I, you, we, they. Use 'has' with he, she, it.",
+    "The past participle is the third form of the verb (e.g., seen, done, written, worked). For regular verbs, the past participle is the same as the simple past (e.g., played, studied, arrived).",
+    "The tense emphasizes the connection between the past and the present, not the specific time the action occurred.",
+    "It is often used with time expressions like 'for', 'since', 'already', 'yet', 'just', 'ever', 'never', 'recently', 'lately'.",
+    "Do not use with specific past time expressions like 'yesterday', 'last week', 'two years ago' (these usually require the Simple Past)."
   ],
+  "azarNotes": "Think of the Present Perfect as a bridge. The past is one side, and the present is the other side. This tense helps us see how things from the past are still relevant or continuing now. For Indonesian learners, remember that Bahasa Indonesia doesn't have a direct equivalent, so focusing on the 'connection to the present' is the most important concept.",
   "examples": [
     {
-      "sentence": "Present Perfect appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Present Perfect muncul dalam tugas IELTS."
+      "sentence": "She has lived in Jakarta for ten years.",
+      "explanation": "Unfinished action. She started living in Jakarta ten years ago and still lives there now."
+    },
+    {
+      "sentence": "I have finished my homework.",
+      "explanation": "Finished action with present relevance. The homework is done, so now I can relax."
+    },
+    {
+      "sentence": "Have you ever visited Bali?",
+      "explanation": "Life experience. The question is about your entire life up to this moment."
+    },
+    {
+      "sentence": "They have just arrived.",
+      "explanation": "Recent past action. They arrived very recently."
+    },
+    {
+      "sentence": "He hasn't seen that movie yet.",
+      "explanation": "Unfinished situation or expectation. He still has the opportunity to see it."
     }
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Using Simple Past instead of Present Perfect with 'for' and 'since' (e.g., 'I lived here for 5 years' instead of 'I have lived here for 5 years').",
+    "Using Present Perfect with specific past time markers (e.g., 'I have seen him yesterday' instead of 'I saw him yesterday').",
+    "Incorrect past participle forms (e.g., 'I have went' instead of 'I have gone').",
+    "Confusing 'have' and 'has' with different subjects (e.g., 'He have a car' instead of 'He has a car')."
   ],
-  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 2, use the Present Perfect to discuss trends, changes over time, or the long-term impact of something. In Speaking, it's excellent for discussing your experiences, opinions, and how past events influence your present situation.  For example, 'I have always been interested in environmental issues, which is why I chose to study biology.'",
+  "quiz": [
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "I have seen him yesterday.",
+        "I saw him yesterday.",
+        "I has seen him yesterday."
+      ],
+      "answer": "I saw him yesterday."
+    },
+    {
+      "question": "Complete the sentence: She _______ lived in this city for a long time.",
+      "options": [
+        "have",
+        "has",
+        "is"
+      ],
+      "answer": "has"
+    },
+    {
+      "question": "What is the past participle of the verb 'write'?",
+      "options": [
+        "wrote",
+        "written",
+        "writing"
+      ],
+      "answer": "written"
+    },
+    {
+      "question": "Which tense connects the past with the present?",
+      "options": [
+        "Simple Past",
+        "Present Continuous",
+        "Present Perfect"
+      ],
+      "answer": "Present Perfect"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "We have finished our project.",
+        "We finished our project.",
+        "We has finished our project."
+      ],
+      "answer": "We have finished our project."
+    }
+  ]
 }

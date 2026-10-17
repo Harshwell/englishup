@@ -1,25 +1,147 @@
 {
-  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
-  "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+  "grammarChart": [
+    {
+      "category": "Indefinite Articles (a, an)",
+      "function": "Refer to a non-specific or singular countable noun.",
+      "form": "a + singular countable noun (starts with consonant sound)",
+      "form_an": "an + singular countable noun (starts with vowel sound)",
+      "meaning": "One of many, any one.",
+      "use": "Introduces a noun for the first time or refers to someone/something in a general, non-specific way."
+    },
+    {
+      "category": "Definite Article (the)",
+      "function": "Refer to a specific or particular noun, or a noun that is unique.",
+      "form": "the + singular or plural countable noun, or uncountable noun",
+      "meaning": "That specific one(s) already known or mentioned.",
+      "use": "Refers to something already mentioned, something unique, something understood from context, or when specifying a particular member of a group."
+    },
+    {
+      "category": "Zero Article (-)",
+      "function": "No article is used.",
+      "form": "-",
+      "meaning": "General, abstract, or plural nouns in a general sense.",
+      "use": "With plural nouns when referring to them generally, with uncountable nouns when referring to them generally, with abstract nouns generally, with proper nouns (names of people, most countries, cities, continents, streets, languages, academic subjects, meals, days, months, holidays)."
+    }
   ],
+  "explanation": "Articles are small words (a, an, the) that come before nouns. They tell us whether the noun is specific or non-specific.  Understanding their usage is crucial for clear communication and achieving a high IELTS band score. We also use the 'zero article' when no article is needed.",
+  "keyRules": [
+    "Use 'a' before words starting with a consonant sound (e.g., 'a book', 'a university' - 'university' starts with a 'y' sound).",
+    "Use 'an' before words starting with a vowel sound (e.g., 'an apple', 'an hour' - 'hour' starts with a vowel sound).",
+    "Use 'the' when the noun is specific, has been mentioned before, is unique, or is understood from the context.",
+    "Do not use an article with most proper nouns (names of people, places, languages, etc.).",
+    "Do not use an article with plural or uncountable nouns when referring to them in a general sense."
+  ],
+  "azarNotes": "Indonesian learners often struggle with articles because Indonesian doesn't have direct equivalents. Pay close attention to the distinction between specific and non-specific nouns.  The 'sound' of the first letter is more important than the letter itself when deciding between 'a' and 'an'. For example, 'a European country' (starts with 'y' sound) but 'an umbrella' (starts with 'u' sound).",
   "examples": [
     {
-      "sentence": "Articles appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Articles muncul dalam tugas IELTS."
+      "category": "Indefinite Articles (a, an)",
+      "sentence": "I saw **a** cat in the garden.",
+      "explanation": "The cat is not specific; it's just one of many cats."
+    },
+    {
+      "category": "Indefinite Articles (a, an)",
+      "sentence": "She is **an** excellent student.",
+      "explanation": "'Excellent' starts with a vowel sound."
+    },
+    {
+      "category": "Definite Article (the)",
+      "sentence": "I saw **a** cat in the garden. **The** cat was black.",
+      "explanation": "'The cat' refers to the specific cat already mentioned."
+    },
+    {
+      "category": "Definite Article (the)",
+      "sentence": "**The** sun is shining brightly today.",
+      "explanation": "'The sun' is unique."
+    },
+    {
+      "category": "Definite Article (the)",
+      "sentence": "Can you pass me **the** salt, please?",
+      "explanation": "Implies a specific salt shaker on the table, understood from context."
+    },
+    {
+      "category": "Zero Article (-)",
+      "sentence": "**Cats** are independent animals.",
+      "explanation": "Referring to cats in general."
+    },
+    {
+      "category": "Zero Article (-)",
+      "sentence": "I love **music**.",
+      "explanation": "Referring to music in general (uncountable)."
+    },
+    {
+      "category": "Zero Article (-)",
+      "sentence": "He lives in **Jakarta**.",
+      "explanation": "Proper noun (city name)."
+    },
+    {
+      "category": "Zero Article (-)",
+      "sentence": "She studies **English**.",
+      "explanation": "Proper noun (language)."
+    },
+    {
+      "category": "Zero Article (-)",
+      "sentence": "We had **lunch** at noon.",
+      "explanation": "Proper noun (meal)."
     }
   ],
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Using 'a' or 'an' with plural nouns (e.g., 'a books' instead of 'books').",
+    "Using 'the' with general statements (e.g., 'The dogs are loyal' when meaning dogs in general).",
+    "Incorrectly choosing between 'a' and 'an' based on the written letter, not the sound (e.g., 'a hour' instead of 'an hour').",
+    "Forgetting to use 'the' for unique items (e.g., 'Sun is hot' instead of 'The sun is hot').",
+    "Overusing articles with proper nouns (e.g., 'The John' or 'The Indonesia')."
   ],
-  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 2, you'll often need to use articles to discuss general concepts (zero article) and then specific examples (definite article). Pay attention to how native speakers use articles in listening materials to improve your own accuracy.",
+  "quiz": [
+    {
+      "question": "Please give me ______ advice.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "-"
+      ],
+      "correctAnswer": "-"
+    },
+    {
+      "question": "She is ______ honest person.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "-"
+      ],
+      "correctAnswer": "an"
+    },
+    {
+      "question": "______ Eiffel Tower is in Paris.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "-"
+      ],
+      "correctAnswer": "the"
+    },
+    {
+      "question": "I need to buy ______ new laptop.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "-"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "______ students in my class are very hardworking.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "-"
+      ],
+      "correctAnswer": "the"
+    }
+  ]
 }
