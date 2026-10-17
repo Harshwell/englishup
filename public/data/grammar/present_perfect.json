@@ -1,129 +1,25 @@
 {
-  "grammarChart": {
-    "title": "Present Perfect Tense",
-    "structure": {
-      "positive": "Subject + have/has + Past Participle (V3)",
-      "negative": "Subject + have/has + not + Past Participle (V3)",
-      "question": "Have/Has + Subject + Past Participle (V3)?"
-    },
-    "examples": {
-      "positive": "I have finished my homework.",
-      "negative": "She has not seen that movie before.",
-      "question": "Have you ever been to Bali?"
-    }
-  },
-  "explanation": "The Present Perfect tense is used to connect the past with the present. It talks about actions or states that started in the past and continue to the present, or actions that happened at an unspecified time in the past but have a result or relevance in the present.",
+  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
   "keyRules": [
-    {
-      "rule": "Formation: It is formed using the auxiliary verb 'have' or 'has' followed by the past participle of the main verb.",
-      "details": "'Have' is used with I, you, we, and they. 'Has' is used with he, she, and it."
-    },
-    {
-      "rule": "Usage 1: Unfinished Actions/States (Continuing to the Present).",
-      "details": "Used to talk about something that started in the past and is still true or happening now. Often used with 'for' (duration) and 'since' (starting point)."
-    },
-    {
-      "rule": "Usage 2: Completed Actions with Present Relevance.",
-      "details": "Used to talk about an action that happened at an unspecified time in the past, but the result or consequence is important now. The exact time of the action is not mentioned or is not important."
-    },
-    {
-      "rule": "Usage 3: Experiences.",
-      "details": "Used to talk about life experiences. The focus is on whether the experience has happened, not when."
-    },
-    {
-      "rule": "Usage 4: Recent Past Actions (with 'just', 'already', 'yet').",
-      "details": "'Just' indicates a very recent action. 'Already' indicates an action that happened sooner than expected. 'Yet' is used in negative sentences and questions to indicate something that has not happened but is expected to."
-    }
-  ],
-  "azarNotes": [
-    "Don't confuse Present Perfect with Simple Past. Simple Past refers to a completed action at a specific time in the past (e.g., 'I went to the cinema yesterday'). Present Perfect connects past to present (e.g., 'I have seen that movie' - implies you know what it's like now).",
-    "Pay attention to the past participle form of irregular verbs. For regular verbs, the past participle is the same as the simple past form (e.g., 'walked' - 'have walked').",
-    "The adverbs 'ever', 'never', 'always', 'often', 'sometimes', 'rarely', 'seldom', 'usually', 'recently', 'lately' are commonly used with the Present Perfect."
+    "Pahami pola dasar.",
+    "Perhatikan konteks.",
+    "Hindari terjemahan mentah.",
+    "Gunakan dalam writing dan speaking."
   ],
   "examples": [
     {
-      "sentence": "She has lived in Jakarta for five years.",
-      "tense": "Present Perfect",
-      "explanation": "Action started in the past (5 years ago) and continues to the present. 'For' indicates duration."
-    },
-    {
-      "sentence": "I have never eaten sushi before.",
-      "tense": "Present Perfect",
-      "explanation": "Talking about a life experience (or lack thereof). The time is not important, only the experience itself."
-    },
-    {
-      "sentence": "They have just arrived at the airport.",
-      "tense": "Present Perfect",
-      "explanation": "Action happened very recently, and its relevance is now (they are at the airport now)."
-    },
-    {
-      "sentence": "Has he finished his project yet?",
-      "tense": "Present Perfect",
-      "explanation": "Asking about a recent action that is expected to be completed. 'Yet' is used in questions."
-    },
-    {
-      "sentence": "We haven't seen this documentary yet.",
-      "tense": "Present Perfect",
-      "explanation": "Negative statement about a recent action that is expected to happen. 'Yet' is used in negative sentences."
-    },
-    {
-      "sentence": "The company has invested heavily in new technology.",
-      "tense": "Present Perfect",
-      "explanation": "An action in the past with a present result (the company now has new technology)."
+      "sentence": "Present Perfect appears in IELTS tasks.",
+      "note": "Use the structure accurately.",
+      "indonesian": "Present Perfect muncul dalam tugas IELTS."
     }
   ],
   "commonMistakes": [
-    "Using Simple Past instead of Present Perfect when the time is not specified or when there is a connection to the present. (e.g., Incorrect: 'I ate this cake yesterday.' Correct: 'I have eaten this cake before.')",
-    "Incorrect formation of the past participle, especially with irregular verbs. (e.g., Incorrect: 'She has went to the store.' Correct: 'She has gone to the store.')",
-    "Confusing 'for' and 'since'. 'For' is used with a period of time (e.g., 'for two hours'), while 'since' is used with a specific point in time (e.g., 'since 2020').",
-    "Using Present Perfect with definite past time markers (e.g., 'yesterday', 'last week', 'in 1999'). These require Simple Past."
-  ],
-  "ieltsTip": "In IELTS Writing Task 1 (Academic), you can use the Present Perfect to describe trends that started in the past and are still continuing, or to highlight significant changes that have occurred up to the present point. In Writing Task 2 and Speaking, it's useful for discussing experiences, achievements, or the current state of affairs resulting from past actions. For example, 'The number of tourists has increased significantly since 2010' or 'Many people have become more aware of environmental issues in recent years.'",
-  "quiz": [
     {
-      "question": "Choose the correct sentence:",
-      "options": [
-        "I have saw that movie last night.",
-        "I saw that movie last night.",
-        "I have seen that movie last night."
-      ],
-      "answer": "I saw that movie last night."
-    },
-    {
-      "question": "Complete the sentence: She _______ in this company _______ 2018.",
-      "options": [
-        "has worked, for",
-        "worked, since",
-        "has worked, since"
-      ],
-      "answer": "has worked, since"
-    },
-    {
-      "question": "Which sentence correctly uses 'yet'?",
-      "options": [
-        "He has already finished his work yet.",
-        "Has he finished his work yet?",
-        "He has not finished his work already."
-      ],
-      "answer": "Has he finished his work yet?"
-    },
-    {
-      "question": "Choose the correct past participle for 'go':",
-      "options": [
-        "goed",
-        "gone",
-        "going"
-      ],
-      "answer": "gone"
-    },
-    {
-      "question": "Complete the sentence: They _______ their keys. They can't get into the house.",
-      "options": [
-        "lost",
-        "have lost",
-        "lose"
-      ],
-      "answer": "have lost"
+      "wrong": "Learner guesses the form.",
+      "right": "Learner checks the structure first.",
+      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
     }
-  ]
+  ],
+  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
+  "quiz": []
 }

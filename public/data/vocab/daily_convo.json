@@ -1,163 +1,47 @@
 {
   "words": [
     {
-      "word": "Vibe",
-      "pronunciation": "/vaɪb/",
-      "partOfSpeech": "noun",
-      "definition": "The atmosphere or feeling of a place, person, or situation.",
-      "indonesian": "Suasana, getaran, nuansa",
+      "word": "reliable",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: reliable.",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "This cafe has a really relaxed vibe, perfect for studying.",
+      "ieltsBand": "6.5-7.0",
+      "example": "reliable is often used in formal and academic English.",
       "collocations": [
-        "good vibe",
-        "bad vibe",
-        "chill vibe",
-        "positive vibe",
-        "negative vibe",
-        "get the vibe"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "atmosphere",
-        "mood",
-        "feeling",
-        "aura"
-      ]
-    },
-    {
-      "word": "Craving",
-      "pronunciation": "/ˈkreɪvɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "A strong desire for something.",
-      "indonesian": "Keinginan kuat, dambaan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I have a serious craving for chocolate right now.",
-      "collocations": [
-        "have a craving for",
-        "intense craving",
-        "sudden craving"
-      ],
-      "synonyms": [
-        "desire",
-        "longing",
-        "urge",
-        "appetite"
-      ]
-    },
-    {
-      "word": "Chill Out",
-      "pronunciation": "/tʃɪl aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To relax and stop worrying.",
-      "indonesian": "Bersantai, menenangkan diri",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "You're getting too stressed about the exam. Just chill out a bit.",
-      "collocations": [
-        "chill out with friends",
-        "chill out at home"
-      ],
-      "synonyms": [
-        "relax",
-        "unwind",
-        "take it easy"
-      ]
-    },
-    {
-      "word": "Fomo",
-      "pronunciation": "/ˈfəʊməʊ/",
-      "partOfSpeech": "noun",
-      "definition": "Abbreviation for 'Fear Of Missing Out'. The feeling that you're missing out on something exciting that others are doing.",
-      "indonesian": "Ketakutan ketinggalan (sesuatu yang seru)",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "I had serious fomo when I saw all the photos from the party I couldn't attend.",
-      "collocations": [
-        "experience fomo",
-        "suffer from fomo"
-      ],
-      "synonyms": [
-        "anxiety about missing out"
-      ]
-    },
-    {
-      "word": "Hang Out",
-      "pronunciation": "/hæŋ aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To spend time relaxing or socializing with someone.",
-      "indonesian": "Bertemu, nongkrong, menghabiskan waktu bersama",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "We're going to hang out at the park this weekend.",
-      "collocations": [
-        "hang out with friends",
-        "hang out at a cafe"
-      ],
-      "synonyms": [
-        "socialize",
-        "spend time",
-        "get together"
-      ]
-    },
-    {
-      "word": "Legit",
-      "pronunciation": "/ˈlɛdʒɪt/",
-      "partOfSpeech": "adjective (informal)",
-      "definition": "Short for 'legitimate'. Meaning real, genuine, or excellent.",
-      "indonesian": "Sah, asli, asli banget, keren banget (informal)",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "That concert was legit amazing!",
-      "collocations": [
-        "totally legit",
-        "make it legit"
-      ],
-      "synonyms": [
-        "real",
-        "genuine",
+        "true",
         "authentic",
-        "excellent",
-        "awesome"
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Spill the Tea",
-      "pronunciation": "/spɪl ðə tiː/",
-      "partOfSpeech": "idiom",
-      "definition": "To share gossip or secret information.",
-      "indonesian": "Membocorkan gosip, menceritakan rahasia",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "Come on, spill the tea! What happened at the party last night?",
+      "word": "straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: straightforward.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
+      "level": "B2",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "spill the tea on someone",
-        "want to spill the tea"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "gossip",
-        "divulge secrets",
-        "tell tales"
-      ]
-    },
-    {
-      "word": "Woke",
-      "pronunciation": "/wəʊk/",
-      "partOfSpeech": "adjective (informal)",
-      "definition": "Aware of and actively attentive to important societal facts and issues, especially issues of racial and social justice.",
-      "indonesian": "Sadar akan isu sosial dan keadilan",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "She's very woke about environmental issues and always tries to reduce her carbon footprint.",
-      "collocations": [
-        "stay woke",
-        "be woke to"
-      ],
-      "synonyms": [
-        "aware",
-        "informed",
-        "conscious",
-        "enlightened"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]

@@ -1,171 +1,64 @@
 {
   "words": [
     {
-      "word": "ameliorate",
-      "pronunciation": "/əˈmiːliəreɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something bad or unsatisfactory better",
-      "indonesian": "memperbaiki, meningkatkan (keadaan buruk)",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The government implemented new policies to ameliorate the economic crisis.",
-      "collocations": [
-        "ameliorate the situation",
-        "ameliorate conditions",
-        "ameliorate poverty"
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "better",
-        "amend"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere",
-      "indonesian": "ada di mana-mana",
+      "word": "significant",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: significant.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society.",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous phenomenon"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "discrepancy",
-      "pronunciation": "/dɪˈskrɛpənsi/",
-      "partOfSpeech": "noun",
-      "definition": "a lack of compatibility or similarity between two or more facts",
-      "indonesian": "ketidaksesuaian, perbedaan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "There was a significant discrepancy between the reported figures and the actual results.",
-      "collocations": [
-        "a discrepancy between",
-        "a discrepancy in",
-        "resolve a discrepancy"
-      ],
-      "synonyms": [
-        "difference",
-        "disagreement",
-        "inconsistency",
-        "variation"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful",
-      "indonesian": "meredakan, mengurangi",
+      "word": "allocate",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: allocate.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Efforts were made to mitigate the environmental impact of the construction project.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "mitigate the effects of",
-        "mitigate risks",
-        "mitigate the damage"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "diminish"
+        "apportion"
       ]
     },
     {
-      "word": "prevalent",
-      "pronunciation": "/ˈprɛvələnt/",
-      "partOfSpeech": "adjective",
-      "definition": "common; widespread",
-      "indonesian": "umum, lazim",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Obesity is a prevalent health issue in many developed countries.",
-      "collocations": [
-        "prevalent in",
-        "prevalent among",
-        "prevalent trend"
-      ],
-      "synonyms": [
-        "common",
-        "widespread",
-        "rife",
-        "ubiquitous"
-      ]
-    },
-    {
-      "word": "substantiate",
-      "pronunciation": "/səbˈstænʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to provide evidence to support or prove the truth of something",
-      "indonesian": "membuktikan, menguatkan",
+      "word": "enhance",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: enhance.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The researcher failed to substantiate her claims with sufficient data.",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "substantiate a claim",
-        "substantiate the allegations",
-        "substantiate the findings"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "prove",
-        "verify",
-        "confirm",
-        "corroborate"
-      ]
-    },
-    {
-      "word": "conducive",
-      "pronunciation": "/kənˈdjuːsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "making a certain situation or outcome likely or possible",
-      "indonesian": "mendukung, menguntungkan",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "A quiet environment is conducive to effective studying.",
-      "collocations": [
-        "conducive to",
-        "conducive to learning",
-        "conducive to success"
-      ],
-      "synonyms": [
-        "favorable",
-        "beneficial",
-        "helpful",
-        "advantageous"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model",
-      "indonesian": "paradigma, pola",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The discovery of DNA represented a paradigm shift in biology.",
-      "collocations": [
-        "a paradigm shift",
-        "a new paradigm",
-        "a theoretical paradigm"
-      ],
-      "synonyms": [
-        "model",
-        "pattern",
-        "example",
-        "framework"
+        "raise",
+        "heighten"
       ]
     }
   ]
