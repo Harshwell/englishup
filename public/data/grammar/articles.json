@@ -1,127 +1,120 @@
 {
   "grammarChart": [
     {
-      "category": "Indefinite Articles (a, an)",
-      "function": "Refer to a non-specific or singular countable noun.",
-      "form": "a + singular countable noun (starts with consonant sound)",
-      "form_an": "an + singular countable noun (starts with vowel sound)",
-      "meaning": "One of many, any one.",
-      "use": "Introduces a noun for the first time or refers to someone/something in a general, non-specific way."
+      "article": "a",
+      "form": "Used before singular countable nouns that begin with a consonant sound.",
+      "meaning": "Indicates one of something, non-specific.",
+      "use": "To introduce a noun for the first time, to refer to a class of things, for professions, for expressions of quantity, for certain expressions of time/frequency."
     },
     {
-      "category": "Definite Article (the)",
-      "function": "Refer to a specific or particular noun, or a noun that is unique.",
-      "form": "the + singular or plural countable noun, or uncountable noun",
-      "meaning": "That specific one(s) already known or mentioned.",
-      "use": "Refers to something already mentioned, something unique, something understood from context, or when specifying a particular member of a group."
+      "article": "an",
+      "form": "Used before singular countable nouns that begin with a vowel sound.",
+      "meaning": "Indicates one of something, non-specific.",
+      "use": "To introduce a noun for the first time, to refer to a class of things, for professions, for expressions of quantity, for certain expressions of time/frequency."
     },
     {
-      "category": "Zero Article (-)",
-      "function": "No article is used.",
-      "form": "-",
-      "meaning": "General, abstract, or plural nouns in a general sense.",
-      "use": "With plural nouns when referring to them generally, with uncountable nouns when referring to them generally, with abstract nouns generally, with proper nouns (names of people, most countries, cities, continents, streets, languages, academic subjects, meals, days, months, holidays)."
+      "article": "the",
+      "form": "Used before singular or plural countable or uncountable nouns.",
+      "meaning": "Refers to a specific noun that is known to both the speaker/writer and the listener/reader.",
+      "use": "To refer to something already mentioned, unique things, things made specific by context, superlatives, certain geographical features, certain institutions/organizations, with 'same' and 'only'."
+    },
+    {
+      "article": "zero article (-)",
+      "form": "No article is used.",
+      "meaning": "General or abstract reference.",
+      "use": "With plural countable nouns in a general sense, with uncountable nouns in a general sense, with abstract nouns in a general sense, with most proper nouns (names of people, most countries, cities, continents, lakes, mountains), with certain set phrases (e.g., at home, in hospital, by car)."
     }
   ],
-  "explanation": "Articles are small words (a, an, the) that come before nouns. They tell us whether the noun is specific or non-specific.  Understanding their usage is crucial for clear communication and achieving a high IELTS band score. We also use the 'zero article' when no article is needed.",
+  "explanation": "Articles are small words (a, an, the) that come before nouns. They tell us whether the noun is specific or non-specific, singular or plural, and countable or uncountable. Understanding their correct usage is crucial for clear and accurate communication, especially in academic writing and speaking required for IELTS.",
   "keyRules": [
-    "Use 'a' before words starting with a consonant sound (e.g., 'a book', 'a university' - 'university' starts with a 'y' sound).",
-    "Use 'an' before words starting with a vowel sound (e.g., 'an apple', 'an hour' - 'hour' starts with a vowel sound).",
-    "Use 'the' when the noun is specific, has been mentioned before, is unique, or is understood from the context.",
-    "Do not use an article with most proper nouns (names of people, places, languages, etc.).",
-    "Do not use an article with plural or uncountable nouns when referring to them in a general sense."
+    "Use 'a' or 'an' with singular countable nouns when introducing them for the first time or when referring to any one of a group.",
+    "Use 'the' when referring to a specific noun that has already been mentioned, is unique, or is made clear by the context.",
+    "Use 'the' with unique items (e.g., the sun, the moon, the internet).",
+    "Use 'the' with superlatives (e.g., the best, the most interesting).",
+    "Do not use an article with most proper nouns (names of people, countries, cities, continents).",
+    "Do not use an article with plural countable nouns or uncountable nouns when speaking in a general sense.",
+    "Be mindful of exceptions for geographical names (e.g., the United States, the Alps, the Pacific Ocean) and certain institutions (e.g., the United Nations, the BBC)."
   ],
-  "azarNotes": "Indonesian learners often struggle with articles because Indonesian doesn't have direct equivalents. Pay close attention to the distinction between specific and non-specific nouns.  The 'sound' of the first letter is more important than the letter itself when deciding between 'a' and 'an'. For example, 'a European country' (starts with 'y' sound) but 'an umbrella' (starts with 'u' sound).",
+  "azarNotes": "Indonesian learners often struggle with articles because Indonesian does not have direct equivalents. The key is to focus on the concepts of 'specificity' and 'countability' in English, which are central to article usage. Pay close attention to how context clarifies or defines a noun.",
   "examples": [
     {
-      "category": "Indefinite Articles (a, an)",
       "sentence": "I saw **a** cat in the garden.",
-      "explanation": "The cat is not specific; it's just one of many cats."
+      "explanation": "'a cat' - introduces a cat for the first time, it's one cat, and it's not a specific cat."
     },
     {
-      "category": "Indefinite Articles (a, an)",
-      "sentence": "She is **an** excellent student.",
-      "explanation": "'Excellent' starts with a vowel sound."
+      "sentence": "I saw **an** elephant at the zoo.",
+      "explanation": "'an elephant' - uses 'an' because 'elephant' starts with a vowel sound. Introduces the elephant for the first time."
     },
     {
-      "category": "Definite Article (the)",
-      "sentence": "I saw **a** cat in the garden. **The** cat was black.",
-      "explanation": "'The cat' refers to the specific cat already mentioned."
+      "sentence": "The cat I saw yesterday was black.",
+      "explanation": "'The cat' - refers to a specific cat that was mentioned or is understood from context (the cat I saw yesterday)."
     },
     {
-      "category": "Definite Article (the)",
-      "sentence": "**The** sun is shining brightly today.",
-      "explanation": "'The sun' is unique."
+      "sentence": "She is **a** doctor.",
+      "explanation": "'a doctor' - used for professions."
     },
     {
-      "category": "Definite Article (the)",
-      "sentence": "Can you pass me **the** salt, please?",
-      "explanation": "Implies a specific salt shaker on the table, understood from context."
+      "sentence": "He wants **an** apple.",
+      "explanation": "'an apple' - used for expressions of quantity/one item."
     },
     {
-      "category": "Zero Article (-)",
-      "sentence": "**Cats** are independent animals.",
-      "explanation": "Referring to cats in general."
+      "sentence": "**The** sun is very bright today.",
+      "explanation": "'The sun' - refers to a unique celestial body."
     },
     {
-      "category": "Zero Article (-)",
-      "sentence": "I love **music**.",
-      "explanation": "Referring to music in general (uncountable)."
+      "sentence": "This is **the** best pizza I've ever eaten.",
+      "explanation": "'the best' - used with a superlative adjective."
     },
     {
-      "category": "Zero Article (-)",
-      "sentence": "He lives in **Jakarta**.",
-      "explanation": "Proper noun (city name)."
+      "sentence": "I like **dogs**.",
+      "explanation": "'- dogs' - zero article used with plural countable nouns in a general sense."
     },
     {
-      "category": "Zero Article (-)",
-      "sentence": "She studies **English**.",
-      "explanation": "Proper noun (language)."
+      "sentence": "**Water** is essential for life.",
+      "explanation": "'- Water' - zero article used with an uncountable noun in a general sense."
     },
     {
-      "category": "Zero Article (-)",
-      "sentence": "We had **lunch** at noon.",
-      "explanation": "Proper noun (meal)."
+      "sentence": "She lives in **London**.",
+      "explanation": "'- London' - zero article used with a city name (most proper nouns)."
+    },
+    {
+      "sentence": "He plays **football** every weekend.",
+      "explanation": "'- football' - zero article used with sports."
+    },
+    {
+      "sentence": "They are going to **the** United States.",
+      "explanation": "'the United States' - exception for countries with plural names or political designations."
     }
   ],
   "commonMistakes": [
-    "Using 'a' or 'an' with plural nouns (e.g., 'a books' instead of 'books').",
-    "Using 'the' with general statements (e.g., 'The dogs are loyal' when meaning dogs in general).",
-    "Incorrectly choosing between 'a' and 'an' based on the written letter, not the sound (e.g., 'a hour' instead of 'an hour').",
-    "Forgetting to use 'the' for unique items (e.g., 'Sun is hot' instead of 'The sun is hot').",
-    "Overusing articles with proper nouns (e.g., 'The John' or 'The Indonesia')."
+    "Using 'a/an' with plural nouns (e.g., 'a dogs' instead of 'dogs' or 'some dogs').",
+    "Using 'a/an' with uncountable nouns (e.g., 'a water' instead of 'water' or 'some water').",
+    "Forgetting 'the' with unique items (e.g., 'Sun is hot' instead of 'The sun is hot').",
+    "Using 'the' with general plural or uncountable nouns (e.g., 'The dogs are friendly' when referring to dogs in general, instead of 'Dogs are friendly').",
+    "Incorrectly using 'the' with most country names (e.g., 'the Indonesia' instead of 'Indonesia').",
+    "Omitting 'the' when referring to something specific or previously mentioned (e.g., 'I bought a book. The book is interesting.' - omitting 'the' before 'book' in the second sentence)."
   ],
-  "ieltsTip": "In IELTS Writing Task 2, you'll often need to use articles to discuss general concepts (zero article) and then specific examples (definite article). Pay attention to how native speakers use articles in listening materials to improve your own accuracy.",
+  "ieltsTip": "In IELTS Writing Task 2 and Speaking, focus on using articles correctly to demonstrate your command of English. Pay attention to whether you are referring to something specific or general. For example, when discussing societal issues, use the zero article for general concepts (e.g., 'Education is important') and 'the' when referring to a specific educational system or policy.",
   "quiz": [
     {
-      "question": "Please give me ______ advice.",
+      "question": "Please pass me ______ salt.",
       "options": [
         "a",
         "an",
         "the",
         "-"
       ],
-      "correctAnswer": "-"
+      "answer": "the"
     },
     {
-      "question": "She is ______ honest person.",
+      "question": "She is studying to become ______ engineer.",
       "options": [
         "a",
         "an",
         "the",
         "-"
       ],
-      "correctAnswer": "an"
-    },
-    {
-      "question": "______ Eiffel Tower is in Paris.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "correctAnswer": "the"
+      "answer": "an"
     },
     {
       "question": "I need to buy ______ new laptop.",
@@ -131,17 +124,27 @@
         "the",
         "-"
       ],
-      "correctAnswer": "a"
+      "answer": "a"
     },
     {
-      "question": "______ students in my class are very hardworking.",
+      "question": "______ happiness is important for everyone.",
       "options": [
         "a",
         "an",
         "the",
         "-"
       ],
-      "correctAnswer": "the"
+      "answer": "-"
+    },
+    {
+      "question": "We visited ______ Eiffel Tower last summer.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "-"
+      ],
+      "answer": "the"
     }
   ]
 }

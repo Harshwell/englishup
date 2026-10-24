@@ -1,180 +1,179 @@
 {
   "words": [
     {
-      "word": "hassle",
-      "pronunciation": "/ˈhæsəl/",
-      "partOfSpeech": "noun",
-      "definition": "Annoyance or inconvenience; a situation causing difficulty or trouble.",
-      "indonesian": "kerepotan, keributan",
+      "word": "Genuinely",
+      "pronunciation": "/ˈdʒen.ju.ɪn.li/",
+      "partOfSpeech": "adverb",
+      "definition": "In a sincere and honest way; truly.",
+      "indonesian": "Secara tulus; benar-benar",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Finding parking in the city center is such a hassle.",
+      "ieltsBand": "7.0+",
+      "example": "I was genuinely surprised by the news, I had no idea they were getting married.",
       "collocations": [
-        "a lot of hassle",
-        "avoid the hassle",
-        "deal with the hassle",
-        "minor hassle"
+        "genuinely surprised",
+        "genuinely interested",
+        "genuinely concerned",
+        "genuinely believe"
       ],
       "synonyms": [
-        "inconvenience",
-        "trouble",
-        "bother",
-        "annoyance",
-        "difficulty"
+        "truly",
+        "honestly",
+        "sincerely",
+        "really",
+        "actually"
       ]
     },
     {
-      "word": "catch up",
-      "pronunciation": "/kætʃ ʌp/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To reach someone or something by moving faster than they do; to update someone on recent events.",
-      "indonesian": "mengejar ketinggalan, bertukar kabar",
+      "word": "Appreciate",
+      "pronunciation": "/əˈpriː.ʃi.eɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To be grateful for something; to understand the value or significance of something.",
+      "indonesian": "Menghargai; mengerti nilai",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I haven't seen her in ages, I need to catch up with her soon.",
+      "ieltsBand": "7.0+",
+      "example": "I really appreciate you taking the time to help me with my resume.",
       "collocations": [
-        "catch up on news",
-        "catch up with friends",
-        "catch up on work",
-        "catch up to someone"
+        "appreciate the effort",
+        "appreciate the help",
+        "appreciate the gesture",
+        "appreciate the opportunity"
       ],
       "synonyms": [
-        "reconnect",
-        "update",
-        "network",
-        "reach",
-        "overtake"
+        "value",
+        "be grateful for",
+        "recognize",
+        "esteem"
       ]
     },
     {
-      "word": "hang out",
-      "pronunciation": "/hæŋ aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To spend time relaxing or socializing with someone.",
-      "indonesian": "berkumpul, nongkrong",
+      "word": "Fascinating",
+      "pronunciation": "/ˈfæs.ɪ.neɪ.tɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely interesting.",
+      "indonesian": "Sangat menarik",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "We usually hang out at the park on weekends.",
+      "ieltsBand": "7.0+",
+      "example": "The documentary about ancient civilizations was absolutely fascinating.",
       "collocations": [
-        "hang out with friends",
-        "hang out together",
-        "hang out at a place"
+        "fascinating story",
+        "fascinating fact",
+        "fascinating experience",
+        "fascinating lecture"
       ],
       "synonyms": [
-        "socialize",
-        "spend time",
-        "gather",
-        "mingle"
+        "captivating",
+        "engrossing",
+        "intriguing",
+        "compelling"
       ]
     },
     {
-      "word": "figure out",
-      "pronunciation": "/ˈfɪɡər aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To understand or solve something.",
-      "indonesian": "memecahkan, mencari tahu",
+      "word": "Underestimate",
+      "pronunciation": "/ˌʌn.dərˈes.tɪ.meɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To estimate (something) too cheaply or too lowly.",
+      "indonesian": "Meremehkan",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I can't figure out how to use this new app.",
+      "ieltsBand": "7.0+",
+      "example": "Don't underestimate the difficulty of this task; it requires a lot of preparation.",
       "collocations": [
-        "figure out a problem",
-        "figure out a way",
-        "figure out the meaning"
+        "underestimate the challenge",
+        "underestimate the importance",
+        "underestimate the effort",
+        "underestimate the impact"
       ],
       "synonyms": [
-        "solve",
-        "understand",
-        "deduce",
-        "discern",
-        "comprehend"
+        "underrate",
+        "play down",
+        "belittle"
       ]
     },
     {
-      "word": "come up with",
-      "pronunciation": "/kʌm ʌp wɪð/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To think of an idea or a plan.",
-      "indonesian": "menemukan ide, mengemukakan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "She came up with a brilliant solution to the problem.",
+      "word": "Insightful",
+      "pronunciation": "/ˈɪn.saɪt.fəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Having or showing an accurate and deep understanding; perceptive.",
+      "indonesian": "Berwawasan luas; tajam pengamatan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Her insightful comments during the meeting helped us to see the problem from a new perspective.",
       "collocations": [
-        "come up with an idea",
-        "come up with a plan",
-        "come up with a suggestion",
-        "come up with a name"
+        "insightful analysis",
+        "insightful observation",
+        "insightful advice",
+        "insightful perspective"
       ],
       "synonyms": [
-        "invent",
-        "create",
-        "devise",
-        "conceive",
-        "generate"
+        "perceptive",
+        "shrewd",
+        "wise",
+        "discerning"
       ]
     },
     {
-      "word": "put off",
-      "pronunciation": "/pʊt ɒf/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To postpone something; to make someone dislike something or someone.",
-      "indonesian": "menunda; membuat tidak suka",
+      "word": "Navigate",
+      "pronunciation": "/ˈnæv.ɪ.ɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To plan and direct the course of a ship, aircraft, or other form of transport, especially by using instruments or maps; to find a way through a complex situation or system.",
+      "indonesian": "Menavigasi; mengarungi (situasi sulit)",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Don't put off your homework until the last minute.",
+      "ieltsBand": "7.0+",
+      "example": "It can be difficult to navigate the complexities of the legal system.",
       "collocations": [
-        "put off a meeting",
-        "put off a decision",
-        "put someone off",
-        "put off by something"
+        "navigate the system",
+        "navigate the market",
+        "navigate the challenges",
+        "navigate the bureaucracy"
       ],
       "synonyms": [
-        "postpone",
-        "delay",
-        "adjourn",
-        "repel",
-        "discourage"
+        "guide",
+        "steer",
+        "manage",
+        "handle"
       ]
     },
     {
-      "word": "get along",
-      "pronunciation": "/ɡet əˈlɔŋ/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To have a friendly relationship with someone.",
-      "indonesian": "bergaul baik, akur",
+      "word": "Crucial",
+      "pronunciation": "/ˈkruː.ʃəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely important or necessary.",
+      "indonesian": "Sangat penting; krusial",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I really get along well with my colleagues.",
+      "ieltsBand": "7.0+",
+      "example": "Getting enough sleep is crucial for maintaining good health.",
       "collocations": [
-        "get along with someone",
-        "get along with each other",
-        "get along fine"
+        "crucial role",
+        "crucial moment",
+        "crucial decision",
+        "crucial factor"
       ],
       "synonyms": [
-        "be compatible",
-        "be on good terms",
-        "be friendly",
-        "harmonize"
+        "vital",
+        "essential",
+        "important",
+        "key"
       ]
     },
     {
-      "word": "look forward to",
-      "pronunciation": "/lʊk ˈfɔːrwərd tuː/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To feel pleased and excited about something that is going to happen.",
-      "indonesian": "menantikan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I'm really looking forward to my vacation next month.",
+      "word": "Elaborate",
+      "pronunciation": "/ɪˈlæb.ər.eɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To develop or present (a theory, policy, or system) in detail.",
+      "indonesian": "Menguraikan; menjelaskan secara rinci",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Could you please elaborate on your proposal? I'm not sure I fully understand it.",
       "collocations": [
-        "look forward to an event",
-        "look forward to seeing someone",
-        "look forward to the future"
+        "elaborate on",
+        "elaborate a plan",
+        "elaborate a theory",
+        "elaborate on the details"
       ],
       "synonyms": [
-        "anticipate",
-        "await",
-        "expect",
-        "be eager for"
+        "explain",
+        "detail",
+        "expand",
+        "develop"
       ]
     }
   ]

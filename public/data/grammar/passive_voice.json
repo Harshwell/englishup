@@ -1,139 +1,145 @@
 {
   "grammarChart": {
-    "title": "Passive Voice: Be + Past Participle",
-    "structure": "Subject + be (am/is/are/was/were/been/being) + Past Participle (V3)",
-    "purpose": "To emphasize the action or the receiver of the action, rather than the doer.",
-    "forms": [
+    "title": "Passive Voice (be + past participle)",
+    "tenses": [
       {
         "tense": "Present Simple",
-        "passive": "is/are + V3",
-        "example": "The book is written by her."
+        "active": "Subject + Verb (s/es)",
+        "passive": "Subject + am/is/are + Past Participle"
       },
       {
         "tense": "Past Simple",
-        "passive": "was/were + V3",
-        "example": "The house was built last year."
+        "active": "Subject + Verb (ed/irregular)",
+        "passive": "Subject + was/were + Past Participle"
       },
       {
         "tense": "Present Continuous",
-        "passive": "is/are + being + V3",
-        "example": "The cake is being baked now."
+        "active": "Subject + am/is/are + Verb-ing",
+        "passive": "Subject + am/is/are + being + Past Participle"
       },
       {
         "tense": "Past Continuous",
-        "passive": "was/were + being + V3",
-        "example": "The report was being prepared when I arrived."
+        "active": "Subject + was/were + Verb-ing",
+        "passive": "Subject + was/were + being + Past Participle"
       },
       {
         "tense": "Present Perfect",
-        "passive": "has/have + been + V3",
-        "example": "The project has been completed."
+        "active": "Subject + has/have + Past Participle",
+        "passive": "Subject + has/have + been + Past Participle"
       },
       {
         "tense": "Past Perfect",
-        "passive": "had + been + V3",
-        "example": "The problem had been solved before the meeting."
+        "active": "Subject + had + Past Participle",
+        "passive": "Subject + had + been + Past Participle"
       },
       {
-        "tense": "Future Simple",
-        "passive": "will be + V3",
-        "example": "The results will be announced tomorrow."
+        "tense": "Future Simple (will)",
+        "active": "Subject + will + Verb",
+        "passive": "Subject + will be + Past Participle"
       },
       {
-        "tense": "Modal Verbs",
-        "passive": "modal + be + V3",
-        "example": "The work must be finished by Friday."
+        "tense": "Future Simple (going to)",
+        "active": "Subject + am/is/are + going to + Verb",
+        "passive": "Subject + am/is/are + going to be + Past Participle"
+      },
+      {
+        "tense": "Modals",
+        "active": "Subject + Modal + Verb",
+        "passive": "Subject + Modal + be + Past Participle"
       }
     ]
   },
-  "explanation": "The passive voice is used when we want to focus on the action itself or the object that receives the action, rather than the person or thing performing the action (the agent). In English, the passive voice is formed using a form of the verb 'to be' (am, is, are, was, were, been, being) followed by the past participle of the main verb (the V3 form).  For example, in the active sentence 'The chef prepares the meal,' the focus is on 'the chef.' In the passive sentence 'The meal is prepared by the chef,' the focus shifts to 'the meal.' The agent ('by the chef') can often be omitted if it is unknown, unimportant, or obvious.",
+  "explanation": "The passive voice is used when the focus is on the action or the object of the action, rather than the person or thing performing the action. It is formed using a form of the verb 'to be' (am, is, are, was, were, be, being, been) followed by the past participle of the main verb. In Indonesian, this often corresponds to structures using 'di-' or 'ter-'. Understanding the passive voice is crucial for achieving a higher band score in IELTS writing and speaking, as it allows for more sophisticated sentence structures and a more formal tone.",
   "keyRules": [
-    "Identify the object of the active sentence; it becomes the subject of the passive sentence.",
-    "Use the appropriate tense of the verb 'to be' that matches the original active sentence's tense.",
-    "Add the past participle (V3) of the main verb.",
-    "If the agent (the doer of the action) is important, it can be introduced with the preposition 'by'.",
-    "The passive voice is particularly useful in formal writing, scientific reports, news articles, and when the agent is unknown or irrelevant."
+    "Identify the object of the active sentence; this becomes the subject of the passive sentence.",
+    "Use the correct form of 'to be' according to the tense of the original active verb.",
+    "Use the past participle of the main verb.",
+    "The original subject (agent) can be omitted or included using 'by' if it is unknown, unimportant, or obvious."
   ],
-  "azarNotes": "Think of 'be' as a 'helper' verb that changes its form to show the tense, and the past participle as the 'main action' word that stays the same regardless of tense.  For example, 'write' becomes 'written' in all passive forms: 'is written,' 'was written,' 'has been written.'  Remember the irregular past participles!",
+  "azarNotes": "Many Indonesian learners find the passive voice challenging because it's not always directly equivalent to the 'di-' or 'ter-' constructions. Pay close attention to the tense and the subject-verb agreement in English passive sentences. The past participle is a specific form of the verb; make sure you know it for regular and irregular verbs.",
   "examples": [
     {
-      "active": "The students completed the assignment.",
-      "passive": "The assignment was completed by the students."
+      "active": "The company produces one million cars every year.",
+      "passive": "One million cars are produced by the company every year."
     },
     {
-      "active": "Scientists are conducting research.",
-      "passive": "Research is being conducted by scientists."
+      "active": "The chef prepared a delicious meal.",
+      "passive": "A delicious meal was prepared by the chef."
     },
     {
-      "active": "The company will launch a new product next month.",
-      "passive": "A new product will be launched by the company next month."
+      "active": "They are building a new bridge across the river.",
+      "passive": "A new bridge is being built across the river."
     },
     {
-      "active": "Someone stole my bicycle yesterday.",
-      "passive": "My bicycle was stolen yesterday."
+      "active": "He had already finished the report by then.",
+      "passive": "The report had already been finished by him by then."
     },
     {
-      "active": "The government has implemented new policies.",
-      "passive": "New policies have been implemented by the government."
+      "active": "We will announce the results tomorrow.",
+      "passive": "The results will be announced tomorrow."
+    },
+    {
+      "active": "You should clean your room.",
+      "passive": "Your room should be cleaned."
     }
   ],
   "commonMistakes": [
-    "Using the base form or -ing form instead of the past participle (e.g., 'The book is write' instead of 'The book is written').",
-    "Incorrectly forming the 'be' verb for the tense (e.g., 'The report were finished' instead of 'The report was finished').",
-    "Overusing the passive voice, making the writing sound unnatural or indirect.",
-    "Forgetting to include 'be' when forming the passive (e.g., 'The cake baked by my mother' instead of 'The cake was baked by my mother')."
+    "Using the wrong form of 'to be' (e.g., 'Cars is produced' instead of 'Cars are produced').",
+    "Using the present participle instead of the past participle (e.g., 'Cars being produced' instead of 'Cars are produced').",
+    "Incorrectly identifying the object of the active sentence.",
+    "Overusing the passive voice, which can make writing sound unnatural or evasive."
   ],
-  "ieltsTip": "In IELTS Writing Task 2, the passive voice is very useful for discussing general issues, societal problems, or when you want to sound more objective and formal. For example, instead of saying 'I think people should recycle more,' you can say 'Recycling should be encouraged.' This sounds more academic and less personal.  However, don't overuse it; a balance with the active voice makes your writing more engaging.",
+  "ieltsTip": "In IELTS Writing Task 2, the passive voice is often useful for introducing a topic, discussing general issues, or when the agent is not important (e.g., 'It is believed that...', 'Research has shown that...'). In Task 1, it's frequently used to describe processes where the steps are more important than who performs them (e.g., 'Water is heated...', 'The mixture is then stirred...'). Aim for a balance; don't overuse it.",
   "quiz": [
     {
-      "question": "Choose the correct passive form: The famous novel _______ by a renowned author.",
+      "question": "The book _________ by a famous author.",
       "options": [
+        "write",
+        "writes",
         "is written",
-        "wrote",
-        "is writing",
-        "written"
+        "is writing"
       ],
-      "answer": "is written"
+      "correct_answer": "is written"
     },
     {
-      "question": "Transform the active sentence into passive: 'The chef prepared a delicious meal.'",
+      "question": "Last night, the window _________ by the wind.",
       "options": [
-        "A delicious meal prepared by the chef.",
-        "A delicious meal was preparing by the chef.",
-        "A delicious meal was prepared by the chef.",
-        "A delicious meal is prepared by the chef."
+        "was broken",
+        "broke",
+        "was breaking",
+        "had broken"
       ],
-      "answer": "A delicious meal was prepared by the chef."
+      "correct_answer": "was broken"
     },
     {
-      "question": "Choose the correct passive form: The report _______ by the committee tomorrow.",
+      "question": "The new policy _________ next month.",
       "options": [
-        "will reviewed",
-        "will be reviewed",
-        "is reviewed",
-        "has reviewed"
+        "will implement",
+        "will be implemented",
+        "is implementing",
+        "is implemented"
       ],
-      "answer": "will be reviewed"
+      "correct_answer": "will be implemented"
     },
     {
-      "question": "Identify the tense in the passive sentence: 'The results have been announced.'",
+      "question": "The entire project _________ by the time the deadline arrived.",
       "options": [
-        "Past Simple",
-        "Present Continuous",
-        "Present Perfect",
-        "Future Simple"
+        "had finished",
+        "had been finished",
+        "was finished",
+        "finished"
       ],
-      "answer": "Present Perfect"
+      "correct_answer": "had been finished"
     },
     {
-      "question": "Transform the active sentence into passive: 'The students are completing the project.'",
+      "question": "Important decisions _________ by the committee.",
       "options": [
-        "The project is completed by the students.",
-        "The project is being completed by the students.",
-        "The project was being completed by the students.",
-        "The project has been completed by the students."
+        "is made",
+        "are making",
+        "are made",
+        "make"
       ],
-      "answer": "The project is being completed by the students."
+      "correct_answer": "are made"
     }
   ]
 }

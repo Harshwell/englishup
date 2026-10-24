@@ -1,184 +1,126 @@
 [
   {
-    "title": "AI's Evolving Role in the Classroom",
-    "topic": "Artificial Intelligence and Education",
-    "difficulty": "Intermediate",
-    "passage": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly integrating into various aspects of our lives, including education.  For educators and students alike, AI promises a future where learning is more personalized, efficient, and accessible. One of the most significant impacts of AI in education is its ability to tailor learning experiences to individual student needs.  AI-powered platforms can analyze a student's performance, identify areas of weakness, and then provide targeted resources and exercises. This adaptive learning approach ensures that students are neither bored by material they already understand nor overwhelmed by concepts they are not yet ready for.  Furthermore, AI can automate many administrative tasks that often consume valuable teacher time. Grading assignments, scheduling appointments, and managing student data are all areas where AI can significantly reduce the workload, allowing teachers to focus more on direct instruction and student interaction.\n\nBeyond personalization and administrative support, AI is also transforming the way educational content is delivered. Intelligent tutoring systems, for instance, can offer students immediate feedback and guidance, acting as a virtual tutor available 24/7.  These systems can explain complex concepts in different ways, answer questions, and even simulate real-world scenarios for hands-on learning.  The potential for AI to bridge geographical and socioeconomic divides is also noteworthy. Online AI-driven courses can reach students in remote areas or those who face barriers to traditional schooling, democratizing access to quality education.  However, the widespread adoption of AI in education is not without its challenges. Concerns about data privacy, the potential for algorithmic bias, and the need for significant investment in technology and teacher training are all critical issues that must be addressed.  Moreover, the role of the human teacher remains paramount. AI should be viewed as a tool to augment, not replace, the invaluable human connection, empathy, and critical thinking skills that educators foster.",
-    "vocabulary": [
-      {
-        "word": "confined",
-        "meaning": "limited to or restricted to a particular place or area."
-      },
-      {
-        "word": "integrating",
-        "meaning": "combining one thing with another so that they become a whole."
-      },
-      {
-        "word": "personalized",
-        "meaning": "made or designed for a particular person."
-      },
-      {
-        "word": "tailor",
-        "meaning": "to make or adapt something for a specific purpose or person."
-      },
-      {
-        "word": "adaptive learning",
-        "meaning": "an educational method that uses technology to adjust the learning experience to the individual learner's needs."
-      },
-      {
-        "word": "automate",
-        "meaning": "to convert a manual process into one performed by automatic machinery."
-      },
-      {
-        "word": "consume",
-        "meaning": "to use up time, energy, or resources."
-      },
-      {
-        "word": "augment",
-        "meaning": "to make (something) greater by adding to it; increase."
-      },
-      {
-        "word": "paramount",
-        "meaning": "more important than anything else; supreme."
-      },
-      {
-        "word": "democratizing",
-        "meaning": "make (something) accessible to everyone."
-      }
-    ],
-    "questions": [
-      {
-        "id": 1,
-        "type": "multiple_choice",
-        "question": "According to the passage, what is one of the primary benefits of AI in education for students?",
-        "options": [
-          "It reduces the need for human teachers.",
-          "It makes learning more standardized for everyone.",
-          "It customizes the learning experience to individual needs.",
-          "It eliminates the need for grading assignments."
-        ],
-        "correct_answer": "It customizes the learning experience to individual needs."
-      },
-      {
-        "id": 2,
-        "type": "true_false_not_given",
-        "question": "AI can help teachers by taking over administrative duties, allowing them to focus more on teaching.",
-        "answer": "True"
-      },
-      {
-        "id": 3,
-        "type": "short_answer",
-        "question": "What type of AI system can provide students with immediate feedback and act as a virtual tutor?",
-        "answer": "Intelligent tutoring systems"
-      },
-      {
-        "id": 4,
-        "type": "multiple_choice",
-        "question": "Which of the following is NOT mentioned as a challenge associated with AI in education?",
-        "options": [
-          "Data privacy concerns",
-          "The cost of implementing new technologies",
-          "A lack of interest from students",
-          "Potential for algorithmic bias"
-        ],
-        "correct_answer": "A lack of interest from students"
-      },
-      {
-        "id": 5,
-        "type": "true_false_not_given",
-        "question": "The passage suggests that AI is intended to completely replace human teachers in the future.",
-        "answer": "False"
-      }
-    ],
-    "ieltsTips": [
-      "When answering True/False/Not Given questions, pay close attention to the wording. 'False' means the passage directly contradicts the statement. 'Not Given' means the information is not present in the passage.",
-      "For multiple-choice questions, read the question carefully and identify keywords. Then, scan the passage for those keywords or related ideas. Eliminate options that are clearly incorrect.",
-      "For short-answer questions, look for specific details or names mentioned in the passage that directly answer the question. Keep your answers concise and to the point.",
-      "Don't be afraid to look up unfamiliar vocabulary. Understanding the meaning of key terms will significantly improve your comprehension of the passage.",
-      "Practice reading at a steady pace. For IELTS Reading, time management is crucial. Aim to complete each passage within approximately 20 minutes."
-    ]
-  },
-  {
-    "title": "Working from Home: A New Way to Be Productive",
+    "title": "Working from Home: Good or Bad for Getting Things Done?",
     "topic": "Remote Work and Productivity",
     "difficulty": "Beginner",
-    "passage": "Many companies are now letting their employees work from home. This is called remote work.  Some people think working from home makes them more productive.  They have fewer distractions than in a busy office.  For example, they don't have to listen to loud conversations or people walking around.  They can also create a quiet space that is perfect for their work.  This means they can focus better and get more done.  However, not everyone finds remote work easy.  Some people miss talking to their colleagues in person.  They might also find it hard to separate their work life from their home life.  It's important for companies and workers to find what works best for them.",
+    "passage": "Many companies now allow their employees to work from home. This is called remote work. Some people think working from home is great because they can save time on commuting, which is traveling to and from the office. They might also feel more comfortable in their own homes. This can lead to more focus and better productivity, meaning they get more work done. \n\nHowever, working from home can also have challenges. It can be difficult to separate work life from home life. Some people find it hard to stay motivated without their colleagues around. Distractions at home, like family or household chores, can also make it harder to concentrate. For some jobs, being in the office is important for collaboration, which means working together with others. \n\nStudies have shown mixed results about remote work and productivity. Some research suggests that remote workers are more productive because they have fewer interruptions. Others find that productivity can decrease when people work alone at home. The best approach might depend on the person, the job, and the company's support for remote employees. Clear communication and setting boundaries are often key to making remote work successful.",
     "vocabulary": [
       {
         "word": "remote work",
-        "meaning": "working from a location away from the main office, usually home"
+        "meaning": "working from a location other than the main office, usually home"
       },
       {
-        "word": "productive",
-        "meaning": "achieving a lot; efficient"
+        "word": "productivity",
+        "meaning": "the rate at which goods are produced or work is completed"
       },
       {
-        "word": "distractions",
-        "meaning": "things that stop you from concentrating"
+        "word": "commuting",
+        "meaning": "the regular journey between one's home and place of work"
       },
       {
-        "word": "colleagues",
-        "meaning": "people you work with"
+        "word": "focus",
+        "meaning": "attention on a particular thing"
+      },
+      {
+        "word": "challenges",
+        "meaning": "difficulties or problems"
       },
       {
         "word": "separate",
-        "meaning": "to keep things apart"
+        "meaning": "to divide or keep apart"
+      },
+      {
+        "word": "motivated",
+        "meaning": "having a strong reason to do something"
+      },
+      {
+        "word": "distractions",
+        "meaning": "things that prevent someone from giving full attention to something"
+      },
+      {
+        "word": "concentrate",
+        "meaning": "to focus all of one's attention on a particular object or activity"
+      },
+      {
+        "word": "collaboration",
+        "meaning": "the action of working with someone to produce or create something"
+      },
+      {
+        "word": "mixed results",
+        "meaning": "different or not clear outcomes"
+      },
+      {
+        "word": "interruptions",
+        "meaning": "things that stop someone or something from continuing"
+      },
+      {
+        "word": "boundaries",
+        "meaning": "limits or guidelines"
+      },
+      {
+        "word": "successful",
+        "meaning": "achieving the results wanted or hoped for"
       }
     ],
     "questions": [
       {
-        "id": 1,
         "type": "multiple_choice",
-        "question": "What is another name for working from home?",
+        "question": "What is 'remote work'?",
         "options": [
-          "Office work",
-          "Remote work",
-          "Team work",
-          "Busy work"
+          "Working in a busy office",
+          "Working from home or another place",
+          "Traveling to different countries for work",
+          "Attending many meetings"
         ],
-        "answer": "Remote work"
+        "answer": "Working from home or another place"
       },
       {
-        "id": 2,
         "type": "true_false_not_given",
-        "question": "According to the passage, remote work always makes people more productive.",
+        "question": "Saving time on commuting is a benefit of remote work.",
+        "answer": "True"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is mentioned as a challenge of working from home?",
+        "options": [
+          "Too much collaboration",
+          "Difficulty separating work and home life",
+          "Too many colleagues around",
+          "Saving money on office supplies"
+        ],
+        "answer": "Difficulty separating work and home life"
+      },
+      {
+        "type": "true_false_not_given",
+        "question": "Studies show that remote work always increases productivity.",
         "answer": "False"
       },
       {
-        "id": 3,
-        "type": "short_answer",
-        "question": "What is one reason the passage gives for why people might be more productive at home?",
-        "answer": "Fewer distractions"
-      },
-      {
-        "id": 4,
-        "type": "short_answer",
-        "question": "What do some people miss when they work from home?",
-        "answer": "Talking to colleagues in person"
-      },
-      {
-        "id": 5,
-        "type": "true_false_not_given",
-        "question": "The passage suggests that it is easy for everyone to separate work and home life when working remotely.",
-        "answer": "False"
+        "type": "fill_in_the_blanks",
+        "question": "Clear communication and setting ______ are important for successful remote work.",
+        "answer": "boundaries"
       }
     ],
     "ieltsTips": [
       {
-        "tip": "For True/False/Not Given questions, read the question carefully and find the exact information in the passage. 'False' means the passage says the opposite. 'Not Given' means the information is not mentioned at all.",
-        "category": "True/False/Not Given"
+        "tip": "Read the questions first before reading the passage. This helps you know what information to look for.",
+        "category": "Reading Strategy"
       },
       {
-        "tip": "For multiple-choice questions, read the question and all the options. Then, find the part of the passage that answers the question and choose the best option.",
-        "category": "Multiple Choice"
+        "tip": "Pay attention to keywords in the questions and then scan the passage for those keywords or synonyms.",
+        "category": "Scanning Technique"
       },
       {
-        "tip": "For short-answer questions, look for keywords from the question in the passage. The answer will usually be a word or a short phrase near those keywords.",
-        "category": "Short Answer"
+        "tip": "For True/False/Not Given questions, carefully understand the meaning of the statement and compare it exactly with the text. 'Not Given' means the information is not in the passage at all.",
+        "category": "Question Type Specific"
       },
       {
-        "tip": "Don't worry about understanding every single word. Try to understand the main idea of each sentence and paragraph. Focus on the vocabulary provided, as it's key to understanding.",
-        "category": "General Reading Strategy"
+        "tip": "For fill-in-the-blanks, make sure your answer fits grammatically and makes sense in the sentence.",
+        "category": "Grammar & Context"
+      },
+      {
+        "tip": "Don't spend too much time on one question. If you are stuck, move on and come back later if you have time.",
+        "category": "Time Management"
       }
     ]
   }

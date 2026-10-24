@@ -1,60 +1,58 @@
 {
   "words": [
     {
-      "word": "articulate",
-      "pronunciation": "/ɑːˈtɪkjʊleɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to express an idea or feeling in a way that is clear and easy to understand",
-      "indonesian": "mengartikulasikan, menyuarakan",
-      "level": "B2/C1",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana",
+      "level": "C1",
       "ieltsBand": "7+",
-      "example": "The speaker was able to articulate complex theories with remarkable clarity.",
+      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate and access information.",
       "collocations": [
-        "articulate a point",
-        "articulate an idea",
-        "articulate a vision",
-        "articulate a concern"
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "increasingly ubiquitous",
+        "virtually ubiquitous"
       ],
       "synonyms": [
-        "express",
-        "voice",
-        "utter",
-        "state",
-        "formulate"
+        "omnipresent",
+        "pervasive",
+        "universal",
+        "widespread"
       ]
     },
     {
-      "word": "comprehensive",
-      "pronunciation": "/ˌkɒmprɪˈhensɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "including or dealing with all or nearly all elements or aspects of something",
-      "indonesian": "komprehensif, menyeluruh",
-      "level": "B2/C1",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma, contoh khas",
+      "level": "C1",
       "ieltsBand": "7+",
-      "example": "The report provided a comprehensive analysis of the economic situation.",
+      "example": "The scientific community is grappling with a paradigm shift in our understanding of climate change.",
       "collocations": [
-        "comprehensive study",
-        "comprehensive review",
-        "comprehensive understanding",
-        "comprehensive approach"
+        "paradigm shift",
+        "new paradigm",
+        "scientific paradigm",
+        "theoretical paradigm"
       ],
       "synonyms": [
-        "thorough",
-        "complete",
-        "extensive",
-        "all-inclusive",
-        "in-depth"
+        "model",
+        "pattern",
+        "framework",
+        "template"
       ]
     },
     {
       "word": "mitigate",
       "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful",
+      "definition": "to make something less severe, serious, or painful.",
       "indonesian": "meredakan, mengurangi",
-      "level": "B2/C1",
+      "level": "B2",
       "ieltsBand": "7+",
-      "example": "Governments are implementing policies to mitigate the effects of climate change.",
+      "example": "Governments are implementing policies to mitigate the effects of global warming.",
       "collocations": [
         "mitigate risk",
         "mitigate damage",
@@ -63,125 +61,119 @@
       ],
       "synonyms": [
         "alleviate",
-        "reduce",
         "lessen",
-        "ease",
-        "diminish"
+        "reduce",
+        "soften"
       ]
     },
     {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model",
-      "indonesian": "paradigma, pola pikir",
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsemɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to spread or disperse (something, especially information) widely.",
+      "indonesian": "menyebarkan",
       "level": "C1",
       "ieltsBand": "7+",
-      "example": "The scientific community is awaiting a new paradigm to explain these phenomena.",
+      "example": "The internet has made it easier than ever to disseminate information across the globe.",
       "collocations": [
-        "paradigm shift",
-        "scientific paradigm",
-        "intellectual paradigm",
-        "research paradigm"
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate ideas",
+        "disseminate findings"
       ],
       "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "example",
-        "template"
+        "spread",
+        "circulate",
+        "broadcast",
+        "propagate"
       ]
     },
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "word": "empirical",
+      "pronunciation": "/ɪmˈpɪrɪkl/",
       "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere",
-      "indonesian": "ada di mana-mana, umum",
-      "level": "B2/C1",
+      "definition": "based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
+      "indonesian": "empiris, berdasarkan pengalaman",
+      "level": "B2",
       "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society.",
+      "example": "The research relies on empirical data collected through extensive surveys and experiments.",
       "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "ubiquitous access",
-        "ubiquitous nature"
+        "empirical evidence",
+        "empirical data",
+        "empirical research",
+        "empirical study"
       ],
       "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread",
-        "common"
+        "observational",
+        "experimental",
+        "practical",
+        "verifiable"
       ]
     },
     {
-      "word": "advocate",
-      "pronunciation": "/ˈædvəkeɪt/",
+      "word": "juxtapose",
+      "pronunciation": "/dʒʌkstəˈpəʊz/",
       "partOfSpeech": "verb",
-      "definition": "to publicly recommend or support",
-      "indonesian": "mendukung, menganjurkan",
-      "level": "B2/C1",
+      "definition": "to place or deal with close together for contrasting effect.",
+      "indonesian": "menempatkan berdampingan (untuk kontras)",
+      "level": "C1",
       "ieltsBand": "7+",
-      "example": "The organization advocates for stricter environmental regulations.",
+      "example": "The artist chose to juxtapose images of urban decay with vibrant natural landscapes to highlight the environmental crisis.",
       "collocations": [
-        "advocate for",
-        "strongly advocate",
-        "publicly advocate",
-        "advocate change"
+        "juxtapose with",
+        "juxtapose ideas",
+        "juxtapose images",
+        "juxtapose elements"
       ],
       "synonyms": [
-        "support",
-        "champion",
-        "endorse",
-        "promote",
-        "back"
-      ]
-    },
-    {
-      "word": "intrinsic",
-      "pronunciation": "/ɪnˈtrɪnsɪk/",
-      "partOfSpeech": "adjective",
-      "definition": "belonging naturally; essential",
-      "indonesian": "intrinsik, melekat",
-      "level": "B2/C1",
-      "ieltsBand": "7+",
-      "example": "The intrinsic value of education goes beyond its economic benefits.",
-      "collocations": [
-        "intrinsic motivation",
-        "intrinsic quality",
-        "intrinsic factor",
-        "intrinsic worth"
-      ],
-      "synonyms": [
-        "inherent",
-        "essential",
-        "fundamental",
-        "natural",
-        "built-in"
+        "contrast",
+        "compare",
+        "place side by side",
+        "collocate"
       ]
     },
     {
       "word": "pervasive",
       "pronunciation": "/pərˈveɪsɪv/",
       "partOfSpeech": "adjective",
-      "definition": "spreading widely throughout an area or a group of people",
-      "indonesian": "meresap, menyebar luas",
-      "level": "C1",
+      "definition": "spreading widely throughout an area or a group of people.",
+      "indonesian": "meresap, tersebar luas",
+      "level": "B2",
       "ieltsBand": "7+",
-      "example": "The influence of social media is pervasive in today's culture.",
+      "example": "The influence of social media has become pervasive in shaping public opinion.",
       "collocations": [
         "pervasive influence",
+        "pervasive effect",
         "pervasive culture",
-        "pervasive problem",
-        "pervasive effect"
+        "pervasive problem"
       ],
       "synonyms": [
         "widespread",
         "ubiquitous",
-        "extensive",
         "rife",
-        "penetrating"
+        "extensive"
+      ]
+    },
+    {
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to provide evidence to support or prove the truth of.",
+      "indonesian": "membuktikan, mendukung dengan bukti",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "It is crucial to substantiate your claims with credible evidence in academic writing.",
+      "collocations": [
+        "substantiate a claim",
+        "substantiate the theory",
+        "substantiate the findings",
+        "substantiate allegations"
+      ],
+      "synonyms": [
+        "prove",
+        "support",
+        "verify",
+        "corroborate"
       ]
     }
   ]
