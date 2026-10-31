@@ -2,44 +2,179 @@
   "words": [
     {
       "word": "algorithm",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: algorithm.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "pronunciation": "/ˈælɡərɪðəm/",
+      "partOfSpeech": "noun",
+      "definition": "A set of rules or instructions to be followed in calculations or other problem-solving operations, especially by a computer.",
+      "indonesian": "algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": "7.0",
+      "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "search algorithm",
+        "sorting algorithm",
+        "machine learning algorithm",
+        "complex algorithm",
+        "simple algorithm"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "method",
+        "process",
+        "formula"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: bias.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "word": "automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The use of technology to carry out a task with minimal human assistance.",
+      "indonesian": "otomatisasi",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Automation is transforming many industries, from manufacturing to customer service.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "process automation",
+        "industrial automation",
+        "home automation",
+        "increase automation",
+        "reduce automation"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "mechanization",
+        "robotics",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "computational",
+      "pronunciation": "/ˌkɒmpjuˈteɪʃənl/",
+      "partOfSpeech": "adjective",
+      "definition": "Relating to or involving computation; using computers.",
+      "indonesian": "komputasional",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "The team is using computational modeling to predict weather patterns.",
+      "collocations": [
+        "computational linguistics",
+        "computational power",
+        "computational thinking",
+        "computational cost",
+        "computational model"
+      ],
+      "synonyms": [
+        "calculating",
+        "numerical",
+        "processing"
+      ]
+    },
+    {
+      "word": "data mining",
+      "pronunciation": "/ˈdeɪtə ˈmaɪnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "The process of discovering patterns and insights from large amounts of data.",
+      "indonesian": "penambangan data",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Data mining techniques are essential for understanding customer behavior.",
+      "collocations": [
+        "perform data mining",
+        "data mining software",
+        "data mining techniques",
+        "successful data mining",
+        "advanced data mining"
+      ],
+      "synonyms": [
+        "knowledge discovery",
+        "pattern recognition",
+        "information retrieval"
+      ]
+    },
+    {
+      "word": "emerging",
+      "pronunciation": "/ɪˈmɜːdʒɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Becoming apparent, important, or prominent.",
+      "indonesian": "muncul",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "Artificial intelligence is one of the most exciting emerging technologies.",
+      "collocations": [
+        "emerging markets",
+        "emerging trends",
+        "emerging technologies",
+        "emerging artist",
+        "emerging issue"
+      ],
+      "synonyms": [
+        "developing",
+        "nascent",
+        "new"
+      ]
+    },
+    {
+      "word": "neural network",
+      "pronunciation": "/ˈnjʊərəl ˈnetwɜːk/",
+      "partOfSpeech": "noun",
+      "definition": "A computational system inspired by the structure and function of the human brain, used in machine learning.",
+      "indonesian": "jaringan saraf tiruan",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "The AI's ability to recognize images is due to its sophisticated neural network.",
+      "collocations": [
+        "deep neural network",
+        "train a neural network",
+        "artificial neural network",
+        "complex neural network",
+        "simple neural network"
+      ],
+      "synonyms": [
+        "artificial brain",
+        "computational network"
+      ]
+    },
+    {
+      "word": "predictive",
+      "pronunciation": "/prɪˈdɪktɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Able to state what will happen in the future.",
+      "indonesian": "prediktif",
+      "level": "C1",
+      "ieltsBand": "7.5",
+      "example": "Predictive analytics can help businesses forecast sales and customer demand.",
+      "collocations": [
+        "predictive modeling",
+        "predictive maintenance",
+        "predictive analytics",
+        "predictive capabilities",
+        "highly predictive"
+      ],
+      "synonyms": [
+        "forecasting",
+        "prescient",
+        "prophetic"
+      ]
+    },
+    {
+      "word": "sophisticated",
+      "pronunciation": "/səˈfɪstɪkeɪtɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Having a complex structure and therefore difficult to understand or analyze; advanced.",
+      "indonesian": "canggih",
+      "level": "B2",
+      "ieltsBand": "7.0",
+      "example": "The new AI system is incredibly sophisticated, capable of performing complex tasks.",
+      "collocations": [
+        "sophisticated technology",
+        "sophisticated equipment",
+        "sophisticated design",
+        "highly sophisticated",
+        "relatively sophisticated"
+      ],
+      "synonyms": [
+        "advanced",
+        "complex",
+        "elaborate",
+        "intricate"
       ]
     }
   ]

@@ -1,118 +1,262 @@
 [
   {
-    "title": "Artificial Intelligence and Education",
+    "title": "The Rise of AI in the Classroom",
     "topic": "Artificial Intelligence and Education",
-    "difficulty": "intermediate",
-    "passage": "Artificial Intelligence and Education is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
+    "difficulty": "Intermediate",
+    "passage": "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is rapidly integrating into various sectors, and education is no exception.  The potential of AI to revolutionize learning is immense, offering personalized experiences that cater to individual student needs and learning paces.  One of the most significant contributions of AI is in adaptive learning platforms. These systems use algorithms to track a student's progress, identify areas of weakness, and then provide tailored content and exercises.  For instance, if a student struggles with quadratic equations, the AI can offer more practice problems, supplementary explanations, or even suggest different teaching methods until mastery is achieved. This level of individualized attention, often difficult for human teachers to provide consistently in large classrooms, can significantly improve learning outcomes.\n\nBeyond personalized learning, AI can also automate administrative tasks for educators. Grading multiple-choice tests, managing student records, and scheduling can all be streamlined by AI-powered tools. This frees up valuable time for teachers to focus on more complex pedagogical activities, such as designing engaging lesson plans, providing one-on-one support, and fostering critical thinking skills among their students.  Furthermore, AI can act as a powerful analytical tool, providing insights into student performance trends at both individual and classroom levels.  This data can help educators identify systemic issues and make informed decisions to improve their teaching strategies.  However, the integration of AI into education is not without its challenges. Concerns about data privacy, the ethical implications of algorithmic bias, and the potential for over-reliance on technology are all valid considerations that need careful attention and robust policy development.  The goal is to harness AI's power to augment, not replace, the human element in education, ensuring that technology serves as a tool to enhance learning for all.",
     "vocabulary": [
       {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
-      }
-    ],
-    "questions": [],
-    "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
-    ]
-  },
-  {
-    "title": "The Rise of Remote Work",
-    "topic": "Remote Work and Productivity",
-    "difficulty": "beginner",
-    "passage": "Remote work, also known as working from home, has become very popular in recent years. Many companies now allow their employees to work from their own homes instead of going to an office every day. This has many benefits for both the employee and the employer.  For employees, remote work can mean more flexibility in their schedules. They can often choose when they work, which can help them balance their work and personal lives better.  For example, someone might be able to take their child to school in the morning or go to the gym during the day.  Another benefit is saving time and money on commuting.  Instead of spending hours on public transport or stuck in traffic, people can use that time for other things.  Companies can also benefit.  They might save money on office space, as they need less room if fewer people are coming in every day.  Some studies also suggest that remote workers can be more productive because they have fewer distractions at home compared to a busy office.  However, remote work is not for everyone.  Some people find it hard to stay motivated when they are alone.  They might miss the social interaction of the office.  It is important for companies to support their remote workers with the right tools and communication methods to ensure everyone stays connected and productive.",
-    "vocabulary": [
-      {
-        "word": "remote work",
-        "definition": "working from home or another location outside of a traditional office."
+        "word": "confined",
+        "meaning": "limited to",
+        "indonesian_meaning": "terbatas pada"
       },
       {
-        "word": "popular",
-        "definition": "liked, enjoyed, or supported by many people."
+        "word": "revolutionize",
+        "meaning": "to change something completely and in a way that is much better",
+        "indonesian_meaning": "merevolusi, mengubah secara drastis"
       },
       {
-        "word": "allow",
-        "definition": "to give permission for someone to do something."
+        "word": "cater to",
+        "meaning": "to provide what is needed or wanted",
+        "indonesian_meaning": "memenuhi kebutuhan"
       },
       {
-        "word": "benefits",
-        "definition": "advantages or good things."
+        "word": "adaptive learning",
+        "meaning": "a learning system that adjusts to the individual student's needs and progress",
+        "indonesian_meaning": "pembelajaran adaptif"
       },
       {
-        "word": "flexibility",
-        "definition": "the ability to change or be changed easily."
+        "word": "algorithms",
+        "meaning": "a set of rules or instructions that a computer follows to solve a problem",
+        "indonesian_meaning": "algoritma"
       },
       {
-        "word": "balance",
-        "definition": "to give equal importance to two or more things."
+        "word": "tailored",
+        "meaning": "made or adapted for a particular person or purpose",
+        "indonesian_meaning": "disesuaikan, dipersonalisasi"
       },
       {
-        "word": "commuting",
-        "definition": "the journey to and from work regularly."
+        "word": "mastery",
+        "meaning": "a very good ability to do something",
+        "indonesian_meaning": "penguasaan"
       },
       {
-        "word": "distractions",
-        "definition": "things that prevent you from giving your full attention to something."
+        "word": "pedagogical",
+        "meaning": "relating to the method and practice of teaching",
+        "indonesian_meaning": "pedagogis, berkaitan dengan pengajaran"
       },
       {
-        "word": "motivated",
-        "definition": "having a strong reason to do something."
+        "word": "augment",
+        "meaning": "to increase or add to",
+        "indonesian_meaning": "menambah, meningkatkan"
       },
       {
-        "word": "interaction",
-        "definition": "communication or direct involvement with someone or something."
+        "word": "robust",
+        "meaning": "strong and healthy; in good condition",
+        "indonesian_meaning": "kuat, kokoh"
       }
     ],
     "questions": [
       {
-        "type": "true/false/not given",
-        "question": "Remote work means working in a different office location."
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "What is one of the primary benefits of AI in education mentioned in the passage?",
+        "options": [
+          "Replacing human teachers entirely",
+          "Providing personalized learning experiences",
+          "Reducing the need for student interaction",
+          "Focusing solely on administrative tasks"
+        ],
+        "correct_answer": "Providing personalized learning experiences"
       },
       {
-        "type": "true/false/not given",
-        "question": "Employees who work remotely always have more free time."
+        "id": 2,
+        "type": "true_false_not_given",
+        "question": "Adaptive learning platforms use AI to identify student weaknesses and provide targeted support.",
+        "correct_answer": "True"
       },
       {
-        "type": "true/false/not given",
-        "question": "Companies that offer remote work can save money on office buildings."
+        "id": 3,
+        "type": "short_answer",
+        "question": "Besides personalized learning, what is another significant contribution of AI to educators?",
+        "answer_length": 3,
+        "correct_answer": "Automate administrative tasks"
       },
       {
-        "type": "true/false/not given",
-        "question": "All employees prefer working from home to working in an office."
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "Which of the following is NOT mentioned as a challenge associated with AI in education?",
+        "options": [
+          "Data privacy concerns",
+          "Ethical implications of algorithmic bias",
+          "The high cost of AI implementation",
+          "Potential for over-reliance on technology"
+        ],
+        "correct_answer": "The high cost of AI implementation"
       },
       {
-        "type": "short answer",
-        "question": "What is another name for remote work mentioned in the passage?"
-      },
-      {
-        "type": "short answer",
-        "question": "Besides saving time and money, what is one benefit of remote work for employees?"
+        "id": 5,
+        "type": "short_answer",
+        "question": "According to the passage, what should be the ultimate goal of integrating AI into education?",
+        "answer_length": 4,
+        "correct_answer": "Augment, not replace, the human element"
       }
     ],
     "ieltsTips": [
-      "Read the passage carefully before answering the questions.",
-      "For True/False/Not Given questions, look for specific information in the text. If the statement is directly supported by the text, it's True. If it contradicts the text, it's False. If the information is not mentioned, it's Not Given.",
-      "For Short Answer questions, find the exact answer in the passage and write it concisely.",
-      "Pay attention to keywords in the questions and scan the passage for them."
+      {
+        "tip": "Form: Pay close attention to the exact wording in the passage when answering True/False/Not Given questions. Don't rely on your general knowledge.",
+        "explanation": "For True/False/Not Given, the statement must be directly supported by the text (True), directly contradicted by the text (False), or not mentioned at all (Not Given). If you think it's true but the text says something slightly different, it might be false or not given."
+      },
+      {
+        "tip": "Meaning: Understand the nuances of vocabulary. Look for synonyms and paraphrases in the passage that match the question's keywords.",
+        "explanation": "Many questions will use different words than the passage. For example, 'provide personalized learning experiences' in the question could be paraphrased as 'cater to individual student needs' in the passage."
+      },
+      {
+        "tip": "Use: For short answer questions, ensure your answer is concise and directly answers the question asked. Avoid adding extra information.",
+        "explanation": "The question asks for *what* AI contributes, not *how* it contributes. Keep your answers brief and to the point, using words directly from or very close to the passage if possible."
+      },
+      {
+        "tip": "Form: In multiple-choice questions, read all options carefully before selecting an answer. Sometimes one option is very close to the correct answer but contains a subtle inaccuracy.",
+        "explanation": "Eliminate options that are clearly incorrect first. Then, re-read the passage to confirm the best fit for the remaining options. Be wary of distractors that sound plausible but are not supported by the text."
+      },
+      {
+        "tip": "Meaning: When faced with a 'Not Given' option, it means the information required to confirm or deny the statement is simply not present in the reading passage.",
+        "explanation": "Don't assume information if it's not explicitly stated. If you can't find any mention of the topic in the passage, it's likely 'Not Given'."
+      }
     ]
   },
   {
-    "title": "Cities and Climate Planning",
-    "topic": "Cities and Climate Planning",
-    "difficulty": "advanced",
-    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
+    "title": "Working from Home: A New Way to Be Productive",
+    "topic": "Remote Work and Productivity",
+    "difficulty": "Beginner",
+    "passage": "The way we work is changing. More and more people are choosing to work from home, also known as remote work. This means they don't go to a traditional office every day. Instead, they use computers and the internet to do their jobs from their houses or other places.\n\nMany people find that working from home helps them be more productive. They can save time by not commuting to the office. This saved time can be used for more work or for personal activities. Also, some people feel they can concentrate better at home because there are fewer distractions than in a busy office. They can create their own quiet workspace.\n\nHowever, remote work is not perfect for everyone. Some people miss the social interaction they have in an office. They might feel lonely. It can also be hard to separate work life from home life. Sometimes, people work too much because their office is always with them. It's important to find a balance.\n\nCompanies are also learning how to manage remote teams. They need to make sure everyone has the tools they need to do their job, like good internet and a computer. They also need to communicate well with their employees, even if they are not in the same building.\n\nIn conclusion, remote work offers many benefits for productivity, but it also has challenges. Finding the right way to work, whether at home or in an office, is important for both employees and employers.",
     "vocabulary": [
       {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
+        "word": "remote work",
+        "meaning": "working from a location other than a traditional office, usually home, using technology.",
+        "example": "Remote work allows flexibility for many employees."
+      },
+      {
+        "word": "traditional office",
+        "meaning": "a usual, physical place where people go to work.",
+        "example": "Many companies are moving away from the traditional office model."
+      },
+      {
+        "word": "productive",
+        "meaning": "achieving a lot; efficient.",
+        "example": "She is very productive when she works in a quiet environment."
+      },
+      {
+        "word": "commuting",
+        "meaning": "traveling some distance between one's home and place of work on a regular basis.",
+        "example": "Commuting to the city center takes a lot of time."
+      },
+      {
+        "word": "distractions",
+        "meaning": "things that prevent someone from giving full attention to something.",
+        "example": "Loud noises can be distractions when studying."
+      },
+      {
+        "word": "social interaction",
+        "meaning": "communication and relationship-building between people.",
+        "example": "Some people miss the social interaction of the office."
+      },
+      {
+        "word": "lonely",
+        "meaning": "sad because you are alone or have no friends.",
+        "example": "He felt lonely working from home all week."
+      },
+      {
+        "word": "separate",
+        "meaning": "to divide or keep apart.",
+        "example": "It is important to separate your work time from your personal time."
+      },
+      {
+        "word": "balance",
+        "meaning": "a state of equilibrium; a fair distribution of elements.",
+        "example": "Finding a balance between work and life is crucial."
+      },
+      {
+        "word": "manage",
+        "meaning": "to be in charge of; to control.",
+        "example": "The manager will manage the remote team effectively."
+      },
+      {
+        "word": "tools",
+        "meaning": "equipment or devices needed for a particular job.",
+        "example": "They need the right tools to complete the project."
+      },
+      {
+        "word": "communicate",
+        "meaning": "to share information or ideas.",
+        "example": "It's vital to communicate clearly with your colleagues."
+      },
+      {
+        "word": "benefits",
+        "meaning": "advantages or good things.",
+        "example": "Remote work has several benefits for employees."
+      },
+      {
+        "word": "challenges",
+        "meaning": "difficulties or problems.",
+        "example": "Remote work also presents some challenges."
+      },
+      {
+        "word": "employers",
+        "meaning": "people or organizations that pay people to work for them.",
+        "example": "Employers are adapting to new work styles."
       }
     ],
-    "questions": [],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "What is another name for working from home?",
+        "options": [
+          "Traditional office",
+          "Commuting",
+          "Remote work",
+          "Social interaction"
+        ],
+        "correct_answer": "Remote work"
+      },
+      {
+        "id": 2,
+        "type": "true_false_not_given",
+        "question": "Working from home can help people save time on commuting.",
+        "answer": "True"
+      },
+      {
+        "id": 3,
+        "type": "fill_in_the_blanks",
+        "question": "Some people feel they can concentrate better at home because there are fewer ___________.",
+        "answer": "distractions"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "What is a potential negative aspect of remote work mentioned in the passage?",
+        "options": [
+          "Too much social interaction",
+          "Feeling lonely",
+          "Saving too much time",
+          "Easier to separate work and home life"
+        ],
+        "correct_answer": "Feeling lonely"
+      },
+      {
+        "id": 5,
+        "type": "true_false_not_given",
+        "question": "Companies do not need to provide any tools for remote workers.",
+        "answer": "False"
+      }
+    ],
     "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
+      "Read the passage carefully and identify the main idea of each paragraph.",
+      "Pay attention to keywords in the questions and scan the passage for them.",
+      "For True/False/Not Given questions, carefully compare the statement with the information in the text.",
+      "For Fill in the Blanks, ensure your answer is a single word or a short phrase from the passage.",
+      "Check your answers to make sure they directly answer the questions asked."
     ]
   }
 ]
