@@ -1,150 +1,25 @@
 {
-  "grammarChart": [
-    {
-      "article": "a",
-      "form": "Used before singular countable nouns that begin with a consonant sound.",
-      "meaning": "Indicates one of something, non-specific.",
-      "use": "To introduce a noun for the first time, to refer to a class of things, for professions, for expressions of quantity, for certain expressions of time/frequency."
-    },
-    {
-      "article": "an",
-      "form": "Used before singular countable nouns that begin with a vowel sound.",
-      "meaning": "Indicates one of something, non-specific.",
-      "use": "To introduce a noun for the first time, to refer to a class of things, for professions, for expressions of quantity, for certain expressions of time/frequency."
-    },
-    {
-      "article": "the",
-      "form": "Used before singular or plural countable or uncountable nouns.",
-      "meaning": "Refers to a specific noun that is known to both the speaker/writer and the listener/reader.",
-      "use": "To refer to something already mentioned, unique things, things made specific by context, superlatives, certain geographical features, certain institutions/organizations, with 'same' and 'only'."
-    },
-    {
-      "article": "zero article (-)",
-      "form": "No article is used.",
-      "meaning": "General or abstract reference.",
-      "use": "With plural countable nouns in a general sense, with uncountable nouns in a general sense, with abstract nouns in a general sense, with most proper nouns (names of people, most countries, cities, continents, lakes, mountains), with certain set phrases (e.g., at home, in hospital, by car)."
-    }
-  ],
-  "explanation": "Articles are small words (a, an, the) that come before nouns. They tell us whether the noun is specific or non-specific, singular or plural, and countable or uncountable. Understanding their correct usage is crucial for clear and accurate communication, especially in academic writing and speaking required for IELTS.",
+  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
   "keyRules": [
-    "Use 'a' or 'an' with singular countable nouns when introducing them for the first time or when referring to any one of a group.",
-    "Use 'the' when referring to a specific noun that has already been mentioned, is unique, or is made clear by the context.",
-    "Use 'the' with unique items (e.g., the sun, the moon, the internet).",
-    "Use 'the' with superlatives (e.g., the best, the most interesting).",
-    "Do not use an article with most proper nouns (names of people, countries, cities, continents).",
-    "Do not use an article with plural countable nouns or uncountable nouns when speaking in a general sense.",
-    "Be mindful of exceptions for geographical names (e.g., the United States, the Alps, the Pacific Ocean) and certain institutions (e.g., the United Nations, the BBC)."
+    "Pahami pola dasar.",
+    "Perhatikan konteks.",
+    "Hindari terjemahan mentah.",
+    "Gunakan dalam writing dan speaking."
   ],
-  "azarNotes": "Indonesian learners often struggle with articles because Indonesian does not have direct equivalents. The key is to focus on the concepts of 'specificity' and 'countability' in English, which are central to article usage. Pay close attention to how context clarifies or defines a noun.",
   "examples": [
     {
-      "sentence": "I saw **a** cat in the garden.",
-      "explanation": "'a cat' - introduces a cat for the first time, it's one cat, and it's not a specific cat."
-    },
-    {
-      "sentence": "I saw **an** elephant at the zoo.",
-      "explanation": "'an elephant' - uses 'an' because 'elephant' starts with a vowel sound. Introduces the elephant for the first time."
-    },
-    {
-      "sentence": "The cat I saw yesterday was black.",
-      "explanation": "'The cat' - refers to a specific cat that was mentioned or is understood from context (the cat I saw yesterday)."
-    },
-    {
-      "sentence": "She is **a** doctor.",
-      "explanation": "'a doctor' - used for professions."
-    },
-    {
-      "sentence": "He wants **an** apple.",
-      "explanation": "'an apple' - used for expressions of quantity/one item."
-    },
-    {
-      "sentence": "**The** sun is very bright today.",
-      "explanation": "'The sun' - refers to a unique celestial body."
-    },
-    {
-      "sentence": "This is **the** best pizza I've ever eaten.",
-      "explanation": "'the best' - used with a superlative adjective."
-    },
-    {
-      "sentence": "I like **dogs**.",
-      "explanation": "'- dogs' - zero article used with plural countable nouns in a general sense."
-    },
-    {
-      "sentence": "**Water** is essential for life.",
-      "explanation": "'- Water' - zero article used with an uncountable noun in a general sense."
-    },
-    {
-      "sentence": "She lives in **London**.",
-      "explanation": "'- London' - zero article used with a city name (most proper nouns)."
-    },
-    {
-      "sentence": "He plays **football** every weekend.",
-      "explanation": "'- football' - zero article used with sports."
-    },
-    {
-      "sentence": "They are going to **the** United States.",
-      "explanation": "'the United States' - exception for countries with plural names or political designations."
+      "sentence": "Articles appears in IELTS tasks.",
+      "note": "Use the structure accurately.",
+      "indonesian": "Articles muncul dalam tugas IELTS."
     }
   ],
   "commonMistakes": [
-    "Using 'a/an' with plural nouns (e.g., 'a dogs' instead of 'dogs' or 'some dogs').",
-    "Using 'a/an' with uncountable nouns (e.g., 'a water' instead of 'water' or 'some water').",
-    "Forgetting 'the' with unique items (e.g., 'Sun is hot' instead of 'The sun is hot').",
-    "Using 'the' with general plural or uncountable nouns (e.g., 'The dogs are friendly' when referring to dogs in general, instead of 'Dogs are friendly').",
-    "Incorrectly using 'the' with most country names (e.g., 'the Indonesia' instead of 'Indonesia').",
-    "Omitting 'the' when referring to something specific or previously mentioned (e.g., 'I bought a book. The book is interesting.' - omitting 'the' before 'book' in the second sentence)."
-  ],
-  "ieltsTip": "In IELTS Writing Task 2 and Speaking, focus on using articles correctly to demonstrate your command of English. Pay attention to whether you are referring to something specific or general. For example, when discussing societal issues, use the zero article for general concepts (e.g., 'Education is important') and 'the' when referring to a specific educational system or policy.",
-  "quiz": [
     {
-      "question": "Please pass me ______ salt.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "answer": "the"
-    },
-    {
-      "question": "She is studying to become ______ engineer.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "answer": "an"
-    },
-    {
-      "question": "I need to buy ______ new laptop.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "______ happiness is important for everyone.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "answer": "-"
-    },
-    {
-      "question": "We visited ______ Eiffel Tower last summer.",
-      "options": [
-        "a",
-        "an",
-        "the",
-        "-"
-      ],
-      "answer": "the"
+      "wrong": "Learner guesses the form.",
+      "right": "Learner checks the structure first.",
+      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
     }
-  ]
+  ],
+  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
+  "quiz": []
 }

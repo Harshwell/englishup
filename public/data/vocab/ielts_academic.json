@@ -1,179 +1,64 @@
 {
   "words": [
     {
-      "word": "ubiquitous",
-      "pronunciation": "/juːˈbɪkwɪtəs/",
-      "partOfSpeech": "adjective",
-      "definition": "present, appearing, or found everywhere.",
-      "indonesian": "ada di mana-mana",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "Smartphones have become ubiquitous in modern society, transforming the way we communicate and access information.",
-      "collocations": [
-        "ubiquitous technology",
-        "ubiquitous presence",
-        "increasingly ubiquitous",
-        "virtually ubiquitous"
-      ],
-      "synonyms": [
-        "omnipresent",
-        "pervasive",
-        "universal",
-        "widespread"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "pronunciation": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "definition": "a typical example or pattern of something; a model.",
-      "indonesian": "paradigma, contoh khas",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The scientific community is grappling with a paradigm shift in our understanding of climate change.",
-      "collocations": [
-        "paradigm shift",
-        "new paradigm",
-        "scientific paradigm",
-        "theoretical paradigm"
-      ],
-      "synonyms": [
-        "model",
-        "pattern",
-        "framework",
-        "template"
-      ]
-    },
-    {
-      "word": "mitigate",
-      "pronunciation": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to make something less severe, serious, or painful.",
-      "indonesian": "meredakan, mengurangi",
+      "word": "significant",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: significant.",
+      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7+",
-      "example": "Governments are implementing policies to mitigate the effects of global warming.",
+      "ieltsBand": "6.5-7.0",
+      "example": "significant is often used in formal and academic English.",
       "collocations": [
-        "mitigate risk",
-        "mitigate damage",
-        "mitigate the impact",
-        "mitigate the effects"
+        "contribution",
+        "contributions",
+        "proportion",
+        "improvement"
       ],
       "synonyms": [
-        "alleviate",
-        "lessen",
-        "reduce",
-        "soften"
+        "profound",
+        "substantial",
+        "portentous",
+        "prodigious"
       ]
     },
     {
-      "word": "disseminate",
-      "pronunciation": "/dɪˈsemɪneɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to spread or disperse (something, especially information) widely.",
-      "indonesian": "menyebarkan",
+      "word": "allocate",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: allocate.",
+      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The internet has made it easier than ever to disseminate information across the globe.",
+      "ieltsBand": "7.0-7.5",
+      "example": "allocate is often used in formal and academic English.",
       "collocations": [
-        "disseminate information",
-        "disseminate knowledge",
-        "disseminate ideas",
-        "disseminate findings"
+        "allocates",
+        "sar",
+        "allocation",
+        "efficiently"
       ],
       "synonyms": [
-        "spread",
-        "circulate",
-        "broadcast",
-        "propagate"
+        "apportion"
       ]
     },
     {
-      "word": "empirical",
-      "pronunciation": "/ɪmˈpɪrɪkl/",
-      "partOfSpeech": "adjective",
-      "definition": "based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
-      "indonesian": "empiris, berdasarkan pengalaman",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The research relies on empirical data collected through extensive surveys and experiments.",
-      "collocations": [
-        "empirical evidence",
-        "empirical data",
-        "empirical research",
-        "empirical study"
-      ],
-      "synonyms": [
-        "observational",
-        "experimental",
-        "practical",
-        "verifiable"
-      ]
-    },
-    {
-      "word": "juxtapose",
-      "pronunciation": "/dʒʌkstəˈpəʊz/",
-      "partOfSpeech": "verb",
-      "definition": "to place or deal with close together for contrasting effect.",
-      "indonesian": "menempatkan berdampingan (untuk kontras)",
+      "word": "enhance",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: enhance.",
+      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
       "level": "C1",
-      "ieltsBand": "7+",
-      "example": "The artist chose to juxtapose images of urban decay with vibrant natural landscapes to highlight the environmental crisis.",
+      "ieltsBand": "7.0-7.5",
+      "example": "enhance is often used in formal and academic English.",
       "collocations": [
-        "juxtapose with",
-        "juxtapose ideas",
-        "juxtapose images",
-        "juxtapose elements"
+        "competitiveness",
+        "capabilities",
+        "flavor",
+        "effectiveness"
       ],
       "synonyms": [
-        "contrast",
-        "compare",
-        "place side by side",
-        "collocate"
-      ]
-    },
-    {
-      "word": "pervasive",
-      "pronunciation": "/pərˈveɪsɪv/",
-      "partOfSpeech": "adjective",
-      "definition": "spreading widely throughout an area or a group of people.",
-      "indonesian": "meresap, tersebar luas",
-      "level": "B2",
-      "ieltsBand": "7+",
-      "example": "The influence of social media has become pervasive in shaping public opinion.",
-      "collocations": [
-        "pervasive influence",
-        "pervasive effect",
-        "pervasive culture",
-        "pervasive problem"
-      ],
-      "synonyms": [
-        "widespread",
-        "ubiquitous",
-        "rife",
-        "extensive"
-      ]
-    },
-    {
-      "word": "substantiate",
-      "pronunciation": "/səbˈstænʃieɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to provide evidence to support or prove the truth of.",
-      "indonesian": "membuktikan, mendukung dengan bukti",
-      "level": "C1",
-      "ieltsBand": "7+",
-      "example": "It is crucial to substantiate your claims with credible evidence in academic writing.",
-      "collocations": [
-        "substantiate a claim",
-        "substantiate the theory",
-        "substantiate the findings",
-        "substantiate allegations"
-      ],
-      "synonyms": [
-        "prove",
-        "support",
-        "verify",
-        "corroborate"
+        "raise",
+        "heighten"
       ]
     }
   ]

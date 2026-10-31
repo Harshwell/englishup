@@ -1,179 +1,47 @@
 {
   "words": [
     {
-      "word": "Genuinely",
-      "pronunciation": "/ˈdʒen.ju.ɪn.li/",
-      "partOfSpeech": "adverb",
-      "definition": "In a sincere and honest way; truly.",
-      "indonesian": "Secara tulus; benar-benar",
+      "word": "reliable",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: reliable.",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "I was genuinely surprised by the news, I had no idea they were getting married.",
+      "ieltsBand": "6.5-7.0",
+      "example": "reliable is often used in formal and academic English.",
       "collocations": [
-        "genuinely surprised",
-        "genuinely interested",
-        "genuinely concerned",
-        "genuinely believe"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "truly",
-        "honestly",
-        "sincerely",
-        "really",
-        "actually"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Appreciate",
-      "pronunciation": "/əˈpriː.ʃi.eɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To be grateful for something; to understand the value or significance of something.",
-      "indonesian": "Menghargai; mengerti nilai",
+      "word": "straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: straightforward.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "I really appreciate you taking the time to help me with my resume.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "appreciate the effort",
-        "appreciate the help",
-        "appreciate the gesture",
-        "appreciate the opportunity"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "value",
-        "be grateful for",
-        "recognize",
-        "esteem"
-      ]
-    },
-    {
-      "word": "Fascinating",
-      "pronunciation": "/ˈfæs.ɪ.neɪ.tɪŋ/",
-      "partOfSpeech": "adjective",
-      "definition": "Extremely interesting.",
-      "indonesian": "Sangat menarik",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "The documentary about ancient civilizations was absolutely fascinating.",
-      "collocations": [
-        "fascinating story",
-        "fascinating fact",
-        "fascinating experience",
-        "fascinating lecture"
-      ],
-      "synonyms": [
-        "captivating",
-        "engrossing",
-        "intriguing",
-        "compelling"
-      ]
-    },
-    {
-      "word": "Underestimate",
-      "pronunciation": "/ˌʌn.dərˈes.tɪ.meɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To estimate (something) too cheaply or too lowly.",
-      "indonesian": "Meremehkan",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Don't underestimate the difficulty of this task; it requires a lot of preparation.",
-      "collocations": [
-        "underestimate the challenge",
-        "underestimate the importance",
-        "underestimate the effort",
-        "underestimate the impact"
-      ],
-      "synonyms": [
-        "underrate",
-        "play down",
-        "belittle"
-      ]
-    },
-    {
-      "word": "Insightful",
-      "pronunciation": "/ˈɪn.saɪt.fəl/",
-      "partOfSpeech": "adjective",
-      "definition": "Having or showing an accurate and deep understanding; perceptive.",
-      "indonesian": "Berwawasan luas; tajam pengamatan",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Her insightful comments during the meeting helped us to see the problem from a new perspective.",
-      "collocations": [
-        "insightful analysis",
-        "insightful observation",
-        "insightful advice",
-        "insightful perspective"
-      ],
-      "synonyms": [
-        "perceptive",
-        "shrewd",
-        "wise",
-        "discerning"
-      ]
-    },
-    {
-      "word": "Navigate",
-      "pronunciation": "/ˈnæv.ɪ.ɡeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To plan and direct the course of a ship, aircraft, or other form of transport, especially by using instruments or maps; to find a way through a complex situation or system.",
-      "indonesian": "Menavigasi; mengarungi (situasi sulit)",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "It can be difficult to navigate the complexities of the legal system.",
-      "collocations": [
-        "navigate the system",
-        "navigate the market",
-        "navigate the challenges",
-        "navigate the bureaucracy"
-      ],
-      "synonyms": [
-        "guide",
-        "steer",
-        "manage",
-        "handle"
-      ]
-    },
-    {
-      "word": "Crucial",
-      "pronunciation": "/ˈkruː.ʃəl/",
-      "partOfSpeech": "adjective",
-      "definition": "Extremely important or necessary.",
-      "indonesian": "Sangat penting; krusial",
-      "level": "B2",
-      "ieltsBand": "7.0+",
-      "example": "Getting enough sleep is crucial for maintaining good health.",
-      "collocations": [
-        "crucial role",
-        "crucial moment",
-        "crucial decision",
-        "crucial factor"
-      ],
-      "synonyms": [
-        "vital",
-        "essential",
-        "important",
-        "key"
-      ]
-    },
-    {
-      "word": "Elaborate",
-      "pronunciation": "/ɪˈlæb.ər.eɪt/",
-      "partOfSpeech": "verb",
-      "definition": "To develop or present (a theory, policy, or system) in detail.",
-      "indonesian": "Menguraikan; menjelaskan secara rinci",
-      "level": "C1",
-      "ieltsBand": "7.0+",
-      "example": "Could you please elaborate on your proposal? I'm not sure I fully understand it.",
-      "collocations": [
-        "elaborate on",
-        "elaborate a plan",
-        "elaborate a theory",
-        "elaborate on the details"
-      ],
-      "synonyms": [
-        "explain",
-        "detail",
-        "expand",
-        "develop"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
