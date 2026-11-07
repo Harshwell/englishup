@@ -1,143 +1,111 @@
 [
   {
-    "title": "Artificial Intelligence and Education",
-    "topic": "Artificial Intelligence and Education",
-    "difficulty": "intermediate",
-    "passage": "Artificial Intelligence and Education is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
-    "vocabulary": [
-      {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
-      }
-    ],
-    "questions": [],
-    "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
-    ]
-  },
-  {
-    "title": "The Rise of Remote Work",
+    "title": "Working from Home: A New Way to Be Productive",
     "topic": "Remote Work and Productivity",
-    "difficulty": "beginner",
-    "passage": "Remote work, also known as working from home, has become very popular in recent years. Many companies now allow their employees to work from their own houses instead of going to an office every day. This change offers several benefits. For employees, it can mean more flexibility in their schedules. They can save time and money by not commuting to work. They might also feel more comfortable and focused in their own environment.  For companies, remote work can sometimes lead to higher productivity. Employees who are happier and less stressed may do a better job. It can also reduce the need for large office spaces, saving the company money on rent and utilities.  However, remote work also has challenges. Some people find it difficult to separate their work life from their home life. It can be harder to communicate with colleagues and feel like part of a team when everyone is in different locations.  Despite these challenges, remote work is likely to continue to be a significant part of the modern workplace.",
+    "difficulty": "Beginner",
+    "passage": "Remote work, also known as working from home, has become very popular. Many people now work outside of a traditional office.  One of the main reasons for this is the idea that working from home can make people more productive.  Productivity means getting a lot of work done well.\n\nWhen people work from home, they often have fewer distractions. In an office, there are many things that can interrupt work, like colleagues talking or meetings. At home, people can create a quiet space for themselves. This allows them to focus better on their tasks.  Also, remote workers can often set their own schedules.  This means they can work when they feel most energetic and focused.  For example, some people are 'morning people' and like to start work early. Others are 'night owls' and prefer to work later in the day.  Working from home gives them the flexibility to do this.\n\nHowever, remote work is not perfect for everyone. Some people find it difficult to separate their work life from their home life. They might find it hard to switch off from work.  Others miss the social interaction of an office.  Talking to colleagues and having lunch together can be important for some people's well-being and teamwork.  Despite these challenges, many studies show that remote work can lead to higher productivity for many individuals.",
     "vocabulary": [
       {
         "word": "remote work",
-        "definition": "working from home or a location other than the main office"
+        "meaning": "working from a location other than a central office, often from home.",
+        "example": "Remote work allows employees more flexibility."
       },
       {
-        "word": "popular",
-        "definition": "liked, enjoyed, or supported by many people"
+        "word": "productive",
+        "meaning": "achieving a lot or producing a lot of something.",
+        "example": "She is a very productive student."
       },
       {
-        "word": "allow",
-        "definition": "to permit someone to do something"
+        "word": "distractions",
+        "meaning": "things that prevent someone from giving full attention to something.",
+        "example": "The loud music was a distraction."
       },
       {
-        "word": "benefits",
-        "definition": "advantages or good things"
+        "word": "focus",
+        "meaning": "to pay attention to something.",
+        "example": "It's important to focus on your studies."
       },
       {
         "word": "flexibility",
-        "definition": "the ability to change or be changed easily"
+        "meaning": "the ability to change or be changed easily.",
+        "example": "The job offers a lot of flexibility."
       },
       {
-        "word": "commuting",
-        "definition": "traveling some distance between one's home and place of work on a regular basis"
+        "word": "interaction",
+        "meaning": "communication or direct involvement with someone or something.",
+        "example": "Social interaction is important for happiness."
       },
       {
-        "word": "environment",
-        "definition": "the surroundings or conditions in which a person, animal, or plant lives or operates"
-      },
-      {
-        "word": "productivity",
-        "definition": "the rate at which goods are produced or work is completed"
-      },
-      {
-        "word": "challenges",
-        "definition": "difficulties or problems"
-      },
-      {
-        "word": "separate",
-        "definition": "to divide or keep apart"
-      },
-      {
-        "word": "communicate",
-        "definition": "to share or exchange information, news, or ideas"
-      },
-      {
-        "word": "colleagues",
-        "definition": "people with whom you work, especially in a profession or business"
-      },
-      {
-        "word": "significant",
-        "definition": "important or noteworthy"
+        "word": "well-being",
+        "meaning": "the state of being comfortable, healthy, or happy.",
+        "example": "Exercise is good for your well-being."
       }
     ],
     "questions": [
       {
-        "type": "True/False/Not Given",
-        "question": "Remote work means working from a different office location.",
-        "answer": "False"
-      },
-      {
-        "type": "True/False/Not Given",
-        "question": "Employees save money when they work remotely.",
-        "answer": "True"
-      },
-      {
-        "type": "True/False/Not Given",
-        "question": "Remote work always leads to lower productivity for companies.",
-        "answer": "False"
-      },
-      {
-        "type": "True/False/Not Given",
-        "question": "It is easy to maintain a clear separation between work and home life when working remotely.",
-        "answer": "False"
-      },
-      {
-        "type": "Multiple Choice",
-        "question": "What is one benefit of remote work for employees?",
-        "options": [
-          "More meetings",
-          "Less flexibility",
-          "More comfortable environment",
-          "Longer commutes"
-        ],
-        "answer": "More comfortable environment"
-      },
-      {
-        "type": "Short Answer",
+        "id": 1,
+        "type": "multiple_choice",
         "question": "What is another name for remote work?",
-        "answer": "working from home"
-      }
-    ],
-    "ieltsTips": [
-      "Read the passage carefully before answering the questions.",
-      "Pay attention to keywords in the questions and scan the passage for them.",
-      "For True/False/Not Given questions, look for information that directly supports or contradicts the statement. If the information is not in the passage, choose 'Not Given'.",
-      "For multiple-choice questions, read all the options before selecting the best answer.",
-      "For short answer questions, keep your answers brief and to the point, using words from the passage if possible."
-    ]
-  },
-  {
-    "title": "Cities and Climate Planning",
-    "topic": "Cities and Climate Planning",
-    "difficulty": "advanced",
-    "passage": "Cities and Climate Planning is an important topic for IELTS preparation. This fallback passage keeps the app usable when live generation is unavailable.",
-    "vocabulary": [
+        "options": [
+          "Office work",
+          "Working from home",
+          "Factory work",
+          "Outdoor work"
+        ],
+        "correct_answer": "Working from home"
+      },
       {
-        "word": "relevant",
-        "definition": "connected to the topic",
-        "indonesian": "relevan"
+        "id": 2,
+        "type": "true_false_not_given",
+        "question": "Working from home always means fewer distractions.",
+        "answer": "False"
+      },
+      {
+        "id": 3,
+        "type": "short_answer",
+        "question": "What does 'productive' mean?",
+        "answer": "achieving a lot or producing a lot of something"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "What is one challenge of remote work mentioned in the passage?",
+        "options": [
+          "Too much social interaction",
+          "Difficulty separating work and home life",
+          "Not enough flexibility",
+          "Too many meetings"
+        ],
+        "correct_answer": "Difficulty separating work and home life"
+      },
+      {
+        "id": 5,
+        "type": "true_false_not_given",
+        "question": "All studies show that remote work leads to lower productivity.",
+        "answer": "False"
       }
     ],
-    "questions": [],
     "ieltsTips": [
-      "Identify the main idea first.",
-      "Watch out for paraphrases, not only repeated words."
+      {
+        "tip": "Read the questions carefully before reading the passage. This will help you know what information to look for.",
+        "area": "Reading Comprehension"
+      },
+      {
+        "tip": "Pay attention to keywords in the questions and try to find them or similar words in the passage.",
+        "area": "Scanning and Skimming"
+      },
+      {
+        "tip": "For True/False/Not Given questions, remember: 'True' means the statement is exactly in the text. 'False' means the statement is contradicted by the text. 'Not Given' means the information is not in the text at all.",
+        "area": "Question Types"
+      },
+      {
+        "tip": "When answering short answer questions, try to use the exact words from the passage if possible. Keep your answers short and to the point.",
+        "area": "Answer Formulation"
+      },
+      {
+        "tip": "Don't guess the meaning of words. If a word is important for understanding, try to guess its meaning from the context or look it up later.",
+        "area": "Vocabulary"
+      }
     ]
   }
 ]
