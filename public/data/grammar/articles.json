@@ -1,25 +1,103 @@
 {
-  "explanation": "Articles penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
-  "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
-  ],
-  "examples": [
-    {
-      "sentence": "Articles appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Articles muncul dalam tugas IELTS."
-    }
-  ],
+  "explanation": "Artikel adalah kata-kata kecil yang mendahului kata benda (noun) untuk menunjukkan apakah kata benda tersebut spesifik atau tidak. Dalam bahasa Inggris, ada tiga artikel utama: 'a', 'an', dan 'the'. Selain itu, ada juga penggunaan 'zero article' (tidak menggunakan artikel) dalam situasi tertentu.",
+  "keyRules": {
+    "a_an": [
+      "Digunakan sebelum kata benda tunggal yang dapat dihitung (singular countable noun).",
+      "'a' digunakan sebelum kata benda yang diawali dengan bunyi konsonan (misalnya, a book, a university - 'u' dibaca 'y').",
+      "'an' digunakan sebelum kata benda yang diawali dengan bunyi vokal (misalnya, an apple, an hour - 'h' tidak dibaca)."
+    ],
+    "the": [
+      "Digunakan sebelum kata benda tunggal atau jamak, baik yang dapat dihitung maupun tidak dapat dihitung.",
+      "Digunakan ketika kata benda tersebut sudah spesifik atau diketahui oleh pembicara dan pendengar.",
+      "Digunakan untuk merujuk pada sesuatu yang unik (misalnya, the sun, the moon).",
+      "Digunakan untuk merujuk pada sesuatu yang sudah disebutkan sebelumnya.",
+      "Digunakan dengan nama-nama geografis tertentu (misalnya, the Pacific Ocean, the Alps)."
+    ],
+    "zeroArticle": [
+      "Digunakan sebelum kata benda jamak atau kata benda yang tidak dapat dihitung (uncountable noun) ketika merujuk pada sesuatu secara umum (misalnya, 'Dogs are friendly.' 'Water is essential.' 'I like music.')",
+      "Digunakan sebelum nama orang, kota, negara (kecuali beberapa pengecualian seperti the United States, the Netherlands).",
+      "Digunakan sebelum nama bahasa, mata pelajaran, hari, bulan, dan hari libur.",
+      "Digunakan dalam beberapa frasa tetap (misalnya, at home, by car, in fact)."
+    ]
+  },
+  "examples": {
+    "a_an": [
+      "I saw **a** cat in the garden.",
+      "She is **an** engineer.",
+      "He needs **a** new computer.",
+      "It was **an** interesting movie."
+    ],
+    "the": [
+      "**The** sun is very bright today.",
+      "I read **a** book yesterday. **The** book was about history.",
+      "Could you pass me **the** salt?",
+      "**The** Eiffel Tower is in Paris."
+    ],
+    "zeroArticle": [
+      "**Children** need love and attention.",
+      "**Information** is power.",
+      "I speak **English**.",
+      "We celebrate **Christmas** in December."
+    ]
+  },
   "commonMistakes": [
-    {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
-    }
+    "Menggunakan 'a' atau 'an' sebelum kata benda jamak atau yang tidak dapat dihitung.",
+    "Lupa menggunakan 'the' ketika merujuk pada sesuatu yang spesifik atau unik.",
+    "Salah menggunakan 'a' dan 'an' berdasarkan huruf, bukan bunyi.",
+    "Menggunakan 'the' sebelum nama orang atau kota.",
+    "Tidak menggunakan artikel sama sekali ketika seharusnya digunakan (misalnya, 'I want buy car' seharusnya 'I want to buy a car')."
   ],
-  "ieltsTip": "Articles memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "Dalam IELTS Writing dan Speaking, penggunaan artikel yang tepat menunjukkan pemahaman Anda tentang spesifisitas dan generalitas. Perhatikan konteks kalimat untuk memutuskan apakah Anda perlu menggunakan 'a', 'an', 'the', atau tidak sama sekali. Kesalahan artikel yang berulang dapat mengurangi skor Anda.",
+  "quiz": [
+    {
+      "question": "Please give me ______ apple.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an"
+    },
+    {
+      "question": "______ moon is beautiful tonight.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "the"
+    },
+    {
+      "question": "I want to buy ______ new car.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "______ dogs are loyal animals.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article"
+    },
+    {
+      "question": "She is ______ doctor. ______ doctor works at ______ hospital.",
+      "options": [
+        "a, The, a",
+        "an, A, the",
+        "a, A, the",
+        "the, The, a"
+      ],
+      "answer": "a, The, a"
+    }
+  ]
 }

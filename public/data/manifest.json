@@ -1,12 +1,16 @@
 {
-  "generatedAt": "2026-10-31T22:12:17.492Z",
-  "savedCount": 6,
-  "errors": [
-    "grammar:articles: invalid JSON",
-    "reading:Climate Change and Urban Planning: invalid JSON"
+  "generatedAt": "2026-11-07T13:28:07.518Z",
+  "version": "v3",
+  "sources": [
+    "DictionaryAPI.dev",
+    "Datamuse",
+    "Gemini",
+    "local seeds"
   ],
-  "providers": {
-    "gemini": true,
-    "secondaryAi": false
-  }
+  "features": [
+    "flashcards",
+    "grammar",
+    "vocabulary",
+    "reading"
+  ]
 }

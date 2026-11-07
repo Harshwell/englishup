@@ -1,174 +1,47 @@
 {
   "words": [
     {
-      "word": "Vibe",
-      "pronunciation": "/vaɪb/",
-      "partOfSpeech": "noun",
-      "definition": "The atmosphere or feeling of a place, person, or situation.",
-      "indonesian": "Suasana; getaran",
+      "word": "reliable",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: reliable.",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "I really liked the vibe of that cafe; it was so relaxed and friendly.",
+      "ieltsBand": "6.5-7.0",
+      "example": "reliable is often used in formal and academic English.",
       "collocations": [
-        "good vibe",
-        "bad vibe",
-        "chill vibe",
-        "positive vibe",
-        "negative vibe",
-        "get a vibe",
-        "give off a vibe"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "atmosphere",
-        "mood",
-        "feeling",
-        "aura"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Hectic",
-      "pronunciation": "/ˈhɛktɪk/",
-      "partOfSpeech": "adjective",
-      "definition": "Full of activity, usually in a chaotic or overwhelming way.",
-      "indonesian": "Sibuk; penuh kegiatan (seringkali kacau)",
+      "word": "straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: straightforward.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": 7,
-      "example": "My schedule this week is really hectic with meetings and deadlines.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "hectic schedule",
-        "hectic pace",
-        "hectic day",
-        "hectic lifestyle"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "busy",
-        "frenetic",
-        "chaotic",
-        "frantic",
-        "manic"
-      ]
-    },
-    {
-      "word": "Chill out",
-      "pronunciation": "/tʃɪl aʊt/",
-      "partOfSpeech": "phrasal verb",
-      "definition": "To relax and stop worrying.",
-      "indonesian": "Bersantai; menenangkan diri",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "After a long day at work, I just want to go home and chill out on the sofa.",
-      "collocations": [
-        "chill out with friends",
-        "chill out and relax"
-      ],
-      "synonyms": [
-        "relax",
-        "unwind",
-        "take it easy",
-        "de-stress"
-      ]
-    },
-    {
-      "word": "Fangirl/Fanboy",
-      "pronunciation": "/ˈfæŋɡɜːl/, /ˈfænbɔɪ/",
-      "partOfSpeech": "noun",
-      "definition": "A girl or boy who is an admirer of a particular person or thing, often to an excessive degree.",
-      "indonesian": "Penggemar berat (perempuan/laki-laki)",
-      "level": "C1",
-      "ieltsBand": 7,
-      "example": "She's such a fangirl of that K-pop group; she knows all their songs and has all their merchandise.",
-      "collocations": [
-        "total fangirl",
-        "ultimate fanboy",
-        "become a fangirl"
-      ],
-      "synonyms": [
-        "admirer",
-        "devotee",
-        "enthusiast",
-        "groupie"
-      ]
-    },
-    {
-      "word": "Gut feeling",
-      "pronunciation": "/ɡʌt ˈfiːlɪŋ/",
-      "partOfSpeech": "noun",
-      "definition": "An instinct or intuition about something.",
-      "indonesian": "Insting; firasat",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "I have a gut feeling that he's not telling us the whole truth.",
-      "collocations": [
-        "have a gut feeling",
-        "trust your gut feeling"
-      ],
-      "synonyms": [
-        "intuition",
-        "instinct",
-        "hunch",
-        "inkling"
-      ]
-    },
-    {
-      "word": "Ghosted",
-      "pronunciation": "/ˈɡəʊstɪd/",
-      "partOfSpeech": "verb (past tense)",
-      "definition": "To suddenly stop all communication with someone without explanation.",
-      "indonesian": "Menghilang tiba-tiba (tanpa kabar)",
-      "level": "C1",
-      "ieltsBand": 7,
-      "example": "We went on a few dates, and then he just ghosted me; I never heard from him again.",
-      "collocations": [
-        "get ghosted",
-        "be ghosted by someone"
-      ],
-      "synonyms": [
-        "abandoned",
-        "cut off",
-        "ignored",
-        "dropped"
-      ]
-    },
-    {
-      "word": "Spill the tea",
-      "pronunciation": "/spɪl ðə tiː/",
-      "partOfSpeech": "idiom",
-      "definition": "To share gossip or secret information.",
-      "indonesian": "Membocorkan gosip/rahasia",
-      "level": "C1",
-      "ieltsBand": 7,
-      "example": "Come on, spill the tea! What happened at the party last night?",
-      "collocations": [
-        "spill the tea about",
-        "want to spill the tea"
-      ],
-      "synonyms": [
-        "gossip",
-        "tell secrets",
-        "dish the dirt"
-      ]
-    },
-    {
-      "word": "Low-key",
-      "pronunciation": "/ˈləʊ kiː/",
-      "partOfSpeech": "adjective/adverb",
-      "definition": "Adjective: Quiet, modest, or understated. Adverb: In a discreet or understated way.",
-      "indonesian": "Sederhana; tidak mencolok; diam-diam",
-      "level": "B2",
-      "ieltsBand": 7,
-      "example": "We're just having a low-key birthday celebration at home this year. / I'm low-key excited about the trip.",
-      "collocations": [
-        "low-key event",
-        "low-key person",
-        "low-key relationship",
-        "low-key obsessed"
-      ],
-      "synonyms": [
-        "understated",
-        "modest",
-        "discreet",
-        "subtle",
-        "quiet"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
