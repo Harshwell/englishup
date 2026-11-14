@@ -1,91 +1,25 @@
 {
-  "explanation": "Present Perfect Tense digunakan untuk menyatakan tindakan atau kejadian yang telah terjadi di masa lalu dan masih memiliki relevansi atau hubungan dengan masa kini. Ini sering kali menekankan pada hasil dari tindakan tersebut atau bahwa tindakan tersebut telah terjadi pada waktu yang tidak spesifik di masa lalu.",
+  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
   "keyRules": [
-    "Bentuk positif: Subjek + have/has + Past Participle (Verb 3)",
-    "Bentuk negatif: Subjek + have/has + not + Past Participle (Verb 3)",
-    "Bentuk pertanyaan: Have/Has + Subjek + Past Participle (Verb 3)?",
-    "Gunakan 'have' untuk subjek 'I', 'you', 'we', 'they', dan subjek jamak.",
-    "Gunakan 'has' untuk subjek 'he', 'she', 'it', dan subjek tunggal.",
-    "Past Participle adalah bentuk ketiga dari kata kerja (misalnya, go - went - gone, eat - ate - eaten, play - played - played)."
+    "Pahami pola dasar.",
+    "Perhatikan konteks.",
+    "Hindari terjemahan mentah.",
+    "Gunakan dalam writing dan speaking."
   ],
   "examples": [
     {
-      "sentence": "I have finished my homework.",
-      "translation": "Saya sudah menyelesaikan pekerjaan rumah saya."
-    },
-    {
-      "sentence": "She has lived in Jakarta for five years.",
-      "translation": "Dia telah tinggal di Jakarta selama lima tahun."
-    },
-    {
-      "sentence": "They have not seen that movie before.",
-      "translation": "Mereka belum pernah menonton film itu sebelumnya."
-    },
-    {
-      "sentence": "Has he arrived yet?",
-      "translation": "Apakah dia sudah tiba?"
-    },
-    {
-      "sentence": "We have just eaten lunch.",
-      "translation": "Kami baru saja makan siang."
+      "sentence": "Present Perfect appears in IELTS tasks.",
+      "note": "Use the structure accurately.",
+      "indonesian": "Present Perfect muncul dalam tugas IELTS."
     }
   ],
   "commonMistakes": [
-    "Menggunakan Simple Past Tense ketika Present Perfect lebih tepat, terutama ketika menekankan hasil atau pengalaman.",
-    "Salah menggunakan 'have' dan 'has' (misalnya, 'He have gone' bukan 'He has gone').",
-    "Lupa menggunakan Past Participle (Verb 3) (misalnya, 'I have eat' bukan 'I have eaten').",
-    "Menggunakan 'for' dan 'since' secara bergantian atau salah."
-  ],
-  "ieltsTip": "Dalam IELTS Writing dan Speaking, Present Perfect sangat berguna untuk membicarakan pengalaman, pencapaian, perubahan yang terjadi dari waktu ke waktu, atau situasi yang dimulai di masa lalu dan berlanjut hingga sekarang. Perhatikan penggunaan kata keterangan waktu seperti 'already', 'yet', 'just', 'ever', 'never', 'for', dan 'since' yang sering menyertai tense ini.",
-  "quiz": [
     {
-      "question": "Complete the sentence: She ______ (visit) Paris twice.",
-      "options": [
-        "visit",
-        "visited",
-        "has visited",
-        "visiting"
-      ],
-      "answer": "has visited"
-    },
-    {
-      "question": "Complete the sentence: They ______ (not finish) the project yet.",
-      "options": [
-        "not finish",
-        "didn't finish",
-        "haven't finished",
-        "not finished"
-      ],
-      "answer": "haven't finished"
-    },
-    {
-      "question": "Choose the correct sentence: A) I have saw that film. B) I have seen that film. C) I saw that film.",
-      "options": [
-        "A",
-        "B",
-        "C"
-      ],
-      "answer": "B"
-    },
-    {
-      "question": "Complete the sentence: ______ you ever ______ (try) sushi?",
-      "options": [
-        "Did, tried",
-        "Have, tried",
-        "Do, try",
-        "Are, trying"
-      ],
-      "answer": "Have, tried"
-    },
-    {
-      "question": "Complete the sentence: He ______ (live) here since 2010.",
-      "options": [
-        "lives",
-        "lived",
-        "has lived",
-        "living"
-      ],
-      "answer": "has lived"
+      "wrong": "Learner guesses the form.",
+      "right": "Learner checks the structure first.",
+      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
     }
-  ]
+  ],
+  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
+  "quiz": []
 }

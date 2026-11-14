@@ -1,175 +1,47 @@
 {
   "words": [
     {
-      "word": "Glimpse",
-      "pronunciation": "/ɡlɪmps/",
-      "partOfSpeech": "noun",
-      "definition": "a momentary or partial view",
-      "indonesian": "sekilas pandang",
+      "word": "reliable",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: reliable.",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I caught a glimpse of her as she was leaving the building.",
+      "ieltsBand": "6.5-7.0",
+      "example": "reliable is often used in formal and academic English.",
       "collocations": [
-        "catch a glimpse",
-        "get a glimpse",
-        "a fleeting glimpse",
-        "a brief glimpse"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "peek",
-        "sight",
-        "flash"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Vibe",
-      "pronunciation": "/vaɪb/",
-      "partOfSpeech": "noun",
-      "definition": "the atmosphere or feeling that a place, person, or situation seems to have",
-      "indonesian": "suasana, aura",
+      "word": "straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: straightforward.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "This cafe has a really relaxed vibe.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "good vibe",
-        "bad vibe",
-        "chill vibe",
-        "positive vibe",
-        "negative vibe",
-        "get a vibe"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "atmosphere",
-        "feeling",
-        "mood",
-        "aura"
-      ]
-    },
-    {
-      "word": "Staple",
-      "pronunciation": "/ˈsteɪpəl/",
-      "partOfSpeech": "noun",
-      "definition": "a basic or important food, product, or part of an economy",
-      "indonesian": "pokok, utama",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Rice is a staple food in many Asian countries.",
-      "collocations": [
-        "food staple",
-        "dietary staple",
-        "economic staple",
-        "a staple of"
-      ],
-      "synonyms": [
-        "essential",
-        "basic",
-        "fundamental",
-        "primary"
-      ]
-    },
-    {
-      "word": "Familiarize",
-      "pronunciation": "/fəˈmɪliəraɪz/",
-      "partOfSpeech": "verb",
-      "definition": "to learn about something or someone so that you can recognize or understand them",
-      "indonesian": "mengenal, membiasakan diri",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Take some time to familiarize yourself with the new software.",
-      "collocations": [
-        "familiarize yourself with",
-        "familiarize oneself with"
-      ],
-      "synonyms": [
-        "acclimatize",
-        "orient",
-        "learn",
-        "get acquainted with"
-      ]
-    },
-    {
-      "word": "Underestimate",
-      "pronunciation": "/ˌʌndərˈɛstɪmeɪt/",
-      "partOfSpeech": "verb",
-      "definition": "to think that someone or something is worse, less good, or smaller than they really are",
-      "indonesian": "meremehkan",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Never underestimate the power of a good night's sleep.",
-      "collocations": [
-        "underestimate the importance of",
-        "underestimate the impact of",
-        "underestimate the difficulty of"
-      ],
-      "synonyms": [
-        "underrate",
-        "belittle",
-        "discount"
-      ]
-    },
-    {
-      "word": "Encounter",
-      "pronunciation": "/ɪnˈkaʊntər/",
-      "partOfSpeech": "verb",
-      "definition": "to meet someone or experience something, especially unexpectedly",
-      "indonesian": "menemui, menghadapi",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "I had an interesting encounter with a street artist yesterday.",
-      "collocations": [
-        "unexpected encounter",
-        "chance encounter",
-        "encounter difficulties",
-        "encounter problems"
-      ],
-      "synonyms": [
-        "meet",
-        "come across",
-        "run into",
-        "face"
-      ]
-    },
-    {
-      "word": "Perceive",
-      "pronunciation": "/pərˈsiːv/",
-      "partOfSpeech": "verb",
-      "definition": "to become aware of something; to come to realize or understand",
-      "indonesian": "mempersepsikan, menyadari",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "How do you perceive the current economic situation?",
-      "collocations": [
-        "perceive as",
-        "perceive the importance of",
-        "perceive a threat"
-      ],
-      "synonyms": [
-        "see",
-        "regard",
-        "view",
-        "discern"
-      ]
-    },
-    {
-      "word": "Convey",
-      "pronunciation": "/kənˈveɪ/",
-      "partOfSpeech": "verb",
-      "definition": "to make ideas, feelings, etc. known to someone",
-      "indonesian": "menyampaikan",
-      "level": "C1",
-      "ieltsBand": "7.0",
-      "example": "His expression conveyed his disappointment.",
-      "collocations": [
-        "convey a message",
-        "convey information",
-        "convey feelings",
-        "convey meaning"
-      ],
-      "synonyms": [
-        "communicate",
-        "express",
-        "impart",
-        "transmit"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]
