@@ -1,25 +1,131 @@
 {
-  "explanation": "Present Perfect penting untuk akurasi IELTS. Fokuskan ke bentuk, makna, dan konteks penggunaan.",
+  "grammarChart": {
+    "title": "Present Perfect Tense",
+    "structure": {
+      "affirmative": "Subject + have/has + past participle (V3)",
+      "negative": "Subject + have/has + not + past participle (V3)",
+      "interrogative": "Have/Has + subject + past participle (V3)?"
+    },
+    "auxiliaryVerbs": [
+      "have",
+      "has"
+    ],
+    "pastParticipleExamples": {
+      "regular": "walked, played, studied",
+      "irregular": "gone, seen, written, eaten"
+    }
+  },
+  "explanation": "The Present Perfect tense connects the past with the present. It's used to talk about actions or states that started in the past and continue up to the present, or actions that happened at an unspecified time in the past but have a result or relevance in the present.  The key is that the *time* of the action is not as important as its *connection* to now.",
   "keyRules": [
-    "Pahami pola dasar.",
-    "Perhatikan konteks.",
-    "Hindari terjemahan mentah.",
-    "Gunakan dalam writing dan speaking."
+    {
+      "rule": "Use 'have' with I, you, we, they, and plural nouns.",
+      "example": "I have lived here for five years."
+    },
+    {
+      "rule": "Use 'has' with he, she, it, and singular nouns.",
+      "example": "She has finished her homework."
+    },
+    {
+      "rule": "The past participle is the third form of the verb (V3). For regular verbs, it usually ends in -ed. For irregular verbs, you need to memorize them.",
+      "example": "They have *seen* that movie before. (Irregular verb 'see')"
+    },
+    {
+      "rule": "Often used with time expressions like 'for', 'since', 'already', 'yet', 'just', 'ever', 'never', 'so far', 'recently'.",
+      "example": "We haven't eaten lunch *yet*."
+    }
   ],
+  "azarNotes": "Think of the present perfect as a bridge. The action happened in the past, but its effect or continuation reaches into the present moment. For example, 'I have lost my keys' means I cannot find them *now*.  It's different from the Past Simple ('I lost my keys yesterday'), where the focus is on the completed action at a specific past time.",
   "examples": [
     {
-      "sentence": "Present Perfect appears in IELTS tasks.",
-      "note": "Use the structure accurately.",
-      "indonesian": "Present Perfect muncul dalam tugas IELTS."
+      "sentence": "She has lived in Jakarta for ten years.",
+      "meaning": "She started living in Jakarta ten years ago and still lives there now."
+    },
+    {
+      "sentence": "They have visited Bali several times.",
+      "meaning": "Their visits to Bali happened at different times in the past, but the experience is relevant now (they know Bali well)."
+    },
+    {
+      "sentence": "I have just finished reading an interesting book.",
+      "meaning": "The action of finishing the book happened very recently, and I am likely thinking about it or can talk about it now."
+    },
+    {
+      "sentence": "He hasn't seen his parents since last Christmas.",
+      "meaning": "The last time he saw his parents was last Christmas, and he has not seen them from that point until now."
+    },
+    {
+      "sentence": "Have you ever tried Indonesian food?",
+      "meaning": "Asking about a past experience at any point in your life up to the present moment."
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Learner guesses the form.",
-      "right": "Learner checks the structure first.",
-      "why": "Kesalahan biasanya muncul karena menebak bentuk tanpa cek pola."
+      "mistake": "Confusing Present Perfect with Past Simple.",
+      "explanation": "Using Past Simple for actions with present relevance or for unspecified past times. For example, 'I went to Bali last year' (Past Simple, specific time) vs. 'I have been to Bali' (Present Perfect, experience)."
+    },
+    {
+      "mistake": "Incorrect past participle form.",
+      "explanation": "Using the base form or past simple form instead of the past participle. For example, 'She has *go* to the market' (incorrect) instead of 'She has *gone* to the market'."
+    },
+    {
+      "mistake": "Incorrect auxiliary verb (have/has).",
+      "explanation": "Using 'have' with third-person singular subjects or 'has' with plural subjects. For example, 'He have visited...' (incorrect)."
+    },
+    {
+      "mistake": "Using 'for' and 'since' incorrectly.",
+      "explanation": "'For' is used with a period of time (e.g., for two hours, for three months). 'Since' is used with a specific point in time (e.g., since 2020, since Monday)."
     }
   ],
-  "ieltsTip": "Present Perfect memengaruhi grammatical accuracy dan range.",
-  "quiz": []
+  "ieltsTip": "In IELTS Writing Task 2, the Present Perfect is useful for discussing trends, changes, and developments that have occurred over time and continue to have an impact. In Speaking, it's excellent for describing experiences, achievements, and personal histories. Focus on using it to show the connection between past events and the present situation.",
+  "quiz": [
+    {
+      "question": "Choose the correct form of the verb to complete the sentence: She ______ a lot of progress in her studies recently.",
+      "options": [
+        "make",
+        "makes",
+        "made",
+        "has made"
+      ],
+      "answer": "has made"
+    },
+    {
+      "question": "Choose the correct form of the verb to complete the sentence: They ______ to London three times.",
+      "options": [
+        "go",
+        "went",
+        "gone",
+        "have gone"
+      ],
+      "answer": "have gone"
+    },
+    {
+      "question": "Choose the correct form of the verb to complete the sentence: I ______ that movie yet.",
+      "options": [
+        "not see",
+        "don't see",
+        "haven't seen",
+        "didn't see"
+      ],
+      "answer": "haven't seen"
+    },
+    {
+      "question": "Choose the correct form of the verb to complete the sentence: ______ you ever ______ to Indonesia?",
+      "options": [
+        "Do / been",
+        "Have / been",
+        "Did / gone",
+        "Are / gone"
+      ],
+      "answer": "Have / been"
+    },
+    {
+      "question": "Choose the correct form of the verb to complete the sentence: He ______ a new car last week.",
+      "options": [
+        "has bought",
+        "bought",
+        "buy",
+        "has buy"
+      ],
+      "answer": "bought"
+    }
+  ]
 }

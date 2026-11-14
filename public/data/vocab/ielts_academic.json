@@ -1,64 +1,163 @@
 {
   "words": [
     {
-      "word": "significant",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: significant.",
-      "indonesian": "Arti significant dalam konteks pembelajaran IELTS.",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere.",
+      "indonesian": "ada di mana-mana; tersebar luas",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "Smartphones have become ubiquitous in modern society, impacting communication and information access.",
+      "collocations": [
+        "ubiquitous technology",
+        "ubiquitous presence",
+        "ubiquitous nature"
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive",
+        "universal"
+      ]
+    },
+    {
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsɛmɪneɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to spread or disperse widely.",
+      "indonesian": "menyebarkan; menyiarkan",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The organization aims to disseminate vital information about climate change to the public.",
+      "collocations": [
+        "disseminate information",
+        "disseminate knowledge",
+        "disseminate research"
+      ],
+      "synonyms": [
+        "spread",
+        "circulate",
+        "propagate"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make less severe, serious, or painful.",
+      "indonesian": "meredakan; mengurangi; meringankan",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "significant is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "Governments are implementing policies to mitigate the effects of global warming.",
       "collocations": [
-        "contribution",
-        "contributions",
-        "proportion",
-        "improvement"
+        "mitigate risk",
+        "mitigate damage",
+        "mitigate poverty"
       ],
       "synonyms": [
-        "profound",
-        "substantial",
-        "portentous",
-        "prodigious"
+        "alleviate",
+        "reduce",
+        "lessen"
       ]
     },
     {
-      "word": "allocate",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: allocate.",
-      "indonesian": "Arti allocate dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "allocate is often used in formal and academic English.",
+      "word": "exacerbate",
+      "pronunciation": "/ɪɡˈzæsərbeɪt/",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem, bad situation, or negative feeling worse.",
+      "indonesian": "memperburuk; memperparah",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The economic downturn will likely exacerbate existing social inequalities.",
       "collocations": [
-        "allocates",
-        "sar",
-        "allocation",
-        "efficiently"
+        "exacerbate tensions",
+        "exacerbate the situation",
+        "exacerbate poverty"
       ],
       "synonyms": [
-        "apportion"
+        "worsen",
+        "aggravate",
+        "intensify"
       ]
     },
     {
-      "word": "enhance",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: enhance.",
-      "indonesian": "Arti enhance dalam konteks pembelajaran IELTS.",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model.",
+      "indonesian": "paradigma; pola pikir; model",
       "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "enhance is often used in formal and academic English.",
+      "ieltsBand": "7+",
+      "example": "The scientific community is undergoing a paradigm shift in its understanding of quantum physics.",
       "collocations": [
-        "competitiveness",
-        "capabilities",
-        "flavor",
-        "effectiveness"
+        "paradigm shift",
+        "scientific paradigm",
+        "research paradigm"
       ],
       "synonyms": [
-        "raise",
-        "heighten"
+        "model",
+        "pattern",
+        "framework"
+      ]
+    },
+    {
+      "word": "inherent",
+      "pronunciation": "/ɪnˈhɪərənt/",
+      "partOfSpeech": "adjective",
+      "definition": "existing in something as a permanent, essential, or characteristic attribute.",
+      "indonesian": "melekat; bawaan; hakiki",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "There are inherent risks associated with investing in volatile markets.",
+      "collocations": [
+        "inherent risk",
+        "inherent advantage",
+        "inherent flaw"
+      ],
+      "synonyms": [
+        "intrinsic",
+        "essential",
+        "innate"
+      ]
+    },
+    {
+      "word": "profound",
+      "pronunciation": "/prəˈfaʊnd/",
+      "partOfSpeech": "adjective",
+      "definition": "very great or intense; having or showing great knowledge or insight.",
+      "indonesian": "mendalam; dalam; sangat besar",
+      "level": "B2",
+      "ieltsBand": "7+",
+      "example": "The discovery of penicillin had a profound impact on medical history.",
+      "collocations": [
+        "profound impact",
+        "profound effect",
+        "profound change"
+      ],
+      "synonyms": [
+        "deep",
+        "great",
+        "significant"
+      ]
+    },
+    {
+      "word": "pervasive",
+      "pronunciation": "/pərˈveɪsɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "spreading widely throughout an area or a group of people.",
+      "indonesian": "menyeluruh; meresap; tersebar luas",
+      "level": "C1",
+      "ieltsBand": "7+",
+      "example": "The influence of social media is becoming increasingly pervasive in political discourse.",
+      "collocations": [
+        "pervasive influence",
+        "pervasive problem",
+        "pervasive culture"
+      ],
+      "synonyms": [
+        "widespread",
+        "ubiquitous",
+        "extensive"
       ]
     }
   ]

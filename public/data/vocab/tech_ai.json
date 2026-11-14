@@ -1,45 +1,175 @@
 {
   "words": [
     {
-      "word": "algorithm",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: algorithm.",
-      "indonesian": "Arti algorithm dalam konteks pembelajaran IELTS.",
+      "word": "Algorithm",
+      "pronunciation": "/ˈælɡərɪðəm/",
+      "partOfSpeech": "noun",
+      "definition": "A set of rules or instructions that a computer follows in order to solve a problem or perform a task.",
+      "indonesian": "Algoritma",
       "level": "B2",
-      "ieltsBand": "6.5-7.0",
-      "example": "algorithm is often used in formal and academic English.",
+      "ieltsBand": "7.0+",
+      "example": "The search engine uses a complex algorithm to rank websites.",
       "collocations": [
-        "algorithms",
-        "iterative",
-        "compute",
-        "recursive"
+        "complex algorithm",
+        "search algorithm",
+        "sorting algorithm",
+        "learning algorithm",
+        "develop an algorithm"
       ],
       "synonyms": [
-        "algorithmic program",
-        "algorithmic rule"
+        "procedure",
+        "process",
+        "method",
+        "formula"
       ]
     },
     {
-      "word": "bias",
-      "pronunciation": "",
-      "partOfSpeech": "word",
-      "definition": "Useful English word: bias.",
-      "indonesian": "Arti bias dalam konteks pembelajaran IELTS.",
-      "level": "C1",
-      "ieltsBand": "7.0-7.5",
-      "example": "bias is often used in formal and academic English.",
+      "word": "Automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
+      "partOfSpeech": "noun",
+      "definition": "The use of technology to perform tasks with the minimum of human intervention.",
+      "indonesian": "Otomatisasi",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Automation in factories has led to increased efficiency but also job losses.",
       "collocations": [
-        "biases",
-        "estimator",
-        "biased",
-        "diode"
+        "industrial automation",
+        "process automation",
+        "degree of automation",
+        "increase automation",
+        "benefit from automation"
       ],
       "synonyms": [
-        "oblique",
-        "prejudice",
-        "predetermine",
-        "diagonal"
+        "mechanization",
+        "robotics",
+        "self-operation"
+      ]
+    },
+    {
+      "word": "Big Data",
+      "pronunciation": "/ˌbɪɡ ˈdeɪtə/",
+      "partOfSpeech": "noun",
+      "definition": "Extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions.",
+      "indonesian": "Big Data",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Companies are increasingly using big data analytics to understand customer preferences.",
+      "collocations": [
+        "big data analytics",
+        "volume of big data",
+        "manage big data",
+        "analyze big data",
+        "generate big data"
+      ],
+      "synonyms": [
+        "large datasets",
+        "massive data"
+      ]
+    },
+    {
+      "word": "Cloud Computing",
+      "pronunciation": "/ˌklaʊd kəmˈpjuːtɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "The practice of using a network of remote servers hosted on the internet to store, manage, and process data, rather than a local server or a personal computer.",
+      "indonesian": "Cloud Computing",
+      "level": "B2",
+      "ieltsBand": "7.0+",
+      "example": "Many businesses have migrated their operations to cloud computing platforms for scalability and cost savings.",
+      "collocations": [
+        "cloud computing services",
+        "cloud computing platform",
+        "public cloud computing",
+        "private cloud computing",
+        "access cloud computing"
+      ],
+      "synonyms": [
+        "online storage",
+        "internet-based computing"
+      ]
+    },
+    {
+      "word": "Machine Learning",
+      "pronunciation": "/məˈʃiːn ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "A subset of artificial intelligence that allows systems to automatically learn and improve from experience without being explicitly programmed.",
+      "indonesian": "Machine Learning",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Machine learning algorithms are used in everything from recommendation systems to medical diagnoses.",
+      "collocations": [
+        "machine learning model",
+        "machine learning algorithm",
+        "deep machine learning",
+        "apply machine learning",
+        "develop machine learning"
+      ],
+      "synonyms": [
+        "AI learning",
+        "computational learning"
+      ]
+    },
+    {
+      "word": "Neural Network",
+      "pronunciation": "/ˌnjʊərəl ˈnetwɜːk/",
+      "partOfSpeech": "noun",
+      "definition": "A computational model inspired by the structure and function of biological neural networks, used for pattern recognition and machine learning.",
+      "indonesian": "Jaringan Saraf Tiruan",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Deep neural networks have achieved remarkable success in image and speech recognition.",
+      "collocations": [
+        "deep neural network",
+        "artificial neural network",
+        "train a neural network",
+        "design a neural network",
+        "complex neural network"
+      ],
+      "synonyms": [
+        "artificial brain",
+        "computational network"
+      ]
+    },
+    {
+      "word": "Scalability",
+      "pronunciation": "/ˌskeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "definition": "The capacity of a system, network, or process to grow and handle an increasing amount of work, or its potential to be enlarged to accommodate that growth.",
+      "indonesian": "Skalabilitas",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "The scalability of cloud services allows businesses to adapt quickly to changing demands.",
+      "collocations": [
+        "system scalability",
+        "network scalability",
+        "software scalability",
+        "ensure scalability",
+        "achieve scalability"
+      ],
+      "synonyms": [
+        "expandability",
+        "flexibility",
+        "adaptability"
+      ]
+    },
+    {
+      "word": "Virtualization",
+      "pronunciation": "/ˌvɜːrtʃuəlaɪˈzeɪʃn/",
+      "partOfSpeech": "noun",
+      "definition": "The creation of a virtual (rather than actual) version of something, such as an operating system, a server, a storage device, or network resources.",
+      "indonesian": "Virtualisasi",
+      "level": "C1",
+      "ieltsBand": "7.0+",
+      "example": "Virtualization allows multiple operating systems to run on a single physical machine.",
+      "collocations": [
+        "server virtualization",
+        "desktop virtualization",
+        "network virtualization",
+        "implement virtualization",
+        "benefit from virtualization"
+      ],
+      "synonyms": [
+        "emulation",
+        "simulation"
       ]
     }
   ]
