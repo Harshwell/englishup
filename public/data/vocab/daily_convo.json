@@ -1,177 +1,47 @@
 {
   "words": [
     {
-      "word": "Vibe",
-      "pronunciation": "/vaɪb/",
-      "partOfSpeech": "noun",
-      "definition": "The atmosphere or feeling of a place, person, or situation.",
-      "indonesian": "Suasana, getaran",
+      "word": "reliable",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: reliable.",
+      "indonesian": "Arti reliable dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "This cafe has a really relaxed vibe, perfect for studying.",
+      "ieltsBand": "6.5-7.0",
+      "example": "reliable is often used in formal and academic English.",
       "collocations": [
-        "good vibe",
-        "bad vibe",
-        "chill vibe",
-        "positive vibe",
-        "negative vibe",
-        "get the vibe"
+        "indicator",
+        "unreliable",
+        "reliability",
+        "sources"
       ],
       "synonyms": [
-        "atmosphere",
-        "mood",
-        "feeling",
-        "aura",
-        "ambiance"
+        "true",
+        "authentic",
+        "sure",
+        "dependable"
       ]
     },
     {
-      "word": "Hype",
-      "pronunciation": "/haɪp/",
-      "partOfSpeech": "noun/verb",
-      "definition": "Excited or exaggerated publicity and attention surrounding something.",
-      "indonesian": "Kegembiraan yang berlebihan, promosi besar-besaran",
+      "word": "straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "word",
+      "definition": "Useful English word: straightforward.",
+      "indonesian": "Arti straightforward dalam konteks pembelajaran IELTS.",
       "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "There's a lot of hype around the new movie, but I'm not sure if it will live up to expectations.",
+      "ieltsBand": "6.5-7.0",
+      "example": "straightforward is often used in formal and academic English.",
       "collocations": [
-        "build hype",
-        "generate hype",
-        "media hype",
-        "a lot of hype",
-        "get hyped up"
+        "calculation",
+        "honest",
+        "manner",
+        "algorithm"
       ],
       "synonyms": [
-        "excitement",
-        "buzz",
-        "publicity",
-        "promotion",
-        "stir"
-      ]
-    },
-    {
-      "word": "Chill",
-      "pronunciation": "/tʃɪl/",
-      "partOfSpeech": "adjective/verb",
-      "definition": "Relaxed and calm; to relax.",
-      "indonesian": "Santai, rileks; bersantai",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "Let's just chill at home tonight and watch a movie.",
-      "collocations": [
-        "chill out",
-        "chill vibes",
-        "chill place",
-        "chill person"
-      ],
-      "synonyms": [
-        "relaxed",
-        "laid-back",
-        "calm",
-        "easygoing",
-        "unwind"
-      ]
-    },
-    {
-      "word": "Ghost",
-      "pronunciation": "/ɡəʊst/",
-      "partOfSpeech": "verb",
-      "definition": "To suddenly stop all communication with someone without explanation.",
-      "indonesian": "Menghilang tiba-tiba (dalam hubungan)",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "I can't believe he ghosted me after our first date.",
-      "collocations": [
-        "ghost someone",
-        "get ghosted",
-        "suddenly ghost"
-      ],
-      "synonyms": [
-        "abandon",
-        "cut off",
-        "disappear from",
-        "ignore"
-      ]
-    },
-    {
-      "word": "Salty",
-      "pronunciation": "/ˈsɔːlti/",
-      "partOfSpeech": "adjective",
-      "definition": "Upset, annoyed, or bitter about something, especially something minor.",
-      "indonesian": "Kesal, jengkel, iri",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "He's a bit salty because he didn't get invited to the party.",
-      "collocations": [
-        "get salty",
-        "stay salty"
-      ],
-      "synonyms": [
-        "bitter",
-        "resentful",
-        "annoyed",
-        "grumpy",
-        "upset"
-      ]
-    },
-    {
-      "word": "Flex",
-      "pronunciation": "/flɛks/",
-      "partOfSpeech": "verb",
-      "definition": "To show off or boast about something, especially possessions or achievements.",
-      "indonesian": "Pamer",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "He likes to flex his new car on social media.",
-      "collocations": [
-        "flex on someone",
-        "flex your muscles"
-      ],
-      "synonyms": [
-        "boast",
-        "show off",
-        "brag",
-        "flaunt",
-        "display"
-      ]
-    },
-    {
-      "word": "FOMO",
-      "pronunciation": "/ˈfəʊməʊ/",
-      "partOfSpeech": "noun (acronym for Fear Of Missing Out)",
-      "definition": "Anxiety that an exciting or interesting event may currently be happening elsewhere, often aroused by posts seen on social media.",
-      "indonesian": "Ketakutan ketinggalan sesuatu",
-      "level": "C1",
-      "ieltsBand": "7.5",
-      "example": "I have serious FOMO when I see my friends' travel photos.",
-      "collocations": [
-        "experience FOMO",
-        "suffer from FOMO",
-        "deal with FOMO"
-      ],
-      "synonyms": [
-        "anxiety",
-        "insecurity",
-        "apprehension"
-      ]
-    },
-    {
-      "word": "Bae",
-      "pronunciation": "/beɪ/",
-      "partOfSpeech": "noun",
-      "definition": "A term of endearment for one's boyfriend, girlfriend, or spouse.",
-      "indonesian": "Sayang (pacar/pasangan)",
-      "level": "B2",
-      "ieltsBand": "7.0",
-      "example": "I'm going on a date with my bae tonight.",
-      "collocations": [
-        "my bae"
-      ],
-      "synonyms": [
-        "darling",
-        "sweetheart",
-        "love",
-        "honey"
+        "unequivocal",
+        "direct",
+        "square",
+        "univocal"
       ]
     }
   ]

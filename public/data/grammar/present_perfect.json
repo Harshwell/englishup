@@ -1,131 +1,78 @@
 {
-  "grammarChart": {
-    "title": "Present Perfect Tense",
-    "structure": {
-      "affirmative": "Subject + have/has + past participle (V3)",
-      "negative": "Subject + have/has + not + past participle (V3)",
-      "interrogative": "Have/Has + subject + past participle (V3)?"
-    },
-    "auxiliaryVerbs": [
-      "have",
-      "has"
-    ],
-    "pastParticipleExamples": {
-      "regular": "walked, played, studied",
-      "irregular": "gone, seen, written, eaten"
-    }
-  },
-  "explanation": "The Present Perfect tense connects the past with the present. It's used to talk about actions or states that started in the past and continue up to the present, or actions that happened at an unspecified time in the past but have a result or relevance in the present.  The key is that the *time* of the action is not as important as its *connection* to now.",
+  "explanation": "Present Perfect Tense digunakan untuk membicarakan tindakan atau kejadian yang dimulai di masa lalu dan masih memiliki relevansi atau dampak di masa sekarang. Ini seringkali menghubungkan masa lalu dengan masa kini.",
   "keyRules": [
-    {
-      "rule": "Use 'have' with I, you, we, they, and plural nouns.",
-      "example": "I have lived here for five years."
-    },
-    {
-      "rule": "Use 'has' with he, she, it, and singular nouns.",
-      "example": "She has finished her homework."
-    },
-    {
-      "rule": "The past participle is the third form of the verb (V3). For regular verbs, it usually ends in -ed. For irregular verbs, you need to memorize them.",
-      "example": "They have *seen* that movie before. (Irregular verb 'see')"
-    },
-    {
-      "rule": "Often used with time expressions like 'for', 'since', 'already', 'yet', 'just', 'ever', 'never', 'so far', 'recently'.",
-      "example": "We haven't eaten lunch *yet*."
-    }
+    "Pembentukan: Subjek + have/has + Past Participle (Verb 3)",
+    "Penggunaan 'have': Untuk subjek I, You, We, They, dan subjek jamak.",
+    "Penggunaan 'has': Untuk subjek He, She, It, dan subjek tunggal.",
+    "Past Participle: Bentuk ketiga dari kata kerja. Untuk kata kerja beraturan, biasanya berakhiran -ed (misalnya, played, worked). Untuk kata kerja tidak beraturan, bentuknya bervariasi (misalnya, gone, seen, eaten).",
+    "Fungsi Utama:",
+    "  - Tindakan yang selesai di masa lalu tetapi dampaknya masih terasa sekarang (misalnya, 'I have lost my keys' - saya kehilangan kunci dan sekarang saya tidak bisa masuk).",
+    "  - Pengalaman hidup (misalnya, 'She has visited Paris twice').",
+    "  - Tindakan yang dimulai di masa lalu dan terus berlanjut hingga sekarang (seringkali dengan 'for' dan 'since') (misalnya, 'They have lived here for ten years').",
+    "  - Tindakan yang baru saja selesai (seringkali dengan 'just') (misalnya, 'He has just arrived')."
   ],
-  "azarNotes": "Think of the present perfect as a bridge. The action happened in the past, but its effect or continuation reaches into the present moment. For example, 'I have lost my keys' means I cannot find them *now*.  It's different from the Past Simple ('I lost my keys yesterday'), where the focus is on the completed action at a specific past time.",
   "examples": [
     {
-      "sentence": "She has lived in Jakarta for ten years.",
-      "meaning": "She started living in Jakarta ten years ago and still lives there now."
+      "sentence": "I have finished my homework.",
+      "translation": "Saya sudah menyelesaikan pekerjaan rumah saya."
     },
     {
-      "sentence": "They have visited Bali several times.",
-      "meaning": "Their visits to Bali happened at different times in the past, but the experience is relevant now (they know Bali well)."
+      "sentence": "She has seen that movie before.",
+      "translation": "Dia sudah pernah menonton film itu sebelumnya."
     },
     {
-      "sentence": "I have just finished reading an interesting book.",
-      "meaning": "The action of finishing the book happened very recently, and I am likely thinking about it or can talk about it now."
+      "sentence": "We have lived in this city for five years.",
+      "translation": "Kami sudah tinggal di kota ini selama lima tahun."
     },
     {
-      "sentence": "He hasn't seen his parents since last Christmas.",
-      "meaning": "The last time he saw his parents was last Christmas, and he has not seen them from that point until now."
+      "sentence": "They have just bought a new car.",
+      "translation": "Mereka baru saja membeli mobil baru."
     },
     {
-      "sentence": "Have you ever tried Indonesian food?",
-      "meaning": "Asking about a past experience at any point in your life up to the present moment."
+      "sentence": "Has he ever been to Japan?",
+      "translation": "Apakah dia pernah ke Jepang?"
     }
   ],
   "commonMistakes": [
-    {
-      "mistake": "Confusing Present Perfect with Past Simple.",
-      "explanation": "Using Past Simple for actions with present relevance or for unspecified past times. For example, 'I went to Bali last year' (Past Simple, specific time) vs. 'I have been to Bali' (Present Perfect, experience)."
-    },
-    {
-      "mistake": "Incorrect past participle form.",
-      "explanation": "Using the base form or past simple form instead of the past participle. For example, 'She has *go* to the market' (incorrect) instead of 'She has *gone* to the market'."
-    },
-    {
-      "mistake": "Incorrect auxiliary verb (have/has).",
-      "explanation": "Using 'have' with third-person singular subjects or 'has' with plural subjects. For example, 'He have visited...' (incorrect)."
-    },
-    {
-      "mistake": "Using 'for' and 'since' incorrectly.",
-      "explanation": "'For' is used with a period of time (e.g., for two hours, for three months). 'Since' is used with a specific point in time (e.g., since 2020, since Monday)."
-    }
+    "Menggunakan Simple Past padahal seharusnya Present Perfect, terutama ketika menekankan relevansi dengan masa kini.",
+    "Kesalahan dalam menentukan bentuk Past Participle (Verb 3) dari kata kerja tidak beraturan.",
+    "Salah menggunakan 'have' dan 'has' sesuai dengan subjeknya.",
+    "Menggunakan 'for' dan 'since' secara bergantian atau salah."
   ],
-  "ieltsTip": "In IELTS Writing Task 2, the Present Perfect is useful for discussing trends, changes, and developments that have occurred over time and continue to have an impact. In Speaking, it's excellent for describing experiences, achievements, and personal histories. Focus on using it to show the connection between past events and the present situation.",
+  "ieltsTip": "Dalam IELTS Writing Task 2, Present Perfect sangat berguna untuk mendeskripsikan tren atau perubahan yang telah terjadi dalam jangka waktu tertentu dan masih relevan saat ini. Misalnya, 'The number of people using smartphones has increased significantly over the past decade.' Dalam Speaking, gunakan untuk berbagi pengalaman hidup atau pencapaian.",
   "quiz": [
     {
-      "question": "Choose the correct form of the verb to complete the sentence: She ______ a lot of progress in her studies recently.",
+      "question": "Choose the correct form of the verb to complete the sentence:",
       "options": [
-        "make",
-        "makes",
-        "made",
-        "has made"
+        "a) eat",
+        "b) ate",
+        "c) eaten",
+        "d) eating"
       ],
-      "answer": "has made"
+      "answer": "c",
+      "explanation": "We need the past participle (Verb 3) for the Present Perfect. The past participle of 'eat' is 'eaten'."
     },
     {
-      "question": "Choose the correct form of the verb to complete the sentence: They ______ to London three times.",
+      "question": "Complete the sentence: They ______ to London twice.",
       "options": [
-        "go",
-        "went",
-        "gone",
-        "have gone"
+        "a) go",
+        "b) goes",
+        "c) gone",
+        "d) have been"
       ],
-      "answer": "have gone"
+      "answer": "d",
+      "explanation": "'They' is a plural subject, so we use 'have'. 'Been' is the past participle of 'be', and 'have been' is the correct structure to talk about visiting a place."
     },
     {
-      "question": "Choose the correct form of the verb to complete the sentence: I ______ that movie yet.",
+      "question": "Which sentence correctly uses the Present Perfect tense?",
       "options": [
-        "not see",
-        "don't see",
-        "haven't seen",
-        "didn't see"
+        "a) I lost my keys yesterday.",
+        "b) I have lost my keys.",
+        "c) I lose my keys.",
+        "d) I am losing my keys."
       ],
-      "answer": "haven't seen"
-    },
-    {
-      "question": "Choose the correct form of the verb to complete the sentence: ______ you ever ______ to Indonesia?",
-      "options": [
-        "Do / been",
-        "Have / been",
-        "Did / gone",
-        "Are / gone"
-      ],
-      "answer": "Have / been"
-    },
-    {
-      "question": "Choose the correct form of the verb to complete the sentence: He ______ a new car last week.",
-      "options": [
-        "has bought",
-        "bought",
-        "buy",
-        "has buy"
-      ],
-      "answer": "bought"
+      "answer": "b",
+      "explanation": "Sentence 'b' uses 'have' + past participle ('lost') to indicate a past action with present relevance (the speaker still can't find their keys)."
     }
   ]
 }
